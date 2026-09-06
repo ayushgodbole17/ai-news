@@ -1,0 +1,38 @@
+name: daily ai digest
+
+on:
+  schedule:
+    - cron: "30 4 * * *"   # 04:30 UTC = 10:00 IST
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write           # only so seen.json can be committed back
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+        # no pip install: digest.py is stdlib only
+
+      - run: python digest.py
+        env:
+          GITHUB_TOKEN:     ${{ secrets.GITHUB_TOKEN }}   # lifts the repo-discovery rate limit
+          GEMINI_API_KEY:   ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL:     ${{ vars.GEMINI_MODEL }}
+          DIGEST_TO:        ${{ secrets.DIGEST_TO }}
+          DIGEST_FROM:      ${{ secrets.DIGEST_FROM }}
+          DIGEST_SMTP_PASS: ${{ secrets.DIGEST_SMTP_PASS }}
+
+      # Remembering what was sent is what stops the same paper arriving twice.
+      - name: remember what was sent
+        run: |
+          git config user.name  "ai-news bot"
+          git config user.email "noreply@github.com"
+          git add seen.json repos.json
+          git diff --staged --quiet || git commit -m "seen: $(date -u +%F)"
+          git push
