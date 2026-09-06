@@ -372,7 +372,8 @@ def rank(items):
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         sys.exit("GEMINI_API_KEY is not set. Create one at https://aistudio.google.com/apikey")
-    model = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
+    # Actions passes an empty string for an unset `vars.X`, so `or` not `get(..., default)`.
+    model = os.environ.get("GEMINI_MODEL") or "gemini-3.5-flash"
 
     listing = "\n".join(
         "[%d] (%s) %s\n    %s\n    %s" % (i, it["source"], it["title"], it["link"],
