@@ -18,6 +18,7 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 SEEN_FILE = HERE / "seen.json"
+SENT_FILE = HERE / "last_sent.txt"   # which day a digest last went out, for --once-daily
 WINDOW_HOURS = 72          # generous: covers weekends and a missed run; seen.json kills repeats
 MAX_PER_SOURCE = 15
 KEEP_SHIPS = 7             # releases, models, tools
@@ -533,11 +534,21 @@ def load_dotenv():
             os.environ.setdefault(k.strip(), v.strip().strip("'\""))
 
 
+def sent_today():
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    return SENT_FILE.exists() and SENT_FILE.read_text().strip() == today
+
+
 def main():
     args = sys.argv[1:]
     if "--self-check" in args:
         return self_check()
     load_dotenv()
+
+    # GitHub drops scheduled jobs under load, so the workflow fires several times a
+    # morning. The first one through sends; the rest see today's date here and stop.
+    if "--once-daily" in args and sent_today():
+        return print("Already sent today. Nothing to do.")
 
     date_str = datetime.now().strftime("%A, %d %B %Y")
     print("Collecting for %s..." % date_str)
@@ -559,6 +570,7 @@ def main():
 
     if "--no-email" not in args:
         send(html, date_str)
+        SENT_FILE.write_text(datetime.now(timezone.utc).strftime("%Y-%m-%d"))
     remember(digest)
 
 

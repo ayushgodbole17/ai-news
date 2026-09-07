@@ -1,12 +1,23 @@
 name: daily ai digest
 
 on:
+  # GitHub delays scheduled runs under load and drops them outright when it is bad
+  # enough, which is exactly what happened on 2026-09-07. So: three attempts on
+  # deliberately odd minutes, avoiding :00 and :30 when everyone else's crons fire.
+  # digest.py --once-daily makes that safe -- the first run through sends the mail
+  # and records the date, and the later ones see it and stop.
   schedule:
-    - cron: "30 4 * * *"   # 04:30 UTC = 10:00 IST
-  workflow_dispatch:        # lets you run it by hand from the Actions tab
+    - cron: "23 4 * * *"    # 09:53 IST -- the one that should normally win
+    - cron: "07 5 * * *"    # 10:37 IST -- first catch-up
+    - cron: "51 5 * * *"    # 11:21 IST -- last chance
+  workflow_dispatch:
 
 permissions:
-  contents: write           # only so seen.json can be committed back
+  contents: write           # only so the state files can be committed back
+
+concurrency:                # never let two attempts run at once
+  group: digest
+  cancel-in-progress: false
 
 jobs:
   digest:
@@ -19,7 +30,7 @@ jobs:
           python-version: "3.12"
         # no pip install: digest.py is stdlib only
 
-      - run: python digest.py
+      - run: python digest.py --once-daily
         env:
           GITHUB_TOKEN:     ${{ secrets.GITHUB_TOKEN }}   # lifts the repo-discovery rate limit
           GEMINI_API_KEY:   ${{ secrets.GEMINI_API_KEY }}
@@ -28,11 +39,13 @@ jobs:
           DIGEST_FROM:      ${{ secrets.DIGEST_FROM }}
           DIGEST_SMTP_PASS: ${{ secrets.DIGEST_SMTP_PASS }}
 
-      # Remembering what was sent is what stops the same paper arriving twice.
+      # Remembering what was sent is what stops repeats and what makes --once-daily work.
       - name: remember what was sent
         run: |
           git config user.name  "ai-news bot"
           git config user.email "noreply@github.com"
-          git add seen.json repos.json
-          git diff --staged --quiet || git commit -m "seen: $(date -u +%F)"
+          git add -A   # last_sent.txt may not exist yet on the first send
+          git diff --staged --quiet && exit 0
+          git commit -m "seen: $(date -u +%F)"
+          git pull --rebase origin main
           git push
