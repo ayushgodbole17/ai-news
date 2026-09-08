@@ -21,8 +21,8 @@ SEEN_FILE = HERE / "seen.json"
 SENT_FILE = HERE / "last_sent.txt"   # which day a digest last went out, for --once-daily
 WINDOW_HOURS = 72          # generous: covers weekends and a missed run; seen.json kills repeats
 MAX_PER_SOURCE = 15
-KEEP_SHIPS = 7             # releases, models, tools
-KEEP_RESEARCH = 6          # papers and writeups
+KEEP_SHIPS = 10            # releases, models, tools -- the news half
+KEEP_RESEARCH = 5          # papers and writeups
 
 # The relevance lever. Edit this when the work changes -- everything else is plumbing.
 PROFILE = """\

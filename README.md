@@ -27,8 +27,8 @@ RSS, so their releases get caught there or not at all.
 
 Everything from the last 72 hours that hasn't been sent before goes to Gemini in one
 call, along with `PROFILE` — the description of what I work on. It comes back in two
-sections: **Shipped** (up to 7) for things usable today — models, agents, IDEs, inference
-servers, tooling — and **Research & writing** (up to 6) for papers and writeups. Splitting
+sections: **Shipped** (up to 10) for things usable today — models, agents, IDEs, inference
+servers, tooling — and **Research & writing** (up to 5) for papers and writeups. Splitting
 them is what stops a good release being crowded out by papers. Each item gets a
 plain-English "what it is" and a concrete "why you care".
 
