@@ -2,18 +2,14 @@ name: daily ai digest
 
 on:
   # GitHub delays scheduled runs under load and drops them outright when it is bad
-  # enough, which is exactly what happened on 2026-09-07. So: three attempts on
-  # deliberately odd minutes, avoiding :00 and :30 when everyone else's crons fire.
-  # digest.py --once-daily makes that safe -- the first run through sends the mail
-  # and records the date, and the later ones see it and stop.
+  # enough. So: three attempts on deliberately odd minutes, avoiding :00 and :30
+  # when everyone else's crons fire. digest.py --once-daily makes that safe -- the
+  # first run through sends the mail and records the date, the rest see it and stop.
   schedule:
     - cron: "23 4 * * *"    # 09:53 IST -- the one that should normally win
     - cron: "07 5 * * *"    # 10:37 IST -- first catch-up
     - cron: "51 5 * * *"    # 11:21 IST -- last chance
   workflow_dispatch:
-
-permissions:
-  contents: write           # only so the state files can be committed back
 
 concurrency:                # never let two attempts run at once
   group: digest
@@ -30,6 +26,20 @@ jobs:
           python-version: "3.12"
         # no pip install: digest.py is stdlib only
 
+      # What was already sent, and which repos to watch. Kept in the Actions cache
+      # rather than committed back, so the repo history stays clean. The key is
+      # unique per run and restore-keys picks up the newest previous one, which is
+      # the standard way to carry a rolling file forward. Losing it costs one
+      # repeated digest, nothing worse.
+      - uses: actions/cache@v4
+        with:
+          path: |
+            seen.json
+            last_sent.txt
+            repos.json
+          key: digest-state-${{ github.run_id }}
+          restore-keys: digest-state-
+
       - run: python digest.py --once-daily
         env:
           GITHUB_TOKEN:     ${{ secrets.GITHUB_TOKEN }}   # lifts the repo-discovery rate limit
@@ -38,14 +48,3 @@ jobs:
           DIGEST_TO:        ${{ secrets.DIGEST_TO }}
           DIGEST_FROM:      ${{ secrets.DIGEST_FROM }}
           DIGEST_SMTP_PASS: ${{ secrets.DIGEST_SMTP_PASS }}
-
-      # Remembering what was sent is what stops repeats and what makes --once-daily work.
-      - name: remember what was sent
-        run: |
-          git config user.name  "ai-news bot"
-          git config user.email "noreply@github.com"
-          git add -A   # last_sent.txt may not exist yet on the first send
-          git diff --staged --quiet && exit 0
-          git commit -m "seen: $(date -u +%F)"
-          git pull --rebase origin main
-          git push

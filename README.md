@@ -77,8 +77,15 @@ Without those two the run still works and just writes the HTML file.
 
 ## The daily schedule
 
-`.github/workflows/digest.yml` runs it at 04:30 UTC (10:00 IST) and commits
-`seen.json` and `repos.json` back so the memory survives between runs. Add `GEMINI_API_KEY`,
+`.github/workflows/digest.yml` fires three times a morning — 09:53, 10:37 and 11:21 IST.
+GitHub delays scheduled jobs under load and drops them outright when it is bad enough, so
+one cron is not dependable; `--once-daily` records the date a mail went out, and the two
+catch-up runs stop when they see it. Only one email ever arrives.
+
+State (`seen.json`, `last_sent.txt`, `repos.json`) lives in the **Actions cache**, not in
+git — the repo history stays clean. The cache key is unique per run with a `restore-keys`
+prefix, which is how you carry a rolling file forward. If the cache is ever evicted the
+worst case is one repeated digest. Add `GEMINI_API_KEY`,
 `DIGEST_TO`, `DIGEST_FROM` and `DIGEST_SMTP_PASS` as repository secrets, and
 optionally `GEMINI_MODEL` as a repository variable to override the default. Actions
 supplies `GITHUB_TOKEN` on its own.
