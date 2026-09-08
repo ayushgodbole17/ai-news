@@ -1,0 +1,14 @@
+name: schedule probe
+
+# Throwaway. Only here to answer one question: does GitHub fire scheduled
+# workflows on this repo at all? Delete once it has reported.
+on:
+  schedule:
+    - cron: "25 7 * * *"
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "schedule fired at $(date -u)"
