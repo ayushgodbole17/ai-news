@@ -37,9 +37,10 @@ plain-English "what it is" and a concrete "why you care".
 The prompt forbids inventing a rationale: release notes arrive truncated, and without that
 rule the model will cheerfully claim a vector-store bump improves your barge-in latency.
 
-**`PROFILE` is the only thing worth tuning**, and it lives in `config.json`, not in the
-script. It is what makes a modest diarization paper outrank a big model launch. When the
-work changes, edit that file; everything else is plumbing.
+**`PROFILE` is the only thing worth tuning**, and it lives in `config.json` for a run by
+hand, or the `DIGEST_PROFILE` secret for a scheduled one — never in the script itself. It
+is what makes a modest diarization paper outrank a big model launch. When the work
+changes, edit whichever of those two you're using; everything else is plumbing.
 
 The 72-hour window is deliberately generous so a missed run or a weekend doesn't drop
 anything. `seen.json` is what stops repeats — and it only records items that were
@@ -144,10 +145,12 @@ git — the repo history stays clean. The cache key is unique per run with a `re
 prefix, which is how you carry a rolling file forward. If the cache is ever evicted the
 worst case is one repeated digest.
 
-Add `GEMINI_API_KEY`, `DIGEST_TO`, `DIGEST_FROM` and `DIGEST_SMTP_PASS` as repository
-secrets, and optionally `GEMINI_MODEL` as a repository variable to override the default.
-Actions supplies `GITHUB_TOKEN` on its own — that one only needs read access and has
-nothing to do with the fine-grained token above, which needs write access to trigger runs.
+All told, a scheduled run needs these as repository secrets: `GEMINI_API_KEY`,
+`DIGEST_TO`, `DIGEST_FROM`, `DIGEST_SMTP_PASS`, `DIGEST_PROFILE`. `GEMINI_MODEL`,
+`DIGEST_KEEP_SHIPS` and `DIGEST_KEEP_RESEARCH` are optional repository variables for
+anything that shouldn't just use the defaults. Actions supplies `GITHUB_TOKEN` on its
+own — that one only needs read access and has nothing to do with the fine-grained token
+above, which needs write access to trigger runs.
 
 The Actions run delivers by email only — `digests/` is gitignored, so the HTML
 file is just a local convenience.
