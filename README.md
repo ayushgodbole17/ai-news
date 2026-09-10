@@ -96,16 +96,16 @@ Everything below is per-person. Nobody edits `digest.py` to do any of it.
 That's a full working setup running by hand. Nothing further is required unless you also
 want it to run itself daily — see the next section.
 
-## Running it on a schedule (a fork, or this repo)
+## Running it on a schedule
 
-If a colleague wants their own copy sent automatically rather than run by hand, they fork
-the repo and set it up there. `config.json` is gitignored on purpose, so it never reaches
-a fork's checkout — a scheduled run needs its profile a different way, and that way is
-three more repository secrets/variables alongside the ones from Setup:
+Want your own copy sent automatically instead of run by hand? Fork the repo and set it up
+there. `config.json` is gitignored on purpose, so it never reaches your fork's checkout —
+a scheduled run needs your profile a different way, and that way is three more repository
+secrets/variables alongside the ones from Setup:
 
-- `DIGEST_PROFILE` (secret) — the same text as their local `config.json`'s `profile`.
+- `DIGEST_PROFILE` (secret) — the same text as your local `config.json`'s `profile`.
 - `DIGEST_KEEP_SHIPS`, `DIGEST_KEEP_RESEARCH` (variables) — only needed if 15/5 isn't
-  their split.
+  your split.
 
 Set at Settings → Secrets and variables → Actions. `digest.py` reads `config.json` first
 if one exists, then lets these env vars override it — so this is also how *this* repo's
