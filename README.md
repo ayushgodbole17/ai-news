@@ -4,6 +4,8 @@ A daily email of the AI news that's actually relevant to my work — voice agent
 speech, Indic languages, evals, guardrails, inference cost — and none of the
 funding rounds and punditry.
 
+Runs unattended on GitHub Actions, ranks ~100 items a day down to the dozen or so worth
+reading, and emails a two-section digest: what shipped, and what's worth reading.
 One file, `digest.py`, no dependencies beyond the Python standard library.
 
 ## How it works
@@ -27,7 +29,7 @@ RSS, so their releases get caught there or not at all.
 
 Everything from the last 72 hours that hasn't been sent before goes to Gemini in one
 call, along with `PROFILE` — the description of what I work on. It comes back in two
-sections: **Shipped** (up to 10) for things usable today — models, agents, IDEs, inference
+sections: **Shipped** (up to 15) for things usable today — models, agents, IDEs, inference
 servers, tooling — and **Research & writing** (up to 5) for papers and writeups. Splitting
 them is what stops a good release being crowded out by papers. Each item gets a
 plain-English "what it is" and a concrete "why you care".
@@ -35,9 +37,9 @@ plain-English "what it is" and a concrete "why you care".
 The prompt forbids inventing a rationale: release notes arrive truncated, and without that
 rule the model will cheerfully claim a vector-store bump improves your barge-in latency.
 
-**`PROFILE` at the top of `digest.py` is the only thing worth tuning.** It is what
-makes a modest diarization paper outrank a big model launch. When the work changes,
-edit that paragraph; everything else is plumbing.
+**`PROFILE` is the only thing worth tuning**, and it lives in `config.json`, not in the
+script. It is what makes a modest diarization paper outrank a big model launch. When the
+work changes, edit that file; everything else is plumbing.
 
 The 72-hour window is deliberately generous so a missed run or a weekend doesn't drop
 anything. `seen.json` is what stops repeats — and it only records items that were
@@ -51,6 +53,21 @@ python digest.py --dry-run      # fetch and list, no LLM call, no email
 python digest.py --no-email     # full run, writes digests/YYYY-MM-DD.html
 python digest.py                # full run and email
 ```
+
+## Making it yours (or a colleague's)
+
+`digest.py` itself is shared code — nobody should have to edit it just to point this at
+their own work. What decides *what gets picked* lives in `config.json` instead:
+
+```bash
+cp config.example.json config.json
+```
+
+Then edit `profile` in that file to describe what you actually work on, and optionally
+`keep_ships` / `keep_research` if 15/5 isn't the split you want. `config.json` is
+gitignored — everyone running this keeps their own copy, and cloning the repo doesn't
+hand you someone else's work profile. No `config.json` at all just falls back to the
+built-in defaults in `digest.py`.
 
 ## Setup
 
@@ -77,18 +94,43 @@ Without those two the run still works and just writes the HTML file.
 
 ## The daily schedule
 
-`.github/workflows/digest.yml` fires three times a morning — 09:53, 10:37 and 11:21 IST.
-GitHub delays scheduled jobs under load and drops them outright when it is bad enough, so
-one cron is not dependable; `--once-daily` records the date a mail went out, and the two
-catch-up runs stop when they see it. Only one email ever arrives.
+`.github/workflows/digest.yml` fires three times a morning — 09:53, 10:37 and 11:21 IST —
+and `--once-daily` records the date a mail went out so only the first run through actually
+sends; the other two see today's date and stop. Only one email ever arrives.
+
+**GitHub's own `schedule:` cron is not reliable for a fixed clock time, especially on a
+new repo.** It is a documented, unresolved platform behaviour — new or low-activity repos
+can see scheduled runs fire 4-14 hours late for their first couple of weeks, some days
+dropped outright. (See [github/community#201738](https://github.com/orgs/community/discussions/201738)
+and [#196910](https://github.com/orgs/community/discussions/196910).) The three-attempt
+spread above is free insurance, not a fix for this — it only helps against occasional
+per-run congestion, not a multi-hour scheduler-wide delay.
+
+The reliable fix is the one GitHub's own community lands on: point a real external clock
+at the `workflow_dispatch` trigger instead of trusting their cron for timing.
+
+1. **Create a fine-grained token**: github.com → Settings → Developer settings → Personal
+   access tokens → Fine-grained tokens → generate one scoped only to this repo, with
+   **Actions: Read and write** permission. Copy it once.
+2. **Sign up at a free cron service** — [cron-job.org](https://cron-job.org) needs nothing
+   but an email. Add a job:
+   - URL: `https://api.github.com/repos/ayushgodbole17/ai-news/actions/workflows/digest.yml/dispatches`
+   - Method: `POST`
+   - Headers: `Authorization: Bearer <your token>`, `Accept: application/vnd.github+json`
+   - Body: `{"ref":"main"}`
+   - Schedule: daily, 10:00, `Asia/Kolkata`
+3. Leave the three GitHub crons in place as a backup in case the external service itself
+   ever misses a day — `--once-daily` means the two can never overlap or double-send.
 
 State (`seen.json`, `last_sent.txt`, `repos.json`) lives in the **Actions cache**, not in
 git — the repo history stays clean. The cache key is unique per run with a `restore-keys`
 prefix, which is how you carry a rolling file forward. If the cache is ever evicted the
-worst case is one repeated digest. Add `GEMINI_API_KEY`,
-`DIGEST_TO`, `DIGEST_FROM` and `DIGEST_SMTP_PASS` as repository secrets, and
-optionally `GEMINI_MODEL` as a repository variable to override the default. Actions
-supplies `GITHUB_TOKEN` on its own.
+worst case is one repeated digest.
+
+Add `GEMINI_API_KEY`, `DIGEST_TO`, `DIGEST_FROM` and `DIGEST_SMTP_PASS` as repository
+secrets, and optionally `GEMINI_MODEL` as a repository variable to override the default.
+Actions supplies `GITHUB_TOKEN` on its own — that one only needs read access and has
+nothing to do with the fine-grained token above, which needs write access to trigger runs.
 
 The Actions run delivers by email only — `digests/` is gitignored, so the HTML
 file is just a local convenience.

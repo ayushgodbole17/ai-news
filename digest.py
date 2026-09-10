@@ -19,12 +19,16 @@ from pathlib import Path
 HERE = Path(__file__).parent
 SEEN_FILE = HERE / "seen.json"
 SENT_FILE = HERE / "last_sent.txt"   # which day a digest last went out, for --once-daily
+CONFIG_FILE = HERE / "config.json"   # per-person overrides; see config.example.json
 WINDOW_HOURS = 72          # generous: covers weekends and a missed run; seen.json kills repeats
 MAX_PER_SOURCE = 15
-KEEP_SHIPS = 10            # releases, models, tools -- the news half
-KEEP_RESEARCH = 5          # papers and writeups
 
-# The relevance lever. Edit this when the work changes -- everything else is plumbing.
+# Everything below is what makes this MY digest rather than anyone else's. It lives in
+# config.json (gitignored, one per person) if that file exists, else these defaults.
+# Copy config.example.json to config.json to run this against your own work instead of
+# editing the script -- that is the only file a colleague needs to touch.
+KEEP_SHIPS = 15            # releases, models, tools -- the news half
+KEEP_RESEARCH = 5          # papers and writeups
 PROFILE = """\
 I build production AI systems, mostly voice and speech. Specifically:
 
@@ -49,6 +53,25 @@ voice-agent quality, evaluation methods, agent reliability, guardrails, and anyt
 that makes inference cheaper or faster. I do not care about: funding rounds, executive
 hires, general AI punditry, doomer or hype takes, enterprise press releases.
 """
+
+
+def load_config():
+    """Pull PROFILE / KEEP_SHIPS / KEEP_RESEARCH from config.json if one exists.
+
+    Lets a colleague run this against their own work by adding one file instead of
+    editing the script -- and lets it keep working with zero setup for anyone who
+    doesn't bother, via the defaults set above.
+    """
+    global PROFILE, KEEP_SHIPS, KEEP_RESEARCH
+    if not CONFIG_FILE.exists():
+        return
+    try:
+        cfg = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
+    except Exception as e:
+        return print("  ! config.json is invalid (%s), using defaults" % e, file=sys.stderr)
+    PROFILE = cfg.get("profile", PROFILE)
+    KEEP_SHIPS = cfg.get("keep_ships", KEEP_SHIPS)
+    KEEP_RESEARCH = cfg.get("keep_research", KEEP_RESEARCH)
 
 FEEDS = [
     ("Hugging Face",    "https://huggingface.co/blog/feed.xml"),
@@ -544,6 +567,7 @@ def main():
     if "--self-check" in args:
         return self_check()
     load_dotenv()
+    load_config()
 
     # GitHub drops scheduled jobs under load, so the workflow fires several times a
     # morning. The first one through sends; the rest see today's date here and stop.
