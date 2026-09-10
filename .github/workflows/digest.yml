@@ -48,3 +48,9 @@ jobs:
           DIGEST_TO:        ${{ secrets.DIGEST_TO }}
           DIGEST_FROM:      ${{ secrets.DIGEST_FROM }}
           DIGEST_SMTP_PASS: ${{ secrets.DIGEST_SMTP_PASS }}
+          # config.json is gitignored and never reaches this checkout -- these are
+          # how a scheduled run gets a real profile instead of digest.py's built-in
+          # default. Optional: unset, this just runs on the defaults.
+          DIGEST_PROFILE:       ${{ secrets.DIGEST_PROFILE }}
+          DIGEST_KEEP_SHIPS:    ${{ vars.DIGEST_KEEP_SHIPS }}
+          DIGEST_KEEP_RESEARCH: ${{ vars.DIGEST_KEEP_RESEARCH }}

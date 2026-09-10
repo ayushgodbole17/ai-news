@@ -56,22 +56,33 @@ hires, general AI punditry, doomer or hype takes, enterprise press releases.
 
 
 def load_config():
-    """Pull PROFILE / KEEP_SHIPS / KEEP_RESEARCH from config.json if one exists.
+    """Pull PROFILE / KEEP_SHIPS / KEEP_RESEARCH from config.json, then let
+    DIGEST_PROFILE / DIGEST_KEEP_SHIPS / DIGEST_KEEP_RESEARCH env vars override that.
 
-    Lets a colleague run this against their own work by adding one file instead of
-    editing the script -- and lets it keep working with zero setup for anyone who
-    doesn't bother, via the defaults set above.
+    config.json is gitignored on purpose (nobody's profile should land in the shared
+    repo), which means a checkout under GitHub Actions never has one -- so a scheduled
+    run needs its own way in. The env vars are that way in: same repo-secrets pattern
+    already used for GEMINI_API_KEY. Local runs can use either; config.json is the
+    easy path by hand, the env vars are what Actions actually needs.
     """
     global PROFILE, KEEP_SHIPS, KEEP_RESEARCH
-    if not CONFIG_FILE.exists():
-        return
-    try:
-        cfg = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
-    except Exception as e:
-        return print("  ! config.json is invalid (%s), using defaults" % e, file=sys.stderr)
-    PROFILE = cfg.get("profile", PROFILE)
-    KEEP_SHIPS = cfg.get("keep_ships", KEEP_SHIPS)
-    KEEP_RESEARCH = cfg.get("keep_research", KEEP_RESEARCH)
+    if CONFIG_FILE.exists():
+        try:
+            cfg = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
+            PROFILE = cfg.get("profile", PROFILE)
+            KEEP_SHIPS = cfg.get("keep_ships", KEEP_SHIPS)
+            KEEP_RESEARCH = cfg.get("keep_research", KEEP_RESEARCH)
+        except Exception as e:
+            print("  ! config.json is invalid (%s), using defaults" % e, file=sys.stderr)
+
+    # Actions substitutes an empty string for an unset secret/var, so `or` a truthy
+    # check here rather than trusting presence -- same trap as the GEMINI_MODEL fix.
+    if os.environ.get("DIGEST_PROFILE"):
+        PROFILE = os.environ["DIGEST_PROFILE"]
+    if os.environ.get("DIGEST_KEEP_SHIPS"):
+        KEEP_SHIPS = int(os.environ["DIGEST_KEEP_SHIPS"])
+    if os.environ.get("DIGEST_KEEP_RESEARCH"):
+        KEEP_RESEARCH = int(os.environ["DIGEST_KEEP_RESEARCH"])
 
 FEEDS = [
     ("Hugging Face",    "https://huggingface.co/blog/feed.xml"),

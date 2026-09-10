@@ -98,12 +98,18 @@ want it to run itself daily — see the next section.
 ## Running it on a schedule (a fork, or this repo)
 
 If a colleague wants their own copy sent automatically rather than run by hand, they fork
-the repo and set it up there — `config.json` is local-only and never travels with a fork,
-so add the same three values from step 2 above as GitHub repository secrets instead:
-`GEMINI_API_KEY`, `DIGEST_TO`, `DIGEST_FROM`, `DIGEST_SMTP_PASS` (Settings → Secrets and
-variables → Actions). `profile` / `keep_ships` / `keep_research` still come from
-`config.json` — that part has to be committed to their fork (or hardcoded into
-`digest.py` there) since Actions doesn't read local files, only secrets and variables.
+the repo and set it up there. `config.json` is gitignored on purpose, so it never reaches
+a fork's checkout — a scheduled run needs its profile a different way, and that way is
+three more repository secrets/variables alongside the ones from Setup:
+
+- `DIGEST_PROFILE` (secret) — the same text as their local `config.json`'s `profile`.
+- `DIGEST_KEEP_SHIPS`, `DIGEST_KEEP_RESEARCH` (variables) — only needed if 15/5 isn't
+  their split.
+
+Set at Settings → Secrets and variables → Actions. `digest.py` reads `config.json` first
+if one exists, then lets these env vars override it — so this is also how *this* repo's
+own scheduled run gets a real profile, since its checkout has no `config.json` either.
+Leave them unset and the workflow just runs on `digest.py`'s built-in defaults.
 
 `.github/workflows/digest.yml` fires three times a morning — 09:53, 10:37 and 11:21 IST —
 and `--once-daily` records the date a mail went out so only the first run through actually
