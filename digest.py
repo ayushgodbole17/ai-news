@@ -3,9 +3,12 @@
     python digest.py                 # fetch, rank, write HTML, email
     python digest.py --no-email      # write the HTML only
     python digest.py --dry-run       # fetch and count, no LLM, no email
+    python digest.py --once-daily    # skip if a digest already went out today
     python digest.py --self-check    # parser asserts, no network
 
-Env: GEMINI_API_KEY (required), GEMINI_MODEL, DIGEST_TO, DIGEST_FROM, DIGEST_SMTP_PASS.
+Env: GEMINI_API_KEY (required), GEMINI_MODEL, DIGEST_TO, DIGEST_FROM, DIGEST_SMTP_PASS,
+     DIGEST_PROFILE, DIGEST_KEEP_SHIPS, DIGEST_KEEP_RESEARCH, GITHUB_TOKEN (all optional --
+     see load_config() and config.example.json).
 """
 import json, os, re, smtplib, sys, time, urllib.error, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
@@ -80,9 +83,17 @@ def load_config():
     if os.environ.get("DIGEST_PROFILE"):
         PROFILE = os.environ["DIGEST_PROFILE"]
     if os.environ.get("DIGEST_KEEP_SHIPS"):
-        KEEP_SHIPS = int(os.environ["DIGEST_KEEP_SHIPS"])
+        try:
+            KEEP_SHIPS = int(os.environ["DIGEST_KEEP_SHIPS"])
+        except ValueError:
+            print("  ! DIGEST_KEEP_SHIPS=%r is not a number, keeping %d"
+                  % (os.environ["DIGEST_KEEP_SHIPS"], KEEP_SHIPS), file=sys.stderr)
     if os.environ.get("DIGEST_KEEP_RESEARCH"):
-        KEEP_RESEARCH = int(os.environ["DIGEST_KEEP_RESEARCH"])
+        try:
+            KEEP_RESEARCH = int(os.environ["DIGEST_KEEP_RESEARCH"])
+        except ValueError:
+            print("  ! DIGEST_KEEP_RESEARCH=%r is not a number, keeping %d"
+                  % (os.environ["DIGEST_KEEP_RESEARCH"], KEEP_RESEARCH), file=sys.stderr)
 
 FEEDS = [
     ("Hugging Face",    "https://huggingface.co/blog/feed.xml"),
@@ -403,6 +414,38 @@ ITEMS:
 {items}"""
 
 
+def _extract_text(resp):
+    """Pull the model's text out of a Gemini response, with a clear error instead of a
+    bare KeyError/IndexError if it came back blocked or empty -- a real possibility here
+    since PROFILE and the items themselves talk about jailbreaks and prompt injection."""
+    candidates = resp.get("candidates") or []
+    if not candidates:
+        reason = resp.get("promptFeedback", {}).get("blockReason", "no reason given")
+        sys.exit("Gemini returned no candidates (blockReason: %s). Nothing to send today." % reason)
+    parts = candidates[0].get("content", {}).get("parts") or []
+    if not parts:
+        sys.exit("Gemini returned an empty response (finishReason: %s)."
+                  % candidates[0].get("finishReason", "unknown"))
+    return parts[0]["text"]
+
+
+def _keep_known_links(result, valid_links):
+    """Drop any ships/research entry whose link wasn't in the items we actually fetched.
+
+    The prompt already tells the model not to invent a URL, but that's a request, not a
+    guarantee -- this is the structural backstop for the same hallucination problem.
+    """
+    for key in ("ships", "research"):
+        picked = result.get(key, [])
+        kept = [e for e in picked if e.get("link") in valid_links]
+        dropped = len(picked) - len(kept)
+        if dropped:
+            print("  ! dropped %d %s item(s) with a link not in the fetched set" % (dropped, key),
+                  file=sys.stderr)
+        result[key] = kept
+    return result
+
+
 def rank(items):
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
@@ -425,20 +468,28 @@ def rank(items):
     url = ("https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent" % model)
     req = urllib.request.Request(url, data=body, headers={
         **UA, "Content-Type": "application/json", "x-goog-api-key": key})
-    try:
-        resp = json.loads(urllib.request.urlopen(req, timeout=180).read())
-    except urllib.error.HTTPError as e:
-        detail = e.read().decode()[:400]
-        if e.code == 404:
-            sys.exit("Model '%s' is not available to this key.\nAvailable:\n  %s\n"
-                     "Set GEMINI_MODEL to one of those."
-                     % (model, "\n  ".join(available_models(key))))
-        if e.code in (401, 403):
-            sys.exit("Gemini rejected the key (%d). Standard API keys stopped working in\n"
-                     "September 2026 -- create a fresh auth key at\n"
-                     "https://aistudio.google.com/apikey\n\n%s" % (e.code, detail))
-        sys.exit("Gemini call failed (%d): %s" % (e.code, detail))
-    return json.loads(resp["candidates"][0]["content"]["parts"][0]["text"])
+
+    for attempt in (1, 2):
+        try:
+            resp = json.loads(urllib.request.urlopen(req, timeout=180).read())
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (500, 502, 503, 504) and attempt == 1:
+                print("  ! Gemini %d, retrying once" % e.code, file=sys.stderr)
+                continue
+            detail = e.read().decode()[:400]
+            if e.code == 404:
+                sys.exit("Model '%s' is not available to this key.\nAvailable:\n  %s\n"
+                         "Set GEMINI_MODEL to one of those."
+                         % (model, "\n  ".join(available_models(key))))
+            if e.code in (401, 403):
+                sys.exit("Gemini rejected the key (%d). Standard API keys stopped working in\n"
+                         "September 2026 -- create a fresh auth key at\n"
+                         "https://aistudio.google.com/apikey\n\n%s" % (e.code, detail))
+            sys.exit("Gemini call failed (%d): %s" % (e.code, detail))
+
+    result = json.loads(_extract_text(resp))
+    return _keep_known_links(result, {it["link"] for it in items})
 
 
 def available_models(key):
@@ -553,6 +604,30 @@ def self_check():
                              "source": "S", "what": "w", "why": "y", "tag": "model"}],
                    "research": [], "skipped_note": "n"}, "Today")
     assert "<script>x</script>" not in html and "&lt;script&gt;" in html, "title not escaped"
+
+    # A link the model invents rather than copies from the fetched items gets dropped.
+    filtered = _keep_known_links(
+        {"ships": [{"link": "https://real.test/1"}, {"link": "https://made-up.test/2"}],
+         "research": [{"link": "https://real.test/1"}]},
+        {"https://real.test/1"})
+    assert [e["link"] for e in filtered["ships"]] == ["https://real.test/1"]
+    assert len(filtered["research"]) == 1
+
+    # A blocked or empty Gemini response should raise a clear error, not a bare KeyError.
+    for bad_resp in ({"candidates": []}, {"candidates": [{"content": {"parts": []}}]}):
+        try:
+            _extract_text(bad_resp)
+            assert False, "should have exited on %r" % bad_resp
+        except SystemExit:
+            pass
+
+    # A non-numeric DIGEST_KEEP_SHIPS should warn and leave the value alone, not crash.
+    saved = KEEP_SHIPS
+    os.environ["DIGEST_KEEP_SHIPS"] = "not a number"
+    load_config()
+    del os.environ["DIGEST_KEEP_SHIPS"]
+    assert KEEP_SHIPS == saved, "bad DIGEST_KEEP_SHIPS should not have changed KEEP_SHIPS"
+
     print("self-check ok")
 
 
