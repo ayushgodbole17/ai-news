@@ -1,14 +1,14 @@
 name: daily ai digest
 
 on:
-  # GitHub delays scheduled runs under load and drops them outright when it is bad
-  # enough. So: three attempts on deliberately odd minutes, avoiding :00 and :30
-  # when everyone else's crons fire. digest.py --once-daily makes that safe -- the
-  # first run through sends the mail and records the date, the rest see it and stop.
+  # Measured over 13 consecutive days, GitHub fired this repo's crons 4.3-5.6 hours
+  # late, every single day, never improving. So this does not try to name the delivery
+  # time here at all -- it sprays a run every half hour across the night and morning,
+  # and digest.py decides which one sends (the first to land at or after SEND_AFTER,
+  # local time). Covers both today's ~5h delay and a future where GitHub fires on time.
+  # Odd minutes on purpose: :00 and :30 are the most congested slots on the platform.
   schedule:
-    - cron: "23 4 * * *"    # 09:53 IST -- the one that should normally win
-    - cron: "07 5 * * *"    # 10:37 IST -- first catch-up
-    - cron: "51 5 * * *"    # 11:21 IST -- last chance
+    - cron: "13,43 22-23,0-8 * * *"
   workflow_dispatch:
 
 concurrency:                # never let two attempts run at once
@@ -54,3 +54,7 @@ jobs:
           DIGEST_PROFILE:       ${{ secrets.DIGEST_PROFILE }}
           DIGEST_KEEP_SHIPS:    ${{ vars.DIGEST_KEEP_SHIPS }}
           DIGEST_KEEP_RESEARCH: ${{ vars.DIGEST_KEEP_RESEARCH }}
+          # When the mail should land and in whose timezone. Defaults are 09:45 and
+          # +05:30 (IST) -- set these only to move it.
+          DIGEST_SEND_AFTER:    ${{ vars.DIGEST_SEND_AFTER }}
+          DIGEST_UTC_OFFSET:    ${{ vars.DIGEST_UTC_OFFSET }}

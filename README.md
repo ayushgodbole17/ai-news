@@ -100,57 +100,58 @@ want it to run itself daily — see the next section.
 
 Want your own copy sent automatically instead of run by hand? Fork the repo and set it up
 there. `config.json` is gitignored on purpose, so it never reaches your fork's checkout —
-a scheduled run needs your profile a different way, and that way is three more repository
+a scheduled run needs your profile a different way, and that way is repository
 secrets/variables alongside the ones from Setup:
 
 - `DIGEST_PROFILE` (secret) — the same text as your local `config.json`'s `profile`.
 - `DIGEST_KEEP_SHIPS`, `DIGEST_KEEP_RESEARCH` (variables) — only needed if 15/5 isn't
   your split.
+- `DIGEST_SEND_AFTER`, `DIGEST_UTC_OFFSET` (variables) — only needed if 09:45 IST isn't
+  when you want it. See below for why these exist rather than a cron time.
 
 Set at Settings → Secrets and variables → Actions. `digest.py` reads `config.json` first
 if one exists, then lets these env vars override it — so this is also how *this* repo's
 own scheduled run gets a real profile, since its checkout has no `config.json` either.
 Leave them unset and the workflow just runs on `digest.py`'s built-in defaults.
 
-`.github/workflows/digest.yml` fires three times a morning — 09:53, 10:37 and 11:21 IST —
-and `--once-daily` records the date a mail went out so only the first run through actually
-sends; the other two see today's date and stop. Only one email ever arrives.
+### Why the schedule looks strange
 
-**GitHub's own `schedule:` cron is not reliable for a fixed clock time, especially on a
-new repo.** It is a documented, unresolved platform behaviour — new or low-activity repos
-can see scheduled runs fire 4-14 hours late for their first couple of weeks, some days
-dropped outright. (See [github/community#201738](https://github.com/orgs/community/discussions/201738)
-and [#196910](https://github.com/orgs/community/discussions/196910).) The three-attempt
-spread above is free insurance, not a fix for this — it only helps against occasional
-per-run congestion, not a multi-hour scheduler-wide delay.
+**GitHub's `schedule:` cron does not keep time on this repo.** Measured across 13
+consecutive days, every scheduled run fired **4.3 to 5.6 hours late** — never once on
+time, never improving. A cron set for 09:53 IST consistently delivered at 14:30. This is
+a known, unresolved platform behaviour (see
+[github/community#201738](https://github.com/orgs/community/discussions/201738) and
+[#196910](https://github.com/orgs/community/discussions/196910)); adding more cron
+entries does not help, because the delay applies to all of them equally.
 
-The reliable fix is the one GitHub's own community lands on: point a real external clock
-at the `workflow_dispatch` trigger instead of trusting their cron for timing.
+So the workflow stops trying to name a delivery time. It fires **every half hour from
+22:13 to 08:43 UTC**, and `digest.py` decides which of those runs actually sends: the
+first one to land at or after `SEND_AFTER` (09:45) on the reader's clock, that hasn't
+already sent today. Every other run exits in about a second.
 
-1. **Create a fine-grained token**: github.com → Settings → Developer settings → Personal
-   access tokens → Fine-grained tokens → generate one scoped only to this repo, with
-   **Actions: Read and write** permission. Copy it once.
-2. **Sign up at a free cron service** — [cron-job.org](https://cron-job.org) needs nothing
-   but an email. Add a job:
-   - URL: `https://api.github.com/repos/ayushgodbole17/ai-news/actions/workflows/digest.yml/dispatches`
-   - Method: `POST`
-   - Headers: `Authorization: Bearer <your token>`, `Accept: application/vnd.github+json`
-   - Body: `{"ref":"main"}`
-   - Schedule: daily, 10:00, `Asia/Kolkata`
-3. Leave the three GitHub crons in place as a backup in case the external service itself
-   ever misses a day — `--once-daily` means the two can never overlap or double-send.
+The useful property is that it self-corrects. Under today's ~5-hour delay, the run
+scheduled around 23:43 UTC is the one that lands near 10:00 IST and sends. If GitHub
+ever starts firing on time, the runs scheduled at 04:13 UTC onwards land in that same
+local window instead and those send. Either way the mail arrives at roughly the right
+time without anyone re-tuning a cron. And if a day is delayed so badly that nothing
+lands in the morning, the first run after `SEND_AFTER` still sends — late beats never.
+
+Move the delivery time with the `DIGEST_SEND_AFTER` variable (`HH:MM`), and the timezone
+with `DIGEST_UTC_OFFSET` (`+05:30`, `-04:00`). A fixed offset rather than a zone name,
+deliberately: India has no DST so it's exact, and `zoneinfo` would need the `tzdata`
+package on Windows, breaking "standard library only".
 
 State (`seen.json`, `last_sent.txt`, `repos.json`) lives in the **Actions cache**, not in
 git — the repo history stays clean. The cache key is unique per run with a `restore-keys`
 prefix, which is how you carry a rolling file forward. If the cache is ever evicted the
 worst case is one repeated digest.
 
-All told, a scheduled run needs these as repository secrets: `GEMINI_API_KEY`,
-`DIGEST_TO`, `DIGEST_FROM`, `DIGEST_SMTP_PASS`, `DIGEST_PROFILE`. `GEMINI_MODEL`,
-`DIGEST_KEEP_SHIPS` and `DIGEST_KEEP_RESEARCH` are optional repository variables for
-anything that shouldn't just use the defaults. Actions supplies `GITHUB_TOKEN` on its
-own — that one only needs read access and has nothing to do with the fine-grained token
-above, which needs write access to trigger runs.
+All told, a scheduled run needs five repository **secrets**: `GEMINI_API_KEY`,
+`DIGEST_TO`, `DIGEST_FROM`, `DIGEST_SMTP_PASS`, `DIGEST_PROFILE`. Everything else is an
+optional repository **variable** for moving off a default: `GEMINI_MODEL`,
+`DIGEST_KEEP_SHIPS`, `DIGEST_KEEP_RESEARCH`, `DIGEST_SEND_AFTER`, `DIGEST_UTC_OFFSET`.
+Actions supplies `GITHUB_TOKEN` itself — nothing to set up, it just lifts the rate limit
+on repo discovery.
 
 The Actions run delivers by email only — `digests/` is gitignored, so the HTML
 file is just a local convenience.

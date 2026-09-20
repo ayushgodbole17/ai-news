@@ -32,6 +32,16 @@ MAX_PER_SOURCE = 15
 # editing the script -- that is the only file a colleague needs to touch.
 KEEP_SHIPS = 15            # releases, models, tools -- the news half
 KEEP_RESEARCH = 5          # papers and writeups
+
+# When the mail should land, on the reader's clock. GitHub fires this repo's scheduled
+# runs 4-6 hours late, by an amount that varies day to day, so the workflow fires a cron
+# every half hour through the night and morning and THIS decides which of those runs
+# actually sends: the first one to land at or after SEND_AFTER. Timing lives here because
+# the scheduler demonstrably does not keep time.
+SEND_AFTER = "09:45"
+# A fixed offset, not a zoneinfo name: India has no DST so this is exact, and zoneinfo
+# needs the tzdata package on Windows, which would break "standard library only".
+UTC_OFFSET = "+05:30"
 PROFILE = """\
 I build production AI systems, mostly voice and speech. Specifically:
 
@@ -628,6 +638,25 @@ def self_check():
     del os.environ["DIGEST_KEEP_SHIPS"]
     assert KEEP_SHIPS == saved, "bad DIGEST_KEEP_SHIPS should not have changed KEEP_SHIPS"
 
+    # The send gate. This is the whole reason the mail lands when it does, so it gets
+    # real tests -- `now` is injectable so they don't depend on when they are run.
+    os.environ["DIGEST_SEND_AFTER"] = "09:45"
+    assert too_early(datetime(2026, 1, 1, 9, 44)), "09:44 is before the cutoff"
+    assert not too_early(datetime(2026, 1, 1, 9, 45)), "09:45 is the cutoff itself"
+    assert not too_early(datetime(2026, 1, 1, 14, 30)), "a late run must still send"
+    assert too_early(datetime(2026, 1, 1, 0, 1)), "just after midnight is too early"
+    os.environ["DIGEST_SEND_AFTER"] = "nonsense"
+    assert not too_early(datetime(2026, 1, 1, 14, 30)), "bad cutoff should fall back, not crash"
+    del os.environ["DIGEST_SEND_AFTER"]
+
+    os.environ["DIGEST_UTC_OFFSET"] = "+05:30"
+    assert _offset() == timedelta(hours=5, minutes=30)
+    os.environ["DIGEST_UTC_OFFSET"] = "-04:00"
+    assert _offset() == timedelta(hours=-4)
+    os.environ["DIGEST_UTC_OFFSET"] = "garbage"
+    assert _offset() == timedelta(hours=5, minutes=30), "bad offset should fall back to IST"
+    del os.environ["DIGEST_UTC_OFFSET"]
+
     print("self-check ok")
 
 
@@ -643,9 +672,47 @@ def load_dotenv():
             os.environ.setdefault(k.strip(), v.strip().strip("'\""))
 
 
+def _offset():
+    """UTC_OFFSET (or DIGEST_UTC_OFFSET) as a timedelta, e.g. '+05:30' -> 5h30m."""
+    raw = (os.environ.get("DIGEST_UTC_OFFSET") or UTC_OFFSET).strip()
+    try:
+        sign = -1 if raw.startswith("-") else 1
+        hh, mm = raw.lstrip("+-").split(":")
+        return sign * timedelta(hours=int(hh), minutes=int(mm))
+    except Exception:
+        print("  ! DIGEST_UTC_OFFSET=%r is not like +05:30, using %s" % (raw, UTC_OFFSET),
+              file=sys.stderr)
+        hh, mm = UTC_OFFSET.lstrip("+").split(":")
+        return timedelta(hours=int(hh), minutes=int(mm))
+
+
+def local_now():
+    """Wall-clock time where the reader is. The Actions runner is UTC, so everything
+    user-facing -- the send gate, the date on the mail, the filename -- goes through here."""
+    return datetime.now(timezone.utc).replace(tzinfo=None) + _offset()
+
+
 def sent_today():
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    return SENT_FILE.exists() and SENT_FILE.read_text().strip() == today
+    return SENT_FILE.exists() and SENT_FILE.read_text().strip() == local_now().strftime("%Y-%m-%d")
+
+
+def too_early(now=None):
+    """Has the local clock reached SEND_AFTER yet?
+
+    This is the whole timing mechanism. GitHub fires this repo's crons 4-6 hours late by
+    a varying amount, so the workflow fires one every half hour through the night and the
+    first run to land at or after SEND_AFTER is the one that sends. If GitHub ever starts
+    firing on time instead, the later crons cover that -- it self-corrects either way.
+    """
+    raw = (os.environ.get("DIGEST_SEND_AFTER") or SEND_AFTER).strip()
+    try:
+        hh, mm = [int(x) for x in raw.split(":")]
+    except Exception:
+        print("  ! DIGEST_SEND_AFTER=%r is not like 09:45, using %s" % (raw, SEND_AFTER),
+              file=sys.stderr)
+        hh, mm = [int(x) for x in SEND_AFTER.split(":")]
+    now = now or local_now()
+    return (now.hour, now.minute) < (hh, mm)
 
 
 def main():
@@ -655,12 +722,19 @@ def main():
     load_dotenv()
     load_config()
 
-    # GitHub drops scheduled jobs under load, so the workflow fires several times a
-    # morning. The first one through sends; the rest see today's date here and stop.
-    if "--once-daily" in args and sent_today():
-        return print("Already sent today. Nothing to do.")
+    # The workflow fires a cron every half hour through the night because GitHub runs
+    # them hours late by a varying amount. These two checks are what turn that spray of
+    # runs into one mail at roughly the right local time: everything before SEND_AFTER
+    # stops here, and so does everything after the day's mail has gone.
+    if "--once-daily" in args:
+        if sent_today():
+            return print("Already sent today. Nothing to do.")
+        if too_early():
+            return print("Too early: local time %s, sends after %s."
+                         % (local_now().strftime("%H:%M"),
+                            os.environ.get("DIGEST_SEND_AFTER") or SEND_AFTER))
 
-    date_str = datetime.now().strftime("%A, %d %B %Y")
+    date_str = local_now().strftime("%A, %d %B %Y")
     print("Collecting for %s..." % date_str)
     items = collect()
     if "--dry-run" in args:
@@ -672,7 +746,7 @@ def main():
 
     digest = rank(items)
     html = render(digest, date_str)
-    out = HERE / "digests" / (datetime.now().strftime("%Y-%m-%d") + ".html")
+    out = HERE / "digests" / (local_now().strftime("%Y-%m-%d") + ".html")
     out.parent.mkdir(exist_ok=True)
     out.write_text(html, encoding="utf-8")
     print("  wrote %s  (%d shipped, %d research)"
@@ -680,7 +754,7 @@ def main():
 
     if "--no-email" not in args:
         send(html, date_str)
-        SENT_FILE.write_text(datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+        SENT_FILE.write_text(local_now().strftime("%Y-%m-%d"))
     remember(digest)
 
 
