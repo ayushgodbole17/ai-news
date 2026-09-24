@@ -117,7 +117,6 @@ FEEDS = [
     ("MIT News",        "https://news.mit.edu/rss/topic/artificial-intelligence2"),
     ("NVIDIA",          "https://blogs.nvidia.com/blog/category/generative-ai/feed/"),
     ("Qwen",            "https://qwenlm.github.io/blog/index.xml"),
-    ("EleutherAI",      "https://blog.eleuther.ai/index.xml"),
     ("Together AI",     "https://www.together.ai/blog/rss.xml"),
     # Tools and IDEs, not research.
     ("Cursor",          "https://cursor.com/changelog/rss.xml"),
@@ -131,17 +130,24 @@ FEEDS = [
 TOPICS = ["llm", "ai-agents", "speech-recognition", "text-to-speech", "voice-assistant",
           "rag", "vector-database", "llmops", "mlops", "code-generation"]
 REPOS_PER_TOPIC = 6
+# Big in their topics, so discovery keeps finding them, but they ship near-daily and I
+# don't use them. Lowercase owner/name.
+MUTED_REPOS = {"promptfoo/promptfoo", "ollama/ollama"}
 REPO_CACHE = HERE / "repos.json"   # last good discovery, used if GitHub rate-limits us
 
-# arXiv, scoped to what I work on rather than the whole of cs.AI.
-ARXIV_QUERIES = [
-    'abs:"speech recognition" OR abs:"speaker diarization" OR abs:"text to speech"',
-    'abs:"voice agent" OR abs:"spoken dialogue" OR abs:"full-duplex"',
-    'abs:"LLM agent" AND (abs:evaluation OR abs:reliability OR abs:benchmark)',
-    'abs:"guardrail" OR abs:"jailbreak" OR abs:"prompt injection"',
-    'abs:"retrieval augmented generation" OR abs:"LLM-as-a-judge"',
-    'abs:"low-resource" AND (abs:Hindi OR abs:Tamil OR abs:Indic OR abs:multilingual)',
+# arXiv, scoped to what I work on rather than the whole of cs.AI: today's listing for
+# these categories, kept only if the title or abstract matches one of the topics below.
+# (?=.*a)(?=.*b) is "a AND b" in either order.
+ARXIV_CATEGORIES = "cs.CL+cs.SD+eess.AS+cs.AI+cs.CR+cs.IR+cs.LG"
+ARXIV_TOPICS = [
+    r"speech recognition|speaker diarization|text[- ]to[- ]speech",
+    r"voice agent|spoken dialogue|full[- ]duplex",
+    r"(?=.*LLM[- ]agent)(?=.*(evaluation|reliability|benchmark))",
+    r"guardrail|jailbreak|prompt injection",
+    r"retrieval[- ]augmented generation|LLM[- ]as[- ]a[- ]judge",
+    r"(?=.*low[- ]resource)(?=.*(Hindi|Tamil|Indic|multilingual))",
 ]
+ARXIV_PER_TOPIC = 12
 
 # Hacker News catches the vendors with no RSS (Anthropic, Meta, Mistral) and release news.
 HN_QUERIES = ["anthropic", "claude", "llm", "gemini", "open source model",
@@ -181,7 +187,7 @@ def parse_date(s):
     return None
 
 
-def parse_feed(name, xml, limit=MAX_PER_SOURCE):
+def parse_feed(name, xml, limit=MAX_PER_SOURCE, summary_chars=400):
     """One parser for both RSS <item> and Atom <entry>."""
     root = ET.fromstring(xml)
     A = "{http://www.w3.org/2005/Atom}"
@@ -201,7 +207,7 @@ def parse_feed(name, xml, limit=MAX_PER_SOURCE):
                           or it.findtext(A + "published"))
         if title and link:
             out.append({"source": name, "title": strip_html(title, 300),
-                        "link": link.strip(), "summary": strip_html(summary), "date": date})
+                        "link": link.strip(), "summary": strip_html(summary, summary_chars), "date": date})
     return out
 
 
@@ -214,14 +220,30 @@ def fetch_feed(item):
         return []
 
 
-def fetch_arxiv(query):
-    url = ("http://export.arxiv.org/api/query?search_query=" + urllib.parse.quote(query)
-           + "&sortBy=submittedDate&sortOrder=descending&max_results=12")
+def fetch_arxiv():
+    """Today's arXiv listing, filtered here by ARXIV_TOPICS.
+
+    Not the search API: since Sept 2026 export.arxiv.org/api answers Python's HTTP client
+    with 406 on every query that isn't already cached, while curl with identical headers
+    gets 200 -- so the block is below the header level and no header change fixes it.
+    The RSS listings serve Python fine, and a daily listing suits a daily digest anyway.
+    """
     try:
-        return parse_feed("arXiv", get(url))
+        papers = parse_feed("arXiv", get("https://rss.arxiv.org/rss/" + ARXIV_CATEGORIES,
+                                         timeout=60), limit=None, summary_chars=3000)
     except Exception as e:
         print("  ! arXiv: %s: %s" % (type(e).__name__, e), file=sys.stderr)
         return []
+    # "replace" entries are revisions of old papers, not new work.
+    papers = [p for p in papers if "Announce Type: replace" not in p["summary"][:80]]
+    out = []
+    for pattern in ARXIV_TOPICS:
+        hits = [p for p in papers
+                if re.search(pattern, p["title"] + " " + p["summary"], re.I | re.S)]
+        out += hits[:ARXIV_PER_TOPIC]
+    for p in out:
+        p["summary"] = re.sub(r"^.*?Abstract:\s*", "", p["summary"])[:400]
+    return out
 
 
 def fetch_hn(query):
@@ -348,12 +370,12 @@ def fetch_hf_papers():
 
 
 def collect():
-    repos = discover_repos()
+    repos = [r for r in discover_repos() if r.lower() not in MUTED_REPOS]
     print("  watching %d repos for releases" % len(repos))
-    jobs = ([("feed", f) for f in FEEDS] + [("arxiv", q) for q in ARXIV_QUERIES]
-            + [("hn", q) for q in HN_QUERIES] + [("rel", r) for r in repos]
-            + [("papers", None), ("models", None)])
-    runners = {"feed": fetch_feed, "arxiv": fetch_arxiv, "hn": fetch_hn,
+    jobs = ([("feed", f) for f in FEEDS] + [("hn", q) for q in HN_QUERIES]
+            + [("rel", r) for r in repos]
+            + [("arxiv", None), ("papers", None), ("models", None)])
+    runners = {"feed": fetch_feed, "arxiv": lambda _: fetch_arxiv(), "hn": fetch_hn,
                "rel": fetch_release, "papers": lambda _: fetch_hf_papers(),
                "models": lambda _: fetch_hf_models()}
     with ThreadPoolExecutor(16) as ex:
@@ -479,13 +501,16 @@ def rank(items):
     req = urllib.request.Request(url, data=body, headers={
         **UA, "Content-Type": "application/json", "x-goog-api-key": key})
 
-    for attempt in (1, 2):
+    # "High demand" 503s usually clear within a minute or two, so wait between tries rather
+    # than hammering. If all three fail, the next half-hourly run tries again anyway.
+    for attempt in (1, 2, 3):
         try:
             resp = json.loads(urllib.request.urlopen(req, timeout=180).read())
             break
         except urllib.error.HTTPError as e:
-            if e.code in (500, 502, 503, 504) and attempt == 1:
-                print("  ! Gemini %d, retrying once" % e.code, file=sys.stderr)
+            if e.code in (500, 502, 503, 504) and attempt < 3:
+                print("  ! Gemini %d, retrying in %ds" % (e.code, 30 * attempt), file=sys.stderr)
+                time.sleep(30 * attempt)
                 continue
             detail = e.read().decode()[:400]
             if e.code == 404:
@@ -607,6 +632,12 @@ def self_check():
     assert r["date"].year == 2026 and r["date"].tzinfo is not None, r["date"]
     b = parse_feed("A", atom)[0]
     assert b["link"] == "https://x.test/b", b["link"]      # Atom link lives in an attribute
+
+    # arXiv topic AND-patterns: both terms, either order, across lines.
+    hit = lambda t: any(re.search(p, t, re.I | re.S) for p in ARXIV_TOPICS)
+    assert hit("A Tamil benchmark.\nWe study low-resource ASR")
+    assert not hit("A low-resource vision benchmark")
+    assert hit("Retrieval-Augmented Generation for call centres")
     assert b["date"].tzinfo is not None, b["date"]
     assert parse_date("not a date") is None and parse_date("") is None
     assert strip_html("<b>a</b>\n\n b") == "a b"
