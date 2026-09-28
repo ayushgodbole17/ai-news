@@ -514,7 +514,11 @@ def rank(items):
     # Actions passes an empty string for an unset `vars.X`, so `or` not `get(..., default)`.
     # Newest Flash, not Pro: the free tier's Pro quota is zero (verified Sept 2026, every
     # call 429s), and the -latest alias moves up with each Flash release on its own.
-    model = os.environ.get("GEMINI_MODEL") or "gemini-flash-latest"
+    # The newest Flash is also the one Google overloads first -- on 28 Sept 2026 3.7, 3.8
+    # and -latest all 503'd while 3.6 answered -- so fall back rather than send nothing.
+    # ponytail: pinned fallback; when Google retires it the 404 message below says so.
+    models = list(dict.fromkeys([os.environ.get("GEMINI_MODEL") or "gemini-flash-latest",
+                                 "gemini-3.6-flash"]))
 
     listing = "\n".join(
         "[%d] (%s) %s\n    %s\n    %s" % (i, it["source"], it["title"], it["link"],
@@ -527,22 +531,39 @@ def rank(items):
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2},
     }).encode()
 
+    resp = None
+    for model in models:
+        resp = _call_gemini(model, body, key)
+        if resp is not None:
+            break
+        print("  ! %s kept failing, trying the next model" % model, file=sys.stderr)
+    if resp is None:
+        sys.exit("Gemini did not answer on %s. Nothing to send today." % ", ".join(models))
+
+    result = json.loads(_extract_text(resp))
+    return _keep_known_links(result, {it["link"] for it in items})
+
+
+def _call_gemini(model, body, key):
+    """The parsed response, or None if the model stayed overloaded or unreachable."""
     # Auth keys want the header form; ?key= is the legacy standard-key style Google is retiring.
     url = ("https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent" % model)
     req = urllib.request.Request(url, data=body, headers={
         **UA, "Content-Type": "application/json", "x-goog-api-key": key})
 
     # "High demand" 503s usually clear within a minute or two, so wait between tries rather
-    # than hammering. If all three fail, the next half-hourly run tries again anyway.
+    # than hammering. If all three fail, rank() moves on to the next model.
     for attempt in (1, 2, 3):
         try:
-            resp = json.loads(urllib.request.urlopen(req, timeout=180).read())
-            break
+            return json.loads(urllib.request.urlopen(req, timeout=180).read())
         except urllib.error.HTTPError as e:
-            if e.code in (500, 502, 503, 504) and attempt < 3:
-                print("  ! Gemini %d, retrying in %ds" % (e.code, 30 * attempt), file=sys.stderr)
-                time.sleep(30 * attempt)
-                continue
+            if e.code in (500, 502, 503, 504):
+                if attempt < 3:
+                    print("  ! Gemini %d, retrying in %ds" % (e.code, 30 * attempt),
+                          file=sys.stderr)
+                    time.sleep(30 * attempt)
+                    continue
+                return None
             detail = e.read().decode()[:400]
             if e.code == 404:
                 sys.exit("Model '%s' is not available to this key.\nAvailable:\n  %s\n"
@@ -560,10 +581,7 @@ def rank(items):
                       file=sys.stderr)
                 time.sleep(30 * attempt)
                 continue
-            sys.exit("Gemini did not answer after 3 tries (%s). Nothing to send today." % e)
-
-    result = json.loads(_extract_text(resp))
-    return _keep_known_links(result, {it["link"] for it in items})
+            return None
 
 
 def available_models(key):
@@ -708,6 +726,24 @@ def self_check():
             assert False, "should have exited on %r" % bad_resp
         except SystemExit:
             pass
+
+    # An overloaded model falls back to the next one instead of sending nothing.
+    tried, real_open, real_sleep = [], urllib.request.urlopen, time.sleep
+    def fake_open(req, timeout=None):
+        tried.append(req.full_url.split("/models/")[1].split(":")[0])
+        if tried[-1] == "gemini-flash-latest":
+            raise urllib.error.HTTPError(req.full_url, 503, "busy", {}, None)
+        class R:
+            read = lambda self: json.dumps({"candidates": [{"content": {"parts": [
+                {"text": '{"ships": []}'}]}}]}).encode()
+        return R()
+    urllib.request.urlopen, time.sleep = fake_open, lambda s: None
+    os.environ["GEMINI_API_KEY"] = os.environ.get("GEMINI_API_KEY") or "test"
+    try:
+        rank([{"source": "s", "title": "t", "link": "https://x.test/e", "summary": ""}])
+    finally:
+        urllib.request.urlopen, time.sleep = real_open, real_sleep
+    assert tried == ["gemini-flash-latest"] * 3 + ["gemini-3.6-flash"], tried
 
     # A non-numeric DIGEST_KEEP_SHIPS should warn and leave the value alone, not crash.
     saved = KEEP_SHIPS
