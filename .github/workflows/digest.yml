@@ -53,6 +53,7 @@ jobs:
           # default. Optional: unset, this just runs on the defaults.
           DIGEST_PROFILE:       ${{ secrets.DIGEST_PROFILE }}
           DIGEST_KEEP_SHIPS:    ${{ vars.DIGEST_KEEP_SHIPS }}
+          DIGEST_KEEP_INDUSTRY: ${{ vars.DIGEST_KEEP_INDUSTRY }}
           DIGEST_KEEP_RESEARCH: ${{ vars.DIGEST_KEEP_RESEARCH }}
           # When the mail should land and in whose timezone. Defaults are 09:45 and
           # +05:30 (IST) -- set these only to move it.

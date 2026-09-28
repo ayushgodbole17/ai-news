@@ -7,7 +7,8 @@
     python digest.py --self-check    # parser asserts, no network
 
 Env: GEMINI_API_KEY (required), GEMINI_MODEL, DIGEST_TO, DIGEST_FROM, DIGEST_SMTP_PASS,
-     DIGEST_PROFILE, DIGEST_KEEP_SHIPS, DIGEST_KEEP_RESEARCH, GITHUB_TOKEN (all optional --
+     DIGEST_PROFILE, DIGEST_KEEP_SHIPS, DIGEST_KEEP_INDUSTRY, DIGEST_KEEP_RESEARCH,
+     GITHUB_TOKEN (all optional --
      see load_config() and config.example.json).
 """
 import json, os, re, smtplib, sys, time, urllib.error, urllib.parse, urllib.request
@@ -30,7 +31,8 @@ MAX_PER_SOURCE = 15
 # config.json (gitignored, one per person) if that file exists, else these defaults.
 # Copy config.example.json to config.json to run this against your own work instead of
 # editing the script -- that is the only file a colleague needs to touch.
-KEEP_SHIPS = 15            # releases, models, tools -- the news half
+KEEP_SHIPS = 15            # releases, models, tools
+KEEP_INDUSTRY = 10         # funding, people, deals, policy, commentary
 KEEP_RESEARCH = 5          # papers and writeups
 
 # When the mail should land, on the reader's clock. GitHub fires this repo's scheduled
@@ -62,9 +64,12 @@ I build production AI systems, mostly voice and speech. Specifically:
 - Stack is Python + FastAPI, Node/TypeScript, MongoDB, Docker on VMs.
 
 I care about: new models and their real benchmarks, things that change speech or
-voice-agent quality, evaluation methods, agent reliability, guardrails, and anything
-that makes inference cheaper or faster. I do not care about: funding rounds, executive
-hires, general AI punditry, doomer or hype takes, enterprise press releases.
+voice-agent quality, evaluation methods, agent reliability, guardrails, anything
+that makes inference cheaper or faster, and how to develop with AI better -- new
+Claude Code plugins, skills, harnesses, MCP servers, and agentic coding tooling.
+I do not care about: funding rounds, executive hires, general AI punditry, doomer or
+hype takes, enterprise press releases, and routine version-bump releases of libraries
+I don't actively use.
 """
 
 
@@ -78,13 +83,15 @@ def load_config():
     already used for GEMINI_API_KEY. Local runs can use either; config.json is the
     easy path by hand, the env vars are what Actions actually needs.
     """
-    global PROFILE, KEEP_SHIPS, KEEP_RESEARCH
+    global PROFILE
+    g = globals()
+    keeps = ("KEEP_SHIPS", "KEEP_INDUSTRY", "KEEP_RESEARCH")
     if CONFIG_FILE.exists():
         try:
             cfg = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
             PROFILE = cfg.get("profile", PROFILE)
-            KEEP_SHIPS = cfg.get("keep_ships", KEEP_SHIPS)
-            KEEP_RESEARCH = cfg.get("keep_research", KEEP_RESEARCH)
+            for name in keeps:
+                g[name] = cfg.get(name.lower(), g[name])
         except Exception as e:
             print("  ! config.json is invalid (%s), using defaults" % e, file=sys.stderr)
 
@@ -92,18 +99,14 @@ def load_config():
     # check here rather than trusting presence -- same trap as the GEMINI_MODEL fix.
     if os.environ.get("DIGEST_PROFILE"):
         PROFILE = os.environ["DIGEST_PROFILE"]
-    if os.environ.get("DIGEST_KEEP_SHIPS"):
-        try:
-            KEEP_SHIPS = int(os.environ["DIGEST_KEEP_SHIPS"])
-        except ValueError:
-            print("  ! DIGEST_KEEP_SHIPS=%r is not a number, keeping %d"
-                  % (os.environ["DIGEST_KEEP_SHIPS"], KEEP_SHIPS), file=sys.stderr)
-    if os.environ.get("DIGEST_KEEP_RESEARCH"):
-        try:
-            KEEP_RESEARCH = int(os.environ["DIGEST_KEEP_RESEARCH"])
-        except ValueError:
-            print("  ! DIGEST_KEEP_RESEARCH=%r is not a number, keeping %d"
-                  % (os.environ["DIGEST_KEEP_RESEARCH"], KEEP_RESEARCH), file=sys.stderr)
+    for name in keeps:
+        raw = os.environ.get("DIGEST_" + name)
+        if raw:
+            try:
+                g[name] = int(raw)
+            except ValueError:
+                print("  ! DIGEST_%s=%r is not a number, keeping %d" % (name, raw, g[name]),
+                      file=sys.stderr)
 
 FEEDS = [
     ("Hugging Face",    "https://huggingface.co/blog/feed.xml"),
@@ -118,6 +121,9 @@ FEEDS = [
     ("NVIDIA",          "https://blogs.nvidia.com/blog/category/generative-ai/feed/"),
     ("Qwen",            "https://qwenlm.github.io/blog/index.xml"),
     ("Together AI",     "https://www.together.ai/blog/rss.xml"),
+    # Industry: funding, people, deals, policy.
+    ("TechCrunch AI",   "https://techcrunch.com/category/artificial-intelligence/feed/"),
+    ("The Verge AI",    "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
     # Tools and IDEs, not research.
     ("Cursor",          "https://cursor.com/changelog/rss.xml"),
     ("VS Code",         "https://code.visualstudio.com/feed.xml"),
@@ -128,11 +134,18 @@ FEEDS = [
 # Whatever is currently big and active in each area gets picked up on its own -- so a
 # tool that did not exist last month arrives without this file being edited.
 TOPICS = ["llm", "ai-agents", "speech-recognition", "text-to-speech", "voice-assistant",
-          "rag", "vector-database", "llmops", "mlops", "code-generation"]
+          "rag", "vector-database", "llmops", "mlops", "code-generation",
+          "claude-code", "mcp-server", "model-context-protocol"]
 REPOS_PER_TOPIC = 6
 # Big in their topics, so discovery keeps finding them, but they ship near-daily and I
 # don't use them. Lowercase owner/name.
 MUTED_REPOS = {"promptfoo/promptfoo", "ollama/ollama"}
+# Anthropic's own dev-tooling repos carry no GitHub topics at all (verified Sept 2026),
+# so topic discovery above structurally never finds them. Watched directly instead.
+ALWAYS_WATCH_REPOS = {"anthropics/claude-code", "anthropics/skills",
+                       "anthropics/claude-agent-sdk-python",
+                       "anthropics/claude-agent-sdk-typescript",
+                       "modelcontextprotocol/servers"}
 REPO_CACHE = HERE / "repos.json"   # last good discovery, used if GitHub rate-limits us
 
 # arXiv, scoped to what I work on rather than the whole of cs.AI: today's listing for
@@ -151,7 +164,8 @@ ARXIV_PER_TOPIC = 12
 
 # Hacker News catches the vendors with no RSS (Anthropic, Meta, Mistral) and release news.
 HN_QUERIES = ["anthropic", "claude", "llm", "gemini", "open source model",
-              "speech recognition", "voice ai", "ai agents"]
+              "speech recognition", "voice ai", "ai agents",
+              "claude code", "mcp server"]
 
 UA = {"User-Agent": "Mozilla/5.0 (ai-news daily digest)"}
 
@@ -371,6 +385,7 @@ def fetch_hf_papers():
 
 def collect():
     repos = [r for r in discover_repos() if r.lower() not in MUTED_REPOS]
+    repos = sorted(set(repos) | ALWAYS_WATCH_REPOS)
     print("  watching %d repos for releases" % len(repos))
     jobs = ([("feed", f) for f in FEEDS] + [("hn", q) for q in HN_QUERIES]
             + [("rel", r) for r in repos]
@@ -400,7 +415,7 @@ PROMPT = """You are curating a daily AI digest for one specific engineer. Here i
 
 {profile}
 
-Below are {n} items from the last {hours} hours. Sort the best of them into TWO lists.
+Below are {n} items from the last {hours} hours. Sort the best of them into THREE lists.
 
 SHIPS -- up to {ships} items. Anything in AI that exists NOW and can be downloaded,
 installed, called or upgraded today, rather than only written about. Models and weights,
@@ -409,18 +424,27 @@ vector stores, APIs, pricing and quota changes, developer tools, hosted services
 that as a description of a domain, not a checklist -- if it is a real, usable AI thing
 that shipped, it belongs here whatever its category. A version bump only earns a slot if
 it changes something worth knowing: a real feature, a breaking change, a meaningful
-speedup. Routine patch releases and dependency bumps do not count; drop them.
+speedup. Routine patch releases and dependency bumps do not count; drop them. If the
+title is just a name and a version number and the notes don't spell out a real change
+("bug fixes", "misc improvements", or notes truncated with nothing substantive left),
+that is noise -- drop it even for a repo this person watches closely. Being watched does
+not make every tag newsworthy.
+
+INDUSTRY -- up to {industry} items. The business and people side of AI: funding rounds,
+acquisitions, executive moves, company strategy, partnerships, enterprise deals, policy
+and regulation, and commentary or opinion worth reading. Anything that shipped a usable
+thing goes in SHIPS instead. Pick by how much it moves the AI industry, and prefer ones
+that touch the labs, vendors and tools in their stack.
 
 RESEARCH -- up to {research} items. Papers, benchmarks, evaluations and engineering
 writeups. Ideas rather than artifacts.
 
-Judge relevance by their actual work, not general AI newsworthiness. A modest paper on
-speaker diarization beats a huge funding announcement. Weight things touching their voice
-and speech stack, Indic languages, evals, guardrails, and inference cost most heavily.
+For SHIPS and RESEARCH, judge relevance by their actual work, not general AI
+newsworthiness. Weight things touching their voice and speech stack, Indic languages,
+evals, guardrails, and inference cost most heavily.
 
-Drop funding news, hiring news, opinion pieces, outage chatter and vague enterprise
-announcements entirely. Return fewer than the limits if the rest do not clear the bar --
-never pad a list to fill it.
+Drop outage chatter entirely. Each item goes in at most one list. Return fewer than the
+limits if the rest do not clear the bar -- never pad a list to fill it.
 
 Copy "link" and "source" verbatim from the item you picked. Do not invent a URL.
 
@@ -435,15 +459,20 @@ which part of their work you are trying to connect it to.
 Return JSON only:
 {{"ships":    [{{"title": "...", "link": "...", "source": "...", "what": "...",
                 "why": "...", "tag": "model|tool|harness|speech|infra"}}],
+ "industry": [{{"title": "...", "link": "...", "source": "...", "what": "...",
+                "why": "...", "tag": "funding|people|business|policy|opinion"}}],
  "research": [{{"title": "...", "link": "...", "source": "...", "what": "...",
                 "why": "...", "tag": "speech|agents|eval|safety|research"}}],
  "skipped_note": "one short line on what else was in the pile and why it did not make it"}}
 
 "what" is 1-2 plain sentences on what the thing actually is.
-"why" is one concrete sentence on why it matters to THIS person's work.
+"why" is one concrete sentence on why it matters to THIS person's work. For an INDUSTRY
+item with no real link to their work, say why it matters to the field instead.
 
 ITEMS:
 {items}"""
+
+SECTIONS = ("ships", "industry", "research")   # the model's output keys, in email order
 
 
 def _extract_text(resp):
@@ -467,7 +496,7 @@ def _keep_known_links(result, valid_links):
     The prompt already tells the model not to invent a URL, but that's a request, not a
     guarantee -- this is the structural backstop for the same hallucination problem.
     """
-    for key in ("ships", "research"):
+    for key in SECTIONS:
         picked = result.get(key, [])
         kept = [e for e in picked if e.get("link") in valid_links]
         dropped = len(picked) - len(kept)
@@ -483,7 +512,9 @@ def rank(items):
     if not key:
         sys.exit("GEMINI_API_KEY is not set. Create one at https://aistudio.google.com/apikey")
     # Actions passes an empty string for an unset `vars.X`, so `or` not `get(..., default)`.
-    model = os.environ.get("GEMINI_MODEL") or "gemini-3.5-flash"
+    # Newest Flash, not Pro: the free tier's Pro quota is zero (verified Sept 2026, every
+    # call 429s), and the -latest alias moves up with each Flash release on its own.
+    model = os.environ.get("GEMINI_MODEL") or "gemini-flash-latest"
 
     listing = "\n".join(
         "[%d] (%s) %s\n    %s\n    %s" % (i, it["source"], it["title"], it["link"],
@@ -492,7 +523,7 @@ def rank(items):
     body = json.dumps({
         "contents": [{"parts": [{"text": PROMPT.format(
             profile=PROFILE, n=len(items), hours=WINDOW_HOURS, ships=KEEP_SHIPS,
-            research=KEEP_RESEARCH, items=listing)}]}],
+            industry=KEEP_INDUSTRY, research=KEEP_RESEARCH, items=listing)}]}],
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2},
     }).encode()
 
@@ -539,7 +570,9 @@ def available_models(key):
 
 TAG_COLOR = {"model": "#7c3aed", "speech": "#0891b2", "agents": "#ea580c",
              "eval": "#16a34a", "infra": "#64748b", "safety": "#dc2626",
-             "research": "#4f46e5", "tool": "#0d9488", "harness": "#c2410c"}
+             "research": "#4f46e5", "tool": "#0d9488", "harness": "#c2410c",
+             "funding": "#15803d", "people": "#be185d", "business": "#1d4ed8",
+             "policy": "#b45309", "opinion": "#6b7280"}
 SANS = "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif"
 
 
@@ -573,8 +606,9 @@ def section(heading, blurb, items):
 
 
 def render(digest, date_str):
-    ships, research = digest.get("ships", []), digest.get("research", [])
+    ships, industry, research = (digest.get(k, []) for k in SECTIONS)
     body = (section("Shipped", "Out now — usable today.", ships)
+            + section("Industry", "Money, people, deals, policy.", industry)
             + section("Research & writing", "Ideas, benchmarks, writeups.", research))
     if not body:
         body = ('<p style="font:15px %s;color:#6b7280">Nothing cleared the bar today.</p>'
@@ -586,11 +620,11 @@ def render(digest, date_str):
 <div style="max-width:660px;margin:0 auto;background:#fff;border-radius:12px;padding:30px">
   <div style="font:700 23px/1.2 {sans};color:#111827">Latest in AI</div>
   <div style="font:14px {sans};color:#9ca3af;margin:5px 0 0">
-    {date} &nbsp;&middot;&nbsp; {ships} shipped, {research} to read</div>
+    {date} &nbsp;&middot;&nbsp; {ships} shipped, {industry} industry, {research} to read</div>
   {body}
   <p style="font:13px/1.6 {sans};color:#9ca3af;margin:26px 0 0">{note}</p>
 </div></body></html>""".format(date=escape(date_str), sans=SANS, body=body,
-                               ships=len(ships), research=len(research),
+                               ships=len(ships), industry=len(industry), research=len(research),
                                note=escape(digest.get("skipped_note", "")))
 
 
@@ -613,7 +647,7 @@ def send(html, date_str):
 
 def remember(digest):
     """Only remember what was actually sent, so a good item crowded out today can return."""
-    sent = {it.get("link") for it in digest.get("ships", []) + digest.get("research", [])}
+    sent = {it.get("link") for k in SECTIONS for it in digest.get(k, [])}
     sent -= {None}
     prev = json.loads(SEEN_FILE.read_text()) if SEEN_FILE.exists() else []
     SEEN_FILE.write_text(json.dumps((prev + sorted(sent))[-1500:], indent=0))
@@ -643,15 +677,20 @@ def self_check():
     assert strip_html("<b>a</b>\n\n b") == "a b"
     html = render({"ships": [{"title": "<script>x</script>", "link": "https://x.test/c",
                              "source": "S", "what": "w", "why": "y", "tag": "model"}],
+                   "industry": [{"title": "Big round", "link": "https://x.test/d",
+                                 "source": "S", "what": "w", "why": "y", "tag": "funding"}],
                    "research": [], "skipped_note": "n"}, "Today")
     assert "<script>x</script>" not in html and "&lt;script&gt;" in html, "title not escaped"
+    assert "Big round" in html and "1 industry" in html, "industry section missing"
 
     # A link the model invents rather than copies from the fetched items gets dropped.
     filtered = _keep_known_links(
         {"ships": [{"link": "https://real.test/1"}, {"link": "https://made-up.test/2"}],
+         "industry": [{"link": "https://made-up.test/3"}],
          "research": [{"link": "https://real.test/1"}]},
         {"https://real.test/1"})
     assert [e["link"] for e in filtered["ships"]] == ["https://real.test/1"]
+    assert filtered["industry"] == [], "invented industry link should be dropped"
     assert len(filtered["research"]) == 1
 
     # A blocked or empty Gemini response should raise a clear error, not a bare KeyError.
@@ -668,6 +707,12 @@ def self_check():
     load_config()
     del os.environ["DIGEST_KEEP_SHIPS"]
     assert KEEP_SHIPS == saved, "bad DIGEST_KEEP_SHIPS should not have changed KEEP_SHIPS"
+    saved = KEEP_INDUSTRY
+    os.environ["DIGEST_KEEP_INDUSTRY"] = "7"
+    load_config()
+    del os.environ["DIGEST_KEEP_INDUSTRY"]
+    assert KEEP_INDUSTRY == 7, "DIGEST_KEEP_INDUSTRY should override"
+    globals()["KEEP_INDUSTRY"] = saved
 
     # The send gate. This is the whole reason the mail lands when it does, so it gets
     # real tests -- `now` is injectable so they don't depend on when they are run.
@@ -780,8 +825,8 @@ def main():
     out = HERE / "digests" / (local_now().strftime("%Y-%m-%d") + ".html")
     out.parent.mkdir(exist_ok=True)
     out.write_text(html, encoding="utf-8")
-    print("  wrote %s  (%d shipped, %d research)"
-          % (out, len(digest.get("ships", [])), len(digest.get("research", []))))
+    print("  wrote %s  (%d shipped, %d industry, %d research)"
+          % ((out,) + tuple(len(digest.get(k, [])) for k in SECTIONS)))
 
     if "--no-email" not in args:
         send(html, date_str)

@@ -28,10 +28,11 @@ Hacker News is doing a specific job: Anthropic, Meta and Mistral publish no usab
 RSS, so their releases get caught there or not at all.
 
 Everything from the last 72 hours that hasn't been sent before goes to Gemini in one
-call, along with `PROFILE` — the description of what I work on. It comes back in two
+call, along with `PROFILE` — the description of what I work on. It comes back in three
 sections: **Shipped** (up to 15) for things usable today — models, agents, IDEs, inference
-servers, tooling — and **Research & writing** (up to 5) for papers and writeups. Splitting
-them is what stops a good release being crowded out by papers. Each item gets a
+servers, tooling — **Industry** (up to 10) for funding, people moves, deals, policy and
+commentary, and **Research & writing** (up to 5) for papers and writeups. Splitting
+them is what stops a good release being crowded out by papers or headlines. Each item gets a
 plain-English "what it is" and a concrete "why you care".
 
 The prompt forbids inventing a rationale: release notes arrive truncated, and without that
@@ -54,7 +55,7 @@ Everything below is per-person. Nobody edits `digest.py` to do any of it.
 
 2. **Your profile** — `cp config.example.json config.json`, then edit `profile` in that
    file to describe what *you* actually work on, and optionally `keep_ships` /
-   `keep_research` if 15/5 isn't the split you want. `config.json` is gitignored, so this
+   `keep_industry` / `keep_research` if 15/10/5 isn't the split you want. `config.json` is gitignored, so this
    never overwrites anyone else's and never gets pushed. No `config.json` at all just
    falls back to the built-in defaults in `digest.py`.
 
@@ -104,8 +105,8 @@ a scheduled run needs your profile a different way, and that way is repository
 secrets/variables alongside the ones from Setup:
 
 - `DIGEST_PROFILE` (secret) — the same text as your local `config.json`'s `profile`.
-- `DIGEST_KEEP_SHIPS`, `DIGEST_KEEP_RESEARCH` (variables) — only needed if 15/5 isn't
-  your split.
+- `DIGEST_KEEP_SHIPS`, `DIGEST_KEEP_INDUSTRY`, `DIGEST_KEEP_RESEARCH` (variables) — only
+  needed if 15/10/5 isn't your split.
 - `DIGEST_SEND_AFTER`, `DIGEST_UTC_OFFSET` (variables) — only needed if 09:45 IST isn't
   when you want it. See below for why these exist rather than a cron time.
 
@@ -149,7 +150,8 @@ worst case is one repeated digest.
 All told, a scheduled run needs five repository **secrets**: `GEMINI_API_KEY`,
 `DIGEST_TO`, `DIGEST_FROM`, `DIGEST_SMTP_PASS`, `DIGEST_PROFILE`. Everything else is an
 optional repository **variable** for moving off a default: `GEMINI_MODEL`,
-`DIGEST_KEEP_SHIPS`, `DIGEST_KEEP_RESEARCH`, `DIGEST_SEND_AFTER`, `DIGEST_UTC_OFFSET`.
+`DIGEST_KEEP_SHIPS`, `DIGEST_KEEP_INDUSTRY`, `DIGEST_KEEP_RESEARCH`, `DIGEST_SEND_AFTER`,
+`DIGEST_UTC_OFFSET`.
 Actions supplies `GITHUB_TOKEN` itself — nothing to set up, it just lifts the rate limit
 on repo discovery.
 
