@@ -1,0 +1,26 @@
+name: send digest
+
+# The delivery half of the Claude-routine setup. The routine picks the stories and pushes
+# the finished email to the claude/digest branch; this only mails it. A push event runs
+# within seconds -- it is only GitHub's cron that runs hours late -- and the routine's
+# sandbox can't reach Gmail's mail server itself, so the Gmail password stays here.
+on:
+  push:
+    branches: [claude/digest]
+    paths: ["outbox/**"]
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: python digest.py --send-file outbox/digest.html
+        env:
+          DIGEST_TO:        ${{ secrets.DIGEST_TO }}
+          DIGEST_FROM:      ${{ secrets.DIGEST_FROM }}
+          DIGEST_SMTP_PASS: ${{ secrets.DIGEST_SMTP_PASS }}

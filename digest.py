@@ -5,6 +5,7 @@
     python digest.py --dry-run       # fetch and count, no LLM, no email
     python digest.py --once-daily    # skip if a digest already went out today
     python digest.py --self-check    # parser asserts, no network
+    python digest.py --send-file F   # email an already-built digest (used by send.yml)
 
 Env: GEMINI_API_KEY (required), GEMINI_MODEL, DIGEST_TO, DIGEST_FROM, DIGEST_SMTP_PASS,
      DIGEST_PROFILE, DIGEST_KEEP_SHIPS, DIGEST_KEEP_INDUSTRY, DIGEST_KEEP_RESEARCH,
@@ -677,6 +678,16 @@ def send(html, date_str):
     print("  emailed to " + to)
 
 
+def send_file(path):
+    """Email an already-built digest. The Claude routine does the picking and pushes the
+    HTML to the claude/digest branch; send.yml calls this to deliver it, because the
+    routine's sandbox can't reach Gmail's mail server itself."""
+    f = Path(path)
+    if not (path and f.is_file()):
+        sys.exit("--send-file needs an existing HTML file, got %r" % path)
+    send(f.read_text(encoding="utf-8"), local_now().strftime("%A, %d %B %Y"))
+
+
 def remember(digest):
     """Only remember what was actually sent, so a good item crowded out today can return."""
     sent = {it.get("link") for k in SECTIONS for it in digest.get(k, [])}
@@ -750,6 +761,14 @@ def self_check():
     finally:
         urllib.request.urlopen, time.sleep = real_open, real_sleep
     assert tried == ["gemini-flash-latest"] * 3 + ["gemini-3.6-flash"], tried
+
+    # --send-file with a missing path should stop with a message, not a traceback.
+    for bad in ("", "no/such/file.html"):
+        try:
+            send_file(bad)
+            assert False, "send_file(%r) should have exited" % bad
+        except SystemExit:
+            pass
 
     # A non-numeric DIGEST_KEEP_SHIPS should warn and leave the value alone, not crash.
     saved = KEEP_SHIPS
@@ -847,6 +866,9 @@ def main():
         return self_check()
     load_dotenv()
     load_config()
+    if "--send-file" in args:
+        rest = args[args.index("--send-file") + 1:]
+        return send_file(rest[0] if rest else "")
 
     # The workflow fires a cron every half hour through the night because GitHub runs
     # them hours late by a varying amount. These two checks are what turn that spray of
