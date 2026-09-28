@@ -553,6 +553,14 @@ def rank(items):
                          "September 2026 -- create a fresh auth key at\n"
                          "https://aistudio.google.com/apikey\n\n%s" % (e.code, detail))
             sys.exit("Gemini call failed (%d): %s" % (e.code, detail))
+        except (TimeoutError, urllib.error.URLError, ConnectionError) as e:
+            # A hung or dropped connection, not an HTTP answer -- same "try again" case.
+            if attempt < 3:
+                print("  ! Gemini %s, retrying in %ds" % (type(e).__name__, 30 * attempt),
+                      file=sys.stderr)
+                time.sleep(30 * attempt)
+                continue
+            sys.exit("Gemini did not answer after 3 tries (%s). Nothing to send today." % e)
 
     result = json.loads(_extract_text(resp))
     return _keep_known_links(result, {it["link"] for it in items})
