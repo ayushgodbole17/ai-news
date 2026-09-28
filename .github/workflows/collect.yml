@@ -1,0 +1,50 @@
+name: collect items
+
+# The gathering half of the Claude-routine setup. The routine starts this on demand (a
+# dispatched run starts within seconds; only GitHub's cron runs late), because its own
+# sandbox can't reach GitHub release feeds or discovery, and some sites block it. This
+# writes inbox/items.json to the claude/digest branch -- inbox/, not outbox/, so it never
+# triggers send.yml.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Weekly repo-discovery cache, same idea as digest.yml.
+      - uses: actions/cache@v4
+        with:
+          path: repos.json
+          key: collect-repos-${{ github.run_id }}
+          restore-keys: collect-repos-
+
+      - run: python digest.py --collect-json /tmp/items.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # lifts the discovery rate limit
+
+      - name: Push items to claude/digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin claude/digest
+          git worktree add /tmp/digest origin/claude/digest
+          cd /tmp/digest
+          mkdir -p inbox
+          cp /tmp/items.json inbox/items.json
+          git add inbox/items.json
+          git commit -m "Collected items for $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push origin HEAD:claude/digest

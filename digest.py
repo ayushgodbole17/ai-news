@@ -6,6 +6,7 @@
     python digest.py --once-daily    # skip if a digest already went out today
     python digest.py --self-check    # parser asserts, no network
     python digest.py --send-file F   # email an already-built digest (used by send.yml)
+    python digest.py --collect-json F  # fetch only, items as JSON (used by collect.yml)
 
 Env: GEMINI_API_KEY (required), GEMINI_MODEL, DIGEST_TO, DIGEST_FROM, DIGEST_SMTP_PASS,
      DIGEST_PROFILE, DIGEST_KEEP_SHIPS, DIGEST_KEEP_INDUSTRY, DIGEST_KEEP_RESEARCH,
@@ -688,6 +689,20 @@ def send_file(path):
     send(f.read_text(encoding="utf-8"), local_now().strftime("%A, %d %B %Y"))
 
 
+def collect_json(path):
+    """Fetch every source and write the items as JSON for the Claude routine to pick from.
+    Runs on GitHub (collect.yml) because the routine's sandbox can't reach GitHub release
+    feeds or discovery for repos not attached to it, and some sites block its network."""
+    if not path:
+        sys.exit("--collect-json needs an output path")
+    items = collect()
+    for it in items:
+        it["date"] = it["date"].isoformat() if it["date"] else None
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    Path(path).write_text(json.dumps(items, indent=1), encoding="utf-8")
+    print("  wrote %d items to %s" % (len(items), path))
+
+
 def remember(digest):
     """Only remember what was actually sent, so a good item crowded out today can return."""
     sent = {it.get("link") for k in SECTIONS for it in digest.get(k, [])}
@@ -769,6 +784,18 @@ def self_check():
             assert False, "send_file(%r) should have exited" % bad
         except SystemExit:
             pass
+
+    # --collect-json writes dates as text (JSON has no datetime) and keeps undated items.
+    import tempfile
+    real_collect = globals()["collect"]
+    globals()["collect"] = lambda: [dict(r), dict(b, date=None)]
+    try:
+        out = Path(tempfile.mkdtemp()) / "sub" / "items.json"
+        collect_json(str(out))
+        got = json.loads(out.read_text(encoding="utf-8"))
+    finally:
+        globals()["collect"] = real_collect
+    assert got[0]["date"].startswith("2026-09-03") and got[1]["date"] is None, got
 
     # A non-numeric DIGEST_KEEP_SHIPS should warn and leave the value alone, not crash.
     saved = KEEP_SHIPS
@@ -869,6 +896,9 @@ def main():
     if "--send-file" in args:
         rest = args[args.index("--send-file") + 1:]
         return send_file(rest[0] if rest else "")
+    if "--collect-json" in args:
+        rest = args[args.index("--collect-json") + 1:]
+        return collect_json(rest[0] if rest else "")
 
     # The workflow fires a cron every half hour through the night because GitHub runs
     # them hours late by a varying amount. These two checks are what turn that spray of
