@@ -441,7 +441,13 @@ writeups. Ideas rather than artifacts.
 
 For SHIPS and RESEARCH, judge relevance by their actual work, not general AI
 newsworthiness. Weight things touching their voice and speech stack, Indic languages,
-evals, guardrails, and inference cost most heavily.
+evals, guardrails, and inference cost most heavily. A new Indic speech model or a
+voice-agent framework release beats any coding-tool update.
+
+AI coding tools (Claude Code, agent SDKs, MCP servers, plugins, coding agents) are a
+secondary interest: at most 4 SHIPS slots between them, and only for a genuinely new
+thing or a real feature, never a routine point release. Their core work never gets
+pushed out to make room for these.
 
 Drop outage chatter entirely. Each item goes in at most one list. Return fewer than the
 limits if the rest do not clear the bar -- never pad a list to fill it.
