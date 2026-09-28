@@ -2,46 +2,29 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>PROOF 2 - ai-news environment network test</title>
+<title>PROOF 3 - routine starts GitHub collect and reads it</title>
 </head>
 <body>
-<h1>PROOF 2 - ai-news environment network test</h1>
-<p>UTC time: Mon Sep 28 07:19:34 UTC 2026</p>
-<h2>Step 1 results (python digest.py --dry-run)</h2>
-<p>Total: 96 new items (0 already sent before)</p>
-<h3>Per-source counts</h3>
-<ul>
-<li>arXiv: 32</li>
-<li>TechCrunch AI: 15</li>
-<li>The Verge AI: 9</li>
-<li>GitHub: 8</li>
-<li>Simon Willison: 6</li>
-<li>HN: 23</li>
-<li>VS Code: 1</li>
-<li>OpenAI: 1</li>
-<li>MIT News: 1</li>
-</ul>
-<h3>Failed / blocked lines</h3>
-<ul>
-<li>! discover llm: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! discover ai-agents: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! discover speech-recognition: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! discover text-to-speech: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! discover voice-assistant: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! discover rag: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! discover vector-database: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! discover llmops: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! discover mlops: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! discover code-generation: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! discover claude-code: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! discover mcp-server: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! discover model-context-protocol: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! MarkTechPost: ParseError: not well-formed (invalid token): line 1, column 119</li>
-<li>! anthropics/claude-agent-sdk-python releases: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! anthropics/claude-code releases: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! anthropics/skills releases: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! modelcontextprotocol/servers releases: HTTPError: HTTP Error 403: Forbidden</li>
-<li>! anthropics/claude-agent-sdk-typescript releases: HTTPError: HTTP Error 403: Forbidden</li>
-</ul>
+<h1>PROOF 3 - routine starts GitHub collect and reads it</h1>
+<p><strong>Current UTC time:</strong> Mon Sep 28 07:31:54 UTC 2026</p>
+
+<h2>STEP 2 output (gh api dispatch)</h2>
+<pre>
+Command: gh api -X POST repos/ayushgodbole17/ai-news/actions/workflows/collect.yml/dispatches -f ref=main
+
+Output:
+/bin/bash: line 1: gh: command not found
+
+Exit code: 127
+</pre>
+
+<h2>STEP 3</h2>
+<p>Skipped: STEP 2 failed (gh CLI not available in this environment), so per instructions the wait step was skipped.</p>
+
+<h2>STEP 4</h2>
+<p>Skipped: STEP 2 failed, so per instructions the read step was skipped.</p>
+
+<h2>Failure details</h2>
+<p>The <code>gh</code> CLI is not installed / not on PATH in this remote execution environment. This session only has access to GitHub via the GitHub MCP server tools (prefixed <code>mcp__github__</code>), not the <code>gh</code> CLI or direct API access. As instructed, no workaround was attempted; the failure is reported as-is.</p>
 </body>
 </html>
