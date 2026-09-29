@@ -43,7 +43,7 @@ already used, so only the always-free allowances count); sending from the owner'
   "gemini_key": "AIza...",
   "send_time": "09:45",
   "timezone": "Asia/Kolkata",
-  "counts": {"ships": 15, "industry": 10, "research": 5},
+  "counts": {"ships": 15, "industry": 10, "research": 5, "practice": 5},
   "profile": "Plain paragraphs: what I build, my stack, what I care about, what I don't.",
   "sources": {
     "rss": ["https://example.com/feed.xml"],
@@ -56,6 +56,13 @@ already used, so only the always-free allowances count); sending from the owner'
 ```
 
 - `send_time` is on a quarter hour. `timezone` is an IANA name.
+- `counts` sets the most items per section, 0 to 20. A 0 turns that section off. At
+  least one section must be above 0. The four sections are:
+  - Shipped: things you can use today.
+  - Industry: money, people, deals, policy.
+  - Research: papers and benchmarks.
+  - Practice: engineering write-ups, postmortems and migration stories from teams doing
+    the work.
 - Everyone also gets the shared AI sources the current digest uses (feeds, Hacker News
   queries, arXiv, Hugging Face, Anthropic release feeds), since the brief is "own field,
   AI included". Repo discovery by GitHub topic stays, for the shared AI part only.
