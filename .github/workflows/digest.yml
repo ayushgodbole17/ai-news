@@ -1,14 +1,10 @@
 name: daily ai digest
 
 on:
-  # Measured over 13 consecutive days, GitHub fired this repo's crons 4.3-5.6 hours
-  # late, every single day, never improving. So this does not try to name the delivery
-  # time here at all -- it sprays a run every half hour across the night and morning,
-  # and digest.py decides which one sends (the first to land at or after SEND_AFTER,
-  # local time). Covers both today's ~5h delay and a future where GitHub fires on time.
-  # Odd minutes on purpose: :00 and :30 are the most congested slots on the platform.
-  schedule:
-    - cron: "13,43 22-23,0-8 * * *"
+  # Manual only. The daily digest now comes from a Claude routine (collect.yml gathers,
+  # the routine picks, send.yml emails). This Gemini path lost its timer on 29 Sept 2026:
+  # GitHub fired its crons hours late and on that day skipped every run after 09:45, and
+  # Gemini's free tier kept answering "overloaded". Kept as a hand-started fallback.
   workflow_dispatch:
 
 concurrency:                # never let two attempts run at once
