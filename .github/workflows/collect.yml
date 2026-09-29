@@ -7,6 +7,11 @@ name: collect items
 # triggers send.yml.
 on:
   workflow_dispatch:
+  # Backup only: if the routine's on-demand start ever fails, it falls back to the newest
+  # items.json, so any one of these landing overnight keeps that list fresh. GitHub fires
+  # crons late and skips most of them, hence several.
+  schedule:
+    - cron: "17 20-23,0-3 * * *"
 
 permissions:
   contents: write

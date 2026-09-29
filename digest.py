@@ -7,6 +7,8 @@
     python digest.py --self-check    # parser asserts, no network
     python digest.py --send-file F   # email an already-built digest (used by send.yml)
     python digest.py --collect-json F  # fetch only, items as JSON (used by collect.yml)
+    python digest.py --build-prompt ITEMS        # picking instructions (Claude routine)
+    python digest.py --render-picks PICKS ITEMS  # picks -> outbox/digest.html (routine)
 
 Env: GEMINI_API_KEY (required), GEMINI_MODEL, DIGEST_TO, DIGEST_FROM, DIGEST_SMTP_PASS,
      DIGEST_PROFILE, DIGEST_KEEP_SHIPS, DIGEST_KEEP_INDUSTRY, DIGEST_KEEP_RESEARCH,
@@ -515,6 +517,17 @@ def _keep_known_links(result, valid_links):
     return result
 
 
+def build_prompt(items):
+    """The full picking instructions plus the item listing -- the same text whether Gemini
+    (rank) or the Claude routine (--build-prompt) does the picking."""
+    listing = "\n".join(
+        "[%d] (%s) %s\n    %s\n    %s" % (i, it["source"], it["title"], it["link"],
+                                          it["summary"][:280])
+        for i, it in enumerate(items))
+    return PROMPT.format(profile=PROFILE, n=len(items), hours=WINDOW_HOURS, ships=KEEP_SHIPS,
+                         industry=KEEP_INDUSTRY, research=KEEP_RESEARCH, items=listing)
+
+
 def rank(items):
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
@@ -528,14 +541,8 @@ def rank(items):
     models = list(dict.fromkeys([os.environ.get("GEMINI_MODEL") or "gemini-flash-latest",
                                  "gemini-3.6-flash"]))
 
-    listing = "\n".join(
-        "[%d] (%s) %s\n    %s\n    %s" % (i, it["source"], it["title"], it["link"],
-                                          it["summary"][:280])
-        for i, it in enumerate(items))
     body = json.dumps({
-        "contents": [{"parts": [{"text": PROMPT.format(
-            profile=PROFILE, n=len(items), hours=WINDOW_HOURS, ships=KEEP_SHIPS,
-            industry=KEEP_INDUSTRY, research=KEEP_RESEARCH, items=listing)}]}],
+        "contents": [{"parts": [{"text": build_prompt(items)}]}],
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2},
     }).encode()
 
@@ -703,12 +710,45 @@ def collect_json(path):
     print("  wrote %d items to %s" % (len(items), path))
 
 
-def remember(digest):
+# The Claude routine's two halves. It runs these from a checkout of the claude/digest
+# branch, so the state paths below are relative to that branch, not to this file.
+ROUTINE_SEEN = Path("state/seen.json")
+ROUTINE_SENT = Path("state/last_sent.txt")
+
+
+def build_prompt_cli(items_path):
+    """Print the picking instructions for the routine: the same PROMPT Gemini gets, over
+    the collected items minus anything already sent."""
+    items = json.loads(Path(items_path).read_text(encoding="utf-8"))
+    seen = set(json.loads(ROUTINE_SEEN.read_text())) if ROUTINE_SEEN.exists() else set()
+    fresh = [it for it in items if it["link"] not in seen]
+    print("  %d items, %d already sent" % (len(items), len(items) - len(fresh)), file=sys.stderr)
+    print(build_prompt(fresh))
+
+
+def render_picks(picks_path, items_path):
+    """Turn the routine's picks into outbox/digest.html and record them as sent. Links
+    not in the collected items are dropped, same backstop as for Gemini."""
+    picks = json.loads(Path(picks_path).read_text(encoding="utf-8"))
+    items = json.loads(Path(items_path).read_text(encoding="utf-8"))
+    digest = _keep_known_links(picks, {it["link"] for it in items})
+    out = Path("outbox/digest.html")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(render(digest, local_now().strftime("%A, %d %B %Y")), encoding="utf-8")
+    remember(digest, ROUTINE_SEEN)
+    ROUTINE_SENT.write_text(local_now().strftime("%Y-%m-%d"))
+    print("  wrote %s  (%d shipped, %d industry, %d research)"
+          % ((out,) + tuple(len(digest.get(k, [])) for k in SECTIONS)))
+
+
+def remember(digest, path=None):
     """Only remember what was actually sent, so a good item crowded out today can return."""
+    path = path or SEEN_FILE
     sent = {it.get("link") for k in SECTIONS for it in digest.get(k, [])}
     sent -= {None}
-    prev = json.loads(SEEN_FILE.read_text()) if SEEN_FILE.exists() else []
-    SEEN_FILE.write_text(json.dumps((prev + sorted(sent))[-1500:], indent=0))
+    prev = json.loads(path.read_text()) if path.exists() else []
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps((prev + sorted(sent))[-1500:], indent=0))
 
 
 def self_check():
@@ -796,6 +836,36 @@ def self_check():
     finally:
         globals()["collect"] = real_collect
     assert got[0]["date"].startswith("2026-09-03") and got[1]["date"] is None, got
+
+    # Routine round trip: already-sent items leave the prompt, an invented link is dropped,
+    # and what was sent is recorded so tomorrow skips it.
+    import contextlib, io
+    here = os.getcwd()
+    os.chdir(tempfile.mkdtemp())
+    try:
+        Path("state").mkdir()
+        ROUTINE_SEEN.write_text(json.dumps(["https://x.test/old"]))
+        Path("items.json").write_text(json.dumps([
+            {"source": "S", "title": "Old", "link": "https://x.test/old", "summary": "", "date": None},
+            {"source": "S", "title": "New", "link": "https://x.test/new", "summary": "", "date": None}]))
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            build_prompt_cli("items.json")
+        assert "https://x.test/new" in buf.getvalue() and "x.test/old" not in buf.getvalue()
+        Path("picks.json").write_text(json.dumps({
+            "ships": [{"title": "New", "link": "https://x.test/new", "source": "S",
+                       "what": "w", "why": "y", "tag": "tool"},
+                      {"title": "Fake", "link": "https://made-up.test/", "source": "S",
+                       "what": "w", "why": "y", "tag": "tool"}],
+            "industry": [], "research": [], "skipped_note": "n"}))
+        with contextlib.redirect_stdout(io.StringIO()):
+            render_picks("picks.json", "items.json")
+        page = Path("outbox/digest.html").read_text(encoding="utf-8")
+        assert "x.test/new" in page and "made-up.test" not in page
+        assert json.loads(ROUTINE_SEEN.read_text()) == ["https://x.test/old", "https://x.test/new"]
+        assert ROUTINE_SENT.read_text() == local_now().strftime("%Y-%m-%d")
+    finally:
+        os.chdir(here)
 
     # A non-numeric DIGEST_KEEP_SHIPS should warn and leave the value alone, not crash.
     saved = KEEP_SHIPS
@@ -899,6 +969,11 @@ def main():
     if "--collect-json" in args:
         rest = args[args.index("--collect-json") + 1:]
         return collect_json(rest[0] if rest else "")
+    if "--build-prompt" in args:
+        return build_prompt_cli(args[args.index("--build-prompt") + 1])
+    if "--render-picks" in args:
+        i = args.index("--render-picks")
+        return render_picks(args[i + 1], args[i + 2])
 
     # The workflow fires a cron every half hour through the night because GitHub runs
     # them hours late by a varying amount. These two checks are what turn that spray of
