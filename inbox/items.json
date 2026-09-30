@@ -161,76 +161,6 @@
   "date": "2026-09-28T12:32:03+00:00"
  },
  {
-  "source": "MarkTechPost",
-  "title": "One Bad Prompt Took Down a Company\u2019s Salesforce: RSA\u2019s Jim Taylor on Agent ID and Taming the 4,000 Shadow AI Agents Hiding in Your Enterprise",
-  "link": "https://www.marktechpost.com/2026/09/29/rsa-launches-agent-id-to-discover-secure-and-govern-ai-agents-in-regulated-industries/",
-  "summary": "RSA launched Agent ID at The AI Conference in San Francisco. It's an agentic identity security platform for finance, government, healthcare, and critical infrastructure. It has 3 modules. Discover finds sanctioned and shadow agents and MCP servers. Secure is an inline gateway that checks every tool call against policy. Govern maps evidence to 10 regulatory frameworks. Discover and Secure ship Nove",
-  "date": "2026-09-30T01:30:17+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Liquid AI Releases d1: A Decision Model That Returns Calibrated Probabilities With Zero Output Tokens",
-  "link": "https://www.marktechpost.com/2026/09/29/liquid-ai-releases-d1-a-decision-model-that-returns-calibrated-probabilities-with-zero-output-tokens/",
-  "summary": "Liquid AI has released d1, a decision model built for structured choices instead of text generation. You give it context and a set of typed questions. It returns calibrated probabilities across a fixed set of outcomes in a single call, with zero generated tokens. The target is the work many teams still send to general [\u2026] The post Liquid AI Releases d1: A Decision Model That Returns Calibrated Pro",
-  "date": "2026-09-29T21:47:09+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "OpenAI Launches dots: Always-On GPT-6 Astra Agents That Work From Their Own Cloud Computers",
-  "link": "https://www.marktechpost.com/2026/09/29/openai-launches-dots-always-on-gpt-6-astra-agents-that-work-from-their-own-cloud-computers/",
-  "summary": "OpenAI just introduced dots at their DevDay today. Dots are persistent AI agents powered by GPT-6 Astra. Each dot gets its own cloud computer and browser. It works across 4,000+ apps through ChatGPT plugins and keeps going after you log off. Is it deployable today? Yes, as a managed product. Dots are rolling out in [\u2026] The post OpenAI Launches dots: Always-On GPT-6 Astra Agents That Work From Thei",
-  "date": "2026-09-29T18:30:13+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Nebius Opens 2026 Physical AI Awards: Five $150K Compute Credit Prizes",
-  "link": "https://www.marktechpost.com/2026/09/29/nebius-opens-2026-physical-ai-awards-five-150k-compute-prizes/",
-  "summary": "Nebius and NVIDIA are running the 2026 Physical AI Awards for startups with products in the field. Five category winners each get $150,000 in compute credits, joint promotion, executive mentorship, and seats at an executive dinner. Applications close October 25. The post Nebius Opens 2026 Physical AI Awards: Five $150K Compute Credit Prizes appeared first on MarkTechPost .",
-  "date": "2026-09-29T17:48:10+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Google Research Open-Sources RRSI: AI Agents That Improve Their Own Harness Without Overfitting",
-  "link": "https://www.marktechpost.com/2026/09/29/google-research-open-sources-rrsi-ai-agents-that-improve-their-own-harness-without-overfitting/",
-  "summary": "Google Cloud AI Research has open-sourced RRSI, a framework that lets LLM agents rewrite their own prompts, tools and memory while model weights stay frozen. It adds a leakage critic, a noise floor, a cost rule and pruning so gains carry over to new tasks. With Claude Opus 4.8, Terminal-Bench 2.1 rose from 74.2% to 80.2%, and all 6 held-out splits improved. The post Google Research Open-Sources RR",
-  "date": "2026-09-29T09:01:36+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "H Company Releases Holo4: Open-Weight Computer-Use Models That Click, Code and Call Tools Across Desktop, Web, Android and APIs",
-  "link": "https://www.marktechpost.com/2026/09/29/h-company-releases-holo4-open-weight-computer-use-models-that-click-code-and-call-tools-across-desktop-web-android-and-apis/",
-  "summary": "H Company has released Holo4, a family of generalist computer-use models for AI agents. One set of weights clicks and types on screens. It also writes code and calls MCP or API tools. Holo4 ships in 2 sizes: Holo4 27B (dense) and Holo4 35B-A3B (Mixture of Experts, 3B active). Both serve a 256K context on [\u2026] The post H Company Releases Holo4: Open-Weight Computer-Use Models That Click, Code and Ca",
-  "date": "2026-09-29T07:38:13+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Alibaba Qwen Releases Qwen-Audio-3.1-Realtime: A Full-Duplex Voice Model Trained to Think, Act, and Decide When to Speak",
-  "link": "https://www.marktechpost.com/2026/09/28/alibaba-qwen-releases-qwen-audio-3-1-realtime-a-full-duplex-voice-model-trained-to-think-act-and-decide-when-to-speak/",
-  "summary": "Alibaba's Qwen team released Qwen-Audio-3.1-Realtime, a full-duplex voice model trained to reason, call tools and decide when to speak. On a \u03c4-Voice adaptation, task success rises to 82.0% from 78.4%. Replies to background speech drop from 73% to 13%. It is available now as an API on QwenCloud. The post Alibaba Qwen Releases Qwen-Audio-3.1-Realtime: A Full-Duplex Voice Model Trained to Think, Act,",
-  "date": "2026-09-29T04:58:15+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Anthropic Releases Claude Sonnet 5.5: 70.6% on Terminal-Bench 4.0 at the Same $2/$10 Price",
-  "link": "https://www.marktechpost.com/2026/09/28/anthropic-releases-claude-sonnet-5-5-70-6-on-terminal-bench-4-0-at-the-same-2-10-price/",
-  "summary": "Anthropic has released Claude Sonnet 5.5, the second model in its Claude 5.5 family. It scores 70.6% on Terminal-Bench 4.0 and lands within 2 points of Opus 5.5 on GDPval-AA. It also generates output 30%+ faster than Sonnet 5 and keeps the same $2/$10 per million token price. Anthropic says cost per task falls by up to 30% because the model uses fewer tokens. You can deploy it today via the Claude",
-  "date": "2026-09-29T04:20:59+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "NVIDIA Launches Open Agent Safety Platform: OpenShell Sandboxes Agents on Vera CPUs While Sentry on BlueField-4 Quarantines Them in Milliseconds",
-  "link": "https://www.marktechpost.com/2026/09/28/nvidia-launches-open-agent-safety-platform/",
-  "summary": "NVIDIA has launched the Open Agent Safety Platform, an open reference design that enforces AI agent safety outside the agent itself. OpenShell, an Apache 2.0 runtime, sandboxes agents under YAML policies. Sentry, an out-of-band watchdog on BlueField-4 DPUs, can quarantine an agent that escapes its boundary in milliseconds. NVIDIA says over 100 organizations are working with the platform. The post ",
-  "date": "2026-09-28T19:21:25+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Fireworks AI Releases Ember-1: A Post-Trained Kimi K3 That Uses About 40% Fewer Tokens",
-  "link": "https://www.marktechpost.com/2026/09/28/fireworks-ai-releases-ember-1-a-post-trained-kimi-k3-that-uses-about-40-fewer-tokens/",
-  "summary": "Fireworks AI has released Ember-1, a post-trained Kimi K3 that learns to produce shorter reasoning traces instead of lowering reasoning effort. Fireworks reports about 40% fewer tokens, with output tokens per task falling from 49.3K to 29.9K in a production A/B test at an essentially unchanged score. Ember-1 is available now as an API-only Research Preview at Kimi K3 pricing. The post Fireworks AI",
-  "date": "2026-09-28T07:22:33+00:00"
- },
- {
   "source": "MIT News",
   "title": "The effects of an \u201calgorithmic monoculture\u201d depend on the details",
   "link": "https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929",
@@ -490,14 +420,14 @@
   "date": "2026-09-28T17:58:11+00:00"
  },
  {
-  "source": "HN (205pts)",
+  "source": "HN (210pts)",
   "title": "GLM-5.3 and the spread of advanced cyber capabilities",
   "link": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
   "summary": "",
   "date": "2026-09-29T17:31:26+00:00"
  },
  {
-  "source": "HN (45pts)",
+  "source": "HN (47pts)",
   "title": "Mistral CEO says U.S. AI safety debate masks competitors' 'negligence'",
   "link": "https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html",
   "summary": "",
@@ -581,7 +511,7 @@
   "date": "2026-09-28T17:34:36+00:00"
  },
  {
-  "source": "HN (412pts)",
+  "source": "HN (414pts)",
   "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
   "link": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
   "summary": "",
@@ -747,6 +677,13 @@
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.32-v0.21.5",
   "summary": "{\"attempt\":32,\"attemptRef\":\"rc.32-v0.21.5\",\"schema\":1,\"version\":\"0.21\u2026",
   "date": "2026-09-30T02:11:25+00:00"
+ },
+ {
+  "source": "release: Significant-Gravitas/AutoGPT",
+  "title": "AutoGPT \ud83d\ude80 Release `autogpt-platform-beta-v0.8.2`",
+  "link": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.8.2",
+  "summary": "\ud83d\udd25 What's New? New Features #14209 - AutoPilot action gating modes - Ask First, Auto, Unsupervised (by @Pwuts ) #14817 - Workflows started from AutoPilot pause before an irreversible action; the irreversible marker renamed and widened (by @Pwuts ) #14832 - AutoPilot carries on while a held call await",
+  "date": "2026-09-30T05:25:31+00:00"
  },
  {
   "source": "release: Significant-Gravitas/AutoGPT",
@@ -1477,6 +1414,13 @@
   "date": "2026-09-30T00:00:00-04:00"
  },
  {
+  "source": "HF Papers (3 up)",
+  "title": "Context Language Models",
+  "link": "https://huggingface.co/papers/2609.37725",
+  "summary": "We introduce Context Language Models (CLMs), language models that natively manage their own context. We implement this by treating the context as a file and allowing the model to make unrestricted updates to this file. This allows the model to learn what is most important to maintain in context, and naturally extends to multi-agent systems where multiple agent contexts coexist as files. Building C",
+  "date": "2026-09-28T20:00:00+00:00"
+ },
+ {
   "source": "HF Papers (1 up)",
   "title": "Same Bytes, Different Authority: Reserved-Token Representations in Chat-Template Prompt Injection",
   "link": "https://huggingface.co/papers/2609.35932",
@@ -1484,7 +1428,7 @@
   "date": "2026-09-27T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (3 up)",
   "title": "Chinese-Jev: Bringing System One Model to Chinese-Language Tasks",
   "link": "https://huggingface.co/papers/2609.36965",
   "summary": "System One models such as Jev offer an efficient alternative to generative language models for tasks that require decisions rather than open-ended responses. However, existing Jev models exhibit limited Chinese-language decision accuracy, restricting their utility in both general and specialized settings. In this paper, we introduce Chinese-Jev, a System One model that addresses this gap through a",
@@ -1498,14 +1442,14 @@
   "date": "2026-09-28T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (3 up)",
+  "source": "HF Papers (6 up)",
   "title": "EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?",
   "link": "https://huggingface.co/papers/2609.37686",
   "summary": "Autonomous agents have made rapid progress in general-purpose computer use, but reliable automation of professional industrial engineering remains out of reach, as engineering workflows demand reasoning over geometric and physical constraints and dependencies preserved across software and design stages. We present EngiWorld, the first benchmark structured around the complete design loop: 1,301 exp",
   "date": "2026-09-28T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (0 up)",
+  "source": "HF Papers (1 up)",
   "title": "One Proposal for Every Margin: Zero-Shot Amortized Sequential Importance Sampling for Binary Matrices",
   "link": "https://huggingface.co/papers/2609.35514",
   "summary": "In ecology, psychometrics, and the analysis of social and financial networks, binary matrices are often analyzed conditional on their observed row and column sums, which restricts the problem to a finite sample space of matrices with the same margins. Two fundamental problems are to count this space and to sample uniformly from it. Sequential importance sampling (SIS) addresses both with independe",
@@ -1554,7 +1498,7 @@
   "date": "2026-09-28T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (7 up)",
+  "source": "HF Papers (9 up)",
   "title": "HybridCUA: Learning to Orchestrate GUI and CLI for Computer-Use Agents",
   "link": "https://huggingface.co/papers/2609.38008",
   "summary": "Computer use agents (CUAs) have demonstrated strong capabilities in completing digital tasks. However, existing CUAs either rely solely on graphical user interface (GUI) interactions, which are often inefficient and error prone, or augment GUI interactions with application specific APIs or tools, which require substantial engineering effort and are difficult to scale across applications. We argue ",
@@ -1582,7 +1526,7 @@
   "date": "2026-09-28T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (4 up)",
+  "source": "HF Papers (3 up)",
   "title": "VideoLoop: Looped Working Memory Against Semantic Thrashing in Long-Form Video Agents",
   "link": "https://huggingface.co/papers/2609.38119",
   "summary": "Long-form video understanding requires multimodal agents to iteratively gather evidence over many reasoning steps. However, most existing agentic methods suffer from semantic thrashing: as append-only working memory grows, attention to key evidence collapses, and the agent loses access to what it has already found. First, we provide a structural argument showing that append-only memory can incorpo",
@@ -1593,27 +1537,6 @@
   "title": "Beyond Selection: Token Parameterization for Extreme Visual Token Compression",
   "link": "https://huggingface.co/papers/2609.35232",
   "summary": "Visual-token compression is effective for improving the efficiency of vision-language models, but under extreme compression budgets, token pruning can break visual grounding while learned resamplers increase parameter count, attention cost, and training complexity. We revisit compression through a token parameterization lens, separating (i) basis transformation and structured truncation (retained ",
-  "date": "2026-09-27T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (16 up)",
-  "title": "LEGO-Anything: Coding Agents for 3D Scene Reconstruction",
-  "link": "https://huggingface.co/papers/2609.36380",
-  "summary": "A 3D scene reconstructed from a single image is most useful when represented not as a rendering or a fixed 3D output, but as an explicit scene program whose execution yields a scene that can be inspected, edited, and queried. We present LEGO-Anything, an Image-to-Code framework in which a coding agent iteratively writes and executes Blender code, inspects scenes and renderings, and revises the pro",
-  "date": "2026-09-27T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (7 up)",
-  "title": "PanoVLN: Towards Effective Panoramic Vision-and-Language Navigation",
-  "link": "https://huggingface.co/papers/2609.34759",
-  "summary": "Recent vision-language models (VLMs) have advanced vision-and-language navigation (VLN), enabling models to predict navigation actions from visual observations and language instructions. In this work, we explore VLN with panoramic observations and introduce PanoVLN. The motivation is straightforward: more complete visual context should enable better-informed navigation decisions. For example, a pa",
-  "date": "2026-09-27T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (4 up)",
-  "title": "ROSS: Relearning from Self-Generated Rollouts through Selective Supervision",
-  "link": "https://huggingface.co/papers/2609.35954",
-  "summary": "Large language model post-training generates self-generated rollouts through reinforcement learning and on-policy distillation, yet this experience is often treated as stale once the policy advances. Historical rollouts can remain compatible with a later policy while preserving behaviors that the policy no longer expresses reliably. However, they may also contain mistakes, abandoned attempts, and ",
   "date": "2026-09-27T20:00:00+00:00"
  }
 ]
