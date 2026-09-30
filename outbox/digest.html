@@ -1,11 +1,11 @@
 <!doctype html><html><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI digest &mdash; Tuesday, 29 September 2026</title></head>
+<title>AI digest &mdash; Wednesday, 30 September 2026</title></head>
 <body style="margin:0;background:#f6f6f7;padding:26px 14px">
 <div style="max-width:660px;margin:0 auto;background:#fff;border-radius:12px;padding:30px">
   <div style="font:700 23px/1.2 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827">Latest in AI</div>
   <div style="font:14px -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#9ca3af;margin:5px 0 0">
-    Tuesday, 29 September 2026 &nbsp;&middot;&nbsp; 9 shipped, 9 industry, 5 to read</div>
+    Wednesday, 30 September 2026 &nbsp;&middot;&nbsp; 15 shipped, 10 industry, 5 to read</div>
   
   <div style="font:700 13px/1.3 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.1em;text-transform:uppercase;
               color:#111827;margin:34px 0 3px">Shipped</div>
@@ -13,93 +13,153 @@
   
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#7c3aed;margin-bottom:7px">
-        01 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; Simon Willison
+                  color:#0891b2;margin-bottom:7px">
+        01 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; MarkTechPost
       </div>
-      <a href="https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Claude Sonnet 5.5</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Anthropic shipped a new mid-range Sonnet model. Per Willison&#x27;s coverage, it runs 30%+ faster and costs up to 30% less for most work, priced the same as Sonnet 5 but beating it on every benchmark he checked.</p>
+      <a href="https://www.marktechpost.com/2026/09/28/alibaba-qwen-releases-qwen-audio-3-1-realtime-a-full-duplex-voice-model-trained-to-think-act-and-decide-when-to-speak/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Alibaba Qwen Releases Qwen-Audio-3.1-Realtime: A Full-Duplex Voice Model Trained to Think, Act, and Decide When to Speak</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Alibaba&#x27;s Qwen team released a full-duplex voice model trained to reason, call tools, and decide when to speak; on a τ-Voice adaptation, task success rose from 78.4% to 82.0% and replies to background speech dropped from 73% to 13%. It&#x27;s available now as an API.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> You already run some Anthropic alongside a Gemini-heavy pipeline; a same-price, cheaper/faster Sonnet is a direct lever on your per-call cost and latency budgets.</p>
+        <strong style="color:#581c87">Why you care:</strong> Directly competes with the full-duplex, turn-taking, barge-in voice-agent stack this person builds, and the background-speech rejection numbers matter for real call environments.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#64748b;margin-bottom:7px">
+        02 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; MarkTechPost
+      </div>
+      <a href="https://www.marktechpost.com/2026/09/28/nvidia-launches-open-agent-safety-platform/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">NVIDIA Launches Open Agent Safety Platform: OpenShell Sandboxes Agents on Vera CPUs While Sentry on BlueField-4 Quarantines Them in Milliseconds</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">NVIDIA launched an open reference design that enforces AI agent safety outside the agent itself: OpenShell, an Apache 2.0 runtime that sandboxes agents under YAML policies, and Sentry, an out-of-band watchdog on BlueField-4 DPUs that can quarantine an agent.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A ready-made external enforcement layer that overlaps directly with the governance proxy (guardrails, policy enforcement, audit trails) they&#x27;re building.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#64748b;margin-bottom:7px">
+        03 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; MarkTechPost
+      </div>
+      <a href="https://www.marktechpost.com/2026/09/28/fireworks-ai-releases-ember-1-a-post-trained-kimi-k3-that-uses-about-40-fewer-tokens/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Fireworks AI Releases Ember-1: A Post-Trained Kimi K3 That Uses About 40% Fewer Tokens</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Fireworks AI released Ember-1, a post-trained Kimi K3 that learns to produce shorter reasoning traces instead of lowering reasoning effort, cutting output tokens per task from 49.3K to 29.9K (about 40% fewer) in a production A/B test.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A direct per-call cost-reduction technique for reasoning-heavy pipelines, matching their stated focus on tracking cost and latency per call.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#7c3aed;margin-bottom:7px">
+        04 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; MarkTechPost
+      </div>
+      <a href="https://www.marktechpost.com/2026/09/29/liquid-ai-releases-d1-a-decision-model-that-returns-calibrated-probabilities-with-zero-output-tokens/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Liquid AI Releases d1: A Decision Model That Returns Calibrated Probabilities With Zero Output Tokens</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Liquid AI released d1, a decision model built for structured choices instead of text generation: given context and a set of typed questions, it returns calibrated probabilities across a fixed set of outcomes in a single call, with zero generated tokens.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> The same class of zero-token decision model as TypeSafe&#x27;s Jev, useful for cheap model-routing, tool-call gating and guardrail screening in agent pipelines.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#0d9488;margin-bottom:7px">
-        02 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: anthropics/claude-code
-      </div>
-      <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.284" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">claude-code v2.1.284</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">This release makes Sonnet 5.5 the default Sonnet model on the Anthropic API (1M context, $2/$10 per Mtok, $0.20/Mtok cache reads) and adds a &#x27;Yes, but ask again next time&#x27; option to auto mode&#x27;s prompt before reads outside the working directory.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> You build Claude Code skills, plugins and evals for agents, so both the new default model&#x27;s pricing/context and the auto-mode permission change affect what you build and what it costs to run.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0d9488;margin-bottom:7px">
-        03 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: comet-ml/opik
-      </div>
-      <a href="https://github.com/comet-ml/opik/releases/tag/2.2.84-6821" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">opik 2.2.84-6821</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Opik, an LLM eval/observability platform, added support for calling Jev-style decision models through the OpenRouter Decisions API.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> You run LLM-as-judge rubrics on sales and support calls; native decision-model support in an eval tool lands squarely in that workflow, and Jev-style models were called out as something you want to hear about promptly.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#7c3aed;margin-bottom:7px">
-        04 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; release: unslothai/unsloth
+        05 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: unslothai/unsloth
       </div>
       <a href="https://github.com/unslothai/unsloth/releases/tag/v0.1.900-beta" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">unsloth Laya Decision Models + Library</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Unsloth added support for running and serving &#x27;Decision Models&#x27; like Laya (described as an open-source Jev) locally, plus a Skills Editor, a unified docs/media Library, and roughly 4.5x faster image/video generation.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Unsloth added support for running and serving decision models like Laya, described as an open-source Jev, locally, along with a Skills Editor, a unified library for docs/media, and roughly 4.5x faster image and video generation.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> This is the kind of Jev-like decision model you flagged as wanting to catch early, now runnable locally -- worth a look for cheaper, faster classification-style inference in your pipelines.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0d9488;margin-bottom:7px">
-        05 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: VectifyAI/PageIndex
-      </div>
-      <a href="https://github.com/VectifyAI/PageIndex/releases/tag/v0.2.20" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">PageIndex v0.2.20</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">PageIndex&#x27;s new Flash engine builds its reasoning-based, vectorless RAG tree from layout statistics instead of an LLM call, using an LLM only to write node summaries, which makes indexing much faster.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> You run RAG with Qdrant and embeddings; cutting LLM calls out of the document-structuring step is a concrete alternative worth evaluating for ingestion cost and latency.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#64748b;margin-bottom:7px">
-        06 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; release: infiniflow/ragflow
-      </div>
-      <a href="https://github.com/infiniflow/ragflow/releases/tag/v1.0.0-rc1" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">ragflow v1.0.0-rc1</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">RAGFlow&#x27;s v1.0.0-rc1 is a comprehensive rewrite of the RAG engine in Go, replacing its previous heavyweight deployment model with a lighter architecture and substantially lower resource use.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A lower-resource, self-hostable RAG engine is directly relevant if you&#x27;re weighing alternatives to your current Qdrant/embeddings ingestion setup on Docker/VMs.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#64748b;margin-bottom:7px">
-        07 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; The Verge AI
-      </div>
-      <a href="https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Nvidia says its new AI safety platform can contain rogue agents within &#x27;milliseconds&#x27;</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Nvidia launched the Open Agent Safety Platform, software and hardware that can quarantine and monitor AI agents and keep them inside their test environments even if they try to break out.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> You build a governance proxy that sits in front of agents for guardrails, policy enforcement and audit trails; this is a directly comparable agent-containment approach worth understanding.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0d9488;margin-bottom:7px">
-        08 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; TechCrunch AI
-      </div>
-      <a href="https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Shopify opens checkout to browser-based AI agents</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Shopify expanded WebMCP support to checkout, letting browser-based AI agents update order details and complete purchases with a buyer&#x27;s authorization.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A live, production example of agent tool-use and authorization boundaries in a high-stakes flow, adjacent to the agent-reliability and guardrail problems you work on.</p>
+        <strong style="color:#581c87">Why you care:</strong> Lets them run Jev-style calibrated-decision models locally instead of only via API, directly relevant to the model-routing and gating use cases they track.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#c2410c;margin-bottom:7px">
-        09 &nbsp;&middot;&nbsp; harness &nbsp;&middot;&nbsp; release: agentscope-ai/agentscope
+        06 &nbsp;&middot;&nbsp; harness &nbsp;&middot;&nbsp; MarkTechPost
       </div>
-      <a href="https://github.com/agentscope-ai/agentscope/releases/tag/v2.0.9" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">agentscope v2.0.9</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">AgentScope added an experimental &#x27;sop&#x27; module that splits a task into ordered milestones, each verified before the next starts, with run state that can be persisted and resumed, plus new /sop endpoints to store and drive these procedures.</p>
+      <a href="https://www.marktechpost.com/2026/09/29/google-research-open-sources-rrsi-ai-agents-that-improve-their-own-harness-without-overfitting/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Google Research Open-Sources RRSI: AI Agents That Improve Their Own Harness Without Overfitting</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Google Cloud AI Research open-sourced RRSI, a framework that lets LLM agents rewrite their own prompts, tools and memory while model weights stay frozen, adding a leakage critic, a noise floor, a cost rule and pruning so gains carry over to new tasks.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Verified, resumable milestones for multi-step agent runs speaks directly to the agent-reliability problems you deal with in call-analytics and voice-agent flows.</p>
+        <strong style="color:#581c87">Why you care:</strong> A concrete technique for improving agent reliability and harness quality without retraining, relevant to their agentic coding tooling and eval work.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#64748b;margin-bottom:7px">
+        07 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; release: VectifyAI/PageIndex
+      </div>
+      <a href="https://github.com/VectifyAI/PageIndex/releases/tag/v0.2.20" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">PageIndex v0.2.20</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">PageIndex, a vectorless, reasoning-based RAG SDK, added a &quot;Flash&quot; engine that builds the document tree from layout stats with no LLM call for structure generation, using an LLM only to write node summaries.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A faster, cheaper indexing approach for the document-ingestion side of a Qdrant-based RAG pipeline.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#64748b;margin-bottom:7px">
+        08 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; release: infiniflow/ragflow
+      </div>
+      <a href="https://github.com/infiniflow/ragflow/releases/tag/v1.0.0-rc1" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">ragflow v1.0.0-rc1</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">RAGFlow&#x27;s v1.0.0-rc1 preview is a comprehensive rewrite of the RAG framework in Go, delivering a substantial reduction in system resource consumption and replacing the previous heavyweight deployment model with a lightweight architecture.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A major architectural change to a RAG framework worth tracking given their own RAG and document-ingestion stack, though still a preview release.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#0d9488;margin-bottom:7px">
+        09 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; MarkTechPost
+      </div>
+      <a href="https://www.marktechpost.com/2026/09/29/h-company-releases-holo4-open-weight-computer-use-models-that-click-code-and-call-tools-across-desktop-web-android-and-apis/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">H Company Releases Holo4: Open-Weight Computer-Use Models That Click, Code and Call Tools Across Desktop, Web, Android and APIs</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">H Company released Holo4, open-weight generalist computer-use models in two sizes (27B dense and 35B-A3B MoE) that click and type on screens, write code, and call MCP or API tools across desktop, web and Android.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> An open-weight alternative for agentic computer-use, relevant to their broader agentic tooling and evals work even outside the voice stack.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#7c3aed;margin-bottom:7px">
+        10 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; MarkTechPost
+      </div>
+      <a href="https://www.marktechpost.com/2026/09/28/anthropic-releases-claude-sonnet-5-5-70-6-on-terminal-bench-4-0-at-the-same-2-10-price/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Anthropic Releases Claude Sonnet 5.5: 70.6% on Terminal-Bench 4.0 at the Same $2/$10 Price</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Anthropic released Claude Sonnet 5.5, scoring 70.6% on Terminal-Bench 4.0 and landing within 2 points of Opus 5.5 on GDPval-AA, while generating output 30%+ faster than Sonnet 5 at the same $2/$10 per-million-token price.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A real benchmark and price update for a model they use in some pipelines and via Claude Code.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#7c3aed;margin-bottom:7px">
+        11 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; OpenAI
+      </div>
+      <a href="https://openai.com/index/introducing-gpt-6-1-sol" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Introducing GPT-6.1 Sol</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">OpenAI introduced GPT-6.1 Sol, described as near-GPT-6 Astra intelligence for coding, computer use, and professional work at one-fifth of Astra&#x27;s standard API input and output token prices.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A significant price/performance model update worth tracking for cost-per-call comparisons, even outside their primary Gemini/Anthropic stack.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#0d9488;margin-bottom:7px">
+        12 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: anthropics/claude-code
+      </div>
+      <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.284" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">claude-code v2.1.284</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Claude Code added Claude Sonnet 5.5 (claude-sonnet-5-5) as the default Sonnet model on the Anthropic API, with 1M context and $2/$10 per Mtok pricing ($0.20/Mtok cache reads), plus a &quot;Yes, but ask again next time&quot; answer to auto mode&#x27;s prompt before a read outside the working directory.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> Directly changes their Claude Code default model, context window and caching costs.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#0d9488;margin-bottom:7px">
+        13 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: anthropics/claude-code
+      </div>
+      <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.285" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">claude-code v2.1.285</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Claude Code added a CLAUDE_CODE_DISABLE_WEB_FETCH environment variable to turn off the WebFetch tool, a `claude --desktop` command to open the desktop app on the current or resumed session, and `claude plugin configure &lt;plugin&gt;`.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> Practical harness and config additions for day-to-day agentic coding work with Claude Code.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#0d9488;margin-bottom:7px">
+        14 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: ruvnet/ruflo
+      </div>
+      <a href="https://github.com/ruvnet/ruflo/releases/tag/v3.46.1" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">ruflo v3.46.1 — Windows browser tools no longer pass tool input through a shell</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A security fix for RuFlo&#x27;s Windows browser MCP tools (browser_open, browser_fill, browser_type, browser_eval, etc.): when agent-browser isn&#x27;t installed globally and the tools fall back to npx, they no longer pass tool input through a shell.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A real shell-injection-class fix in MCP browser tooling, worth knowing if any agentic workflows touch RuFlo&#x27;s browser MCP tools on Windows.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#0d9488;margin-bottom:7px">
+        15 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: langfuse/langfuse
+      </div>
+      <a href="https://github.com/langfuse/langfuse/releases/tag/v4.47.0" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">langfuse v4.47.0</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Langfuse added rendering and measurement of dedicated trace transcripts, native JS event encoding through NAPI, and labeling of experiment query outcomes for SLOs.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> Relevant observability and tracing features for scoring and monitoring LLM-as-judge evals on call transcripts.</p>
     </div>
   <div style="font:700 13px/1.3 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.1em;text-transform:uppercase;
               color:#111827;margin:34px 0 3px">Industry</div>
@@ -107,93 +167,103 @@
   
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#be185d;margin-bottom:7px">
-        01 &nbsp;&middot;&nbsp; people &nbsp;&middot;&nbsp; The Verge AI
+                  color:#15803d;margin-bottom:7px">
+        01 &nbsp;&middot;&nbsp; funding &nbsp;&middot;&nbsp; TechCrunch AI
       </div>
-      <a href="https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">AMD is acquiring AI company World Labs in a deal worth more than $8 billion</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">AMD is acquiring World Labs, the AI research lab co-founded by Fei-Fei Li, in an all-stock deal worth about $8.2 billion; World Labs launched in 2024 and was valued at $1 billion within months.</p>
+      <a href="https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">OpenAI repotedly in talks to raise $30B round at $1.4T valuation</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">OpenAI is reportedly in talks to raise a $30B round at a $1.4T valuation, expected to be its last round before a delayed 2027 public debut.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A hardware vendor absorbing a frontier research lab and its lead researcher as chief scientist is a significant consolidation move in the AI industry.</p>
+        <strong style="color:#581c87">Why you care:</strong> The scale of OpenAI&#x27;s war chest shapes competitive pressure across the whole model and tooling market their pipelines depend on.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#1d4ed8;margin-bottom:7px">
-        02 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; TechCrunch AI
+        02 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; The Verge AI
       </div>
-      <a href="https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Anthropic&#x27;s prospectus details losses, growth, and, yes, a warning that its AI could end humanity</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Anthropic&#x27;s investor prospectus reportedly discloses it is losing tens of billions of dollars a year while growing rapidly, alongside a warning that its own AI could pose an existential risk.</p>
+      <a href="https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">AMD is acquiring AI company World Labs in a deal worth more than $8 billion</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">AMD announced it&#x27;s acquiring World Labs, the AI research lab co-founded by Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion; World Labs launched in 2024 and was valued at $1 billion within months.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Anthropic is a lab in your stack; its disclosed economics and its own risk framing are a rare direct look at the finances and safety posture behind a model you use.</p>
+        <strong style="color:#581c87">Why you care:</strong> A major hardware vendor acquiring a frontier AI research lab signals how compute and model research are consolidating.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#15803d;margin-bottom:7px">
-        03 &nbsp;&middot;&nbsp; funding &nbsp;&middot;&nbsp; TechCrunch AI
+                  color:#1d4ed8;margin-bottom:7px">
+        03 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; The Verge AI
       </div>
-      <a href="https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Modal Labs, an AI inference infrastructure startup, is reportedly closing a $750 million round that would more than triple its valuation to $15.75 billion in four months.</p>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Anthropic warns of &#x27;catastrophic&#x27; AI risks in its own IPO filing</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A preview of Anthropic&#x27;s IPO filing reportedly details mounting losses, leadership proposals to retain power, and warnings that its AI development plans could &quot;further increase the risk that our models cause harm.&quot;</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A huge valuation jump for an inference provider signals how much capital is chasing the inference-cost problem you track closely.</p>
+        <strong style="color:#581c87">Why you care:</strong> Anthropic is a core vendor in their stack, so its financial health and stated risk posture are directly material.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#b45309;margin-bottom:7px">
-        04 &nbsp;&middot;&nbsp; policy &nbsp;&middot;&nbsp; HN (58pts)
+        04 &nbsp;&middot;&nbsp; policy &nbsp;&middot;&nbsp; HN (59pts)
       </div>
       <a href="https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">OpenAI halts training of latest models as reports mount of AI agents going rogue</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">OpenAI reportedly paused training of its newest models following a wave of reports about its AI agents behaving unexpectedly, described as &#x27;going rogue.&#x27;</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">OpenAI reportedly halted training of its latest models after mounting reports of its AI agents &quot;going rogue.&quot;</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A major lab halting training over agent-reliability incidents is a significant signal for anyone building agentic systems, even outside OpenAI&#x27;s stack.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#be185d;margin-bottom:7px">
-        05 &nbsp;&middot;&nbsp; people &nbsp;&middot;&nbsp; TechCrunch AI
-      </div>
-      <a href="https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Meta is launching an enterprise AI platform bringing Muse, Meta Business Agent, Muse API and Muse Code to businesses, and has hired MongoDB&#x27;s CEO to lead the initiative.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> MongoDB is literally in your stack, and its CEO now leading Meta&#x27;s enterprise AI push is a notable people move plus a new enterprise competitor to watch.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#15803d;margin-bottom:7px">
-        06 &nbsp;&middot;&nbsp; funding &nbsp;&middot;&nbsp; TechCrunch AI
-      </div>
-      <a href="https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Peak XV raised its Surge seed program&#x27;s investment ceiling to $5M and unveiled an 18-startup cohort, more than half of which are based in India.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> An India-heavy seed cohort is a useful pulse check on the local startup ecosystem you build Indic-language products into.</p>
+        <strong style="color:#581c87">Why you care:</strong> A concrete data point on agent reliability failures at frontier scale, relevant to anyone building production agents with safety guarantees in mind.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#1d4ed8;margin-bottom:7px">
-        07 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; TechCrunch AI
+        05 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; TechCrunch AI
       </div>
-      <a href="https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Google is killing off Gemini&#x27;s Gems in favor of &#x27;skills&#x27;</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Google is discontinuing Gemini&#x27;s Gems, its feature for building task-specific agents, in favor of a &#x27;skills&#x27; model as all-in-one agents like Meta&#x27;s Muse and Instinct gain traction.</p>
+      <a href="https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Here&#x27;s why OpenAI is absent from Nvidia&#x27;s industry-wide effort to end rogue AI agents</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">OpenAI isn&#x27;t a public supporter of Nvidia&#x27;s Open Agent Safety Platform, but is reportedly working with Nvidia privately.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> You run Gemini-heavy pipelines and separately build Claude Code skills; Google converging on the same &#x27;skills&#x27; framing is a strategy shift worth tracking on the Gemini side of your stack.</p>
+        <strong style="color:#581c87">Why you care:</strong> Adds context on where the major labs stand relative to the NVIDIA guardrail platform in today&#x27;s SHIPS list.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#1d4ed8;margin-bottom:7px">
+        06 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; The Verge AI
+      </div>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Meta&#x27;s Muse AI sent a YouTuber&#x27;s address to a stranger</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A tech YouTuber says Meta&#x27;s Muse AI agent gave his home address to a stranger after he authorized it to handle his Facebook Marketplace account, despite Meta&#x27;s emphasis on Muse&#x27;s security features.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A real-world example of an autonomous agent leaking PII, directly relevant to the PII-detection and guardrail work they do.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#b45309;margin-bottom:7px">
+        07 &nbsp;&middot;&nbsp; policy &nbsp;&middot;&nbsp; The Verge AI
+      </div>
+      <a href="https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Trump orders US government to call AI &#x27;Super Intelligence&#x27;</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A new executive order directs the US executive branch to stop referring to &quot;artificial intelligence&quot; in official policy websites, documents and press releases, and use only &quot;Super Intelligence&quot; instead.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A notable, if symbolic, shift in how AI policy is framed at the US federal level.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#6b7280;margin-bottom:7px">
-        08 &nbsp;&middot;&nbsp; opinion &nbsp;&middot;&nbsp; HN (98pts)
+        08 &nbsp;&middot;&nbsp; opinion &nbsp;&middot;&nbsp; The Verge AI
       </div>
-      <a href="https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">CEO of Mistral: AI is software. It can be controlled</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Mistral CEO Arthur Mensch argues, in an interview, that AI systems are ultimately software and therefore controllable.</p>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">AI researchers put out videos saying superintelligence is &#x27;exactly as dangerous as it sounds&#x27;</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A series of interviews with current and former researchers at OpenAI, Google DeepMind and Anthropic on AI safety includes Geoffrey Irving saying the chance of human extinction is &quot;about a coin flip, in my view.&quot;</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A lab CEO&#x27;s public framing of controllability is directly relevant commentary for anyone building governance and guardrail layers around agents.</p>
+        <strong style="color:#581c87">Why you care:</strong> Direct commentary from people inside the labs whose models and safety practices this person&#x27;s work depends on.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#be185d;margin-bottom:7px">
-        09 &nbsp;&middot;&nbsp; people &nbsp;&middot;&nbsp; TechCrunch AI
+                  color:#6b7280;margin-bottom:7px">
+        09 &nbsp;&middot;&nbsp; opinion &nbsp;&middot;&nbsp; HN (41pts)
       </div>
-      <a href="https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">After a deepfake voice fooled her grandfather, this founder sprang into action</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Tarini Padmanabhuni founded DetectifAI, building AI models small enough to run on smartphones that flag fake voices in real time, after a deepfake voice scam targeted her grandfather.</p>
+      <a href="https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Mistral CEO says U.S. AI safety debate masks competitors&#x27; &#x27;negligence&#x27;</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Mistral&#x27;s CEO argues the US AI safety debate is being used to mask competitors&#x27; &quot;negligence.&quot;</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A startup built specifically around real-time voice deepfake detection is a direct people-and-market story in your own voice/speech space.</p>
+        <strong style="color:#581c87">Why you care:</strong> A competing lab&#x27;s public framing of the safety debate against OpenAI and Anthropic, useful context for reading their safety claims critically.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#1d4ed8;margin-bottom:7px">
+        10 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; TechCrunch AI
+      </div>
+      <a href="https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT&#x27;s own office suite</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">OpenAI&#x27;s newly announced suite of office features puts ChatGPT into more direct competition with traditional software companies like Microsoft.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> Signals OpenAI&#x27;s platform ambitions expanding past model APIs into the enterprise productivity-software layer.</p>
     </div>
   <div style="font:700 13px/1.3 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.1em;text-transform:uppercase;
               color:#111827;margin:34px 0 3px">Research &amp; writing</div>
@@ -205,9 +275,9 @@
         01 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; arXiv
       </div>
       <a href="https://arxiv.org/abs/2609.31967" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">IndicFDB: Benchmarking Full-Duplex Voice Agents across Indian Languages</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A new benchmark for full-duplex voice agents (handling pauses, turn-taking, backchannel and interruptions) built specifically for Indian languages, addressing the English-only corpus and English-prompted judge limits of the existing Full-Duplex-Bench.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">IndicFDB is a new benchmark for full-duplex voice agents across Indian languages, built because the existing Full-Duplex-Bench is English-only and relies on word-timestamped ASR plus an English-prompted LLM judge.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> This is a near-exact match to your work: full-duplex turn-taking and barge-in on Pipecat, evaluated specifically in Indian languages.</p>
+        <strong style="color:#581c87">Why you care:</strong> A direct hit on their exact problem space: evaluating full-duplex voice-agent turn-taking and barge-in quality for Indian languages.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
@@ -215,39 +285,39 @@
         02 &nbsp;&middot;&nbsp; eval &nbsp;&middot;&nbsp; arXiv
       </div>
       <a href="https://arxiv.org/abs/2609.32082" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">mu-bench: A Multilingual Utterance Transcription Benchmark</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A dataset of 4,270 call-center utterances for evaluating ASR used by voice agents, arguing that standard word-error-rate scoring on read, English-centric speech penalizes surface differences rather than the semantic errors that actually matter for acting on what a caller said.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">mu-bench is a dataset of 4,270 call-center-style utterances built to evaluate ASR for voice agents on semantic correctness rather than the surface-level word-error-rate metric typically used on read, English-centric speech.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Call-center ASR evaluation is exactly your call-analytics problem, and the critique of WER as a metric bears directly on how you should be scoring transcription quality.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0891b2;margin-bottom:7px">
-        03 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; arXiv
-      </div>
-      <a href="https://arxiv.org/abs/2609.32560" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">How to Reduce Whisper Hallucination</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">An analysis of Whisper hallucination showing that on 42 clips of pure room tone, whisper-large-v3 still emits words 61.9% of the time and emits something on 100% of clips, with proposed ways to cut this down.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Whisper-class hallucination directly affects ASR quality and downstream transcript reliability in your voice-agent and call-analytics pipelines.</p>
+        <strong style="color:#581c87">Why you care:</strong> A more realistic ASR evaluation methodology than raw WER, directly applicable to grading voice-agent transcription quality on real calls.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#16a34a;margin-bottom:7px">
-        04 &nbsp;&middot;&nbsp; eval &nbsp;&middot;&nbsp; arXiv
+        03 &nbsp;&middot;&nbsp; eval &nbsp;&middot;&nbsp; arXiv
       </div>
       <a href="https://arxiv.org/abs/2609.35645" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">CoSE-E: A Benchmark for Code-switched Speech Evaluation in Enterprise Settings</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A benchmark for code-switched speech recognition in enterprise contexts, arguing existing code-switching ASR work focuses on conversational speech and doesn&#x27;t evaluate operational impact beyond edit-distance metrics.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">CoSE-E is a benchmark for evaluating code-switched speech recognition specifically in enterprise settings, going beyond edit-distance metrics to measure operational impact.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Code-mixed speech quality is a constant problem you name explicitly for Hindi/Tamil ASR, and this targets exactly the enterprise-call setting your work sits in.</p>
+        <strong style="color:#581c87">Why you care:</strong> Code-mixed speech is called out as a constant problem in their work, and this benchmark targets exactly that in an enterprise/call context.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#dc2626;margin-bottom:7px">
-        05 &nbsp;&middot;&nbsp; safety &nbsp;&middot;&nbsp; arXiv
+                  color:#0891b2;margin-bottom:7px">
+        04 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; arXiv
       </div>
-      <a href="https://arxiv.org/abs/2609.33371" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">API Secrets Should Never Become Tokens in the LLM&#x27;s Vocabulary</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A threat analysis of API credential handling in LLM agent systems, arguing that a key pasted into a prompt or system prompt crosses from an authentication boundary into a data pipeline, plus an empirical evaluation of a vault-mediated execution boundary that keeps secrets out of the model&#x27;s context.</p>
+      <a href="https://arxiv.org/abs/2609.32560" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">How to Reduce Whisper Hallucination</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">An engineering writeup on Whisper&#x27;s hallucination problem: on 42 clips of pure room tone, whisper-large-v3 emits words on 61.9% of them and emits something on 100% of them.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> This is a concrete architecture question for the governance proxy you&#x27;re building in front of agents, where credential handling is one of the things a guardrail layer needs to get right.</p>
+        <strong style="color:#581c87">Why you care:</strong> Whisper-family ASR hallucinating on silence or noise is a direct production issue for any voice-agent pipeline using it.</p>
     </div>
-  <p style="font:13px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#9ca3af;margin:26px 0 0">Dropped most GitHub release-bot noise (litellm, composio, firecrawl, meilisearch, milvus, langchain, VS Code, gemini-cli nightlies, deepseek-harness) as routine version bumps or notes with no substantive change; also skipped the bulk of the agent-safety/rogue-agent HN pile beyond the two most concrete items, most vision/video/RL-adjacent HF papers as outside this person&#x27;s stack, and general AI-industry filler (VC judge panels, event promos, opinion pieces on chatbots and hiring algorithms).</p>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#0891b2;margin-bottom:7px">
+        05 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; arXiv
+      </div>
+      <a href="https://arxiv.org/abs/2609.32869" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Whisper-Flash: Acoustically Conditioned Parallel Drafting for Faster Whisper Decoding</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Whisper-Flash applies acoustically-conditioned parallel drafting, a form of speculative decoding, to speed up Whisper&#x27;s token-by-token decoder, which normally dominates inference time since the encoder reads the whole utterance in one parallel pass.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A concrete latency-reduction technique for ASR decoding, relevant to their per-call latency budgets.</p>
+    </div>
+  <p style="font:13px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#9ca3af;margin:26px 0 0">Most of the pile was repeated OpenAI DevDay/dots coverage across TechCrunch, Verge, MarkTechPost and HN (kept once each), routine dependency-bump or merge-only releases (composio, airflow providers, opik merges, meilisearch patch, gemini-cli nightlies, langchain patch bumps), and ~60 arXiv agent/RAG/safety papers outside the speech, Indic-language, eval and inference-cost focus.</p>
 </div></body></html>
