@@ -532,14 +532,14 @@
   "date": "2026-09-28T18:03:57+00:00"
  },
  {
-  "source": "HN (138pts)",
+  "source": "HN (139pts)",
   "title": "Anthropic's IPO prospectus shows AI vision, surging costs",
   "link": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
   "summary": "",
   "date": "2026-09-28T23:40:59+00:00"
  },
  {
-  "source": "HN (52pts)",
+  "source": "HN (55pts)",
   "title": "Anthropic's IPO Prospectus Is a Fucking Doozy",
   "link": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
   "summary": "",
@@ -588,7 +588,7 @@
   "date": "2026-09-29T14:25:41+00:00"
  },
  {
-  "source": "HN (67pts)",
+  "source": "HN (68pts)",
   "title": "Claude Says",
   "link": "https://ohhfishal.net/Posts/claude",
   "summary": "",
@@ -600,6 +600,13 @@
   "link": "https://github.com/seamusc/papermono-shopping-list",
   "summary": "",
   "date": "2026-09-28T10:14:41+00:00"
+ },
+ {
+  "source": "HN (31pts)",
+  "title": "Show HN: Parrot \u2013 Open-Source Smart Meeting Recorder with Co-Pilot on Mac",
+  "link": "https://openparrot.app",
+  "summary": "",
+  "date": "2026-09-30T15:33:12+00:00"
  },
  {
   "source": "HN (281pts)",
@@ -616,7 +623,7 @@
   "date": "2026-09-28T15:16:13+00:00"
  },
  {
-  "source": "HN (41pts)",
+  "source": "HN (45pts)",
   "title": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
   "link": "https://lathoa.ai/en",
   "summary": "",
@@ -637,14 +644,14 @@
   "date": "2026-09-30T20:05:26+00:00"
  },
  {
-  "source": "HN (135pts)",
+  "source": "HN (141pts)",
   "title": "Launch HN: Magnitude (YC S25) \u2013 Self-optimizing inference engine for agents",
   "link": "https://github.com/magnitudedev/magnitude",
   "summary": "",
   "date": "2026-09-30T17:37:40+00:00"
  },
  {
-  "source": "HN (124pts)",
+  "source": "HN (126pts)",
   "title": "RSS Feeds for Last.fm",
   "link": "https://lfm.xiffy.nl/",
   "summary": "",
@@ -658,14 +665,14 @@
   "date": "2026-09-28T11:02:12+00:00"
  },
  {
-  "source": "HN (1106pts)",
+  "source": "HN (1161pts)",
   "title": "Gemini 4 Argon",
   "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
   "summary": "",
   "date": "2026-09-30T20:04:37+00:00"
  },
  {
-  "source": "HN (92pts)",
+  "source": "HN (97pts)",
   "title": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
   "link": "https://artificialanalysis.ai/models/gemini-4-argon",
   "summary": "",
@@ -770,6 +777,13 @@
   "date": "2026-09-29T15:41:40+00:00"
  },
  {
+  "source": "release: EthicalML/awesome-production-machine-learning",
+  "title": "awesome-production-machine-learning release-2026-10-01",
+  "link": "https://github.com/EthicalML/awesome-production-machine-learning/releases/tag/release-2026-10-01",
+  "summary": "No content.",
+  "date": "2026-10-01T05:03:57+00:00"
+ },
+ {
   "source": "release: Graphify-Labs/graphify",
   "title": "graphify v0.9.73",
   "link": "https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.73",
@@ -859,13 +873,6 @@
   "link": "https://github.com/affaan-m/ECC/releases/tag/v2.2.2",
   "summary": "ECC 2.2.2 ECC 2.2.2 adds pi/core , a curated Pi-native skills+prompts-only profile built for downstream packagers that mirror GitHub Releases, plus a set of packaging, memory, hooks, and Windows compatibility fixes. Pi core profile pi/core/ is a self-contained package ( ecc-pi-core ) that downstream",
   "date": "2026-09-30T19:05:42+00:00"
- },
- {
-  "source": "release: agentscope-ai/agentscope",
-  "title": "agentscope v2.0.9",
-  "link": "https://github.com/agentscope-ai/agentscope/releases/tag/v2.0.9",
-  "summary": "Highlight Standard Operating Procedures (Experimental) : Added the agentscope.sop module for splitting a task into ordered milestones, each verified before the next one starts, with run state that can be persisted and resumed. The agent service also exposes /sop endpoints to store procedures, start ",
-  "date": "2026-09-28T05:06:20+00:00"
  },
  {
   "source": "release: anthropics/claude-agent-sdk-python",
@@ -1505,6 +1512,34 @@
   "date": "2026-10-01T00:00:00-04:00"
  },
  {
+  "source": "HF Papers (1 up)",
+  "title": "Scaling Laws for Looped Mixture of Experts",
+  "link": "https://huggingface.co/papers/2609.40316",
+  "summary": "Looped transformers and Mixture-of-Experts (MoE) offer complementary routes to efficient scaling: recurrence increases computational depth at fixed parameters, while MoE sparsity expands total capacity at fixed active compute. Yet existing scaling laws model recurrence or sparsity in isolation. In this work, we introduce Loop Scaling Laws, the first scaling law to jointly model recurrence and spar",
+  "date": "2026-09-29T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (0 up)",
+  "title": "Breaking Babel: A Self-Evolving Multi-Agent System for Long-Form Subtitle Translation",
+  "link": "https://huggingface.co/papers/2609.38660",
+  "summary": "Long-form subtitle translation requires reasoning over discourse and cultural context spanning episodes or entire series, while maintaining consistent terminology and style. Existing single-LLM methods are largely sentence-level, and multi-agent systems often use static workflows that do not adapt to scene complexity or production context. We propose SMART, a Self-evolving Multi-Agent system for l",
+  "date": "2026-09-28T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (19 up)",
+  "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
+  "link": "https://huggingface.co/papers/2609.38721",
+  "summary": "Modern multimodal models bring generation and understanding into a single unified system, which enables them to provide and learn from their own feedback. Motivated by this unified capacity, we introduce UniEvo-VL, a self-evolving framework for multimodal models to learn from this constructive self-correction feedback during test-time compute. Instead of relying on a separate, often larger, teache",
+  "date": "2026-09-29T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (1 up)",
+  "title": "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents",
+  "link": "https://huggingface.co/papers/2609.40285",
+  "summary": "On-policy distillation (OPD) is a promising approach for training language agents, providing dense teacher supervision on student-generated trajectories. However, in multi-turn interaction, an incorrect action changes the states the student encounters later, so errors compound across turns. In preliminary experiments across three Qwen3 models (8B to 235B), we find that more than half of the failed",
+  "date": "2026-09-29T20:00:00+00:00"
+ },
+ {
   "source": "HF Papers (4 up)",
   "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
   "link": "https://huggingface.co/papers/2609.38288",
@@ -1533,7 +1568,7 @@
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (12 up)",
+  "source": "HF Papers (15 up)",
   "title": "Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training",
   "link": "https://huggingface.co/papers/2609.40111",
   "summary": "An unsuccessful LLM agent rollout contains more information than its final reward: the observations available to the agent, the actions it chose, and the environment's responses. Reusing this experience for learning requires identifying a decision to revise and testing a concrete alternative. We introduce the Agent Error Dataset (AED), comprising 50,228 error-diagnosis pairs from 9,961 source task",
@@ -1547,7 +1582,7 @@
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (28 up)",
+  "source": "HF Papers (34 up)",
   "title": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
   "link": "https://huggingface.co/papers/2609.38143",
   "summary": "Agent performance depends on both reasoning ability and the environment in which it acts. We study test-time AI-for-AI, asking how a Builder can learn to construct better execution environments for a Target while both models' weights remain fixed. To make the Builder's experience reusable, we introduce Meta-Skill: principles specifying when support is needed and what resources to provide. The Buil",
@@ -1568,7 +1603,7 @@
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (5 up)",
+  "source": "HF Papers (6 up)",
   "title": "AIM: Agentic Idea Management for Automated Research",
   "link": "https://huggingface.co/papers/2609.38445",
   "summary": "Frontier LLMs are increasingly used to automate scientific research through iterative search. We distinguish idea-driven search from solution-driven search and identify three core challenges: organizing evolving research ideas, selecting promising directions, and maintaining alignment between ideas and their implementations. To address these challenges, we introduce the Agentic Idea Manager (AIM),",
@@ -1596,14 +1631,14 @@
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (10 up)",
+  "source": "HF Papers (24 up)",
   "title": "More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models",
   "link": "https://huggingface.co/papers/2609.38827",
   "summary": "Direct-decision models turn text into low-latency structured labels and scores, making them attractive for classification and automatic evaluation. Yet reliability requires more than accuracy: a model must also use the ordinal decision scale supplied by the user faithfully. We analyze JEV~1.13 and three open KEV models. Our investigation begins with ANLI, where JEV assigns 38.8\\% of all prediction",
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (10 up)",
+  "source": "HF Papers (34 up)",
   "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
   "link": "https://huggingface.co/papers/2609.40340",
   "summary": "Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method that co-evolves solutions and search queries with fixed model parameters. At each iteration, a retr",
@@ -1638,31 +1673,10 @@
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (9 up)",
+  "source": "HF Papers (10 up)",
   "title": "DC-SAE: Deep Compression Semantic Autoencoder for Faster Diffusion Convergence",
   "link": "https://huggingface.co/papers/2609.39222",
   "summary": "High-compression tokenizers are essential for scaling latent image generative models. However, aggressive compression creates a fundamental tradeoff between reconstruction fidelity and generation efficiency: high compression image encoder always increases the learning difficulty of diffusion training, resulting in slow model convergence. Recent representation autoencoders speed up the diffusion tr",
-  "date": "2026-09-29T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (67 up)",
-  "title": "The Teacher Is a Direction, Not a Destination: Extrapolating RL-Induced Representation Residuals in On-Policy Distillation",
-  "link": "https://huggingface.co/papers/2609.36484",
-  "summary": "On-policy distillation (OPD) trains a student to match the teacher's next-token distributions on the student's own trajectories and has yielded substantial empirical gains. Generalized variants allow the student to surpass the teacher by extrapolating an implicit reward in output space. The language-model head, however, attenuates this change anisotropically: much of the change encoded in the teac",
-  "date": "2026-09-28T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (11 up)",
-  "title": "WUSH-KV: KV Cache Quantization with Data-Adaptive Transforms",
-  "link": "https://huggingface.co/papers/2609.38121",
-  "summary": "KV cache memory and bandwidth costs grow with context length and batch size, which limits efficient long-context inference. To address this bottleneck, we introduce WUSH-KV for low-bit KV-cache quantization. It adapts WUSH, which constructs a data-aware transform from the second-order statistics of both factors in a matrix product to reduce quantization error. WUSH-KV uses calibration data to cons",
-  "date": "2026-09-28T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (3 up)",
-  "title": "A2Z GameSpec-Bench: How Faithfully Can Coding Agents Generate Games from Game Design Specifications?",
-  "link": "https://huggingface.co/papers/2609.39564",
-  "summary": "Delegating complete application development to coding agents requires preserving the intended design rather than simply producing plausible outputs through naive prompting. Game development provides a demanding testbed, as long-form Game Design Documents (GDDs) describe requirements that must work together across game logic, visual rendering, and player interactions. However, existing game-develop",
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
