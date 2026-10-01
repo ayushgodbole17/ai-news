@@ -539,7 +539,7 @@
   "date": "2026-09-28T23:40:59+00:00"
  },
  {
-  "source": "HN (55pts)",
+  "source": "HN (59pts)",
   "title": "Anthropic's IPO Prospectus Is a Fucking Doozy",
   "link": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
   "summary": "",
@@ -560,7 +560,7 @@
   "date": "2026-09-28T17:58:11+00:00"
  },
  {
-  "source": "HN (245pts)",
+  "source": "HN (246pts)",
   "title": "GLM-5.3 and the spread of advanced cyber capabilities",
   "link": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
   "summary": "",
@@ -623,7 +623,7 @@
   "date": "2026-09-28T15:16:13+00:00"
  },
  {
-  "source": "HN (45pts)",
+  "source": "HN (46pts)",
   "title": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
   "link": "https://lathoa.ai/en",
   "summary": "",
@@ -637,21 +637,21 @@
   "date": "2026-09-28T21:26:41+00:00"
  },
  {
-  "source": "HN (49pts)",
+  "source": "HN (50pts)",
   "title": "Reddit is putting more limits on old.reddit.com",
   "link": "https://arstechnica.com/gadgets/2026/09/reddit-will-block-old-reddit-com-from-people-who-havent-used-it-in-6-months/",
   "summary": "",
   "date": "2026-09-30T20:05:26+00:00"
  },
  {
-  "source": "HN (141pts)",
+  "source": "HN (143pts)",
   "title": "Launch HN: Magnitude (YC S25) \u2013 Self-optimizing inference engine for agents",
   "link": "https://github.com/magnitudedev/magnitude",
   "summary": "",
   "date": "2026-09-30T17:37:40+00:00"
  },
  {
-  "source": "HN (126pts)",
+  "source": "HN (127pts)",
   "title": "RSS Feeds for Last.fm",
   "link": "https://lfm.xiffy.nl/",
   "summary": "",
@@ -665,14 +665,14 @@
   "date": "2026-09-28T11:02:12+00:00"
  },
  {
-  "source": "HN (1161pts)",
+  "source": "HN (1231pts)",
   "title": "Gemini 4 Argon",
   "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
   "summary": "",
   "date": "2026-09-30T20:04:37+00:00"
  },
  {
-  "source": "HN (97pts)",
+  "source": "HN (98pts)",
   "title": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
   "link": "https://artificialanalysis.ai/models/gemini-4-argon",
   "summary": "",
@@ -722,6 +722,13 @@
  },
  {
   "source": "release: BerriAI/litellm",
+  "title": "litellm v1.101.4",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.101.4",
+  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
+  "date": "2026-10-01T05:10:19+00:00"
+ },
+ {
+  "source": "release: BerriAI/litellm",
   "title": "litellm v1.105.0-dev.1",
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-dev.1",
   "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
@@ -740,13 +747,6 @@
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.103.1",
   "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
   "date": "2026-09-30T00:59:43+00:00"
- },
- {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.102.2",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.102.2",
-  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
-  "date": "2026-09-30T00:58:27+00:00"
  },
  {
   "source": "release: ComposioHQ/composio",
@@ -1512,35 +1512,49 @@
   "date": "2026-10-01T00:00:00-04:00"
  },
  {
+  "source": "HF Papers (3 up)",
+  "title": "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
+  "link": "https://huggingface.co/papers/2609.38334",
+  "summary": "Large language models (LLMs) are increasingly deployed as agents for multi-step decision-making, yet transfer poorly to unseen environments. World-model methods address this by training agents to predict future observations, at the cost of additional training and errors that compound when predictions are used for planning. However, for LLM agents operating in digital environments, much of this wor",
+  "date": "2026-09-28T20:00:00+00:00"
+ },
+ {
   "source": "HF Papers (1 up)",
+  "title": "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
+  "link": "https://huggingface.co/papers/2609.39982",
+  "summary": "Terminal agents act through stochastic model generations, yet the ability to generate a useful action does not ensure its reliable execution. A poor command (e.g., wrong package install) can change the environment in ways that hinder subsequent progress, even when the model could generate a better alternative. We investigate whether allocating test-time compute at the model-harness boundary can im",
+  "date": "2026-09-29T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (4 up)",
   "title": "Scaling Laws for Looped Mixture of Experts",
   "link": "https://huggingface.co/papers/2609.40316",
   "summary": "Looped transformers and Mixture-of-Experts (MoE) offer complementary routes to efficient scaling: recurrence increases computational depth at fixed parameters, while MoE sparsity expands total capacity at fixed active compute. Yet existing scaling laws model recurrence or sparsity in isolation. In this work, we introduce Loop Scaling Laws, the first scaling law to jointly model recurrence and spar",
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (0 up)",
+  "source": "HF Papers (10 up)",
   "title": "Breaking Babel: A Self-Evolving Multi-Agent System for Long-Form Subtitle Translation",
   "link": "https://huggingface.co/papers/2609.38660",
   "summary": "Long-form subtitle translation requires reasoning over discourse and cultural context spanning episodes or entire series, while maintaining consistent terminology and style. Existing single-LLM methods are largely sentence-level, and multi-agent systems often use static workflows that do not adapt to scene complexity or production context. We propose SMART, a Self-evolving Multi-Agent system for l",
   "date": "2026-09-28T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (19 up)",
+  "source": "HF Papers (39 up)",
   "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
   "link": "https://huggingface.co/papers/2609.38721",
   "summary": "Modern multimodal models bring generation and understanding into a single unified system, which enables them to provide and learn from their own feedback. Motivated by this unified capacity, we introduce UniEvo-VL, a self-evolving framework for multimodal models to learn from this constructive self-correction feedback during test-time compute. Instead of relying on a separate, often larger, teache",
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (2 up)",
   "title": "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents",
   "link": "https://huggingface.co/papers/2609.40285",
   "summary": "On-policy distillation (OPD) is a promising approach for training language agents, providing dense teacher supervision on student-generated trajectories. However, in multi-turn interaction, an incorrect action changes the states the student encounters later, so errors compound across turns. In preliminary experiments across three Qwen3 models (8B to 235B), we find that more than half of the failed",
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (4 up)",
+  "source": "HF Papers (23 up)",
   "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
   "link": "https://huggingface.co/papers/2609.38288",
   "summary": "We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a solution better than the current one, and long-horizon execution, which keeps the iteration effective over many rounds. We hypothesize that both capabilit",
@@ -1582,7 +1596,7 @@
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (34 up)",
+  "source": "HF Papers (36 up)",
   "title": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
   "link": "https://huggingface.co/papers/2609.38143",
   "summary": "Agent performance depends on both reasoning ability and the environment in which it acts. We study test-time AI-for-AI, asking how a Builder can learn to construct better execution environments for a Target while both models' weights remain fixed. To make the Builder's experience reusable, we introduce Meta-Skill: principles specifying when support is needed and what resources to provide. The Buil",
@@ -1603,14 +1617,14 @@
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (6 up)",
+  "source": "HF Papers (7 up)",
   "title": "AIM: Agentic Idea Management for Automated Research",
   "link": "https://huggingface.co/papers/2609.38445",
   "summary": "Frontier LLMs are increasingly used to automate scientific research through iterative search. We distinguish idea-driven search from solution-driven search and identify three core challenges: organizing evolving research ideas, selecting promising directions, and maintaining alignment between ideas and their implementations. To address these challenges, we introduce the Agentic Idea Manager (AIM),",
   "date": "2026-09-28T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (5 up)",
+  "source": "HF Papers (9 up)",
   "title": "RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement",
   "link": "https://huggingface.co/papers/2609.39045",
   "summary": "Recent advances in large language models have made automatic game generation increasingly feasible, yet reliably improving generated games beyond a playable version remains challenging. Naive iterative refinement can easily overfit a small set of test cases, producing fragile games with unresolved bugs, missing behaviors, and poor generalization to broader player interactions. We introduce RSIGame",
@@ -1631,28 +1645,28 @@
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (24 up)",
+  "source": "HF Papers (26 up)",
   "title": "More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models",
   "link": "https://huggingface.co/papers/2609.38827",
   "summary": "Direct-decision models turn text into low-latency structured labels and scores, making them attractive for classification and automatic evaluation. Yet reliability requires more than accuracy: a model must also use the ordinal decision scale supplied by the user faithfully. We analyze JEV~1.13 and three open KEV models. Our investigation begins with ANLI, where JEV assigns 38.8\\% of all prediction",
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (34 up)",
+  "source": "HF Papers (45 up)",
   "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
   "link": "https://huggingface.co/papers/2609.40340",
   "summary": "Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method that co-evolves solutions and search queries with fixed model parameters. At each iteration, a retr",
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (3 up)",
   "title": "Game-Guided Skill Discovery through Self-Play for Playable Agent Control",
   "link": "https://huggingface.co/papers/2609.40137",
   "summary": "We present Game-Guided Skill Discovery (GGSD), a framework that uses self-play in games to discover motor skills that are directly playable by humans. Playable skills provide a compact abstraction for controlling embodied agents through a small set of learned behaviors rather than low-level actions. To be effective, these skills should be semantically distinct, interpretable, and expressive; prope",
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (10 up)",
+  "source": "HF Papers (11 up)",
   "title": "Systematically Exploring the Capabilities of GPT-6 Astra as Embodied Policies",
   "link": "https://huggingface.co/papers/2609.38537",
   "summary": "GPT-6 Astra exhibits a remarkable ability to generate numerical robot actions, extending its role beyond high-level planning. To assess Astra's capabilities as general-purpose embodied policies, we conduct comprehensive evaluations across six domains, examining direct control, cooperation with learned policies, and feedback-driven adaptation. In gripper manipulation, Astra can correct task targets",
@@ -1663,20 +1677,6 @@
   "title": "EviRover: Reinforcing Agentic Perception Beyond a Glance",
   "link": "https://huggingface.co/papers/2609.40230",
   "summary": "Visual perception is conventionally formulated as a one-shot prediction from a single glance at the image, under the assumption that the image content and the model's parametric knowledge suffice to resolve the query. This assumption often fails in real-world scenarios that hinge on fine-grained visual details or require knowledge-intensive and up-to-date information. We term such cases perception",
-  "date": "2026-09-29T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (2 up)",
-  "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
-  "link": "https://huggingface.co/papers/2609.40358",
-  "summary": "Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles. Existing approaches commonly assume that natural language is insufficient to represent the physical knowledge required for reliable generation, and therefore introduce additional visual, latent, numerical, or planning-based signals. We ",
-  "date": "2026-09-29T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (10 up)",
-  "title": "DC-SAE: Deep Compression Semantic Autoencoder for Faster Diffusion Convergence",
-  "link": "https://huggingface.co/papers/2609.39222",
-  "summary": "High-compression tokenizers are essential for scaling latent image generative models. However, aggressive compression creates a fundamental tradeoff between reconstruction fidelity and generation efficiency: high compression image encoder always increases the learning difficulty of diffusion training, resulting in slow model convergence. Recent representation autoencoders speed up the diffusion tr",
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
