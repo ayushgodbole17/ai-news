@@ -147,76 +147,6 @@
   "date": "2026-09-29T15:55:13+00:00"
  },
  {
-  "source": "MarkTechPost",
-  "title": "Cloudflare Releases Clef and Clef-flash: Open-Weight Decision Models That Return Typed Probabilities Instead of Text",
-  "link": "https://www.marktechpost.com/2026/10/01/cloudflare-releases-clef-and-clef-flash/",
-  "summary": "Cloudflare has released Clef (27B) and Clef-flash (9B), open-weight decision models that return typed probabilities instead of text. They are Jev-API compatible, accept images, and run on Workers AI at 209.3 ms and 38.8 ms median latency. The post Cloudflare Releases Clef and Clef-flash: Open-Weight Decision Models That Return Typed Probabilities Instead of Text appeared first on MarkTechPost .",
-  "date": "2026-10-02T01:00:41+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "A Coding Guide to Google Research\u2019s Kauldron: Configs That Are Plain Data, Components Wired by String, and a JAX Trainer You Can Read End to End",
-  "link": "https://www.marktechpost.com/2026/10/01/a-coding-guide-to-google-researchs-kauldron-configs-that-are-plain-data-components-wired-by-string-and-a-jax-trainer-you-can-read-end-to-end/",
-  "summary": "In this comprehensive coding guide, we explore Google Research's Kauldron\u2014a JAX training library optimized for research velocity and modularity. Learn how konfig turns experiments into plain dictionaries, kontext wires components via string paths, and ktyping enforces runtime shape checks. The post A Coding Guide to Google Research\u2019s Kauldron: Configs That Are Plain Data, Components Wired by Strin",
-  "date": "2026-10-02T00:32:50+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Cohere Releases Embed 5: How It Compares to Voyage 4 Large, Gemini Embedding 2, and OpenAI",
-  "link": "https://www.marktechpost.com/2026/10/01/cohere-releases-embed-5/",
-  "summary": "Cohere has released Embed 5, a new embedding model family. It targets enterprise search, RAG, and agentic retrieval. The model family ships in 2 tiers. Embed 5 Pro targets maximum retrieval quality. Embed 5 Fast targets latency and cost on the live query path. Both accept text, images, and fused text plus image inputs. Both [\u2026] The post Cohere Releases Embed 5: How It Compares to Voyage 4 Large, G",
-  "date": "2026-10-01T17:13:12+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "NVIDIA Releases Kumo Tabular: Open Tabular Foundation Models That Predict New Rows in a Single Forward Pass",
-  "link": "https://www.marktechpost.com/2026/09/30/nvidia-releases-kumo-tabular/",
-  "summary": "NVIDIA has released Kumo Tabular, a new family of tabular foundation models (TFMs) for classification and regression. If you have followed TabPFN or TabICL, the setup will look familiar. The model takes labeled rows as context and predicts new rows in one forward pass. There is no training, no hyperparameter tuning, and no feature engineering. [\u2026] The post NVIDIA Releases Kumo Tabular: Open Tabula",
-  "date": "2026-10-01T06:57:50+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Perplexity Releases pplx-embed-v2-context-9b-preview: A Contextual Embedding Model That Retrieves Answers and Their Supporting Evidence",
-  "link": "https://www.marktechpost.com/2026/09/30/perplexity-releases-pplx-embed-v2-context-9b-preview-a-contextual-embedding-model-that-retrieves-answers-and-their-supporting-evidence/",
-  "summary": "Perplexity Research and turbopuffer have released pplx-embed-v2-context-9b-preview, a contextual embedding model for RAG pipelines. Each chunk is embedded with the full document in view. The real change is the training signal. The model learns to retrieve the answer along with the context needed to verify it, not one \u2018gold passage.\u2019 P Is it deployable? Yes, [\u2026] The post Perplexity Releases pplx-em",
-  "date": "2026-10-01T03:23:39+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens for Coding, Knowledge Work and Cyber Defense",
-  "link": "https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/",
-  "summary": "Gemini 4 Argon tops GPT-6 Astra and Claude Opus 5.5 on most benchmarks, but access remains gated today. The post Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens for Coding, Knowledge Work and Cyber Defense appeared first on MarkTechPost .",
-  "date": "2026-09-30T21:30:08+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra\u2019s Token Price",
-  "link": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
-  "summary": "OpenAI released GPT-6.1 Sol on September 29, 2026, an upgrade to GPT-6 Sol. It reaches near-Astra results on agentic coding, computer use and professional work at one-fifth of Astra's token prices. It costs $2 input and $10 output per million tokens, and cached input drops to $0.10. It is available now through the OpenAI API, ChatGPT Work and Codex. The post OpenAI Releases GPT-6.1 Sol: Near-Astra",
-  "date": "2026-09-30T21:09:24+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Perplexity Introduces Photon: A Rust-Based Retrieval Engine That Cuts p99 Latency From 800 ms to 65 ms",
-  "link": "https://www.marktechpost.com/2026/09/30/perplexity-introduces-photon-a-rust-based-retrieval-engine-that-cuts-p99-latency-from-800-ms-to-65-ms/",
-  "summary": "Perplexity has released Photon, an in-house retrieval and ranking engine written in Rust. It replaces an open-source engine Perplexity had forked for its AI-native search stack. Photon now handles retrieval and ranking for all production traffic. It also powers a new Fast Search mode in the Perplexity Search API. Perplexity reports single-call latency of 160 [\u2026] The post Perplexity Introduces Phot",
-  "date": "2026-09-30T08:26:52+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "NVIDIA Researchers Introduce Physis-Lang: Self-Evolving Physical Language That Lifts Cosmos 3 Past Veo 3.1 on Physics Benchmarks",
-  "link": "https://www.marktechpost.com/2026/09/30/nvidia-researchers-introduce-physis-lang-self-evolving-physical-language-that-lifts-cosmos-3-past-veo-3-1-on-physics-benchmarks/",
-  "summary": "Video world models can render convincing clips that still break physics. Butter spreads like paint. Balls pass through walls. A team from NVIDIA, MIT and the University of Oxford argues the fix can come from language itself, not from extra visual, latent or numerical signals. Their framework, Physis-Lang, treats physical language as a shared, optimizable [\u2026] The post NVIDIA Researchers Introduce P",
-  "date": "2026-09-30T07:32:34+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "One Bad Prompt Took Down a Company\u2019s Salesforce: RSA\u2019s Jim Taylor on Agent ID and Taming the 4,000 Shadow AI Agents Hiding in Your Enterprise",
-  "link": "https://www.marktechpost.com/2026/09/29/rsa-launches-agent-id-to-discover-secure-and-govern-ai-agents-in-regulated-industries/",
-  "summary": "RSA launched Agent ID at The AI Conference in San Francisco. It's an agentic identity security platform for finance, government, healthcare, and critical infrastructure. It has 3 modules. Discover finds sanctioned and shadow agents and MCP servers. Secure is an inline gateway that checks every tool call against policy. Govern maps evidence to 10 regulatory frameworks. Discover and Secure ship Nove",
-  "date": "2026-09-30T01:30:17+00:00"
- },
- {
   "source": "MIT News",
   "title": "3 Questions: A new resource to empower young entrepreneurs",
   "link": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
@@ -518,7 +448,7 @@
   "date": "2026-10-01T16:30:10+00:00"
  },
  {
-  "source": "HN (200pts)",
+  "source": "HN (201pts)",
   "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
   "link": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
   "summary": "",
@@ -567,14 +497,14 @@
   "date": "2026-09-30T17:32:06+00:00"
  },
  {
-  "source": "HN (93pts)",
+  "source": "HN (97pts)",
   "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
   "link": "https://news.ycombinator.com/item?id=49911500",
   "summary": "",
   "date": "2026-09-30T16:58:24+00:00"
  },
  {
-  "source": "HN (40pts)",
+  "source": "HN (42pts)",
   "title": "Show HN: Rhun, an open-source code editor written in assembly",
   "link": "https://rhun.app/",
   "summary": "",
@@ -595,7 +525,7 @@
   "date": "2026-09-30T14:38:57+00:00"
  },
  {
-  "source": "HN (85pts)",
+  "source": "HN (93pts)",
   "title": "ArXiv's Updated Rate Limit Policy",
   "link": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
   "summary": "",
@@ -1159,14 +1089,14 @@
   "title": "unsloth Command Palette + Desktop UI/UX",
   "link": "https://github.com/unslothai/unsloth/releases/tag/v0.1.902-beta",
   "summary": "This release brings faster navigation, shareable run settings, and clearer errors to Unsloth Desktop. It also 4x speeds up Laya decisions, expands hosted Decision API support, and keeps NVFP4, INT4, and MXFP4 checkpoints in 4-bit during LoRA training. Highlights Command palette on Cmd/Ctrl+P. Also, ",
-  "date": "2026-10-01T14:28:56+00:00"
+  "date": "2026-10-02T04:50:40+00:00"
  },
  {
   "source": "release: unslothai/unsloth",
-  "title": "unsloth Command Palette + Desktop UI/UX",
+  "title": "unsloth v0.1.901-beta",
   "link": "https://github.com/unslothai/unsloth/releases/tag/v0.1.901-beta",
-  "summary": "This release brings faster navigation, shareable run settings, and clearer errors to Unsloth Desktop. It also 4x speeds up Laya decisions, expands hosted Decision API support, and keeps NVFP4, INT4, and MXFP4 checkpoints in 4-bit during LoRA training. Highlights Command palette on Cmd/Ctrl+P. Also, ",
-  "date": "2026-10-01T13:40:25+00:00"
+  "summary": "perf(studio): reuse embeddings for identical files in linked folders \u2026",
+  "date": "2026-10-01T12:35:11+00:00"
  },
  {
   "source": "release: unslothai/unsloth",
@@ -1449,6 +1379,34 @@
   "date": "2026-10-02T00:00:00-04:00"
  },
  {
+  "source": "HF Papers (2 up)",
+  "title": "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
+  "link": "https://huggingface.co/papers/2609.40362",
+  "summary": "We present Multimodal Flow, a fully continuous generative model of language and vision. Most unified multimodal models either model both language and quantized images as discrete tokens or combine discrete language prediction with continuous image generation. The former introduces a visual quantization bottleneck. The latter requires modality-dependent objectives and sampling procedures. Fully con",
+  "date": "2026-09-29T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (3 up)",
+  "title": "SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation",
+  "link": "https://huggingface.co/papers/2610.02201",
+  "summary": "High-resolution 3D generation increasingly relies on voxel latents and multi-stage pipelines that first predict active structure and then synthesize local geometry. While effective, this design fragments continuous surfaces into many local tokens, inflates generation cost, and often weakens topological consistency for thin or highly connected shapes. We introduce SILSA, a topology-aware 3D generat",
+  "date": "2026-09-30T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (4 up)",
+  "title": "Make Sparse Rewards Count: Density-Aware Reward Aggregation for Multi-Reward RL",
+  "link": "https://huggingface.co/papers/2610.00574",
+  "summary": "Multi-reward reinforcement learning trains large language models to satisfy multiple behavioral objectives simultaneously. Reward-wise normalization, as used in GDPO, preserves reward-specific relative information within rollout groups, but different objectives can still exhibit uneven learning progress. We study this behavior through advantage energy, the sum of a reward's squared advantages over",
+  "date": "2026-09-29T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (1 up)",
+  "title": "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
+  "link": "https://huggingface.co/papers/2610.02122",
+  "summary": "Real-world enterprise data science and analytics workflows require reasoning across dozens of tables, performing statistical analyses, and acting on the results. Established text-to-SQL benchmarks evaluate query generation alone, and audits have found their answer keys frequently wrong. Because real enterprise warehouses are too sensitive to release, these benchmarks are built on public datasets w",
+  "date": "2026-09-30T20:00:00+00:00"
+ },
+ {
   "source": "HF Papers (0 up)",
   "title": "Pay for the Fault, Not the Flow: Label-Free In-Flow Multi-Agent Workflow Optimization",
   "link": "https://huggingface.co/papers/2610.01017",
@@ -1463,7 +1421,7 @@
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (11 up)",
+  "source": "HF Papers (21 up)",
   "title": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling",
   "link": "https://huggingface.co/papers/2610.02162",
   "summary": "How can a world model continuously observe regions beyond the actor's current view? Video world models simulate how an environment evolves from an agent's actions, yet remain actor-centric. Once an object leaves the actor's view, they lose direct evidence of its evolution, often failing to preserve its state and dynamics upon re-entry. To address this, we introduce World Observer, which decouples ",
@@ -1477,7 +1435,7 @@
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (14 up)",
+  "source": "HF Papers (15 up)",
   "title": "Beyond the Current Scene: Event-Referential Grasping with Active View Selection",
   "link": "https://huggingface.co/papers/2609.39375",
   "summary": "A robot that observes people interacting with objects should be able to carry out later requests that refer back to those interactions. Such requests may specify a grasp target by the role it played in a past event rather than by its name or appearance. Moreover, the target may no longer be visible when the robot is asked to act. We present BeyondSCe, a zero-shot robotic grasping system for this e",
@@ -1491,7 +1449,7 @@
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (10 up)",
+  "source": "HF Papers (11 up)",
   "title": "4Director: Controlling Video World Models with Rigid 3D Geometry",
   "link": "https://huggingface.co/papers/2610.02160",
   "summary": "Precise control over camera and object motion is essential for professional video production. Existing methods control objects only coarsely, through image-plane cues that are ambiguous in depth and rotation or through 3D tracks and blobs that lack complete geometry and lose consistency across viewpoint changes. We introduce 4Director, a video world model conditioned on an explicit 4D scene repres",
@@ -1505,7 +1463,7 @@
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (8 up)",
+  "source": "HF Papers (13 up)",
   "title": "Sharpening Tax in Post-Training",
   "link": "https://huggingface.co/papers/2610.01509",
   "summary": "An emerging hypothesis about reinforcement learning (RL) post-training of large language models (LLMs) is that it merely sharpens existing behaviors of a base model, improving single-shot accuracy at the cost of solution coverage. Although this trade-off has been observed in math and coding tasks, it need not extend to agentic tasks, where multi-turn tool use and interaction may require capabiliti",
@@ -1533,24 +1491,10 @@
   "date": "2026-09-29T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (9 up)",
+  "source": "HF Papers (13 up)",
   "title": "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
   "link": "https://huggingface.co/papers/2610.01415",
   "summary": "Large language model (LLM) agents can now undertake increasingly complex tasks, but the way they organize interaction history into memory does not ensure a coherent understanding of the current world. We introduce PoS, an inference-time framework that constructs and continually maintains explicit belief states as the agent's decision context. Each belief combines an estimate of the current world s",
-  "date": "2026-09-30T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (22 up)",
-  "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
-  "link": "https://huggingface.co/papers/2610.00906",
-  "summary": "Automated harness optimization can substantially improve LLM agents by iteratively updating their prompts, tool interfaces, and control logic from execution feedback. However, existing methods primarily optimize how the harness is updated while largely fixing which training scenarios generate the feedback that drives those updates. As the harness evolves, the scenarios most useful for further opti",
-  "date": "2026-09-30T21:36:03+00:00"
- },
- {
-  "source": "HF Papers (6 up)",
-  "title": "ROWBench: Do Video Models Render What the Program Specifies?",
-  "link": "https://huggingface.co/papers/2610.02205",
-  "summary": "Programmable world models separate executable dynamics from visual generation, offering a promising foundation for next-generation game engines. However, their visual adherence to explicit rules and interactions remains insufficiently evaluated. Existing benchmarks assess visual quality, controllability, and instruction or physical adherence, but rarely test fidelity to fine-grained, program-speci",
   "date": "2026-09-30T20:00:00+00:00"
  },
  {
