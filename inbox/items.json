@@ -21,6 +21,20 @@
   "date": "2026-10-02T14:57:41+00:00"
  },
  {
+  "source": "DeepMind",
+  "title": "Gemini 4 Argon: our next era of frontier intelligence",
+  "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+  "summary": "",
+  "date": "2026-09-30T20:01:45+00:00"
+ },
+ {
+  "source": "DeepMind",
+  "title": "Introducing SynthID Bio",
+  "link": "https://deepmind.google/blog/introducing-synthid-bio/",
+  "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+  "date": "2026-09-30T15:03:07+00:00"
+ },
+ {
   "source": "OpenAI",
   "title": "A model guide for the GPT-6 family",
   "link": "https://openai.com/index/practical-guide-building-gpt-6",
@@ -476,7 +490,7 @@
   "date": "2026-10-01T19:11:23+00:00"
  },
  {
-  "source": "HN (208pts)",
+  "source": "HN (209pts)",
   "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
   "link": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
   "summary": "",
@@ -518,7 +532,7 @@
   "date": "2026-09-30T16:58:24+00:00"
  },
  {
-  "source": "HN (81pts)",
+  "source": "HN (89pts)",
   "title": "Show HN: Made an open-source Lego AI generator",
   "link": "https://github.com/anteloc/ldraw-nova",
   "summary": "",
@@ -546,14 +560,14 @@
   "date": "2026-09-30T15:33:12+00:00"
  },
  {
-  "source": "HN (197pts)",
+  "source": "HN (202pts)",
   "title": "Greg Kroah-Hartman \u2013 Security in the LLM Age [video]",
   "link": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
   "summary": "",
   "date": "2026-10-02T02:51:27+00:00"
  },
  {
-  "source": "HN (182pts)",
+  "source": "HN (191pts)",
   "title": "From the creator of Redis; run LLM locally with ds4",
   "link": "https://dwarfstar.sh/",
   "summary": "",
@@ -602,7 +616,7 @@
   "date": "2026-10-01T02:30:48+00:00"
  },
  {
-  "source": "HN (129pts)",
+  "source": "HN (131pts)",
   "title": "One month coding with GLM 5.3 Flash",
   "link": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
   "summary": "",
@@ -904,6 +918,13 @@
  },
  {
   "source": "release: feder-cr/invisible_playwright_mcp",
+  "title": "invisible_playwright_mcp 0.70.9",
+  "link": "https://github.com/feder-cr/invisible_playwright_mcp/releases/tag/v0.70.9",
+  "summary": "The server needs invisible-playwright 0.25.9, the wrapper that speaks the firefox-35 engine, so an install cannot resolve an older wrapper. On that engine browser_select_option can set a select inside an open shadow root, so its e2e is no longer an expected failure, and the shadow DOM page says so.",
+  "date": "2026-10-03T04:22:07+00:00"
+ },
+ {
+  "source": "release: feder-cr/invisible_playwright_mcp",
   "title": "invisible_playwright_mcp 0.70.8",
   "link": "https://github.com/feder-cr/invisible_playwright_mcp/releases/tag/v0.70.8",
   "summary": "browser_type said \"typed into\" from having sent the keys, not from what the field kept. A field that a store rewrote a moment after the focus, one that took only digits, or one with a maxlength all answered \"typed into\" while holding something else; long text never finished inside the call; and two ",
@@ -1134,7 +1155,7 @@
   "date": "2026-10-01T12:35:11+00:00"
  },
  {
-  "source": "HF Papers (4 up)",
+  "source": "HF Papers (5 up)",
   "title": "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation",
   "link": "https://huggingface.co/papers/2610.01092",
   "summary": "Video generation models are increasingly being explored as world simulators for embodied planning and learning. To do so effectively, these models must not only generate visually appealing frames, but also predict how environments dynamically evolve when executing goal-directed actions. While evaluating these capabilities is crucial, existing benchmarks focus mainly on single short actions or step",
@@ -1148,14 +1169,14 @@
   "date": "2026-09-30T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (5 up)",
+  "source": "HF Papers (6 up)",
   "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
   "link": "https://huggingface.co/papers/2610.02202",
   "summary": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which earlier work advanced their completed projects, with papers serving as pointers to the ideas within. Us",
   "date": "2026-09-30T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (9 up)",
+  "source": "HF Papers (10 up)",
   "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
   "link": "https://huggingface.co/papers/2610.02117",
   "summary": "On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves that receives privileged information. Its application to multimodal large language models (MLLMs), however, remains largely unexplored. Recent approaches use privileged visual information, such as image crops correspondi",
@@ -1169,7 +1190,7 @@
   "date": "2026-09-30T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (5 up)",
+  "source": "HF Papers (6 up)",
   "title": "LOCI: Spatial Linear Memory for Streaming World Models",
   "link": "https://huggingface.co/papers/2609.40222",
   "summary": "When a camera revisits a previously observed region, a video world model should reproduce what was there before. This requires both remembering past observations and retrieving the right one for the current viewpoint. Key-value caches preserve visual detail but grow with video length; recurrent memory is compact but compresses history into a fixed-size state, so individual past observations are no",
@@ -1183,7 +1204,7 @@
   "date": "2026-09-30T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (5 up)",
+  "source": "HF Papers (6 up)",
   "title": "Generalization Is Stability, Not Accuracy: Multi-Axis Evaluation of LLMs",
   "link": "https://huggingface.co/papers/2610.01428",
   "summary": "Generalization in large language models (LLMs) is the ability to produce consistent and semantically stable outputs when the same input is expressed in different ways. Existing work typically evaluates generalization through aggregate accuracy on a single prompt format, task, or set of variations, which conflates robustness with overall benchmark performance. In this work, we show generalization e",
