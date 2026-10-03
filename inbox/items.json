@@ -106,6 +106,13 @@
  },
  {
   "source": "MarkTechPost",
+  "title": "Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model on Artificial Analysis",
+  "link": "https://www.marktechpost.com/2026/10/02/microsoft-ai-releases-mai-transcribe-2-streaming-1-real-time-speech-to-text-model-on-artificial-analysis/",
+  "summary": "Microsoft AI has released MAI-Transcribe-2-Streaming, its first real-time speech-to-text model. It ranks #1 of 38 models on Artificial Analysis AA-WER Streaming. It scores 2.5% WER at 0.13s on final transcripts and 2.5% at 0.12s on first partials. It covers 60 languages with continuous language detection and costs $0.54 per hour during the introductory period. It is available now in public preview",
+  "date": "2026-10-03T05:09:53+00:00"
+ },
+ {
+  "source": "MarkTechPost",
   "title": "Decision AI Models Explained: TypeSafe Jev vs Fastino GLiDE, GLiNER2.5-Decide and Open-Source Competitors",
   "link": "https://www.marktechpost.com/2026/10/02/decision-ai-models-explained-typesafe-jev-vs-fastino-glide-gliner2-5-decide-and-open-source-competitors/",
   "summary": "Decision AI models answer typed questions with calibrated probabilities instead of generated text. TypeSafe's Jev costs $0.042 per million input tokens and returns responses in 70 to 500 milliseconds. We break down how it works and its benchmarks, then compare it with Fastino's GLiDE, GLiNER2.5-Decide and 4 open-source rivals. The post Decision AI Models Explained: TypeSafe Jev vs Fastino GLiDE, G",
@@ -166,13 +173,6 @@
   "link": "https://www.marktechpost.com/2026/09/30/perplexity-releases-pplx-embed-v2-context-9b-preview-a-contextual-embedding-model-that-retrieves-answers-and-their-supporting-evidence/",
   "summary": "Perplexity Research and turbopuffer have released pplx-embed-v2-context-9b-preview, a contextual embedding model for RAG pipelines. Each chunk is embedded with the full document in view. The real change is the training signal. The model learns to retrieve the answer along with the context needed to verify it, not one \u2018gold passage.\u2019 P Is it deployable? Yes, [\u2026] The post Perplexity Releases pplx-em",
   "date": "2026-10-01T03:23:39+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens for Coding, Knowledge Work and Cyber Defense",
-  "link": "https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/",
-  "summary": "Gemini 4 Argon tops GPT-6 Astra and Claude Opus 5.5 on most benchmarks, but access remains gated today. The post Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens for Coding, Knowledge Work and Cyber Defense appeared first on MarkTechPost .",
-  "date": "2026-09-30T21:30:08+00:00"
  },
  {
   "source": "MIT News",
@@ -546,7 +546,7 @@
   "date": "2026-10-01T20:32:18+00:00"
  },
  {
-  "source": "HN (43pts)",
+  "source": "HN (44pts)",
   "title": "Show HN: Breadcrumb, record everything on your mac + context manager for AI",
   "link": "https://innerloop.works/breadcrumb",
   "summary": "",
@@ -560,14 +560,14 @@
   "date": "2026-09-30T15:33:12+00:00"
  },
  {
-  "source": "HN (202pts)",
+  "source": "HN (209pts)",
   "title": "Greg Kroah-Hartman \u2013 Security in the LLM Age [video]",
   "link": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
   "summary": "",
   "date": "2026-10-02T02:51:27+00:00"
  },
  {
-  "source": "HN (191pts)",
+  "source": "HN (196pts)",
   "title": "From the creator of Redis; run LLM locally with ds4",
   "link": "https://dwarfstar.sh/",
   "summary": "",
@@ -616,7 +616,7 @@
   "date": "2026-10-01T02:30:48+00:00"
  },
  {
-  "source": "HN (131pts)",
+  "source": "HN (133pts)",
   "title": "One month coding with GLM 5.3 Flash",
   "link": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
   "summary": "",
@@ -782,13 +782,6 @@
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.34-v0.21.5",
   "summary": "{\"attempt\":34,\"attemptRef\":\"rc.34-v0.21.5\",\"schema\":1,\"version\":\"0.21\u2026",
   "date": "2026-10-02T17:39:02+00:00"
- },
- {
-  "source": "release: Significant-Gravitas/AutoGPT",
-  "title": "AutoGPT \ud83d\ude80 Release `autogpt-platform-beta-v0.8.2`",
-  "link": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.8.2",
-  "summary": "\ud83d\udd25 What's New? New Features #14209 - AutoPilot action gating modes - Ask First, Auto, Unsupervised (by @Pwuts ) #14817 - Workflows started from AutoPilot pause before an irreversible action; the irreversible marker renamed and widened (by @Pwuts ) #14832 - AutoPilot carries on while a held call await",
-  "date": "2026-09-30T05:25:31+00:00"
  },
  {
   "source": "release: VectifyAI/PageIndex",
@@ -1139,6 +1132,13 @@
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.49.0",
   "summary": "ruflo 3.49.0 Install: npx ruflo@latest (also @claude-flow/cli@3.49.0 , claude-flow@3.49.0 ). @claude-flow/security@3.0.1 is bundled and published standalone. This release fixes eleven issues reported by Martin Vladimirov ( @martinvlad ) . Each report included measurements and a reproduction, and tha",
   "date": "2026-10-01T00:12:15+00:00"
+ },
+ {
+  "source": "release: thedotmack/claude-mem",
+  "title": "claude-mem v13.29.0",
+  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v13.29.0",
+  "summary": "Version 13.29.0",
+  "date": "2026-10-03T05:24:34+00:00"
  },
  {
   "source": "release: unslothai/unsloth",
