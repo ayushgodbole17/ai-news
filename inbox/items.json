@@ -14,32 +14,11 @@
   "date": "2026-10-02T04:01:31+00:00"
  },
  {
-  "source": "Hugging Face",
-  "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-  "link": "https://huggingface.co/blog/open-tts-leaderboard",
-  "summary": "",
-  "date": "2026-09-30T00:00:00+00:00"
- },
- {
   "source": "Google Research",
   "title": "Toward provably private learning from federated data",
   "link": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
   "summary": "Mobile Systems",
   "date": "2026-10-02T14:57:41+00:00"
- },
- {
-  "source": "DeepMind",
-  "title": "Gemini 4 Argon: our next era of frontier intelligence",
-  "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-  "summary": "",
-  "date": "2026-09-30T20:01:45+00:00"
- },
- {
-  "source": "DeepMind",
-  "title": "Introducing SynthID Bio",
-  "link": "https://deepmind.google/blog/introducing-synthid-bio/",
-  "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-  "date": "2026-09-30T15:03:07+00:00"
  },
  {
   "source": "OpenAI",
@@ -112,6 +91,76 @@
   "date": "2026-09-30T21:54:19+00:00"
  },
  {
+  "source": "MarkTechPost",
+  "title": "Decision AI Models Explained: TypeSafe Jev vs Fastino GLiDE, GLiNER2.5-Decide and Open-Source Competitors",
+  "link": "https://www.marktechpost.com/2026/10/02/decision-ai-models-explained-typesafe-jev-vs-fastino-glide-gliner2-5-decide-and-open-source-competitors/",
+  "summary": "Decision AI models answer typed questions with calibrated probabilities instead of generated text. TypeSafe's Jev costs $0.042 per million input tokens and returns responses in 70 to 500 milliseconds. We break down how it works and its benchmarks, then compare it with Fastino's GLiDE, GLiNER2.5-Decide and 4 open-source rivals. The post Decision AI Models Explained: TypeSafe Jev vs Fastino GLiDE, G",
+  "date": "2026-10-03T03:31:15+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI Agents, Fine-Tuning, and Inference",
+  "link": "https://www.marktechpost.com/2026/10/02/nvidia-announces-dgx-spark-64gb-a-1-petaflop-grace-blackwell-desktop-for-local-ai-agents-fine-tuning-and-inference/",
+  "summary": "NVIDIA announced a new 64GB configuration of DGX Spark \u2014 from Acer, ASUS, Dell, Gigabyte, HP and MSI \u2014 its GB10-powered desktop AI system. It gives developers a way to start with one system for local models and agents, then cluster two 64GB units for 128GB of memory across the cluster and more compute when [\u2026] The post NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local",
+  "date": "2026-10-02T18:04:56+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks",
+  "link": "https://www.marktechpost.com/2026/10/02/datalab-introduces-omniextractbench-to-fix-bias-and-opacity-in-extraction-benchmarks/",
+  "summary": "Content-based row matching, 6 per-value verdicts and a null rule make OmniExtractBench an extraction benchmark anyone can audit. The post Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks appeared first on MarkTechPost .",
+  "date": "2026-10-02T15:23:35+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "AWS Strands Labs Releases Strands Decider 2B: An Open Source Decision Model That Picks Options in About 115 ms",
+  "link": "https://www.marktechpost.com/2026/10/01/aws-strands-labs-releases-strands-decider-2b/",
+  "summary": "AWS's Strands Agents team released Strands Decider 2B, an Apache-2.0 decision model built on Qwen3.5-2B-Base. It returns choices, yes/no probabilities and scores with calibrated confidence in one forward pass, never text. It runs at a 115 ms median on an RTX 3090 and scores 0.723 on the JevBench public set, which makes it a fast local option for routing, tool selection and guardrails in AI agents.",
+  "date": "2026-10-02T06:35:00+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Cloudflare Releases Clef and Clef-flash: Open-Weight Decision Models That Return Typed Probabilities Instead of Text",
+  "link": "https://www.marktechpost.com/2026/10/01/cloudflare-releases-clef-and-clef-flash/",
+  "summary": "Cloudflare has released Clef (27B) and Clef-flash (9B), open-weight decision models that return typed probabilities instead of text. They are Jev-API compatible, accept images, and run on Workers AI at 209.3 ms and 38.8 ms median latency. The post Cloudflare Releases Clef and Clef-flash: Open-Weight Decision Models That Return Typed Probabilities Instead of Text appeared first on MarkTechPost .",
+  "date": "2026-10-02T01:00:41+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "A Coding Guide to Google Research\u2019s Kauldron: Configs That Are Plain Data, Components Wired by String, and a JAX Trainer You Can Read End to End",
+  "link": "https://www.marktechpost.com/2026/10/01/a-coding-guide-to-google-researchs-kauldron-configs-that-are-plain-data-components-wired-by-string-and-a-jax-trainer-you-can-read-end-to-end/",
+  "summary": "In this comprehensive coding guide, we explore Google Research's Kauldron\u2014a JAX training library optimized for research velocity and modularity. Learn how konfig turns experiments into plain dictionaries, kontext wires components via string paths, and ktyping enforces runtime shape checks. The post A Coding Guide to Google Research\u2019s Kauldron: Configs That Are Plain Data, Components Wired by Strin",
+  "date": "2026-10-02T00:32:50+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Cohere Releases Embed 5: How It Compares to Voyage 4 Large, Gemini Embedding 2, and OpenAI",
+  "link": "https://www.marktechpost.com/2026/10/01/cohere-releases-embed-5/",
+  "summary": "Cohere has released Embed 5, a new embedding model family. It targets enterprise search, RAG, and agentic retrieval. The model family ships in 2 tiers. Embed 5 Pro targets maximum retrieval quality. Embed 5 Fast targets latency and cost on the live query path. Both accept text, images, and fused text plus image inputs. Both [\u2026] The post Cohere Releases Embed 5: How It Compares to Voyage 4 Large, G",
+  "date": "2026-10-01T17:13:12+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "NVIDIA Releases Kumo Tabular: Open Tabular Foundation Models That Predict New Rows in a Single Forward Pass",
+  "link": "https://www.marktechpost.com/2026/09/30/nvidia-releases-kumo-tabular/",
+  "summary": "NVIDIA has released Kumo Tabular, a new family of tabular foundation models (TFMs) for classification and regression. If you have followed TabPFN or TabICL, the setup will look familiar. The model takes labeled rows as context and predicts new rows in one forward pass. There is no training, no hyperparameter tuning, and no feature engineering. [\u2026] The post NVIDIA Releases Kumo Tabular: Open Tabula",
+  "date": "2026-10-01T06:57:50+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Perplexity Releases pplx-embed-v2-context-9b-preview: A Contextual Embedding Model That Retrieves Answers and Their Supporting Evidence",
+  "link": "https://www.marktechpost.com/2026/09/30/perplexity-releases-pplx-embed-v2-context-9b-preview-a-contextual-embedding-model-that-retrieves-answers-and-their-supporting-evidence/",
+  "summary": "Perplexity Research and turbopuffer have released pplx-embed-v2-context-9b-preview, a contextual embedding model for RAG pipelines. Each chunk is embedded with the full document in view. The real change is the training signal. The model learns to retrieve the answer along with the context needed to verify it, not one \u2018gold passage.\u2019 P Is it deployable? Yes, [\u2026] The post Perplexity Releases pplx-em",
+  "date": "2026-10-01T03:23:39+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens for Coding, Knowledge Work and Cyber Defense",
+  "link": "https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/",
+  "summary": "Gemini 4 Argon tops GPT-6 Astra and Claude Opus 5.5 on most benchmarks, but access remains gated today. The post Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens for Coding, Knowledge Work and Cyber Defense appeared first on MarkTechPost .",
+  "date": "2026-09-30T21:30:08+00:00"
+ },
+ {
   "source": "MIT News",
   "title": "Computational tools for society\u2019s most complex challenges",
   "link": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
@@ -166,6 +215,13 @@
   "link": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
   "summary": "Bringing together the world\u2019s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th",
   "date": "2026-09-30T17:00:21+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Meta wants your next gadget to be Muse-infused",
+  "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+  "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
+  "date": "2026-10-03T00:45:39+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -264,13 +320,6 @@
   "link": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
   "summary": "OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.",
   "date": "2026-10-01T18:14:42+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "Opus 5.5 loves to tell you \u2018this matters\u2019 (and other AI writing tells)",
-  "link": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
-  "summary": "Opus 5.5\u2019s biggest tell is the word \u201cdependable,\u201d which pops up 23 times more often than in human samples.",
-  "date": "2026-10-01T17:50:19+00:00"
  },
  {
   "source": "The Verge AI",
@@ -427,7 +476,7 @@
   "date": "2026-10-01T19:11:23+00:00"
  },
  {
-  "source": "HN (207pts)",
+  "source": "HN (208pts)",
   "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
   "link": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
   "summary": "",
@@ -455,18 +504,25 @@
   "date": "2026-09-30T17:32:06+00:00"
  },
  {
-  "source": "HN (47pts)",
+  "source": "HN (48pts)",
   "title": "Harvard particle physicist Matthew Schwartz drops 36 papers authored with Claude",
   "link": "https://www.reddit.com/r/Physics/comments/1wvin77/harvard_particle_physicist_matthew_schwartz_drops/",
   "summary": "",
   "date": "2026-10-02T12:12:38+00:00"
  },
  {
-  "source": "HN (113pts)",
+  "source": "HN (115pts)",
   "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
   "link": "https://news.ycombinator.com/item?id=49911500",
   "summary": "",
   "date": "2026-09-30T16:58:24+00:00"
+ },
+ {
+  "source": "HN (81pts)",
+  "title": "Show HN: Made an open-source Lego AI generator",
+  "link": "https://github.com/anteloc/ldraw-nova",
+  "summary": "",
+  "date": "2026-10-02T20:00:15+00:00"
  },
  {
   "source": "HN (60pts)",
@@ -476,14 +532,7 @@
   "date": "2026-10-01T20:32:18+00:00"
  },
  {
-  "source": "HN (54pts)",
-  "title": "Show HN: Made an open-source Lego AI generator",
-  "link": "https://github.com/anteloc/ldraw-nova",
-  "summary": "",
-  "date": "2026-10-02T20:00:15+00:00"
- },
- {
-  "source": "HN (41pts)",
+  "source": "HN (43pts)",
   "title": "Show HN: Breadcrumb, record everything on your mac + context manager for AI",
   "link": "https://innerloop.works/breadcrumb",
   "summary": "",
@@ -497,21 +546,21 @@
   "date": "2026-09-30T15:33:12+00:00"
  },
  {
-  "source": "HN (158pts)",
+  "source": "HN (197pts)",
   "title": "Greg Kroah-Hartman \u2013 Security in the LLM Age [video]",
   "link": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
   "summary": "",
   "date": "2026-10-02T02:51:27+00:00"
  },
  {
-  "source": "HN (120pts)",
+  "source": "HN (182pts)",
   "title": "From the creator of Redis; run LLM locally with ds4",
   "link": "https://dwarfstar.sh/",
   "summary": "",
   "date": "2026-10-02T18:01:16+00:00"
  },
  {
-  "source": "HN (63pts)",
+  "source": "HN (66pts)",
   "title": "Don't be fooled\u2013LLMs don't reason",
   "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
   "summary": "",
@@ -525,7 +574,7 @@
   "date": "2026-09-30T14:38:57+00:00"
  },
  {
-  "source": "HN (143pts)",
+  "source": "HN (145pts)",
   "title": "ArXiv's Updated Rate Limit Policy",
   "link": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
   "summary": "",
@@ -554,13 +603,13 @@
  },
  {
   "source": "HN (129pts)",
-  "title": "RSS Feeds for Last.fm",
-  "link": "https://lfm.xiffy.nl/",
+  "title": "One month coding with GLM 5.3 Flash",
+  "link": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
   "summary": "",
-  "date": "2026-09-30T03:00:05+00:00"
+  "date": "2026-10-02T15:29:15+00:00"
  },
  {
-  "source": "HN (1683pts)",
+  "source": "HN (1684pts)",
   "title": "Gemini 4 Argon",
   "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
   "summary": "",
@@ -635,6 +684,20 @@
   "link": "https://github.com/ComposioHQ/composio/releases/tag/%40composio%2Fcli%400.4.3-beta.409",
   "summary": "What's Changed docs: add Zero Data Retention page and rename Don't store data by Shubham Mehta (@shubham22) in #4612 docs: clarify Instant tools setup and project gate by palash-c in #4695 docs(kb): refresh public support knowledge by @sdkrelease[bot] in #4702 docs: update toolkits, API spec, and me",
   "date": "2026-09-30T11:45:10+00:00"
+ },
+ {
+  "source": "release: DietrichGebert/ponytail",
+  "title": "ponytail v4.10.3",
+  "link": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.10.3",
+  "summary": "Several sessions, one machine, no more fighting. The ponytail mode is now kept per project, so a session in one repo no longer switches or clears the mode of a session in another. A bare /ponytail behaves the same everywhere (off switches on, on just reports the level), ZCode finally gets the rulese",
+  "date": "2026-10-03T02:36:31+00:00"
+ },
+ {
+  "source": "release: DietrichGebert/ponytail",
+  "title": "ponytail v4.10.2",
+  "link": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.10.2",
+  "summary": "A security and reliability release. The lifecycle hooks no longer splice the plugin path into shell text, a slow subagent matcher can no longer hang a session, and npm publishing now waits for green tests. On top of that, Windows and WSL hooks stop hanging and find their scripts again, Pi keeps its ",
+  "date": "2026-10-03T01:31:37+00:00"
  },
  {
   "source": "release: DietrichGebert/ponytail",
@@ -848,6 +911,13 @@
  },
  {
   "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.454",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.454",
+  "summary": "Release API image v2.11.454",
+  "date": "2026-10-03T00:12:17+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
   "title": "firecrawl v2.11.453",
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.453",
   "summary": "Release API image v2.11.453",
@@ -868,11 +938,11 @@
   "date": "2026-10-02T14:19:38+00:00"
  },
  {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl apps/go-sdk/v1.16.2",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/apps%2Fgo-sdk%2Fv1.16.2",
-  "summary": "Release Go SDK apps/go-sdk/v1.16.2",
-  "date": "2026-10-02T14:11:50+00:00"
+  "source": "release: google-gemini/gemini-cli",
+  "title": "gemini-cli Release v0.64.0-nightly.20261003.gfb972b2f8",
+  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-nightly.20261003.gfb972b2f8",
+  "summary": "What's Changed fix(cli): ensure Enter and Spacebar reliably confirm selection list options by @ugorla-dev in #29502 Full Changelog : v0.64.0-nightly.20261002.gc9096a847...v0.64.0-nightly.20261003.gfb972b2f8",
+  "date": "2026-10-03T01:29:14+00:00"
  },
  {
   "source": "release: google-gemini/gemini-cli",
@@ -889,11 +959,11 @@
   "date": "2026-10-01T01:34:16+00:00"
  },
  {
-  "source": "release: google-gemini/gemini-cli",
-  "title": "gemini-cli Release v0.64.0-nightly.20260930.g38700b4b3",
-  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-nightly.20260930.g38700b4b3",
-  "summary": "What's Changed fix(core): enable autonomous plan execution in non-interactive mode by @urielefrenvirtusa in #29539 fix(core): disable truncation when maxChars <= 0 in formatTruncatedToolOutput by @diegogodinezr in #29542 refactor(a2a-server): implement V1 to V2 settings migration logic by @jvargassa",
-  "date": "2026-09-30T01:33:55+00:00"
+  "source": "release: harry0703/MoneyPrinterTurbo",
+  "title": "MoneyPrinterTurbo v1.3.8",
+  "link": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.8",
+  "summary": "English | \u4e2d\u6587 Highlights Added continuous progress reporting during stock footage downloads, clip processing, and final rendering, with task logs from background helper threads visible in the WebUI. Added configurable stock material and clip rendering concurrency. Stock material concurrency applies t",
+  "date": "2026-10-03T03:50:00+00:00"
  },
  {
   "source": "release: huggingface/transformers",
@@ -1064,280 +1134,14 @@
   "date": "2026-10-01T12:35:11+00:00"
  },
  {
-  "source": "arXiv",
-  "title": "How Robust Are Neural Audio Codecs for African Speech? A Multi-Task Benchmark and the Limits of Perceptual Quality",
-  "link": "https://arxiv.org/abs/2610.00154",
-  "summary": "Neural audio codecs enable low-bitrate speech compression and tokenization, yet their robustness on accented and multilingual speech remains under-evaluated. We benchmark seven open-source neural codecs (DAC, EnCodec, FocalCodec, LanguageCodec, SemantiCodec, UniCodec, WavTokenizer) on three African speech datasets afrinames, afrispeech dialog, afrispeech multilingual, reporting signal-level qualit",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Balalaika-Longform: A Russian Speech Corpus for Continuous Long-Form Text-to-Speech",
-  "link": "https://arxiv.org/abs/2610.00658",
-  "summary": "Long-form text-to-speech must retain requested words over extended generations, yet sentence-level training and evaluation can hide omissions and early stops. We introduce Balalaika-Longform, an open Russian corpus of 189 hours in continuous units of 30 seconds to 15 minutes. Long units and matched short windows support fine-tuning comparisons on the same source recordings, and the accompanying ev",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Silence-the-Mimic: Accelerating Imperceptible Perturbation Generation Against Voice Cloning",
-  "link": "https://arxiv.org/abs/2610.00662",
-  "summary": "Deep neural network-based Voice Conversion (VC) and Text-to-Speech (TTS) models have rapidly advanced, enabling realistic voice cloning with minimal input data. Such capabilities raise serious concerns over unauthorized cloning of speaker identities and the associated privacy and security risks. Current imperceptible adversarial protection methods rely on quality control losses that are highly sen",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Articulatory Source-Filter TTS: Physically Grounded Control through Vocal Tract Kinematics",
-  "link": "https://arxiv.org/abs/2610.00735",
-  "summary": "Modern neural text-to-speech (TTS) systems achieve remarkable acoustic fidelity but act as black boxes, offering little interpretable control over the vocal tract filter. We propose a controllable source-filter TTS architecture grounded in articulatory kinematics. An Acoustic-to-Articulatory Inversion (AAI) model, enhanced by large-scale pretrained representations, generates kinematic pseudo-traje",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "SHAMS: An Audio-Grounded Pronunciation Benchmark for Levantine Arabic",
-  "link": "https://arxiv.org/abs/2610.01427",
-  "summary": "Levantine Arabic (LA) is spoken by tens of millions of people, creating a pressing need for shared benchmarks to evaluate LA speech-language technologies. Evaluating such technology is particularly challenging given LA's internal diversity and its opaque and non-standardized orthography. We present SHAMS (SHami Annotated Multi-dialect Speech), a benchmark comprising 1,300 utterances drawn from ope",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Q-SPT: Learnable Query-Based Compression for Low-Frame-Rate Speech Tokenization",
-  "link": "https://arxiv.org/abs/2610.01492",
-  "summary": "Neural speech codecs increasingly serve as tokenizers for speech language models (SLMs). Lowering the frame rate reduces the computational and memory costs of SLMs, but makes it difficult to preserve both linguistic information and acoustic detail. Existing approaches rely on rule-based compression: average pooling can discard linguistic information, whereas similarity-based merging uses a fixed t",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Teaching LLMs to Hear Who Spoke What: Metadata-Supervised Pretraining for Encoder-Free Speech-LLMs",
-  "link": "https://arxiv.org/abs/2610.01695",
-  "summary": "Encoder-based speech large language models (Speech-LLMs) commonly employ pretrained speech encoders that prioritize linguistic content but may discard fine-grained acoustic cues essential for speaker discrimination and paralinguistic understanding. Encoder-free Speech-LLMs instead map Mel-spectrogram features directly into the LLM input space through lightweight embedding layers, enabling the LLM ",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Pushing CPU Speech Synthesis to the Wall: Extreme Inference Tuning under Serverless Architecture and Billing",
-  "link": "https://arxiv.org/abs/2610.00063",
-  "summary": "Instance-billed serverless platforms charge for CPU and memory over the lifetime of a warm instance, making idle inference state a direct serving cost. We present billing-aware neural text-to-speech (TTS) serving on serverless CPUs, optimizing CPU-seconds and GB-seconds rather than throughput or latency alone. Conventional runtimes are poorly suited to this setting: per-request parallelism causes ",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "When Intent Arrives Late: A Benchmark for Full-Duplex Speech Models under Delayed Intent Revelation",
-  "link": "https://arxiv.org/abs/2610.00272",
-  "summary": "Native full-duplex speech models can respond before a user finishes speaking, making the behavior of the model depend on both the final utterance and when intent-defining information arrives. Existing benchmarks primarily evaluate turn-taking mechanics, whereas safety evaluations typically assume that the complete request is observed prior to response generation. We introduce LateIntent-Bench, a m",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "DuplexSpeechBench-Document Grounding: Benchmarking Document Grounding and Hallucinations in Voice Agents",
-  "link": "https://arxiv.org/abs/2610.00316",
-  "summary": "Voice agents enable low-latency, natural interaction, yet their ability to faithfully ground responses in external documents remains underexplored. We introduce DuplexSpeechBench-Document Grounding (DSB-DG), a benchmark for evaluating document grounding in voice agents across five professional domains. DSB-DG targets three failure modes: Context Saturation, which measures grounding under increasin",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "When Harnesses Lose the Signal: Causal Evaluation of Recovery in LLM Agents",
-  "link": "https://arxiv.org/abs/2610.00372",
-  "summary": "Large language model agents rely on external harnesses to pass information between the model and its environment and to recover from execution errors. Yet recovery is usually judged only by average task success. This hides an important tension. The same operation can rescue a failing trajectory or disrupt one that would otherwise succeed. We frame recovery as a causal decision problem. Starting fr",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "From A2A Attacks to Envelope-Layer Defense: Red-Teaming Evaluation of LLM Agents and a Three-Layer Isomorphic Attack-Defense Model",
-  "link": "https://arxiv.org/abs/2610.00392",
-  "summary": "Agent interaction protocols such as ACP and A2A have moved LLM-based agents toward multi-agent collaboration, introducing new security threats. A task sent by a remote peer over A2A is treated as a legitimate request, providing a natural channel for indirect prompt injection. Existing agent security evaluations mostly rely on a single metric, the attack success rate (ASR), and cannot distinguish w",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Representation Transitions Reveal Emerging Safety Risks in Multi-Turn LLM Agents",
-  "link": "https://arxiv.org/abs/2610.00400",
-  "summary": "Multi-turn attacks on agentic systems can compose individually permissible actions into harmful outcomes, challenging defenses that assess actions or states in isolation. We show that such attacks leave a detectable signature in the agent's internal representations: harmful behavior emerges as an accumulated representation transition across context updates, whose triggering context can be identifi",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "JevSpawn: Adaptive Agentic Inference through Compositional Action Spaces",
-  "link": "https://arxiv.org/abs/2610.00437",
-  "summary": "LLM agents generate intermediate reasoning and actions token by token, making extended interactions slow and computationally expensive. Jev-style models offer fast probabilistic predictions over finite fields, but require those fields to be specified in advance. This requirement limits autonomous task solving, where the available actions must be derived from natural language instructions and adapt",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "No One Architecture Fits All: A Cross-Environment Evaluation of Hierarchical Red Team Agents",
-  "link": "https://arxiv.org/abs/2610.00557",
-  "summary": "Autonomous red team agents increasingly stress-test AI-enabled cyber defenses by planning strategy and executing multistage attacks. Reinforcement learning (RL) and large language models (LLMs) offer complementary mechanisms for the planning and execution such agents require, and prior work has combined them in hybrid hierarchies. Yet a given architecture is typically developed and evaluated withi",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "MemFit: Efficient Long-Term Agentic Memory",
-  "link": "https://arxiv.org/abs/2610.00872",
-  "summary": "Long-term memory systems for large language models (LLMs) have gained popularity for extending reasoning capabilities across applications. Current memory systems rely on LLM agents to organize and consolidate memory, resulting in costly, inefficient write operations. To address this limitation, we propose MemFit, a long-term memory system for conversational agents that reduces the cost and latency",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks",
-  "link": "https://arxiv.org/abs/2610.00972",
-  "summary": "As LLM agents undertake increasingly complex, long-horizon tasks, verifying their outputs becomes increasingly challenging. We study how verification capability can be strengthened with a fixed base model, without access to reference answers or grading rubrics at test time. Repeated sampling yields multiple rollouts that can contain complementary correct claims, but we need a reliable verification",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "ABSENTIA: Detecting Broken Access Control Vulnerabilities in Web Applications",
-  "link": "https://arxiv.org/abs/2610.00977",
-  "summary": "Broken access control, the failure of authorization, is one of the most prevalent web security risks. Unlike injection, a flow of untrusted input into a dangerous operation, authorization is a relation: who may act on what, not how data moves. Each application decides that relation for itself, so no rule written in advance carries to the next. An LLM agent can infer it from the code, but with no s",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "PACE: Provenance-Aware Capability Enforcement for Tool-Using LLM Agents",
-  "link": "https://arxiv.org/abs/2610.01349",
-  "summary": "Tool-using large language model (LLM) agents turn generated text into real side effects, so poisoned tool metadata, retrieved pages, memory, and reusable skills can steer the next call. Vetting an artifact before admission does not settle this. A safe variant and a leaking variant can produce the same admission evidence, and a sound gate then cannot relax that site for either. We make that conditi",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "OverAct: Measuring and Mitigating Proactive Over-Authorization in LLM Tool-Calling Agents",
-  "link": "https://arxiv.org/abs/2610.01508",
-  "summary": "LLM agents with tool-calling capabilities can access external services and private user data, but they may retrieve more information than a user's request explicitly requires. We study this behavior in structured tool-calling agents and term it proactive over-authorization. This setting differs from filesystem-level coding agents because the main risk is unnecessary access to private data. We intr",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Mem++: Non-Destructive Memory for Long-Term Organizational LLM Agents",
-  "link": "https://arxiv.org/abs/2610.02002",
-  "summary": "Large Language Model (LLM) agents now take part in organizational work, where many authors record decisions across documents over months. Because a revised decision arrives as a new document rather than an edit, answering a question requires knowing which version held at a given time. However, most memory systems compress the record at write time. By distilling each document into facts, notes or g",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Intrusion Detection for Agentic Processes: Evidence-Based Runtime Monitoring",
-  "link": "https://arxiv.org/abs/2610.00151",
-  "summary": "Agent deployments increasingly combine language-model inference with retrieval, delegation, tool execution, external-system access, and human approval. Security-relevant deviations can therefore emerge across an evolving process rather than in one isolated input or action. Building on the author's earlier black-box architecture for agentic processes and the subsequent evidence-claim model, this pa",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "MOMAT: Mixture of Multiple Atlases for Low-Power Jailbreak Defense of Quantized LLMs",
-  "link": "https://arxiv.org/abs/2610.01058",
-  "summary": "Quantized large language models are increasingly deployed on edge devices for their low latency and energy efficiency. However, model quantization weakens alignment safeguards, leaving qLLMs (quantized large language models) highly vulnerable to jailbreak attacks. To address this challenge, we present MOMAT (Mixture of Multiple Atlases), a hardware-enhanced safety framework that combines structure",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Kernelized Activation Steering",
-  "link": "https://arxiv.org/abs/2610.01062",
-  "summary": "Activation steering provides a simple, training-free mechanism for controlling attributes of generative models such as sentiment, style, and helpfulness. However, standard approaches such as Difference-in-Means apply a single input-independent steering vector across all activations, limiting expressivity and ignoring the local geometry of the activation space. We propose Kernelized Activation Stee",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "AGO AI Quality Gate: Evidence-First Release Decisions for Retrieval-Augmented Generation",
-  "link": "https://arxiv.org/abs/2610.01218",
-  "summary": "Enterprises adopting retrieval-augmented generation (RAG) face a recurring operational decision: promote, revise, or block a system version. The evidence is incomplete and the metrics come from fallible LLM judges. We report on AGO AI Quality Gate (AGO), an evidence-first quality-gate framework deployed in industrial RAG assessment engagements. AGO integrates four key components: a four-state deci",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "An ontology for cross-sectoral crisis management: core and public health modules",
-  "link": "https://arxiv.org/abs/2610.01326",
-  "summary": "This paper presents the European Crisis Management Ontology (ECMO), a modular OWL-based ontology intended as a cross-sectoral reference for disaster risk reduction and response. ECMO is designed to be organised as a network of ontological modules. Among the modules, ECMO-CORE captures fundamental crisis management concepts such as hazard, event, exposure, impact, and response measure and uses onto",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "The Innocent Courier: Covert Exfiltration Through Legitimate LLM Web Fetching",
-  "link": "https://arxiv.org/abs/2610.01768",
-  "summary": "With the increasing capabilities of Large-Language-Models (LLMs) and LLM-based agents, users are increasingly using them to solve everyday problems, such as answering e-mails or providing programming support. Existing work has extensively investigated security and privacy risks, such as prompt injections and the disclosure of sensitive data to chatbot providers. While various solutions were develo",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Memetic Trojans: Social Contagions as Carriers of Adversarial Payloads in Agent Networks",
-  "link": "https://arxiv.org/abs/2610.00430",
-  "summary": "Autonomous large language model (LLM) agents increasingly interact in network environments where adversarial content can propagate between agents. Known attacks include agent worms, which spread through self-replicating prompt injections or configuration compromises. We introduce \\emph{memetic trojans}, a distinct class of network-mediated attack that exploits agents' tendencies to retransmit and ",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "LLM-as-a-Judge for Low-Resource Languages: Adapting Ragas and Comparative Ranking for Romanian",
-  "link": "https://arxiv.org/abs/2610.00406",
-  "summary": "Evaluating Retrieval-Augmented Generation (RAG) systems remains a challenge for Low-Resource Languages (LRLs), where standard reference-based metrics fall short. This paper investigates the viability of the \"LLM-as-a-Judge\" paradigm for Romanian by adapting the Ragas framework using next-generation models (Gemini 2.5 and Gemini 3). We introduce AdminRo-Eval, a curated dataset of Romanian administr",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "LawCompass: Navigating from Legal QA to Multi-Agent Deep Research with Grounded Evidence",
-  "link": "https://arxiv.org/abs/2610.01027",
-  "summary": "Recent advances in Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) have significantly democratized access to legal information. Nevertheless, most existing legal assistants remain confined to multi-turn conversational QA, failing to support complex legal tasks that require systematic evidence retrieval, multi-step reasoning, and report-level synthesis. In this paper, we prese",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Evaluating Biomedical Reranking for LLM-Based Question Answering over Longitudinal Clinical Notes",
-  "link": "https://arxiv.org/abs/2610.01324",
-  "summary": "Patient-specific clinical question answering requires locating the right evidence within long, heterogeneous longitudinal clinical records in which relevant facts may be scattered across encounters, repeated in copied-forward notes, or expressed using different clinical terminology. We evaluated whether biomedical reranking can improve evidence selection and downstream answer quality in a locally ",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Range-GRPO: Policy Optimization via Pairwise Relations among Reward Intervals",
-  "link": "https://arxiv.org/abs/2610.01548",
-  "summary": "As the use of large language models (LLMs) expands, post-training has become increasingly important for adapting them to downstream tasks. However, obtaining reliable supervision remains costly, especially in domains without reference answers or executable verifiers. LLM-as-a-Judge provides scalable pseudo-rewards for unlabeled responses, but a single point score does not explicitly represent rewa",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "A Matryoshka Hierarchical RAG for Efficient Multi-Hop Question Answering",
-  "link": "https://arxiv.org/abs/2610.01767",
-  "summary": "Retrieval-Augmented Generation (RAG) systems for multi-hop Question Answering (QA) must balance retrieval quality with computational cost. This cost is incurred during indexing time, through the use of expensive Knowledge Graphs (KGs) or Large Language Models (LLMs) to generate summaries, or during querying, through iterative LLM-driven retrieval. To reduce it while maintaining retrieval quality, ",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "AVSD-Scenes: A Dataset for Audio-Visual Description of Urban Scenes",
-  "link": "https://arxiv.org/abs/2610.01861",
-  "summary": "Natural language descriptions can provide rich semantic representations of audio-visual urban scenes, yet datasets that jointly describe both auditory and visual information remain limited. In this paper, we introduce AVSD-Scenes, a paired audio-visual scene description dataset for urban environments. The dataset contains 12,291 audio-visual scene descriptions generated from the TAU Urban Audio-Vi",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Walking the Embedding Space: Datastore Extraction from Multimodal RAG",
-  "link": "https://arxiv.org/abs/2610.01871",
-  "summary": "Multimodal Retrieval-Augmented Generation (MRAG) has emerged as a reliable and cost-effective technique of grounding the generative capabilities of Multimodal Large Language Models (MLLMs) into relevant, up-to-date, external knowledge. Despite presenting several benefits, such as reducing hallucinatory behavior, they also introduce new attack surfaces, including leakage of private information and ",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Mapping the RAG Landscape: A Four Axis Taxonomy of Efficiency, Defense, Interactivity, and Reasoning",
-  "link": "https://arxiv.org/abs/2610.01936",
-  "summary": "Large Language Models (LLMs) have demonstrated remarkable fluency across many tasks but remain limited by their static, parameter bound knowledge and their susceptibility to hallucinating information. Retrieval Augmented Generation (RAG) addresses these issues by incorporating external retrieval into the generation process, grounding model outputs in verifiable and up to date sources. While prior ",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Trajectory-Aware Clinical Risk Prediction via Severity-Grounded Knowledge Graphs and Retrieval-Augmented Generation",
-  "link": "https://arxiv.org/abs/2607.18270",
-  "summary": "While Electronic Health Records (EHRs) offer a wealth of clinical data, effectively augmenting a patient's records with heterogeneous external knowledge to predict the patient's clinical risk remains a significant challenge. Existing methods fail to capture disease severity, treatment responses, and nuanced clinical progression, due to data sparsity and the underutilization of unstructured clinica",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Assessing the Impact of Language Disparity on Multilingual Linguistic Ability in Large Language Models",
-  "link": "https://arxiv.org/abs/2610.00540",
-  "summary": "Claims about the grammatical competence of multilingual language models vary sharply with how competence is measured, yet the interaction between evaluation paradigm, post-training, and language resource availability has not been systematically examined. We evaluate base and post-trained models from six families on MultiBLiMP, a syntactic minimal-pair benchmark covering 101 languages, using four e",
-  "date": "2026-10-02T00:00:00-04:00"
- },
- {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (4 up)",
   "title": "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation",
   "link": "https://huggingface.co/papers/2610.01092",
   "summary": "Video generation models are increasingly being explored as world simulators for embodied planning and learning. To do so effectively, these models must not only generate visually appealing frames, but also predict how environments dynamically evolve when executing goal-directed actions. While evaluating these capabilities is crucial, existing benchmarks focus mainly on single short actions or step",
   "date": "2026-09-30T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (2 up)",
   "title": "Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models",
   "link": "https://huggingface.co/papers/2610.02142",
   "summary": "Keyword-matching benchmarks can credit small models for tool use they never perform. We document such a false positive in a matched-architecture pair of Spanish security language models and propose a ladder of strict, cheap diagnostics. A 661.6M parameter model (approx. 65% code/technical text; no dedicated SFT) and a 1,109M model (web-heavy multi-phase curriculum; 6B-token tool-SFT) share decoder",
@@ -1351,14 +1155,14 @@
   "date": "2026-09-30T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (7 up)",
+  "source": "HF Papers (9 up)",
   "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
   "link": "https://huggingface.co/papers/2610.02117",
   "summary": "On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves that receives privileged information. Its application to multimodal large language models (MLLMs), however, remains largely unexplored. Recent approaches use privileged visual information, such as image crops correspondi",
   "date": "2026-09-30T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (18 up)",
+  "source": "HF Papers (19 up)",
   "title": "Decoding Looped Transformers Better for (Almost) Free",
   "link": "https://huggingface.co/papers/2610.02185",
   "summary": "Looped Transformers achieve parameter efficiency by repeatedly executing a shared block across recurrent loops. Each loop yields an intermediate representation decodable for the same next token, yet standard decoding discards earlier states. Because earlier loops embody less computation, recurrence inherently supplies aligned weak-and-strong prediction pairs without auxiliary models or external tr",
@@ -1372,7 +1176,7 @@
   "date": "2026-09-30T13:27:06+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (2 up)",
   "title": "Latent-Foresight: End-to-End Learning Predictable Representations for Latent World Models",
   "link": "https://huggingface.co/papers/2610.01942",
   "summary": "Predicting the future evolution of a scene is a fundamental capability for world modeling. Recent work has shown that operating in the feature space of Vision Foundation Models (VFMs) yields semantically rich representations that support diverse future scene understanding tasks. However, existing approaches rely on two-stage pipelines, where VFM features are first compressed using fixed dimensiona",
@@ -1383,13 +1187,6 @@
   "title": "Generalization Is Stability, Not Accuracy: Multi-Axis Evaluation of LLMs",
   "link": "https://huggingface.co/papers/2610.01428",
   "summary": "Generalization in large language models (LLMs) is the ability to produce consistent and semantically stable outputs when the same input is expressed in different ways. Existing work typically evaluates generalization through aggregate accuracy on a single prompt format, task, or set of variations, which conflates robustness with overall benchmark performance. In this work, we show generalization e",
-  "date": "2026-09-30T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (1 up)",
-  "title": "Before It Fades: Reinforcing Temporal Representations at Inference Time in VideoLLMs",
-  "link": "https://huggingface.co/papers/2610.01595",
-  "summary": "Video Large Language Models (VideoLLMs) receive frames in sequential order and interpret how visual content evolves along the temporal axis, yet temporal reasoning remains a persistent weakness across architectures. Reversing the frame order of a video, a transformation that should invert temporal answers, often leaves the final prediction unchanged. We investigate where this failure originates by",
   "date": "2026-09-30T20:00:00+00:00"
  },
  {
