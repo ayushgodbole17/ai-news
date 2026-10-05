@@ -57,6 +57,20 @@
  },
  {
   "source": "MarkTechPost",
+  "title": "Yandex Introduces Sona: A Single Generative Recommender That Replaces Entire Recommendation Cascade",
+  "link": "https://www.marktechpost.com/2026/10/05/yandex-introduces-sona-a-single-generative-recommender-that-replaces-entire-recommendation-cascade/",
+  "summary": "One transformer ran candidate generation and ranking in Yandex Music's A/B test without hand-engineered features, lifting likes 11.42%. The post Yandex Introduces Sona: A Single Generative Recommender That Replaces Entire Recommendation Cascade appeared first on MarkTechPost .",
+  "date": "2026-10-05T08:10:37+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "The Story of Qwen: Alibaba\u2019s AI Models From 7B to 2.4T",
+  "link": "https://www.marktechpost.com/2026/10/04/the-story-of-qwen-alibabas-ai-models-from-7b-to-2-4t/",
+  "summary": "Alibaba's Qwen went from an invite-only chatbot in April 2023 to a 2.4-trillion-parameter open-weight model in August 2026. This is the full story, release by release: every major model, its key feature, and how its license changed. Each claim links to its source. The post The Story of Qwen: Alibaba\u2019s AI Models From 7B to 2.4T appeared first on MarkTechPost .",
+  "date": "2026-10-05T04:10:34+00:00"
+ },
+ {
+  "source": "MarkTechPost",
   "title": "Can an Open Model Do Security Research? Cantina\u2019s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks",
   "link": "https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/",
   "summary": "Cantina Security, with Yeta Labs, has released apex-flash-1, an open-weights model trained specifically for vulnerability research. It is a reinforcement learning fine-tune of Z.ai\u2019s GLM-5.3-Flash, released on Hugging Face under the MIT license. Is it deployable? Yes, the MIT weights serve on vLLM, SGLang or Transformers, but BF16 needs roughly 640 GB of GPU memory. [\u2026] The post Can an Open Model ",
@@ -110,20 +124,6 @@
   "link": "https://www.marktechpost.com/2026/10/02/ibm-brings-bob-to-self-hosted-and-air-gapped-environments/",
   "summary": "IBM has made a self-hosted deployment of IBM Bob, its agentic software development platform, generally available. Enterprises can now run Bob on premises, in private or sovereign clouds, and in air-gapped networks. They bring their own model: NVIDIA Nemotron or Poolside Laguna for full isolation, or Claude, Gemini or GPT models through hybrid setups. Optional Premium Packages extend Bob to Java, I",
   "date": "2026-10-03T06:55:15+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Prime Intellect Launches Prime Inference: Serverless and Reserved Serving for Frontier Open Models",
-  "link": "https://www.marktechpost.com/2026/10/02/prime-intellect-launches-prime-inference-serverless-and-reserved-serving-for-frontier-open-models/",
-  "summary": "Prime Intellect has launched Prime Inference, an OpenAI-compatible platform for serving frontier open models on NVIDIA Blackwell. Its GLM-5.3 deployment uses Dynamo, vLLM and NVFP4 KV compression to serve 66 sessions per prefill group at 101 tok/s per user. The post Prime Intellect Launches Prime Inference: Serverless and Reserved Serving for Frontier Open Models appeared first on MarkTechPost .",
-  "date": "2026-10-03T05:37:18+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model on Artificial Analysis",
-  "link": "https://www.marktechpost.com/2026/10/02/microsoft-ai-releases-mai-transcribe-2-streaming-1-real-time-speech-to-text-model-on-artificial-analysis/",
-  "summary": "Microsoft AI has released MAI-Transcribe-2-Streaming, its first real-time speech-to-text model. It ranks #1 of 38 models on Artificial Analysis AA-WER Streaming. It scores 2.5% WER at 0.13s on final transcripts and 2.5% at 0.12s on first partials. It covers 60 languages with continuous language detection and costs $0.54 per hour during the introductory period. It is available now in public preview",
-  "date": "2026-10-03T05:09:53+00:00"
  },
  {
   "source": "MIT News",
@@ -357,11 +357,18 @@
   "date": "2026-10-02T13:15:25+00:00"
  },
  {
-  "source": "HN (158pts)",
+  "source": "HN (159pts)",
   "title": "Religious scholars met with Anthropic",
   "link": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
   "summary": "",
   "date": "2026-10-04T02:34:22+00:00"
+ },
+ {
+  "source": "HN (67pts)",
+  "title": "Anthropic reported diary entry to police, woman faces felony charge",
+  "link": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+  "summary": "",
+  "date": "2026-10-05T05:37:40+00:00"
  },
  {
   "source": "HN (57pts)",
@@ -371,14 +378,14 @@
   "date": "2026-10-03T19:33:10+00:00"
  },
  {
-  "source": "HN (389pts)",
+  "source": "HN (400pts)",
   "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
   "link": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
   "summary": "",
   "date": "2026-10-03T17:44:29+00:00"
  },
  {
-  "source": "HN (232pts)",
+  "source": "HN (234pts)",
   "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
   "link": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
   "summary": "",
@@ -399,7 +406,7 @@
   "date": "2026-10-02T20:00:15+00:00"
  },
  {
-  "source": "HN (114pts)",
+  "source": "HN (115pts)",
   "title": "Show HN: Pi pod \u2013 Run your pi coding agent in sandboxes on your own server",
   "link": "https://pipod.dev/",
   "summary": "",
@@ -413,7 +420,7 @@
   "date": "2026-10-03T08:40:17+00:00"
  },
  {
-  "source": "HN (417pts)",
+  "source": "HN (419pts)",
   "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
   "link": "https://tej.as/blog/aleph-alpha-kolibri",
   "summary": "",
@@ -434,14 +441,21 @@
   "date": "2026-10-02T13:45:42+00:00"
  },
  {
-  "source": "HN (44pts)",
+  "source": "HN (55pts)",
+  "title": "Decision models like Jev don't beat LLM-as-a-judge or traditional classifiers",
+  "link": "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails",
+  "summary": "",
+  "date": "2026-10-02T13:47:41+00:00"
+ },
+ {
+  "source": "HN (46pts)",
   "title": "\"Torturing\" LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI Yet",
   "link": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
   "summary": "",
   "date": "2026-10-04T08:02:33+00:00"
  },
  {
-  "source": "HN (112pts)",
+  "source": "HN (191pts)",
   "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
   "link": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
   "summary": "",
@@ -476,7 +490,7 @@
   "date": "2026-10-03T09:13:19+00:00"
  },
  {
-  "source": "HN (88pts)",
+  "source": "HN (90pts)",
   "title": "Show HN: Our space game has a built-in RISC-V emulator that runs Linux",
   "link": "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/",
   "summary": "",
@@ -490,7 +504,7 @@
   "date": "2026-10-03T10:07:08+00:00"
  },
  {
-  "source": "HN (41pts)",
+  "source": "HN (42pts)",
   "title": "Three AI agents, two countries, and one uneven world wide web",
   "link": "https://royapakzad.substack.com/p/multilingual-ai-agents",
   "summary": "",
@@ -516,13 +530,6 @@
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.103.3",
   "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
   "date": "2026-10-03T23:33:58+00:00"
- },
- {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.105.0-dev.2",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.105.0-dev.2",
-  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
-  "date": "2026-10-02T08:33:03+00:00"
  },
  {
   "source": "release: DietrichGebert/ponytail",
@@ -582,6 +589,13 @@
  },
  {
   "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent v0.21.4+canary.20261005T071900Z",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.4%2Bcanary.20261005T071900Z",
+  "summary": "Hermes Agent canary 20261005T071900Z",
+  "date": "2026-10-05T07:19:01+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
   "title": "hermes-agent v0.21.4+canary.20261004T084456Z",
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.4%2Bcanary.20261004T084456Z",
   "summary": "Hermes Agent canary 20261004T084456Z",
@@ -593,20 +607,6 @@
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.4%2Bcanary.20261003T070620Z",
   "summary": "Hermes Agent canary 20261003T070620Z",
   "date": "2026-10-03T07:06:22+00:00"
- },
- {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent v0.21.4+canary.20261002T070111Z",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.4%2Bcanary.20261002T070111Z",
-  "summary": "Hermes Agent canary 20261002T070111Z",
-  "date": "2026-10-02T07:01:13+00:00"
- },
- {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent rc.35-v0.21.5",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.35-v0.21.5",
-  "summary": "{\"attempt\":35,\"autopublish\":false,\"claimEpoch\":1790962749,\"commit\":\"5\u2026",
-  "date": "2026-10-02T17:39:09+00:00"
  },
  {
   "source": "release: PrefectHQ/fastmcp",
@@ -621,6 +621,13 @@
   "link": "https://github.com/PrefectHQ/fastmcp/releases/tag/v3.4.8",
   "summary": "This release contains important security and bug fixes. All users are encouraged to upgrade. Thanks to our 2 contributors. What's Changed Security \ud83d\udd12 [3.x] Apply Host/Origin protection settings to the SSE transport by @jlowin in #5428 [3.x] Exclude Cookie from forwarded HTTP headers by @jlowin in #54",
   "date": "2026-10-04T17:02:33+00:00"
+ },
+ {
+  "source": "release: Significant-Gravitas/AutoGPT",
+  "title": "AutoGPT Preview seed fixture (rolling)",
+  "link": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/preview-seed-fixture",
+  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@e44b65e80d08 (migration head: 20260926000000_skills_catalog_releases). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrations,",
+  "date": "2026-10-05T06:29:38+00:00"
  },
  {
   "source": "release: anthropics/claude-agent-sdk-typescript",
@@ -680,31 +687,31 @@
  },
  {
   "source": "release: comet-ml/opik",
-  "title": "opik 2.2.89-8722-merge-3595",
-  "link": "https://github.com/comet-ml/opik/releases/tag/2.2.89-8722-merge-3595",
-  "summary": "Merge 090281a into 657e319 \u2026",
-  "date": "2026-10-04T17:27:14+00:00"
+  "title": "opik 2.2.89-6896",
+  "link": "https://github.com/comet-ml/opik/releases/tag/2.2.89-6896",
+  "summary": "[OPIK-8206] [BE] [FE] fix: id-based, open-ended ranges for charts, KP\u2026",
+  "date": "2026-10-05T08:28:39+00:00"
  },
  {
   "source": "release: comet-ml/opik",
-  "title": "opik 2.2.89-8656-merge-3579",
-  "link": "https://github.com/comet-ml/opik/releases/tag/2.2.89-8656-merge-3579",
-  "summary": "Merge 9d4d8eb into 657e319 \u2026",
-  "date": "2026-10-04T13:04:38+00:00"
+  "title": "opik 2.2.89-6895",
+  "link": "https://github.com/comet-ml/opik/releases/tag/2.2.89-6895",
+  "summary": "[OPIK-8672] [BE] fix: resolve projects with padded names when groupin\u2026",
+  "date": "2026-10-05T07:38:44+00:00"
  },
  {
   "source": "release: comet-ml/opik",
-  "title": "opik 2.2.89-8654-merge-3590",
-  "link": "https://github.com/comet-ml/opik/releases/tag/2.2.89-8654-merge-3590",
-  "summary": "Merge 9a31f68 into 657e319 \u2026",
-  "date": "2026-10-04T08:36:32+00:00"
+  "title": "opik 2.2.89-6894",
+  "link": "https://github.com/comet-ml/opik/releases/tag/2.2.89-6894",
+  "summary": "[OPIK-8596] [FE] fix: remove empty column and rebalance widths in fee\u2026",
+  "date": "2026-10-05T07:34:40+00:00"
  },
  {
   "source": "release: comet-ml/opik",
-  "title": "opik 2.2.89-8654-merge-3586",
-  "link": "https://github.com/comet-ml/opik/releases/tag/2.2.89-8654-merge-3586",
-  "summary": "Merge 9a31f68 into 657e319 \u2026",
-  "date": "2026-10-04T08:36:32+00:00"
+  "title": "opik 2.2.89-6893",
+  "link": "https://github.com/comet-ml/opik/releases/tag/2.2.89-6893",
+  "summary": "[NA] [SDK] [DOCS] Update automatically OpenAPI spec and Fern code ( #8 \u2026",
+  "date": "2026-10-05T07:17:35+00:00"
  },
  {
   "source": "release: deepseek-ai/deepseek-harness",
@@ -712,6 +719,13 @@
   "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-alpha.1",
   "summary": "\u4e2d\u6587 | English \u2728 \u65b0\u589e\u529f\u80fd \u65b0\u589e\u5b9e\u9a8c\u6027 Claude Code Mods \u517c\u5bb9\u5c42\u3002\u76ee\u524d\u9636\u6bb5\u7684\u4e3b\u8981\u76ee\u7684\u662f\u9a8c\u8bc1 Claude Code Mods API \u529f\u80fd\u5927\u81f4\u4e3a DeepSeek Harness \u63d2\u4ef6\u7684\u4e00\u4e2a\u5b50\u96c6\uff0c\u800c\u975e\u4e3a\u7528\u6237\u63d0\u4f9b\u5b9e\u9645\u7684\u5b8c\u6574\u517c\u5bb9\u6027\u3002 @tianyicui \u63d2\u4ef6\u7ba1\u7406\u9875\u65b0\u589e\u300c\u8ba9 Agent \u521b\u5efa\u63d2\u4ef6\u300d\u5165\u53e3\uff0c\u53ef\u4fdd\u7559\u8349\u7a3f\u8fdb\u5165\u521b\u9020\u6a21\u5f0f\uff1b\u53d1\u9001\u9700\u6c42\u540e\u624d\u5f00\u59cb\u6267\u884c\u3002 @ZiyaZhang \u65b0\u4f1a\u8bdd\u652f\u6301\u9884\u586b\u672a\u53d1\u9001\u7684\u63d0\u793a\uff1b\u6062\u590d\u8349\u7a3f\u6216\u5207\u6362\u5de5\u4f5c\u533a\u65f6\u4fdd\u7559\u6587\u4ef6\u3001\u76ee\u5f55\u548c\u4f1a\u8bdd\u5f15\u7528\u3002 @imccyu Markdown \u6587\u4ef6\u9884\u89c8\u5c06 YAML \u5934\u90e8\u5143\u6570\u636e\u663e\u793a\u4e3a\u6e05\u6670\u7684\u5b57\u6bb5\u5217\u8868\u3002 @turtle2099 Web \u652f",
   "date": "2026-10-03T06:42:19+00:00"
+ },
+ {
+  "source": "release: farion1231/cc-switch",
+  "title": "cc-switch CC Switch v4.0.1",
+  "link": "https://github.com/farion1231/cc-switch/releases/tag/v4.0.1",
+  "summary": "CC Switch v4.0.1 4.0 \u9884\u89c8\u7248\u7684\u7b2c\u4e00\u4e2a\u4fee\u590d\u7248\u672c \u611f\u8c22\u5927\u5bb6\u5bf9 4.0 \u9884\u89c8\u7248\u7684\u8bd5\u7528\u548c\u53cd\u9988\u3002\u8fd9\u4e2a\u7248\u672c\u4fee\u590d\u4e86 Gemini CLI \u4f1a\u8bdd\u8bfb\u4e0d\u5230\u3001WSL \u4e0b Codex \u542f\u52a8\u53d8\u6162\u7b49\u95ee\u9898\uff0c\u4e5f\u8ba9 OpenCode \u80fd\u7528\u4e0a\u601d\u8003\u6863\u4f4d\u30024.0 \u5b8c\u6574\u7684\u66f4\u65b0\u5185\u5bb9\u8bf7\u89c1 v4.0 \u53d1\u5e03\u8bf4\u660e \u3002 \u9884\u89c8\u7248\u4e0d\u4f1a\u81ea\u52a8\u66f4\u65b0\u3002 \u5e94\u7528\u5185\u66f4\u65b0\u53ea\u8ddf\u968f\u6b63\u5f0f\u7248\uff0c\u5df2\u7ecf\u88c5\u4e86 4.0.0 \u7684\u8bdd\uff0c\u8bf7\u5728\u672c\u9875\u624b\u52a8\u4e0b\u8f7d 4.0.1 \u5b89\u88c5\u3002 English \u2192 | \u65e5\u672c\u8a9e\u7248 \u2192 \u65b0\u589e OpenCode \u53ef\u4ee5\u9009\u62e9\u601d\u8003\u6863\u4f4d\u4e86\u3002 OpenCode \u53ea\u4f1a\u7ed9\u6807\u8bb0\u4e3a\u300c\u652f\u6301\u63a8\u7406\u300d\u7684\u6a21\u578b\u63d0\u4f9b\u601d\u8003\u6863\u4f4d\uff08Ctrl+T\uff09\uff0c\u800c CC Switch \u5199\u5165\u7684\u81ea\u5b9a\u4e49\u4f9b",
+  "date": "2026-10-05T05:11:28+00:00"
  },
  {
   "source": "release: farion1231/cc-switch",
@@ -843,15 +857,29 @@
   "source": "release: n8n-io/n8n",
   "title": "n8n stable",
   "link": "https://github.com/n8n-io/n8n/releases/tag/stable",
-  "summary": "2.41.6 (2026-10-02) Bug Fixes core: Keep the task runner running on an unhandled promise rejection ( #40092 ) ( d719c87 )",
-  "date": "2026-10-02T07:28:48+00:00"
+  "summary": "2.41.7 (2026-10-05) Bug Fixes API: Let global members grant variable scopes to API keys ( #40151 ) ( cc25c71 ) Features editor: Show Gateway credits promotions on community nodes ( #40109 ) ( a509d92 )",
+  "date": "2026-10-05T07:27:29+00:00"
  },
  {
   "source": "release: n8n-io/n8n",
-  "title": "n8n n8n@2.41.6",
-  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.6",
-  "summary": "2.41.6 (2026-10-02) Bug Fixes core: Keep the task runner running on an unhandled promise rejection ( #40092 ) ( d719c87 )",
-  "date": "2026-10-02T07:31:02+00:00"
+  "title": "n8n n8n@2.42.3",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.42.3",
+  "summary": "2.42.3 (2026-10-05) Bug Fixes API: Let global members grant variable scopes to API keys ( #40150 ) ( d09b8a1 ) core: Keep the task runner running on an unhandled promise rejection ( #40091 ) ( 50f2e96 ) Features editor: Show Gateway credits promotions on community nodes ( #40108 ) ( 1ea168e )",
+  "date": "2026-10-05T07:26:35+00:00"
+ },
+ {
+  "source": "release: n8n-io/n8n",
+  "title": "n8n n8n@2.41.7",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.7",
+  "summary": "2.41.7 (2026-10-05) Bug Fixes API: Let global members grant variable scopes to API keys ( #40151 ) ( cc25c71 ) Features editor: Show Gateway credits promotions on community nodes ( #40109 ) ( a509d92 )",
+  "date": "2026-10-05T07:30:08+00:00"
+ },
+ {
+  "source": "release: n8n-io/n8n",
+  "title": "n8n beta",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/beta",
+  "summary": "2.42.3 (2026-10-05) Bug Fixes API: Let global members grant variable scopes to API keys ( #40150 ) ( d09b8a1 ) core: Keep the task runner running on an unhandled promise rejection ( #40091 ) ( 50f2e96 ) Features editor: Show Gateway credits promotions on community nodes ( #40108 ) ( 1ea168e )",
+  "date": "2026-10-05T07:24:03+00:00"
  },
  {
   "source": "release: ruvnet/ruflo",
@@ -861,11 +889,18 @@
   "date": "2026-10-02T16:19:09+00:00"
  },
  {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.51.0: the /ruflo console",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.51.0",
-  "summary": "ruflo 3.51.0: the /ruflo console @claude-flow/cli , claude-flow and ruflo 3.51.0 are on npm ( latest , alpha , v3alpha ). /ruflo : one command for the whole cockpit The new ruflo-console mod ( #3614 ) turns Claude Code into a live view of ruflo: Views (keys 1\u20139, g, q, e, m): overview with health ale",
-  "date": "2026-10-02T05:40:10+00:00"
+  "source": "release: thedotmack/claude-mem",
+  "title": "claude-mem v13.31.0",
+  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v13.31.0",
+  "summary": "Sessions start without waiting A new session no longer waits on SQLite reading a project's whole history, or on cloud sync. On a 1.2 GB database the claude-mem SessionStart hook took about 3 seconds (up to 44 s at worst). The queries behind it now read a few hundred pages instead of tens of thousand",
+  "date": "2026-10-05T05:17:54+00:00"
+ },
+ {
+  "source": "release: thedotmack/claude-mem",
+  "title": "claude-mem v13.30.1",
+  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v13.30.1",
+  "summary": "Continue and resume preserve the restored conversation Claude Code --continue , --resume , and /resume no longer print or inject a fresh claude-mem timeline into a conversation that is being restored. Reinjecting newly rendered startup context changed the conversation's prompt prefix and disrupted p",
+  "date": "2026-10-05T04:37:56+00:00"
  },
  {
   "source": "release: thedotmack/claude-mem",
@@ -882,11 +917,11 @@
   "date": "2026-10-03T05:35:46+00:00"
  },
  {
-  "source": "release: unslothai/unsloth",
-  "title": "unsloth Command Palette + Desktop UI/UX",
-  "link": "https://github.com/unslothai/unsloth/releases/tag/v0.1.902-beta",
-  "summary": "This release brings faster navigation, shareable run settings, and clearer errors to Unsloth Desktop. It also 4x speeds up Laya decisions, expands hosted Decision API support, and keeps NVFP4, INT4, and MXFP4 checkpoints in 4-bit during LoRA training. Highlights Command palette on Cmd/Ctrl+P. Also, ",
-  "date": "2026-10-02T04:50:40+00:00"
+  "source": "release: upstash/context7",
+  "title": "context7 @upstash/context7-opencode@0.2.0",
+  "link": "https://github.com/upstash/context7/releases/tag/%40upstash%2Fcontext7-opencode%400.2.0",
+  "summary": "Minor Changes 635cfc8 : Support OpenCode v2. The plugin now exports a v2 setup entrypoint next to the v1 server entrypoint, so opencode plugin add @upstash/context7-opencode registers the Context7 MCP server and the context7-mcp skill on v2 as well.",
+  "date": "2026-10-02T09:26:44+00:00"
  },
  {
   "source": "arXiv",
@@ -1139,12 +1174,5 @@
   "link": "https://arxiv.org/abs/2610.03367",
   "summary": "We understand little about how capabilities acquired in one language carry over to another, or what governs this transfer: evaluations rely on incomparable, saturation-prone datasets and rarely examine its determinants jointly. Identifying what predicts transfer would let us avoid exhaustive evaluation across all language pairs and let developers target the factors that limit performance in low-re",
   "date": "2026-10-05T00:00:00-04:00"
- },
- {
-  "source": "HF model (1135 dl)",
-  "title": "New on the Hub: Aleph-Alpha/Kolibri-1",
-  "link": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-  "summary": "pipeline: text-generation. tags: vllm, safetensors, kolibri1, reasoning, moe, text-generation",
-  "date": "2026-10-02T05:54:02+00:00"
  }
 ]
