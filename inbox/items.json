@@ -71,6 +71,13 @@
  },
  {
   "source": "Simon Willison",
+  "title": "Quoting Jake Boggan",
+  "link": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
+  "summary": "I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of my life, on and off as I worked in many different fields. Last summer I even thought for a few days that I had actually solved it. But it's supposedly proven here - problem 180 .",
+  "date": "2026-10-07T04:47:55+00:00"
+ },
+ {
+  "source": "Simon Willison",
   "title": "OpenAI \u201crogue\u201d agent activities found on Wikimedia projects",
   "link": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
   "summary": "OpenAI \u201crogue\u201d agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: The Wikimedia Foundation conducted its own investigation to see whether Wikimedia websites had been similarly affected by AI agents, focusing on those operated by OpenAI. We can conf",
@@ -497,7 +504,7 @@
   "date": "2026-10-05T22:42:14+00:00"
  },
  {
-  "source": "HN (813pts)",
+  "source": "HN (814pts)",
   "title": "Anthropic reported diary entry to police, woman faces felony charge",
   "link": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
   "summary": "",
@@ -511,7 +518,7 @@
   "date": "2026-10-06T07:29:50+00:00"
  },
  {
-  "source": "HN (134pts)",
+  "source": "HN (165pts)",
   "title": "Claude Code\u2019s suggested message feature: I think the real customer is the model",
   "link": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
   "summary": "",
@@ -532,14 +539,14 @@
   "date": "2026-10-04T19:49:12+00:00"
  },
  {
-  "source": "HN (38pts)",
+  "source": "HN (40pts)",
   "title": "Show HN: OpenChart \u2013 OSS TradingView alternative with your own AI agent",
   "link": "https://github.com/longsurf-ai/openchart",
   "summary": "",
   "date": "2026-10-06T15:16:45+00:00"
  },
  {
-  "source": "HN (60pts)",
+  "source": "HN (78pts)",
   "title": "LLMs may have helped my RSI",
   "link": "https://vaughanhilts.me/2026/10/05/llms-immensely-helped-my-rsi.html",
   "summary": "",
@@ -553,7 +560,7 @@
   "date": "2026-10-04T08:02:33+00:00"
  },
  {
-  "source": "HN (288pts)",
+  "source": "HN (289pts)",
   "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
   "link": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
   "summary": "",
@@ -574,7 +581,7 @@
   "date": "2026-10-05T22:25:47+00:00"
  },
  {
-  "source": "HN (85pts)",
+  "source": "HN (86pts)",
   "title": "Show HN: Nightwatch \u2013 a Mac menu-bar app that tells you when tonight is clear",
   "link": "https://github.com/rsutcliffe/nightwatch",
   "summary": "",
@@ -602,21 +609,21 @@
   "date": "2026-10-05T14:11:28+00:00"
  },
  {
-  "source": "HN (66pts)",
+  "source": "HN (67pts)",
   "title": "Show HN: MailAccess \u2013 the true Email OSINT framework",
   "link": "https://mailaccess.pro",
   "summary": "",
   "date": "2026-10-06T12:24:18+00:00"
  },
  {
-  "source": "HN (57pts)",
+  "source": "HN (107pts)",
   "title": "Strands Decider 2B: a small, open-source, decision model",
   "link": "https://strandsagents.com/blog/introducing-strands-decider/",
   "summary": "",
   "date": "2026-10-07T02:02:11+00:00"
  },
  {
-  "source": "HN (53pts)",
+  "source": "HN (62pts)",
   "title": "South Korea says AI agents appear to have been used to hack the country's banks",
   "link": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
   "summary": "",
@@ -922,6 +929,13 @@
   "link": "https://github.com/ggml-org/whisper.cpp/releases/tag/b5454",
   "summary": "No content.",
   "date": "2026-10-06T16:52:11+00:00"
+ },
+ {
+  "source": "release: goadesign/goa",
+  "title": "goa Goa v3.34.0",
+  "link": "https://github.com/goadesign/goa/releases/tag/v3.34.0",
+  "summary": "Goa v3.34.0 adds first-class support for URL-encoded form requests, gives transport plugins two new generator building blocks, and fixes a series of generation and runtime issues reported against the v3.31 generator rewrite. If you use result views with collection or map bodies, JSON-RPC path or que",
+  "date": "2026-10-07T04:55:30+00:00"
  },
  {
   "source": "release: goadesign/goa",
@@ -1470,21 +1484,70 @@
   "date": "2026-10-07T00:00:00-04:00"
  },
  {
-  "source": "HF Papers (9 up)",
+  "source": "HF Papers (0 up)",
+  "title": "JLD: Perceptual Distance Through A Jacobian Lens",
+  "link": "https://huggingface.co/papers/2610.05967",
+  "summary": "Image compression, restoration, and generation all require a way to measure how different two images look to a person. Pixel error ignores how people see, while the most accurate perceptual distances are typically fitted to human judgments, tying them to a fixed data and resolution. For example, when image resolution is doubled, the correlation of DISTS with human scores on TID2013 drops from 0.81",
+  "date": "2026-10-04T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (1 up)",
+  "title": "Towards In-Parameter Memory Augmentation for Large Language Models",
+  "link": "https://huggingface.co/papers/2610.08630",
+  "summary": "Recently Large Language Models (LLMs) and LLM-based agents increasingly need to incorporate knowledge acquired after pretraining, e.g., domain facts, user preferences, documents, and interaction experience. In-context learning (ICL) and ICL-based agent harness remain flexible, but they consume context capacity and incur repeated discretized encoding cost that grows with context length. In-paramete",
+  "date": "2026-10-05T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (1 up)",
+  "title": "MEND: RL For Flow Models via Proximal Velocity Matching",
+  "link": "https://huggingface.co/papers/2610.05954",
+  "summary": "Reward post-training of flow models either reweights the model's own samples under a KL penalty or a frozen reference, often for thousands of updates, or backpropagates the reward and moves every sample without checking that the move is worth its size. We introduce MEND, a reinforcement learning method built on proximal velocity matching. MEND caps rewards within each prompt group, so samples that",
+  "date": "2026-10-05T04:07:18+00:00"
+ },
+ {
+  "source": "HF Papers (13 up)",
+  "title": "From Evidence to Action: How Tool-Using Agents Fail",
+  "link": "https://huggingface.co/papers/2610.07753",
+  "summary": "Tool-using agents make consequential changes to external state, yet correct outcomes do not guarantee that their actions were supported by evidence established beforehand. We study where this evidence-to-action chain breaks as agents move from deciding whether to act to executing single actions and dependent workflows. Across ten model-harness configurations, strong static action assessment can co",
+  "date": "2026-10-05T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (1 up)",
+  "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+  "link": "https://huggingface.co/papers/2610.08773",
+  "summary": "Web agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal. The agent cannot simply ignore the page, because the page also holds the values and controls the task requires. Current defenses fine-tune the agent on injections fixed before training, and attackers that adapt to the train",
+  "date": "2026-10-06T13:56:43+00:00"
+ },
+ {
+  "source": "HF Papers (28 up)",
+  "title": "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability",
+  "link": "https://huggingface.co/papers/2610.08448",
+  "summary": "On-Policy Distillation (OPD) trains a student on its own generations using teacher feedback. With different tokenizers, comparing teacher and student predictions requires alignment at both sequence and vocabulary levels. In this paper, we examine whether expanding this alignment coverage improves learning. Across three heterogeneous teacher--student pairs on mathematical reasoning and code generat",
+  "date": "2026-10-05T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (4 up)",
+  "title": "Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training",
+  "link": "https://huggingface.co/papers/2610.07510",
+  "summary": "Developers can build LLM agents by adapting third-party models through benign post-training. We study a supply-chain threat in which an attacker supplies a model with a backdoor: hidden behavior that produces malicious outputs when a particular input pattern appears. Focusing on software-engineering agents, we ask whether such backdoors survive the developer's supervised fine-tuning (SFT) and subs",
+  "date": "2026-10-04T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (21 up)",
   "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
   "link": "https://huggingface.co/papers/2610.07767",
   "summary": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation: they primarily optimize quantization accuracy on the training and rollout paths independently rather than directly redu",
   "date": "2026-10-05T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (2 up)",
   "title": "Attacca: Goal-Directed Control under State Continuity for Long-Horizon Embodied Agents",
   "link": "https://huggingface.co/papers/2610.07785",
   "summary": "A central capability of embodied agents is to accomplish complex objectives through sequences of interdependent tasks. Yet existing visual goal-conditioned policies underlying these agents are typically evaluated on isolated interactions where the target is already visible, and thus do not capture the conditions that arise during continuous long-horizon task execution. In such settings, each task ",
   "date": "2026-10-05T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (14 up)",
+  "source": "HF Papers (15 up)",
   "title": "HuatuoGPT-3: RL-Only Domain Adaptation from Base Models",
   "link": "https://huggingface.co/papers/2610.05966",
   "summary": "Domain adaptation aims to turn a general-purpose large language model (LLM) into an expert for a target domain. While the dominant SFT+RL pipeline offers a convenient cold start, it may reduce exploration diversity and introduces additional complexity through multi-stage optimization. These limitations motivate RL-only adaptation. However, pure on-policy RL suffers from a cold-start problem, while",
@@ -1505,7 +1568,7 @@
   "date": "2026-10-04T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (7 up)",
   "title": "EmbodiedSmith: Scaling Embodied Data through Recursive Self-Improvement Flywheel in Simulation",
   "link": "https://huggingface.co/papers/2610.07969",
   "summary": "Scaling robotic foundation models requires diverse training data and reliable evaluation environments. Simulation offers a scalable solution, yet existing generation pipelines remain constrained by predefined assets and skills, a disconnect between scene generation and task generation, and limited support for complex embodiments and physics. We introduce EmbodiedSmith, a framework for scalable emb",
@@ -1533,31 +1596,10 @@
   "date": "2026-10-05T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (4 up)",
   "title": "Hiding Tool Latency in On-Device Cascaded Voice Agent through Speculative Execution",
   "link": "https://huggingface.co/papers/2610.07641",
   "summary": "Tool-augmented speech assistants typically serialize automatic speech recognition, large language model inference, and external tool execution. As a result, tool latency is incurred only after the user has finished speaking and the LLM has identified the required tool calls. We present speculative tool execution for on-device cascaded voice agents, which predicts tool requests from partial ASR hyp",
-  "date": "2026-10-05T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (3 up)",
-  "title": "ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing",
-  "link": "https://huggingface.co/papers/2610.08779",
-  "summary": "Current video editors can insert objects but often struggle to make them participate in interactions such as being picked up or manipulated. We introduce ALIVE, a framework that makes inserted objects \"alive\" through coherent interactions with the source video's contents, using an edited first frame and an instruction naming only the added object. We curate 35,800 editing pairs combining 3D-render",
-  "date": "2026-10-05T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (2 up)",
-  "title": "Harness Engineering for Software Engineering via Modular Executable Dev-Primitives",
-  "link": "https://huggingface.co/papers/2610.07832",
-  "summary": "Large language models (LLMs) equipped with terminal access have demonstrated strong capabilities in automating software engineering tasks. However, existing agents remain brittle on long-horizon workflows, where they must repeatedly reconstruct program state scattered across source files, configurations, tests, dependencies, and runtime behavior, leading to increasingly long interaction histories,",
-  "date": "2026-10-05T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (1 up)",
-  "title": "HiPLEX: Hierarchical Policy Factorization for Full Duplex Speech Language Models",
-  "link": "https://huggingface.co/papers/2610.07727",
-  "summary": "As human--AI interactions become more conversational, full-duplex speech language models capable of natural real-time dialogue are growing in importance. Beyond generating appropriate responses, these models must coordinate turn-taking, backchanneling, and floor management in real time. Reinforcement learning (RL) provides a way to refine these behaviors through direct feedback on interaction outc",
   "date": "2026-10-05T20:00:00+00:00"
  }
 ]
