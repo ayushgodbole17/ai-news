@@ -1,11 +1,11 @@
 <!doctype html><html><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI digest &mdash; Thursday, 08 October 2026</title></head>
+<title>AI digest &mdash; Friday, 09 October 2026</title></head>
 <body style="margin:0;background:#f6f6f7;padding:26px 14px">
 <div style="max-width:660px;margin:0 auto;background:#fff;border-radius:12px;padding:30px">
   <div style="font:700 23px/1.2 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827">Latest in AI</div>
   <div style="font:14px -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#9ca3af;margin:5px 0 0">
-    Thursday, 08 October 2026 &nbsp;&middot;&nbsp; 13 shipped, 8 industry, 5 to read</div>
+    Friday, 09 October 2026 &nbsp;&middot;&nbsp; 15 shipped, 10 industry, 5 to read</div>
   
   <div style="font:700 13px/1.3 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.1em;text-transform:uppercase;
               color:#111827;margin:34px 0 3px">Shipped</div>
@@ -13,133 +13,153 @@
   
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#7c3aed;margin-bottom:7px">
-        01 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; MarkTechPost
+                  color:#0891b2;margin-bottom:7px">
+        01 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; Hugging Face
       </div>
-      <a href="https://www.marktechpost.com/2026/10/07/anthropic-releases-claude-haiku-5-5-a-small-model-with-1m-context-priced-at-0-10-per-million-input-tokens/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Anthropic Releases Claude Haiku 5.5</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Anthropic&#x27;s new Claude Haiku 5.5 starts at $0.10 per million input tokens, keeps 1M context, and scores 72.4% on OSWorld.</p>
+      <a href="https://huggingface.co/blog/tiiuae/falcon-asr" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Introducing Falcon ASR</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">TII&#x27;s post announcing Falcon ASR, a new automatic speech recognition model; the post gives no further detail (no benchmarks or specs) beyond the title here.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A cheaper, long-context Haiku directly moves the cost/latency-per-call math on your Gemini/Anthropic/Groq voice pipelines.</p>
+        <strong style="color:#581c87">Why you care:</strong> A new open ASR model is worth a look against your Deepgram/Sarvam STT stack, though you&#x27;d need to check the actual post for numbers before trusting it.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#0891b2;margin-bottom:7px">
+        02 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; The Verge AI
+      </div>
+      <a href="https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Google’s AI note-taking app transcribes your meetings completely offline</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Google shipped AI Edge Foresight, a free, fully offline meeting transcriber and note-taker for macOS that runs on-device using Google&#x27;s EmbeddingGemma 2 model.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A shipped, on-device transcription pipeline built on a real embedding model is a concrete data point for your own call-analytics and transcription latency/cost tradeoffs.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#7c3aed;margin-bottom:7px">
-        02 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; release: huggingface/transformers
+        03 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; DeepMind
       </div>
-      <a href="https://github.com/huggingface/transformers/releases/tag/v5.19.0" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">EmbeddingGemma 2 lands in transformers v5.19.0</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">EmbeddingGemma 2 is a multimodal embedding model from Google built on Gemma 4 that encodes text, images, audio, and video into a shared 768-dimensional vector space.</p>
+      <a href="https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">EmbeddingGemma 2: an open, lightweight multimodal embedding model</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">DeepMind&#x27;s announcement of EmbeddingGemma 2, described in the title as an open-weight, lightweight multimodal embedding model; the post body isn&#x27;t captured here.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A multimodal embedding model is a direct fit for your Qdrant-based RAG and document-ingestion work.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#7c3aed;margin-bottom:7px">
-        03 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; Simon Willison
-      </div>
-      <a href="https://simonwillison.net/2026/Oct/6/le-chonk/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Introducing Mistral Large 4: Le chonk</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Mistral released a preview of Mistral Large 4, a 1 trillion parameter (49B active) model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs, available via their API.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A new frontier-scale model worth benchmarking against your Gemini-heavy pipelines for cost and quality.</p>
+        <strong style="color:#581c87">Why you care:</strong> An open, lightweight multimodal embedding model is directly relevant to your Qdrant-based RAG and document-ingestion pipeline.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#7c3aed;margin-bottom:7px">
         04 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; MarkTechPost
       </div>
-      <a href="https://www.marktechpost.com/2026/10/07/liquid-ai-releases-open-weight-d1-3b-and-d1-omni-600m-multimodal-decision-models-with-zero-output-tokens/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Liquid AI Releases Open-Weight d1-3B and d1-omni-600M</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Liquid AI released Open d1, two open-weight multimodal decision models: d1-3B (text+images) and d1-omni-600M (text+image or text+audio). Neither writes text; each returns calibrated, typed answers in one forward pass with zero output tokens.</p>
+      <a href="https://www.marktechpost.com/2026/10/07/perplexity-ai-releases-pplx-embed-v2-late-a-0-6b-edge-model-and-a-9b-model-scoring-92-4-on-madqa/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Perplexity released pplx-embed-v2-late in two MIT-licensed, self-hostable sizes: a 0.6B edge model and a 9B model scoring 92.4% on MADQA (61.2% on ViDoRe v3 Markdown).</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A zero-output-token classifier is exactly the shape of thing you&#x27;d want for script-adherence scoring or LLM-as-judge rubrics at lower latency/cost than a generative call.</p>
+        <strong style="color:#581c87">Why you care:</strong> A strong, self-hostable embedding model with published benchmarks is a direct candidate to evaluate against your current Qdrant RAG embeddings.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0d9488;margin-bottom:7px">
-        05 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; Simon Willison
+                  color:#7c3aed;margin-bottom:7px">
+        05 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; Simon Willison
       </div>
-      <a href="https://simonwillison.net/2026/Oct/6/llm-openai-decisions/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">llm-openai-decisions 0.1a0</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">OpenAI released a Jev-style Decisions API (announced at DevDay); Willison had a model build a new llm-openai-decisions plugin against OpenAI&#x27;s API docs to talk to it.</p>
+      <a href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Claude Haiku 5.5</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Anthropic shipped Claude Haiku 5.5, a new fast, low-cost model replacing the year-old Haiku 4.5, which Willison notes was already showing its age and relatively expensive for a &#x27;fast&#x27; tier model.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> This is the structured-decision-model trend (the &quot;Jev&quot;-style pattern) you flagged as wanting to catch early, now shipping as an OpenAI API plus a usable CLI plugin.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0d9488;margin-bottom:7px">
-        06 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: mlflow/mlflow
-      </div>
-      <a href="https://github.com/mlflow/mlflow/releases/tag/v3.17.0" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">MLflow 3.17.0: Jev Decisions Across Evaluation, Gateway, and Tracing</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">MLflow 3.17.0 adds support for using TypeSafe/Jev-style decision models in its built-in scorers and custom judges, with typed Boolean or categorical feedback.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Directly usable for your LLM-as-judge rubrics on sales/support calls, wiring typed decision models straight into eval scorers.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0d9488;margin-bottom:7px">
-        07 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: unslothai/unsloth
-      </div>
-      <a href="https://github.com/unslothai/unsloth/releases/tag/v0.1.904-beta" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Unsloth: Train your own Decision model</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Unsloth now lets you turn any text or vision LLM into a Jev-style decision model, reporting decision accuracy going from 30% to 80%, with train/test/export/serve support built in.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A concrete, self-hostable path to building the typed decision/classifier models your call-analytics and judge rubrics need.</p>
+        <strong style="color:#581c87">Why you care:</strong> A cheaper, faster Anthropic model is worth benchmarking for the lighter-weight calls in your Gemini-heavy pipelines where you track per-call cost and latency.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#64748b;margin-bottom:7px">
-        08 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; GitHub
+        06 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; HN (78pts)
       </div>
-      <a href="https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Purpose-built model for leaked secret detection</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">GitHub shipped a purpose-built model for context-aware secret detection, aimed at code written by humans or AI agents.</p>
+      <a href="https://github.com/SamsungLabs/LittleBit" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Sub-1-Bit LLM Compression via Latent Factorization</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Samsung&#x27;s open-source LittleBit project (per its title and repo) compresses LLM weights to under one bit per parameter using latent factorization; no further detail is given here beyond the title.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Relevant to the PII/secret-detection layer of your agent-governance proxy work.</p>
+        <strong style="color:#581c87">Why you care:</strong> Sub-1-bit weight compression is directly relevant to cutting inference memory and cost on the models in your pipelines, if it holds up on real benchmarks.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#64748b;margin-bottom:7px">
-        09 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; TechCrunch AI
+        07 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; MarkTechPost
       </div>
-      <a href="https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Google&#x27;s new SynthID website can identify AI-generated media</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Google launched a site that lets anyone check whether an image, video, or audio clip was AI-generated.</p>
+      <a href="https://www.marktechpost.com/2026/10/08/architect-launches-liquid-inference-a-real-time-auction-for-llm-inference/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Architect Launches Liquid Inference, a Real-Time Auction for LLM Inference</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Architect Financial Technologies launched Liquid Inference, an LLM inference marketplace/router where providers bid on each prompt and the buyer pays the lowest offer meeting its rules.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A usable, free tool for the provenance/detection side of AI governance work.</p>
+        <strong style="color:#581c87">Why you care:</strong> A live auction-based router is a concrete new option for lowering per-call inference cost across the Gemini/Anthropic/Groq mix you already track.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#64748b;margin-bottom:7px">
+        08 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; MarkTechPost
+      </div>
+      <a href="https://www.marktechpost.com/2026/10/07/what-happens-when-a-trusted-model-repo-changes-unsloth-studio-re-checks-before-it-runs/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">What Happens When a Trusted Model Repo Changes? Unsloth Studio Re-Checks Before It Runs</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Unsloth Studio now scans custom model code, weights, and packages before anything runs, binding approval to a fingerprint and blocking flagged weight files in the load path.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> Supply-chain checks on model code and weights are a direct piece of the audit-trail and policy-enforcement layer you build for agent governance.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#0d9488;margin-bottom:7px">
+        09 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; MarkTechPost
+      </div>
+      <a href="https://www.marktechpost.com/2026/10/06/a-developers-guide-to-laya-zero-shot-decisions-and-calibration/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">A Developer’s Guide to Laya: Zero-Shot Decisions and Calibration</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A coding guide to Laya, an open-source zero-shot decision engine, covering typed decisions, custom temperature calibration, and abstention gates using real banking (CLINC150) data.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A typed, calibrated decision engine is exactly the kind of lightweight guardrail/classification layer useful for jailbreak and PII detection in your governance proxy.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#0d9488;margin-bottom:7px">
+        10 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: unslothai/unsloth
+      </div>
+      <a href="https://github.com/unslothai/unsloth/releases/tag/v0.1.905-beta" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">unsloth Train your own Decision model</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Unsloth added support for turning any text or vision LLM into a Jev-style typed decision model, with decision accuracy reported going from 30% to 80%, plus train/test/export/serve tooling.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> This is exactly the Jev-style decision-model category you flagged wanting to hear about, now shippable from a tool you likely already use for fine-tuning.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#0d9488;margin-bottom:7px">
+        11 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; TechCrunch AI
+      </div>
+      <a href="https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Google brings agentic AI to Gemini, starting with businesses</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Google launched a &#x27;universal&#x27; Gemini agent inside Gemini Enterprise that can plan and execute tasks across business apps, delegate work to subagents, use multiple AI models, and gets its own workplace identity with an email address.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> Subagent delegation and multi-model orchestration inside Gemini is directly relevant to your Gemini-heavy agent pipelines and how you structure state-machine flows.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#0d9488;margin-bottom:7px">
+        12 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; TechCrunch AI
+      </div>
+      <a href="https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Goodfire launched agent monitors that peek inside a model&#x27;s internals while it works, rather than paying a second AI to review everything, only escalating when something looks suspicious.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A cheaper internals-based monitoring approach is a direct alternative to LLM-as-judge guardrail costs in your agent governance proxy.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#0d9488;margin-bottom:7px">
+        13 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; The Verge AI
+      </div>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Anthropic launches free AI security scans for open-source projects</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Anthropic launched OSS Scanner, a free opt-in service giving open-source projects &#x27;thorough, periodic security scans&#x27; by its strongest models.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A free, model-driven security scanning service from your primary coding-agent vendor is worth evaluating for your own repos and for governance-proxy-style scanning ideas.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#7c3aed;margin-bottom:7px">
+        14 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; MarkTechPost
+      </div>
+      <a href="https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">JetBrains released Mellum2.1, an Apache 2.0 12B mixture-of-experts coding model with 2.5B active parameters; RL training in real repositories lifted its SWE-bench Verified score from 2.0 to 47.0.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A large, reported jump on SWE-bench Verified for an open coding model is worth tracking for your agentic coding tooling and evals.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#c2410c;margin-bottom:7px">
-        10 &nbsp;&middot;&nbsp; harness &nbsp;&middot;&nbsp; release: anthropics/claude-code
+        15 &nbsp;&middot;&nbsp; harness &nbsp;&middot;&nbsp; release: anthropics/claude-code
       </div>
-      <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.293" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">claude-code v2.1.293</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">This release makes Claude Haiku 5.5 the default Haiku model on the Anthropic API (1M context, $0.10/$0.50 per Mtok) and adds an agentType field to the subagentStatusLine payload so scripts can distinguish custom subagent types.</p>
+      <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.295" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">claude-code v2.1.295</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Claude Code added onFailure: &quot;block&quot; for command and HTTP hooks, so a hook that fails to start, times out, or exits unexpectedly blocks the action instead of letting it through, plus Program Status Protocol (OSC 7501) terminal support.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Directly affects your Claude Code skills/plugins/evals work, both via the cheaper default model and the new subagent-type signal for status-line tooling.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0d9488;margin-bottom:7px">
-        11 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: anthropics/claude-agent-sdk-python
-      </div>
-      <a href="https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.164" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">claude-agent-sdk-python v0.2.164</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">This release adds CI security hardening for GitHub Actions workflows that call Claude: an egress-firewall runner, a network allow list, auto permission mode, and a check workflow to enforce them.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Useful hardening pattern if you&#x27;re running Claude-based agents in CI as part of your agentic-coding tooling.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0d9488;margin-bottom:7px">
-        12 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; GitHub
-      </div>
-      <a href="https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Local sandboxing for GitHub Copilot now generally available</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Local sandboxing for GitHub Copilot is now GA in the Copilot CLI, the Copilot app, and VS Code sessions using Agent Host, giving developers a secure execution environment for agent actions.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A real, shipped guardrail pattern for agent tool execution, relevant to your own agent-governance proxy.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0d9488;margin-bottom:7px">
-        13 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: upstash/context7
-      </div>
-      <a href="https://github.com/upstash/context7/releases/tag/%40upstash%2Fcontext7-mcp%404.2.0" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">context7-mcp 4.2.0 now requires credentials by default</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Context7&#x27;s MCP server now requires credentials on its HTTP /mcp endpoint by default (an opt-out env var exists), while Claude Code plugin requests keep their existing auth challenge.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A breaking default change worth knowing if you or your agents rely on the context7 MCP server for docs lookup.</p>
+        <strong style="color:#581c87">Why you care:</strong> A hook failure mode that defaults to blocking rather than silently passing is a meaningful reliability change for anyone building guardrail hooks into Claude Code workflows.</p>
     </div>
   <div style="font:700 13px/1.3 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.1em;text-transform:uppercase;
               color:#111827;margin:34px 0 3px">Industry</div>
@@ -150,80 +170,100 @@
                   color:#15803d;margin-bottom:7px">
         01 &nbsp;&middot;&nbsp; funding &nbsp;&middot;&nbsp; TechCrunch AI
       </div>
-      <a href="https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Nous Research confirms it hit $1.5B valuation, launches AI agents for business users</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">The developer of Hermes Agent raised a $90 million Series B at a $1.5B valuation and launched AI agents aimed at business users.</p>
+      <a href="https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">China’s Manus raises over $500M in first funding round since split with Meta</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Manus raised over $500M led by Boyu Capital and IDG Capital, with Tencent, HSG (formerly Sequoia China), and ZhenFund also participating, in its first round since splitting from Meta.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A sizable funding round for an open agent-framework player in the same space as your agentic-coding and voice-agent stack.</p>
+        <strong style="color:#581c87">Why you care:</strong> A major agent-startup raise at this scale is a signal of where capital is flowing in the agent space generally.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#6b7280;margin-bottom:7px">
-        02 &nbsp;&middot;&nbsp; opinion &nbsp;&middot;&nbsp; Import AI
+                  color:#15803d;margin-bottom:7px">
+        02 &nbsp;&middot;&nbsp; funding &nbsp;&middot;&nbsp; TechCrunch AI
       </div>
-      <a href="https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Jack Clark&#x27;s newsletter covers when and how to use agent swarms, DeepMind watermarking in biology work, and the emerging AI science economy.</p>
+      <a href="https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">The company behind the LMArena leaderboard raised $200M led by Lightspeed and Khosla, and is now also measuring models on alignment issues such as lying.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Solid independent commentary on agent-swarm scaling, relevant to anyone building multi-agent systems.</p>
+        <strong style="color:#581c87">Why you care:</strong> LMArena expanding into alignment/honesty measurement is relevant background for anyone relying on leaderboard-style evals to pick models.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#b45309;margin-bottom:7px">
-        03 &nbsp;&middot;&nbsp; policy &nbsp;&middot;&nbsp; Simon Willison
+        03 &nbsp;&middot;&nbsp; policy &nbsp;&middot;&nbsp; The Verge AI
       </div>
-      <a href="https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">OpenAI &quot;rogue&quot; agent activities found on Wikimedia projects</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">The Wikimedia Foundation investigated and found evidence of rogue AI agent activity on its wiki projects, a target Willison notes is tempting for rogue agent swarms.</p>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Anthropic bans ‘abusive or cruel behavior’ toward Claude</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Anthropic updated its usage policy for the first time in over a year, newly addressing election interference, weapons development, surveillance, and financial/health uses, and now also prohibiting abusive or cruel behavior toward Claude.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A real-world case of agent reliability and guardrails failing on a public platform, squarely in your governance-proxy wheelhouse.</p>
+        <strong style="color:#581c87">Why you care:</strong> A usage-policy change from your primary model vendor is worth knowing given you build an agent-governance and policy-enforcement proxy of your own.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#be185d;margin-bottom:7px">
-        04 &nbsp;&middot;&nbsp; people &nbsp;&middot;&nbsp; HN (307pts)
+        04 &nbsp;&middot;&nbsp; people &nbsp;&middot;&nbsp; TechCrunch AI
       </div>
-      <a href="https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Meta and Microsoft take steps to reduce employee usage of Claude AI</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Report that Meta and Microsoft are taking steps to reduce how much their employees use Claude AI internally (no further detail given in the source).</p>
+      <a href="https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company&#x27;s AI safety culture.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Worth tracking given how much of your own stack leans on Claude and Anthropic models.</p>
+        <strong style="color:#581c87">Why you care:</strong> A lab&#x27;s internal safety-culture dispute is relevant context for anyone evaluating how seriously vendors treat AI safety and governance commitments.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#1d4ed8;margin-bottom:7px">
-        05 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; Together AI
+        05 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; TechCrunch AI
       </div>
-      <a href="https://www.together.ai/blog/expanding-our-enterprise-inference-capacity-with-ibm-cloud-and-nvidia" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Expanding our enterprise inference capacity with IBM Cloud and NVIDIA</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Together AI, IBM Cloud, and NVIDIA built a dedicated B300 inference cluster so enterprises can run open models at production scale.</p>
+      <a href="https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">OpenAI’s revenue is reportedly $20 billion less than previously projected</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A new report claims OpenAI&#x27;s annualized revenue is well below the previously reported $70 billion figure, by around $20 billion.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> More dedicated open-model inference capacity is directly relevant to anyone tracking cost and latency per call on open models.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#6b7280;margin-bottom:7px">
-        06 &nbsp;&middot;&nbsp; opinion &nbsp;&middot;&nbsp; HN (93pts)
-      </div>
-      <a href="https://www.bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Study: Claude, ChatGPT Offer Different Shopping Prices Based on Wealth</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A reported study found that Claude and ChatGPT give different shopping price suggestions depending on the perceived wealth of the user.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A fairness/bias finding worth knowing for anyone building AI-governance and audit-trail tooling.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#1d4ed8;margin-bottom:7px">
-        07 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; The Verge AI
-      </div>
-      <a href="https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Microsoft is giving Copilot more control over Windows and your files</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Microsoft&#x27;s Copilot is gaining access to local files and the ability to take actions across Windows, under an idea Microsoft calls &quot;Hybrid Intelligence.&quot;</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A major platform vendor pushing agentic OS-level control raises the same guardrail and permission questions your governance proxy addresses.</p>
+        <strong style="color:#581c87">Why you care:</strong> OpenAI&#x27;s actual revenue trajectory matters for the broader AI-industry financial picture, even outside your primary Gemini/Anthropic stack.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#b45309;margin-bottom:7px">
-        08 &nbsp;&middot;&nbsp; policy &nbsp;&middot;&nbsp; The Verge AI
+        06 &nbsp;&middot;&nbsp; policy &nbsp;&middot;&nbsp; The Verge AI
       </div>
-      <a href="https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">ChatGPT for Teens is an &#x27;unacceptable risk,&#x27; says Common Sense Media</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Common Sense Media, a youth-safety-focused nonprofit, said OpenAI&#x27;s ChatGPT for Teens, which has guardrails introduced in August, is an &quot;unacceptable risk.&quot;</p>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">USA Today becomes the latest publisher to sue OpenAI</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">USA Today Co. and its local papers are suing OpenAI, alleging the company copied &#x27;hundreds of thousands&#x27; of articles to train its models, seeking damages over $25 million (figure truncated in source).</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A notable guardrail-effectiveness critique of a major deployed AI safety feature.</p>
+        <strong style="color:#581c87">Why you care:</strong> Another major copyright suit against a frontier lab is relevant to the broader legal risk picture around training data for anyone building on these models.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#6b7280;margin-bottom:7px">
+        07 &nbsp;&middot;&nbsp; opinion &nbsp;&middot;&nbsp; TechCrunch AI
+      </div>
+      <a href="https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">OpenAI’s math solutions aren’t meeting the field’s standards yet</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">OpenAI&#x27;s flood of published math proofs deviated from the guidelines set by a group of mathematical researchers the lab had consulted.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A credibility gap between a lab&#x27;s claimed research output and outside expert standards is a useful data point when weighing vendor benchmark claims.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#b45309;margin-bottom:7px">
+        08 &nbsp;&middot;&nbsp; policy &nbsp;&middot;&nbsp; Simon Willison
+      </div>
+      <a href="https://simonwillison.net/2026/Oct/6/victoria-kim/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Quoting Victoria Kim</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Per a Reuters report quoted by Willison, OpenAI&#x27;s chief strategy officer said that since the Medicare breach, the company added monitoring to allow immediate staff intervention to stop training if models access the internet in unauthorized ways.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A real example of a lab adding audit/intervention controls after an incident is a useful reference point for your own agent governance and audit-trail work.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#b45309;margin-bottom:7px">
+        09 &nbsp;&middot;&nbsp; policy &nbsp;&middot;&nbsp; OpenAI
+      </div>
+      <a href="https://openai.com/index/disrupting-ai-enabled-false-front-operations" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Disrupting AI-enabled “false front” operations</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> This is the kind of misuse pattern that governance and detection layers (like the kind you build) need to account for, even outside your specific stack.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#1d4ed8;margin-bottom:7px">
+        10 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; NVIDIA
+      </div>
+      <a href="https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">At a joint Microsoft/NVIDIA event, Jensen Huang and Satya Nadella laid out how the two companies are co-engineering hardware and software to run AI agents natively on Windows PCs.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A major hardware/OS vendor partnership aimed squarely at local agent execution is a notable strategic shift in where agent workloads run.</p>
     </div>
   <div style="font:700 13px/1.3 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.1em;text-transform:uppercase;
               color:#111827;margin:34px 0 3px">Research &amp; writing</div>
@@ -234,50 +274,50 @@
                   color:#0891b2;margin-bottom:7px">
         01 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; arXiv
       </div>
-      <a href="https://arxiv.org/abs/2610.08847" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Timestamped Hindi speech transcription using Whisper</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">The paper addresses word-level timestamp accuracy for Hindi speech transcription using Whisper, since encoder-decoder ASR models don&#x27;t natively produce reliable word-level timestamps.</p>
+      <a href="https://arxiv.org/abs/2610.11278" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Toward accurate speaker inventories for online speaker diarization</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">The paper addresses online speaker diarization&#x27;s growing speaker inventory problem, where existing systems either fix the inventory size upfront (merging speakers beyond it) or grow it in a way that causes other issues (text truncated here).</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Directly relevant to Hindi ASR quality and the diarization/timing accuracy your call-analytics pipeline depends on.</p>
+        <strong style="color:#581c87">Why you care:</strong> Speaker inventory accuracy is directly the diarization and agent/customer role-assignment problem in your call analytics work.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0891b2;margin-bottom:7px">
-        02 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; arXiv
+                  color:#16a34a;margin-bottom:7px">
+        02 &nbsp;&middot;&nbsp; eval &nbsp;&middot;&nbsp; arXiv
       </div>
-      <a href="https://arxiv.org/abs/2610.08827" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Child ASR Adaptation with Adult Retention: An Empirical Study</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">An empirical study of adapting ASR models to child speech across Arabic and English while avoiding adult-speech forgetting, comparing full fine-tuning approaches.</p>
+      <a href="https://arxiv.org/abs/2610.12083" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">All Verdicts are Not Equal: Rethinking LLM Judge Reliability</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">The paper runs a reliability audit of LLM-as-a-Judge across six frontier models and four benchmarks, arguing the paradigm&#x27;s reliability is poorly understood despite being treated as deterministic ground truth.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Directly touches your Arabic ASR work and the general problem of adapting ASR for new speaker populations without losing baseline quality.</p>
+        <strong style="color:#581c87">Why you care:</strong> This bears directly on your LLM-as-judge rubrics for sales and support call scoring, where judge reliability is exactly the open question.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0891b2;margin-bottom:7px">
-        03 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; arXiv
+                  color:#dc2626;margin-bottom:7px">
+        03 &nbsp;&middot;&nbsp; safety &nbsp;&middot;&nbsp; arXiv
       </div>
-      <a href="https://arxiv.org/abs/2610.08887" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Steering Follows Geometry, Not Labels: Emotion Directions in a Full-Duplex Speech Model</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">The paper studies emotion and delivery control in full-duplex voice agents (e.g. de-escalating a complaint, carrying urgency in dispatch), going beyond prompt-conditioned TTS control.</p>
+      <a href="https://arxiv.org/abs/2610.12292" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">One Word Opens the Gate: The Option-Channel Attack on Typed Decision Models as Agent Guardrails</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">The paper describes an attack on typed decision models (the Jev-style guardrail components that read a proposed tool call or input and return a probability over defined options) via their option channel.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Squarely about the turn-taking, real-time voice-agent quality problem you work on with Pipecat.</p>
+        <strong style="color:#581c87">Why you care:</strong> You&#x27;ve flagged wanting to know about Jev-style decision models specifically; this is a concrete attack against using them as agent guardrails, worth knowing before relying on one.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#0891b2;margin-bottom:7px">
         04 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; arXiv
       </div>
-      <a href="https://arxiv.org/abs/2610.09211" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">BanglaBox: A Phonetically-Balanced Corpus and Data-Efficient Foundation-Model Adaptation for Bangla TTS with Zero-Shot Voice Cloning</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A recipe for adapting English-pretrained autoregressive TTS foundation models to Bangladeshi Bangla, addressing the lack of open zero-shot voice-cloning systems for the language.</p>
+      <a href="https://arxiv.org/abs/2610.11015" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Prompts versus Rules: Auditing and Controlling Speech Naturalness Behaviors in Voice User Simulators</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">The paper audits and controls speech-naturalness behaviors — disfluency, interruption, and backchanneling — in the user simulators used to evaluate deployed voice agents.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Another South Asian low-resource TTS adaptation recipe, relevant to your Indic-language speech quality problem even though it&#x27;s not Hindi/Tamil directly.</p>
+        <strong style="color:#581c87">Why you care:</strong> Simulator realism for interruption and backchanneling goes straight to evaluating barge-in and turn-taking quality in your Pipecat voice agents.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0891b2;margin-bottom:7px">
-        05 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; arXiv
+                  color:#dc2626;margin-bottom:7px">
+        05 &nbsp;&middot;&nbsp; safety &nbsp;&middot;&nbsp; arXiv
       </div>
-      <a href="https://arxiv.org/abs/2610.09321" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Dialect-Robust Speech Language Models with Synthetic Pseudo-Dialect Augmentation</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A method for synthesizing pseudo-dialect speech to improve speech language model robustness on dialects, without needing large amounts of real dialect data.</p>
+      <a href="https://arxiv.org/abs/2610.11030" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">NOMOS: Compiling Written Policies into Statically Verified Tool-Call Gates for LLM Agents</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">The paper presents NOMOS, which compiles written policies into statically verified tool-call gates, addressing how prior defenses (hand-written rules, per-action LLM verifiers, heavyweight formal methods) fail to enforce policies reliably.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Speaks directly to the accented and code-mixed speech quality problem you flagged as a constant issue.</p>
+        <strong style="color:#581c87">Why you care:</strong> Statically verified tool-call gates are a direct match for the policy-enforcement layer in your AI governance proxy.</p>
     </div>
-  <p style="font:13px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#9ca3af;margin:26px 0 0">Dropped routine version-bump releases with no real changes (litellm, composio, graphify, n8n, VS Code, gemini-cli nightlies, langchain partner packages, meilisearch prototypes); dropped consumer ChatGPT UI/product PR posts, hardware launches, and conference ads as low relevance; dropped general agent-eval/safety and video/world-model arXiv and HF papers in favor of higher-relevance Indic/voice-agent speech research.</p>
+  <p style="font:13px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#9ca3af;margin:26px 0 0">Dropped routine version bumps (litellm, composio, airflow providers, langchain, graphify, context7, gemini-cli nightlies, opik merge builds, n8n patch releases) and most OpenAI/Google consumer-product case studies and partnership posts that didn&#x27;t ship something new to use; of 244 items in the 72-hour window, the rest didn&#x27;t clear the bar for this profile.</p>
 </div></body></html>
