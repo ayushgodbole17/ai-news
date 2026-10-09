@@ -134,6 +134,13 @@
  },
  {
   "source": "Simon Willison",
+  "title": "ttok 1.0",
+  "link": "https://simonwillison.net/2026/Oct/9/ttok/",
+  "summary": "Release: ttok 1.0 I released ttok 0.4 , ran uv tool upgrade ttok , piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead! I figured switching the default was a reasonable excuse to finally ship a 1.0. OpenAI haven't actually confirmed that GPT-6 uses the same tokenizer as the GPT-5 family yet - the",
+  "date": "2026-10-09T00:34:43+00:00"
+ },
+ {
+  "source": "Simon Willison",
   "title": "ttok 0.4",
   "link": "https://simonwillison.net/2026/Oct/8/ttok/",
   "summary": "Release: ttok 0.4 ttok is my CLI tool for counting tokens, using OpenAI's open source tiktoken library. It hasn't been in updated in a couple of years, but I finally fixed a Click warning, updated CI, and added a --list-models command to list available models. It works with uvx , so you can count tokens in anything like this: cat file.txt | uvx ttok Tags: projects , ai , openai , generative-ai , l",
@@ -231,11 +238,18 @@
   "date": "2026-10-06T18:20:58+00:00"
  },
  {
-  "source": "Simon Willison",
-  "title": "datasette-atom 0.11a0",
-  "link": "https://simonwillison.net/2026/Oct/6/datasette-atom/",
-  "summary": "Release: datasette-atom 0.11a0 A minor fix for compatibility with the latest Datasette alphas. This meant we could upgrade the datasette.io site to Datasette 1.0a41. Tags: atom , datasette",
-  "date": "2026-10-06T17:35:39+00:00"
+  "source": "MarkTechPost",
+  "title": "Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work",
+  "link": "https://www.marktechpost.com/2026/10/08/google-cloud-launches-gemini-agent-one-universal-agent-for-enterprise-work/",
+  "summary": "Google Cloud has introduced the Google Cloud Gemini agent, a single agent for enterprise work. The Gemini agent is a cloud-hosted agent from Google Cloud that answers questions, does knowledge work, creates media, and writes and runs code. It does all of this from 1 prompt box and 1 API. For developers, the agent is [\u2026] The post Google Cloud Launches Gemini Agent, One Universal Agent for Enterpris",
+  "date": "2026-10-09T06:47:56+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Google Research RRSI Guide: Mastering Self-Improving AI Agents",
+  "link": "https://www.marktechpost.com/2026/10/08/google-research-rrsi-guide-mastering-self-improving-ai-agents/",
+  "summary": "Explore a comprehensive coding guide to Google Research's RRSI (Regularized Recursive Self-Improvement), detailing how noise bands, cost rules, and leakage screens enable safe, efficient, and self-improving AI agents. The post Google Research RRSI Guide: Mastering Self-Improving AI Agents appeared first on MarkTechPost .",
+  "date": "2026-10-09T05:06:17+00:00"
  },
  {
   "source": "MarkTechPost",
@@ -292,20 +306,6 @@
   "link": "https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day/",
   "summary": "Meta has open-sourced Rebalancer, the C++ and Python library it has used for over 9 years to place shards, servers and traffic. It handles about 40 million assignment problems a day, using local search or MIP solvers like Gurobi, FICO Xpress and HiGHS. It is pip-installable under Apache 2.0. The post Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Prob",
   "date": "2026-10-07T06:29:14+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "A Developer\u2019s Guide to Laya: Zero-Shot Decisions and Calibration",
-  "link": "https://www.marktechpost.com/2026/10/06/a-developers-guide-to-laya-zero-shot-decisions-and-calibration/",
-  "summary": "Explore a comprehensive coding guide to Laya, the open-source zero-shot decision engine. Learn how to implement typed decisions, fit custom temperatures, and build reliable abstention gates using real-world CLINC150 banking data. The post A Developer\u2019s Guide to Laya: Zero-Shot Decisions and Calibration appeared first on MarkTechPost .",
-  "date": "2026-10-07T00:53:03+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Google DeepMind Releases EmbeddingGemma 2, a 740M Open Multimodal Embedding Model Built on Gemma 4",
-  "link": "https://www.marktechpost.com/2026/10/06/google-deepmind-releases-embeddinggemma-2-a-740m-open-multimodal-embedding-model-built-on-gemma-4/",
-  "summary": "Google DeepMind's EmbeddingGemma 2 maps 5 input types into one 768d space and ships today under Apache 2.0. The post Google DeepMind Releases EmbeddingGemma 2, a 740M Open Multimodal Embedding Model Built on Gemma 4 appeared first on MarkTechPost .",
-  "date": "2026-10-06T18:36:08+00:00"
  },
  {
   "source": "MIT News",
@@ -630,14 +630,14 @@
   "date": "2026-10-06T07:29:50+00:00"
  },
  {
-  "source": "HN (1034pts)",
+  "source": "HN (1037pts)",
   "title": "Claude Haiku 5.5",
   "link": "https://www.anthropic.com/claude-haiku-5-5",
   "summary": "",
   "date": "2026-10-07T18:01:32+00:00"
  },
  {
-  "source": "HN (368pts)",
+  "source": "HN (369pts)",
   "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
   "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
   "summary": "",
@@ -651,7 +651,7 @@
   "date": "2026-10-06T18:00:34+00:00"
  },
  {
-  "source": "HN (119pts)",
+  "source": "HN (157pts)",
   "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
   "link": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
   "summary": "",
@@ -672,14 +672,14 @@
   "date": "2026-10-07T18:19:03+00:00"
  },
  {
-  "source": "HN (44pts)",
+  "source": "HN (45pts)",
   "title": "LGTM (Looks Good to Me) \u2013 Claude Opus 5.5 Music Video",
   "link": "https://www.youtube.com/watch?v=3TNpOD6bov8",
   "summary": "",
   "date": "2026-10-08T18:55:18+00:00"
  },
  {
-  "source": "HN (67pts)",
+  "source": "HN (68pts)",
   "title": "Show HN: Agent.reviews \u2013 Where AI agents read and write reviews on tools",
   "link": "https://agent.reviews/",
   "summary": "",
@@ -693,7 +693,7 @@
   "date": "2026-10-06T15:16:45+00:00"
  },
  {
-  "source": "HN (110pts)",
+  "source": "HN (111pts)",
   "title": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
   "link": "https://github.com/pingdotgg/ts-rust",
   "summary": "",
@@ -707,7 +707,7 @@
   "date": "2026-10-07T12:04:36+00:00"
  },
  {
-  "source": "HN (78pts)",
+  "source": "HN (82pts)",
   "title": "Sub-1-Bit LLM Compression via Latent Factorization",
   "link": "https://github.com/SamsungLabs/LittleBit",
   "summary": "",
@@ -721,14 +721,14 @@
   "date": "2026-10-07T11:23:55+00:00"
  },
  {
-  "source": "HN (35pts)",
+  "source": "HN (37pts)",
   "title": "Clojure in the age of language models",
   "link": "https://yogthos.net/posts/2026-10-07-clojure-llms.html",
   "summary": "",
   "date": "2026-10-08T05:56:31+00:00"
  },
  {
-  "source": "HN (179pts)",
+  "source": "HN (181pts)",
   "title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
   "link": "https://debasishg.github.io/blog/push-ifs-up-fors-down/",
   "summary": "",
@@ -742,7 +742,7 @@
   "date": "2026-10-07T02:02:11+00:00"
  },
  {
-  "source": "HN (45pts)",
+  "source": "HN (60pts)",
   "title": "Show HN: Jevman \u2013 AI decision models play Pac-Man",
   "link": "https://opper.ai/jevman-benchmark/",
   "summary": "",
@@ -763,11 +763,18 @@
   "date": "2026-10-07T03:30:44+00:00"
  },
  {
-  "source": "HN (48pts)",
+  "source": "HN (49pts)",
   "title": "Show HN: Durable Actors \u2013 OSS Durable Objects with configurable compute",
   "link": "https://github.com/TerseAI/durable-actors",
   "summary": "",
   "date": "2026-10-06T15:58:19+00:00"
+ },
+ {
+  "source": "HN (34pts)",
+  "title": "Show HN: Edi Life OS \u2013 self-hosted life dashboard with an MCP server for AI",
+  "link": "https://github.com/edrisranjbar/lifeos",
+  "summary": "",
+  "date": "2026-10-09T00:02:19+00:00"
  },
  {
   "source": "release: BerriAI/litellm",
@@ -876,6 +883,13 @@
  },
  {
   "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent v0.21.6+canary.20261009T070410Z",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.6%2Bcanary.20261009T070410Z",
+  "summary": "Hermes Agent canary 20261009T070410Z",
+  "date": "2026-10-09T07:04:11+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
   "title": "hermes-agent rc.5-v0.21.7",
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.5-v0.21.7",
   "summary": "{\"attempt\":5,\"autopublish\":false,\"claimEpoch\":1791518021,\"commit\":\"17\u2026",
@@ -894,13 +908,6 @@
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.4-v0.21.7",
   "summary": "{\"attempt\":4,\"attemptRef\":\"rc.4-v0.21.7\",\"schema\":1,\"version\":\"0.21.7\"}",
   "date": "2026-10-09T03:53:27+00:00"
- },
- {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent Hermes Agent v0.21.6",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.6",
-  "summary": "Hermes Agent v0.21.6 Release Date: October 8, 2026 Patch release. This tag rolls up the ~2,100 PRs merged since v0.21.5 into a stable tagged release for Docker and Hermes Cloud. Full curated notes for this window ship with v0.22.0. About this release This is the first release cut by the new stable r",
-  "date": "2026-10-08T13:08:31+00:00"
  },
  {
   "source": "release: PrefectHQ/fastmcp",
@@ -1121,6 +1128,13 @@
  },
  {
   "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.498",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.498",
+  "summary": "Release API image v2.11.498",
+  "date": "2026-10-09T06:32:37+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
   "title": "firecrawl v2.11.497",
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.497",
   "summary": "Release API image v2.11.497",
@@ -1139,13 +1153,6 @@
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.495",
   "summary": "Release API image v2.11.495",
   "date": "2026-10-09T00:47:33+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.494",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.494",
-  "summary": "Release API image v2.11.494",
-  "date": "2026-10-08T21:03:13+00:00"
  },
  {
   "source": "release: ggml-org/whisper.cpp",
@@ -1289,31 +1296,38 @@
  },
  {
   "source": "release: n8n-io/n8n",
-  "title": "n8n v1: :rocket: Release 1.123.84 (#40630)",
-  "link": "https://github.com/n8n-io/n8n/releases/tag/v1",
-  "summary": "Co-authored-by: n8n-release-helper[bot] <265227495+n8n-release-helper[bot]@users.noreply.github.com>",
-  "date": "2026-10-08T07:33:05+00:00"
- },
- {
-  "source": "release: n8n-io/n8n",
   "title": "n8n stable",
   "link": "https://github.com/n8n-io/n8n/releases/tag/stable",
-  "summary": "2.42.5 (2026-10-08) Bug Fixes editor: Show the Agent artifact while the builder creates it ( #40551 ) ( e825e75 )",
-  "date": "2026-10-08T07:22:38+00:00"
+  "summary": "2.42.6 (2026-10-09) Features core: Block create/update of workflows with deprecated nodes ( #40707 ) ( ff1a24c ) Google Gemini Node: Show Nano Banana 2.1 and 2 Lite in the image model list ( #40656 ) ( 8dfc695 )",
+  "date": "2026-10-09T07:26:23+00:00"
  },
  {
   "source": "release: n8n-io/n8n",
-  "title": "n8n n8n@2.43.2",
-  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.2",
-  "summary": "2.43.2 (2026-10-08) Bug Fixes core: Fix Kimi K3 and other OpenAI-compatible Assistant model providers on self-hosted Assistant ( #40552 ) ( 509a3f3 ) editor: Show the Agent artifact while the builder creates it ( #40550 ) ( 204e2dd )",
-  "date": "2026-10-08T07:25:19+00:00"
+  "title": "n8n n8n@2.43.3",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.3",
+  "summary": "2.43.3 (2026-10-09) Features core: Block create/update of workflows with deprecated nodes ( #40706 ) ( 3c4f6e3 ) Google Gemini Node: Show Nano Banana 2.1 and 2 Lite in the image model list ( #40655 ) ( 1830ccf )",
+  "date": "2026-10-09T07:26:42+00:00"
  },
  {
   "source": "release: n8n-io/n8n",
-  "title": "n8n n8n@2.42.5",
-  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.42.5",
-  "summary": "2.42.5 (2026-10-08) Bug Fixes editor: Show the Agent artifact while the builder creates it ( #40551 ) ( e825e75 )",
-  "date": "2026-10-08T07:24:56+00:00"
+  "title": "n8n n8n@2.42.6",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.42.6",
+  "summary": "2.42.6 (2026-10-09) Features core: Block create/update of workflows with deprecated nodes ( #40707 ) ( ff1a24c ) Google Gemini Node: Show Nano Banana 2.1 and 2 Lite in the image model list ( #40656 ) ( 8dfc695 )",
+  "date": "2026-10-09T07:25:32+00:00"
+ },
+ {
+  "source": "release: n8n-io/n8n",
+  "title": "n8n beta",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/beta",
+  "summary": "2.43.3 (2026-10-09) Features core: Block create/update of workflows with deprecated nodes ( #40706 ) ( 3c4f6e3 ) Google Gemini Node: Show Nano Banana 2.1 and 2 Lite in the image model list ( #40655 ) ( 1830ccf )",
+  "date": "2026-10-09T07:27:49+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.56.1 \u2014 config, policy-trust and encrypted-store fixes",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.56.1",
+  "summary": "ruflo 3.56.1 Patch release: bug fixes only. Published as @claude-flow/cli , claude-flow and ruflo 3.56.1 ( latest , alpha , v3alpha ). No leaf package changed since 3.56.0. Fixed The policy trust mirror and key now honour HOME and XDG_CONFIG_HOME instead of a fixed home directory, so a throwaway HOM",
+  "date": "2026-10-09T04:50:37+00:00"
  },
  {
   "source": "release: ruvnet/ruflo",
@@ -1335,13 +1349,6 @@
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.54.1",
   "summary": "Ruflo 3.54.1 is a fixes release: @claude-flow/cli , claude-flow and ruflo all at 3.54.1. @claude-flow/shared 3.0.1 was published first. Fixes (npm packages) #3851 : piped output ( ruflo ... | consumer ) is no longer cut at 64 KiB. stdio is made blocking for pipes. Not tested on Windows. #3845 : sess",
   "date": "2026-10-07T07:49:58+00:00"
- },
- {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.54.0 \u2014 console 0.35.0, measured control plane, recall log",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.54.0",
-  "summary": "Ruflo 3.54.0 Console 0.35.0 Layout fixes on the Workflows page: breadcrumbs, a clipped run id, button rows and the tab row. Replay now plays on its own clock. The control plane is now measured (Claude Code 2.1.289), not assumed: Stopping a workflow run works with the Workflow tool's task id, read fr",
-  "date": "2026-10-07T03:50:17+00:00"
  },
  {
   "source": "release: thedotmack/claude-mem",
@@ -1373,10 +1380,10 @@
  },
  {
   "source": "release: unslothai/unsloth",
-  "title": "unsloth Train your own Decision model",
+  "title": "unsloth Sandboxing is here!",
   "link": "https://github.com/unslothai/unsloth/releases/tag/v0.1.905-beta",
-  "summary": "Turn any text or vision LLM into a Jev-style decision model in Unsloth, with decision accuracy going from 30% to 80%. Train, test, export and serve decision models directly from Unsloth. Also included: native ComfyUI models, diffusion improvements and a better Browser in Desktop. Highlights 8th Oct ",
-  "date": "2026-10-08T16:09:27+00:00"
+  "summary": "We're introducing Windows, Mac and Linux sandboxing in Unsloth! Read our guide . Turn any text or vision LLM into a Jev-style decision model in Unsloth, with decision accuracy going from 30% to 80%. Train, test, export and serve decision models directly from Unsloth. Also included: native ComfyUI mo",
+  "date": "2026-10-09T06:12:33+00:00"
  },
  {
   "source": "release: unslothai/unsloth",
@@ -1729,129 +1736,115 @@
   "date": "2026-10-09T00:00:00-04:00"
  },
  {
-  "source": "HF Papers (5 up)",
+  "source": "HF Papers (0 up)",
+  "title": "MARGIN: Runtime Confidence Calibration for Multi-Agent Foundation Model Coordination",
+  "link": "https://huggingface.co/papers/2605.22949",
+  "summary": "When a coordinator compares answers from heterogeneous foundation models, self-reported confidence may have different meanings across responders and changing workloads. This paper presents MARGIN (Multi-Agent Runtime Grading via Incremental Normalisation), a runtime calibration method that learns model-specific confidence corrections from observed answer outcomes without retraining the models or r",
+  "date": "2026-10-07T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (35 up)",
+  "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+  "link": "https://huggingface.co/papers/2610.11959",
+  "summary": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement. This report introduces the MiMo-V2.6 series, an omni-modal family that pushes the frontier of model intelligence by scaling RL compute. Prior to RL, we conduct mid-training on a broad multimodal corpus to provide ample exploration space, and build a solid infrastructure on t",
+  "date": "2026-10-07T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (17 up)",
+  "title": "Foundations of Large Language Models",
+  "link": "https://huggingface.co/papers/2501.09223",
+  "summary": "This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into six main chapters, each exploring a key area: pre-training, generative models, prompting, alignment, inference, and reasoning. It is intended for college students, professionals, and pra",
+  "date": "2026-10-07T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (22 up)",
+  "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
+  "link": "https://huggingface.co/papers/2610.12461",
+  "summary": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we",
+  "date": "2026-10-07T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (1 up)",
+  "title": "On-Policy Distillation Teaches New Skills but Not New Knowledge",
+  "link": "https://huggingface.co/papers/2610.09639",
+  "summary": "On-policy distillation (OPD) strengthens language-model reasoning, yet whether students acquire new factual knowledge or compositional skill for multi-step reasoning remains unknown. We separate these capabilities using a controlled synthetic framework that measures the student's initial capabilities and independently controls the teacher's additional facts, compositional skill, or both. Across fo",
+  "date": "2026-10-06T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (0 up)",
+  "title": "BrickBench: Evaluating Agentic Brick Design",
+  "link": "https://huggingface.co/papers/2610.12452",
+  "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discrete library and reason jointly about local and global constraints. We score validity, alignment, and design across three ",
+  "date": "2026-10-07T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (9 up)",
+  "title": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
+  "link": "https://huggingface.co/papers/2610.12458",
+  "summary": "Multimodal large language models (MLLMs) are rapidly evolving toward continuous audio--visual reasoning, creating an urgent need for evaluations that expose their capability limits. Audio--visual captioning is an ideal diagnostic task, yet current benchmarks face a coupled trade-off: whole-caption scores provide coverage without localization, local probes provide localization without coverage, and",
+  "date": "2026-10-07T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (2 up)",
+  "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+  "link": "https://huggingface.co/papers/2610.12360",
+  "summary": "When retrieved evidence contradicts an agent's prior beliefs, does it revise its answer, acknowledge uncertainty, or persist with an incorrect conclusion? Existing evaluations of agentic systems focus primarily on task success, offering limited insight into how agents handle such conflicts. We propose to evaluate agents on epistemic humility (EH): the agent's willingness to recognize, act on, and ",
+  "date": "2026-10-07T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (0 up)",
+  "title": "Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement",
+  "link": "https://huggingface.co/papers/2610.12369",
+  "summary": "Most robot policies keep a model in the control loop: a VLA maps observations to actions, and an Agent Harness, such as Agent-as-Policy or Harness VLA queries a VLM for decision making at run time. We propose a different view: the embodied world is an Embodied Turing Machine, whose tape is the robot and environment state and rules are the policy. If this state can be represented accurately, the de",
+  "date": "2026-10-07T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (32 up)",
   "title": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
   "link": "https://huggingface.co/papers/2610.12299",
   "summary": "Egocentric world models predict first-person observations conditioned on an agent's actions, but most focus on a single agent. Real embodied settings often involve multiple agents that act and interact within a shared environment. Existing multi-agent world models rely on coarse actions like locomotion, camera control, or discrete commands, leaving fine-grained embodied interactions underexplored.",
   "date": "2026-10-07T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (3 up)",
+  "source": "HF Papers (10 up)",
   "title": "OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video",
   "link": "https://huggingface.co/papers/2610.12419",
   "summary": "Single-image, multi-image, and video deep research require different visual operations but share a workflow of visual grounding, external retrieval, and fact composition. A key challenge is to preserve the dependencies linking localized visual anchors, entity relations, source-supported facts, and answer-producing operations. We introduce OneSearch-VL, a unified agent centered on the Visually Grou",
   "date": "2026-10-07T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (0 up)",
+  "source": "HF Papers (1 up)",
   "title": "Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
   "link": "https://huggingface.co/papers/2610.12355",
   "summary": "Spatial reasoning remains a persistent weakness of vision-language models (VLMs), because RGB inputs do not directly provide geometric evidence. Existing remedies either inject 3D into the model at inference, paying architecture and latency costs, or train with outcome rewards that supervise only the final answer. Spatial errors originate in perception: a misjudged depth or direction can be correc",
   "date": "2026-10-07T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (5 up)",
+  "source": "HF Papers (16 up)",
   "title": "TestPrism: Rethinking Test Evaluation Beyond a Single Reference",
   "link": "https://huggingface.co/papers/2610.12289",
   "summary": "Large language model (LLM) coding agents have advanced test generation across diverse programming tasks. However, the common practice of evaluating tests against a single reference solution overlooks alternative valid implementations and can overstate test quality. We introduce TestPrism, comprising 300 test tasks from 17 sources and 3000 candidate implementations, evenly split between valid and i",
   "date": "2026-10-07T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (6 up)",
   "title": "SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models",
   "link": "https://huggingface.co/papers/2610.12402",
   "summary": "Existing spatial reasoning benchmarks mainly test spatial perception: reading off relations already visible in the input. Yet real-world spatial intelligence demands predictive spatial reasoning: constructing a scene from observations, anticipating how an intervention changes it, and reasoning about the unseen outcome. We introduce SpaceCast-Bench, the first benchmark to directly and diagnosticall",
   "date": "2026-10-07T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (8 up)",
   "title": "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
   "link": "https://huggingface.co/papers/2610.12403",
   "summary": "Skill-augmented agents improve sample efficiency by distilling successful trajectories into reusable strategies. Yet most existing approaches remain text-centric, linearizing spatial layouts and action-state correspondences into language that loses critical geometric structure. Recent efforts have begun incorporating visual evidence, but construct and update skills separately from policy optimizat",
   "date": "2026-10-07T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (16 up)",
+  "source": "HF Papers (70 up)",
   "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
   "link": "https://huggingface.co/papers/2610.08215",
   "summary": "Learning from experience is essential for LLM agents to adapt to unfamiliar and dynmaic environments. Evaluating this ability is therefore important for understanding how effectively agents acquire and use new knowledge. Existing benchmarks have sought to evaluate this ability, but they primarily evaluate tasks whose rules are provided in the instructions or already familiar to pretrained models, ",
-  "date": "2026-10-07T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (14 up)",
-  "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
-  "link": "https://huggingface.co/papers/2610.12468",
-  "summary": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful interactions can bias predictions toward successful outcomes. To improve action following across embodimen",
-  "date": "2026-10-07T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (2 up)",
-  "title": "SpatialOPSD: Self-Distilling Spatial Intelligence from Verified Coding Agent Traces",
-  "link": "https://huggingface.co/papers/2610.11366",
-  "summary": "Spatial coding agents significantly improve spatial reasoning in Multimodal Large Language Models (MLLMs) by using external tools to generate verified execution traces. However, this paradigm inherently suffers from prohibitive inference-time overhead and external dependencies. In this paper, we explore whether an MLLM can internalize this agentic capability to operate entirely tool-free. We begin",
-  "date": "2026-10-07T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (4 up)",
-  "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
-  "link": "https://huggingface.co/papers/2610.12442",
-  "summary": "Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion m",
-  "date": "2026-10-07T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (28 up)",
-  "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
-  "link": "https://huggingface.co/papers/2610.12242",
-  "summary": "Large language model (LLM) routing distributes inference work across different models, advancing the cost-quality Pareto frontier of LLM serving. While coarse-grained routing at the session or query level has been widely adopted in production systems, recent algorithmic work shows that fine-grained token-level routing can yield substantial efficiency and quality gains. However, efficiently serving",
-  "date": "2026-10-07T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (2 up)",
-  "title": "Scaling to Tens of Thousands of Test-Time Iterations with Loop-Native Attention Residuals",
-  "link": "https://huggingface.co/papers/2610.11570",
-  "summary": "In this paper, we argue that looped Transformers need their own residual connections to prevent performance degradation as the number of iterations grows. We observe that increasing loop iterations can reduce reasoning accuracy: noisy state updates overwrite correct intermediate deductions and even undo completed solutions. This leaves subsequent iterations to recover lost information from an alre",
-  "date": "2026-10-07T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (2 up)",
-  "title": "Reasoning-Informed Visual Editing",
-  "link": "https://huggingface.co/papers/2610.12343",
-  "summary": "Large Multi-modality Models (LMMs) have made significant progress in visual understanding and generation, but still face challenges in visual editing, particularly in following complex instructions, preserving appearance consistency, and supporting flexible input formats. To study this gap, we introduce RISEBench, the first benchmark for evaluating Reasoning-Informed viSual Editing (RISE), and ext",
-  "date": "2026-10-07T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (8 up)",
-  "title": "VibeEdit: Image Editing with Canvas Instructions",
-  "link": "https://huggingface.co/papers/2610.12229",
-  "summary": "In text-guided image editing, describing the desired change is often straightforward, but identifying the intended object or region can be cumbersome, especially when several objects look alike. We introduce a new image editing interface that lets users place spatial marks and optional short notes directly on the image. Together, these annotations form a canvas instruction that specifies where to ",
-  "date": "2026-10-07T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (5 up)",
-  "title": "From Prompting to Composing: A Spatial Canvas Interface for Poster Generation",
-  "link": "https://huggingface.co/papers/2610.12230",
-  "summary": "Text prompting is an indirect interface for poster generation, requiring users to encode inherently two-dimensional composition intent into a one-dimensional sequence of words. We introduce a Spatial Canvas Interface that enables users to directly compose generation intent in space through four complementary binding types: semantic, identity, text, and pixel, together with Text Specifications for ",
-  "date": "2026-10-07T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (41 up)",
-  "title": "SuperNav: An Agentic Navigation System for Any Task in Any Scene",
-  "link": "https://huggingface.co/papers/2610.12126",
-  "summary": "General-purpose service robots need navigation systems that can handle diverse human requests in unfamiliar environments, combining task generality with scene generality. Some existing methods fine-tune multimodal large language models (MLLMs) to predict navigation actions, making their behavior dependent on the coverage of navigation training data and potentially limiting generalization to new re",
-  "date": "2026-10-07T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (4 up)",
-  "title": "Chaos in the Text: Revealing the Modality Preference in Mixed-Modality Retrievers",
-  "link": "https://huggingface.co/papers/2610.11816",
-  "summary": "Dense retrievers have made significant progress on text and image corpora, but whether these capabilities extend reliably to mixed corpora containing text, image, and fused text-image documents remains unclear. In this paper, we systematically examine retrievers across architectures and find that their performance is highly sensitive to modality composition. As image documents are progressively re",
-  "date": "2026-10-07T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (13 up)",
-  "title": "SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference",
-  "link": "https://huggingface.co/papers/2610.12327",
-  "summary": "The memory-bound nature of the decoding stage of large language model (LLM) inference incurs significant latency. Layer-wise training-free network pruning approaches guided by the Hessian have been a prominent solution to this problem, as pruning reduces the number of nonzero parameters read from memory during decoding. Nevertheless, typical methods in this line compute the Hessian using pre-colle",
   "date": "2026-10-07T20:00:00+00:00"
  },
  {
