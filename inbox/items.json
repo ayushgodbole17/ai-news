@@ -175,11 +175,11 @@
   "date": "2026-10-07T14:53:51+00:00"
  },
  {
-  "source": "Simon Willison",
-  "title": "Quoting Jake Boggan",
-  "link": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
-  "summary": "I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of my life, on and off as I worked in many different fields. Last summer I even thought for a few days that I had actually solved it. But it's supposedly proven here - problem 180 .",
-  "date": "2026-10-07T04:47:55+00:00"
+  "source": "MarkTechPost",
+  "title": "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text",
+  "link": "https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/",
+  "summary": "Nace.AI has open-sourced Drex 1.5, a 9B decision model that returns a probability for every option in 1 forward pass. It scores 58.08 on Decision Index 0.3.1 and reads up to 128K tokens. The post Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text appeared first on MarkTechPost .",
+  "date": "2026-10-10T04:51:34+00:00"
  },
  {
   "source": "MarkTechPost",
@@ -243,13 +243,6 @@
   "link": "https://www.marktechpost.com/2026/10/07/perplexity-ai-releases-pplx-embed-v2-late-a-0-6b-edge-model-and-a-9b-model-scoring-92-4-on-madqa/",
   "summary": "Perplexity's pplx-embed-v2-late comes in 2 sizes: a 0.6B model built to run on edge devices, and a 9B model for building high-quality indexes. Its best score is 92.4% on MADQA, and its weakest is 61.2% on ViDoRe v3 Markdown. Both are MIT-licensed and ready to self-host. The post Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA appeared first on Mar",
   "date": "2026-10-08T05:39:09+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "What Happens When a Trusted Model Repo Changes? Unsloth Studio Re-Checks Before It Runs",
-  "link": "https://www.marktechpost.com/2026/10/07/what-happens-when-a-trusted-model-repo-changes-unsloth-studio-re-checks-before-it-runs/",
-  "summary": "Unsloth's October 6 security overview explains how Studio checks code, weights, packages and tools before anything runs. Custom model code is scanned and approval is bound to its fingerprint. Flagged weight files are blocked in the load path, package-content findings fail CI, and tools run in probed OS sandboxes. Here is what each checkpoint decides, and what it does not cover. The post What Happe",
-  "date": "2026-10-08T01:49:11+00:00"
  },
  {
   "source": "MIT News",
@@ -539,7 +532,7 @@
   "date": "2026-10-07T15:46:13+00:00"
  },
  {
-  "source": "HN (98pts)",
+  "source": "HN (132pts)",
   "title": "Anthropic AI model submits false tip on unsolved Philly murder",
   "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
   "summary": "",
@@ -574,7 +567,7 @@
   "date": "2026-10-07T18:49:40+00:00"
  },
  {
-  "source": "HN (268pts)",
+  "source": "HN (270pts)",
   "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
   "link": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
   "summary": "",
@@ -644,42 +637,28 @@
   "date": "2026-10-08T05:56:31+00:00"
  },
  {
-  "source": "HN (190pts)",
-  "title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
-  "link": "https://debasishg.github.io/blog/push-ifs-up-fors-down/",
-  "summary": "",
-  "date": "2026-10-07T18:43:18+00:00"
- },
- {
-  "source": "HN (184pts)",
-  "title": "Germany transforms former coal mines into Europe's largest lake landscape",
-  "link": "https://www.euronews.com/2026/04/14/almost-like-lake-como-germany-transforms-former-coal-mines-into-europes-largest-lake-lands",
-  "summary": "",
-  "date": "2026-10-09T15:05:24+00:00"
- },
- {
-  "source": "HN (72pts)",
+  "source": "HN (73pts)",
   "title": "Show HN: Jevman \u2013 AI decision models play Pac-Man",
   "link": "https://opper.ai/jevman-benchmark/",
   "summary": "",
   "date": "2026-10-08T16:34:13+00:00"
  },
  {
-  "source": "HN (386pts)",
+  "source": "HN (391pts)",
   "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
   "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
   "summary": "",
   "date": "2026-10-09T11:03:48+00:00"
  },
  {
-  "source": "HN (31pts)",
+  "source": "HN (32pts)",
   "title": "Show HN: I Put an AI Agent on a Nokia 110",
   "link": "https://github.com/anupray95/AI-Agent-on-a-NOKIA",
   "summary": "",
   "date": "2026-10-08T14:18:51+00:00"
  },
  {
-  "source": "HN (31pts)",
+  "source": "HN (43pts)",
   "title": "Rewriting Prime Agent in Rust",
   "link": "https://www.primeintellect.ai/blog/prime-agent-rust",
   "summary": "",
@@ -1037,6 +1016,20 @@
  },
  {
   "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.504",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.504",
+  "summary": "Release API image v2.11.504",
+  "date": "2026-10-10T05:31:11+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.503",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.503",
+  "summary": "Release API image v2.11.503",
+  "date": "2026-10-10T05:10:20+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
   "title": "firecrawl v2.11.502",
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.502",
   "summary": "Release API image v2.11.502",
@@ -1050,32 +1043,11 @@
   "date": "2026-10-09T18:50:53+00:00"
  },
  {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.500",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.500",
-  "summary": "Release API image v2.11.500",
-  "date": "2026-10-09T18:02:58+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.499",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.499",
-  "summary": "Release API image v2.11.499",
-  "date": "2026-10-09T13:20:14+00:00"
- },
- {
   "source": "release: ggml-org/whisper.cpp",
   "title": "whisper.cpp v1.9.5",
   "link": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.5",
   "summary": "Overview Maintenance release. Updates to ggml v0.26.0 . Nightly build: b5454 More info: dist : releases and versioning of ggml-org projects Changelog since v1.9.4 d1be6fd whisper : bump version to 1.9.5 ( #4102 ) 4afec37 talk-llama : update llama.cpp to v0.6.0 3d451ab sync : ggml 47f1c7d ggml : bump",
   "date": "2026-10-07T12:41:42+00:00"
- },
- {
-  "source": "release: goadesign/goa",
-  "title": "goa Goa v3.34.0",
-  "link": "https://github.com/goadesign/goa/releases/tag/v3.34.0",
-  "summary": "Goa v3.34.0 adds first-class support for URL-encoded form requests, gives transport plugins two new generator building blocks, and fixes a series of generation and runtime issues reported against the v3.31 generator rewrite. If you use result views with collection or map bodies, JSON-RPC path or que",
-  "date": "2026-10-07T04:55:30+00:00"
  },
  {
   "source": "release: google-gemini/gemini-cli",
@@ -1330,7 +1302,7 @@
   "date": "2026-10-07T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (12 up)",
   "title": "Pumpire: Unified Benchmark for Metric Distance Estimation",
   "link": "https://huggingface.co/papers/2610.12423",
   "summary": "We present Pumpire, a unified benchmark for evaluating metric point-pair distance estimation capability of both image- and video-level 3D foundation models, with or without depth priors. In contrast to previous approaches that normally evaluate depth and camera intrinsics separately or evaluate point-clouds with geometric similarity metrics, which cannot directly reflect models' point-to-point dis",
