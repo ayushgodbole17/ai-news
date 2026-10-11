@@ -7,13 +7,6 @@
   "date": "2026-10-09T15:20:29+00:00"
  },
  {
-  "source": "Hugging Face",
-  "title": "The model that didn't exist, so you made it yourself",
-  "link": "https://huggingface.co/blog/building-with-ml-intern",
-  "summary": "",
-  "date": "2026-10-08T00:00:00+00:00"
- },
- {
   "source": "OpenAI",
   "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
   "link": "https://openai.com/index/sophos",
@@ -49,11 +42,18 @@
   "date": "2026-10-08T12:00:00+00:00"
  },
  {
-  "source": "OpenAI",
-  "title": "Disrupting AI-enabled \u201cfalse front\u201d operations",
-  "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-  "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-  "date": "2026-10-08T00:00:00+00:00"
+  "source": "Simon Willison",
+  "title": "Dwarf Fortress uses version control now",
+  "link": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+  "summary": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. I went looking and I'm sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time: March 2013: \"I don't us",
+  "date": "2026-10-11T00:52:37+00:00"
+ },
+ {
+  "source": "Simon Willison",
+  "title": "Python 3.15.0 added to actions/python-versions",
+  "link": "https://simonwillison.net/2026/Oct/10/python-actions/",
+  "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me about it Now that this has landed, you can add \"3.15\" to a GitHub Actions testing matrix to run tests against the new Py",
+  "date": "2026-10-10T23:58:04+00:00"
  },
  {
   "source": "Simon Willison",
@@ -103,6 +103,13 @@
   "link": "https://simonwillison.net/2026/Oct/8/carson-gross/",
   "summary": "Computer programming is, fundamentally, about two things: Problem-solving using computers Learning to control complexity while solving these problems I have a hard time imagining a future where knowing how to solve problems with computers and how to control the complexity of those solutions is less valuable than it is today, so I think it will continue to be a viable career even with the advent of",
   "date": "2026-10-08T21:05:44+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Sakana AI\u2019s LLM Peer Review System Catches 73% of Core-Claim Errors",
+  "link": "https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/",
+  "summary": "Sakana AI\u2019s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164-error Contradiction Benchmark. MLR caught 73.43% of core-claim errors, versus 14.81% for the best prior system. The post Sakana AI\u2019s LLM Peer Review System Catches 73% of Core-Claim Errors appeared first on MarkTechPost .",
+  "date": "2026-10-10T22:02:18+00:00"
  },
  {
   "source": "MarkTechPost",
@@ -168,25 +175,11 @@
   "date": "2026-10-08T16:17:35+00:00"
  },
  {
-  "source": "MarkTechPost",
-  "title": "Architect Launches Liquid Inference, a Real-Time Auction for LLM Inference",
-  "link": "https://www.marktechpost.com/2026/10/08/architect-launches-liquid-inference-a-real-time-auction-for-llm-inference/",
-  "summary": "Architect Financial Technologies has launched Liquid Inference, an LLM router that runs a live auction for every request. Liquid Inference is an LLM inference marketplace from Architect where providers bid to serve each prompt. The buyer pays the lowest offer that meets its rules. For developers, it is quite simple message: swap a base URL, [\u2026] The post Architect Launches Liquid Inference, a Real-",
-  "date": "2026-10-08T08:53:34+00:00"
- },
- {
   "source": "MIT News",
   "title": "3 Questions: What is the best path forward for AI in academia?",
   "link": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
   "summary": "MIT Statistics and Data Science Center Director Alexander (Sasha) Rakhlin shares important considerations for departments and institutions.",
   "date": "2026-10-08T17:25:00-04:00"
- },
- {
-  "source": "MIT News",
-  "title": "Using AI to mitigate the growing environmental threat of data centers",
-  "link": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
-  "summary": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient.",
-  "date": "2026-10-08T00:00:00-04:00"
  },
  {
   "source": "TechCrunch AI",
@@ -420,21 +413,35 @@
   "date": "2026-10-08T14:25:53+00:00"
  },
  {
-  "source": "HN (206pts)",
+  "source": "HN (208pts)",
   "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
   "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
   "summary": "",
   "date": "2026-10-09T22:00:35+00:00"
  },
  {
-  "source": "HN (88pts)",
+  "source": "HN (90pts)",
   "title": "Anthropic bans 'abusive or cruel behavior' towards Claude",
   "link": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
   "summary": "",
   "date": "2026-10-08T17:08:02+00:00"
  },
  {
-  "source": "HN (40pts)",
+  "source": "HN (52pts)",
+  "title": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+  "link": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
+  "summary": "",
+  "date": "2026-10-11T00:08:31+00:00"
+ },
+ {
+  "source": "HN (45pts)",
+  "title": "Anthropic asks users to stop being mean to Claude",
+  "link": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+  "summary": "",
+  "date": "2026-10-11T01:17:22+00:00"
+ },
+ {
+  "source": "HN (41pts)",
   "title": "Anthropic discloses 2 months old fake tip to police among new rogue AI incidents",
   "link": "https://www.reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09/",
   "summary": "",
@@ -462,32 +469,25 @@
   "date": "2026-10-10T04:51:26+00:00"
  },
  {
-  "source": "HN (122pts)",
+  "source": "HN (131pts)",
   "title": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
   "link": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
   "summary": "",
   "date": "2026-10-10T15:04:38+00:00"
  },
  {
-  "source": "HN (288pts)",
+  "source": "HN (292pts)",
   "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
   "link": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
   "summary": "",
   "date": "2026-10-08T07:07:34+00:00"
  },
  {
-  "source": "HN (59pts)",
+  "source": "HN (61pts)",
   "title": "LGTM (Looks Good to Me) \u2013 Claude Opus 5.5 Music Video",
   "link": "https://www.youtube.com/watch?v=3TNpOD6bov8",
   "summary": "",
   "date": "2026-10-08T18:55:18+00:00"
- },
- {
-  "source": "HN (114pts)",
-  "title": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
-  "link": "https://github.com/pingdotgg/ts-rust",
-  "summary": "",
-  "date": "2026-10-08T00:46:00+00:00"
  },
  {
   "source": "HN (88pts)",
@@ -518,14 +518,14 @@
   "date": "2026-10-08T05:56:31+00:00"
  },
  {
-  "source": "HN (208pts)",
+  "source": "HN (209pts)",
   "title": "Germany transforms former coal mines into Europe's largest lake landscape",
   "link": "https://www.euronews.com/2026/04/14/almost-like-lake-como-germany-transforms-former-coal-mines-into-europes-largest-lake-lands",
   "summary": "",
   "date": "2026-10-09T15:05:24+00:00"
  },
  {
-  "source": "HN (76pts)",
+  "source": "HN (77pts)",
   "title": "Show HN: Jevman \u2013 AI decision models play Pac-Man",
   "link": "https://opper.ai/jevman-benchmark/",
   "summary": "",
@@ -539,18 +539,25 @@
   "date": "2026-10-09T11:03:48+00:00"
  },
  {
-  "source": "HN (230pts)",
+  "source": "HN (264pts)",
   "title": "Talorys \u2013 A self-hosted personal AI agent on Cloudflare's free tier",
   "link": "https://github.com/rociiu/talorys",
   "summary": "",
   "date": "2026-10-10T10:52:09+00:00"
  },
  {
-  "source": "HN (59pts)",
+  "source": "HN (60pts)",
   "title": "My personal AI agent posted my bank details on company Slack",
   "link": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
   "summary": "",
   "date": "2026-10-10T14:46:16+00:00"
+ },
+ {
+  "source": "HN (59pts)",
+  "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+  "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+  "summary": "",
+  "date": "2026-10-11T02:02:38+00:00"
  },
  {
   "source": "HN (33pts)",
@@ -560,14 +567,14 @@
   "date": "2026-10-08T14:18:51+00:00"
  },
  {
-  "source": "HN (149pts)",
+  "source": "HN (173pts)",
   "title": "Mxc: Microsoft Execution Containers version 1.0.0",
   "link": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
   "summary": "",
   "date": "2026-10-09T06:52:49+00:00"
  },
  {
-  "source": "HN (63pts)",
+  "source": "HN (64pts)",
   "title": "Rewriting Prime Agent in Rust",
   "link": "https://www.primeintellect.ai/blog/prime-agent-rust",
   "summary": "",
@@ -642,13 +649,6 @@
   "link": "https://github.com/DietrichGebert/ponytail/releases/tag/v5.1.0",
   "summary": "Ponytail no longer writes its name into your code. Deliberate shortcuts are now marked with a neutral comment, shortcut: <the limit>, <when to upgrade> , and /ponytail-debt still finds the old ponytail: ones, so nothing in your ledger gets lost. Want another word, or none at all? Say so in your proj",
   "date": "2026-10-08T16:20:18+00:00"
- },
- {
-  "source": "release: DietrichGebert/ponytail",
-  "title": "ponytail v5.0.0: Ponytail 5",
-  "link": "https://github.com/DietrichGebert/ponytail/releases/tag/v5.0.0",
-  "summary": "Ponytail 5 is rebuilt from the ground up: new rules, a new review, a new audit. Rules: rewritten and about half as long. The goal is the smallest complete change: before it writes, the agent maps everything the change must reach (callers, tests, config) and what it could break. Every reply ends with",
-  "date": "2026-10-08T03:51:52+00:00"
  },
  {
   "source": "release: Graphify-Labs/graphify",
@@ -883,6 +883,13 @@
  },
  {
   "source": "release: feder-cr/invisible_playwright_mcp",
+  "title": "invisible_playwright_mcp 0.71.1",
+  "link": "https://github.com/feder-cr/invisible_playwright_mcp/releases/tag/v0.71.1",
+  "summary": "0.71.1: browser_evaluate says it is the last rung, and which tool reads what it is not for A host's model (invisible_dots, z-ai/glm-5.3-flash, four tasks on 0.71.0) made 13 of its 63 calls with browser_evaluate, most of them to read a heading that browser_read_text reads: the description named what ",
+  "date": "2026-10-11T00:57:50+00:00"
+ },
+ {
+  "source": "release: feder-cr/invisible_playwright_mcp",
   "title": "invisible_playwright_mcp 0.71.0",
   "link": "https://github.com/feder-cr/invisible_playwright_mcp/releases/tag/v0.71.0",
   "summary": "A host that runs one server per identity, opens and closes its browser itself and offers its model only the page tools (invisible_dots) had two choices, both wrong: hand its model instructions about browser_open, a tool that model does not have, and a browser argument offering a helper it cannot ope",
@@ -901,13 +908,6 @@
   "link": "https://github.com/feder-cr/invisible_playwright_mcp/releases/tag/v0.70.17",
   "summary": "invisible-playwright 0.31.0, through invisible-core 39.34.0 and firefox-39: page.mouse and every element action return after the page's listeners have run, so a click and the read of the page after it see the same page; a right click no longer waits out an acknowledgement that never came.",
   "date": "2026-10-10T04:00:26+00:00"
- },
- {
-  "source": "release: feder-cr/invisible_playwright_mcp",
-  "title": "invisible_playwright_mcp 0.70.16",
-  "link": "https://github.com/feder-cr/invisible_playwright_mcp/releases/tag/v0.70.16",
-  "summary": "invisible-playwright 0.30.0, through invisible-core 38.34.0: the client that drives the browser lives in the core, shared with invisible-selenium and invisible-puppeteer, with the same seeds drawing the same movement. Two tests that read the typing persona to know what pause to expect now read it fr",
-  "date": "2026-10-09T15:41:56+00:00"
  },
  {
   "source": "release: firecrawl/firecrawl",
@@ -950,13 +950,6 @@
   "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-preview.1",
   "summary": "What's Changed fix(patch): cherry-pick 2ce1a69 to release/v0.64.0-preview.0-pr-29672 to patch version v0.64.0-preview.0 and create version 0.64.0-preview.1 by @gemini-cli-robot in #29696 Full Changelog : v0.64.0-preview.0...v0.64.0-preview.1",
   "date": "2026-10-09T20:27:57+00:00"
- },
- {
-  "source": "release: google-gemini/gemini-cli",
-  "title": "gemini-cli Release v0.65.0-nightly.20261008.g44d764ee5",
-  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261008.g44d764ee5",
-  "summary": "What's Changed fix(ci): add missing loop in unassign-inactive-assignees workflow by @ugorla-dev in #29609 fix(core): enforce terminal user turn invariant and normalize request contents by @luisfelipe-alt in #29612 feat(telemetry): support custom OTLP headers in telemetry configuration by @jesussamue",
-  "date": "2026-10-08T01:35:49+00:00"
  },
  {
   "source": "release: infiniflow/ragflow",
@@ -1022,6 +1015,13 @@
   "date": "2026-10-09T15:51:01+00:00"
  },
  {
+  "source": "release: modelcontextprotocol/servers",
+  "title": "servers v1.0.0",
+  "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
+  "summary": "Packages Package Version Registry In this release @modelcontextprotocol/server-everything 1.0.0 npm published @modelcontextprotocol/server-filesystem 1.0.0 npm published @modelcontextprotocol/server-memory 1.0.0 npm published @modelcontextprotocol/server-sequential-thinking 1.0.0 npm published mcp-s",
+  "date": "2026-10-11T03:05:26+00:00"
+ },
+ {
   "source": "release: n8n-io/n8n",
   "title": "n8n stable",
   "link": "https://github.com/n8n-io/n8n/releases/tag/stable",
@@ -1065,6 +1065,20 @@
  },
  {
   "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.56.5 \u2014 graph header sniff keeps SQLite locks",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.56.5",
+  "summary": "Patch release: one fix in @claude-flow/cli. The graph-edge-writer encryption-header sniff no longer closes the raw DB file descriptor, which dropped live SQLite POSIX locks; the header is read in a bounded child process ( #4044 , fixes #4040 ). Published: @claude-flow/cli, claude-flow, ruflo 3.56.5 ",
+  "date": "2026-10-11T02:13:43+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.56.4 \u2014 plugin-trust and helper security hardening, MCP/task fixes",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.56.4",
+  "summary": "Patch release: plugin-trust and helper security fixes, MCP/task fixes, Node 24 sqlite fix. Published: @claude-flow/cli, claude-flow, ruflo 3.56.4 (latest, alpha, v3alpha); leaves memory 3.0.4, integration 3.0.1, plugins 3.0.2, mcp 3.1.1, security 3.0.4. Security: placeholder (all-zero) registry trus",
+  "date": "2026-10-11T01:08:38+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
   "title": "ruflo @claude-flow/swarm@3.0.2: Merge pull request #3961 from ruvnet/release/swarm-3.0.2",
   "link": "https://github.com/ruvnet/ruflo/releases/tag/%40claude-flow%2Fswarm%403.0.2",
   "summary": "chore(release): @claude-flow/swarm 3.0.2",
@@ -1076,20 +1090,6 @@
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.56.3",
   "summary": "Patch release: AgentDB 3.0.0-alpha.20 update. @claude-flow/memory 3.0.3 (published standalone; the CLI pins it exactly) and @claude-flow/cli / claude-flow / ruflo 3.56.3 . neural , shared , cli-core unchanged. Changed AgentDB floor ^3.0.0-alpha.17 -> ^3.0.0-alpha.20 (memory, cli, root, ruflo). alpha",
   "date": "2026-10-09T22:14:30+00:00"
- },
- {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.56.2 \u2014 task_update status validation",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.56.2",
-  "summary": "Patch release of @claude-flow/cli , claude-flow and ruflo . Fixed task_update accepts only the five task statuses; a task stored as complete is no longer shown as pending or re-dispatched ( #3932 , fixes #3931 ). Notes No leaf package changed since 3.56.1; only @claude-flow/cli source differs. The r",
-  "date": "2026-10-09T17:28:22+00:00"
- },
- {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.56.1 \u2014 config, policy-trust and encrypted-store fixes",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.56.1",
-  "summary": "ruflo 3.56.1 Patch release: bug fixes only. Published as @claude-flow/cli , claude-flow and ruflo 3.56.1 ( latest , alpha , v3alpha ). No leaf package changed since 3.56.0. Fixed The policy trust mirror and key now honour HOME and XDG_CONFIG_HOME instead of a fixed home directory, so a throwaway HOM",
-  "date": "2026-10-09T04:50:37+00:00"
  },
  {
   "source": "release: thedotmack/claude-mem",
@@ -1146,13 +1146,6 @@
   "link": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
   "summary": "pipeline: text-to-image. tags: diffusers, safetensors, qwen, image-generation, image-editing, text-to-image",
   "date": "2026-10-09T04:50:01+00:00"
- },
- {
-  "source": "HF model (59191 dl)",
-  "title": "New on the Hub: ConwayResearch/Underdog-Saluki-27B-1.0",
-  "link": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
-  "summary": "pipeline: text-generation. tags: gguf, llama.cpp, 2-bit, tool-calling, function-calling, agents",
-  "date": "2026-10-08T01:47:26+00:00"
  },
  {
   "source": "HF model (7314 dl)",
