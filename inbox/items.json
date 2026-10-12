@@ -63,11 +63,18 @@
   "date": "2026-10-09T12:54:06+00:00"
  },
  {
-  "source": "Simon Willison",
-  "title": "ttok 1.0",
-  "link": "https://simonwillison.net/2026/Oct/9/ttok/",
-  "summary": "Release: ttok 1.0 I released ttok 0.4 , ran uv tool upgrade ttok , piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead! I figured switching the default was a reasonable excuse to finally ship a 1.0. OpenAI haven't actually confirmed that GPT-6 uses the same tokenizer as the GPT-5 family yet - the",
-  "date": "2026-10-09T00:34:43+00:00"
+  "source": "MarkTechPost",
+  "title": "TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER",
+  "link": "https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/",
+  "summary": "TII has released Falcon-ASR, a 1.6B speech recognition model for Arabic with an Emirati focus. It reports 20.92% average WER on 6 Arabic test sets, but weights and an API are not yet available. The post TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER appeared first on MarkTechPost .",
+  "date": "2026-10-12T03:16:09+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text",
+  "link": "https://www.marktechpost.com/2026/10/11/cloudflare-clef-omni-multimodal-decision-model/",
+  "summary": "Cloudflare released Clef-omni, an Apache-2.0 multimodal decision model built on Qwen3-Omni-30B-A3B. It scores text, images, audio and video in one call for $0.15 per million input tokens, while Clef-flash drops to $0.038. The post Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text appeared first on MarkTechPost .",
+  "date": "2026-10-11T23:15:52+00:00"
  },
  {
   "source": "MarkTechPost",
@@ -124,20 +131,6 @@
   "link": "https://www.marktechpost.com/2026/10/09/openai-decisions-api-hits-public-beta-with-10x-faster-typed-answers/",
   "summary": "OpenAI\u2019s Decisions API is now in public beta on GPT-6 Luna. It returns typed probabilities, choices and scores about 10x faster than the Responses API, billing $0.10 per 1M input tokens with no output charges. The post OpenAI Decisions API Hits Public Beta With 10x Faster Typed Answers appeared first on MarkTechPost .",
   "date": "2026-10-09T20:05:07+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
-  "link": "https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/",
-  "summary": "Underdog Saluki 27B is a 7.89 GB, 2-bit GGUF of Qwen3.8-27B under Apache 2.0. It beats the 54 GB original on tool calling but gives up ground on competition math and reasoning. The post Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling appeared first on MarkTechPost .",
-  "date": "2026-10-09T07:23:36+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work",
-  "link": "https://www.marktechpost.com/2026/10/08/google-cloud-launches-gemini-agent-one-universal-agent-for-enterprise-work/",
-  "summary": "Google Cloud has introduced the Google Cloud Gemini agent, a single agent for enterprise work. The Gemini agent is a cloud-hosted agent from Google Cloud that answers questions, does knowledge work, creates media, and writes and runs code. It does all of this from 1 prompt box and 1 API. For developers, the agent is [\u2026] The post Google Cloud Launches Gemini Agent, One Universal Agent for Enterpris",
-  "date": "2026-10-09T06:47:56+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -406,7 +399,7 @@
   "date": "2026-10-10T21:19:42+00:00"
  },
  {
-  "source": "HN (173pts)",
+  "source": "HN (308pts)",
   "title": "The gap in shared understanding of LLM capability is widening",
   "link": "https://twitter.com/karpathy/status/2109361546505966046",
   "summary": "",
@@ -420,7 +413,7 @@
   "date": "2026-10-09T19:50:16+00:00"
  },
  {
-  "source": "HN (40pts)",
+  "source": "HN (41pts)",
   "title": "There's little that's \"inevitable\" about AI",
   "link": "https://deadsimpletech.com/blog/llms-arent-inevitable",
   "summary": "",
@@ -434,14 +427,14 @@
   "date": "2026-10-09T11:03:48+00:00"
  },
  {
-  "source": "HN (321pts)",
+  "source": "HN (323pts)",
   "title": "Talorys \u2013 A self-hosted personal AI agent on Cloudflare's free tier",
   "link": "https://github.com/rociiu/talorys",
   "summary": "",
   "date": "2026-10-10T10:52:09+00:00"
  },
  {
-  "source": "HN (135pts)",
+  "source": "HN (182pts)",
   "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
   "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
   "summary": "",
@@ -462,7 +455,7 @@
   "date": "2026-10-11T03:42:47+00:00"
  },
  {
-  "source": "HN (222pts)",
+  "source": "HN (223pts)",
   "title": "Mxc: Microsoft Execution Containers version 1.0.0",
   "link": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
   "summary": "",
@@ -476,11 +469,11 @@
   "date": "2026-10-09T23:06:25+00:00"
  },
  {
-  "source": "HN (40pts)",
-  "title": "Show HN: Edi Life OS \u2013 self-hosted life dashboard with an MCP server for AI",
-  "link": "https://github.com/edrisranjbar/lifeos",
+  "source": "HN (66pts)",
+  "title": "Show HN: Apogee: Rebuilding Mozilla's Orbit, fully local and private",
+  "link": "https://github.com/darshi1337/apogee",
   "summary": "",
-  "date": "2026-10-09T00:02:19+00:00"
+  "date": "2026-10-09T07:36:19+00:00"
  },
  {
   "source": "release: BerriAI/litellm",
@@ -540,38 +533,38 @@
  },
  {
   "source": "release: HumanSignal/label-studio",
-  "title": "label-studio 1.24.0.dev20261009",
+  "title": "label-studio 1.24.0.dev20261012",
   "link": "https://github.com/HumanSignal/label-studio/releases/tag/nightly",
   "summary": "Nightly Build This is an automated nightly build that is recreated every night with the latest changes from the develop branch. Installation You can install this nightly build by downloading the wheel package (the file ending in .whl ) from the Assets section below this description. After downloadin",
-  "date": "2026-10-09T00:15:19+00:00"
+  "date": "2026-10-12T00:16:43+00:00"
  },
  {
   "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent v0.21.6+canary.20261011T070142Z",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.6%2Bcanary.20261011T070142Z",
-  "summary": "Hermes Agent canary 20261011T070142Z",
-  "date": "2026-10-11T07:01:44+00:00"
+  "title": "hermes-agent rc.15-v0.21.7",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.15-v0.21.7",
+  "summary": "{\"attempt\":15,\"autopublish\":false,\"claimEpoch\":1791775065,\"commit\":\"7\u2026",
+  "date": "2026-10-12T03:17:45+00:00"
  },
  {
   "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent rc.13-v0.21.7",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.13-v0.21.7",
-  "summary": "{\"attempt\":13,\"autopublish\":false,\"claimEpoch\":1791750773,\"commit\":\"1\u2026",
-  "date": "2026-10-11T20:32:53+00:00"
+  "title": "hermes-agent rc.14-v0.21.7",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.14-v0.21.7",
+  "summary": "{\"attempt\":14,\"autopublish\":false,\"claimEpoch\":1791765169,\"commit\":\"8\u2026",
+  "date": "2026-10-12T00:32:49+00:00"
  },
  {
   "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent rc.12-v0.21.7",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.12-v0.21.7",
-  "summary": "{\"attempt\":12,\"autopublish\":false,\"claimEpoch\":1791738486,\"commit\":\"9\u2026",
-  "date": "2026-10-11T17:08:06+00:00"
+  "title": "hermes-agent abandoned-rc.14-v0.21.7",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.14-v0.21.7",
+  "summary": "{\"attempt\":14,\"attemptRef\":\"rc.14-v0.21.7\",\"schema\":1,\"version\":\"0.21\u2026",
+  "date": "2026-10-12T03:17:31+00:00"
  },
  {
   "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent rc.11-v0.21.7",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.11-v0.21.7",
-  "summary": "{\"attempt\":11,\"autopublish\":false,\"claimEpoch\":1791713353,\"commit\":\"7\u2026",
-  "date": "2026-10-11T10:09:13+00:00"
+  "title": "hermes-agent abandoned-rc.13-v0.21.7",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.13-v0.21.7",
+  "summary": "{\"attempt\":13,\"attemptRef\":\"rc.13-v0.21.7\",\"schema\":1,\"version\":\"0.21\u2026",
+  "date": "2026-10-12T00:32:28+00:00"
  },
  {
   "source": "release: Significant-Gravitas/AutoGPT",
@@ -715,6 +708,13 @@
  },
  {
   "source": "release: google-gemini/gemini-cli",
+  "title": "gemini-cli Release v0.65.0-nightly.20261012.g9b6e0265d",
+  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261012.g9b6e0265d",
+  "summary": "Full Changelog : v0.65.0-nightly.20261010.g9b6e0265d...v0.65.0-nightly.20261012.g9b6e0265d",
+  "date": "2026-10-12T01:29:25+00:00"
+ },
+ {
+  "source": "release: google-gemini/gemini-cli",
   "title": "gemini-cli Release v0.65.0-nightly.20261010.g9b6e0265d",
   "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261010.g9b6e0265d",
   "summary": "What's Changed fix(cli): handle JSON parse and response stream errors in fetchJson by @jesussamuel-byte in #29658 fix(core): preserve line terminators in truncateString by @diegogodinezr in #29673 fix(vscode-ide-companion): make IdeServer.stop() resolve while MCP sessions are open by @elberthc-byte ",
@@ -753,7 +753,7 @@
   "title": "mlflow Model Catalog",
   "link": "https://github.com/mlflow/mlflow/releases/tag/model-catalog%2Flatest",
   "summary": "Per-provider model catalog files. Updated weekly by CI.",
-  "date": "2026-10-09T15:51:01+00:00"
+  "date": "2026-10-12T01:53:56+00:00"
  },
  {
   "source": "release: modelcontextprotocol/servers",
@@ -833,13 +833,6 @@
   "date": "2026-10-11T01:08:38+00:00"
  },
  {
-  "source": "release: thedotmack/claude-mem",
-  "title": "claude-mem v13.35.0",
-  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v13.35.0",
-  "summary": "New: progressive memory search, curated tool replies, and native memory notes Claude-Mem 13.35.0 gives agents one memory search tool, mem_search , that discloses memory in bounded steps: a compact index, the context around chosen anchors, and then one batch of selected details. The local worker MCP ",
-  "date": "2026-10-09T03:34:04+00:00"
- },
- {
   "source": "release: unslothai/unsloth",
   "title": "unsloth Sandboxing is here!",
   "link": "https://github.com/unslothai/unsloth/releases/tag/v0.1.905-beta",
@@ -873,6 +866,188 @@
   "link": "https://github.com/upstash/context7/releases/tag/mcpb-v4.3.0",
   "summary": "MCP Bundle for @upstash/context7-mcp@4.3.0",
   "date": "2026-10-09T15:37:31+00:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "TTS-Q: Perception-Guided Post-Training Quantization of Text-to-Speech Diffusion Transformers",
+  "link": "https://arxiv.org/abs/2610.12474",
+  "summary": "Zero-shot text-to-speech (TTS) can clone a voice from seconds of audio. Yet the quality comes from billion-parameter diffusion transformers whose size and multi-step sampling put them out of reach of the on-device, assistive, and real-time applications that need them most. Post-training quantization (PTQ) shrinks such models without retraining, but it has been built for language and vision, not sp",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "E3-System: Expressive EmoData, Explicitly Controllable, Easy-to-Use TTS",
+  "link": "https://arxiv.org/abs/2610.12993",
+  "summary": "Recent zero-shot Text-to-Speech (TTS) systems can clone unseen speakers, yet controllable expressiveness remains limited by a gap between semantic intent and acoustic realization. Text descriptions offer a natural control interface but provide weak acoustic grounding, whereas speech style prompts provide concrete prosody but entangle style with the prompt speaker's timbre. To bridge this gap, we p",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "From 2.1M Hours of Raw Broadcast Audio to Finnish Speech SSL: Confidence Filtering and Architectural Analysis at Scale",
+  "link": "https://arxiv.org/abs/2610.13102",
+  "summary": "Broadcast archives offer scale and diversity for self-supervised learning (SSL) but contain substantial noisy, non-speech, and multilingual content. Prior work typically relies on voice activity detection or language identification (LID) to extract speech, ensuring presence rather than quality. Whether and how to filter unlabeled speech by quality for SSL, particularly from noisy broadcasts, remai",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Does Financial Speech Need Continual Learning Regularization? A Study of EWC and mini-KFAC on Earnings Call ASR",
+  "link": "https://arxiv.org/abs/2610.13432",
+  "summary": "Earnings call transcription presents a realistic continual learning scenario where Automatic Speech Recognition (ASR) systems are updated with new recordings but risk catastrophic forgetting of previously learned financial speech patterns. Adapting Whisper-small from a general-domain speech corpus to the Earnings22 benchmark reveals the opposite: all evaluated methods exhibit improvement on held-o",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "O\\'ido: Open-Vocabulary Speech Recognition on a $5 Microcontroller without a Neural Accelerator",
+  "link": "https://arxiv.org/abs/2610.13447",
+  "summary": "Speech recognition on low-cost microcontrollers is, in practice, limited to keyword spotting or a fixed list of commands. We present O\\'ido, an inference engine that runs open-vocabulary English speech recognition entirely on an ESP32-S3 (240 MHz dual-core Xtensa LX7, 512 KB of SRAM, 8 MB of PSRAM, 16 MB of flash, no neural accelerator). O\\'ido executes a 13M-parameter Conformer-CTC model with int",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Lossless Inference Acceleration for ASR via EAGLE-Style Speculative Decoding",
+  "link": "https://arxiv.org/abs/2610.13506",
+  "summary": "Autoregressive Transformer and Conformer models have achieved state-of-the-art performance in automatic speech recognition (ASR). However, their sequential token generation mechanism imposes a significant bottleneck during decoding, resulting in substantial inference latency. While speculative decoding has emerged as a promising lossless acceleration technique, existing ASR-oriented approaches eit",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Enhancing Speech Recognition through Text-to-Speech and Voice Conversion Augmentation",
+  "link": "https://arxiv.org/abs/2610.13662",
+  "summary": "Given the challenges associated with obtaining large volumes of real-world audio, the advancement of Automatic Speech Recognition (ASR) systems increasingly depends on synthetic data. This study focuses on the call center-banking domain, providing a targeted analysis of ASR models in this context. We evaluate real and synthetic datasets, using Word Error Rate (WER) and Character Error Rate (CER) a",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Error Rate is Not Enough: Costs of Augmentation in Low-Resource ASR",
+  "link": "https://arxiv.org/abs/2610.13807",
+  "summary": "Data augmentation is standard practice for low-resource automatic speech recognition (ASR), but its benefits are almost always reported as aggregate error rates, leaving open why and when a method helps. On four low-resource languages and English at five data sizes, we cross two augmentations that modify existing audio (speed perturbation and SpecAugment) with two that modify text transcriptions a",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "People Making Conversation: Evaluating How Naturally Speech Models Converse",
+  "link": "https://arxiv.org/abs/2610.12802",
+  "summary": "A conversational speech model has to decide, at every pause, whether to speak. Existing evaluations test boundary detection, policy adherence, or aggregate statistics, not this decision. We place real-time speech systems at 427 pauses and 482 turn ends from 176 unscripted conversations in Seamless Interaction, give each the conversation so far, and score what it generates against what the person d",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "SynAct: Synergistic Active Feedback Learning for LLM Agents",
+  "link": "https://arxiv.org/abs/2610.12651",
+  "summary": "LLM agents executing multi-step workflows fail in two fundamentally different ways: recoverable slips, which further attempts can repair, and knowledge gaps, which retrying cannot resolve. Expert feedback can address the latter, but expert attention is scarce. The key challenge is therefore not whether to ask for feedback, but where feedback can change the outcome. Existing approaches either avoid",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
+  "link": "https://arxiv.org/abs/2610.12655",
+  "summary": "LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through clarification. Yet clarification is useful only when the agent can turn the answer into better decisions. As training changes how the agent handles incomplete informat",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "EvoBelief: Falsifiable World Models for Self-Improving LLM Agents",
+  "link": "https://arxiv.org/abs/2610.12789",
+  "summary": "Self-evolving LLM agents typically improve how they act through accumulated experience, reflection, or skills. Yet even procedurally capable agents can fail when their beliefs about environment dynamics are incomplete, incorrect, or outdated. We study a complementary axis of self-evolution: evolving those beliefs during deployment. Such beliefs can support multiple tasks, but incorrect ones can al",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "TreeHCA: Hindsight-Guided Exploration and Credit Assignment for Multi-Turn LLM Agents",
+  "link": "https://arxiv.org/abs/2610.12828",
+  "summary": "Outcome-supervised group-relative policy optimization (GRPO) assigns the same advantage to every token in an LLM agent trajectory, leaving useful and unhelpful decisions undifferentiated. Hindsight credit assignment (HCA) can refine this feedback, but its estimates rely on trajectories containing informative alternatives at consequential histories. We introduce TreeHCA, which couples hindsight-gui",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "CB-Orchestrator: Adaptive Workflow Optimization for LLM Agents via Contextual Bandits",
+  "link": "https://arxiv.org/abs/2610.13064",
+  "summary": "Large Language Model (LLM) agents have demonstrated remarkable capabilities in tackling complex tasks through agentic workflows. However, manually designing these workflows is labor-intensive and lacks flexibility to adapt to diverse queries. While automated workflow optimization is a promising direction, existing methods often incur expensive API costs during training-phase feedback collection. F",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "DRYLAB-Bench: Benchmarking the Biosecurity Risk of Agentic LLM Mutation Design",
+  "link": "https://arxiv.org/abs/2610.13116",
+  "summary": "As large language models (LLMs) acquire advanced biological design capabilities, they offer substantial research benefits but simultaneously introduce severe dual-use risks, such as engineering enhanced pathogens or drug-resistant bacteria. While biosecurity frameworks recognize these threats, the actual risk of LLMs executing dangerous biological modifications remains unquantified, particularly w",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "PRIME: Pre-Retrieval Index Modeling Enhancement for Structured Document Retrieval-Real",
+  "link": "https://arxiv.org/abs/2610.13296",
+  "summary": "High-precision retrieval over external knowledge bases is essential for LLM agents to operate effectively. However, existing Information Retrieval (IR) research primarily optimizes query-side retrievers (e.g., ColBERT, BGE) and generators (e.g., Self-RAG, GraphRAG), while reducing corpus-side representation to chunking. This leaves index-side quality an underexplored lever. We propose Pre-Retrieva",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "AgentTune: A Unified Training Lifecycle for Tool-Using LLM Agents",
+  "link": "https://arxiv.org/abs/2610.13335",
+  "summary": "Tool-using agents increasingly require a common substrate for building, training, evaluating, distilling, and maintaining agentic systems, yet existing tooling typically addresses these stages in isolation. We present AgentTune, a source-available Python library that provides a unified framework for developing and optimizing tool-using agents. At its core, AgentTune introduces a two-tier EventLog ",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Web$hell: A Unified Interface for Agentic Web Access",
+  "link": "https://arxiv.org/abs/2610.13416",
+  "summary": "Large language model (LLM) agents are becoming direct users of the open web. As they take on increasingly complex and information-intensive tasks, effective web access is becoming a core capability for agentic problem solving. Existing approaches have advanced agentic web access through different access models, including search-augmented agents, browser-based agents, and, more recently, filesystem",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "An Exploration of Attacks on AI Agent Systems",
+  "link": "https://arxiv.org/abs/2610.12524",
+  "summary": "As autonomous AI agents become more integrated into sensitive domains, it is crucial that single and multi-agent AI systems are secured. This paper investigates how prompt injection attacks can exploit both direct user inputs and inter?agent communication to leak sensitive information and trigger cross-agent infections. While our tests mostly highlight key vulnerabilities in single-agent systems, ",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails",
+  "link": "https://arxiv.org/abs/2610.12813",
+  "summary": "LLM agents increasingly operate over sensitive resources, such as private documents and mutable system states, which can create serious safety and security risks. Runtime guardrails should therefore make inspectable, reproducible, and deterministic allow or refuse decisions before potentially irreversible agent actions are executed. However, safety and security requirements are rarely complete bef",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Vulnerable Models in the AI Supply Chain: An Empirical Study of Adoption, Propagation, and Usage Patterns",
+  "link": "https://arxiv.org/abs/2610.12893",
+  "summary": "The rapid integration of Artificial Intelligence (AI) models has established a complex supply chain, but many of these shared artifacts harbor severe vulnerabilities such as insecure serialization and architectural backdoors. While prior efforts have extensively scanned model registries to flag malicious artifacts, a critical gap remains in understanding how developers actually adopt and integrate",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Attention Sees, MLP Refuses: Tracing the Attention-to-MLP Safety Pathway in LLMs",
+  "link": "https://arxiv.org/abs/2610.13078",
+  "summary": "Safety-aligned large language models (LLMs) remain vulnerable to jailbreaks and can over-refuse benign requests. Understanding these failures requires distinguishing harmfulness recognition from the computation that writes refusal. We reframe this as a pathway question and make it measurable on residual-stream updates in decoder-only Transformers, separating the harmfulness information a module up",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "FORTE: A Production Framework for Feature Evaluation and Deprecation in Industrial Recommender Systems",
+  "link": "https://arxiv.org/abs/2610.13806",
+  "summary": "Production recommender systems have feature-lifecycle asymmetry: adding new features must produce gains on some metric, while feature removal must not regress any metric. In practice, feature deprecation is hard to prioritize as a feature can fail to be removed if it interacts with other features, its importance changes daily, it cannot be evaluated before production models change or data drift oc",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales Agents",
+  "link": "https://arxiv.org/abs/2610.12975",
+  "summary": "We present SmartSalesBench, the first multi-turn conversational benchmark explicitly designed to evaluate large language model (LLM) sales agents against psychologically grounded, resistant buyer personas. Existing task-oriented dialogue benchmarks assume cooperative users and measure task completion; SmartSalesBench inverts this assumption, placing agents against personas programmed to resist and",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Verifiable Retrieval for Legal Reasoning through Structure-driven Knowledge Graph",
+  "link": "https://arxiv.org/abs/2610.13695",
+  "summary": "Any automation within reliability-critical contexts such as medicine or law has to be transparent and verifiable. Despite their advantages, current LLM-based systems do not meet these requirements due to their inherent black-box nature. Retrieval Augmented Generation (RAG) attempts to ground the generative process in the relevant interpretable documents, thereby reducing the risk of AI 'hallucinat",
+  "date": "2026-10-12T00:00:00-04:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Incremental Retrieval-Augmented Generation for Human-in-the-Loop Decision Support",
+  "link": "https://arxiv.org/abs/2610.12666",
+  "summary": "We introduce iRAG, a human-in-the-loop decision-support system combining Retrieval-Augmented Generation (RAG) with Hybrid Decision-Making. Unlike conventional RAG systems, relying on static Knowledge Bases (KBs), our proposal addresses settings where the KB is initially empty and is progressively populated through human decisions. The system stores previous decisions as retrievable precedents and ",
+  "date": "2026-10-12T00:00:00-04:00"
  },
  {
   "source": "HF model (4702 dl)",
