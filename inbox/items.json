@@ -378,7 +378,7 @@
   "date": "2026-10-10T03:42:11+00:00"
  },
  {
-  "source": "HN (33pts)",
+  "source": "HN (34pts)",
   "title": "If AI is conscient, then we are making slaves",
   "link": "https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
   "summary": "",
@@ -399,7 +399,7 @@
   "date": "2026-10-10T21:19:42+00:00"
  },
  {
-  "source": "HN (308pts)",
+  "source": "HN (379pts)",
   "title": "The gap in shared understanding of LLM capability is widening",
   "link": "https://twitter.com/karpathy/status/2109361546505966046",
   "summary": "",
@@ -420,7 +420,7 @@
   "date": "2026-10-10T12:04:04+00:00"
  },
  {
-  "source": "HN (414pts)",
+  "source": "HN (415pts)",
   "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
   "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
   "summary": "",
@@ -434,7 +434,7 @@
   "date": "2026-10-10T10:52:09+00:00"
  },
  {
-  "source": "HN (182pts)",
+  "source": "HN (188pts)",
   "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
   "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
   "summary": "",
@@ -540,6 +540,13 @@
  },
  {
   "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent Hermes Agent v0.21.7",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.7",
+  "summary": "Hermes Agent v0.21.7 Release Date: October 11, 2026 Patch release. This tag rolls up the ~204 PRs merged since v0.21.6 into a stable release for the desktop app (macOS Apple silicon, Windows), the Microsoft Store and MSIX, the installer, Docker and Hermes Cloud. Full curated notes for this window sh",
+  "date": "2026-10-12T05:53:41+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
   "title": "hermes-agent rc.15-v0.21.7",
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.15-v0.21.7",
   "summary": "{\"attempt\":15,\"autopublish\":false,\"claimEpoch\":1791775065,\"commit\":\"7\u2026",
@@ -558,13 +565,6 @@
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.14-v0.21.7",
   "summary": "{\"attempt\":14,\"attemptRef\":\"rc.14-v0.21.7\",\"schema\":1,\"version\":\"0.21\u2026",
   "date": "2026-10-12T03:17:31+00:00"
- },
- {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent abandoned-rc.13-v0.21.7",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.13-v0.21.7",
-  "summary": "{\"attempt\":13,\"attemptRef\":\"rc.13-v0.21.7\",\"schema\":1,\"version\":\"0.21\u2026",
-  "date": "2026-10-12T00:32:28+00:00"
  },
  {
   "source": "release: Significant-Gravitas/AutoGPT",
@@ -652,6 +652,13 @@
  },
  {
   "source": "release: feder-cr/invisible_playwright_mcp",
+  "title": "invisible_playwright_mcp 0.72.0",
+  "link": "https://github.com/feder-cr/invisible_playwright_mcp/releases/tag/v0.72.0",
+  "summary": "No answer is cut any more. browser_read_text stopped at 6000 characters with a line asking for a larger max_chars , browser_evaluate and the browser listing became {\"truncated\": true, \"preview\": ...} above the same number, and browser_snapshot dropped elements from the end. max_chars is gone from bo",
+  "date": "2026-10-12T05:20:07+00:00"
+ },
+ {
+  "source": "release: feder-cr/invisible_playwright_mcp",
   "title": "invisible_playwright_mcp 0.71.2",
   "link": "https://github.com/feder-cr/invisible_playwright_mcp/releases/tag/v0.71.2",
   "summary": "A host that drives the server (invisible_dots) reads the first sentence of browser_open's answer to know the browser opened, and NOT_OPEN and GONE to know it is gone. Those two were constants it captures from the installed package; the opened sentence was written inline in Work.open, so the host mat",
@@ -670,13 +677,6 @@
   "link": "https://github.com/feder-cr/invisible_playwright_mcp/releases/tag/v0.71.0",
   "summary": "A host that runs one server per identity, opens and closes its browser itself and offers its model only the page tools (invisible_dots) had two choices, both wrong: hand its model instructions about browser_open, a tool that model does not have, and a browser argument offering a helper it cannot ope",
   "date": "2026-10-10T20:48:36+00:00"
- },
- {
-  "source": "release: feder-cr/invisible_playwright_mcp",
-  "title": "invisible_playwright_mcp 0.70.18",
-  "link": "https://github.com/feder-cr/invisible_playwright_mcp/releases/tag/v0.70.18",
-  "summary": "0.70.18: the wrapper floor moves to 0.32.0 invisible-playwright 0.32.0, through invisible-core 39.35.0: a session ends with its last process, so no profile is left in the temporary directory; characters that need Shift are typed with Shift; and the hand pauses between the pointer arriving and the cl",
-  "date": "2026-10-10T20:37:14+00:00"
  },
  {
   "source": "release: firecrawl/firecrawl",
@@ -1048,13 +1048,6 @@
   "link": "https://arxiv.org/abs/2610.12666",
   "summary": "We introduce iRAG, a human-in-the-loop decision-support system combining Retrieval-Augmented Generation (RAG) with Hybrid Decision-Making. Unlike conventional RAG systems, relying on static Knowledge Bases (KBs), our proposal addresses settings where the KB is initially empty and is progressively populated through human decisions. The system stores previous decisions as retrievable precedents and ",
   "date": "2026-10-12T00:00:00-04:00"
- },
- {
-  "source": "HF model (4702 dl)",
-  "title": "New on the Hub: Qwen/Qwen-Image-2.1-Turbo",
-  "link": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
-  "summary": "pipeline: text-to-image. tags: diffusers, safetensors, qwen, image-generation, image-editing, text-to-image",
-  "date": "2026-10-09T04:50:01+00:00"
  },
  {
   "source": "HF model (100530 dl)",
