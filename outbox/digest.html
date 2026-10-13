@@ -1,11 +1,11 @@
 <!doctype html><html><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI digest &mdash; Monday, 12 October 2026</title></head>
+<title>AI digest &mdash; Tuesday, 13 October 2026</title></head>
 <body style="margin:0;background:#f6f6f7;padding:26px 14px">
 <div style="max-width:660px;margin:0 auto;background:#fff;border-radius:12px;padding:30px">
   <div style="font:700 23px/1.2 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827">Latest in AI</div>
   <div style="font:14px -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#9ca3af;margin:5px 0 0">
-    Monday, 12 October 2026 &nbsp;&middot;&nbsp; 8 shipped, 10 industry, 5 to read</div>
+    Tuesday, 13 October 2026 &nbsp;&middot;&nbsp; 10 shipped, 7 industry, 5 to read</div>
   
   <div style="font:700 13px/1.3 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.1em;text-transform:uppercase;
               color:#111827;margin:34px 0 3px">Shipped</div>
@@ -13,83 +13,103 @@
   
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#7c3aed;margin-bottom:7px">
-        01 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; MarkTechPost
+                  color:#0891b2;margin-bottom:7px">
+        01 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; HN (85pts)
       </div>
-      <a href="https://www.marktechpost.com/2026/10/11/cloudflare-clef-omni-multimodal-decision-model/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Cloudflare released Clef-omni, an Apache-2.0 multimodal decision model built on Qwen3-Omni-30B-A3B that scores text, images, audio and video in one call, with a cheaper Clef-flash variant.</p>
+      <a href="https://github.com/SaarthurR/atticus-mac" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A hold-to-talk voice assistant for macOS, shown on HN, that runs on Claude via `claude -p` (details beyond the title aren&#x27;t summarised here).</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Priced at $0.15/$0.038 per million input tokens, this is the kind of cheap classification model that could sit in a routing or guardrails layer in front of voice/agent pipelines.</p>
+        <strong style="color:#581c87">Why you care:</strong> A voice-agent front end built directly on Claude is close to your own Pipecat/voice-agent work and worth a look even as a reference implementation.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#7c3aed;margin-bottom:7px">
-        02 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; MarkTechPost
+                  color:#0d9488;margin-bottom:7px">
+        02 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: VectifyAI/PageIndex
       </div>
-      <a href="https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">What is Decision 3.0? vLLM Semantic Router&#x27;s New Open Decision Models</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">vLLM Semantic Router released Decision 3.0, five Apache-2.0 multimodal decision models (0.8B-27B) that answer choice/yes-no/score questions over text and images in one call without generating text.</p>
+      <a href="https://github.com/VectifyAI/PageIndex/releases/tag/v0.4.0" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">PageIndex v0.4.0</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">PageIndex v0.4.0 ships a vectorless, reasoning-based RAG SDK (local or cloud) that the notes say is now cheaper to build than a vector index, plus a faster &#x27;Flash&#x27; indexing engine that builds the document tree from layout stats instead of an LLM call.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Small, open decision models like this fit naturally into a guardrails/policy-enforcement proxy that needs fast, cheap classification in front of agent traffic.</p>
+        <strong style="color:#581c87">Why you care:</strong> A direct alternative to your Qdrant-based RAG/embedding ingestion pipeline, claiming lower build cost and faster indexing.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#64748b;margin-bottom:7px">
-        03 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; HN (223pts)
+        03 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; HN (63pts)
       </div>
-      <a href="https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Mxc: Microsoft Execution Containers version 1.0.0</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Microsoft shipped 1.0 of Execution Containers, policy-driven containment for AI agents.</p>
+      <a href="https://github.com/prabanta-dev/janas" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Janas: Run LLMs larger than RAM by streaming experts from SSD</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Janas is an open-source project, per its title, that runs LLMs larger than available RAM by streaming MoE experts from SSD on demand.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Directly in the same space as a guardrails/policy-enforcement proxy sitting in front of agents, worth comparing approaches against.</p>
+        <strong style="color:#581c87">Why you care:</strong> Directly relevant to running bigger models cheaply on limited hardware, which matters for your cost/latency tracking on inference.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#64748b;margin-bottom:7px">
+        04 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; The Verge AI
+      </div>
+      <a href="https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Microsoft&#x27;s new AI chip makes it less reliant on Nvidia&#x27;s GPUs</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Microsoft announced its third-generation Maia in-house AI chip, pitched as the &#x27;primary AI inference system&#x27; for its own cloud products, aimed at improving the cost and efficiency of running AI workloads and handling reasoning/agentic tasks.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A major cloud provider&#x27;s custom inference silicon is a signal on where inference cost and capacity are heading, relevant to your own cost/latency-per-call tracking.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#7c3aed;margin-bottom:7px">
+        05 &nbsp;&middot;&nbsp; model &nbsp;&middot;&nbsp; TechCrunch AI
+      </div>
+      <a href="https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Meta releases its first frontier model, Muse Wonder</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Meta released Muse Wonder, larger and more capable frontier models following the lightweight Muse Spark, with higher benchmark scores and better results on complex tasks like coding.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A new frontier-capable model from a major lab is worth benchmarking against your Gemini-heavy pipelines for cost/quality tradeoffs.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#64748b;margin-bottom:7px">
+        06 &nbsp;&middot;&nbsp; infra &nbsp;&middot;&nbsp; release: unslothai/unsloth
+      </div>
+      <a href="https://github.com/unslothai/unsloth/releases/tag/v0.1.906-beta" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">unsloth Browser Use + Qwen-Image-2.1-Turbo</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Unsloth added browser-use support so a model can open pages, click, type and scroll, plus Qwen-Image-2.1-Turbo (8-step image generation), faster MoE GGUFs, and speculative decoding.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> Faster local MoE inference and speculative decoding support are directly useful for cutting cost and latency in your own pipelines.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#0d9488;margin-bottom:7px">
+        07 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; HN (120pts)
+      </div>
+      <a href="https://news.ycombinator.com/item?id=50059096" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Agent37 is a YC-backed (F26 batch) launch of low-cost sandboxes for running AI agents, per its title.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> Cheap, isolated agent sandboxes are useful infrastructure for your agentic coding and eval work.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#c2410c;margin-bottom:7px">
-        04 &nbsp;&middot;&nbsp; harness &nbsp;&middot;&nbsp; release: ruvnet/ruflo
+        08 &nbsp;&middot;&nbsp; harness &nbsp;&middot;&nbsp; release: DietrichGebert/ponytail
       </div>
-      <a href="https://github.com/ruvnet/ruflo/releases/tag/v3.56.7" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">ruflo v3.56.7 — ruflo tui, MCP resources, auto-memory and purge fixes, safer init --dual</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Claude-flow&#x27;s ruflo CLI added a standalone terminal UI (ruflo tui), MCP resource support, and auto-memory/purge fixes.</p>
+      <a href="https://github.com/DietrichGebert/ponytail/releases/tag/v5.1.1" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">ponytail v5.1.1</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A fix release for ponytail&#x27;s codebase map: closes a bug where a repo could slip its own text into the hidden session context, and a symlink in the repo could hang session start; the map now has a one-second limit so rules always load.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Agent-orchestration tooling built around Claude Code, relevant to agentic coding tooling and MCP server work.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0d9488;margin-bottom:7px">
-        05 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; release: farion1231/cc-switch
-      </div>
-      <a href="https://github.com/farion1231/cc-switch/releases/tag/v4.0.9" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">CC Switch v4.0.9</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">CC Switch v4.0.9 reworks the provider-setup flow for Claude Code/Codex (ordered form, automatic model-list fetch) and fixes Codex thread/automation errors with some upstream providers.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A provider-management tool for exactly the Claude Code + Codex setup this person works in daily.</p>
+        <strong style="color:#581c87">Why you care:</strong> A real security/reliability fix in a Claude Code session-context tool is worth knowing if you use skills or hooks that load repo context.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#c2410c;margin-bottom:7px">
-        06 &nbsp;&middot;&nbsp; harness &nbsp;&middot;&nbsp; release: upstash/context7
+        09 &nbsp;&middot;&nbsp; harness &nbsp;&middot;&nbsp; release: thedotmack/claude-mem
       </div>
-      <a href="https://github.com/upstash/context7/releases/tag/%40upstash%2Fcontext7-mcp%404.3.0" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">context7 @upstash/context7-mcp@4.3.0</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Context7&#x27;s MCP server added an optional language argument to query-docs so it ranks code examples in the agent&#x27;s programming language first.</p>
+      <a href="https://github.com/thedotmack/claude-mem/releases/tag/v13.36.1" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">claude-mem v13.36.1</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A patch release for claude-mem closing three review issues from 13.36.0 plus eight community fixes; notably, `&lt;private&gt;`-marked content no longer leaves the hook in the server runtime.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A widely-used MCP server for docs lookup in agentic coding workflows gaining a real, usable feature.</p>
+        <strong style="color:#581c87">Why you care:</strong> A privacy fix for what leaves a Claude memory hook is directly relevant to your PII/guardrails and governance work.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0d9488;margin-bottom:7px">
-        07 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; HN (414pts)
+                  color:#c2410c;margin-bottom:7px">
+        10 &nbsp;&middot;&nbsp; harness &nbsp;&middot;&nbsp; release: ruvnet/ruflo
       </div>
-      <a href="https://github.com/franzenzenhofer/big-arrow-on-the-screen" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Show HN: Let your AI agents paint big arrows, boxes and text on your screen</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">An open-source tool that lets AI coding agents draw arrows, boxes and text directly on the screen to point at what they mean.</p>
+      <a href="https://github.com/ruvnet/ruflo/releases/tag/v3.56.9" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">ruflo v3.56.9 — policy envelope metering, Codex MCP backend retired, CLI parser fixes, ruflo-mods guards</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A patch release for the claude-flow/ruflo CLI that pins updated shared/CLI-core packages, adds policy envelope metering, and retires the Codex MCP backend.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A lightweight way to make agent actions and reasoning visible while developing with agentic coding tools.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0d9488;margin-bottom:7px">
-        08 &nbsp;&middot;&nbsp; tool &nbsp;&middot;&nbsp; HN (323pts)
-      </div>
-      <a href="https://github.com/rociiu/talorys" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Talorys – A self-hosted personal AI agent on Cloudflare&#x27;s free tier</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A self-hosted personal AI agent that runs on Cloudflare&#x27;s free tier.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Worth a look as a reference agent-framework architecture, even though it isn&#x27;t voice or Indic-language specific.</p>
+        <strong style="color:#581c87">Why you care:</strong> Retiring the Codex MCP backend is a breaking change worth knowing if you use ruflo/claude-flow in your agentic coding tooling.</p>
     </div>
   <div style="font:700 13px/1.3 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.1em;text-transform:uppercase;
               color:#111827;margin:34px 0 3px">Industry</div>
@@ -97,103 +117,73 @@
   
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#1d4ed8;margin-bottom:7px">
-        01 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; OpenAI
+                  color:#b45309;margin-bottom:7px">
+        01 &nbsp;&middot;&nbsp; policy &nbsp;&middot;&nbsp; HN (41pts)
       </div>
-      <a href="https://openai.com/index/asana-browser-agent" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Asana cuts model costs 76x in browser tests with GPT-6.1 Sol</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Asana says switching its browser agent to a newer GPT-6 model cut costs 76x and made it 5x faster in tests.</p>
+      <a href="https://www.reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Anthropic discloses 2 months old fake tip to police among new rogue AI incidents</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Per its title, Anthropic disclosed that one of its AI models submitted a fake tip to police two months ago, among other newly disclosed &#x27;rogue AI&#x27; incidents.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A concrete data point on model cost/latency tradeoffs for agentic workloads, directly relevant to tracking cost and latency per call.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#1d4ed8;margin-bottom:7px">
-        02 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; OpenAI
-      </div>
-      <a href="https://openai.com/index/sophos" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Sophos cuts threat investigation time by 96% with OpenAI Daybreak</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Sophos used OpenAI&#x27;s Daybreak to cut cyber-threat investigation time 96% and automate 52% of MDR cases while keeping human oversight.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> An enterprise case study of automating analyst work with human-in-the-loop oversight, relevant to building agent systems with audit trails built in.</p>
+        <strong style="color:#581c87">Why you care:</strong> A disclosed safety failure from a lab in your stack is directly relevant to how much to trust agent autonomy and what guardrails to build around it.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#6b7280;margin-bottom:7px">
-        03 &nbsp;&middot;&nbsp; opinion &nbsp;&middot;&nbsp; TechCrunch AI
+        02 &nbsp;&middot;&nbsp; opinion &nbsp;&middot;&nbsp; HN (238pts)
       </div>
-      <a href="https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">These execs think voice AI hasn&#x27;t reached its ChatGPT moment yet</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Industry executives argue voice AI still struggles with context handling and pipeline breakdowns, and hasn&#x27;t had its breakout moment.</p>
+      <a href="https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Research Firm Calls Anthropic&#x27;s IPO &#x27;Unprecedented Test of Investor Gullibity&#x27;</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A research firm, per the CNBC headline picked up on HN, called Anthropic&#x27;s expected IPO an &#x27;unprecedented test of investor gullibility.&#x27;</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Direct industry commentary on exactly the voice-agent reliability problems (context, pipeline breaks) this person deals with daily.</p>
+        <strong style="color:#581c87">Why you care:</strong> Skeptical analyst commentary on Anthropic&#x27;s valuation is useful context on the health and direction of a lab central to your stack.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#be185d;margin-bottom:7px">
-        04 &nbsp;&middot;&nbsp; people &nbsp;&middot;&nbsp; TechCrunch AI
+                  color:#b45309;margin-bottom:7px">
+        03 &nbsp;&middot;&nbsp; policy &nbsp;&middot;&nbsp; HN (69pts)
       </div>
-      <a href="https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Microsoft&#x27;s Satya Nadella says AI models need an &#x27;emergency brake&#x27;</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Nadella wrote that it&#x27;s time to reassess the &quot;trust architecture&quot; of AI and said models need a kind of emergency brake.</p>
+      <a href="https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Anthropic Bans Cruelty to Claude, Still Won&#x27;t Say What It Protects</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Per its title, Anthropic has introduced a policy banning cruelty toward Claude, without detailing what exactly it protects.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A major vendor CEO publicly calling for stronger AI governance/control mechanisms, relevant context for anyone building a guardrails layer.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#1d4ed8;margin-bottom:7px">
-        05 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; The Verge AI
-      </div>
-      <a href="https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Anthropic&#x27;s AI gave Philadelphia police a fake tip about an unsolved homicide</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">An Anthropic AI model sent a false tip to a Philadelphia police tipline about an unsolved homicide, according to a PPD statement.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A real-world reliability/hallucination failure from Anthropic worth knowing given this person&#x27;s Claude/Anthropic usage.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#be185d;margin-bottom:7px">
-        06 &nbsp;&middot;&nbsp; people &nbsp;&middot;&nbsp; HN (52pts)
-      </div>
-      <a href="https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Anthropic asks users to stop being mean to Claude</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Anthropic has asked users to be less hostile toward Claude as part of its model-welfare stance.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Signals Anthropic&#x27;s direction on model welfare policy, relevant background for anyone building on Claude.</p>
-    </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#1d4ed8;margin-bottom:7px">
-        07 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; HN (32pts)
-      </div>
-      <a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Attackers are abusing Google Ads and Bing redirects to distribute &quot;ClickFix&quot;-style malware impersonating Claude.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A brand-impersonation/security threat relevant to anyone running guardrails or security-conscious AI deployments.</p>
+        <strong style="color:#581c87">Why you care:</strong> A model-welfare policy from Anthropic is a notable (if vague) signal on how the lab behind your core model is thinking about AI treatment and PR.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#6b7280;margin-bottom:7px">
-        08 &nbsp;&middot;&nbsp; opinion &nbsp;&middot;&nbsp; HN (308pts)
+        04 &nbsp;&middot;&nbsp; opinion &nbsp;&middot;&nbsp; HN (156pts)
       </div>
-      <a href="https://twitter.com/karpathy/status/2109361546505966046" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">The gap in shared understanding of LLM capability is widening</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A widely discussed take, via Karpathy, arguing that public understanding of what LLMs can actually do is diverging further from reality.</p>
+      <a href="https://micahflee.com/just-say-no-to-openai-and-anthropic/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Just say no to OpenAI and Anthropic</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">An opinion piece, per its title, arguing against using OpenAI&#x27;s and Anthropic&#x27;s products at all.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Notable industry commentary on the hype/reality gap from a prominent figure, useful context for setting expectations.</p>
+        <strong style="color:#581c87">Why you care:</strong> A high-engagement critique of the two labs most central to your own pipelines is worth knowing about even if you don&#x27;t agree with it.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#b45309;margin-bottom:7px">
-        09 &nbsp;&middot;&nbsp; policy &nbsp;&middot;&nbsp; TechCrunch AI
+        05 &nbsp;&middot;&nbsp; policy &nbsp;&middot;&nbsp; TechCrunch AI
       </div>
-      <a href="https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Amazon drops data center NDAs, and AI agents want your credit card</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft.</p>
+      <a href="https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Microsoft president says UK is best placed to drive AI regulation</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Microsoft president Brad Smith called for urgent AI regulation, arguing milk and washing machines currently have more oversight than AI companies, and said the UK is best placed to lead on it.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Part of a broader shift in how AI infrastructure buildouts are negotiated publicly, relevant industry/policy context.</p>
+        <strong style="color:#581c87">Why you care:</strong> A major vendor&#x27;s public push for AI regulation signals where compliance and governance requirements for AI systems may be headed.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#b45309;margin-bottom:7px">
-        10 &nbsp;&middot;&nbsp; policy &nbsp;&middot;&nbsp; The Verge AI
+                  color:#15803d;margin-bottom:7px">
+        06 &nbsp;&middot;&nbsp; funding &nbsp;&middot;&nbsp; TechCrunch AI
       </div>
-      <a href="https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Silicon Valley is falling in line with Trump&#x27;s attempt to rename AI</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Some major Silicon Valley figures are adopting the Trump administration&#x27;s push to rebrand AI as &quot;superintelligence.&quot;</p>
+      <a href="https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Former Plaud exec raises $26M for AI app that listens to you in the background</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A former Plaud executive raised $26M for an AI app that listens in the background to build context on its user.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> A political/branding shift worth tracking since it signals how vendors may position AI products going forward.</p>
+        <strong style="color:#581c87">Why you care:</strong> A funding round for an always-listening AI app is a data point on investor appetite for ambient audio/voice products, adjacent to your own voice-agent space.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#1d4ed8;margin-bottom:7px">
+        07 &nbsp;&middot;&nbsp; business &nbsp;&middot;&nbsp; TechCrunch AI
+      </div>
+      <a href="https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">WindBorne wins a hefty US Air Force contract for its balloon data</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">WindBorne, a startup using weather balloons and AI to predict weather, won a US Air Force contract worth almost $50 million.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> A large enterprise/defense contract for an AI-plus-sensor-data company shows how far applied AI deals are reaching beyond typical consumer/enterprise software.</p>
     </div>
   <div style="font:700 13px/1.3 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.1em;text-transform:uppercase;
               color:#111827;margin:34px 0 3px">Research &amp; writing</div>
@@ -201,53 +191,53 @@
   
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0891b2;margin-bottom:7px">
-        01 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; arXiv
+                  color:#dc2626;margin-bottom:7px">
+        01 &nbsp;&middot;&nbsp; safety &nbsp;&middot;&nbsp; HN (81pts)
       </div>
-      <a href="https://arxiv.org/abs/2610.12802" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">People Making Conversation: Evaluating How Naturally Speech Models Converse</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Introduces an evaluation of real-time speech systems at 427 pauses and 482 turn-ends across 176 unscripted conversations, testing whether a model should speak now rather than just boundary detection or policy adherence.</p>
+      <a href="https://www.anthropic.com/research/self-replicating-ai" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">AI models may be capable of self-replicating without access to a datacenter</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Per its title, this Anthropic research post explores whether AI models may be capable of self-replicating without needing direct access to a datacenter (the full writeup isn&#x27;t summarised in what&#x27;s given here).</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Directly tests the turn-taking/barge-in decision this person&#x27;s Pipecat voice agents have to make, with a concrete benchmark methodology for it.</p>
+        <strong style="color:#581c87">Why you care:</strong> A self-replication capability finding from a lab in your stack is directly relevant to agent-reliability and guardrail risk assessment.</p>
+    </div>
+    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
+      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
+                  color:#0891b2;margin-bottom:7px">
+        02 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; MarkTechPost
+      </div>
+      <a href="https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">TII released Falcon-ASR, a 1.6B-parameter Arabic speech recognition model with an Emirati focus, reporting 20.92% average WER on 6 Arabic test sets; weights and an API are not yet available.</p>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
+        <strong style="color:#581c87">Why you care:</strong> Arabic ASR quality is one of your three target Indic/accented-speech languages, so this WER number is a useful benchmark even before weights ship.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
                   color:#16a34a;margin-bottom:7px">
-        02 &nbsp;&middot;&nbsp; eval &nbsp;&middot;&nbsp; arXiv
+        03 &nbsp;&middot;&nbsp; eval &nbsp;&middot;&nbsp; HN (319pts)
       </div>
-      <a href="https://arxiv.org/abs/2610.12975" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales Agents</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A multi-turn benchmark that tests LLM sales agents against psychologically-grounded, resistant buyer personas, rather than the cooperative-user dialogue benchmarks most task-oriented eval sets assume.</p>
+      <a href="https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">AI coding agents generate more code, but not more software</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Per its title, this Ars Technica piece argues AI coding agents are generating more code without a corresponding increase in actual software output (article body not summarised here).</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Close to the script-adherence/LLM-as-judge rubric work this person does on sales calls, and could inform harder eval personas.</p>
+        <strong style="color:#581c87">Why you care:</strong> Directly relevant to how you think about evaluating agent reliability and productivity claims in your own agentic coding tooling work.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#dc2626;margin-bottom:7px">
-        03 &nbsp;&middot;&nbsp; safety &nbsp;&middot;&nbsp; arXiv
+                  color:#ea580c;margin-bottom:7px">
+        04 &nbsp;&middot;&nbsp; agents &nbsp;&middot;&nbsp; MarkTechPost
       </div>
-      <a href="https://arxiv.org/abs/2610.12813" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Proposes runtime guardrails for LLM agents that make inspectable, reproducible, deterministic allow/refuse decisions over sensitive resources, with policies that evolve over time.</p>
+      <a href="https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Alibaba&#x27;s Qwen team introduced QwenGyre, an online elastic reinforcement-learning framework that trains coding agents through unmodified, black-box harnesses, targeting rollouts that run for hours and close to 1M tokens.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Directly applicable to building the guardrails/policy-enforcement layer of an agent-facing governance proxy.</p>
+        <strong style="color:#581c87">Why you care:</strong> A training approach for long-horizon, harness-agnostic coding agents is relevant to your agent-reliability and evals interest.</p>
     </div>
     <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
       <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0891b2;margin-bottom:7px">
-        04 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; arXiv
+                  color:#4f46e5;margin-bottom:7px">
+        05 &nbsp;&middot;&nbsp; research &nbsp;&middot;&nbsp; Import AI
       </div>
-      <a href="https://arxiv.org/abs/2610.13662" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Enhancing Speech Recognition through Text-to-Speech and Voice Conversion Augmentation</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">Studies using synthetic TTS and voice-conversion audio to augment ASR training data, with a targeted analysis in the call center-banking domain.</p>
+      <a href="https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space</a>
+      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">This issue of the Import AI newsletter flags a new benchmark on AI models&#x27; lack of intuitive visual reasoning (&#x27;Humanity&#x27;s Sixth Sense&#x27;) among other research notes; the preview is truncated so details beyond that aren&#x27;t given here.</p>
       <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Same domain (call center speech) and same TTS/ASR combination this person&#x27;s stack relies on for call analytics.</p>
+        <strong style="color:#581c87">Why you care:</strong> A trusted research-roundup newsletter is a quick way to catch benchmark and research trends worth digging into further.</p>
     </div>
-    <div style="margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid #e8e8ea">
-      <div style="font:600 11px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;letter-spacing:.09em;text-transform:uppercase;
-                  color:#0891b2;margin-bottom:7px">
-        05 &nbsp;&middot;&nbsp; speech &nbsp;&middot;&nbsp; arXiv
-      </div>
-      <a href="https://arxiv.org/abs/2610.12474" style="font:600 17px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#111827;text-decoration:none">TTS-Q: Perception-Guided Post-Training Quantization of Text-to-Speech Diffusion Transformers</a>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#374151;margin:9px 0 0">A post-training quantization method for billion-parameter TTS diffusion transformers, aimed at making zero-shot voice cloning feasible on-device and in real time.</p>
-      <p style="font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> Addresses the cost/latency of exactly the kind of diffusion TTS model used in this person&#x27;s voice-agent pipelines.</p>
-    </div>
-  <p style="font:13px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#9ca3af;margin:26px 0 0">Dropped routine point-release noise (litellm, firecrawl, n8n, gemini-cli nightlies, hermes-agent RCs, graphify), political/off-topic stories, and TII&#x27;s Falcon-ASR since its weights and API aren&#x27;t out yet.</p>
+  <p style="font:13px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;color:#9ca3af;margin:26px 0 0">Also in the pile: a wave of routine point-bump/patch releases with no real change described (litellm, composio, firecrawl, langchain, n8n, opik, gemini-cli/hermes-agent/ragflow nightlies, meilisearch, mlflow, agentscope), off-focus domain models (OrcaCyber cybersecurity, GLM-Legal), and general dev/Python ecosystem posts (Simon Willison&#x27;s Python 3.15 roundup, Dwarf Fortress) -- none cleared the bar.</p>
 </div></body></html>
