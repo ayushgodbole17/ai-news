@@ -7,27 +7,6 @@
   "date": "2026-10-13T17:05:48+00:00"
  },
  {
-  "source": "DeepMind",
-  "title": "Developing Gemini 4 Argon responsibly and safely",
-  "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-  "summary": "",
-  "date": "2026-10-13T19:43:07+00:00"
- },
- {
-  "source": "DeepMind",
-  "title": "Gemini 4 Argon for Robotics",
-  "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-  "summary": "",
-  "date": "2026-10-13T16:01:58+00:00"
- },
- {
-  "source": "DeepMind",
-  "title": "Gemini 4 Argon: Built to solve your hardest problems",
-  "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-  "summary": "",
-  "date": "2026-10-13T16:01:52+00:00"
- },
- {
   "source": "OpenAI",
   "title": "Higgsfield takes AI video from 1 minute to over 10",
   "link": "https://openai.com/index/higgsfield-longer-videos-voice",
@@ -105,25 +84,25 @@
   "date": "2026-10-12T04:57:07+00:00"
  },
  {
-  "source": "Simon Willison",
-  "title": "Dwarf Fortress uses version control now",
-  "link": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
-  "summary": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. I went looking and I'm sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time: March 2013: \"I don't us",
-  "date": "2026-10-11T00:52:37+00:00"
- },
- {
-  "source": "Simon Willison",
-  "title": "Python 3.15.0 added to actions/python-versions",
-  "link": "https://simonwillison.net/2026/Oct/10/python-actions/",
-  "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me about it Now that this has landed, you can add \"3.15\" to a GitHub Actions testing matrix to run tests against the new Py",
-  "date": "2026-10-10T23:58:04+00:00"
- },
- {
   "source": "Import AI",
   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
   "link": "https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/",
   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you\u2019d like to support this, please subscribe. Subscribe now New benchmark shows how AI models lack intuitive visual reasoning:\u2026Humanity\u2019s Sixth Sense highlights some shortcomings of current AI systems\u2026AI startups Elorian and Scale AI have built [\u2026]",
   "date": "2026-10-12T12:30:39+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
+  "link": "https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/",
+  "summary": "Meta released Muse Wonder and Muse Wonder Full, 1M-context agent models. Muse Wonder costs $4/$20 per million tokens on Meta Model API. Wonder Full, on Muse Code plans, leads DeepSWE and SWE-Marathon. The post Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It appeared first on MarkTechPost .",
+  "date": "2026-10-13T22:53:44+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "How to Use Meta\u2019s Rebalancer for Task Placement & Optimization",
+  "link": "https://www.marktechpost.com/2026/10/13/how-to-use-metas-rebalancer-for-task-placement-optimization/",
+  "summary": "In this comprehensive coding tutorial, we explore Meta's Rebalancer assignment solver using its C++ core and Python bindings. Learn how to build datacenters, manage task placements across racks, handle constraints and goal priorities, and compare local search against the exact HiGHS solver using published benchmarks. The post How to Use Meta\u2019s Rebalancer for Task Placement & Optimization appeared ",
+  "date": "2026-10-13T22:14:20+00:00"
  },
  {
   "source": "MarkTechPost",
@@ -400,6 +379,13 @@
  },
  {
   "source": "GitHub",
+  "title": "GitHub App improvements for least privilege and management",
+  "link": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
+  "summary": "We\u2019re releasing several GitHub Apps improvements today that help developers move off of classic PATs, improve GitHub App management, and request fewer sensitive permissions. We\u2019ve also made it easier for\u2026 The post GitHub App improvements for least privilege and management appeared first on The GitHub Blog .",
+  "date": "2026-10-13T23:17:55+00:00"
+ },
+ {
+  "source": "GitHub",
   "title": "Gemini 4 Argon in GitHub Copilot",
   "link": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
   "summary": "Gemini 4 Argon, Google\u2019s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon\u2026 The post Gemini 4 Argon in GitHub Copilot appeared first on The GitHub Blog .",
@@ -462,14 +448,7 @@
   "date": "2026-10-12T16:30:11+00:00"
  },
  {
-  "source": "GitHub",
-  "title": "Anonymous organization-level registries for Dependabot",
-  "link": "https://github.blog/changelog/2026-10-12-anonymous-organization-level-registries-for-dependabot",
-  "summary": "You can now select Anonymous as the authentication method for an organization-level private registry. Use it for registries that Dependabot can reach without credentials, such as an internal package mirror\u2026 The post Anonymous organization-level registries for Dependabot appeared first on The GitHub Blog .",
-  "date": "2026-10-12T14:04:16+00:00"
- },
- {
-  "source": "HN (475pts)",
+  "source": "HN (610pts)",
   "title": "Redesigning source control at Anthropic",
   "link": "https://www.anthropic.com/engineering/redesigning-source-control",
   "summary": "",
@@ -490,20 +469,6 @@
   "date": "2026-10-12T18:17:29+00:00"
  },
  {
-  "source": "HN (69pts)",
-  "title": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
-  "link": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
-  "summary": "",
-  "date": "2026-10-11T00:08:31+00:00"
- },
- {
-  "source": "HN (57pts)",
-  "title": "Anthropic asks users to stop being mean to Claude",
-  "link": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
-  "summary": "",
-  "date": "2026-10-11T01:17:22+00:00"
- },
- {
   "source": "HN (106pts)",
   "title": "AI models may be capable of self-replicating without access to a datacenter",
   "link": "https://www.anthropic.com/research/self-replicating-ai",
@@ -511,7 +476,7 @@
   "date": "2026-10-12T19:25:29+00:00"
  },
  {
-  "source": "HN (40pts)",
+  "source": "HN (43pts)",
   "title": "Strengthening our defenses against distillation attacks",
   "link": "https://www.anthropic.com/research/distillation-defenses",
   "summary": "",
@@ -546,49 +511,49 @@
   "date": "2026-10-12T01:57:00+00:00"
  },
  {
-  "source": "HN (157pts)",
+  "source": "HN (158pts)",
   "title": "Launch HN: Agent37 (YC F26) \u2013 Low-cost agent sandboxes for running agents",
   "link": "https://news.ycombinator.com/item?id=50059096",
   "summary": "",
   "date": "2026-10-12T16:46:34+00:00"
  },
  {
-  "source": "HN (40pts)",
+  "source": "HN (63pts)",
   "title": "Show HN: Spotatui, a Spotify TUI/GUI without web API rate limits",
   "link": "https://github.com/LargeModGames/spotatui",
   "summary": "",
   "date": "2026-10-13T11:32:00+00:00"
  },
  {
-  "source": "HN (32pts)",
-  "title": "Launch HN: Consus (YC F24) \u2013 LLM gateway for companies handling sensitive data",
-  "link": "https://news.ycombinator.com/item?id=50073471",
-  "summary": "",
-  "date": "2026-10-13T15:41:00+00:00"
- },
- {
-  "source": "HN (31pts)",
+  "source": "HN (62pts)",
   "title": "Show HN: Parsimony \u2013 an open-source benchmark for how much code AI models add",
   "link": "https://parsimony.lasu.dev/",
   "summary": "",
   "date": "2026-10-13T19:50:31+00:00"
  },
  {
-  "source": "HN (115pts)",
+  "source": "HN (33pts)",
+  "title": "Launch HN: Consus (YC F24) \u2013 LLM gateway for companies handling sensitive data",
+  "link": "https://news.ycombinator.com/item?id=50073471",
+  "summary": "",
+  "date": "2026-10-13T15:41:00+00:00"
+ },
+ {
+  "source": "HN (138pts)",
   "title": "How to engineer an AI harness for game development",
   "link": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
   "summary": "",
   "date": "2026-10-13T14:14:23+00:00"
  },
  {
-  "source": "HN (715pts)",
+  "source": "HN (716pts)",
   "title": "The gap in shared understanding of LLM capability is widening",
   "link": "https://twitter.com/karpathy/status/2109361546505966046",
   "summary": "",
   "date": "2026-10-11T20:20:52+00:00"
  },
  {
-  "source": "HN (213pts)",
+  "source": "HN (217pts)",
   "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
   "link": "https://github.com/prabanta-dev/janas",
   "summary": "",
@@ -602,7 +567,14 @@
   "date": "2026-10-12T18:03:56+00:00"
  },
  {
-  "source": "HN (101pts)",
+  "source": "HN (192pts)",
+  "title": "Feds got warrants to use fake cell towers to hunt down Don Lemon's producer",
+  "link": "https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/",
+  "summary": "",
+  "date": "2026-10-12T17:08:16+00:00"
+ },
+ {
+  "source": "HN (108pts)",
   "title": "AWS Lambda Web Functions",
   "link": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
   "summary": "",
@@ -616,53 +588,32 @@
   "date": "2026-10-11T16:25:25+00:00"
  },
  {
-  "source": "HN (881pts)",
+  "source": "HN (886pts)",
   "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
   "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
   "summary": "",
   "date": "2026-10-12T12:16:42+00:00"
  },
  {
-  "source": "HN (76pts)",
-  "title": "Denmark set to allow return of 'physical force' in school",
-  "link": "https://www.lemonde.fr/en/international/article/2026/10/10/denmark-set-to-allow-the-return-of-physical-force-to-maintain-order-in-schools_6758443_4.html",
-  "summary": "",
-  "date": "2026-10-13T06:27:03+00:00"
- },
- {
-  "source": "HN (904pts)",
+  "source": "HN (1113pts)",
   "title": "Gemini 4 Argon",
   "link": "https://deepmind.google/models/gemini/",
   "summary": "",
   "date": "2026-10-13T16:03:16+00:00"
  },
  {
-  "source": "HN (174pts)",
+  "source": "HN (205pts)",
   "title": "Gemini 4 Argon for Robotics",
   "link": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
   "summary": "",
   "date": "2026-10-13T16:55:47+00:00"
  },
  {
-  "source": "HN (359pts)",
+  "source": "HN (361pts)",
   "title": "AI coding agents generate more code, but not more software",
   "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
   "summary": "",
   "date": "2026-10-12T17:14:01+00:00"
- },
- {
-  "source": "HN (216pts)",
-  "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
-  "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-  "summary": "",
-  "date": "2026-10-11T02:02:38+00:00"
- },
- {
-  "source": "HN (48pts)",
-  "title": "AI agents in a stand-up call",
-  "link": "https://atoll92.github.io/agent-standup/",
-  "summary": "",
-  "date": "2026-10-11T03:42:47+00:00"
  },
  {
   "source": "HN (35pts)",
@@ -670,6 +621,13 @@
   "link": "https://github.com/swimmingbrain/brainotes",
   "summary": "",
   "date": "2026-10-11T23:22:29+00:00"
+ },
+ {
+  "source": "release: BerriAI/litellm",
+  "title": "litellm v1.106.0-rc.2",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.106.0-rc.2",
+  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
+  "date": "2026-10-13T23:59:21+00:00"
  },
  {
   "source": "release: BerriAI/litellm",
@@ -764,10 +722,10 @@
  },
  {
   "source": "release: HumanSignal/label-studio",
-  "title": "label-studio 1.24.0.dev20261013",
+  "title": "label-studio 1.24.0.dev20261014",
   "link": "https://github.com/HumanSignal/label-studio/releases/tag/nightly",
   "summary": "Nightly Build This is an automated nightly build that is recreated every night with the latest changes from the develop branch. Installation You can install this nightly build by downloading the wheel package (the file ending in .whl ) from the Assets section below this description. After downloadin",
-  "date": "2026-10-13T00:15:45+00:00"
+  "date": "2026-10-14T00:12:59+00:00"
  },
  {
   "source": "release: Mintplex-Labs/anything-llm",
@@ -778,31 +736,31 @@
  },
  {
   "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent Hermes Agent v0.22.0 \u2014 The Threshold Release",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0",
+  "summary": "Hermes Agent v0.22.0 Release Date: October 13, 2026 Since v0.21.0: ~24,200 commits \u00b7 ~6,080 merged PRs \u00b7 ~15,600 files changed \u00b7 ~2,045,000 insertions \u00b7 ~1,140,000 deletions \u00b7 ~7,180 issues closed \u00b7 ~2,520 contributors The Threshold Release. Hermes was the god of thresholds: the doorway, the crossin",
+  "date": "2026-10-14T03:21:46+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent rc.3-v0.22.0",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.3-v0.22.0",
+  "summary": "{\"attempt\":3,\"autopublish\":false,\"claimEpoch\":1791938132,\"commit\":\"e0\u2026",
+  "date": "2026-10-14T00:35:32+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent abandoned-rc.2-v0.22.0",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.2-v0.22.0",
+  "summary": "{\"attempt\":2,\"attemptRef\":\"rc.2-v0.22.0\",\"schema\":1,\"version\":\"0.22.0\"}",
+  "date": "2026-10-14T00:35:18+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
   "title": "hermes-agent v0.21.7+canary.20261013T070740Z",
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.7%2Bcanary.20261013T070740Z",
   "summary": "Hermes Agent canary 20261013T070740Z",
   "date": "2026-10-13T07:07:42+00:00"
- },
- {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent rc.2-v0.22.0",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.2-v0.22.0",
-  "summary": "{\"attempt\":2,\"autopublish\":false,\"claimEpoch\":1791930850,\"commit\":\"e0\u2026",
-  "date": "2026-10-13T22:34:10+00:00"
- },
- {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent rc.1-v0.22.0",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.1-v0.22.0",
-  "summary": "{\"attempt\":1,\"autopublish\":false,\"claimEpoch\":1791926655,\"commit\":\"60\u2026",
-  "date": "2026-10-13T21:24:15+00:00"
- },
- {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent abandoned-rc.1-v0.22.0",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.1-v0.22.0",
-  "summary": "{\"attempt\":1,\"attemptRef\":\"rc.1-v0.22.0\",\"schema\":1,\"version\":\"0.22.0\"}",
-  "date": "2026-10-13T22:33:48+00:00"
  },
  {
   "source": "release: Significant-Gravitas/AutoGPT",
@@ -824,6 +782,27 @@
   "link": "https://github.com/agentscope-ai/agentscope/releases/tag/v2.0.10",
   "summary": "What's Changed chore(version): bump version to 2.0.10dev by @DavdGao in #2894 docs: announce SOP, TeamPipeline and MiniMax support in news by @DavdGao in #2932 fix(tts): label audio with the effective response format by @little-spoon77 in #2980 fix(model): emit the dashscope audio transcript as text",
   "date": "2026-10-12T08:15:09+00:00"
+ },
+ {
+  "source": "release: anthropics/claude-agent-sdk-python",
+  "title": "claude-agent-sdk-python v0.2.166",
+  "link": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.166",
+  "summary": "New Features Hook-specific output types : Added typed output classes and missing input fields for hooks, giving hook implementations precise type information instead of untyped dicts ( #1331 ) SystemInitData TypedDict : The init system message payload is now fully typed via SystemInitData , along wi",
+  "date": "2026-10-14T03:45:21+00:00"
+ },
+ {
+  "source": "release: anthropics/claude-agent-sdk-typescript",
+  "title": "claude-agent-sdk-typescript v0.3.299",
+  "link": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.299",
+  "summary": "What's changed Added an optional nextFireAt (epoch ms of the next run) to the CronCreate and CronList tool outputs Added property_order to the elicitation control request: a form's field names in the order the MCP server listed them, for hosts whose transport keeps no JSON object key order Fixed rew",
+  "date": "2026-10-14T02:49:11+00:00"
+ },
+ {
+  "source": "release: anthropics/claude-code",
+  "title": "claude-code v2.1.299",
+  "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
+  "summary": "What's changed Added CLAUDE_CODE_DISABLE_FILE_MENTIONS environment variable: Claude gets the paths of @ file mentions to read with its file tools, not the files' contents Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour",
+  "date": "2026-10-14T02:49:42+00:00"
  },
  {
   "source": "release: apache/airflow",
@@ -855,6 +834,13 @@
  },
  {
   "source": "release: comet-ml/opik",
+  "title": "opik 2.2.100-8915-merge-3883",
+  "link": "https://github.com/comet-ml/opik/releases/tag/2.2.100-8915-merge-3883",
+  "summary": "Merge 95eb773 into 7973a8e \u2026",
+  "date": "2026-10-13T23:46:54+00:00"
+ },
+ {
+  "source": "release: comet-ml/opik",
   "title": "opik 2.2.100-8915-merge-3864",
   "link": "https://github.com/comet-ml/opik/releases/tag/2.2.100-8915-merge-3864",
   "summary": "Merge e419b63 into 3daf49d \u2026",
@@ -873,13 +859,6 @@
   "link": "https://github.com/comet-ml/opik/releases/tag/2.2.100-8913-merge-3856",
   "summary": "Merge 96712b2 into d4a6d4e \u2026",
   "date": "2026-10-13T10:22:06+00:00"
- },
- {
-  "source": "release: comet-ml/opik",
-  "title": "opik 2.2.100-8886-merge-3876",
-  "link": "https://github.com/comet-ml/opik/releases/tag/2.2.100-8886-merge-3876",
-  "summary": "Merge 3d2827c into e428498 \u2026",
-  "date": "2026-10-13T14:37:58+00:00"
  },
  {
   "source": "release: farion1231/cc-switch",
@@ -932,6 +911,13 @@
  },
  {
   "source": "release: google-gemini/gemini-cli",
+  "title": "gemini-cli Release v0.65.0-nightly.20261014.g42c518220",
+  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261014.g42c518220",
+  "summary": "What's Changed fix(cli): correct reverse search highlight index for expanding unicode characters by @diegogodinezr in #29699 fix(core): treat whitespace-only UTF-16 and UTF-32 files as empty by @jesussamuel-byte in #29722 fix(cli): restore debounced static UI refresh on terminal width changes by @jv",
+  "date": "2026-10-14T01:29:12+00:00"
+ },
+ {
+  "source": "release: google-gemini/gemini-cli",
   "title": "gemini-cli Release v0.65.0-preview.0",
   "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-preview.0",
   "summary": "What's Changed fix(cli): enforce read-only workspace settings in untrusted folders by @jvargassanchez-dot in #29583 fix(core): avoid duplicate tool response turns when resuming sessions by @diegogodinezr in #29618 fix(core): prevent deletion of resumed session history on quick exit ( #29198 ) by @vi",
@@ -952,18 +938,18 @@
   "date": "2026-10-13T20:44:46+00:00"
  },
  {
-  "source": "release: google-gemini/gemini-cli",
-  "title": "gemini-cli Release v0.65.0-nightly.20261012.g9b6e0265d",
-  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261012.g9b6e0265d",
-  "summary": "Full Changelog : v0.65.0-nightly.20261010.g9b6e0265d...v0.65.0-nightly.20261012.g9b6e0265d",
-  "date": "2026-10-12T01:29:25+00:00"
- },
- {
   "source": "release: infiniflow/ragflow",
   "title": "ragflow nightly",
   "link": "https://github.com/infiniflow/ragflow/releases/tag/nightly",
   "summary": "Release nightly created from d2ede48 at 2026-10-13 21:28:22+08:00",
   "date": "2026-10-13T13:28:33+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261014",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261014",
+  "summary": "refactor: remove the low/medium/high/ultra thinking modes ( #20910 )",
+  "date": "2026-10-13T13:18:48+00:00"
  },
  {
   "source": "release: infiniflow/ragflow",
@@ -1058,31 +1044,17 @@
  },
  {
   "source": "release: mlflow/mlflow",
+  "title": "mlflow Model Catalog",
+  "link": "https://github.com/mlflow/mlflow/releases/tag/model-catalog%2Flatest",
+  "summary": "Per-provider model catalog files. Updated weekly by CI.",
+  "date": "2026-10-14T01:14:30+00:00"
+ },
+ {
+  "source": "release: mlflow/mlflow",
   "title": "mlflow MLflow 3.17.1",
   "link": "https://github.com/mlflow/mlflow/releases/tag/v3.17.1",
   "summary": "MLflow 3.17.1 is a patch release that contains some minor feature enhancements, bug fixes, and documentation updates. Features: [Docs / Evaluation] Support Decision API in make_judge() ( #26578 , @B-Step62 ) [Evaluation] Add mlflow.genai.databricks.review_queues for managing review queues on Databri",
   "date": "2026-10-13T09:33:43+00:00"
- },
- {
-  "source": "release: mlflow/mlflow",
-  "title": "mlflow Model Catalog",
-  "link": "https://github.com/mlflow/mlflow/releases/tag/model-catalog%2Flatest",
-  "summary": "Per-provider model catalog files. Updated weekly by CI.",
-  "date": "2026-10-13T13:03:59+00:00"
- },
- {
-  "source": "release: modelcontextprotocol/servers",
-  "title": "servers v1.0.0",
-  "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
-  "summary": "Packages Package Version Registry In this release @modelcontextprotocol/server-everything 1.0.0 npm published @modelcontextprotocol/server-filesystem 1.0.0 npm published @modelcontextprotocol/server-memory 1.0.0 npm published @modelcontextprotocol/server-sequential-thinking 1.0.0 npm published mcp-s",
-  "date": "2026-10-11T03:05:26+00:00"
- },
- {
-  "source": "release: morluto/rea",
-  "title": "rea rea-agents: v6.4.0",
-  "link": "https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0",
-  "summary": "6.4.0 (2026-10-11) Highlights Android: added device inspection, split-APK acquisition, logs, screenshots, file transfers and explicit app lifecycle actions through ADB, plus manifest and localized-string decoding with Apktool. ( #1552 , #1556 ) Thanks @3QL . JEB: browse project units and decompile s",
-  "date": "2026-10-11T03:58:03+00:00"
  },
  {
   "source": "release: n8n-io/n8n",
@@ -1260,17 +1232,52 @@
   "date": "2026-10-13T15:29:58+00:00"
  },
  {
-  "source": "HF model (17426 dl)",
-  "title": "New on the Hub: autotrust/JEV-35B",
-  "link": "https://huggingface.co/autotrust/JEV-35B",
-  "summary": "pipeline: text-classification. tags: transformers, safetensors, qwen3_5_moe, image-text-to-text, system-one, typed-decisions",
-  "date": "2026-10-11T01:22:03+00:00"
+  "source": "HF Papers (1 up)",
+  "title": "Elephant in the Fridge: Constant-Memory Frame Packing for Long Video Understanding",
+  "link": "https://huggingface.co/papers/2610.16118",
+  "summary": "Hour-long videos, streaming feeds, and movie-length content are pushing vision-language models (VLMs) past their breaking point -- the standard recipe of encoding each frame into visual tokens yields sequences that grow linearly with video length, causing prohibitive memory consumption and inference latency. Existing approaches, such as token reduction and keyframe selection, shorten the token seq",
+  "date": "2026-10-11T20:00:00+00:00"
  },
  {
-  "source": "HF model (20494 dl)",
-  "title": "New on the Hub: autotrust/JEV-35B-NVFP4",
-  "link": "https://huggingface.co/autotrust/JEV-35B-NVFP4",
-  "summary": "pipeline: text-classification. tags: transformers, safetensors, qwen3_5_moe, image-text-to-text, system-one, typed-decisions",
-  "date": "2026-10-11T03:05:28+00:00"
+  "source": "HF Papers (4 up)",
+  "title": "CineRecon: Benchmarking Frontier Models for Agentic Cinematic Reconstruction",
+  "link": "https://huggingface.co/papers/2610.16577",
+  "summary": "Reconstructing reference videos as editable dynamic 3D scenes is an important path toward controllable video generation for filmmaking: these scenes provide modifiable, renderable visual proxies that enable explicit control over scene layout, subject actions, and camera behavior. To evaluate agents' ability to reconstruct editable dynamic 3D scenes from dynamic reference videos, we introduce CineR",
+  "date": "2026-10-11T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (3 up)",
+  "title": "DeltaTTG: Training Multi-Turn Agents with a Token-to-Go Progress Meter",
+  "link": "https://huggingface.co/papers/2610.17666",
+  "summary": "Reinforcement learning with verifiable rewards (RLVR) for multi-turn agents relies on sparse terminal rewards that say little about individual steps. Within-group step comparisons depend on reliable state matching and sufficiently diverse sampled outcomes, while direct step scoring may require costly external evaluators, human annotations, or task-specific heuristics. We introduce DeltaTTG to lear",
+  "date": "2026-10-12T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (1 up)",
+  "title": "WorkRover: Scaling Long-Horizon Cowork Agent Training Via Recursive Environment Evolution",
+  "link": "https://huggingface.co/papers/2610.18067",
+  "summary": "Scaling interactive environments is important for training long-horizon agents through reinforcement learning. These environments often require further testing and refinement after initial generation, and correcting defects in a task may also require updating its work context and verifier. However, existing construction pipelines offer limited support for such iterative refinement while keeping th",
+  "date": "2026-10-12T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (4 up)",
+  "title": "TPPO: Tracking-Value PPO For Language Model Reasoning",
+  "link": "https://huggingface.co/papers/2610.16794",
+  "summary": "Proximal Policy Optimization (PPO) is widely used in reinforcement learning with verifiable rewards for language-model reasoning. While value evolution along trajectory characterizes relative token-level credit, yet standard critics often fail to track it under sparse terminal rewards. To model this evolution, we analyze the relation between successive prefix values and show that they admit a Baye",
+  "date": "2026-10-11T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (3 up)",
+  "title": "Spectral-Driven Adaptive-Rank Optimizer for Large Language Model Reinforcement Learning with Verifiable Rewards",
+  "link": "https://huggingface.co/papers/2610.16533",
+  "summary": "Reinforcement learning with verifiable rewards (RLVR) is reshaping how large language models (LLMs) acquire reasoning capabilities, yet the optimizers used remain largely inherited from teacher-forcing training. This raises a fundamental question: does RLVR induce a distinct optimization geometry that calls for a different optimizer? We investigate this question through the spectral structure of L",
+  "date": "2026-10-11T20:00:00+00:00"
+ },
+ {
+  "source": "HF model (2565 dl)",
+  "title": "New on the Hub: LiquidAI/LFM2.5-24B-A2B",
+  "link": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+  "summary": "pipeline: text-generation. tags: transformers, safetensors, lfm2_moe, text-generation, liquid, lfm2.5",
+  "date": "2026-10-12T05:35:46+00:00"
  }
 ]
