@@ -474,7 +474,7 @@ limits if the rest do not clear the bar -- never pad a list to fill it.
 
 Copy "link" and "source" verbatim from the item you picked. Do not invent a URL.
 
-Ground every word of "what" and "why" in the text actually given for that item. Release
+Ground every word of "what" in the text actually given for that item. Release
 notes here are truncated, so you will often not know what changed -- in that case say so
 plainly ("release notes not summarised here") or drop the item. Never invent a capability,
 a benchmark or a connection to their work that the text does not support: a made-up reason
@@ -486,17 +486,14 @@ you are trying to connect it to.
 
 Return JSON only:
 {{"ships":    [{{"title": "...", "link": "...", "source": "...", "what": "...",
-                "why": "...", "tag": "model|tool|harness|speech|infra"}}],
+                "tag": "model|tool|harness|speech|infra"}}],
  "industry": [{{"title": "...", "link": "...", "source": "...", "what": "...",
-                "why": "...", "tag": "funding|people|business|policy|opinion"}}],
+                "tag": "funding|people|business|policy|opinion"}}],
  "research": [{{"title": "...", "link": "...", "source": "...", "what": "...",
-                "why": "...", "tag": "speech|agents|eval|safety|research"}}],
+                "tag": "speech|agents|eval|safety|research"}}],
  "skipped_note": "one short line on what else was in the pile and why it did not make it"}}
 
 "what" is 1-2 plain sentences on what the thing actually is.
-"why" is one concrete sentence on why it matters to THIS person's work, written to them
-directly as "you" -- never "this person" or "the user". For an INDUSTRY item with no real
-link to their work, say why it matters to the field instead; don't stretch for a link.
 
 ITEMS:
 {items}"""
@@ -650,12 +647,9 @@ def section(heading, blurb, items):
       </div>
       <a href="{link}" style="font:600 17px/1.4 {sans};color:#111827;text-decoration:none">{title}</a>
       <p style="font:15px/1.6 {sans};color:#374151;margin:9px 0 0">{what}</p>
-      <p style="font:15px/1.6 {sans};color:#6b21a8;margin:7px 0 0">
-        <strong style="color:#581c87">Why you care:</strong> {why}</p>
     </div>""".format(sans=SANS, colour=colour, n=i, tag=escape(it.get("tag", "")),
                      source=escape(it.get("source", "")), link=escape(it.get("link", "#")),
-                     title=escape(it.get("title", "")), what=escape(it.get("what", "")),
-                     why=escape(it.get("why", ""))))
+                     title=escape(it.get("title", "")), what=escape(it.get("what", ""))))
 
     return """
   <div style="font:700 13px/1.3 {sans};letter-spacing:.1em;text-transform:uppercase;
