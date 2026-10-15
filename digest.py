@@ -132,6 +132,21 @@ FEEDS = [
     ("Cursor",          "https://cursor.com/changelog/rss.xml"),
     ("VS Code",         "https://code.visualstudio.com/feed.xml"),
     ("GitHub",          "https://github.blog/changelog/feed/"),
+    # AI engineering: people building with models, not just releasing them.
+    ("Latent Space",    "https://www.latent.space/feed"),
+    ("Eugene Yan",      "https://eugeneyan.com/rss/"),
+    ("Chip Huyen",      "https://huyenchip.com/feed.xml"),
+    ("Interconnects",   "https://www.interconnects.ai/feed"),
+    # Engineering: how serious teams build and run systems. All checked 15 Oct 2026.
+    ("Pragmatic Engineer", "https://newsletter.pragmaticengineer.com/feed"),
+    ("Netflix Tech",    "https://netflixtechblog.com/feed"),
+    ("Meta Engineering", "https://engineering.fb.com/feed/"),
+    ("Cloudflare",      "https://blog.cloudflare.com/rss/"),
+    ("AWS Architecture", "https://aws.amazon.com/blogs/architecture/feed/"),
+    ("Martin Fowler",   "https://martinfowler.com/feed.atom"),
+    ("InfoQ",           "https://feed.infoq.com/"),
+    ("High Scalability", "https://highscalability.com/rss/"),
+    ("ByteByteGo",      "https://blog.bytebytego.com/feed"),
 ]
 
 # Which repos to watch for releases is discovered from these topics, not listed here.
@@ -155,7 +170,7 @@ REPO_CACHE = HERE / "repos.json"   # last good discovery, used if GitHub rate-li
 # arXiv, scoped to what I work on rather than the whole of cs.AI: today's listing for
 # these categories, kept only if the title or abstract matches one of the topics below.
 # (?=.*a)(?=.*b) is "a AND b" in either order.
-ARXIV_CATEGORIES = "cs.CL+cs.SD+eess.AS+cs.AI+cs.CR+cs.IR+cs.LG"
+ARXIV_CATEGORIES = "cs.CL+cs.SD+eess.AS+cs.AI+cs.CR+cs.IR+cs.LG+cs.DC+cs.SE+cs.CY"
 ARXIV_TOPICS = [
     r"speech recognition|speaker diarization|text[- ]to[- ]speech",
     r"voice agent|spoken dialogue|full[- ]duplex",
@@ -163,13 +178,18 @@ ARXIV_TOPICS = [
     r"guardrail|jailbreak|prompt injection",
     r"retrieval[- ]augmented generation|LLM[- ]as[- ]a[- ]judge",
     r"(?=.*low[- ]resource)(?=.*(Hindi|Tamil|Indic|multilingual))",
+    r"AI governance|AI regulation|EU AI Act|AI audit|model governance",
+    r"LLM serving|inference serving|KV[- ]cache|speculative decoding|LLM inference system",
 ]
 ARXIV_PER_TOPIC = 12
 
 # Hacker News catches the vendors with no RSS (Anthropic, Meta, Mistral) and release news.
 HN_QUERIES = ["anthropic", "claude", "llm", "gemini", "open source model",
               "speech recognition", "voice ai", "ai agents",
-              "claude code", "mcp server"]
+              "claude code", "mcp server",
+              # engineering and AI engineering, for the reader's broad brief
+              "postmortem", "distributed systems", "database", "llm inference",
+              "ai governance", "ai regulation"]
 
 UA = {"User-Agent": "Mozilla/5.0 (ai-news daily digest)"}
 
@@ -739,7 +759,12 @@ def build_prompt_cli(items_path):
     # Bare "name v1.2.3" releases can't be picked (enforce_rules), so don't pay to read them.
     fresh = [it for it in items if it["link"] not in seen
              and not (it["source"].startswith("release:") and BARE_RELEASE.match(it["title"]))]
-    print("  %d items, %d skipped (already sent, or bare version releases)"
+    # At most PER_SOURCE_IN_PROMPT from any one source: breadth over volume, and the prompt
+    # is what the routine pays for every morning. ponytail: first-come, not best-of.
+    per = {}
+    fresh = [it for it in fresh
+             if per.setdefault(it["source"], []).append(1) or len(per[it["source"]]) <= PER_SOURCE_IN_PROMPT]
+    print("  %d items, %d skipped (already sent, bare version releases, or over the per-source cap)"
           % (len(items), len(items) - len(fresh)), file=sys.stderr)
     print(build_prompt(fresh))
     if ROUTINE_RECENT.exists():
@@ -751,6 +776,7 @@ def build_prompt_cli(items_path):
 
 # A release whose fetched title is only "name v1.2.3" -- the prompt says drop those, and the
 # picker kept letting them through (claude-code, the agent SDKs, MLflow, CC Switch...).
+PER_SOURCE_IN_PROMPT = 6
 BARE_RELEASE = re.compile(r"^[\w.@/ -]{1,40}? v?\d+(\.\d+)+[\w.+-]*$")
 MAX_HARNESS = 4   # agentic-coding items in Shipped; the profile's cap, now enforced in code
 
