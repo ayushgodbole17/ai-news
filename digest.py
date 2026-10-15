@@ -462,7 +462,9 @@ Ground every word of "what" and "why" in the text actually given for that item. 
 notes here are truncated, so you will often not know what changed -- in that case say so
 plainly ("release notes not summarised here") or drop the item. Never invent a capability,
 a benchmark or a connection to their work that the text does not support: a made-up reason
-is worse than a missing item. Only claim something touches speech, voice or turn-taking if
+is worse than a missing item. An item that is only a headline (an HN link with no body)
+earns a slot only if the headline alone is clearly big news; never fill "what" with
+"no further detail is given". Only claim something touches speech, voice or turn-taking if
 the item itself is about speech, voice or turn-taking. Tag by what the thing IS, not by
 which part of their work you are trying to connect it to.
 
@@ -476,8 +478,9 @@ Return JSON only:
  "skipped_note": "one short line on what else was in the pile and why it did not make it"}}
 
 "what" is 1-2 plain sentences on what the thing actually is.
-"why" is one concrete sentence on why it matters to THIS person's work. For an INDUSTRY
-item with no real link to their work, say why it matters to the field instead.
+"why" is one concrete sentence on why it matters to THIS person's work, written to them
+directly as "you" -- never "this person" or "the user". For an INDUSTRY item with no real
+link to their work, say why it matters to the field instead; don't stretch for a link.
 
 ITEMS:
 {items}"""
@@ -522,7 +525,7 @@ def build_prompt(items):
     (rank) or the Claude routine (--build-prompt) does the picking."""
     listing = "\n".join(
         "[%d] (%s) %s\n    %s\n    %s" % (i, it["source"], it["title"], it["link"],
-                                          it["summary"][:280])
+                                          it["summary"][:180])
         for i, it in enumerate(items))
     return PROMPT.format(profile=PROFILE, n=len(items), hours=WINDOW_HOURS, ships=KEEP_SHIPS,
                          industry=KEEP_INDUSTRY, research=KEEP_RESEARCH, items=listing)
@@ -705,8 +708,20 @@ def collect_json(path):
     items = collect()
     for it in items:
         it["date"] = it["date"].isoformat() if it["date"] else None
-    Path(path).parent.mkdir(parents=True, exist_ok=True)
-    Path(path).write_text(json.dumps(items, indent=1), encoding="utf-8")
+    # Carry forward the previous pile's items still inside the window. arXiv's RSS holds only
+    # the current day's papers, is empty on weekends, and was empty when the 6 Oct run hit its
+    # midnight-ET rebuild -- one bad snapshot used to mean a digest with no papers at all.
+    out = Path(path)
+    if out.exists():
+        cutoff = datetime.now(timezone.utc) - timedelta(hours=WINDOW_HOURS)
+        have = {it["link"] for it in items}
+        kept = [it for it in json.loads(out.read_text(encoding="utf-8"))
+                if it["date"] and datetime.fromisoformat(it["date"]) >= cutoff
+                and it["link"] not in have]
+        items += kept
+        print("  carried %d items forward from the previous pile" % len(kept))
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(items, indent=1), encoding="utf-8")
     print("  wrote %d items to %s" % (len(items), path))
 
 
@@ -714,6 +729,10 @@ def collect_json(path):
 # branch, so the state paths below are relative to that branch, not to this file.
 ROUTINE_SEEN = Path("state/seen.json")
 ROUTINE_SENT = Path("state/last_sent.txt")
+# Headlines of recent digests. seen.json only matches exact links, so the same story from a
+# second site (Kolibri on HF then MarkTechPost, one resignation on The Verge then TechCrunch)
+# used to come back the next day.
+ROUTINE_RECENT = Path("state/recent_titles.json")
 
 
 def build_prompt_cli(items_path):
@@ -721,9 +740,44 @@ def build_prompt_cli(items_path):
     the collected items minus anything already sent."""
     items = json.loads(Path(items_path).read_text(encoding="utf-8"))
     seen = set(json.loads(ROUTINE_SEEN.read_text())) if ROUTINE_SEEN.exists() else set()
-    fresh = [it for it in items if it["link"] not in seen]
-    print("  %d items, %d already sent" % (len(items), len(items) - len(fresh)), file=sys.stderr)
+    # Bare "name v1.2.3" releases can't be picked (enforce_rules), so don't pay to read them.
+    fresh = [it for it in items if it["link"] not in seen
+             and not (it["source"].startswith("release:") and BARE_RELEASE.match(it["title"]))]
+    print("  %d items, %d skipped (already sent, or bare version releases)"
+          % (len(items), len(items) - len(fresh)), file=sys.stderr)
     print(build_prompt(fresh))
+    if ROUTINE_RECENT.exists():
+        print("\nALREADY SENT in recent digests. Do not pick an item that is the same story as "
+              "one of these, even from a different source or link -- unless it carries real "
+              "new information, and then say in \"what\" what is new:")
+        print("\n".join("- " + t for t in json.loads(ROUTINE_RECENT.read_text(encoding="utf-8"))))
+
+
+# A release whose fetched title is only "name v1.2.3" -- the prompt says drop those, and the
+# picker kept letting them through (claude-code, the agent SDKs, MLflow, CC Switch...).
+BARE_RELEASE = re.compile(r"^[\w.@/ -]{1,40}? v?\d+(\.\d+)+[\w.+-]*$")
+MAX_HARNESS = 4   # agentic-coding items in Shipped; the profile's cap, now enforced in code
+
+
+def enforce_rules(digest, items):
+    """The two rules the picker kept breaking, applied after it instead of trusted to it."""
+    pile = {it["link"]: it for it in items}
+    kept, harness, dropped = [], 0, []
+    for e in digest.get("ships", []):
+        src = pile.get(e.get("link"), {})
+        if src.get("source", "").startswith("release:") and BARE_RELEASE.match(src.get("title", "")):
+            dropped.append(src["title"])
+            continue
+        if e.get("tag") == "harness":
+            harness += 1
+            if harness > MAX_HARNESS:
+                dropped.append(e.get("title", ""))
+                continue
+        kept.append(e)
+    digest["ships"] = kept
+    if dropped:
+        print("  dropped by rule: " + "; ".join(dropped), file=sys.stderr)
+    return digest
 
 
 def render_picks(picks_path, items_path):
@@ -731,11 +785,15 @@ def render_picks(picks_path, items_path):
     not in the collected items are dropped, same backstop as for Gemini."""
     picks = json.loads(Path(picks_path).read_text(encoding="utf-8"))
     items = json.loads(Path(items_path).read_text(encoding="utf-8"))
-    digest = _keep_known_links(picks, {it["link"] for it in items})
+    digest = enforce_rules(_keep_known_links(picks, {it["link"] for it in items}), items)
     out = Path("outbox/digest.html")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(render(digest, local_now().strftime("%A, %d %B %Y")), encoding="utf-8")
     remember(digest, ROUTINE_SEEN)
+    titles = [it.get("title", "") for k in SECTIONS for it in digest.get(k, [])]
+    prev = json.loads(ROUTINE_RECENT.read_text(encoding="utf-8")) if ROUTINE_RECENT.exists() else []
+    # ponytail: ~5 days at 20-30 picks a day; the 72h window means older stories can't recur.
+    ROUTINE_RECENT.write_text(json.dumps((prev + titles)[-150:], indent=0), encoding="utf-8")
     ROUTINE_SENT.write_text(local_now().strftime("%Y-%m-%d"))
     print("  wrote %s  (%d shipped, %d industry, %d research)"
           % ((out,) + tuple(len(digest.get(k, [])) for k in SECTIONS)))
@@ -826,7 +884,7 @@ def self_check():
             pass
 
     # --collect-json writes dates as text (JSON has no datetime) and keeps undated items.
-    import tempfile
+    import tempfile, contextlib, io
     real_collect = globals()["collect"]
     globals()["collect"] = lambda: [dict(r), dict(b, date=None)]
     try:
@@ -837,9 +895,36 @@ def self_check():
         globals()["collect"] = real_collect
     assert got[0]["date"].startswith("2026-09-03") and got[1]["date"] is None, got
 
+    # A second collect keeps the previous pile's in-window items (an empty arXiv snapshot
+    # must not wipe yesterday's papers) but drops stale, undated and re-fetched ones.
+    recent = (datetime.now(timezone.utc) - timedelta(hours=5)).isoformat()
+    out.write_text(json.dumps([
+        {"link": "https://x.test/paper", "date": recent},          # in window: kept
+        {"link": "https://x.test/stale", "date": "2026-01-01T00:00:00+00:00"},
+        {"link": "https://x.test/undated", "date": None},
+        {"link": r["link"], "date": recent}]), encoding="utf-8")   # fetched again: not doubled
+    globals()["collect"] = lambda: [dict(r)]
+    try:
+        with contextlib.redirect_stdout(io.StringIO()):
+            collect_json(str(out))
+    finally:
+        globals()["collect"] = real_collect
+    assert [i["link"] for i in json.loads(out.read_text(encoding="utf-8"))] == \
+        [r["link"], "https://x.test/paper"]
+
+    # Bare "name v1.2.3" releases never reach Shipped, and agentic-coding picks stop at 4.
+    pile = [{"link": "https://r/1", "source": "release: anthropics/claude-code",
+             "title": "claude-code v2.1.299"},
+            {"link": "https://r/2", "source": "release: ruvnet/ruflo",
+             "title": "ruflo v3.56.9 - policy envelope metering"},
+            {"link": "https://r/3", "source": "release: farion1231/cc-switch", "title": "CC Switch v4.0.9"}]
+    pile += [{"link": "https://h/%d" % i, "source": "HN", "title": "h%d" % i} for i in range(5)]
+    picked = enforce_rules({"ships": [{"link": p["link"], "tag": "harness"} for p in pile]}, pile)
+    assert [e["link"] for e in picked["ships"]] == ["https://r/2", "https://h/0", "https://h/1",
+                                                    "https://h/2"], picked
+
     # Routine round trip: already-sent items leave the prompt, an invented link is dropped,
     # and what was sent is recorded so tomorrow skips it.
-    import contextlib, io
     here = os.getcwd()
     os.chdir(tempfile.mkdtemp())
     try:
@@ -864,6 +949,11 @@ def self_check():
         assert "x.test/new" in page and "made-up.test" not in page
         assert json.loads(ROUTINE_SEEN.read_text()) == ["https://x.test/old", "https://x.test/new"]
         assert ROUTINE_SENT.read_text() == local_now().strftime("%Y-%m-%d")
+        # The next prompt lists that headline, so the same story from another site is skipped.
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            build_prompt_cli("items.json")
+        assert "ALREADY SENT" in buf.getvalue() and "\n- New" in buf.getvalue()
     finally:
         os.chdir(here)
 

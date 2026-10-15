@@ -37,6 +37,13 @@ jobs:
           key: collect-repos-${{ github.run_id }}
           restore-keys: collect-repos-
 
+      # Start from the last pile: --collect-json keeps whatever in it is still within the
+      # 72h window, so a feed that comes back empty (arXiv at its midnight-ET rebuild, or on
+      # weekends) doesn't empty the digest. No previous pile is fine -- it just starts fresh.
+      - run: |
+          git fetch origin claude/digest
+          git show origin/claude/digest:inbox/items.json > /tmp/prev.json && mv /tmp/prev.json /tmp/items.json || true
+
       - run: python digest.py --collect-json /tmp/items.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # lifts the discovery rate limit
