@@ -443,15 +443,11 @@ that touch the labs, vendors and tools in their stack.
 RESEARCH -- up to {research} items. Papers, benchmarks, evaluations and engineering
 writeups. Ideas rather than artifacts.
 
-For SHIPS and RESEARCH, judge relevance by their actual work, not general AI
-newsworthiness. Weight things touching their voice and speech stack, Indic languages,
-evals, guardrails, and inference cost most heavily. A new Indic speech model or a
-voice-agent framework release beats any coding-tool update.
-
-AI coding tools (Claude Code, agent SDKs, MCP servers, plugins, coding agents) are a
-secondary interest: at most 4 SHIPS slots between them, and only for a genuinely new
-thing or a real feature, never a routine point release. Their core work never gets
-pushed out to make room for these.
+Judge relevance by the profile above, read as a whole. Names in it are examples of the
+kind of thing they mean, not topics to chase: never let one product, company, model
+family or theme take more than two slots in an email, and never pick an item just
+because it resembles something named in the profile. A genuinely new kind of thing earns
+a slot the first time it appears; follow-ups, clones and look-alikes do not.
 
 Drop outage chatter entirely. Each item goes in at most one list. Return fewer than the
 limits if the rest do not clear the bar -- never pad a list to fill it.
@@ -464,9 +460,9 @@ plainly ("release notes not summarised here") or drop the item. Never invent a c
 a benchmark or a connection to their work that the text does not support: a made-up reason
 is worse than a missing item. An item that is only a headline (an HN link with no body)
 earns a slot only if the headline alone is clearly big news; never fill "what" with
-"no further detail is given". Only claim something touches speech, voice or turn-taking if
-the item itself is about speech, voice or turn-taking. Tag by what the thing IS, not by
-which part of their work you are trying to connect it to.
+"no further detail is given". Only claim an item touches an area of their work if the
+item itself is about that area. Tag by what the thing IS, not by which part of their work
+you are trying to connect it to.
 
 Return JSON only:
 {{"ships":    [{{"title": "...", "link": "...", "source": "...", "what": "...",

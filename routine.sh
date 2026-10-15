@@ -4,8 +4,8 @@
 #   bash /tmp/routine.sh prepare  -> exit 3 if today's digest already went out;
 #                                    otherwise leaves the picking prompt in /tmp/prompt.txt
 #   bash /tmp/routine.sh finish   -> renders /tmp/picks.json, commits, pushes (push = email)
-# Needs /tmp/profile.txt written first. Copy to /tmp before running: prepare checks out
-# the claude/digest branch, which doesn't have this file.
+# Copy to /tmp before running: prepare checks out the claude/digest branch, which doesn't
+# have this file. The reader's interests come from profile.md on main.
 set -euo pipefail
 REPO=ayushgodbole17/ai-news
 TODAY=${ROUTINE_TODAY:-$(TZ=Asia/Kolkata date +%F)}   # override only for testing
@@ -41,7 +41,8 @@ prepare)
     fi
   fi
   echo "items: $path (collect dispatch HTTP $code)"
-  DIGEST_PROFILE="$(cat /tmp/profile.txt)" python /tmp/digest.py --build-prompt inbox/items.json \
+  # profile.md on main is the one place the reader's interests live; edit it there.
+  DIGEST_PROFILE="$(git show origin/main:profile.md)" python /tmp/digest.py --build-prompt inbox/items.json \
     > /tmp/prompt.txt
   echo "prompt ready: /tmp/prompt.txt, $(wc -c < /tmp/prompt.txt) bytes"
   ;;
