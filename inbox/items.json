@@ -357,13 +357,6 @@
   "date": "2026-10-13T12:00:49+00:00"
  },
  {
-  "source": "NVIDIA",
-  "title": "NVIDIA Announces New Investments in France\u2019s Startups",
-  "link": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-  "summary": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country\u2019s ecosystem has moved from ambition to application. France\u2019s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments [\u2026]",
-  "date": "2026-10-13T05:00:31+00:00"
- },
- {
   "source": "Together AI",
   "title": "Meta Muse Spark Open is live on Together AI",
   "link": "https://www.together.ai/blog/meta-muse-spark-open",
@@ -635,6 +628,13 @@
   "link": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
   "summary": "Gemini 4 Argon, Google\u2019s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon\u2026 The post Gemini 4 Argon in GitHub Copilot appeared first on The GitHub Blog .",
   "date": "2026-10-13T18:39:56+00:00"
+ },
+ {
+  "source": "Latent Space",
+  "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
+  "link": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+  "summary": "Nick Cammarata out of nowhere with some major claims!",
+  "date": "2026-10-16T04:16:45+00:00"
  },
  {
   "source": "Latent Space",
@@ -918,6 +918,13 @@
  },
  {
   "source": "InfoQ",
+  "title": "Microsoft Commits Maia to Multi-Gigawatt Inference, and Its Efficiency Metric Draws Questions",
+  "link": "https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "Microsoft will scale its Maia accelerator family to multi-gigawatt deployments from 2027, making it the primary inference system for its own products. Maia 300 collapses scale-up and scale-out onto one Ethernet fabric and moves KV state between prefill and decode workers without leaving it. Practitioners have questioned the tokens-per-watt claim that leads the announcement. By Steef-Jan Wiggers",
+  "date": "2026-10-16T06:02:00+00:00"
+ },
+ {
+  "source": "InfoQ",
   "title": "Instagram Modernized its UI with an AI-Native Architecture, Cutting Token Costs by 33%",
   "link": "https://www.infoq.com/news/2026/10/instagram-compose-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "Instagram Direct migrated its Android UI from the legacy Android View system to Jetpack Compose, creating an AI-native UI codebase that is easier for AI coding agents to understand, modify, and maintain. According to Instagram engineers, the migration reduced UI code volume by 50% and token costs per AI agent session by 33%. By Sergio De Simone",
@@ -1015,13 +1022,6 @@
   "date": "2026-10-13T12:00:00+00:00"
  },
  {
-  "source": "InfoQ",
-  "title": "Presentation: How Eve Online Leverages Head Based Sampling to Observe \"Fun\"",
-  "link": "https://www.infoq.com/presentations/eve-observability-head-sampling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "Nicholas Herring shares how EVE Online tackles distributed tracing and observability across a 20-year-old MMO architecture. He discusses leveraging head-based, dynamic exponential moving average (EMA), and deterministic sampling techniques to maintain high system fidelity, control telemetry costs, and avoid performance degradation under high-throughput real-time game simulations. By Nicholas Herri",
-  "date": "2026-10-13T11:00:00+00:00"
- },
- {
   "source": "ByteByteGo",
   "title": "How to Design for Failures",
   "link": "https://blog.bytebytego.com/p/how-to-design-for-failures",
@@ -1050,14 +1050,14 @@
   "date": "2026-10-13T15:49:56+00:00"
  },
  {
-  "source": "HN (419pts)",
+  "source": "HN (420pts)",
   "title": "Anthropic's Scion is heavily inspired by Mononoke",
   "link": "https://sunshowers.io/posts/anthropic-mononoke/",
   "summary": "",
   "date": "2026-10-14T20:30:54+00:00"
  },
  {
-  "source": "HN (235pts)",
+  "source": "HN (238pts)",
   "title": "More on Anthropic's Scion ripping off Mononoke",
   "link": "https://sunshowers.io/posts/anthropic-mononoke-2/",
   "summary": "",
@@ -1092,7 +1092,7 @@
   "date": "2026-10-13T10:08:18+00:00"
  },
  {
-  "source": "HN (37pts)",
+  "source": "HN (38pts)",
   "title": "Bank of America hired 1000 contractors to patch software flaws exposed by Mythos",
   "link": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
   "summary": "",
@@ -1127,7 +1127,7 @@
   "date": "2026-10-13T15:41:00+00:00"
  },
  {
-  "source": "HN (172pts)",
+  "source": "HN (173pts)",
   "title": "How to engineer an AI harness for game development",
   "link": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
   "summary": "",
@@ -1141,18 +1141,11 @@
   "date": "2026-10-14T16:33:34+00:00"
  },
  {
-  "source": "HN (120pts)",
+  "source": "HN (121pts)",
   "title": "Linus Torvalds's first LLM-assisted patch series",
   "link": "https://lwn.net/Articles/1100449/",
   "summary": "",
   "date": "2026-10-14T16:55:07+00:00"
- },
- {
-  "source": "HN (119pts)",
-  "title": "Ask HN: CAD for wood working with LLM support?",
-  "link": "https://news.ycombinator.com/item?id=50067325",
-  "summary": "",
-  "date": "2026-10-13T05:54:01+00:00"
  },
  {
   "source": "HN (32pts)",
@@ -1204,14 +1197,14 @@
   "date": "2026-10-13T16:55:47+00:00"
  },
  {
-  "source": "HN (213pts)",
+  "source": "HN (215pts)",
   "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
   "link": "https://petal.live/",
   "summary": "",
   "date": "2026-10-14T18:23:14+00:00"
  },
  {
-  "source": "HN (154pts)",
+  "source": "HN (155pts)",
   "title": "TV4 postpones show after AI agent erases edited material",
   "link": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
   "summary": "",
@@ -1225,7 +1218,7 @@
   "date": "2026-10-14T16:34:53+00:00"
  },
  {
-  "source": "HN (939pts)",
+  "source": "HN (940pts)",
   "title": "Containment and monitoring failures are to blame for AI hacking reports:\u00a0experts",
   "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
   "summary": "",
@@ -1246,7 +1239,7 @@
   "date": "2026-10-14T15:00:41+00:00"
  },
  {
-  "source": "HN (110pts)",
+  "source": "HN (111pts)",
   "title": "Show HN: I wrote an email app that accepts only one sender per inbox",
   "link": "https://clova.email/",
   "summary": "",
@@ -1352,6 +1345,13 @@
  },
  {
   "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent v0.22.2+canary.20261016T065950Z",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261016T065950Z",
+  "summary": "Hermes Agent canary 20261016T065950Z",
+  "date": "2026-10-16T06:59:52+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
   "title": "hermes-agent Hermes Agent v0.22.2",
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2",
   "summary": "Hermes Agent v0.22.2 Release Date: October 15, 2026 v0.22.1 was built from the wrong commit. It shipped unreleased gateway work, and the Microsoft Store app could stick on \"Connecting.\" 0.22.2 is the release 0.22.1 was meant to be. Known issue: Sessions that ran under the 0.22.1 gateway can't be del",
@@ -1370,13 +1370,6 @@
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.2-v0.22.2",
   "summary": "{\"attempt\":2,\"autopublish\":false,\"claimEpoch\":1792044803,\"commit\":\"d9\u2026",
   "date": "2026-10-15T06:13:23+00:00"
- },
- {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent rc.1-v0.22.2",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.1-v0.22.2",
-  "summary": "{\"attempt\":1,\"autopublish\":false,\"claimEpoch\":1792044008,\"commit\":\"d9\u2026",
-  "date": "2026-10-15T06:00:08+00:00"
  },
  {
   "source": "release: Significant-Gravitas/AutoGPT",
@@ -1634,8 +1627,8 @@
   "source": "release: koala73/worldmonitor",
   "title": "worldmonitor convex-deployed",
   "link": "https://github.com/koala73/worldmonitor/releases/tag/convex-deployed",
-  "summary": "fix(billing): keep the plan-limit email cadence across the UTC day bo\u2026",
-  "date": "2026-10-15T20:17:24+00:00"
+  "summary": "fix(convex): spread lastUsedAt touches so a validation burst stops ra\u2026",
+  "date": "2026-10-16T06:32:15+00:00"
  },
  {
   "source": "release: langchain-ai/langchain",
@@ -1671,13 +1664,6 @@
   "link": "https://github.com/langfuse/langfuse/releases/tag/v4.59.0",
   "summary": "What's Changed feat(llm-connections): label TypeSafe adapter as \"TypeSafe (System One)\" in picker by @hassiebp in #18670 perf(worker): poll queue metrics once per interval across workers by @Steffen911 in #18672 ci(notifications): stop sending redundant title, branch, and event to Slack by @nimarb i",
   "date": "2026-10-14T09:20:36+00:00"
- },
- {
-  "source": "release: langfuse/langfuse",
-  "title": "langfuse v4.58.0",
-  "link": "https://github.com/langfuse/langfuse/releases/tag/v4.58.0",
-  "summary": "What's Changed Features feat(web): require Turnstile on password-reset emails by @maxdeichmann in #18584 feat(ci): bump dependabot to opus5.5 by @nimarb in #18553 feat(otel): extract media before TypeScript parsing by @sumerman in #18239 feat(media): add upload pool with concurrency and byte limits ",
-  "date": "2026-10-13T07:05:09+00:00"
  },
  {
   "source": "release: milvus-io/milvus",
@@ -2191,6 +2177,83 @@
   "date": "2026-10-16T00:00:00-04:00"
  },
  {
+  "source": "HF Papers (7 up)",
+  "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+  "link": "https://huggingface.co/papers/2610.22200",
+  "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GP",
+  "date": "2026-10-14T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (2 up)",
+  "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
+  "link": "https://huggingface.co/papers/2610.22362",
+  "summary": "Generative simulation can automate robot environment construction, but physically valid environments are not necessarily useful for training. The challenge is to identify environments that address a policy's failures and supervision that helps it overcome them. We introduce CoDA, a framework in which a simulation data engine and an action policy co-evolve through a shared heterogeneous memory of e",
+  "date": "2026-10-14T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (3 up)",
+  "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+  "link": "https://huggingface.co/papers/2610.22276",
+  "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few ",
+  "date": "2026-10-14T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (24 up)",
+  "title": "VLA-\u0394: Learning Physical State Transition for Vision-Language-Action Models",
+  "link": "https://huggingface.co/papers/2610.21306",
+  "summary": "Vision-language-action (VLA) models transfer semantic knowledge acquired through vision-language pretraining to robot control, achieving strong performance across various benchmarks. However, most VLAs directly map observations to demonstrated actions without explicit supervision of intermediate physical state changes, making them prone to overfitting observation-action correspondences. Some metho",
+  "date": "2026-10-14T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (123 up)",
+  "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+  "link": "https://huggingface.co/papers/2610.21601",
+  "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially ",
+  "date": "2026-10-14T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (2 up)",
+  "title": "MMSearch-OPD: Easy Made Hard, Hard Made Learnable for Long-Horizon Multimodal Search Agents",
+  "link": "https://huggingface.co/papers/2610.22240",
+  "summary": "Multimodal deep search is moving from short queries to long-horizon investigations that continually acquire evidence. However, training such agents remains constrained by limited challenging training questions and insufficient process feedback. We introduce MMSearch-OPD, combining controllable data refinement with joint reinforcement learning (RL) and on-policy distillation (OPD). Our Refine pipel",
+  "date": "2026-10-14T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (21 up)",
+  "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+  "link": "https://huggingface.co/papers/2610.22344",
+  "summary": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvement (RSI). Workflow-driven machine learning engineering (MLE) systems provide a practical path toward this pursuit through complex orchestration that manages long-horizon experimenta",
+  "date": "2026-10-14T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (13 up)",
+  "title": "Each Reward to Its Relevant Tokens: Reward-Specific Token-Level Credit Assignment for Multi-Reward RL",
+  "link": "https://huggingface.co/papers/2610.21439",
+  "summary": "Language models are increasingly trained against several verifiable rewards at once, such as the correctness and the format of a tool call, or the individual constraints of a complex instruction. Reward-decoupled normalization (GDPO) normalizes each reward separately so that different reward combinations keep distinct advantages, but it still spreads every reward's advantage evenly over the whole ",
+  "date": "2026-10-15T03:47:04+00:00"
+ },
+ {
+  "source": "HF Papers (6 up)",
+  "title": "Learning Self-Orchestration in Decentralized Agent Swarms",
+  "link": "https://huggingface.co/papers/2610.22322",
+  "summary": "The capabilities of an agent swarm depend on both its individual members and how they coordinate. Yet existing multi-agent systems often train agents within fixed orchestration structures, separating the learning of individual capabilities from the organization of collective behavior. We introduce market-based post-training (MPT), a framework for jointly learning action policies and self-orchestra",
+  "date": "2026-10-14T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (20 up)",
+  "title": "WorldCast: Exploring Intelligent Visual Generation in World State Prediction",
+  "link": "https://huggingface.co/papers/2610.20731",
+  "summary": "Humans interpret multimodal observations of the world and forecast how it will evolve. Recent multimodal generative systems have demonstrated similar capabilities: they can integrate multimodal context and synthesize visual outputs that depict changes in the world. To characterize this emerging trajectory, we organize model capabilities into a four-level hierarchy and discover that higher-level ta",
+  "date": "2026-10-13T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (26 up)",
+  "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
+  "link": "https://huggingface.co/papers/2610.22174",
+  "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, agentic techniques such as context compaction and subagent forking may produce trajectories spanning multiple sessions, creating a mismatch between the single-session training assumption and inference-time execution. Therefore, we",
+  "date": "2026-10-14T20:00:00+00:00"
+ },
+ {
   "source": "HF Papers (1 up)",
   "title": "VascuSR: Iterative Anatomy-Aware Diffusion for CT Super-Resolution",
   "link": "https://huggingface.co/papers/2610.20509",
@@ -2198,14 +2261,14 @@
   "date": "2026-10-13T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (5 up)",
+  "source": "HF Papers (6 up)",
   "title": "CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance",
   "link": "https://huggingface.co/papers/2610.21453",
   "summary": "While generalist vision-language-action (VLA) models have enabled diverse open-world manipulation, real-world robotic assistance requires two critical capabilities they currently lack: personalization and reliable execution. First, executing an instruction like \"make me a sandwich\" requires grounding subtask decomposition in persistent user preferences rather than relying on a single generic solut",
   "date": "2026-10-14T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (30 up)",
   "title": "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
   "link": "https://huggingface.co/papers/2610.17665",
   "summary": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires inferring object geometry, anticipating the effects of rotation, and refining actions through visual feedback. We introduce RoTA-Bench to evaluate these abilities through interactive 3D-to-2D projection alignment. Given a target silhouette, a model observes a rotated object and chooses",
@@ -2226,7 +2289,7 @@
   "date": "2026-10-14T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (9 up)",
+  "source": "HF Papers (29 up)",
   "title": "InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views",
   "link": "https://huggingface.co/papers/2610.20341",
   "summary": "Feed-forward Gaussian reconstruction builds 3D scenes directly from input images for novel view rendering, but learning Gaussian attributes from predicted geometry for high-quality rendering under large viewpoint changes remains challenging. We analyze limitations in Gaussian attribute learning and introduce InfiniSplat v2, which improves rendering quality through architectural and training change",
@@ -2238,6 +2301,34 @@
   "link": "https://huggingface.co/papers/2610.22217",
   "summary": "Reinforcement learning (RL) can elicit specialized visual capabilities in vision-language models (VLMs), yet jointly optimizing heterogeneous objectives often introduces cross-capability gradient conflicts. Training experts independently mitigates this interference, but direct reward optimization may entangle specialized knowledge with reward-hacking biases. This paper proposes Skill-Decoupled On-",
   "date": "2026-10-14T20:00:00+00:00"
+ },
+ {
+  "source": "HF model (3241 dl)",
+  "title": "New on the Hub: black-forest-labs/flux-3-image-klein",
+  "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+  "summary": "pipeline: image-to-image. tags: diffusers, safetensors, image-generation, image-editing, flux, flux-3",
+  "date": "2026-10-13T10:58:40+00:00"
+ },
+ {
+  "source": "HF model (39 dl)",
+  "title": "New on the Hub: black-forest-labs/flux-3-image-klein-comfy",
+  "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+  "summary": "pipeline: image-to-image. tags: diffusion-single-file, comfyui, image-generation, image-editing, flux, flux-3",
+  "date": "2026-10-14T12:00:13+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "Presentation: How Eve Online Leverages Head Based Sampling to Observe \"Fun\"",
+  "link": "https://www.infoq.com/presentations/eve-observability-head-sampling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "Nicholas Herring shares how EVE Online tackles distributed tracing and observability across a 20-year-old MMO architecture. He discusses leveraging head-based, dynamic exponential moving average (EMA), and deterministic sampling techniques to maintain high system fidelity, control telemetry costs, and avoid performance degradation under high-throughput real-time game simulations. By Nicholas Herri",
+  "date": "2026-10-13T11:00:00+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent rc.1-v0.22.2",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.1-v0.22.2",
+  "summary": "{\"attempt\":1,\"autopublish\":false,\"claimEpoch\":1792044008,\"commit\":\"d9\u2026",
+  "date": "2026-10-15T06:00:08+00:00"
  },
  {
   "source": "HF Papers (15 up)",
@@ -2301,20 +2392,6 @@
   "link": "https://huggingface.co/papers/2610.22341",
   "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D exe",
   "date": "2026-10-14T20:00:00+00:00"
- },
- {
-  "source": "HF model (3241 dl)",
-  "title": "New on the Hub: black-forest-labs/flux-3-image-klein",
-  "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
-  "summary": "pipeline: image-to-image. tags: diffusers, safetensors, image-generation, image-editing, flux, flux-3",
-  "date": "2026-10-13T10:58:40+00:00"
- },
- {
-  "source": "HF model (39 dl)",
-  "title": "New on the Hub: black-forest-labs/flux-3-image-klein-comfy",
-  "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
-  "summary": "pipeline: image-to-image. tags: diffusion-single-file, comfyui, image-generation, image-editing, flux, flux-3",
-  "date": "2026-10-14T12:00:13+00:00"
  },
  {
   "source": "MarkTechPost",
