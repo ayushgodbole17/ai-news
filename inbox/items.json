@@ -92,6 +92,13 @@
  },
  {
   "source": "OpenAI",
+  "title": "Benefit Street Partners answers questions faster with Codex",
+  "link": "https://openai.com/index/benefit-street-partners",
+  "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+  "date": "2026-10-16T00:00:00+00:00"
+ },
+ {
+  "source": "OpenAI",
   "title": "Bringing GPT-Rosalind to academic research labs",
   "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
   "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
@@ -124,20 +131,6 @@
   "link": "https://openai.com/index/sentinelone",
   "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
   "date": "2026-10-14T12:00:00+00:00"
- },
- {
-  "source": "OpenAI",
-  "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-  "link": "https://openai.com/index/third-moment-research",
-  "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-  "date": "2026-10-14T07:00:00+00:00"
- },
- {
-  "source": "OpenAI",
-  "title": "How Block is building AI-powered security with OpenAI technology",
-  "link": "https://openai.com/index/block-ai-powered-security",
-  "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-  "date": "2026-10-14T07:00:00+00:00"
  },
  {
   "source": "Simon Willison",
@@ -180,6 +173,13 @@
   "link": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
   "summary": "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to get old games working on new hardware (often in a browser using WebAssembly). I like how this piece captures both the positives and the",
   "date": "2026-10-14T16:26:53+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "StepFun Releases Step 5 Preview Open Weights: 600B MoE, 27B Active, 1M Context",
+  "link": "https://www.marktechpost.com/2026/10/16/stepfun-releases-step-5-preview-open-weights-600b-moe-27b-active-1m-context/",
+  "summary": "StepFun has released Step 5 Preview as open weights. FP8 and BF16 checkpoints are live on Hugging Face and ModelScope. Step 5 Preview is a sparse Mixture-of-Experts model from StepFun built for long-horizon agentic work. It has 600B total parameters, 27B active per token and up to 1M tokens of context. For developers, this is [\u2026] The post StepFun Releases Step 5 Preview Open Weights: 600B MoE, 27B",
+  "date": "2026-10-17T06:29:55+00:00"
  },
  {
   "source": "MarkTechPost",
@@ -245,13 +245,6 @@
   "date": "2026-10-14T23:37:25+00:00"
  },
  {
-  "source": "MarkTechPost",
-  "title": "Fish Audio Releases Drama 3, a 35B Open-Weight MoE Text-to-Speech Model",
-  "link": "https://www.marktechpost.com/2026/10/14/fish-audio-drama-3-open-weight-tts-model/",
-  "summary": "Fish Audio released Drama 3, a 35B mixture-of-experts text-to-speech model with about 3B active parameters. It takes plain-language direction, covers 83 languages and ships open weights under a revenue-capped community license. The post Fish Audio Releases Drama 3, a 35B Open-Weight MoE Text-to-Speech Model appeared first on MarkTechPost .",
-  "date": "2026-10-14T22:52:17+00:00"
- },
- {
   "source": "MIT News",
   "title": "Fostering community amid Kendall Square\u2019s innovation",
   "link": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
@@ -288,31 +281,10 @@
  },
  {
   "source": "NVIDIA",
-  "title": "NVIDIA Expands Advanced Technology Access for Europe\u2019s Scientific Community Through Open Learning Resources, Collaborations and Compute",
-  "link": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
-  "summary": "Much of today\u2019s scientific progress begins with computation. But turning accelerated computing\u2019s potential into scientific progress \u2014 modeling climate systems, designing molecules, simulating materials and more \u2014 depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes bef",
-  "date": "2026-10-15T10:00:12+00:00"
- },
- {
-  "source": "NVIDIA",
   "title": "The Nordics and NVIDIA Show What\u2019s Possible When a Region Commits to Advanced Computing",
   "link": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
   "summary": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe\u2019s most consequential technology ecosystems. The many computing advancements already underway [\u2026]",
   "date": "2026-10-15T05:00:12+00:00"
- },
- {
-  "source": "NVIDIA",
-  "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
-  "link": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
-  "summary": "Across industries, the U.K. is putting the full stack to work. The scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet\u2019s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.\u2019s agentic safety and security [\u2026]",
-  "date": "2026-10-14T06:04:15+00:00"
- },
- {
-  "source": "NVIDIA",
-  "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
-  "link": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
-  "summary": "Keeping a city running means making decisions that affect residents every day \u2014 from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make [\u2026]",
-  "date": "2026-10-14T06:00:28+00:00"
  },
  {
   "source": "Together AI",
@@ -623,13 +595,6 @@
   "date": "2026-10-14T20:35:09+00:00"
  },
  {
-  "source": "Latent Space",
-  "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
-  "link": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
-  "summary": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
-  "date": "2026-10-14T05:40:28+00:00"
- },
- {
   "source": "Pragmatic Engineer",
   "title": "The Pulse: OpenAI software engineer accused of spying",
   "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-openai-software-engineer",
@@ -813,6 +778,20 @@
  },
  {
   "source": "InfoQ",
+  "title": "Reverse Engineer Anything Project Brings AI Agents to Binary Analysis",
+  "link": "https://www.infoq.com/news/2026/10/reverse-engineer-anything/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "Reverse Engineer Anything (REA) is an open-source project with over 200K GitHub stars that connects coding agents such as Claude Code and Codex to reverse-engineering tools like Ghidra, Hopper, and IDA. The project lets developers inspect compiled binaries, trace function calls, and investigate how applications implement specific features. By Renato Losio",
+  "date": "2026-10-17T06:28:00+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL",
+  "link": "https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes M\u00fchleisen and Mark Raasveldt will continue to lead the team under AWS. The acquisition aims to enhance the development and reach of DuckDB while maintaining its open-source status. Amazon Aurora PostgreSQL gets its first DuckDB-powered feature following the acquisition. By Gianmarco Nalin",
+  "date": "2026-10-17T06:00:00+00:00"
+ },
+ {
+  "source": "InfoQ",
   "title": "Google EnvHarness Enables Self-Evolving Agents to Learn in Dynamics Environments",
   "link": "https://www.infoq.com/news/2026/10/envharness-self-evolving-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "Google researchers open sourced EnvHarness, a framework that dynamically adapts agent-training environments to an agent's weaknesses without modifying the agent, environment, or evaluation system. According to the researchers, this approach can improve both learning effectiveness and efficiency while helping agents overcome their weaknesses. By Sergio De Simone",
@@ -903,20 +882,6 @@
   "date": "2026-10-15T16:00:00+00:00"
  },
  {
-  "source": "InfoQ",
-  "title": "Optimizing Software Workflow: Exploring Fundamental Impacts in Technology",
-  "link": "https://www.infoq.com/news/2026/10/optimize-software-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "Software only has value when shipped; faster release cadence matters. Development, deployment, and operations require different thinking, metrics, and investments. There are four impacts in tech: product success, compute capacity, engineering capacity, and strategic innovation. The biggest expense is people. AI shifts engineers toward deeper problem understanding, not fewer engineers. By Ben Linde",
-  "date": "2026-10-15T11:33:00+00:00"
- },
- {
-  "source": "InfoQ",
-  "title": "Presentation: What 25 Trillion Tokens Reveal About How Developers Actually Adopt AI Agents",
-  "link": "https://www.infoq.com/presentations/agentic-ai-developer-trust-adoption/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "Brendan O'Leary discusses how real-world AI adoption depends on building trust rather than chasing model benchmarks. Drawing from 40 trillion tokens of usage data, he explains the four rungs of the AI adoption ladder and analyzes key failure points in context construction, multi-model routing, and feedback loops to help engineering leaders successfully scale agentic workflows. By Brendan O\u2019Leary",
-  "date": "2026-10-15T11:00:00+00:00"
- },
- {
   "source": "ByteByteGo",
   "title": "How to Design for Failures",
   "link": "https://blog.bytebytego.com/p/how-to-design-for-failures",
@@ -945,25 +910,18 @@
   "date": "2026-10-15T17:05:19+00:00"
  },
  {
-  "source": "HN (230pts)",
+  "source": "HN (243pts)",
   "title": "Anthropic assigned highest junk credit rating in June",
   "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
   "summary": "",
   "date": "2026-10-16T18:11:42+00:00"
  },
  {
-  "source": "HN (86pts)",
+  "source": "HN (87pts)",
   "title": "Anthropic Console overcharged my card 100x due to internationalization input bug",
   "link": "https://news.ycombinator.com/item?id=50121562",
   "summary": "",
   "date": "2026-10-16T17:31:42+00:00"
- },
- {
-  "source": "HN (74pts)",
-  "title": "Anthropic conjures threat that doesn't exist yet to stoke fears of AI apocalypse",
-  "link": "https://www.theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866",
-  "summary": "",
-  "date": "2026-10-14T05:53:36+00:00"
  },
  {
   "source": "HN (33pts)",
@@ -980,7 +938,7 @@
   "date": "2026-10-16T14:34:47+00:00"
  },
  {
-  "source": "HN (197pts)",
+  "source": "HN (211pts)",
   "title": "Show HN: Gemini 4 Argon plays StarCraft",
   "link": "https://starskirmish.com/bench/v0-2/",
   "summary": "",
@@ -994,21 +952,21 @@
   "date": "2026-10-14T09:54:23+00:00"
  },
  {
-  "source": "HN (746pts)",
+  "source": "HN (817pts)",
   "title": "Claude reveals ECDSA curve origins",
   "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
   "summary": "",
   "date": "2026-10-16T18:55:59+00:00"
  },
  {
-  "source": "HN (270pts)",
+  "source": "HN (314pts)",
   "title": "How the Claude Code team does code review",
   "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
   "summary": "",
   "date": "2026-10-16T19:04:47+00:00"
  },
  {
-  "source": "HN (115pts)",
+  "source": "HN (129pts)",
   "title": "Designing more efficient quantum circuits with Claude",
   "link": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
   "summary": "",
@@ -1036,7 +994,7 @@
   "date": "2026-10-14T16:55:07+00:00"
  },
  {
-  "source": "HN (49pts)",
+  "source": "HN (51pts)",
   "title": "How to make System 1 LLMs show System 2 competencies?",
   "link": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
   "summary": "",
@@ -1064,7 +1022,7 @@
   "date": "2026-10-14T23:59:37+00:00"
  },
  {
-  "source": "HN (226pts)",
+  "source": "HN (264pts)",
   "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
   "link": "https://github.com/cobanov/PS5LM",
   "summary": "",
@@ -1078,7 +1036,7 @@
   "date": "2026-10-14T09:10:37+00:00"
  },
  {
-  "source": "HN (220pts)",
+  "source": "HN (221pts)",
   "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
   "link": "https://petal.live/",
   "summary": "",
@@ -1092,7 +1050,7 @@
   "date": "2026-10-14T10:28:26+00:00"
  },
  {
-  "source": "HN (51pts)",
+  "source": "HN (52pts)",
   "title": "Show HN: rStation \u2013 A shared research lab for your AI agents",
   "link": "https://rstation.ai/",
   "summary": "",
@@ -1134,7 +1092,7 @@
   "date": "2026-10-14T17:00:59+00:00"
  },
  {
-  "source": "HN (188pts)",
+  "source": "HN (196pts)",
   "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
   "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
   "summary": "",
@@ -1261,6 +1219,13 @@
  },
  {
   "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent v0.22.2+canary.20261017T065512Z",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261017T065512Z",
+  "summary": "Hermes Agent canary 20261017T065512Z",
+  "date": "2026-10-17T06:55:14+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
   "title": "hermes-agent v0.22.2+canary.20261016T065950Z",
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261016T065950Z",
   "summary": "Hermes Agent canary 20261016T065950Z",
@@ -1281,13 +1246,6 @@
   "date": "2026-10-15T07:00:53+00:00"
  },
  {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent rc.2-v0.22.2",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.2-v0.22.2",
-  "summary": "{\"attempt\":2,\"autopublish\":false,\"claimEpoch\":1792044803,\"commit\":\"d9\u2026",
-  "date": "2026-10-15T06:13:23+00:00"
- },
- {
   "source": "release: PrefectHQ/fastmcp",
   "title": "fastmcp v3.4.9: Contain Yourself",
   "link": "https://github.com/PrefectHQ/fastmcp/releases/tag/v3.4.9",
@@ -1298,8 +1256,8 @@
   "source": "release: Significant-Gravitas/AutoGPT",
   "title": "AutoGPT Preview seed fixture (rolling)",
   "link": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/preview-seed-fixture",
-  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@0df72910b3cf (migration head: 20261013002500_private_skill_review_replay). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrati",
-  "date": "2026-10-15T17:59:13+00:00"
+  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@d4b3b9915cdd (migration head: 20261016120000_conductor_include_messages_for_wired_nodes). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a P",
+  "date": "2026-10-17T04:15:51+00:00"
  },
  {
   "source": "release: Significant-Gravitas/AutoGPT",
@@ -1429,6 +1387,13 @@
  },
  {
   "source": "release: deepseek-ai/deepseek-harness",
+  "title": "deepseek-harness v0.2.1-rc.1",
+  "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-rc.1",
+  "summary": "\u4e2d\u6587 | English \u4f5c\u4e3a 0.2.1 \u7cfb\u5217\u7684\u9996\u4e2a\u5019\u9009\u7248\u672c\uff0c\u672c\u7248\u672c\u6c47\u603b\u4e86\u81ea v0.2.0-rc.2 \u4ee5\u6765\u7684\u4e3b\u8981\u7528\u6237\u548c\u5f00\u53d1\u8005\u76f8\u5173\u53d8\u66f4\u3002 \u65b0\u589e\u529f\u80fd \u5141\u8bb8\u7528\u6237\u4ece\u201c\u81ea\u5b9a\u4e49\u63d2\u4ef6\u7d22\u5f15\u6e90\u201d\u4e2d\u53d1\u73b0\u548c\u5b89\u88c5\u63d2\u4ef6\u3002 @turtle1999 \u63d2\u4ef6\u7ba1\u7406\u9875\u65b0\u589e\u300c\u8ba9 Agent \u521b\u5efa\u63d2\u4ef6\u300d\u5165\u53e3\uff0c\u53ef\u4fdd\u7559\u8349\u7a3f\u8fdb\u5165\u521b\u9020\u6a21\u5f0f\uff1b\u53d1\u9001\u9700\u6c42\u540e\u624d\u5f00\u59cb\u6267\u884c\u3002 @ZiyaZhang \u652f\u6301\u63d2\u4ef6\u542f\u7528\u3001\u505c\u7528\u3001\u5378\u8f7d\u53ca\u66f4\u65b0\u540e\u7684\u4f9d\u8d56\u540c\u6b65\uff1b\u542f\u7528\u70ed\u91cd\u8f7d\u65f6\uff0c\u66f4\u65b0\u6216\u91cd\u65b0\u5b89\u88c5\u7684\u53ef\u66ff\u6362\u63d2\u4ef6\u76f4\u63a5\u751f\u6548\uff0c\u65e0\u6cd5\u70ed\u91cd\u8f7d\u65f6\u63d0\u793a\u91cd\u542f\u3002 @imccyu , @turtle1999 \u53ef\u9009\u63d2\u4ef6\u652f\u6301\u6781\u7b80\u6a21\u5f0f\uff0cOfficial \u63d2\u4ef6\u5217\u8868\u652f\u6301\u6309\u9700\u5b89\u88c5\u4e0e\u5f53\u524d\u53d1\u5e03\u7248\u5bf9\u5e94\u7684 Claude Co",
+  "date": "2026-10-17T05:22:10+00:00"
+ },
+ {
+  "source": "release: deepseek-ai/deepseek-harness",
   "title": "deepseek-harness v0.2.1-alpha.5",
   "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-alpha.5",
   "summary": "\u4e2d\u6587 | English \u95ee\u9898\u4fee\u590d \u4fee\u590d\u5728\u63d2\u4ef6\u9875\u542f\u7528\u6216\u505c\u7528\u63d2\u4ef6\u540e\uff0c\u5df2\u6253\u5f00\u4f1a\u8bdd\u7684 / \u83dc\u5355\u672a\u66f4\u65b0\u6280\u80fd\u5217\u8868\u7684\u95ee\u9898\u3002 @grllll \u51cf\u5c11\u65b0\u5efa\u4e0e\u6062\u590d\u591a\u4e2a\u7ec8\u7aef\u65f6\u7684\u91cd\u590d\u67e5\u8be2\uff0c\u5e76\u907f\u514d\u5931\u6548\u7ec8\u7aef\u5728\u5207\u6362\u9762\u677f\u540e\u53cd\u590d\u91cd\u8bd5\u3002 @LegGasai \u6539\u5584 PTC Mode \u4e2d\u7f3a\u5931\u7684\u90e8\u5206\u6307\u5f15\uff0c\u5e76\u7edf\u4e00 SDK\u3001Web \u548c headless \u7684\u6a21\u578b\u8eab\u4efd\u8bf4\u660e\u3002 @koalazf99 \u4fee\u590d Windows \u548c Linux \u4e0b\u53f3\u4fa7\u680f\u6536\u8d77\u65f6\uff0c\u5728\u8f93\u5165\u6846\u6309 Page Up \u5bfc\u81f4\u6574\u4e2a\u754c\u9762\u5411\u5de6\u504f\u79fb\u7684\u95ee\u9898\u3002 @imccyu \u5176\u4ed6\u53d8\u66f4 \u65b0\u589e conversation.input.model.label Slot\uff0c\u652f\u6301\u63d2\u4ef6\u6309\u6a21\u578b\u6e20\u9053\u81ea\u5b9a\u4e49\u8f93\u5165\u6846\u6a21\u578b",
@@ -1555,17 +1520,17 @@
  },
  {
   "source": "release: koala73/worldmonitor",
+  "title": "worldmonitor convex-deployed",
+  "link": "https://github.com/koala73/worldmonitor/releases/tag/convex-deployed",
+  "summary": "feat(seo): add crawlable localized welcome landings ( #9143 )",
+  "date": "2026-10-17T06:23:47+00:00"
+ },
+ {
+  "source": "release: koala73/worldmonitor",
   "title": "worldmonitor World Monitor v2.11.0",
   "link": "https://github.com/koala73/worldmonitor/releases/tag/v2.11.0",
   "summary": "What's Changed chore: bump version 2.10.0 \u2192 2.11.0 ( #9182 ) fix(mcp-proxy): pin upstream sockets to the DoH-vetted address (GHSA-887j) ( #9038 ) fix(welcome): product-led homepage H1 and canonical meta description ( #9156 ) build(deps): bump the npm-security group across 1 directory with 5 updates ",
   "date": "2026-10-16T15:39:05+00:00"
- },
- {
-  "source": "release: koala73/worldmonitor",
-  "title": "worldmonitor convex-deployed",
-  "link": "https://github.com/koala73/worldmonitor/releases/tag/convex-deployed",
-  "summary": "fix(billing): keep dunning mail links alive past 24h ( #9154 )",
-  "date": "2026-10-16T20:21:51+00:00"
  },
  {
   "source": "release: langchain-ai/langchain",
@@ -1723,10 +1688,10 @@
  },
  {
   "source": "release: unslothai/unsloth",
-  "title": "unsloth NVIDIA Nemotron 3.5 + Meta Muse Spark Open",
+  "title": "unsloth Meta Muse Spark Open + NVIDIA Nemotron 3.5",
   "link": "https://github.com/unslothai/unsloth/releases/tag/v0.1.908-beta",
   "summary": "Run NVIDIA's new Nemotron 3.5 models and Meta's new Muse Spark Open locally in Unsloth. New: text-diffusion LLMs, DeepSpeed training and better prompt caching for coding agents. Highlights NVIDIA Nemotron 3.5 Bolt : Run on 24 GB of memory. Guide NVIDIA Nemotron 3.5 Super VL : 120B (12B active) Guide",
-  "date": "2026-10-15T19:14:52+00:00"
+  "date": "2026-10-17T06:22:08+00:00"
  },
  {
   "source": "release: upstash/context7",
@@ -1764,7 +1729,7 @@
   "date": "2026-10-14T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (55 up)",
+  "source": "HF Papers (88 up)",
   "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
   "link": "https://huggingface.co/papers/2610.21261",
   "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a chosen interaction order. Under independent feature subset sampling, population SAR is exactly the normalized energy of in",
@@ -1820,21 +1785,21 @@
   "date": "2026-10-14T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (268 up)",
+  "source": "HF Papers (281 up)",
   "title": "FDE-Gym: The Last Mile of AI Delivery",
   "link": "https://huggingface.co/papers/2610.22350",
   "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios ac",
   "date": "2026-10-14T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (25 up)",
+  "source": "HF Papers (26 up)",
   "title": "Data World: Scaling Data Environments from Scratch",
   "link": "https://huggingface.co/papers/2610.21656",
   "summary": "Data agents use code to process heterogeneous files and derive analytical insights. Scaling their training faces costly environment curation, privacy and intellectual-property restrictions, and difficulty verifying open-ended findings without known generative truth. Our core insight is to specify the world behind the files before generating the files themselves. We introduce Data World, a multi-ag",
   "date": "2026-10-14T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (27 up)",
+  "source": "HF Papers (29 up)",
   "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
   "link": "https://huggingface.co/papers/2610.22355",
   "summary": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and introduce a verifier that automatically decomposes complex prompts or environmental rules into fine-g",
@@ -1846,6 +1811,41 @@
   "link": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
   "summary": "pipeline: image-to-image. tags: diffusion-single-file, comfyui, image-generation, image-editing, flux, flux-3",
   "date": "2026-10-14T12:00:13+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Fish Audio Releases Drama 3, a 35B Open-Weight MoE Text-to-Speech Model",
+  "link": "https://www.marktechpost.com/2026/10/14/fish-audio-drama-3-open-weight-tts-model/",
+  "summary": "Fish Audio released Drama 3, a 35B mixture-of-experts text-to-speech model with about 3B active parameters. It takes plain-language direction, covers 83 languages and ships open weights under a revenue-capped community license. The post Fish Audio Releases Drama 3, a 35B Open-Weight MoE Text-to-Speech Model appeared first on MarkTechPost .",
+  "date": "2026-10-14T22:52:17+00:00"
+ },
+ {
+  "source": "NVIDIA",
+  "title": "NVIDIA Expands Advanced Technology Access for Europe\u2019s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+  "link": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+  "summary": "Much of today\u2019s scientific progress begins with computation. But turning accelerated computing\u2019s potential into scientific progress \u2014 modeling climate systems, designing molecules, simulating materials and more \u2014 depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes bef",
+  "date": "2026-10-15T10:00:12+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "Optimizing Software Workflow: Exploring Fundamental Impacts in Technology",
+  "link": "https://www.infoq.com/news/2026/10/optimize-software-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "Software only has value when shipped; faster release cadence matters. Development, deployment, and operations require different thinking, metrics, and investments. There are four impacts in tech: product success, compute capacity, engineering capacity, and strategic innovation. The biggest expense is people. AI shifts engineers toward deeper problem understanding, not fewer engineers. By Ben Linde",
+  "date": "2026-10-15T11:33:00+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "Presentation: What 25 Trillion Tokens Reveal About How Developers Actually Adopt AI Agents",
+  "link": "https://www.infoq.com/presentations/agentic-ai-developer-trust-adoption/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "Brendan O'Leary discusses how real-world AI adoption depends on building trust rather than chasing model benchmarks. Drawing from 40 trillion tokens of usage data, he explains the four rungs of the AI adoption ladder and analyzes key failure points in context construction, multi-model routing, and feedback loops to help engineering leaders successfully scale agentic workflows. By Brendan O\u2019Leary",
+  "date": "2026-10-15T11:00:00+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent rc.2-v0.22.2",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.2-v0.22.2",
+  "summary": "{\"attempt\":2,\"autopublish\":false,\"claimEpoch\":1792044803,\"commit\":\"d9\u2026",
+  "date": "2026-10-15T06:13:23+00:00"
  },
  {
   "source": "MarkTechPost",
@@ -2324,13 +2324,6 @@
   "date": "2026-10-14T09:00:00+00:00"
  },
  {
-  "source": "InfoQ",
-  "title": "Cloudflares Newly Acquired Vite+ Reaches 1.0 with GitLab CI Support, Hooks, and tsup Migration",
-  "link": "https://www.infoq.com/news/2026/10/cloudflare-viteplus-stable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "VoidZero has launched Vite+ 1.0, the first stable version of its JavaScript toolchain. It features a command line tool for managing Node.js, package management, and frontend development from a single configuration file. Enhancements include CI integration for GitLab and Docker support. Future updates are planned, focusing on stability and diagnostics. By Daniel Curtis",
-  "date": "2026-10-14T06:15:00+00:00"
- },
- {
   "source": "HN (38pts)",
   "title": "Bank of America hired 1000 contractors to patch software flaws exposed by Mythos",
   "link": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
@@ -2581,13 +2574,6 @@
   "link": "https://huggingface.co/papers/2610.22341",
   "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D exe",
   "date": "2026-10-14T20:00:00+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Google Releases Gemini 4 Argon API With 1M Token Output Limit",
-  "link": "https://www.marktechpost.com/2026/10/13/google-gemini-4-argon-api-release/",
-  "summary": "Google has made Gemini 4 Argon generally available on the Gemini API, AI Studio and the Gemini app. The sparse MoE model writes up to 1M output tokens and leads the Vals Index at 68.90%. The post Google Releases Gemini 4 Argon API With 1M Token Output Limit appeared first on MarkTechPost .",
-  "date": "2026-10-14T05:03:34+00:00"
  },
  {
   "source": "arXiv",
@@ -3185,13 +3171,6 @@
   "date": "2026-10-14T22:52:35+00:00"
  },
  {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.105.1",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.105.1",
-  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
-  "date": "2026-10-14T04:33:53+00:00"
- },
- {
   "source": "release: NousResearch/hermes-agent",
   "title": "hermes-agent Hermes Agent v0.22.1",
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.1",
@@ -3204,13 +3183,6 @@
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0",
   "summary": "Hermes Agent v0.22.0 Release Date: October 13, 2026 Since v0.21.0: ~24,200 commits \u00b7 ~6,080 merged PRs \u00b7 ~15,600 files changed \u00b7 ~2,045,000 insertions \u00b7 ~1,140,000 deletions \u00b7 ~7,180 issues closed \u00b7 ~2,520 contributors The Threshold Release. Hermes was the god of thresholds: the doorway, the crossin",
   "date": "2026-10-14T15:23:13+00:00"
- },
- {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent v0.22.0+canary.20261014T070054Z",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0%2Bcanary.20261014T070054Z",
-  "summary": "Hermes Agent canary 20261014T070054Z",
-  "date": "2026-10-14T07:00:56+00:00"
  },
  {
   "source": "release: NousResearch/hermes-agent",
