@@ -7,13 +7,6 @@
   "date": "2026-10-16T01:44:47+00:00"
  },
  {
-  "source": "Hugging Face",
-  "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-  "link": "https://huggingface.co/blog/reflection-beam",
-  "summary": "",
-  "date": "2026-10-16T00:00:00+00:00"
- },
- {
   "source": "Google Research",
   "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
   "link": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
@@ -28,18 +21,18 @@
   "date": "2026-10-16T19:00:00+00:00"
  },
  {
-  "source": "OpenAI",
-  "title": "Benefit Street Partners answers questions faster with Codex",
-  "link": "https://openai.com/index/benefit-street-partners",
-  "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-  "date": "2026-10-16T00:00:00+00:00"
+  "source": "Simon Willison",
+  "title": "llm-tools-datasette 0.1.1",
+  "link": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+  "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
+  "date": "2026-10-18T23:43:09+00:00"
  },
  {
-  "source": "OpenAI",
-  "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-  "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-  "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10\u00d7 growth in agent creation.",
-  "date": "2026-10-16T00:00:00+00:00"
+  "source": "Simon Willison",
+  "title": "llm-echo 0.5",
+  "link": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+  "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: ",
+  "date": "2026-10-18T23:16:16+00:00"
  },
  {
   "source": "Simon Willison",
@@ -238,13 +231,6 @@
   "date": "2026-10-16T12:55:09+00:00"
  },
  {
-  "source": "TechCrunch AI",
-  "title": "When it came to Cal AI\u2019s viral success, a small army of influencers paid off",
-  "link": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
-  "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
-  "date": "2026-10-15T23:44:56+00:00"
- },
- {
   "source": "The Verge AI",
   "title": "A woman was arrested in Philly for blocking a delivery robot",
   "link": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
@@ -281,31 +267,10 @@
  },
  {
   "source": "The Verge AI",
-  "title": "ChatGPT can peek at your Chrome tabs now",
-  "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-  "summary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video [\u2026]",
-  "date": "2026-10-15T18:43:23-04:00"
- },
- {
-  "source": "The Verge AI",
-  "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
-  "link": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
-  "summary": "Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI. Complete Edition, a remaster of the 2011 strategy game, launched on Tuesday, and it bundled the main game and all of its [\u2026]",
-  "date": "2026-10-15T18:35:55-04:00"
- },
- {
-  "source": "The Verge AI",
   "title": "The tech backlash is now in theaters",
   "link": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
   "summary": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can [\u2026]",
   "date": "2026-10-16T12:26:17-04:00"
- },
- {
-  "source": "Cursor",
-  "title": "Cloud Agent Canvases and Environment Improvements",
-  "link": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
-  "summary": "Cloud agents can now build and share interactive canvases. The Environments API is available in beta, environments support up to 300 repos, and large environments load 5x faster.",
-  "date": "2026-10-16T00:00:00+00:00"
  },
  {
   "source": "VS Code",
@@ -490,14 +455,14 @@
   "date": "2026-10-16T18:11:42+00:00"
  },
  {
-  "source": "HN (147pts)",
+  "source": "HN (157pts)",
   "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
   "summary": "",
   "date": "2026-10-18T14:30:27+00:00"
  },
  {
-  "source": "HN (104pts)",
+  "source": "HN (108pts)",
   "title": "How employment is changing at Anthropic",
   "link": "https://www.anthropic.com/research/employment-at-anthropic",
   "summary": "",
@@ -518,21 +483,21 @@
   "date": "2026-10-16T14:34:47+00:00"
  },
  {
-  "source": "HN (248pts)",
+  "source": "HN (249pts)",
   "title": "Show HN: Gemini 4 Argon plays StarCraft",
   "link": "https://starskirmish.com/bench/v0-2/",
   "summary": "",
   "date": "2026-10-16T14:18:44+00:00"
  },
  {
-  "source": "HN (1048pts)",
+  "source": "HN (1051pts)",
   "title": "Claude reveals ECDSA curve origins",
   "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
   "summary": "",
   "date": "2026-10-16T18:55:59+00:00"
  },
  {
-  "source": "HN (470pts)",
+  "source": "HN (472pts)",
   "title": "How the Claude Code team does code review",
   "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
   "summary": "",
@@ -546,21 +511,21 @@
   "date": "2026-10-16T18:00:18+00:00"
  },
  {
-  "source": "HN (41pts)",
+  "source": "HN (50pts)",
   "title": "Investing in the public benefit",
   "link": "https://www.anthropic.com/news/public-benefit-fund",
   "summary": "",
   "date": "2026-10-18T18:15:10+00:00"
  },
  {
-  "source": "HN (149pts)",
+  "source": "HN (161pts)",
   "title": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
   "link": "https://legendofhyrule.com/",
   "summary": "",
   "date": "2026-10-18T13:06:54+00:00"
  },
  {
-  "source": "HN (63pts)",
+  "source": "HN (64pts)",
   "title": "Show HN: 500 clocks in one 6.3 MB HTML file by Opus 5.5",
   "link": "https://tkgally.github.io/500-clocks/",
   "summary": "",
@@ -574,39 +539,46 @@
   "date": "2026-10-16T23:58:34+00:00"
  },
  {
-  "source": "HN (32pts)",
+  "source": "HN (36pts)",
+  "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+  "link": "https://github.com/finereli/whatsapp-mcp",
+  "summary": "",
+  "date": "2026-10-18T21:36:10+00:00"
+ },
+ {
+  "source": "HN (33pts)",
   "title": "Show HN: Stoke Money \u2013 Personal finance app built around a cash flow forecast",
   "link": "https://stoke.money",
   "summary": "",
   "date": "2026-10-16T18:54:47+00:00"
  },
  {
-  "source": "HN (320pts)",
+  "source": "HN (321pts)",
   "title": "Show HN: Llmspeed \u2013 feel how fast a local LLM runs before you buy the hardware",
   "link": "https://llmspeed.dev/",
   "summary": "",
   "date": "2026-10-17T04:36:53+00:00"
  },
  {
-  "source": "HN (83pts)",
+  "source": "HN (199pts)",
   "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
   "link": "https://arxiv.org/abs/2610.18861",
   "summary": "",
   "date": "2026-10-18T20:48:14+00:00"
  },
  {
-  "source": "HN (57pts)",
-  "title": "How to make System 1 LLMs show System 2 competencies?",
-  "link": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
-  "summary": "",
-  "date": "2026-10-16T14:16:34+00:00"
- },
- {
-  "source": "HN (38pts)",
+  "source": "HN (72pts)",
   "title": "I built a programming language that LLMs can't use",
   "link": "https://blog.picheta.me/post/killswitch-lang/",
   "summary": "",
   "date": "2026-10-17T22:26:47+00:00"
+ },
+ {
+  "source": "HN (58pts)",
+  "title": "How to make System 1 LLMs show System 2 competencies?",
+  "link": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
+  "summary": "",
+  "date": "2026-10-16T14:16:34+00:00"
  },
  {
   "source": "HN (372pts)",
@@ -616,14 +588,14 @@
   "date": "2026-10-16T18:32:35+00:00"
  },
  {
-  "source": "HN (68pts)",
+  "source": "HN (88pts)",
   "title": "PalmOS Lemmings",
   "link": "https://github.com/ardiri/palmos-lemmings",
   "summary": "",
   "date": "2026-10-18T17:56:59+00:00"
  },
  {
-  "source": "HN (146pts)",
+  "source": "HN (148pts)",
   "title": "Israeli settlers attack European diplomatic cars in West Bank beat French mayor",
   "link": "https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html",
   "summary": "",
@@ -644,14 +616,14 @@
   "date": "2026-10-16T14:35:43+00:00"
  },
  {
-  "source": "HN (237pts)",
+  "source": "HN (241pts)",
   "title": "Show HN: Sphinx \u2013 A hook that quizzes you on your AI's code before shipping",
   "link": "https://sphinx-six-theta.vercel.app/",
   "summary": "",
   "date": "2026-10-18T04:33:49+00:00"
  },
  {
-  "source": "HN (217pts)",
+  "source": "HN (218pts)",
   "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
   "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
   "summary": "",
@@ -677,13 +649,6 @@
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.103.5",
   "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
   "date": "2026-10-17T17:02:19+00:00"
- },
- {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.107.0-dev.3",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.107.0-dev.3",
-  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
-  "date": "2026-10-16T00:50:31+00:00"
  },
  {
   "source": "release: ComposioHQ/composio",
@@ -764,10 +729,10 @@
  },
  {
   "source": "release: HumanSignal/label-studio",
-  "title": "label-studio 1.24.0.dev20261016",
+  "title": "label-studio 1.24.0.dev20261019",
   "link": "https://github.com/HumanSignal/label-studio/releases/tag/nightly",
   "summary": "Nightly Build This is an automated nightly build that is recreated every night with the latest changes from the develop branch. Installation You can install this nightly build by downloading the wheel package (the file ending in .whl ) from the Assets section below this description. After downloadin",
-  "date": "2026-10-16T00:11:59+00:00"
+  "date": "2026-10-19T00:14:19+00:00"
  },
  {
   "source": "release: NousResearch/hermes-agent",
@@ -953,31 +918,31 @@
  },
  {
   "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.542",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.542",
+  "summary": "Release API image v2.11.542",
+  "date": "2026-10-19T00:37:09+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.541",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.541",
+  "summary": "Release API image v2.11.541",
+  "date": "2026-10-19T00:30:07+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.540",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.540",
+  "summary": "Release API image v2.11.540",
+  "date": "2026-10-18T22:33:03+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
   "title": "firecrawl v2.11.539",
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.539",
   "summary": "Release API image v2.11.539",
   "date": "2026-10-18T21:34:05+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.538",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.538",
-  "summary": "Release API image v2.11.538",
-  "date": "2026-10-18T04:41:45+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.537",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.537",
-  "summary": "Release API image v2.11.537",
-  "date": "2026-10-18T03:03:25+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.536",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.536",
-  "summary": "Release API image v2.11.536",
-  "date": "2026-10-17T22:35:42+00:00"
  },
  {
   "source": "release: google-gemini/gemini-cli",
@@ -1075,7 +1040,14 @@
   "title": "mlflow Model Catalog",
   "link": "https://github.com/mlflow/mlflow/releases/tag/model-catalog%2Flatest",
   "summary": "Per-provider model catalog files. Updated weekly by CI.",
-  "date": "2026-10-16T13:05:27+00:00"
+  "date": "2026-10-19T01:19:41+00:00"
+ },
+ {
+  "source": "release: moltis-org/moltis",
+  "title": "moltis 20261018.01",
+  "link": "https://github.com/moltis-org/moltis/releases/tag/20261018.01",
+  "summary": "Release 20261018.01",
+  "date": "2026-10-18T22:30:43+00:00"
  },
  {
   "source": "release: morluto/rea",
@@ -1204,6 +1176,27 @@
   "date": "2026-10-16T12:42:32+00:00"
  },
  {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.538",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.538",
+  "summary": "Release API image v2.11.538",
+  "date": "2026-10-18T04:41:45+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.537",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.537",
+  "summary": "Release API image v2.11.537",
+  "date": "2026-10-18T03:03:25+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.536",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.536",
+  "summary": "Release API image v2.11.536",
+  "date": "2026-10-17T22:35:42+00:00"
+ },
+ {
   "source": "MarkTechPost",
   "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
   "link": "https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/",
@@ -1300,13 +1293,6 @@
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.529",
   "summary": "Release API image v2.11.529",
   "date": "2026-10-16T21:23:51+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.528",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.528",
-  "summary": "Release API image v2.11.528",
-  "date": "2026-10-16T00:55:00+00:00"
  },
  {
   "source": "arXiv",
@@ -1643,47 +1629,5 @@
   "link": "https://arxiv.org/abs/2610.22026",
   "summary": "Multi-agent systems built from frozen language models communicate through text, which discards the internal state the sender already computed and makes the receiver pay to rebuild it. Work on internal channels avoids that cost, framing the problem as transfer: agent A sends information to agent B. Every agent pair that must communicate needs its own transfer bridge, and every agent added to a syst",
   "date": "2026-10-16T00:00:00-04:00"
- },
- {
-  "source": "release: ComposioHQ/composio",
-  "title": "composio versioning-example@0.1.9",
-  "link": "https://github.com/ComposioHQ/composio/releases/tag/versioning-example%400.1.9",
-  "summary": "Patch Changes Updated dependencies [ 79c2d1d ] Updated dependencies [ f9a972b ] Updated dependencies [ 40546c3 ] Updated dependencies [ 04cd5c4 ] @composio/core@0.25.0",
-  "date": "2026-10-15T23:19:09+00:00"
- },
- {
-  "source": "release: ComposioHQ/composio",
-  "title": "composio vercel-example@0.1.18",
-  "link": "https://github.com/ComposioHQ/composio/releases/tag/vercel-example%400.1.18",
-  "summary": "Patch Changes Updated dependencies [ 79c2d1d ] Updated dependencies [ f9a972b ] Updated dependencies [ 40546c3 ] Updated dependencies [ 04cd5c4 ] @composio/core@0.25.0 @composio/vercel@0.12.1",
-  "date": "2026-10-15T23:19:06+00:00"
- },
- {
-  "source": "release: ComposioHQ/composio",
-  "title": "composio typesafe-example@0.0.7",
-  "link": "https://github.com/ComposioHQ/composio/releases/tag/typesafe-example%400.0.7",
-  "summary": "Patch Changes Updated dependencies [ 79c2d1d ] Updated dependencies [ f9a972b ] Updated dependencies [ 40546c3 ] Updated dependencies [ 04cd5c4 ] @composio/core@0.25.0 @composio/openai@0.13.0 @composio/typesafe@0.1.1",
-  "date": "2026-10-15T23:19:03+00:00"
- },
- {
-  "source": "release: ComposioHQ/composio",
-  "title": "composio triggers-example@0.1.9",
-  "link": "https://github.com/ComposioHQ/composio/releases/tag/triggers-example%400.1.9",
-  "summary": "Patch Changes Updated dependencies [ 79c2d1d ] Updated dependencies [ f9a972b ] Updated dependencies [ 40546c3 ] Updated dependencies [ 04cd5c4 ] @composio/core@0.25.0",
-  "date": "2026-10-15T23:19:00+00:00"
- },
- {
-  "source": "release: ComposioHQ/composio",
-  "title": "composio CLI Beta @composio/cli@0.4.5-beta.448",
-  "link": "https://github.com/ComposioHQ/composio/releases/tag/%40composio%2Fcli%400.4.5-beta.448",
-  "summary": "What's Changed refactor(cli): answer every mock client call with an Effect by Alberto Schiabel (@jkomyno) in #4915 Full Changelog : https://github.com/ComposioHQ/composio/compare/@composio/cli@0.4.5-beta.447...@composio/cli@0.4.5-beta.448",
-  "date": "2026-10-15T22:57:16+00:00"
- },
- {
-  "source": "release: ComposioHQ/composio",
-  "title": "composio CLI Beta @composio/cli@0.4.5-beta.447",
-  "link": "https://github.com/ComposioHQ/composio/releases/tag/%40composio%2Fcli%400.4.5-beta.447",
-  "summary": "What's Changed refactor(cli): extract the account and connected-account families from the test layer by Alberto Schiabel (@jkomyno) in #4913 Full Changelog : https://github.com/ComposioHQ/composio/compare/@composio/cli@0.4.5-beta.446...@composio/cli@0.4.5-beta.447",
-  "date": "2026-10-15T22:48:58+00:00"
  }
 ]
