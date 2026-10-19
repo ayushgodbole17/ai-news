@@ -50,6 +50,13 @@
  },
  {
   "source": "MarkTechPost",
+  "title": "NVIDIA Open Sources Run:ai Under Apache 2.0 for Kubernetes GPU Orchestration",
+  "link": "https://www.marktechpost.com/2026/10/18/nvidia-runai-open-source-gpu-orchestration-kubernetes/",
+  "summary": "NVIDIA has released the full Run:ai GPU orchestration platform as open source under Apache 2.0. The release includes KAI Scheduler, CUDA 13.4 GPU fractioning, quota management, and a local Kind dev environment. The post NVIDIA Open Sources Run:ai Under Apache 2.0 for Kubernetes GPU Orchestration appeared first on MarkTechPost .",
+  "date": "2026-10-19T03:19:18+00:00"
+ },
+ {
+  "source": "MarkTechPost",
   "title": "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google\u2019s TimesFM-3",
   "link": "https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/",
   "summary": "Mistral released Timestral, a time series foundation model family from 5M to 209M parameters. The 209M model leads GIFT-Eval, TIME and fev-bench among zero-shot models and runs on CPU. The post Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google\u2019s TimesFM-3 appeared first on MarkTechPost .",
@@ -110,13 +117,6 @@
   "link": "https://www.marktechpost.com/2026/10/16/stepfun-releases-step-5-preview-open-weights-600b-moe-27b-active-1m-context/",
   "summary": "StepFun has released Step 5 Preview as open weights. FP8 and BF16 checkpoints are live on Hugging Face and ModelScope. Step 5 Preview is a sparse Mixture-of-Experts model from StepFun built for long-horizon agentic work. It has 600B total parameters, 27B active per token and up to 1M tokens of context. For developers, this is [\u2026] The post StepFun Releases Step 5 Preview Open Weights: 600B MoE, 27B",
   "date": "2026-10-17T06:29:55+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents",
-  "link": "https://www.marktechpost.com/2026/10/16/perplexity-open-sources-space-firecracker-microvm-sandbox-ai-agents/",
-  "summary": "Perplexity has open-sourced SPACE, the sandbox platform behind every task in Perplexity Computer. The Perplexity SPACE sandbox gives each agent task its own Firecracker microVM. Credentials and outbound traffic are controlled from outside that VM. The code ships under Apache 2.0 on GitHub. For teams building coding or browsing agents, this is a production-tested isolation [\u2026] The post Perplexity O",
-  "date": "2026-10-17T00:09:12+00:00"
  },
  {
   "source": "MIT News",
@@ -287,25 +287,11 @@
   "date": "2026-10-16T14:00:32+00:00"
  },
  {
-  "source": "GitHub",
-  "title": "Xcode 27 runner image generally available",
-  "link": "https://github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available",
-  "summary": "You can now use the generally available Xcode 27 runner image to build and test your Apple applications in GitHub Actions. Previously in public preview, this GitHub-hosted image runs on\u2026 The post Xcode 27 runner image generally available appeared first on The GitHub Blog .",
-  "date": "2026-10-16T04:36:30+00:00"
- },
- {
   "source": "Latent Space",
   "title": "[AINews] High Taste Testers Ep. 1",
   "link": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
   "summary": "a quiet day lets us pilot a new show",
   "date": "2026-10-17T07:47:38+00:00"
- },
- {
-  "source": "Latent Space",
-  "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
-  "link": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
-  "summary": "Nick Cammarata out of nowhere with some major claims!",
-  "date": "2026-10-16T04:16:45+00:00"
  },
  {
   "source": "Interconnects",
@@ -327,6 +313,13 @@
   "link": "https://blog.cloudflare.com/verified-bots-accountability/",
   "summary": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuring they remain accountable over time.",
   "date": "2026-10-16T13:00:00+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "NestJS 12: ESM Packages, Standard Schema Validation and Native Observability",
+  "link": "https://www.infoq.com/news/2026/10/nestjs-12-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "NestJS version 12 has been released, transitioning core packages to ESM and adding Standard Schema validation. It updates the CLI and introduces an observability SDK. Key changes include project generation choices between CJS and ESM, improved validation options, and lifecycle project hooks. Users will need Node.js 20.19+ or 22.12+. Migration guides are available for upgrading. By Daniel Curtis",
+  "date": "2026-10-19T06:31:00+00:00"
  },
  {
   "source": "InfoQ",
@@ -414,7 +407,7 @@
  },
  {
   "source": "InfoQ",
-  "title": "Presentation: Exploding GPUs",
+  "title": "Presentation: Exploding GPUs and the AI Infrastructure Challenge",
   "link": "https://www.infoq.com/presentations/ai-security-kubernetes-gpu-threats/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "Andrew Martin discusses why AI security is fundamentally tied to Kubernetes security. He shares insights into the evolving AI threat landscape, covering non-deterministic agent behavior, GPU supply chain vulnerabilities, shared compute risks, and practical defense strategies - from prompt firewalling to agentic identity - to help secure cloud-native AI workloads in production environments. By Andr",
   "date": "2026-10-16T11:00:00+00:00"
@@ -427,13 +420,6 @@
   "date": "2026-10-16T10:47:00+00:00"
  },
  {
-  "source": "InfoQ",
-  "title": "Article: Cryptographic Foundation of Mobile ID Systems: An ISO/IEC 18013-5 Enterprise Architecture Blueprint",
-  "link": "https://www.infoq.com/articles/enterprise-mobile-id-mdl-blueprint/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "This article provides a framework for asking the right architectural questions before an enterprise commits to an mDL provider or library. It shows which components can be abstracted safely, which trust boundaries must remain visible to the enterprise, what cryptographic and interoperability properties should be verified, and how requirements change across real-world use cases. By Praveen Kumar Go",
-  "date": "2026-10-16T09:00:00+00:00"
- },
- {
   "source": "ByteByteGo",
   "title": "EP229: 8 Chunking strategies for RAG-based agents",
   "link": "https://blog.bytebytego.com/p/ep229-8-chunking-strategies-for-rag",
@@ -441,21 +427,21 @@
   "date": "2026-10-17T15:30:51+00:00"
  },
  {
-  "source": "HN (297pts)",
+  "source": "HN (298pts)",
   "title": "Anthropic assigned highest junk credit rating in June",
   "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
   "summary": "",
   "date": "2026-10-16T18:11:42+00:00"
  },
  {
-  "source": "HN (158pts)",
+  "source": "HN (162pts)",
   "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
   "summary": "",
   "date": "2026-10-18T14:30:27+00:00"
  },
  {
-  "source": "HN (108pts)",
+  "source": "HN (112pts)",
   "title": "How employment is changing at Anthropic",
   "link": "https://www.anthropic.com/research/employment-at-anthropic",
   "summary": "",
@@ -483,14 +469,14 @@
   "date": "2026-10-16T14:18:44+00:00"
  },
  {
-  "source": "HN (1051pts)",
+  "source": "HN (1052pts)",
   "title": "Claude reveals ECDSA curve origins",
   "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
   "summary": "",
   "date": "2026-10-16T18:55:59+00:00"
  },
  {
-  "source": "HN (472pts)",
+  "source": "HN (476pts)",
   "title": "How the Claude Code team does code review",
   "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
   "summary": "",
@@ -504,35 +490,35 @@
   "date": "2026-10-16T18:00:18+00:00"
  },
  {
-  "source": "HN (52pts)",
+  "source": "HN (56pts)",
   "title": "Investing in the public benefit",
   "link": "https://www.anthropic.com/news/public-benefit-fund",
   "summary": "",
   "date": "2026-10-18T18:15:10+00:00"
  },
  {
-  "source": "HN (172pts)",
+  "source": "HN (179pts)",
   "title": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
   "link": "https://legendofhyrule.com/",
   "summary": "",
   "date": "2026-10-18T13:06:54+00:00"
  },
  {
-  "source": "HN (65pts)",
-  "title": "Show HN: 500 clocks in one 6.3 MB HTML file by Opus 5.5",
-  "link": "https://tkgally.github.io/500-clocks/",
-  "summary": "",
-  "date": "2026-10-18T04:04:58+00:00"
- },
- {
-  "source": "HN (57pts)",
+  "source": "HN (93pts)",
   "title": "Show HN: WhatsApp MCP running free on Cloudflare",
   "link": "https://github.com/finereli/whatsapp-mcp",
   "summary": "",
   "date": "2026-10-18T21:36:10+00:00"
  },
  {
-  "source": "HN (54pts)",
+  "source": "HN (66pts)",
+  "title": "Show HN: 500 clocks in one 6.3 MB HTML file by Opus 5.5",
+  "link": "https://tkgally.github.io/500-clocks/",
+  "summary": "",
+  "date": "2026-10-18T04:04:58+00:00"
+ },
+ {
+  "source": "HN (55pts)",
   "title": "Show HN: Things to Do API",
   "link": "https://thingstodoapi.com/",
   "summary": "",
@@ -546,28 +532,28 @@
   "date": "2026-10-16T18:54:47+00:00"
  },
  {
-  "source": "HN (322pts)",
-  "title": "Show HN: Llmspeed \u2013 feel how fast a local LLM runs before you buy the hardware",
-  "link": "https://llmspeed.dev/",
-  "summary": "",
-  "date": "2026-10-17T04:36:53+00:00"
- },
- {
-  "source": "HN (272pts)",
+  "source": "HN (364pts)",
   "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
   "link": "https://arxiv.org/abs/2610.18861",
   "summary": "",
   "date": "2026-10-18T20:48:14+00:00"
  },
  {
-  "source": "HN (112pts)",
+  "source": "HN (323pts)",
+  "title": "Show HN: Llmspeed \u2013 feel how fast a local LLM runs before you buy the hardware",
+  "link": "https://llmspeed.dev/",
+  "summary": "",
+  "date": "2026-10-17T04:36:53+00:00"
+ },
+ {
+  "source": "HN (168pts)",
   "title": "I built a programming language that LLMs can't use",
   "link": "https://blog.picheta.me/post/killswitch-lang/",
   "summary": "",
   "date": "2026-10-17T22:26:47+00:00"
  },
  {
-  "source": "HN (75pts)",
+  "source": "HN (135pts)",
   "title": "If you don't run your own LLM proxy, how do you know whats going on?",
   "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
   "summary": "",
@@ -581,21 +567,21 @@
   "date": "2026-10-16T14:16:34+00:00"
  },
  {
-  "source": "HN (372pts)",
+  "source": "HN (373pts)",
   "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
   "link": "https://github.com/cobanov/PS5LM",
   "summary": "",
   "date": "2026-10-16T18:32:35+00:00"
  },
  {
-  "source": "HN (104pts)",
+  "source": "HN (119pts)",
   "title": "PalmOS Lemmings",
   "link": "https://github.com/ardiri/palmos-lemmings",
   "summary": "",
   "date": "2026-10-18T17:56:59+00:00"
  },
  {
-  "source": "HN (148pts)",
+  "source": "HN (150pts)",
   "title": "Israeli settlers attack European diplomatic cars in West Bank beat French mayor",
   "link": "https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html",
   "summary": "",
@@ -616,14 +602,14 @@
   "date": "2026-10-16T14:35:43+00:00"
  },
  {
-  "source": "HN (242pts)",
+  "source": "HN (245pts)",
   "title": "Show HN: Sphinx \u2013 A hook that quizzes you on your AI's code before shipping",
   "link": "https://sphinx-six-theta.vercel.app/",
   "summary": "",
   "date": "2026-10-18T04:33:49+00:00"
  },
  {
-  "source": "HN (218pts)",
+  "source": "HN (219pts)",
   "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
   "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
   "summary": "",
@@ -714,13 +700,6 @@
   "date": "2026-10-16T13:40:26+00:00"
  },
  {
-  "source": "release: DietrichGebert/ponytail",
-  "title": "ponytail v5.3.0",
-  "link": "https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.0",
-  "summary": "Ponytail 5.3 puts a band above the Claude Code prompt: what the current task costs, its tokens and agent time, how much existing code it reused, and whether the tests still pass. One click opens the board, a local page with every task across your projects and a card to share. Everything stays on you",
-  "date": "2026-10-16T07:52:12+00:00"
- },
- {
   "source": "release: Graphify-Labs/graphify",
   "title": "graphify 0.9.92",
   "link": "https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.92",
@@ -736,6 +715,13 @@
  },
  {
   "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent v0.22.2+canary.20261019T071120Z",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261019T071120Z",
+  "summary": "Hermes Agent canary 20261019T071120Z",
+  "date": "2026-10-19T07:11:22+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
   "title": "hermes-agent v0.22.2+canary.20261018T065527Z",
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261018T065527Z",
   "summary": "Hermes Agent canary 20261018T065527Z",
@@ -747,13 +733,6 @@
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261017T065512Z",
   "summary": "Hermes Agent canary 20261017T065512Z",
   "date": "2026-10-17T06:55:14+00:00"
- },
- {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent v0.22.2+canary.20261016T065950Z",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261016T065950Z",
-  "summary": "Hermes Agent canary 20261016T065950Z",
-  "date": "2026-10-16T06:59:52+00:00"
  },
  {
   "source": "release: PrefectHQ/fastmcp",
@@ -773,8 +752,15 @@
   "source": "release: Significant-Gravitas/AutoGPT",
   "title": "AutoGPT Preview seed fixture (rolling)",
   "link": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/preview-seed-fixture",
-  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@2048fa53ff7d (migration head: 20261017120000_add_expert_autopilot_mode). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migration",
-  "date": "2026-10-17T07:56:53+00:00"
+  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@03dfdcabf11a (migration head: 20261017120000_add_expert_autopilot_mode). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migration",
+  "date": "2026-10-19T06:23:47+00:00"
+ },
+ {
+  "source": "release: VectifyAI/PageIndex",
+  "title": "PageIndex PageIndex 0.4.4 \u2014 cheaper than vector index; also runs on your Claude subscription",
+  "link": "https://github.com/VectifyAI/PageIndex/releases/tag/v0.4.4",
+  "summary": "Unified SDK: vectorless RAG. Local or cloud . Index or chat. Faster : trees are created from layout stats. Cheaper than vector index : LLMs only write node summaries. Runs on your Claude subscription . Index, to chat, to agent integration, one client. Local mode needs no server, no vector DB, no Pag",
+  "date": "2026-10-19T06:14:21+00:00"
  },
  {
   "source": "release: VectifyAI/PageIndex",
@@ -855,6 +841,13 @@
  },
  {
   "source": "release: comet-ml/opik",
+  "title": "opik 2.2.104-7098",
+  "link": "https://github.com/comet-ml/opik/releases/tag/2.2.104-7098",
+  "summary": "[OPIK-8833] [BE] fix: run the spans list, stream and stats work on th\u2026",
+  "date": "2026-10-19T07:16:43+00:00"
+ },
+ {
+  "source": "release: comet-ml/opik",
   "title": "opik 2.2.104-9012-merge-3948",
   "link": "https://github.com/comet-ml/opik/releases/tag/2.2.104-9012-merge-3948",
   "summary": "Merge 283d89d into 535e611 \u2026",
@@ -871,13 +864,6 @@
   "source": "release: comet-ml/opik",
   "title": "opik 2.2.104-miguelg-opik-8539-ag-7093",
   "link": "https://github.com/comet-ml/opik/releases/tag/2.2.104-miguelg-opik-8539-ag-7093",
-  "summary": "Merge remote-tracking branch 'origin/main' into miguelg/OPIK-8539-age\u2026",
-  "date": "2026-10-16T15:22:57+00:00"
- },
- {
-  "source": "release: comet-ml/opik",
-  "title": "opik 2.2.104-miguelg-opik-8539-ag-7092",
-  "link": "https://github.com/comet-ml/opik/releases/tag/2.2.104-miguelg-opik-8539-ag-7092",
   "summary": "Merge remote-tracking branch 'origin/main' into miguelg/OPIK-8539-age\u2026",
   "date": "2026-10-16T15:22:57+00:00"
  },
@@ -976,8 +962,22 @@
   "source": "release: infiniflow/ragflow",
   "title": "ragflow nightly",
   "link": "https://github.com/infiniflow/ragflow/releases/tag/nightly",
-  "summary": "Release nightly created from 543e167 at 2026-10-18 21:14:22+08:00",
-  "date": "2026-10-18T13:14:29+00:00"
+  "summary": "Release nightly created from 99f94c6 at 2026-10-19 15:30:04+08:00",
+  "date": "2026-10-19T07:30:12+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261019-3: Go: update admin client (#21135)",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261019-3",
+  "summary": "Signed-off-by: Jin Hai haijin.chn@gmail.com",
+  "date": "2026-10-19T07:19:15+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261019-2",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261019-2",
+  "summary": "feat: migrate permission schema fields ( #21085 )",
+  "date": "2026-10-19T06:13:09+00:00"
  },
  {
   "source": "release: infiniflow/ragflow",
@@ -985,13 +985,6 @@
   "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261019",
   "summary": "feat(parser): extract SVG text in Go picture ingestion ( #20523 )",
   "date": "2026-10-17T00:23:12+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow v1.0.0-rc2",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/v1.0.0-rc2",
-  "summary": "1.0.0-rc2 is the second release candidate for v1.0.0. This release fixes several issues in rc1 and introduces new features and expanded support. Highlights Introduced Agentic mode for chat, replacing the Low, Medium, High, and Ultra thinking levels. Preserved compatibility with existing v1.0.0-rc1 d",
-  "date": "2026-10-16T10:18:21+00:00"
  },
  {
   "source": "release: koala73/worldmonitor",
@@ -1043,6 +1036,27 @@
   "date": "2026-10-19T01:19:41+00:00"
  },
  {
+  "source": "release: modelcontextprotocol/servers",
+  "title": "servers v2.0.0",
+  "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0",
+  "summary": "Servers refactored to modern era This release refactors all the servers to support the modern era spec, while still answering legacy era clients as expected. Packages Package Version Registry In this release @modelcontextprotocol/server-everything 2.0.0 npm published @modelcontextprotocol/server-fil",
+  "date": "2026-10-19T06:47:49+00:00"
+ },
+ {
+  "source": "release: modelcontextprotocol/servers",
+  "title": "servers v1.0.0",
+  "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
+  "summary": "Final Legacy Server Release This release contains many bug and security fixes, and represents the final release of the legacy era servers. Packages Package Version Registry In this release @modelcontextprotocol/server-everything 1.0.0 npm published @modelcontextprotocol/server-filesystem 1.0.0 npm p",
+  "date": "2026-10-19T04:17:24+00:00"
+ },
+ {
+  "source": "release: moltis-org/moltis",
+  "title": "moltis 20261019.01",
+  "link": "https://github.com/moltis-org/moltis/releases/tag/20261019.01",
+  "summary": "Release 20261019.01",
+  "date": "2026-10-19T05:13:54+00:00"
+ },
+ {
   "source": "release: moltis-org/moltis",
   "title": "moltis 20261018.01",
   "link": "https://github.com/moltis-org/moltis/releases/tag/20261018.01",
@@ -1074,29 +1088,29 @@
   "source": "release: n8n-io/n8n",
   "title": "n8n stable",
   "link": "https://github.com/n8n-io/n8n/releases/tag/stable",
-  "summary": "2.43.7 (2026-10-16) Features core: Suspend in-flight production executions at worker shutdown ( #40944 ) ( 5863179 )",
-  "date": "2026-10-16T07:25:00+00:00"
+  "summary": "2.43.8 (2026-10-19) Bug Fixes core: Turn off expression spans by default ( #41310 ) ( e88162a )",
+  "date": "2026-10-19T07:24:50+00:00"
  },
  {
   "source": "release: n8n-io/n8n",
-  "title": "n8n n8n@2.44.3",
-  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.3",
-  "summary": "2.44.3 (2026-10-16) Bug Fixes core: Keep Observer detail lines instead of discarding the response ( #41157 ) ( c09e0a9 )",
-  "date": "2026-10-16T07:26:13+00:00"
+  "title": "n8n n8n@2.44.4",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.4",
+  "summary": "2.44.4 (2026-10-19) Bug Fixes core: Reuse connections in the log streaming webhook destination ( #41281 ) ( b79afe2 ) core: Turn off expression spans by default ( #41309 ) ( 6965193 )",
+  "date": "2026-10-19T07:26:54+00:00"
  },
  {
   "source": "release: n8n-io/n8n",
-  "title": "n8n n8n@2.43.7",
-  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.7",
-  "summary": "2.43.7 (2026-10-16) Features core: Suspend in-flight production executions at worker shutdown ( #40944 ) ( 5863179 )",
-  "date": "2026-10-16T07:27:47+00:00"
+  "title": "n8n n8n@2.43.8",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.8",
+  "summary": "2.43.8 (2026-10-19) Bug Fixes core: Turn off expression spans by default ( #41310 ) ( e88162a )",
+  "date": "2026-10-19T07:26:41+00:00"
  },
  {
   "source": "release: n8n-io/n8n",
   "title": "n8n beta",
   "link": "https://github.com/n8n-io/n8n/releases/tag/beta",
-  "summary": "2.44.3 (2026-10-16) Bug Fixes core: Keep Observer detail lines instead of discarding the response ( #41157 ) ( c09e0a9 )",
-  "date": "2026-10-16T07:23:27+00:00"
+  "summary": "2.44.4 (2026-10-19) Bug Fixes core: Reuse connections in the log streaming webhook destination ( #41281 ) ( b79afe2 ) core: Turn off expression spans by default ( #41309 ) ( 6965193 )",
+  "date": "2026-10-19T07:24:35+00:00"
  },
  {
   "source": "release: open-webui/open-webui",
@@ -1104,6 +1118,13 @@
   "link": "https://github.com/open-webui/open-webui/releases/tag/v0.12.3",
   "summary": "Added \ud83d\udd10 End-to-end encrypted chats. Direct messages and private group channels can now hold a temporary end-to-end encrypted chat: a member picks Encrypted Chat in the channel menu, the other members see \"Encrypted chat in progress\" with a Join link, messages of up to 16 KiB are encrypted in the bro",
   "date": "2026-10-16T11:46:21+00:00"
+ },
+ {
+  "source": "release: pipecat-ai/pipecat",
+  "title": "pipecat v1.13.0",
+  "link": "https://github.com/pipecat-ai/pipecat/releases/tag/v1.13.0",
+  "summary": "Added Added support for clients sending files and images to the bot via the new RTVI send-file message, incorporating them into the LLM context. New frames: FileRawFrame , InputFileRawFrame , and UserFileRawFrame , carrying a file payload as inline base64 bytes or as a URL. New LLMContext methods: c",
+  "date": "2026-10-19T06:35:05+00:00"
  },
  {
   "source": "release: ruvnet/ruflo",
@@ -1513,10 +1534,31 @@
  },
  {
   "source": "MarkTechPost",
-  "title": "Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index",
-  "link": "https://www.marktechpost.com/2026/10/15/liquid-ai-d1-ultra-decision-model/",
-  "summary": "Liquid AI released d1-ultra, a text and image decision model that returns calibrated probabilities in 1 forward pass. It scores 65 on the Artificial Analysis Decision Index and costs $0.042 per million input tokens. The post Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index appeared first on MarkTechPost .",
-  "date": "2026-10-16T06:26:41+00:00"
+  "title": "Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents",
+  "link": "https://www.marktechpost.com/2026/10/16/perplexity-open-sources-space-firecracker-microvm-sandbox-ai-agents/",
+  "summary": "Perplexity has open-sourced SPACE, the sandbox platform behind every task in Perplexity Computer. The Perplexity SPACE sandbox gives each agent task its own Firecracker microVM. Credentials and outbound traffic are controlled from outside that VM. The code ships under Apache 2.0 on GitHub. For teams building coding or browsing agents, this is a production-tested isolation [\u2026] The post Perplexity O",
+  "date": "2026-10-17T00:09:12+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "Article: Cryptographic Foundation of Mobile ID Systems: An ISO/IEC 18013-5 Enterprise Architecture Blueprint",
+  "link": "https://www.infoq.com/articles/enterprise-mobile-id-mdl-blueprint/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "This article provides a framework for asking the right architectural questions before an enterprise commits to an mDL provider or library. It shows which components can be abstracted safely, which trust boundaries must remain visible to the enterprise, what cryptographic and interoperability properties should be verified, and how requirements change across real-world use cases. By Praveen Kumar Go",
+  "date": "2026-10-16T09:00:00+00:00"
+ },
+ {
+  "source": "release: comet-ml/opik",
+  "title": "opik 2.2.104-miguelg-opik-8539-ag-7092",
+  "link": "https://github.com/comet-ml/opik/releases/tag/2.2.104-miguelg-opik-8539-ag-7092",
+  "summary": "Merge remote-tracking branch 'origin/main' into miguelg/OPIK-8539-age\u2026",
+  "date": "2026-10-16T15:22:57+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow v1.0.0-rc2",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/v1.0.0-rc2",
+  "summary": "1.0.0-rc2 is the second release candidate for v1.0.0. This release fixes several issues in rc1 and introduces new features and expanded support. Highlights Introduced Agentic mode for chat, replacing the Low, Medium, High, and Ultra thinking levels. Preserved compatibility with existing v1.0.0-rc1 d",
+  "date": "2026-10-16T10:18:21+00:00"
  },
  {
   "source": "release: firecrawl/firecrawl",
@@ -1545,13 +1587,6 @@
   "link": "https://www.infoq.com/news/2026/10/chainguard-workspaces-checks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "Software supply chain security company Chainguard has announced two beta products for running and testing code written by developers and AI agents. Chainguard Workspaces provides remote development environments based on hardened microVMs, while Chainguard Checks moves continuous integration into the development loop. The company announced both products at its Assemble London event. By Matt Saunder",
   "date": "2026-10-16T09:00:00+00:00"
- },
- {
-  "source": "InfoQ",
-  "title": "Microsoft Commits Maia to Multi-Gigawatt Inference, and Its Efficiency Metric Draws Questions",
-  "link": "https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "Microsoft will scale its Maia accelerator family to multi-gigawatt deployments from 2027, making it the primary inference system for its own products. Maia 300 collapses scale-up and scale-out onto one Ethernet fabric and moves KV state between prefill and decode workers without leaving it. Practitioners have questioned the tokens-per-watt claim that leads the announcement. By Steef-Jan Wiggers",
-  "date": "2026-10-16T06:02:00+00:00"
  },
  {
   "source": "release: comet-ml/opik",
