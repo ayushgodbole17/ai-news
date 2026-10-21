@@ -127,6 +127,20 @@
  },
  {
   "source": "MarkTechPost",
+  "title": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
+  "link": "https://www.marktechpost.com/2026/10/20/mistral-voxtral-3-speech-models-voice-agent-sdk/",
+  "summary": "Mistral AI released Voxtral 3, a family of 3 transcription models, 1 text-to-speech model and a LiveKit-based voice agent SDK. Voxtral Small Transcribe 3 scores 2.1% AA-WER, ranking #3 on Artificial Analysis. The post Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK appeared first on MarkTechPost .",
+  "date": "2026-10-21T06:03:12+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Google Cloud Ships llm-d 1.0 With Cache-Aware Routing for TPU and GPU Fleets",
+  "link": "https://www.marktechpost.com/2026/10/20/llm-d-1-0-open-source-distributed-inference-stack/",
+  "summary": "Google, Red Hat and IBM released llm-d 1.0, an open-source Kubernetes-native stack for distributed LLM inference. It adds multi-tenant flow control, zero-downtime upgrades and agent-aware routing across vLLM, SGLang, TPUs and GPUs. The post Google Cloud Ships llm-d 1.0 With Cache-Aware Routing for TPU and GPU Fleets appeared first on MarkTechPost .",
+  "date": "2026-10-21T04:33:40+00:00"
+ },
+ {
+  "source": "MarkTechPost",
   "title": "Google Open-Sources TorchTPU, a Native PyTorch Backend for Cloud TPUs",
   "link": "https://www.marktechpost.com/2026/10/20/google-torchtpu-open-source-native-pytorch-tpu/",
   "summary": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Cloud TPUs. It runs eager by default, compiles through torch.compile and XLA, and replaces PyTorch/XLA for new workloads. The post Google Open-Sources TorchTPU, a Native PyTorch Backend for Cloud TPUs appeared first on MarkTechPost .",
@@ -182,20 +196,6 @@
   "date": "2026-10-19T03:19:18+00:00"
  },
  {
-  "source": "MarkTechPost",
-  "title": "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google\u2019s TimesFM-3",
-  "link": "https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/",
-  "summary": "Mistral released Timestral, a time series foundation model family from 5M to 209M parameters. The 209M model leads GIFT-Eval, TIME and fev-bench among zero-shot models and runs on CPU. The post Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google\u2019s TimesFM-3 appeared first on MarkTechPost .",
-  "date": "2026-10-19T01:18:17+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web",
-  "link": "https://www.marktechpost.com/2026/10/18/tinyfish-free-search-ai-agent-token-cost/",
-  "summary": "An AI agent that reads the web pays 2 kinds of cost. The first is the retrieval charge: what a search or fetch API bills per request. The second is model processing: content passed from retrieved pages into an AI model consumes tokens, while reasoning and generated responses add further costs. TinyFish, a web infrastructure [\u2026] The post TinyFish Makes Search Free: What It Really Costs an AI Agent ",
-  "date": "2026-10-18T18:20:28+00:00"
- },
- {
   "source": "MIT News",
   "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
   "link": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
@@ -213,14 +213,14 @@
   "source": "TechCrunch AI",
   "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
   "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-  "summary": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+  "summary": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
   "date": "2026-10-20T23:01:23+00:00"
  },
  {
   "source": "TechCrunch AI",
   "title": "Hugging Face CEO warns that Netflix\u2019s OpenAI hack documentary isn\u2019t accurate",
   "link": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
-  "summary": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+  "summary": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
   "date": "2026-10-20T22:24:02+00:00"
  },
  {
@@ -234,7 +234,7 @@
   "source": "TechCrunch AI",
   "title": "SpaceX\u2019s AI business is beating expectations",
   "link": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-  "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
+  "summary": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
   "date": "2026-10-20T20:40:41+00:00"
  },
  {
@@ -456,6 +456,20 @@
  },
  {
   "source": "Latent Space",
+  "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+  "link": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+  "summary": "An open source \u201cbomb\u201d drops from China",
+  "date": "2026-10-21T06:54:09+00:00"
+ },
+ {
+  "source": "Latent Space",
+  "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC \u2014 Alex Lieberman & CJ Hess",
+  "link": "https://www.latent.space/p/tenex",
+  "summary": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+  "date": "2026-10-21T05:01:26+00:00"
+ },
+ {
+  "source": "Latent Space",
   "title": "The Programmable Data Center \u2014 Evan Conrad, SF Compute",
   "link": "https://www.latent.space/p/sfcompute2",
   "summary": "From GPU trading to physical settlement, independent markets, and programmable compute",
@@ -637,13 +651,6 @@
   "date": "2026-10-18T14:29:00+00:00"
  },
  {
-  "source": "InfoQ",
-  "title": "AWS Will Run Its European Sovereign Cloud Without the Global Backbone for Several Hours",
-  "link": "https://www.infoq.com/news/2026/10/aws-sovereign-cloud-exercise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "On October 24, AWS will operate its European Sovereign Cloud without a connection to the AWS Global Network backbone, with a team of EU residents and the region\u2019s own hardware and software. AWS says neither of the two systems being severed is operation-critical, and practitioners are divided over whether the exercise answers the question customers are asking. By Steef-Jan Wiggers",
-  "date": "2026-10-18T05:30:00+00:00"
- },
- {
   "source": "ByteByteGo",
   "title": "Why Shopify Migrated From React Native",
   "link": "https://blog.bytebytego.com/p/why-shopify-migrated-from-react-native",
@@ -672,35 +679,42 @@
   "date": "2026-10-18T10:49:26+00:00"
  },
  {
-  "source": "HN (150pts)",
+  "source": "HN (151pts)",
   "title": "The obscure trust looming over Anthropic's IPO",
   "link": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
   "summary": "",
   "date": "2026-10-19T12:06:03+00:00"
  },
  {
-  "source": "HN (124pts)",
+  "source": "HN (141pts)",
   "title": "Anthropic logged net loss of over $80B in first half of 2026",
   "link": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
   "summary": "",
   "date": "2026-10-20T20:09:46+00:00"
  },
  {
-  "source": "HN (59pts)",
+  "source": "HN (34pts)",
+  "title": "Anthropic recorded a staggering $80B net loss in the first half of 2026",
+  "link": "https://twitter.com/Polymarket/status/2112634886070919426",
+  "summary": "",
+  "date": "2026-10-20T22:27:07+00:00"
+ },
+ {
+  "source": "HN (60pts)",
   "title": "Show HN: I built a task system to handle the drudgery so I could focus on tasks",
   "link": "https://3anddoneapp.com/try",
   "summary": "",
   "date": "2026-10-19T13:07:07+00:00"
  },
  {
-  "source": "HN (46pts)",
+  "source": "HN (49pts)",
   "title": "Launch HN: Respan (YC W24) \u2013 Open-source Rust AI gateway built around plugins",
   "link": "https://news.ycombinator.com/item?id=50167583",
   "summary": "",
   "date": "2026-10-20T15:09:29+00:00"
  },
  {
-  "source": "HN (98pts)",
+  "source": "HN (104pts)",
   "title": "Claude designed protein binders against scorpion neurotoxins",
   "link": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
   "summary": "",
@@ -714,7 +728,7 @@
   "date": "2026-10-18T18:15:10+00:00"
  },
  {
-  "source": "HN (173pts)",
+  "source": "HN (178pts)",
   "title": "NixOS is making me less afraid",
   "link": "https://entropicthoughts.com/nixos-is-making-me-less-afraid",
   "summary": "",
@@ -728,7 +742,7 @@
   "date": "2026-10-19T05:55:31+00:00"
  },
  {
-  "source": "HN (57pts)",
+  "source": "HN (60pts)",
   "title": "Show HN: Penmentor \u2013 Claude marks up your handwritten math like a teacher",
   "link": "https://github.com/AbdullahAlhariri/penmentor",
   "summary": "",
@@ -749,14 +763,14 @@
   "date": "2026-10-18T21:36:10+00:00"
  },
  {
-  "source": "HN (129pts)",
+  "source": "HN (131pts)",
   "title": "Maxwell: A new kind of model that sits between code and hardware",
   "link": "https://heymaxwell.ai/",
   "summary": "",
   "date": "2026-10-19T13:47:56+00:00"
  },
  {
-  "source": "HN (93pts)",
+  "source": "HN (98pts)",
   "title": "Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs",
   "link": "https://deathplanswitch.com/",
   "summary": "",
@@ -770,14 +784,14 @@
   "date": "2026-10-19T13:53:52+00:00"
  },
  {
-  "source": "HN (58pts)",
+  "source": "HN (60pts)",
   "title": "Show HN: Jev Cards, Can you beat a vision model at a picture quiz?",
   "link": "https://jevcards.com",
   "summary": "",
   "date": "2026-10-20T15:11:56+00:00"
  },
  {
-  "source": "HN (716pts)",
+  "source": "HN (724pts)",
   "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
   "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
   "summary": "",
@@ -791,14 +805,14 @@
   "date": "2026-10-18T20:48:14+00:00"
  },
  {
-  "source": "HN (327pts)",
+  "source": "HN (337pts)",
   "title": "Publish fake stats, get cited in LLMs",
   "link": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
   "summary": "",
   "date": "2026-10-20T13:06:22+00:00"
  },
  {
-  "source": "HN (300pts)",
+  "source": "HN (301pts)",
   "title": "If you don't run your own LLM proxy, how do you know whats going on?",
   "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
   "summary": "",
@@ -819,14 +833,14 @@
   "date": "2026-10-19T16:00:18+00:00"
  },
  {
-  "source": "HN (158pts)",
+  "source": "HN (159pts)",
   "title": "PalmOS Lemmings",
   "link": "https://github.com/ardiri/palmos-lemmings",
   "summary": "",
   "date": "2026-10-18T17:56:59+00:00"
  },
  {
-  "source": "HN (127pts)",
+  "source": "HN (185pts)",
   "title": "Show HN: VoidAccess \u2013 open-source dark web OSINT, from query to a graph",
   "link": "https://github.com/KatrielMoses/voidaccess",
   "summary": "",
@@ -840,18 +854,11 @@
   "date": "2026-10-18T14:58:10+00:00"
  },
  {
-  "source": "HN (35pts)",
+  "source": "HN (42pts)",
   "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
   "link": "https://research.poh.org/bot-benchmarking-2026/",
   "summary": "",
   "date": "2026-10-20T17:10:31+00:00"
- },
- {
-  "source": "HN (252pts)",
-  "title": "Show HN: Sphinx \u2013 A hook that quizzes you on your AI's code before shipping",
-  "link": "https://sphinx-six-theta.vercel.app/",
-  "summary": "",
-  "date": "2026-10-18T04:33:49+00:00"
  },
  {
   "source": "HN (74pts)",
@@ -859,6 +866,13 @@
   "link": "https://www.theatlantic.com/ideas/2026/10/ai-regulation-transhumanism-oligarchs/689013/",
   "summary": "",
   "date": "2026-10-19T15:07:11+00:00"
+ },
+ {
+  "source": "release: BerriAI/litellm",
+  "title": "litellm v1.104.5",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.104.5",
+  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
+  "date": "2026-10-21T05:47:40+00:00"
  },
  {
   "source": "release: BerriAI/litellm",
@@ -880,13 +894,6 @@
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.104.4",
   "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
   "date": "2026-10-20T02:26:46+00:00"
- },
- {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.103.6",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.103.6",
-  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
-  "date": "2026-10-20T17:26:16+00:00"
  },
  {
   "source": "release: ComposioHQ/composio",
@@ -932,6 +939,13 @@
  },
  {
   "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent v0.22.2+canary.20261021T070232Z",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261021T070232Z",
+  "summary": "Hermes Agent canary 20261021T070232Z",
+  "date": "2026-10-21T07:02:34+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
   "title": "hermes-agent v0.22.2+canary.20261020T065957Z",
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261020T065957Z",
   "summary": "Hermes Agent canary 20261020T065957Z",
@@ -950,13 +964,6 @@
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.1-v0.22.3",
   "summary": "{\"attempt\":1,\"autopublish\":false,\"claimEpoch\":1792511169,\"commit\":\"03\u2026",
   "date": "2026-10-20T15:46:09+00:00"
- },
- {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent abandoned-rc.1-v0.22.3",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.1-v0.22.3",
-  "summary": "{\"attempt\":1,\"attemptRef\":\"rc.1-v0.22.3\",\"schema\":1,\"version\":\"0.22.3\"}",
-  "date": "2026-10-20T23:05:01+00:00"
  },
  {
   "source": "release: PrefectHQ/fastmcp",
@@ -992,6 +999,13 @@
   "link": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/preview-seed-fixture",
   "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@dae22d41d078 (migration head: 20261019120000_push_subscription_unique_endpoint). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own m",
   "date": "2026-10-21T00:16:43+00:00"
+ },
+ {
+  "source": "release: anthropics/claude-agent-sdk-python",
+  "title": "claude-agent-sdk-python v0.2.170",
+  "link": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.170",
+  "summary": "Bug Fixes Fixed parallel tool calls missing from session messages : get_session_messages and get_session_messages_from_store now return every tool call and result from turns that ran tools in parallel. Previously only one branch of the forked transcript was followed, dropping some calls and results ",
+  "date": "2026-10-21T04:15:33+00:00"
  },
  {
   "source": "release: anthropics/claude-agent-sdk-python",
@@ -1100,6 +1114,13 @@
  },
  {
   "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.580",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.580",
+  "summary": "Release API image v2.11.580",
+  "date": "2026-10-21T04:52:43+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
   "title": "firecrawl v2.11.579",
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.579",
   "summary": "Release API image v2.11.579",
@@ -1118,13 +1139,6 @@
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.577",
   "summary": "Release API image v2.11.577",
   "date": "2026-10-21T03:29:25+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.576",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.576",
-  "summary": "Release API image v2.11.576",
-  "date": "2026-10-21T03:12:33+00:00"
  },
  {
   "source": "release: google-gemini/gemini-cli",
@@ -1155,6 +1169,13 @@
   "date": "2026-10-20T21:17:57+00:00"
  },
  {
+  "source": "release: harry0703/MoneyPrinterTurbo",
+  "title": "MoneyPrinterTurbo v1.3.9",
+  "link": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.9",
+  "summary": "English | \u4e2d\u6587 Highlights Added official mpt pip packaging . Start the WebUI with mpt webui or generate videos with mpt cli . Added static and slow zoom image effects for local and AI-generated images. Slow zoom remains the default. Added Kimi Code subscription access with browser authorization, along",
+  "date": "2026-10-21T07:31:47+00:00"
+ },
+ {
   "source": "release: huggingface/transformers",
   "title": "transformers Patch release v5.20.2",
   "link": "https://github.com/huggingface/transformers/releases/tag/v5.20.2",
@@ -1167,6 +1188,13 @@
   "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261021",
   "summary": "feat(tenant): add tenant roles and permissions ( #21257 )",
   "date": "2026-10-21T02:32:52+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261021-2: fix services stale clean (#21277)",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261021-2",
+  "summary": "Signed-off-by: Jin Hai haijin.chn@gmail.com",
+  "date": "2026-10-21T07:15:27+00:00"
  },
  {
   "source": "release: infiniflow/ragflow",
@@ -1183,11 +1211,11 @@
   "date": "2026-10-20T05:52:48+00:00"
  },
  {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow nightly",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/nightly",
-  "summary": "Release nightly created from 7eb673b at 2026-10-21 03:00:26+00:00",
-  "date": "2026-10-21T03:00:31+00:00"
+  "source": "release: koala73/worldmonitor",
+  "title": "worldmonitor convex-deployed",
+  "link": "https://github.com/koala73/worldmonitor/releases/tag/convex-deployed",
+  "summary": "docs(legal): state what each subprocessor processes; correct the list\u2026",
+  "date": "2026-10-21T07:36:14+00:00"
  },
  {
   "source": "release: koala73/worldmonitor",
@@ -1202,13 +1230,6 @@
   "link": "https://github.com/koala73/worldmonitor/releases/tag/rust-v0.1.0",
   "summary": "WorldMonitor Rust SDK 0.1.0",
   "date": "2026-10-20T09:15:45+00:00"
- },
- {
-  "source": "release: koala73/worldmonitor",
-  "title": "worldmonitor convex-deployed: fix(entitlements): accept historyDays in the Redis cache sync (#9452)",
-  "link": "https://github.com/koala73/worldmonitor/releases/tag/convex-deployed",
-  "summary": "#9435 added historyDays to the entitlements table validator but not to syncEntitlementCache's argument validator. upsertEntitlements hands the action the exact features object it just wrote, and v.object rejects extra keys, so the immediate Redis cache sync failed after every entitlement write (Sent",
-  "date": "2026-10-20T08:50:02+00:00"
  },
  {
   "source": "release: koala73/worldmonitor",
@@ -1302,11 +1323,18 @@
   "date": "2026-10-18T22:30:43+00:00"
  },
  {
-  "source": "release: morluto/rea",
-  "title": "rea rea-agents: v6.7.0",
-  "link": "https://github.com/morluto/rea/releases/tag/rea-agents-6.7.0",
-  "summary": "6.7.0 (2026-10-18) Highlights Client configuration edits follow the duplicate-member semantics used by MCP clients. Changes Includes the 6.6.0 changes and migration notes . That version was tagged but was not published to npm. Fixes Client configuration: Setup edits the last repeated JSON/JSONC memb",
-  "date": "2026-10-18T07:46:33+00:00"
+  "source": "release: n8n-io/n8n",
+  "title": "n8n stable",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/stable",
+  "summary": "2.44.5 (2026-10-21) Bug Fixes core: Key queue job outcomes by job on shutdown resume ( #41404 ) ( 1f074d4 ) editor: Load credential types on startup ( #41405 ) ( 6ff3198 )",
+  "date": "2026-10-21T07:27:36+00:00"
+ },
+ {
+  "source": "release: n8n-io/n8n",
+  "title": "n8n n8n@2.44.5",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.5",
+  "summary": "2.44.5 (2026-10-21) Bug Fixes core: Key queue job outcomes by job on shutdown resume ( #41404 ) ( 1f074d4 ) editor: Load credential types on startup ( #41405 ) ( 6ff3198 )",
+  "date": "2026-10-21T07:30:18+00:00"
  },
  {
   "source": "release: n8n-io/n8n",
@@ -1323,20 +1351,6 @@
   "date": "2026-10-20T09:11:10+00:00"
  },
  {
-  "source": "release: n8n-io/n8n",
-  "title": "n8n stable",
-  "link": "https://github.com/n8n-io/n8n/releases/tag/stable",
-  "summary": "2.44.4 (2026-10-19) Bug Fixes core: Reuse connections in the log streaming webhook destination ( #41281 ) ( b79afe2 ) core: Turn off expression spans by default ( #41309 ) ( 6965193 )",
-  "date": "2026-10-20T09:19:58+00:00"
- },
- {
-  "source": "release: n8n-io/n8n",
-  "title": "n8n n8n@2.44.4",
-  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.4",
-  "summary": "2.44.4 (2026-10-19) Bug Fixes core: Reuse connections in the log streaming webhook destination ( #41281 ) ( b79afe2 ) core: Turn off expression spans by default ( #41309 ) ( 6965193 )",
-  "date": "2026-10-20T09:19:56+00:00"
- },
- {
   "source": "release: pipecat-ai/pipecat",
   "title": "pipecat v1.13.0",
   "link": "https://github.com/pipecat-ai/pipecat/releases/tag/v1.13.0",
@@ -1345,31 +1359,31 @@
  },
  {
   "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.59.7 \u2014 policy lock hardening + session_list total fix",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.7",
+  "summary": "Fixes Policy lock fails fast on path errors instead of timing out ( #4343 ). acquireLock() treated every openSync() error as lock contention, so a permission error, missing parent directory, or a directory/symlink/FIFO planted at the lock path waited the full 5s lock budget on every MCP tool call be",
+  "date": "2026-10-21T07:04:22+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.59.6 \u2014 memory export --path support",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.6",
+  "summary": "Fixes memory export can now target an explicit store ( #4341 , fixes #3196 ). It was the only primary memory subcommand without --path , so a specific snapshot ( .swarm/agentdb-memory.db , an archive, a restored backup) could not be exported from the CLI. An explicit --path / dbPath is now a true si",
+  "date": "2026-10-21T04:58:47+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.59.5 \u2014 distill both memory stores",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.5",
+  "summary": "Fixes Memory distillation now covers both project stores ( #4338 , fixes #3446 ). memory distill run and the daemon's consolidate worker previously resolved only memory.db , which in an MCP-only project often lacks the AgentDB target tables, so every tick skipped while the actual corpus accumulated ",
+  "date": "2026-10-21T04:26:21+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
   "title": "ruflo v3.59.4 \u2014 hive-mind_init persistence contract fix",
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.4",
   "summary": "Fixes hive-mind_init now honors its own advertised persistence contract ( #4336 ). maxAgents , memoryBackend , and persist are declared in the MCP schema and validated before any filesystem write. persist:false now genuinely writes neither state.json nor the bootstrap secret \u2014 previously the respons",
   "date": "2026-10-21T02:30:15+00:00"
- },
- {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.59.3 \u2014 Windows memory-list crash fix",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.3",
-  "summary": "Fixes memory list (and other CLI commands) could intermittently crash on exit with a libuv assertion ( UV_HANDLE_CLOSING ), most visible on Windows ( #4334 ). The CLI's exit handler now sets process.exitCode instead of forcing process.exit(0) , and best-effort awaits shutdownBridge() to drain cached",
-  "date": "2026-10-21T01:59:47+00:00"
- },
- {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.59.2 \u2014 task cancel/status correctness fixes",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.2",
-  "summary": "Fixes task cancel ( #4331 ): previously claimed success for an unknown or already-finished task id (and printed Previous status: undefined ), and overwrote a completed task's result with the cancel reason. Now returns previousStatus , refuses to touch a finished task, and the CLI exits 1 for either ",
-  "date": "2026-10-21T01:08:28+00:00"
- },
- {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.59.1 \u2014 npx ruflo tui: mouse clicking on by default",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.1",
-  "summary": "Fixes npx ruflo tui : mouse clicking is now on by default \u2014 click a page name in the top bar, scroll with the wheel. --mouse had been opt-in since ADR-489 with only a one-time startup notice ( #4305 ), but users kept reporting that clicking did nothing. --no-mouse remains available for terminals whe",
-  "date": "2026-10-20T17:26:30+00:00"
  },
  {
   "source": "release: thedotmack/claude-mem",
@@ -1793,66 +1807,192 @@
  },
  {
   "source": "HF Papers (1 up)",
+  "title": "SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration",
+  "link": "https://huggingface.co/papers/2610.26837",
+  "summary": "Diffusion Transformers (DiTs) achieve high-fidelity image and video generation, but they suffer from substantial inference costs due to repeated transformer evaluations across many denoising steps. Feature caching reduces this cost by reusing features across denoising steps. Recent forecasting methods extend this idea by extrapolating features to skipped steps instead of reusing them. However, exi",
+  "date": "2026-10-18T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (9 up)",
+  "title": "Evolving Agent Interfaces",
+  "link": "https://huggingface.co/papers/2610.28601",
+  "summary": "Computer-use agents are limited by the interfaces humans give them. An agent may type a spreadsheet cell by cell when a single line of code would do, or print all two thousand lines of a file through a shell to find one function. Both the interfaces and the knowledge of when to use each are built by hand, which cannot keep pace with new applications, workflows, and models. We argue that interface ",
+  "date": "2026-10-19T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (12 up)",
+  "title": "Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading",
+  "link": "https://huggingface.co/papers/2511.14102",
+  "summary": "Mixture-of-experts (MoE) models often exceed a single accelerator's memory capacity. Offloading experts to host memory creates a severe PCIe I/O bottleneck because data-dependent routing keeps transfers on the critical path. We present Specter, an inference system that uses quantization to combine speculative decoding with expert offloading. Its lightweight quantized draft model runs efficiently o",
+  "date": "2026-10-19T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (3 up)",
+  "title": "Multimodal Reranking Is a System One Decision",
+  "link": "https://huggingface.co/papers/2610.28435",
+  "summary": "Multimodal rerankers are usually dedicated models: a vision-language model (VLM) is trained on retrieval data to score the candidates of a query. Scoring options is not specific to reranking. System One decision models such as Jev map a state and a typed question to one probability per option without generating text, and general models can make such decisions with little or no training. Reranking ",
+  "date": "2026-10-19T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (6 up)",
+  "title": "HarnessRL: Co-Evolving Policies with a Just-in-Time Training Harness for Open-Ended RL",
+  "link": "https://huggingface.co/papers/2610.26426",
+  "summary": "Rubric-based reinforcement learning (RL) trains policies for open-ended generation with natural-language criteria as rewards, but these rewards can become ineffective as training progresses. We identify two failure modes. Under non-discriminative rewards, scores collapse to uniformly low or high values due to insufficient exploration or a mismatch between task difficulty and policy capability. Und",
+  "date": "2026-10-18T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (4 up)",
+  "title": "More Memory, Worse Agents: Error Reproduction and Anti-Persistence in LLM Agents",
+  "link": "https://huggingface.co/papers/2610.27406",
+  "summary": "LLM agents can improve across tasks without updating model parameters by storing experience from their own executions in external memory and reusing it to guide later decisions. A central design question is whether to retain only observed trajectories and outcomes or also the rules, summaries, and skills inferred from them. Retaining these abstractions allows agents to reuse strategies without rep",
+  "date": "2026-10-18T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (4 up)",
+  "title": "Harness Self-Evolution for Long-Horizon Terminal Agents",
+  "link": "https://huggingface.co/papers/2610.27435",
+  "summary": "Long-horizon terminal agents may solve a task in one run yet fail across repeated runs. Stochastic errors can propagate through actions and context, creating a gap between capability and reliable execution. We present RiseHarness, a framework for iteratively improving agent harnesses with model weights fixed. It focuses on flipping tasks with both successful and failed runs under the same configur",
+  "date": "2026-10-19T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (7 up)",
   "title": "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
   "link": "https://huggingface.co/papers/2610.28522",
   "summary": "Decision models support routing, guardrails, and output verification in LLM systems. However, item accuracy alone cannot establish whether models make correct decisions across controlled variations or assign reliable confidence to their predictions. We introduce DecisionPivot, a diagnostic benchmark comprising 48 tasks and 40,033 items across seven decision roles. Its core track contains 7,800 ite",
   "date": "2026-10-19T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (13 up)",
   "title": "Breaking Diffusion: Parallel Reasoning with Draft Refinement",
   "link": "https://huggingface.co/papers/2610.26542",
   "summary": "Drafting an answer allows a reasoning model to reconsider each decision in the context of the others. Yet repeated diffusion denoising does not ensure that individually plausible token updates form a better answer together. We introduce Draft Refinement Language Models (DRLMs), which use a single denoiser to propose parallel revisions and evaluate a candidate draft. We train the denoiser to recons",
   "date": "2026-10-18T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (12 up)",
+  "source": "HF Papers (37 up)",
   "title": "Learning the 4D World through Point Trajectory Forecasting",
   "link": "https://huggingface.co/papers/2610.28594",
   "summary": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with",
   "date": "2026-10-19T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (6 up)",
+  "source": "HF Papers (52 up)",
   "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
   "link": "https://huggingface.co/papers/2610.28354",
   "summary": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arriv",
   "date": "2026-10-19T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (4 up)",
+  "source": "HF Papers (71 up)",
   "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
   "link": "https://huggingface.co/papers/2610.27628",
   "summary": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to",
   "date": "2026-10-19T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (2 up)",
   "title": "EvaOmni: An Evidence-Grounded Benchmark for Audio-Visual Reasoning",
   "link": "https://huggingface.co/papers/2610.28444",
   "summary": "Omni LLMs can naturally locate key audio and visual evidence and integrate information across modalities for audiovisual reasoning. Existing audio-visual reasoning benchmarks that mainly rely on multiple-choice questions usually score models solely based on answer correctness, making it difficult to assess whether a model truly forms a reasoning chain from evidence to the correct answer. In additi",
   "date": "2026-10-19T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (13 up)",
+  "source": "HF Papers (61 up)",
   "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
   "link": "https://huggingface.co/papers/2610.26855",
   "summary": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, compr",
   "date": "2026-10-18T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (5 up)",
   "title": "Large Flow Language Models",
   "link": "https://huggingface.co/papers/2610.28559",
   "summary": "Continuous flow language models offer a path to parallel generation with tools for control and acceleration unavailable to discrete diffusion, yet effective techniques for building them at the billion-parameter scale remain less established. We present Lafa (Large flow language model), a fast, high-performing flow language model scaled to 8B parameters in a data-efficient manner. Lafa is a blockwi",
   "date": "2026-10-19T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (33 up)",
   "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
   "link": "https://huggingface.co/papers/2610.27999",
   "summary": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and introduce Matrix-Game 4.0 as the first system built on this design. A lightweight game engine maintai",
   "date": "2026-10-19T20:00:00+00:00"
+ },
+ {
+  "source": "HF model (5365 dl)",
+  "title": "New on the Hub: lodestones/Kromoss",
+  "link": "https://huggingface.co/lodestones/Kromoss",
+  "summary": "pipeline: text-to-image. tags: diffusers, safetensors, moss-image, text-to-image, en",
+  "date": "2026-10-19T01:34:35+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google\u2019s TimesFM-3",
+  "link": "https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/",
+  "summary": "Mistral released Timestral, a time series foundation model family from 5M to 209M parameters. The 209M model leads GIFT-Eval, TIME and fev-bench among zero-shot models and runs on CPU. The post Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google\u2019s TimesFM-3 appeared first on MarkTechPost .",
+  "date": "2026-10-19T01:18:17+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web",
+  "link": "https://www.marktechpost.com/2026/10/18/tinyfish-free-search-ai-agent-token-cost/",
+  "summary": "An AI agent that reads the web pays 2 kinds of cost. The first is the retrieval charge: what a search or fetch API bills per request. The second is model processing: content passed from retrieved pages into an AI model consumes tokens, while reasoning and generated responses add further costs. TinyFish, a web infrastructure [\u2026] The post TinyFish Makes Search Free: What It Really Costs an AI Agent ",
+  "date": "2026-10-18T18:20:28+00:00"
+ },
+ {
+  "source": "release: BerriAI/litellm",
+  "title": "litellm v1.103.6",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.103.6",
+  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
+  "date": "2026-10-20T17:26:16+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent abandoned-rc.1-v0.22.3",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.1-v0.22.3",
+  "summary": "{\"attempt\":1,\"attemptRef\":\"rc.1-v0.22.3\",\"schema\":1,\"version\":\"0.22.3\"}",
+  "date": "2026-10-20T23:05:01+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.576",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.576",
+  "summary": "Release API image v2.11.576",
+  "date": "2026-10-21T03:12:33+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow nightly",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/nightly",
+  "summary": "Release nightly created from 7eb673b at 2026-10-21 03:00:26+00:00",
+  "date": "2026-10-21T03:00:31+00:00"
+ },
+ {
+  "source": "release: n8n-io/n8n",
+  "title": "n8n n8n@2.44.4",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.4",
+  "summary": "2.44.4 (2026-10-19) Bug Fixes core: Reuse connections in the log streaming webhook destination ( #41281 ) ( b79afe2 ) core: Turn off expression spans by default ( #41309 ) ( 6965193 )",
+  "date": "2026-10-20T09:19:56+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.59.3 \u2014 Windows memory-list crash fix",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.3",
+  "summary": "Fixes memory list (and other CLI commands) could intermittently crash on exit with a libuv assertion ( UV_HANDLE_CLOSING ), most visible on Windows ( #4334 ). The CLI's exit handler now sets process.exitCode instead of forcing process.exit(0) , and best-effort awaits shutdownBridge() to drain cached",
+  "date": "2026-10-21T01:59:47+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.59.2 \u2014 task cancel/status correctness fixes",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.2",
+  "summary": "Fixes task cancel ( #4331 ): previously claimed success for an unknown or already-finished task id (and printed Previous status: undefined ), and overwrote a completed task's result with the cancel reason. Now returns previousStatus , refuses to touch a finished task, and the CLI exits 1 for either ",
+  "date": "2026-10-21T01:08:28+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.59.1 \u2014 npx ruflo tui: mouse clicking on by default",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.1",
+  "summary": "Fixes npx ruflo tui : mouse clicking is now on by default \u2014 click a page name in the top bar, scroll with the wheel. --mouse had been opt-in since ADR-489 with only a one-time startup notice ( #4305 ), but users kept reporting that clicking did nothing. --no-mouse remains available for terminals whe",
+  "date": "2026-10-20T17:26:30+00:00"
  },
  {
   "source": "HF Papers (21 up)",
@@ -1916,20 +2056,6 @@
   "link": "https://huggingface.co/papers/2610.25765",
   "summary": "Accurate inpatient risk prediction requires modeling heterogeneous clinical evidence that accumulates irregularly over time. This challenge spans in-hospital mortality, prolonged length of stay, and readmission, each with task-specific observation windows. Existing multimodal approaches combine structured health record data, chest x-rays, and clinical text, but primarily focus on modality fusion o",
   "date": "2026-10-18T20:00:00+00:00"
- },
- {
-  "source": "HF model (2803 dl)",
-  "title": "New on the Hub: dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
-  "link": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
-  "summary": "pipeline: image-text-to-text. tags: transformers, safetensors, deepseek_v41, text-generation, deepseek, fp8",
-  "date": "2026-10-18T04:11:31+00:00"
- },
- {
-  "source": "HF model (5365 dl)",
-  "title": "New on the Hub: lodestones/Kromoss",
-  "link": "https://huggingface.co/lodestones/Kromoss",
-  "summary": "pipeline: text-to-image. tags: diffusers, safetensors, moss-image, text-to-image, en",
-  "date": "2026-10-19T01:34:35+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -2513,13 +2639,6 @@
   "date": "2026-10-18T08:15:04+00:00"
  },
  {
-  "source": "MarkTechPost",
-  "title": "How to Make Zero-Training Tabular Predictions with NVIDIA Structured Data Models",
-  "link": "https://www.marktechpost.com/2026/10/17/how-to-make-zero-training-tabular-predictions-with-nvidia-structured-data-models/",
-  "summary": "In this tutorial, we implement Structured Data Models, NVIDIA\u2019s new library that puts several pretrained foundation models for tables behind one PyTorch interface, and use it to make predictions without training. The library wraps TabICLv2 and KumoTabular for single tables and KumoRelational for whole relational databases, and each of them answers by in-context learning: we [\u2026] The post How to Mak",
-  "date": "2026-10-18T05:56:05+00:00"
- },
- {
   "source": "TechCrunch AI",
   "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
   "link": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
@@ -2646,13 +2765,6 @@
   "date": "2026-10-18T08:00:57+00:00"
  },
  {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.106.0",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.106.0",
-  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . Every release is signed with the same key introduced in commit 0112e53 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are us",
-  "date": "2026-10-18T05:53:32+00:00"
- },
- {
   "source": "release: ComposioHQ/composio",
   "title": "composio CLI Beta @composio/cli@0.4.6-beta.458",
   "link": "https://github.com/ComposioHQ/composio/releases/tag/%40composio%2Fcli%400.4.6-beta.458",
@@ -2665,13 +2777,6 @@
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261019T071120Z",
   "summary": "Hermes Agent canary 20261019T071120Z",
   "date": "2026-10-19T07:11:22+00:00"
- },
- {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent v0.22.2+canary.20261018T065527Z",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261018T065527Z",
-  "summary": "Hermes Agent canary 20261018T065527Z",
-  "date": "2026-10-18T06:55:28+00:00"
  },
  {
   "source": "release: firecrawl/firecrawl",
@@ -3290,13 +3395,6 @@
   "date": "2026-10-18T12:39:52+00:00"
  },
  {
-  "source": "release: comet-ml/opik",
-  "title": "opik 2.2.103-8964-merge-3947",
-  "link": "https://github.com/comet-ml/opik/releases/tag/2.2.103-8964-merge-3947",
-  "summary": "Merge f8421a1 into 535e611 \u2026",
-  "date": "2026-10-18T06:34:31+00:00"
- },
- {
   "source": "release: firecrawl/firecrawl",
   "title": "firecrawl v2.11.542",
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.542",
@@ -3323,12 +3421,5 @@
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.539",
   "summary": "Release API image v2.11.539",
   "date": "2026-10-18T21:34:05+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.538",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.538",
-  "summary": "Release API image v2.11.538",
-  "date": "2026-10-18T04:41:45+00:00"
  }
 ]
