@@ -211,6 +211,20 @@
  },
  {
   "source": "MarkTechPost",
+  "title": "A Coding Guide to Cactus Whistle: Does a 16.9 MB Speech Model Hold Up Against Whisper Base? Word Error Rate, Speed, Streaming, Timestamps, Keywords, and Speech-to-Tool Calls on a CPU",
+  "link": "https://www.marktechpost.com/2026/10/21/cactus-whistle-vs-whisper-base-speech-to-text-benchmark-cpu-guide/",
+  "summary": "Explore a comprehensive coding guide benchmarking Cactus Compute's 16.9 MB speech model against Whisper base. Learn about word error rates, CPU speed, streaming latency, and speech-to-tool integration. The post A Coding Guide to Cactus Whistle: Does a 16.9 MB Speech Model Hold Up Against Whisper Base? Word Error Rate, Speed, Streaming, Timestamps, Keywords, and Speech-to-Tool Calls on a CPU appear",
+  "date": "2026-10-22T04:17:37+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels",
+  "link": "https://www.marktechpost.com/2026/10/21/nvidia-nsight-python-tutorial-how-to-profile-gpu-kernels/",
+  "summary": "Discover NVIDIA Nsight Python, an open-source interface that allows developers to profile GPU kernels, analyze hardware metrics, evaluate cache and clock controls, and measure kernel fusion directly from Python code. The post NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels appeared first on MarkTechPost .",
+  "date": "2026-10-22T03:59:12+00:00"
+ },
+ {
+  "source": "MarkTechPost",
   "title": "Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params",
   "link": "https://www.marktechpost.com/2026/10/21/recursive-flint-local-coding-model/",
   "summary": "Recursive has released Flint, an Apache 2.0 local coding model with 40B total and 2.5B active parameters. It reports 74.2% on SWE-bench Verified and 125+ tokens per second on an M4 Pro MacBook Pro. The post Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params appeared first on MarkTechPost .",
@@ -264,20 +278,6 @@
   "link": "https://www.marktechpost.com/2026/10/20/cloudflare-releases-clairic-a-system-one-extraction-model-on-workers-ai/",
   "summary": "Cloudflare has previewed Clairic, a System One extraction model on Workers AI that returns typed values with confidence scores in one forward pass. It costs $0.10 per million input tokens and charges nothing for output. The post Cloudflare Releases Clairic, a System One Extraction Model on Workers AI appeared first on MarkTechPost .",
   "date": "2026-10-20T07:45:41+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second",
-  "link": "https://www.marktechpost.com/2026/10/19/inception-mercury-3-diffusion-llm/",
-  "summary": "Inception released Mercury 3, a diffusion LLM it says runs at 1,068 tokens per second with a 1M-token context. On Inception\u2019s own table it leads GPT-6 Luna and Claude Haiku 5.5 on 8 of 12 benchmarks. The post Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second appeared first on MarkTechPost .",
-  "date": "2026-10-20T03:32:43+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Meet Drex Max: Nace AI\u2019s Multimodal Decision Model for Computer-Use Agents with a Score 67.59",
-  "link": "https://www.marktechpost.com/2026/10/19/nace-ai-drex-max-multimodal-decision-model/",
-  "summary": "Nace AI released Drex Max, a multimodal decision model that reads text and screenshots and returns calibrated probabilities. Nace reports 67.59 on Decision Index 0.3.2 at $0.06 per 1M input tokens. The post Meet Drex Max: Nace AI\u2019s Multimodal Decision Model for Computer-Use Agents with a Score 67.59 appeared first on MarkTechPost .",
-  "date": "2026-10-20T00:03:38+00:00"
  },
  {
   "source": "MIT News",
@@ -931,7 +931,7 @@
   "date": "2026-10-20T15:09:29+00:00"
  },
  {
-  "source": "HN (41pts)",
+  "source": "HN (47pts)",
   "title": "Show HN: Omnara \u2013 Open-source alternative to Claude Managed Agents",
   "link": "https://github.com/omnara-ai/omnara",
   "summary": "",
@@ -959,7 +959,7 @@
   "date": "2026-10-20T12:43:05+00:00"
  },
  {
-  "source": "HN (331pts)",
+  "source": "HN (339pts)",
   "title": "Claude Duet",
   "link": "https://claude.com/product/claude-duet",
   "summary": "",
@@ -973,7 +973,7 @@
   "date": "2026-10-19T05:55:31+00:00"
  },
  {
-  "source": "HN (64pts)",
+  "source": "HN (66pts)",
   "title": "Claude Duet",
   "link": "https://claude.com/resources/articles/claude-duet",
   "summary": "",
@@ -1029,6 +1029,13 @@
   "date": "2026-10-19T12:07:41+00:00"
  },
  {
+  "source": "HN (33pts)",
+  "title": "Using LLM for confidence scoring is a bad idea",
+  "link": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+  "summary": "",
+  "date": "2026-10-21T04:27:51+00:00"
+ },
+ {
   "source": "HN (59pts)",
   "title": "Launch HN: Laminar (YC S24) \u2013 RL-trained model that finds errors in agent traces",
   "link": "https://news.ycombinator.com/item?id=50154029",
@@ -1036,7 +1043,7 @@
   "date": "2026-10-19T16:00:18+00:00"
  },
  {
-  "source": "HN (56pts)",
+  "source": "HN (57pts)",
   "title": "Launch HN: Alter (YC S25) \u2013 Access control for multi-user agents",
   "link": "https://alterauth.com/",
   "summary": "",
@@ -1057,14 +1064,7 @@
   "date": "2026-10-19T13:53:52+00:00"
  },
  {
-  "source": "HN (401pts)",
-  "title": "Google Cloud outage affects almost all banking and other operations in Europe",
-  "link": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
-  "summary": "",
-  "date": "2026-10-20T10:26:02+00:00"
- },
- {
-  "source": "HN (137pts)",
+  "source": "HN (138pts)",
   "title": "Using thousands of AI agents to uncover new leads in biological data",
   "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
   "summary": "",
@@ -1261,6 +1261,13 @@
  },
  {
   "source": "release: anthropics/claude-agent-sdk-typescript",
+  "title": "claude-agent-sdk-typescript v0.3.308",
+  "link": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.308",
+  "summary": "What's changed Updated to parity with Claude Code v2.1.308 Update npm install @anthropic-ai/claude-agent-sdk@0.3.308 # or yarn add @anthropic-ai/claude-agent-sdk@0.3.308 # or pnpm add @anthropic-ai/claude-agent-sdk@0.3.308 # or bun add @anthropic-ai/claude-agent-sdk@0.3.308",
+  "date": "2026-10-22T04:35:21+00:00"
+ },
+ {
+  "source": "release: anthropics/claude-agent-sdk-typescript",
   "title": "claude-agent-sdk-typescript v0.3.307",
   "link": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.307",
   "summary": "What's changed Added wakeup_source to the command_lifecycle started frame of a scheduled wakeup or task, and scheduled_for for a wakeup (capability lifecycle_wakeup_source_v1 ), so a host can tell which one fired Added supportedDialogKinds to browser SDK query() , sent on initialize ; a non-empty li",
@@ -1281,11 +1288,11 @@
   "date": "2026-10-20T20:46:46+00:00"
  },
  {
-  "source": "release: anthropics/claude-agent-sdk-typescript",
-  "title": "claude-agent-sdk-typescript v0.3.304",
-  "link": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.304",
-  "summary": "What's changed Added suspendSseStream(query) and resumeSseStream(query) to the browser SDK: close a query's event stream and reopen it later without ending the query Added stable row ids to getContextUsage() , and, when the CLI answers on its own stdio, plugin ids, agent and skill file paths, and pe",
-  "date": "2026-10-19T21:34:25+00:00"
+  "source": "release: anthropics/claude-code",
+  "title": "claude-code v2.1.308",
+  "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+  "summary": "What's changed Bug fixes and reliability improvements",
+  "date": "2026-10-22T04:34:55+00:00"
  },
  {
   "source": "release: anthropics/claude-code",
@@ -1307,13 +1314,6 @@
   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
   "summary": "What's changed Added sandbox.allowNestedUserNamespaces so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protections Added CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS so unattended retry mode ( CLAUDE_CODE_RETRY_",
   "date": "2026-10-20T20:46:50+00:00"
- },
- {
-  "source": "release: anthropics/claude-code",
-  "title": "claude-code v2.1.304",
-  "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
-  "summary": "What's changed Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin Added decider: \"person\" to a mod's tool.check answer: only the permission dialog or a host's callback can approve the ask, and it is refused with the mod's reason where",
-  "date": "2026-10-19T21:34:39+00:00"
  },
  {
   "source": "release: apache/airflow",
@@ -1366,31 +1366,31 @@
  },
  {
   "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.593",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.593",
+  "summary": "Release API image v2.11.593",
+  "date": "2026-10-22T04:54:02+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.592",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.592",
+  "summary": "Release API image v2.11.592",
+  "date": "2026-10-22T04:21:25+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.591",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.591",
+  "summary": "Release API image v2.11.591",
+  "date": "2026-10-22T04:13:37+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
   "title": "firecrawl v2.11.590",
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.590",
   "summary": "Release API image v2.11.590",
   "date": "2026-10-22T04:06:01+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.589",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.589",
-  "summary": "Release API image v2.11.589",
-  "date": "2026-10-22T03:58:12+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.588",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.588",
-  "summary": "Release API image v2.11.588",
-  "date": "2026-10-22T03:50:26+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.587",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.587",
-  "summary": "Release API image v2.11.587",
-  "date": "2026-10-22T03:33:53+00:00"
  },
  {
   "source": "release: google-gemini/gemini-cli",
@@ -1582,13 +1582,6 @@
   "date": "2026-10-19T06:47:49+00:00"
  },
  {
-  "source": "release: modelcontextprotocol/servers",
-  "title": "servers v1.0.0",
-  "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
-  "summary": "Final Legacy Server Release This release contains many bug and security fixes, and represents the final release of the legacy era servers. Packages Package Version Registry In this release @modelcontextprotocol/server-everything 1.0.0 npm published @modelcontextprotocol/server-filesystem 1.0.0 npm p",
-  "date": "2026-10-19T04:17:24+00:00"
- },
- {
   "source": "release: moltis-org/moltis",
   "title": "moltis 20261019.01",
   "link": "https://github.com/moltis-org/moltis/releases/tag/20261019.01",
@@ -1667,6 +1660,13 @@
  },
  {
   "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.59.14 \u2014 explicit memory-store targeting + workflow_list total-count fix",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.14",
+  "summary": "What's new fix(mcp): let memory tools target an explicit store ( #3196 , #4350 ) \u2014 memory_store , memory_retrieve , memory_search (including SmartRetrieval's raw search and near-miss paths), memory_delete , and memory_list now accept an optional dbPath . Selecting an explicit store no longer forces ",
+  "date": "2026-10-22T04:43:10+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
   "title": "ruflo v3.59.13 \u2014 claims cwd + global-CLI hook fixes",
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.13",
   "summary": "What's new fix(claims): anchor MCP claims store to project cwd ( #3210 ) \u2014 claims persistence now resolves via getProjectCwd() instead of a raw resolve(CLAUDE_DIR) , matching every other file-backed MCP tool. A claims-aware MCP server launched in a subdirectory no longer misses CLAUDE_FLOW_CWD and s",
@@ -1685,13 +1685,6 @@
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.11",
   "summary": "Highlights appliance : ruflo appliance build failed on every run with The \"paths[0]\" argument must be of type string. Received undefined , and several multi-word flags on appliance sign and appliance update did nothing ( --generate-keys , --key-dir , --public-key , --no-backup ). The parser stores l",
   "date": "2026-10-21T19:41:22+00:00"
- },
- {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.59.10 \u2014 Windows ADR indexing, daemon and init flag-key fixes",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.10",
-  "summary": "Highlights ruflo-adr : fixed ADR indexing on Windows \u2014 findAdrs() matched /docs/adr/ with a hardcoded forward-slash path check, which silently found zero ADRs on Windows ( join() yields backslashes there). Added isAdrPath() with a separator-agnostic regex, and parseAdr() now reports a POSIX-shaped, ",
-  "date": "2026-10-21T18:16:25+00:00"
  },
  {
   "source": "release: thedotmack/claude-mem",
@@ -2093,123 +2086,207 @@
   "date": "2026-10-22T00:00:00-04:00"
  },
  {
-  "source": "HF Papers (6 up)",
+  "source": "HF Papers (3 up)",
+  "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+  "link": "https://huggingface.co/papers/2610.28763",
+  "summary": "Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demanding test of that promise: improving a scientific model often requires domain insight beyond routine ML engineering. We introduce Agent4Sci, a long-horizon testbed for measuring how far today's agents can improve the published best models on scientific ML benchmarks, spanning 20 ben",
+  "date": "2026-10-19T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (7 up)",
+  "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+  "link": "https://huggingface.co/papers/2610.30108",
+  "summary": "Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple multimodal task reasoning with physical action and revise decisions from the resulting feedback. This rais",
+  "date": "2026-10-20T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (12 up)",
   "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
   "link": "https://huggingface.co/papers/2610.29997",
   "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly cha",
   "date": "2026-10-20T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (2 up)",
   "title": "Answering in the User's Variety: Calibrated Accommodation Pairs for Post-Training",
   "link": "https://huggingface.co/papers/2610.28474",
   "summary": "People adapt how they talk to the person in front of them. However, chat models tend to respond in Standard English regardless of the dialect used by the user. A uniform answer can hide whether training treats these users alike, and output audits cannot tell as well. We trace how each post-training stage, from supervised fine-tuning (SFT) to preference optimization (DPO) and reinforcement learning",
   "date": "2026-10-19T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (13 up)",
   "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
   "link": "https://huggingface.co/papers/2610.28698",
   "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes:",
   "date": "2026-10-19T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (3 up)",
+  "source": "HF Papers (4 up)",
   "title": "SpatialBrain: Spatial Intelligence Growing from Experience",
   "link": "https://huggingface.co/papers/2610.29317",
   "summary": "Spatial reasoning requires more than access to geometric tools: a reasoner must decide when direct observation is sufficient and when to reconstruct, measure, or change reference frames. We present SpatialBrain, a framework that retains experience about these decisions while keeping its vision-language backbone fixed. The key distinction is between evidence about a scene and experience about how t",
   "date": "2026-10-20T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (10 up)",
+  "source": "HF Papers (11 up)",
   "title": "TraceForge: Distilling with Your Own Thinking",
   "link": "https://huggingface.co/papers/2610.29680",
   "summary": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is a little ironic: they were themselves built on distilling human knowledge, and distilling an open-sou",
   "date": "2026-10-20T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (8 up)",
+  "source": "HF Papers (9 up)",
   "title": "Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures",
   "link": "https://huggingface.co/papers/2610.28887",
   "summary": "Autonomous agents can increasingly propose ideas, modify code, and run experiments, creating an opportunity to accelerate scientific discovery using teams of collaborative AI researchers. To escape local minima in the discovery, we propose to encourage orthogonal exploration by constructing the team using agents with varying expertise. However, realizing this design requires more than diverse back",
   "date": "2026-10-19T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (2 up)",
   "title": "Qwen-Audio-3.1-ASR Technical Report",
   "link": "https://huggingface.co/papers/2610.28711",
   "summary": "We present Qwen-Audio-3.1-ASR, a family of audio-language models that builds upon its predecesor Qwen-Audio-3.0-ASR with improved speech recognition and expanded capabilities in speaker-diarized transcription and general audio understanding. The family retains support for 30 languages and 16 Chinese dialects, together with instruction-controlled capabilities including historical-context conditioni",
   "date": "2026-10-19T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (2 up)",
   "title": "Evolving with Open Worlds: Towards Recursive Self-Improvement for Future Forecasting",
   "link": "https://huggingface.co/papers/2610.29784",
   "summary": "Most contemporary artificial intelligence (AI) systems are released with frozen parameters and improve through external updates, whereas an ideal system would keep improving from its own experience, a capacity we call recursive self-improvement (RSI). Yet studying RSI requires an environment that is continuously changing, objectively verifiable, and naturally grounded, posing a fundamental challen",
   "date": "2026-10-20T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (2 up)",
   "title": "Agentic World Action Models",
   "link": "https://huggingface.co/papers/2610.30136",
   "summary": "Recent world action models provide visual foresight and future prediction for robot manipulation, but lack explicit mechanisms for compositional skill reuse. Agentic robotics combines code-based planning and reasoning with reusable skills, but often lacks predictive grounding in physical dynamics. We introduce AW-0, an agentic world action model framework that integrates code-based planning with j",
   "date": "2026-10-20T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (3 up)",
   "title": "CulturalRiddles: A Multicultural Benchmark of Riddles",
   "link": "https://huggingface.co/papers/2610.29968",
   "summary": "As LLMs expand their language coverage, evaluating how well they understand and represent diverse cultures becomes increasingly important. However, many benchmarks remain English-centric, with limited cultural coverage and a focus on factual knowledge over its application in real-world cultural contexts. We propose CulturalRiddles, a benchmark of original, culturally grounded riddles created entir",
   "date": "2026-10-20T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (8 up)",
+  "source": "HF Papers (9 up)",
   "title": "Real In, Real Out: What If We Only Use Real Data for Scene Text Editing?",
   "link": "https://huggingface.co/papers/2610.27592",
   "summary": "Aiming to modify textual content while preserving the original style, Scene Text Editing (STE) has significant practical value in many applications. STE typically requires paired images before and after editing for training. However, recent approaches rely heavily on synthetic paired data and complex disentanglement strategies. They struggle to faithfully capture the diversity and complexity of na",
   "date": "2026-10-19T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (4 up)",
+  "source": "HF Papers (5 up)",
   "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
   "link": "https://huggingface.co/papers/2610.28402",
   "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, ea",
   "date": "2026-10-19T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (14 up)",
+  "source": "HF Papers (16 up)",
   "title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
   "link": "https://huggingface.co/papers/2610.28589",
   "summary": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In contrast, coding agents have improved substantially by post-training the model itself. We therefore inves",
   "date": "2026-10-19T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (12 up)",
+  "source": "HF Papers (13 up)",
   "title": "Memory-Centric Continual Learning for AI Agents",
   "link": "https://huggingface.co/papers/2610.29357",
   "summary": "Autonomous agents powered by foundation models can reason, plan, and use tools, but their fixed weights and context limits hinder sustained learning from experience over long-term deployment. While external memory systems attempt to bridge this gap, they mostly act as passive retrieval caches, evaluated primarily by whether they can recall stored facts or past interactions. Whether memory can driv",
   "date": "2026-10-20T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (5 up)",
+  "source": "HF Papers (11 up)",
   "title": "Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers",
   "link": "https://huggingface.co/papers/2610.29441",
   "summary": "Full 3D attention is costly in video Diffusion Transformers. Block-sparse attention reduces this cost by computing only selected attention blocks. However, existing methods either overlook the potential to optimize sparsity allocation or rely on heuristic rules or local metrics to guide it. In this work, we observe that sparsifying attention in different layers and at different denoising steps aff",
   "date": "2026-10-20T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (17 up)",
+  "source": "HF Papers (26 up)",
   "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
   "link": "https://huggingface.co/papers/2610.29989",
   "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxi",
   "date": "2026-10-20T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (2 up)",
   "title": "RubatoCodec: Budgeted Adaptive Speech Tokenization with Streaming Decoding",
   "link": "https://huggingface.co/papers/2610.29434",
   "summary": "Neural speech codecs provide discrete tokens for speech generation. Lower frame rates shorten token sequences, but each token must then carry more linguistic and acoustic information. Variable-frame-rate codecs address this trade-off by adapting token allocation to speech content, but threshold-based allocation lets content determine the token count, so the sequence length a speech generator must ",
   "date": "2026-10-20T20:00:00+00:00"
+ },
+ {
+  "source": "HF model (0 dl)",
+  "title": "New on the Hub: RecursiveSI/flint",
+  "link": "https://huggingface.co/RecursiveSI/flint",
+  "summary": "pipeline: text-generation. tags: transformers, safetensors, flint, text-generation, conversational, endpoints_compatible",
+  "date": "2026-10-21T14:20:58+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second",
+  "link": "https://www.marktechpost.com/2026/10/19/inception-mercury-3-diffusion-llm/",
+  "summary": "Inception released Mercury 3, a diffusion LLM it says runs at 1,068 tokens per second with a 1M-token context. On Inception\u2019s own table it leads GPT-6 Luna and Claude Haiku 5.5 on 8 of 12 benchmarks. The post Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second appeared first on MarkTechPost .",
+  "date": "2026-10-20T03:32:43+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Meet Drex Max: Nace AI\u2019s Multimodal Decision Model for Computer-Use Agents with a Score 67.59",
+  "link": "https://www.marktechpost.com/2026/10/19/nace-ai-drex-max-multimodal-decision-model/",
+  "summary": "Nace AI released Drex Max, a multimodal decision model that reads text and screenshots and returns calibrated probabilities. Nace reports 67.59 on Decision Index 0.3.2 at $0.06 per 1M input tokens. The post Meet Drex Max: Nace AI\u2019s Multimodal Decision Model for Computer-Use Agents with a Score 67.59 appeared first on MarkTechPost .",
+  "date": "2026-10-20T00:03:38+00:00"
+ },
+ {
+  "source": "HN (401pts)",
+  "title": "Google Cloud outage affects almost all banking and other operations in Europe",
+  "link": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+  "summary": "",
+  "date": "2026-10-20T10:26:02+00:00"
+ },
+ {
+  "source": "release: anthropics/claude-agent-sdk-typescript",
+  "title": "claude-agent-sdk-typescript v0.3.304",
+  "link": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.304",
+  "summary": "What's changed Added suspendSseStream(query) and resumeSseStream(query) to the browser SDK: close a query's event stream and reopen it later without ending the query Added stable row ids to getContextUsage() , and, when the CLI answers on its own stdio, plugin ids, agent and skill file paths, and pe",
+  "date": "2026-10-19T21:34:25+00:00"
+ },
+ {
+  "source": "release: anthropics/claude-code",
+  "title": "claude-code v2.1.304",
+  "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+  "summary": "What's changed Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin Added decider: \"person\" to a mod's tool.check answer: only the permission dialog or a host's callback can approve the ask, and it is refused with the mod's reason where",
+  "date": "2026-10-19T21:34:39+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.589",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.589",
+  "summary": "Release API image v2.11.589",
+  "date": "2026-10-22T03:58:12+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.588",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.588",
+  "summary": "Release API image v2.11.588",
+  "date": "2026-10-22T03:50:26+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.587",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.587",
+  "summary": "Release API image v2.11.587",
+  "date": "2026-10-22T03:33:53+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.59.10 \u2014 Windows ADR indexing, daemon and init flag-key fixes",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.10",
+  "summary": "Highlights ruflo-adr : fixed ADR indexing on Windows \u2014 findAdrs() matched /docs/adr/ with a hardcoded forward-slash path check, which silently found zero ADRs on Windows ( join() yields backslashes there). Added isAdrPath() with a separator-agnostic regex, and parseAdr() now reports a POSIX-shaped, ",
+  "date": "2026-10-21T18:16:25+00:00"
  },
  {
   "source": "HF Papers (31 up)",
@@ -2224,13 +2301,6 @@
   "link": "https://huggingface.co/papers/2610.30120",
   "summary": "World models turn visual representations into predictions and actions. We argue that their visual foundation should combine physical-state information, native language alignment, and pixel reconstruction, so that a single representation can support prediction, instruction, and inspection. However, existing encoders typically specialize in only one or two of these capabilities; we therefore introdu",
   "date": "2026-10-20T20:00:00+00:00"
- },
- {
-  "source": "HF model (0 dl)",
-  "title": "New on the Hub: RecursiveSI/flint",
-  "link": "https://huggingface.co/RecursiveSI/flint",
-  "summary": "pipeline: text-generation. tags: transformers, safetensors, flint, text-generation, conversational, endpoints_compatible",
-  "date": "2026-10-21T14:20:58+00:00"
  },
  {
   "source": "release: firecrawl/firecrawl",
