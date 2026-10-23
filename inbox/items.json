@@ -385,11 +385,11 @@
   "date": "2026-10-21T09:30:16+00:00"
  },
  {
-  "source": "NVIDIA",
-  "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
-  "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
-  "summary": "The Barcelona Supercomputing Center (BSC)\u2019s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups \u2014 and as of today, access to some [\u2026]",
-  "date": "2026-10-20T05:00:00+00:00"
+  "source": "TechCrunch AI",
+  "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+  "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+  "summary": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+  "date": "2026-10-23T04:00:00+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -488,13 +488,6 @@
   "link": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
   "summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services.",
   "date": "2026-10-21T22:45:34+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "TechCrunch Founder Summit 2026: Everything you need to know",
-  "link": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
-  "summary": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.",
-  "date": "2026-10-21T21:16:20+00:00"
  },
  {
   "source": "The Verge AI",
@@ -952,7 +945,7 @@
   "date": "2026-10-21T16:44:53+00:00"
  },
  {
-  "source": "HN (61pts)",
+  "source": "HN (64pts)",
   "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
   "link": "https://news.ycombinator.com/item?id=50200997",
   "summary": "",
@@ -966,7 +959,7 @@
   "date": "2026-10-20T15:09:29+00:00"
  },
  {
-  "source": "HN (193pts)",
+  "source": "HN (217pts)",
   "title": "LLMs are making formal software verification feasible at a much larger scale",
   "link": "https://www.anthropic.com/research/formal-verification",
   "summary": "",
@@ -1022,13 +1015,6 @@
   "date": "2026-10-20T15:10:54+00:00"
  },
  {
-  "source": "HN (108pts)",
-  "title": "Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs",
-  "link": "https://deathplanswitch.com/",
-  "summary": "",
-  "date": "2026-10-20T04:37:43+00:00"
- },
- {
   "source": "HN (71pts)",
   "title": "Show HN: Jev Cards, Can you beat a vision model at a picture quiz?",
   "link": "https://jevcards.com",
@@ -1071,6 +1057,13 @@
   "date": "2026-10-21T06:42:12+00:00"
  },
  {
+  "source": "HN (31pts)",
+  "title": "UN says breaching 1.5C warming limit is 'imminent and unavoidable'",
+  "link": "https://www.cnn.com/2026/10/21/climate/cop31-un-climate-report-emissions-gap",
+  "summary": "",
+  "date": "2026-10-22T23:37:50+00:00"
+ },
+ {
   "source": "HN (188pts)",
   "title": "Show HN: VoidAccess \u2013 open-source dark web OSINT, from query to a graph",
   "link": "https://github.com/KatrielMoses/voidaccess",
@@ -1085,14 +1078,7 @@
   "date": "2026-10-20T10:26:02+00:00"
  },
  {
-  "source": "HN (242pts)",
-  "title": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
-  "link": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
-  "summary": "",
-  "date": "2026-10-22T11:12:37+00:00"
- },
- {
-  "source": "HN (328pts)",
+  "source": "HN (342pts)",
   "title": "OpenShell \u2013 A safe, private runtime for fleets of autonomous AI agents",
   "link": "https://github.com/NVIDIA/OpenShell",
   "summary": "",
@@ -2122,20 +2108,41 @@
  },
  {
   "source": "HF Papers (1 up)",
+  "title": "F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation",
+  "link": "https://huggingface.co/papers/2610.31623",
+  "summary": "This paper studies category-level RGB-D object pose estimation, which recovers an object's 3D rotation and translation without instance-specific CAD models or reference views. This task is highly ambiguous due to intra-class variations, symmetries, and partial observations. Current solutions struggle to balance reliability and efficiency: methods based on intermediate structures are prone to error",
+  "date": "2026-10-21T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (1 up)",
+  "title": "Self-Distilling Future Video Representations for World Action Models",
+  "link": "https://huggingface.co/papers/2610.30320",
+  "summary": "World Action Models (WAMs) have emerged as a promising approach to learning generalist robot policies using rich spatiotemporal priors from pre-trained video diffusion models. A recent line of WAMs improves inference efficiency by conditioning a separate action decoder on intermediate future video representations extracted from a single denoising step, avoiding costly iterative denoising required ",
+  "date": "2026-10-20T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (2 up)",
+  "title": "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
+  "link": "https://huggingface.co/papers/2610.31466",
+  "summary": "AI coding agents can now build small playable games in minutes, but the results usually look like programmer art: gray blockouts, colored geometric primitives, and flat semantic blobs. We present AnyGameRenderer, a video-to-video generative renderer that turns such footage into high-quality visuals with characters, motion detail, and effects. Throughout, it keeps the layout, camera, and every enti",
+  "date": "2026-10-21T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (2 up)",
   "title": "Toward Recursive Self-Improvement in Physical AI",
   "link": "https://huggingface.co/papers/2610.29677",
   "summary": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operatin",
   "date": "2026-10-20T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (6 up)",
+  "source": "HF Papers (7 up)",
   "title": "Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos",
   "link": "https://huggingface.co/papers/2610.30866",
   "summary": "Recent advances in video generation have made synthetic videos increasingly realistic, placing greater demands on reliable AI-generated video detection. Existing artifact-based detectors typically identify generation artifacts as evidence for source prediction, yet they may either fail to recognize subtle artifacts or reach the correct source decision without faithfully identifying the evidence un",
   "date": "2026-10-21T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (4 up)",
+  "source": "HF Papers (5 up)",
   "title": "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
   "link": "https://huggingface.co/papers/2610.31305",
   "summary": "Hierarchical language generation separates continuous semantic modeling from discrete text realization, but its effectiveness depends on what the latent space compresses and how the discrete generator uses it. We propose Cola2, a framework that jointly studies continuous semantic compression, the balance between reconstruction and generation, and continuous-discrete co-adaptation. Cola2 dynamicall",
@@ -2156,7 +2163,7 @@
   "date": "2026-10-22T04:03:07+00:00"
  },
  {
-  "source": "HF Papers (5 up)",
+  "source": "HF Papers (8 up)",
   "title": "Rethinking Sequence Compression with Test-time Regression",
   "link": "https://huggingface.co/papers/2610.31574",
   "summary": "Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperforming. We revisit sequence compression through the lens of test-time regression: input tokens define a regression problem whose fitted coefficients form the compressed representation",
@@ -2205,14 +2212,14 @@
   "date": "2026-10-20T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (27 up)",
+  "source": "HF Papers (44 up)",
   "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
   "link": "https://huggingface.co/papers/2610.30926",
   "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) ma",
   "date": "2026-10-22T04:43:48+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (3 up)",
   "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
   "link": "https://huggingface.co/papers/2610.31668",
   "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an",
@@ -2224,6 +2231,20 @@
   "link": "https://huggingface.co/RecursiveSI/flint",
   "summary": "pipeline: text-generation. tags: transformers, safetensors, flint, text-generation, conversational, endpoints_compatible",
   "date": "2026-10-21T14:20:58+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+  "link": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+  "summary": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.",
+  "date": "2026-10-21T21:16:20+00:00"
+ },
+ {
+  "source": "HN (242pts)",
+  "title": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+  "link": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+  "summary": "",
+  "date": "2026-10-22T11:12:37+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -3939,19 +3960,5 @@
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.58.0",
   "summary": "[3.58.0] - 2026-10-20 Minor release: @claude-flow/cli , claude-flow , ruflo 3.58.0. Backward-compatible additions (new memory peek command, a Codex session activity viewer, configurable MCP rate limits) plus a critical install-breaking fix and a round of correctness fixes. Fixed Critical : @claude-f",
   "date": "2026-10-20T06:31:48+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.555",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.555",
-  "summary": "Release API image v2.11.555",
-  "date": "2026-10-20T04:10:00+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl apps/go-sdk/v1.16.6",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/apps%2Fgo-sdk%2Fv1.16.6",
-  "summary": "Release Go SDK apps/go-sdk/v1.16.6",
-  "date": "2026-10-20T04:33:59+00:00"
  }
 ]
