@@ -70,13 +70,6 @@
   "date": "2026-10-21T16:23:53+00:00"
  },
  {
-  "source": "DeepMind",
-  "title": "Beyond tree cover: mapping the world\u2019s forest types",
-  "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-  "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-  "date": "2026-10-22T14:30:24+00:00"
- },
- {
   "source": "OpenAI",
   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
   "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
@@ -162,24 +155,10 @@
  },
  {
   "source": "OpenAI",
-  "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-  "link": "https://openai.com/index/cloudflare-cyber",
-  "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-  "date": "2026-10-21T00:00:00+00:00"
- },
- {
-  "source": "OpenAI",
   "title": "How we built ChatGPT\u2019s novel ad stack for user trust and relevance",
   "link": "https://openai.com/index/building-chatgpt-ad-stack",
   "summary": "Learn how OpenAI built ChatGPT\u2019s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
   "date": "2026-10-21T07:00:00+00:00"
- },
- {
-  "source": "OpenAI",
-  "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-  "link": "https://openai.com/index/empowering-cyber-defenders",
-  "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-  "date": "2026-10-21T00:00:00+00:00"
  },
  {
   "source": "Google AI",
@@ -238,11 +217,11 @@
   "date": "2026-10-21T16:25:16+00:00"
  },
  {
-  "source": "Simon Willison",
-  "title": "eMudhra Intermediate CA Compromise",
-  "link": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
-  "summary": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any software that bundles a list of trusted certificates needs to be updated. This site is tracking software updates via this G",
-  "date": "2026-10-20T23:50:25+00:00"
+  "source": "MarkTechPost",
+  "title": "Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms",
+  "link": "https://www.marktechpost.com/2026/10/23/kyutai-cadre-video-autoencoders-interactive-world-models/",
+  "summary": "Kyutai released CADRE, a family of 7 open causal diffusion video autoencoders for interactive world models. World models built on CADRE run at 20 fps on 1 H100 and react in under 230 ms. The post Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms appeared first on MarkTechPost .",
+  "date": "2026-10-23T23:26:53+00:00"
  },
  {
   "source": "MarkTechPost",
@@ -306,13 +285,6 @@
   "link": "https://www.marktechpost.com/2026/10/22/ibm-granite-speech-5-0-2b-release/",
   "summary": "IBM released Granite Speech 5.0 2B, an Apache 2.0 speech recognition and translation model. It ranks #2 on the Open ASR Leaderboard with 5.68% average English WER, alongside updated Turbo CTC and 4.1 2B Plus models. The post IBM AI Releases Granite Speech 5.0 2B for Multilingual Transcription and Translation appeared first on MarkTechPost .",
   "date": "2026-10-22T07:00:56+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method",
-  "link": "https://www.marktechpost.com/2026/10/21/perplexity-jolt-joint-on-policy-learning-teaching/",
-  "summary": "Perplexity and NVIDIA introduced JOLT, a post-training method that trains one model as both teacher and student. On MATH it matched GRPO\u2019s accuracy with 6.5x fewer processed training tokens. The post Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method appeared first on MarkTechPost .",
-  "date": "2026-10-22T04:56:31+00:00"
  },
  {
   "source": "MIT News",
@@ -617,9 +589,16 @@
  },
  {
   "source": "GitHub",
-  "title": "Turn notifications into code with the GitHub app in Teams",
+  "title": "Usage metrics API adds usage from tools like OpenCode",
+  "link": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
+  "summary": "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren\u2019t previously captured in your reports.\u2026 The post Usage metrics API adds usage from tools like OpenCode appeared first on The GitHub Blog .",
+  "date": "2026-10-23T23:42:03+00:00"
+ },
+ {
+  "source": "GitHub",
+  "title": "Turn notifications into code with GitHub Copilot in Teams",
   "link": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
-  "summary": "The new GitHub app in Teams brings notifications and copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group\u2026 The post Turn notifications into code with the GitHub app in Teams appeared first on The GitHub Blog .",
+  "summary": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group\u2026 The post Turn notifications into code with GitHub Copilot in Teams appeared first on The GitHub Blog .",
   "date": "2026-10-23T21:29:58+00:00"
  },
  {
@@ -628,6 +607,13 @@
   "link": "https://github.blog/changelog/2026-10-23-emu-deletions-fix",
   "summary": "Between June 1 and June 13, 2026, some Enterprise Managed User accounts that were deprovisioned through SCIM were incorrectly deleted instead of being suspended and obfuscated as expected. As a\u2026 The post EMU deletions fix appeared first on The GitHub Blog .",
   "date": "2026-10-23T18:56:18+00:00"
+ },
+ {
+  "source": "GitHub",
+  "title": "Public monitoring adds triage, validity, API, and webhooks",
+  "link": "https://github.blog/changelog/2026-10-23-public-monitoring-adds-triage-validity-api-and-webhooks",
+  "summary": "Public monitoring now includes alert management capabilities like automatic validity checks to help you triage and remediate leaked secrets at scale. Alert management with dismissals, timelines, and filtering Always-on validity\u2026 The post Public monitoring adds triage, validity, API, and webhooks appeared first on The GitHub Blog .",
+  "date": "2026-10-23T17:17:58+00:00"
  },
  {
   "source": "GitHub",
@@ -670,20 +656,6 @@
   "link": "https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency",
   "summary": "Public monitoring is now available in public preview for GitHub Enterprise Cloud with data residency (GHEC DR). Public monitoring with data residency Public monitoring extends secret scanning beyond internal repositories\u2026 The post Public monitoring now available with data residency appeared first on The GitHub Blog .",
   "date": "2026-10-22T18:12:58+00:00"
- },
- {
-  "source": "GitHub",
-  "title": "Pull requests: Saved whitespace preferences and improved split view",
-  "link": "https://github.blog/changelog/2026-10-22-pull-requests-saved-whitespace-preferences-and-improved-split-view",
-  "summary": "Two improvements make it easier to review pull requests in the \u201cFiles changed\u201d page: You can save your whitespace visibility preference across pull requests New and deleted files now use\u2026 The post Pull requests: Saved whitespace preferences and improved split view appeared first on The GitHub Blog .",
-  "date": "2026-10-22T17:24:56+00:00"
- },
- {
-  "source": "GitHub",
-  "title": "Industry comparisons in the Copilot impact dashboard",
-  "link": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
-  "summary": "The Copilot impact dashboard now includes an \u201cIndustry comparison\u201d section. Enterprises, and organizations that aren\u2019t owned by an enterprise, can compare their Copilot agentic adoption and leverage with aggregated benchmarks\u2026 The post Industry comparisons in the Copilot impact dashboard appeared first on The GitHub Blog .",
-  "date": "2026-10-22T16:28:24+00:00"
  },
  {
   "source": "Latent Space",
@@ -890,7 +862,7 @@
  },
  {
   "source": "InfoQ",
-  "title": "Vercel Labs Open-Sources fx: A Zig Coding Agent Designed to Be Embedded",
+  "title": "Vercel Labs Open-Sources fx: a Zig Coding Agent Designed to Be Embedded",
   "link": "https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "Vercel Labs has released fx, an experimental open-source coding agent written in Zig. It runs as a CLI, a script component, or an embedded library, including a WebAssembly build. Early feedback questioned its model-agnostic claim and a name conflict with an existing tool. Vercel says the project is pre-1.0 and changing quickly. By Daniel Curtis",
   "date": "2026-10-22T09:33:00+00:00"
@@ -911,7 +883,7 @@
  },
  {
   "source": "InfoQ",
-  "title": "Developer Behind the AI-Built Adobe Clones Says They Are \u201cNot Anywhere Close to Ready",
+  "title": "Developer behind the AI-Built Adobe Clones Says They Are \u201cNot Anywhere Close to Ready\"",
   "link": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker News the project was not anywhere close to ready. Its own roadmap puts it at 45% ready for real work and 2,300 to 4,100 agent-hours from full parity. By Steef-Jan Wiggers",
   "date": "2026-10-22T07:41:00+00:00"
@@ -952,7 +924,7 @@
   "date": "2026-10-21T18:29:54+00:00"
  },
  {
-  "source": "HN (587pts)",
+  "source": "HN (593pts)",
   "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
   "link": "https://news.ycombinator.com/item?id=50200997",
   "summary": "",
@@ -966,7 +938,7 @@
   "date": "2026-10-21T16:44:53+00:00"
  },
  {
-  "source": "HN (437pts)",
+  "source": "HN (440pts)",
   "title": "LLMs are making formal software verification feasible at a much larger scale",
   "link": "https://www.anthropic.com/research/formal-verification",
   "summary": "",
@@ -987,7 +959,7 @@
   "date": "2026-10-21T19:14:01+00:00"
  },
  {
-  "source": "HN (314pts)",
+  "source": "HN (315pts)",
   "title": "Swedish government offices to ban ChatGPT and Claude",
   "link": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
   "summary": "",
@@ -1008,21 +980,28 @@
   "date": "2026-10-22T02:17:58+00:00"
  },
  {
-  "source": "HN (211pts)",
+  "source": "HN (215pts)",
   "title": "Show HN: OnKey \u2013 I'm a bad singer, so I built an app to show where I'm off-key",
   "link": "https://github.com/dsmurrell/onkey",
   "summary": "",
   "date": "2026-10-22T14:04:44+00:00"
  },
  {
-  "source": "HN (221pts)",
+  "source": "HN (32pts)",
+  "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+  "link": "https://corgi.computer/",
+  "summary": "",
+  "date": "2026-10-23T19:46:38+00:00"
+ },
+ {
+  "source": "HN (223pts)",
   "title": "Using LLM for confidence scoring is a bad idea",
   "link": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
   "summary": "",
   "date": "2026-10-21T04:27:51+00:00"
  },
  {
-  "source": "HN (46pts)",
+  "source": "HN (47pts)",
   "title": "Achieving AI-style reasoning without an LLM",
   "link": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
   "summary": "",
@@ -1043,7 +1022,7 @@
   "date": "2026-10-21T06:42:12+00:00"
  },
  {
-  "source": "HN (86pts)",
+  "source": "HN (88pts)",
   "title": "The rise and fall of Jev hype",
   "link": "https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm",
   "summary": "",
@@ -1057,35 +1036,35 @@
   "date": "2026-10-22T23:37:50+00:00"
  },
  {
-  "source": "HN (31pts)",
+  "source": "HN (34pts)",
   "title": "Volodymyr Zelenskyy: The speed limits on Starlink and Starshield are still there",
   "link": "https://twitter.com/ZelenskyyUa/status/2113677048354947180",
   "summary": "",
   "date": "2026-10-23T19:21:40+00:00"
  },
  {
-  "source": "HN (249pts)",
-  "title": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
-  "link": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+  "source": "HN (71pts)",
+  "title": "Evolving Threat: http2shell is an RCE in node, Python, and more",
+  "link": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
   "summary": "",
-  "date": "2026-10-22T11:12:37+00:00"
+  "date": "2026-10-23T23:30:17+00:00"
  },
  {
-  "source": "HN (627pts)",
+  "source": "HN (717pts)",
   "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
   "link": "https://www.kimi.ai/blog/kimi-k3-1-pro",
   "summary": "",
   "date": "2026-10-23T16:59:08+00:00"
  },
  {
-  "source": "HN (488pts)",
+  "source": "HN (489pts)",
   "title": "OpenShell \u2013 A safe, private runtime for fleets of autonomous AI agents",
   "link": "https://github.com/NVIDIA/OpenShell",
   "summary": "",
   "date": "2026-10-22T17:44:06+00:00"
  },
  {
-  "source": "HN (158pts)",
+  "source": "HN (159pts)",
   "title": "Using thousands of AI agents to uncover new leads in biological data",
   "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
   "summary": "",
@@ -1226,6 +1205,13 @@
  },
  {
   "source": "release: anthropics/claude-agent-sdk-python",
+  "title": "claude-agent-sdk-python v0.2.174",
+  "link": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.174",
+  "summary": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.310 PyPI: https://pypi.org/project/claude-agent-sdk/0.2.174/ pip install claude-agent-sdk==0.2.174",
+  "date": "2026-10-24T00:24:14+00:00"
+ },
+ {
+  "source": "release: anthropics/claude-agent-sdk-python",
   "title": "claude-agent-sdk-python v0.2.173",
   "link": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.173",
   "summary": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.309 PyPI: https://pypi.org/project/claude-agent-sdk/0.2.173/ pip install claude-agent-sdk==0.2.173",
@@ -1246,11 +1232,11 @@
   "date": "2026-10-21T23:06:54+00:00"
  },
  {
-  "source": "release: anthropics/claude-agent-sdk-python",
-  "title": "claude-agent-sdk-python v0.2.170",
-  "link": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.170",
-  "summary": "Bug Fixes Fixed parallel tool calls missing from session messages : get_session_messages and get_session_messages_from_store now return every tool call and result from turns that ran tools in parallel. Previously only one branch of the forked transcript was followed, dropping some calls and results ",
-  "date": "2026-10-21T04:15:33+00:00"
+  "source": "release: anthropics/claude-agent-sdk-typescript",
+  "title": "claude-agent-sdk-typescript v0.3.310",
+  "link": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.310",
+  "summary": "What's changed Updated to parity with Claude Code v2.1.310 Update npm install @anthropic-ai/claude-agent-sdk@0.3.310 # or yarn add @anthropic-ai/claude-agent-sdk@0.3.310 # or pnpm add @anthropic-ai/claude-agent-sdk@0.3.310 # or bun add @anthropic-ai/claude-agent-sdk@0.3.310",
+  "date": "2026-10-23T23:39:13+00:00"
  },
  {
   "source": "release: anthropics/claude-agent-sdk-typescript",
@@ -1274,11 +1260,11 @@
   "date": "2026-10-21T22:17:12+00:00"
  },
  {
-  "source": "release: anthropics/claude-agent-sdk-typescript",
-  "title": "claude-agent-sdk-typescript v0.3.306",
-  "link": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.306",
-  "summary": "What's changed Updated to parity with Claude Code v2.1.306 Update npm install @anthropic-ai/claude-agent-sdk@0.3.306 # or yarn add @anthropic-ai/claude-agent-sdk@0.3.306 # or pnpm add @anthropic-ai/claude-agent-sdk@0.3.306 # or bun add @anthropic-ai/claude-agent-sdk@0.3.306",
-  "date": "2026-10-21T03:17:07+00:00"
+  "source": "release: anthropics/claude-code",
+  "title": "claude-code v2.1.310",
+  "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+  "summary": "What's changed Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too Fixed requests failing behind some gateways and compatible servers that reject the effort-2025-11-24 bet",
+  "date": "2026-10-23T23:39:00+00:00"
  },
  {
   "source": "release: anthropics/claude-code",
@@ -1300,13 +1286,6 @@
   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
   "summary": "What's changed Added /claude-api api-version to move Claude API code to API version 2026-10-21 Added the claude_code.safety_event OpenTelemetry event for each tool call a permission rule, auto mode, a safety check, a hook or the sandbox stopped, prompted or sent back Fixed requests failing with a mo",
   "date": "2026-10-21T22:17:02+00:00"
- },
- {
-  "source": "release: anthropics/claude-code",
-  "title": "claude-code v2.1.306",
-  "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
-  "summary": "What's changed Fixed claude -p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables Fixed an API error being replaced by \"prompt is too long\", and an unneeded compaction, in sessions with many MCP tools",
-  "date": "2026-10-21T03:16:31+00:00"
  },
  {
   "source": "release: apache/airflow",
@@ -1408,6 +1387,13 @@
  },
  {
   "source": "release: google-gemini/gemini-cli",
+  "title": "gemini-cli Release v0.67.0-nightly.20261024.gcd1b45c2d",
+  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261024.gcd1b45c2d",
+  "summary": "What's Changed fix(cli): stop continuation stream processing and auto-nudge after request cancellation by @jesussamuel-byte in #29868 fix(cli): correct Thai and Lao SARA AM display width by @elberthc-byte in #29883 fix(core): resolve relative file paths against active IDE workspace root by @villaher",
+  "date": "2026-10-24T01:15:53+00:00"
+ },
+ {
+  "source": "release: google-gemini/gemini-cli",
   "title": "gemini-cli Release v0.67.0-nightly.20261023.ga713410ab",
   "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261023.ga713410ab",
   "summary": "What's Changed fix(a2a-server,core): preserve extended token usage metadata and align per-turn reporting by @jvargassanchez-dot in #29834 fix(core): ensure all model turns with function calls receive thought signatures by @amelidev in #29828 fix(cli): handle termination signals and prevent tool exec",
@@ -1419,13 +1405,6 @@
   "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261022.g09d81bf11",
   "summary": "What's Changed Changelog for v0.66.0-preview.0 by @gemini-cli-robot in #29852 feat(cli): bridge the IDE companion into container sandboxes over exec stdio by @elberthc-byte in #29858 fix(core): prevent duplicate agent loading when workspace is home directory ( #27692 ) by @urielefrenvirtusa in #2984",
   "date": "2026-10-22T01:23:52+00:00"
- },
- {
-  "source": "release: google-gemini/gemini-cli",
-  "title": "gemini-cli Release v0.67.0-nightly.20261021.gd00859d6b",
-  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261021.gd00859d6b",
-  "summary": "What's Changed chore: migrate gsutil usage to gcloud storage by @gurusai-voleti in #29839 fix(core): preserve user-level ~/.gitconfig in shell and git environments by @jesussamuel-byte in #29832 fix(core): prevent false positive matches in isAuthenticationError by @urielefrenvirtusa in #29835 fix(co",
-  "date": "2026-10-21T01:33:29+00:00"
  },
  {
   "source": "release: harry0703/MoneyPrinterTurbo",
@@ -1657,6 +1636,13 @@
   "link": "https://github.com/pascalorg/editor/releases/tag/%40pascal-app%2Fifc-converter%401.0.6",
   "summary": "release: @pascal-app/core@1.0.6 @pascal-app/geometry-script@1.0.6 @pa \u2026",
   "date": "2026-10-23T00:51:04+00:00"
+ },
+ {
+  "source": "release: pipecat-ai/pipecat",
+  "title": "pipecat v1.14.0",
+  "link": "https://github.com/pipecat-ai/pipecat/releases/tag/v1.14.0",
+  "summary": "Added Added PerplexityAgentHttpLLMService for Perplexity's Agent API, which answers with web search and supports function calling. It defaults to openai/gpt-5.6-luna with web search on. Settings adds preset , web_search and max_steps . preset and model are independent, and at least one must be set. ",
+  "date": "2026-10-24T01:24:33+00:00"
  },
  {
   "source": "release: qdrant/qdrant",
@@ -2100,7 +2086,7 @@
   "date": "2026-10-23T00:00:00-04:00"
  },
  {
-  "source": "HF Papers (4 up)",
+  "source": "HF Papers (5 up)",
   "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
   "link": "https://huggingface.co/papers/2610.31198",
   "summary": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising steps. We further show that these patterns can be predicted without groundtruth labels or task-specific ev",
@@ -2128,14 +2114,14 @@
   "date": "2026-10-21T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (53 up)",
+  "source": "HF Papers (54 up)",
   "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
   "link": "https://huggingface.co/papers/2610.30949",
   "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optima",
   "date": "2026-10-21T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (221 up)",
+  "source": "HF Papers (223 up)",
   "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
   "link": "https://huggingface.co/papers/2610.31329",
   "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, en",
@@ -2149,18 +2135,74 @@
   "date": "2026-10-21T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (5 up)",
-  "title": "F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation",
-  "link": "https://huggingface.co/papers/2610.31623",
-  "summary": "This paper studies category-level RGB-D object pose estimation, which recovers an object's 3D rotation and translation without instance-specific CAD models or reference views. This task is highly ambiguous due to intra-class variations, symmetries, and partial observations. Current solutions struggle to balance reliability and efficiency: methods based on intermediate structures are prone to error",
-  "date": "2026-10-21T20:00:00+00:00"
- },
- {
   "source": "HF model (1904 dl)",
   "title": "New on the Hub: RecursiveSI/flint",
   "link": "https://huggingface.co/RecursiveSI/flint",
   "summary": "pipeline: text-generation. tags: transformers, safetensors, flint, text-generation, conversational, endpoints_compatible",
   "date": "2026-10-21T14:20:58+00:00"
+ },
+ {
+  "source": "DeepMind",
+  "title": "Beyond tree cover: mapping the world\u2019s forest types",
+  "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+  "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+  "date": "2026-10-22T14:30:24+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method",
+  "link": "https://www.marktechpost.com/2026/10/21/perplexity-jolt-joint-on-policy-learning-teaching/",
+  "summary": "Perplexity and NVIDIA introduced JOLT, a post-training method that trains one model as both teacher and student. On MATH it matched GRPO\u2019s accuracy with 6.5x fewer processed training tokens. The post Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method appeared first on MarkTechPost .",
+  "date": "2026-10-22T04:56:31+00:00"
+ },
+ {
+  "source": "GitHub",
+  "title": "Pull requests: Saved whitespace preferences and improved split view",
+  "link": "https://github.blog/changelog/2026-10-22-pull-requests-saved-whitespace-preferences-and-improved-split-view",
+  "summary": "Two improvements make it easier to review pull requests in the \u201cFiles changed\u201d page: You can save your whitespace visibility preference across pull requests New and deleted files now use\u2026 The post Pull requests: Saved whitespace preferences and improved split view appeared first on The GitHub Blog .",
+  "date": "2026-10-22T17:24:56+00:00"
+ },
+ {
+  "source": "GitHub",
+  "title": "Industry comparisons in the Copilot impact dashboard",
+  "link": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
+  "summary": "The Copilot impact dashboard now includes an \u201cIndustry comparison\u201d section. Enterprises, and organizations that aren\u2019t owned by an enterprise, can compare their Copilot agentic adoption and leverage with aggregated benchmarks\u2026 The post Industry comparisons in the Copilot impact dashboard appeared first on The GitHub Blog .",
+  "date": "2026-10-22T16:28:24+00:00"
+ },
+ {
+  "source": "HN (249pts)",
+  "title": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+  "link": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+  "summary": "",
+  "date": "2026-10-22T11:12:37+00:00"
+ },
+ {
+  "source": "release: anthropics/claude-agent-sdk-python",
+  "title": "claude-agent-sdk-python v0.2.170",
+  "link": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.170",
+  "summary": "Bug Fixes Fixed parallel tool calls missing from session messages : get_session_messages and get_session_messages_from_store now return every tool call and result from turns that ran tools in parallel. Previously only one branch of the forked transcript was followed, dropping some calls and results ",
+  "date": "2026-10-21T04:15:33+00:00"
+ },
+ {
+  "source": "release: anthropics/claude-agent-sdk-typescript",
+  "title": "claude-agent-sdk-typescript v0.3.306",
+  "link": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.306",
+  "summary": "What's changed Updated to parity with Claude Code v2.1.306 Update npm install @anthropic-ai/claude-agent-sdk@0.3.306 # or yarn add @anthropic-ai/claude-agent-sdk@0.3.306 # or pnpm add @anthropic-ai/claude-agent-sdk@0.3.306 # or bun add @anthropic-ai/claude-agent-sdk@0.3.306",
+  "date": "2026-10-21T03:17:07+00:00"
+ },
+ {
+  "source": "release: anthropics/claude-code",
+  "title": "claude-code v2.1.306",
+  "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+  "summary": "What's changed Fixed claude -p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables Fixed an API error being replaced by \"prompt is too long\", and an unneeded compaction, in sessions with many MCP tools",
+  "date": "2026-10-21T03:16:31+00:00"
+ },
+ {
+  "source": "HF Papers (5 up)",
+  "title": "F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation",
+  "link": "https://huggingface.co/papers/2610.31623",
+  "summary": "This paper studies category-level RGB-D object pose estimation, which recovers an object's 3D rotation and translation without instance-specific CAD models or reference views. This task is highly ambiguous due to intra-class variations, symmetries, and partial observations. Current solutions struggle to balance reliability and efficiency: methods based on intermediate structures are prone to error",
+  "date": "2026-10-21T20:00:00+00:00"
  },
  {
   "source": "Hugging Face",
@@ -3045,13 +3087,6 @@
   "date": "2026-10-21T09:57:43-04:00"
  },
  {
-  "source": "The Verge AI",
-  "title": "Judge dismisses Sam Altman\u2019s sister\u2019s sexual abuse lawsuit",
-  "link": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
-  "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or [\u2026]",
-  "date": "2026-10-20T19:37:55-04:00"
- },
- {
   "source": "release: ComposioHQ/composio",
   "title": "composio versioning-example@0.1.10",
   "link": "https://github.com/ComposioHQ/composio/releases/tag/versioning-example%400.1.10",
@@ -3645,40 +3680,5 @@
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.3",
   "summary": "Fixes memory list (and other CLI commands) could intermittently crash on exit with a libuv assertion ( UV_HANDLE_CLOSING ), most visible on Windows ( #4334 ). The CLI's exit handler now sets process.exitCode instead of forcing process.exit(0) , and best-effort awaits shutdownBridge() to drain cached",
   "date": "2026-10-21T01:59:47+00:00"
- },
- {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.59.2 \u2014 task cancel/status correctness fixes",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.2",
-  "summary": "Fixes task cancel ( #4331 ): previously claimed success for an unknown or already-finished task id (and printed Previous status: undefined ), and overwrote a completed task's result with the cancel reason. Now returns previousStatus , refuses to touch a finished task, and the CLI exits 1 for either ",
-  "date": "2026-10-21T01:08:28+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.572",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.572",
-  "summary": "Release API image v2.11.572",
-  "date": "2026-10-21T00:54:09+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.571",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.571",
-  "summary": "Release API image v2.11.571",
-  "date": "2026-10-21T00:45:54+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.570",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.570",
-  "summary": "Release API image v2.11.570",
-  "date": "2026-10-21T00:15:02+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.569",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.569",
-  "summary": "Release API image v2.11.569",
-  "date": "2026-10-20T23:57:49+00:00"
  }
 ]
