@@ -70,13 +70,6 @@
   "date": "2026-10-22T06:00:00+00:00"
  },
  {
-  "source": "OpenAI",
-  "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-  "link": "https://openai.com/index/uber-chatgpt-work-rollout",
-  "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-  "date": "2026-10-22T00:00:00+00:00"
- },
- {
   "source": "Simon Willison",
   "title": "battledrones v14: Compass Rose, a four player map",
   "link": "https://simonwillison.net/2026/Oct/24/battledrones/",
@@ -330,16 +323,16 @@
  },
  {
   "source": "TechCrunch AI",
-  "title": "Canva releases its first image generation model",
-  "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-  "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+  "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+  "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+  "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
   "date": "2026-10-22T19:00:00+00:00"
  },
  {
   "source": "TechCrunch AI",
-  "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-  "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-  "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+  "title": "Canva releases its first image generation model",
+  "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+  "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
   "date": "2026-10-22T19:00:00+00:00"
  },
  {
@@ -707,14 +700,14 @@
   "date": "2026-10-22T15:30:47+00:00"
  },
  {
-  "source": "HN (643pts)",
+  "source": "HN (645pts)",
   "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
   "link": "https://news.ycombinator.com/item?id=50200997",
   "summary": "",
   "date": "2026-10-22T21:03:55+00:00"
  },
  {
-  "source": "HN (456pts)",
+  "source": "HN (457pts)",
   "title": "LLMs are making formal software verification feasible at a much larger scale",
   "link": "https://www.anthropic.com/research/formal-verification",
   "summary": "",
@@ -735,21 +728,21 @@
   "date": "2026-10-22T02:17:58+00:00"
  },
  {
-  "source": "HN (227pts)",
+  "source": "HN (228pts)",
   "title": "Show HN: OnKey \u2013 I'm a bad singer, so I built an app to show where I'm off-key",
   "link": "https://github.com/dsmurrell/onkey",
   "summary": "",
   "date": "2026-10-22T14:04:44+00:00"
  },
  {
-  "source": "HN (124pts)",
+  "source": "HN (125pts)",
   "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
   "link": "https://corgi.computer/",
   "summary": "",
   "date": "2026-10-23T19:46:38+00:00"
  },
  {
-  "source": "HN (47pts)",
+  "source": "HN (48pts)",
   "title": "Achieving AI-style reasoning without an LLM",
   "link": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
   "summary": "",
@@ -819,7 +812,7 @@
   "date": "2026-10-22T17:44:06+00:00"
  },
  {
-  "source": "HN (35pts)",
+  "source": "HN (42pts)",
   "title": "Proton hosts Flock map revealing over 300k cameras, defying cease-and-desist",
   "link": "https://www.tomshardware.com/software/maps/proton-hosts-flock-map-revealing-over-300-000-cameras-defying-cease-and-desist-threats-against-creator-privacy-focused-company-hosts-site-on-swiss-servers-says-users-have-the-right-to-know-whos-recording-them",
   "summary": "",
@@ -964,13 +957,6 @@
   "link": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.172",
   "summary": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.308 PyPI: https://pypi.org/project/claude-agent-sdk/0.2.172/ pip install claude-agent-sdk==0.2.172",
   "date": "2026-10-22T05:23:38+00:00"
- },
- {
-  "source": "release: anthropics/claude-agent-sdk-python",
-  "title": "claude-agent-sdk-python v0.2.171",
-  "link": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.171",
-  "summary": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.307 PyPI: https://pypi.org/project/claude-agent-sdk/0.2.171/ pip install claude-agent-sdk==0.2.171",
-  "date": "2026-10-21T23:06:54+00:00"
  },
  {
   "source": "release: anthropics/claude-agent-sdk-typescript",
@@ -1253,6 +1239,20 @@
   "date": "2026-10-23T08:47:55+00:00"
  },
  {
+  "source": "release: modelcontextprotocol/servers",
+  "title": "servers v2.1.0",
+  "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0",
+  "summary": "Security fixes v2.1.0 fixes eight vulnerabilities in three servers. Upgrade @modelcontextprotocol/server-filesystem and @modelcontextprotocol/server-everything to 2.0.1, and mcp-server-fetch to 2026.10.24. Package Affected Fixed in @modelcontextprotocol/server-filesystem 1.0.0 through 2.0.0, and dat",
+  "date": "2026-10-25T00:03:20+00:00"
+ },
+ {
+  "source": "release: modelcontextprotocol/servers",
+  "title": "servers v2.0.0",
+  "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0",
+  "summary": "Servers refactored to modern era This release refactors all the servers to support the modern era spec, while still answering legacy era clients as expected. Packages Package Version Registry In this release @modelcontextprotocol/server-everything 2.0.0 npm published @modelcontextprotocol/server-fil",
+  "date": "2026-10-24T23:58:30+00:00"
+ },
+ {
   "source": "release: moltis-org/moltis",
   "title": "moltis 20261023.01",
   "link": "https://github.com/moltis-org/moltis/releases/tag/20261023.01",
@@ -1345,6 +1345,13 @@
  },
  {
   "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.62.0 \u2014 ruRE CUDA launch plan",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.62.0",
+  "summary": "Minor release: @claude-flow/cli , claude-flow , ruflo 3.62.0. Adds one MCP tool ( rure_cuda_launch_plan ). No leaf package changed, so no standalone publishes. Added ruRE: CUDA launch plan (ruflo-rure 0.6.0, ADR-501). New read-only MCP tool rure_cuda_launch_plan turns what rure_analyze_cuda found in",
+  "date": "2026-10-24T23:53:09+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
   "title": "ruflo v3.61.1 \u2014 ruRE can read a folder you allow (console 0.48.0)",
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.61.1",
   "summary": "Patch release: @claude-flow/cli , claude-flow , ruflo 3.61.1. No leaf package changed, so no standalone publishes. Added ruflo-console 0.48.0 (ADR-499): the ruRE page can read a folder outside the project that you allow. New plugin option rureFolders ( name=/absolute/folder pairs); a sample then nam",
@@ -1363,13 +1370,6 @@
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.60.1",
   "summary": "Patch release: @claude-flow/cli , claude-flow , ruflo 3.60.1. No leaf package changed, so no standalone publishes. Fixed ruflo cleanup --force --keep-config deleted the config files it is meant to keep ( claude-flow.config.json , the hooks / claudeFlow blocks of .claude/settings.json ): the parser s",
   "date": "2026-10-23T19:04:25+00:00"
- },
- {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.60.0 \u2014 ruRE reverse-engineering tools, console page, security fixes",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.60.0",
-  "summary": "Minor release: @claude-flow/cli , claude-flow , ruflo 3.60.0, with @claude-flow/hooks 3.0.2 and @claude-flow/mcp 3.1.2 published standalone. Backward-compatible additions (six new reverse-engineering MCP tools, a ruRE page in the console) plus security and correctness fixes. The 3.59.x patch release",
-  "date": "2026-10-23T17:27:43+00:00"
  },
  {
   "source": "release: thedotmack/claude-mem",
@@ -1419,6 +1419,13 @@
   "link": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
   "summary": "pipeline: text-generation. tags: gguf, gsq, rco, quantization, mixed-precision, ist-daslab",
   "date": "2026-10-23T09:43:05+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.60.0 \u2014 ruRE reverse-engineering tools, console page, security fixes",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.60.0",
+  "summary": "Minor release: @claude-flow/cli , claude-flow , ruflo 3.60.0, with @claude-flow/hooks 3.0.2 and @claude-flow/mcp 3.1.2 published standalone. Backward-compatible additions (six new reverse-engineering MCP tools, a ruRE page in the console) plus security and correctness fixes. The 3.59.x patch release",
+  "date": "2026-10-23T17:27:43+00:00"
  },
  {
   "source": "DeepMind",
@@ -1960,32 +1967,11 @@
   "date": "2026-10-22T03:59:12+00:00"
  },
  {
-  "source": "MarkTechPost",
-  "title": "Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params",
-  "link": "https://www.marktechpost.com/2026/10/21/recursive-flint-local-coding-model/",
-  "summary": "Recursive has released Flint, an Apache 2.0 local coding model with 40B total and 2.5B active parameters. It reports 74.2% on SWE-bench Verified and 125+ tokens per second on an M4 Pro MacBook Pro. The post Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params appeared first on MarkTechPost .",
-  "date": "2026-10-21T22:39:41+00:00"
- },
- {
   "source": "TechCrunch AI",
   "title": "DeepSeek reportedly raises $15B days after US restrictions",
   "link": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
   "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns.",
   "date": "2026-10-22T13:11:13+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "Blackstone\u2019s Jas Khaira says fears over AI-buildout debt are overblown",
-  "link": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-  "summary": "Blackstone\u2019s AI head on why the PE giant isn't panicked by market jitters.",
-  "date": "2026-10-21T22:51:22+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
-  "link": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
-  "summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services.",
-  "date": "2026-10-21T22:45:34+00:00"
  },
  {
   "source": "The Verge AI",
@@ -2527,13 +2513,6 @@
   "date": "2026-10-22T00:00:00-04:00"
  },
  {
-  "source": "The Verge AI",
-  "title": "Data centers could erase decades of air quality gains",
-  "link": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
-  "summary": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity. How developers and utilities meet that demand - with gas [\u2026]",
-  "date": "2026-10-21T18:33:44-04:00"
- },
- {
   "source": "release: firecrawl/firecrawl",
   "title": "firecrawl v2.11.593",
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.593",
@@ -2588,12 +2567,5 @@
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.587",
   "summary": "Release API image v2.11.587",
   "date": "2026-10-22T03:33:53+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.585",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.585",
-  "summary": "Release API image v2.11.585",
-  "date": "2026-10-21T23:21:06+00:00"
  }
 ]
