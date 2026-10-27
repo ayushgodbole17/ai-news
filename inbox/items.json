@@ -407,6 +407,13 @@
  },
  {
   "source": "InfoQ",
+  "title": "Developers Reporting Double-Digit Weekly Time Savings From AI Fell From 68% to 26%",
+  "link": "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "Atlassian\u2019s State of Developer Experience 2026 finds the share of developers saving ten or more hours a week with AI dropped from 68% to 26% year over year, while only 28% report noticeably less friction than before AI. Engineering leaders report spending more time managing and correcting AI output than developers do. By Steef-Jan Wiggers",
+  "date": "2026-10-27T04:45:00+00:00"
+ },
+ {
+  "source": "InfoQ",
   "title": "AGNTCon + MCPCon 2026: Agentic AI Foundation Adds Four Projects as MCP Turns to Security",
   "link": "https://www.infoq.com/news/2026/10/agntcon-mcpcon-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "At AGNTCon + MCPCon North America 2026, the Agentic AI Foundation added OpenSandbox, Open Responses, Agent Skills, and OpenEnv, reaching ten projects in its first year. Keynotes from Anthropic, OpenAI, Google, and UC Berkeley focused on MCP in production, security, and agents with their own identities. By Andrew Hoblitzell",
@@ -504,13 +511,6 @@
   "date": "2026-10-24T16:00:00+00:00"
  },
  {
-  "source": "InfoQ",
-  "title": "Google\u2019s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
-  "link": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and practitioners need to tell them apart: one is a skill asking the agent to stop, the other an IAM deny policy that refuses the call. By Steef-Jan Wiggers",
-  "date": "2026-10-24T08:34:00+00:00"
- },
- {
   "source": "ByteByteGo",
   "title": "Last chance to get every live course in one membership",
   "link": "https://blog.bytebytego.com/p/last-chance-to-get-every-live-course",
@@ -532,14 +532,14 @@
   "date": "2026-10-24T15:30:37+00:00"
  },
  {
-  "source": "HN (1523pts)",
+  "source": "HN (1540pts)",
   "title": "Anthropic S-1",
   "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
   "summary": "",
   "date": "2026-10-26T13:04:50+00:00"
  },
  {
-  "source": "HN (421pts)",
+  "source": "HN (422pts)",
   "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
   "link": "https://minimaxir.com/2026/10/cheap-llms/",
   "summary": "",
@@ -560,7 +560,7 @@
   "date": "2026-10-25T15:34:44+00:00"
  },
  {
-  "source": "HN (127pts)",
+  "source": "HN (134pts)",
   "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
   "link": "https://github.com/FrigadeHQ/hob",
   "summary": "",
@@ -602,7 +602,7 @@
   "date": "2026-10-26T01:00:52+00:00"
  },
  {
-  "source": "HN (153pts)",
+  "source": "HN (158pts)",
   "title": "Fixing Tool-Call Accuracy in vLLM",
   "link": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
   "summary": "",
@@ -616,7 +616,7 @@
   "date": "2026-10-24T21:21:33+00:00"
  },
  {
-  "source": "HN (37pts)",
+  "source": "HN (38pts)",
   "title": "Nvidia discusses $2k-per-GPU annual fee for software",
   "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform",
   "summary": "",
@@ -731,8 +731,8 @@
   "source": "release: Significant-Gravitas/AutoGPT",
   "title": "AutoGPT Preview seed fixture (rolling)",
   "link": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/preview-seed-fixture",
-  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@19e0a0978677 (migration head: 20261026120000_normalize_org_invitation_email). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migr",
-  "date": "2026-10-27T02:38:14+00:00"
+  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@42659ea6e0b9 (migration head: 20261026120000_normalize_org_invitation_email). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migr",
+  "date": "2026-10-27T04:14:24+00:00"
  },
  {
   "source": "release: agentscope-ai/agentscope",
@@ -1533,21 +1533,35 @@
   "date": "2026-10-27T00:00:00-04:00"
  },
  {
-  "source": "HF Papers (3 up)",
+  "source": "HF Papers (2 up)",
+  "title": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
+  "link": "https://huggingface.co/papers/2610.34415",
+  "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contributions. First, a shared Transfusion backbone couples autoregressive planning with",
+  "date": "2026-10-24T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (0 up)",
+  "title": "RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions",
+  "link": "https://huggingface.co/papers/2610.34356",
+  "summary": "Scaling vision-language-action (VLA) models is constrained by scarce action-labeled demonstrations and incompatible control spaces across robot embodiments. We present RynnVLA-Latent, a framework that turns heterogeneous interaction videos into scalable supervision for robot policy pretraining. At its core, RynnLAM learns continuous, 3D-grounded latent actions from visual transitions without requi",
+  "date": "2026-10-24T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (8 up)",
   "title": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
   "link": "https://huggingface.co/papers/2610.35193",
   "summary": "AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mechanisms that govern future updates, which can themselves be revised and reused across improvement cycles. Yet self-modification alone does not guarantee tr",
   "date": "2026-10-25T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (3 up)",
+  "source": "HF Papers (18 up)",
   "title": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
   "link": "https://huggingface.co/papers/2610.34467",
   "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or pa",
   "date": "2026-10-24T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (11 up)",
+  "source": "HF Papers (13 up)",
   "title": "\u0394\u03c4-Bench: Pushing Agents Toward a Moving Capability",
   "link": "https://huggingface.co/papers/2610.34238",
   "summary": "In this paper, we introduce \u0394\u03c4-Bench, an executable agent benchmark that models the structural evolution of large tool ecosystems. In \u0394\u03c4-Bench, independently evolving services continually reshape how tasks can be accomplished: familiar tools may disappear or be replaced, while more efficient alternatives emerge amid overlapping functionality and noisy documentation. Against this moving capability ",
@@ -1561,39 +1575,46 @@
   "date": "2026-10-24T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (4 up)",
+  "source": "HF Papers (6 up)",
   "title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
   "link": "https://huggingface.co/papers/2610.18683",
   "summary": "Reinforcement learning (RL) has emerged as the primary paradigm for optimizing Large Language Model (LLM) agents, yet efficient critic-free algorithms (e.g., GRPO) suffer from a fundamental uniform credit assignment dilemma that broadcasts trajectory-level advantages equally to all actions. Our analysis reveals that this uniformity inherently reinforces structurally unreasonable actions in preferr",
   "date": "2026-10-24T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (6 up)",
+  "source": "HF Papers (8 up)",
   "title": "Work Agents: Systems, Capabilities, and Optimization",
   "link": "https://huggingface.co/papers/2610.35845",
   "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems co",
   "date": "2026-10-25T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (48 up)",
+  "source": "HF Papers (70 up)",
   "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
   "link": "https://huggingface.co/papers/2610.34662",
   "summary": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to update the state simultaneously as user requests might update continuously. These limitations make them le",
   "date": "2026-10-25T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (15 up)",
+  "source": "HF Papers (45 up)",
   "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
   "link": "https://huggingface.co/papers/2610.33966",
   "summary": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees and give instructions for user's physical work when necessary. However, testing such assistance is ch",
   "date": "2026-10-24T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (8 up)",
+  "source": "HF Papers (9 up)",
   "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
   "link": "https://huggingface.co/papers/2610.33956",
   "summary": "Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge from experience while retaining useful prior knowledge. It is essential for agents learning over long time horizons, yet current evaluations largely assess individual task performance rather than improvement through accumulated experience. We introduce Continual Learning Exam (CLE), ",
   "date": "2026-10-24T20:00:00+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "Google\u2019s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
+  "link": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and practitioners need to tell them apart: one is a skill asking the agent to stop, the other an IAM deny policy that refuses the call. By Steef-Jan Wiggers",
+  "date": "2026-10-24T08:34:00+00:00"
  },
  {
   "source": "MarkTechPost",
@@ -1958,13 +1979,6 @@
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.62.0",
   "summary": "Minor release: @claude-flow/cli , claude-flow , ruflo 3.62.0. Adds one MCP tool ( rure_cuda_launch_plan ). No leaf package changed, so no standalone publishes. Added ruRE: CUDA launch plan (ruflo-rure 0.6.0, ADR-501). New read-only MCP tool rure_cuda_launch_plan turns what rure_analyze_cuda found in",
   "date": "2026-10-24T23:53:09+00:00"
- },
- {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.61.1 \u2014 ruRE can read a folder you allow (console 0.48.0)",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.61.1",
-  "summary": "Patch release: @claude-flow/cli , claude-flow , ruflo 3.61.1. No leaf package changed, so no standalone publishes. Added ruflo-console 0.48.0 (ADR-499): the ruRE page can read a folder outside the project that you allow. New plugin option rureFolders ( name=/absolute/folder pairs); a sample then nam",
-  "date": "2026-10-24T04:58:52+00:00"
  },
  {
   "source": "release: infiniflow/ragflow",
