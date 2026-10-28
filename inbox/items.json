@@ -721,14 +721,14 @@
   "date": "2026-10-26T15:30:38+00:00"
  },
  {
-  "source": "HN (1692pts)",
+  "source": "HN (1693pts)",
   "title": "Anthropic S-1",
   "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
   "summary": "",
   "date": "2026-10-26T13:04:50+00:00"
  },
  {
-  "source": "HN (490pts)",
+  "source": "HN (499pts)",
   "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
   "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
   "summary": "",
@@ -742,7 +742,7 @@
   "date": "2026-10-25T21:11:31+00:00"
  },
  {
-  "source": "HN (165pts)",
+  "source": "HN (191pts)",
   "title": "Early progress on accelerating drug development with Claude",
   "link": "https://www.anthropic.com/research/early-progress-drug-development",
   "summary": "",
@@ -756,7 +756,7 @@
   "date": "2026-10-25T15:34:44+00:00"
  },
  {
-  "source": "HN (31pts)",
+  "source": "HN (35pts)",
   "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
   "link": "https://www.anthropic.com/news/expanding-partnership-gsa",
   "summary": "",
@@ -770,7 +770,7 @@
   "date": "2026-10-26T16:12:29+00:00"
  },
  {
-  "source": "HN (215pts)",
+  "source": "HN (216pts)",
   "title": "Is my data used for model training?",
   "link": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
   "summary": "",
@@ -784,7 +784,7 @@
   "date": "2026-10-25T17:15:38+00:00"
  },
  {
-  "source": "HN (225pts)",
+  "source": "HN (270pts)",
   "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
   "link": "https://www.brangus.io/survival-llm",
   "summary": "",
@@ -798,14 +798,14 @@
   "date": "2026-10-25T14:05:03+00:00"
  },
  {
-  "source": "HN (93pts)",
+  "source": "HN (94pts)",
   "title": "There are now 5 inference providers for abliterated DeepSeek",
   "link": "https://allmodels.io/llm/abliterated",
   "summary": "",
   "date": "2026-10-27T04:53:52+00:00"
  },
  {
-  "source": "HN (128pts)",
+  "source": "HN (133pts)",
   "title": "Introducing LFM3: Every Modality for Specialized Intelligence",
   "link": "https://www.liquid.ai/blog/lfm3",
   "summary": "",
@@ -817,6 +817,13 @@
   "link": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
   "summary": "",
   "date": "2026-10-26T12:59:48+00:00"
+ },
+ {
+  "source": "HN (82pts)",
+  "title": "Eunice is almost here",
+  "link": "https://armincat.com/articles/eunice-is-almost-here",
+  "summary": "",
+  "date": "2026-10-25T19:40:27+00:00"
  },
  {
   "source": "HN (40pts)",
@@ -836,8 +843,8 @@
   "source": "release: BerriAI/litellm",
   "title": "litellm v1.109.0-dev.1",
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.109.0-dev.1",
-  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . This release is signed with the key introduced in commit e82a3c6 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using th",
-  "date": "2026-10-28T03:03:06+00:00"
+  "summary": "Verify this release cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\ ghcr.io/berriai/litellm:v1.109.0-dev.1 Same command for litellm-database , litellm-non_root and the docker.io/litellm/* images What's new in 1.109.0-dev.1",
+  "date": "2026-10-28T04:34:29+00:00"
  },
  {
   "source": "release: BerriAI/litellm",
@@ -1144,8 +1151,8 @@
   "source": "release: koala73/worldmonitor",
   "title": "worldmonitor convex-deployed",
   "link": "https://github.com/koala73/worldmonitor/releases/tag/convex-deployed",
-  "summary": "fix(brief): compose a daily in-app brief for every paid user, not onl\u2026",
-  "date": "2026-10-27T19:17:55+00:00"
+  "summary": "fix(security): bound alert-rule rows and paginate the relay's shared \u2026",
+  "date": "2026-10-28T05:15:39+00:00"
  },
  {
   "source": "release: koala73/worldmonitor",
@@ -1645,6 +1652,34 @@
   "date": "2026-10-28T00:00:00-04:00"
  },
  {
+  "source": "HF Papers (5 up)",
+  "title": "Your Policy Is Secretly a Harness: The Decision Geometry of Agent Interfaces",
+  "link": "https://huggingface.co/papers/2610.37255",
+  "summary": "Language model agents are post-trained and deployed through a harness, the prompts, tools, and control logic that present a task to the model and execute its outputs. Harnesses are often revised and judged by how an already trained model performs under them, which assumes that what the model learned under one harness carries over to the next. We ask what a policy learns from its harness and what s",
+  "date": "2026-10-26T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (3 up)",
+  "title": "Benchmarking Obstacle-Conditioned Safety in Household Robot Navigation",
+  "link": "https://huggingface.co/papers/2610.34674",
+  "summary": "Safe household navigation requires robots to regulate clearance and speed according to what an obstacle is and how close it is, without unnecessary conservatism. Yet existing evaluations do not test whether semantic safety distinctions are reflected in continuous motion. To that end, we introduce OSMA-Bench, an Obstacle-Conditioned Safe Motion Adaptation Benchmark built on spatially matched scenar",
+  "date": "2026-10-25T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (7 up)",
+  "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+  "link": "https://huggingface.co/papers/2610.36077",
+  "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can shar",
+  "date": "2026-10-25T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (0 up)",
+  "title": "PhysEvolve: Verifier-grounded Self-evolution for Physical Reasoning with Executable Worlds",
+  "link": "https://huggingface.co/papers/2610.34921",
+  "summary": "Physical reasoning underpins how embodied systems understand and act in the physical world, yet vision-language models (VLMs) remain unreliable on questions about dynamics and physical causality. Progress is critically constrained by the scarcity of grounded counterfactual training data, as observational videos capture only the factual trajectory that occurred. The self-evolving paradigm offers a ",
+  "date": "2026-10-25T20:00:00+00:00"
+ },
+ {
   "source": "HF Papers (1 up)",
   "title": "MoveBench: A Rubric-Based Benchmark for Evaluating Large Language Models in Sports and Health Coaching",
   "link": "https://huggingface.co/papers/2610.26185",
@@ -1659,7 +1694,7 @@
   "date": "2026-10-26T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (3 up)",
   "title": "Vision-Language-Action or World-Action? Just Action Models",
   "link": "https://huggingface.co/papers/2610.37219",
   "summary": "The vision-language-action (VLA) and world-action model (WAM) communities debate whether control policies should inherit pretrained knowledge from vision-language models or from visual generators. The debate, however, bundles three separable choices: backbone initialization, the objective applied to future observations, and whether the machinery for that future loss is kept at inference. A gap bet",
@@ -1673,35 +1708,35 @@
   "date": "2026-10-26T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (0 up)",
   "title": "Learning and Reasoning with Geometry: How Generation Helps Spatial Understanding",
   "link": "https://huggingface.co/papers/2610.36022",
   "summary": "Image and video generators can produce spatially consistent visual content, but how to use this capability to improve spatial understanding remains underexplored. We study this problem from two perspectives: geometric supervision during training and explicit geometric evidence during inference. To this end, we introduce a unified geometric understanding and generation model (GeoUG) that integrates",
   "date": "2026-10-25T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (8 up)",
+  "source": "HF Papers (10 up)",
   "title": "Channel Selection for Mixture-of-Experts Decoding Needs No Calibration Data",
   "link": "https://huggingface.co/papers/2610.37386",
   "summary": "Mixture-of-Experts (MoE) models are bottlenecked by loading routed-expert weights from memory during interactive decoding at small batch sizes. Because most intermediate channels in a routed expert contribute little to any single token, channel selectors predict which channels matter and read only their weights, typically keeping channels above a threshold calibrated on offline data. We show that ",
   "date": "2026-10-26T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (11 up)",
+  "source": "HF Papers (30 up)",
   "title": "CodeCap-Bench: Can Code Serve as a Good Video Caption?",
   "link": "https://huggingface.co/papers/2610.37341",
   "summary": "Video captioning aims to preserve visual information through compact descriptions, predominantly using natural language. However, precisely expressing fine-grained spatial structures and temporal dynamics in natural language often leads to lengthy and potentially ambiguous descriptions. In this work, we explore Code as Video Caption, a paradigm where executable programs serve as a complementary re",
   "date": "2026-10-26T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (35 up)",
+  "source": "HF Papers (41 up)",
   "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
   "link": "https://huggingface.co/papers/2610.37666",
   "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introdu",
   "date": "2026-10-26T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (14 up)",
+  "source": "HF Papers (16 up)",
   "title": "MatAnyone-E: Sparse Memory Propagation for Efficient High-Resolution Video Matting",
   "link": "https://huggingface.co/papers/2610.35724",
   "summary": "High-resolution video matting requires preserving fine details, such as hair strands and soft transparency, while maintaining consistency across frames. Memory-based methods achieve strong matting quality by matching current-frame features with information stored from earlier frames, but this process becomes increasingly costly as resolution grows. We present MatAnyone-E, an efficient extension of",
@@ -1715,39 +1750,46 @@
   "date": "2026-10-25T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (2 up)",
   "title": "SearchHorizonBench: A Benchmark for Search Value in AI Agents",
   "link": "https://huggingface.co/papers/2610.34714",
   "summary": "AI agents must decide when another search is worth its cost. Answer-success probabilities capture question difficulty, while this decision requires estimating the additional benefit of search. We introduce SearchHorizonBench, a benchmark for learning and evaluating search value from execution experience. Paired continuations and repeated executions separate expected search gain from generation noi",
   "date": "2026-10-25T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (39 up)",
+  "source": "HF Papers (67 up)",
   "title": "Hy-Nomas: Towards Free-form Interactive World Generation",
   "link": "https://huggingface.co/papers/2610.36729",
   "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. ",
   "date": "2026-10-26T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (3 up)",
   "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
   "link": "https://huggingface.co/papers/2610.37649",
   "summary": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier objects falling more slowly, and discover the law through experiments without being told what to investigate? To evaluate this ability, we introduce LongChang, an automated framewor",
   "date": "2026-10-26T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (2 up)",
   "title": "Harness-Model Collaboration for Long-Horizon Continual Learning",
   "link": "https://huggingface.co/papers/2610.34724",
   "summary": "Long-horizon agents continuously encounter reusable procedural knowledge, yet existing systems typically rely either on model adaptation or external memory, trading persistent learning for rapid reuse. This limitation is especially important for Web agents that repeatedly execute related multi-step workflows. We propose HaMo, a Harness-Model collaborative framework that combines fast non-parametri",
   "date": "2026-10-25T20:00:00+00:00"
  },
  {
-  "source": "HF Papers (0 up)",
+  "source": "HF Papers (2 up)",
   "title": "Nemotron-Labs-Diffusion-Uni: Elastic Self-Refining Unified Diffusion LLM with Cross-Paradigm On-Policy Distillation",
   "link": "https://huggingface.co/papers/2610.36466",
   "summary": "We propose Nemotron-Labs-Diffusion-Uni (NLD-Uni), a unified discrete diffusion large language model (DLLM) for visual understanding and generation tasks. Compared with prior unified diffusion models, NLD-Uni introduces two major innovations. First, we propose a unified cross-paradigm on-policy distillation (OPD) framework that successfully transfers the visual understanding ability of autoregressi",
   "date": "2026-10-26T20:00:00+00:00"
+ },
+ {
+  "source": "HF model (513 dl)",
+  "title": "New on the Hub: baidu/Unlimited-OCR-2",
+  "link": "https://huggingface.co/baidu/Unlimited-OCR-2",
+  "summary": "pipeline: image-text-to-text. tags: transformers, safetensors, unlimited-ocr, feature-extraction, baidu, vision-language",
+  "date": "2026-10-26T03:57:46+00:00"
  },
  {
   "source": "HF Papers (7 up)",
@@ -1769,20 +1811,6 @@
   "link": "https://huggingface.co/papers/2610.22543",
   "summary": "Diffusion language models (DLMs) promise parallel text generation, but in practice face an unresolved speed-quality trade-off. Exact decoding fills in only one masked position per model pass, while faster multi-token decoding schemes are lossy. Speculative decoding is the standard lossless acceleration for autoregressive models. However, it does not transfer directly to DLMs, which must choose bot",
   "date": "2026-10-25T20:00:00+00:00"
- },
- {
-  "source": "HF model (513 dl)",
-  "title": "New on the Hub: baidu/Unlimited-OCR-2",
-  "link": "https://huggingface.co/baidu/Unlimited-OCR-2",
-  "summary": "pipeline: image-text-to-text. tags: transformers, safetensors, unlimited-ocr, feature-extraction, baidu, vision-language",
-  "date": "2026-10-26T03:57:46+00:00"
- },
- {
-  "source": "HF model (3544 dl)",
-  "title": "New on the Hub: ccore/Qwen3.5-4B-3D-Coder",
-  "link": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
-  "summary": "pipeline: ?. tags: gguf, qwen3_5, code, threejs, 3d, preview",
-  "date": "2026-10-25T05:43:34+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -2520,25 +2548,11 @@
   "date": "2026-10-25T20:00:00+00:00"
  },
  {
-  "source": "HN (81pts)",
-  "title": "Eunice is almost here",
-  "link": "https://armincat.com/articles/eunice-is-almost-here",
-  "summary": "",
-  "date": "2026-10-25T19:40:27+00:00"
- },
- {
   "source": "release: firecrawl/firecrawl",
   "title": "firecrawl v2.11.609",
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.609",
   "summary": "Release API image v2.11.609",
   "date": "2026-10-26T15:11:15+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261025: update base db model (#21437)",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261025",
-  "summary": "Signed-off-by: Jin Hai haijin.chn@gmail.com",
-  "date": "2026-10-25T05:49:19+00:00"
  },
  {
   "source": "arXiv",
