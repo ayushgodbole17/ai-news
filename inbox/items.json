@@ -889,14 +889,14 @@
   "date": "2026-10-26T13:04:50+00:00"
  },
  {
-  "source": "HN (568pts)",
+  "source": "HN (573pts)",
   "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
   "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
   "summary": "",
   "date": "2026-10-27T15:28:26+00:00"
  },
  {
-  "source": "HN (321pts)",
+  "source": "HN (322pts)",
   "title": "Early progress on accelerating drug development with Claude",
   "link": "https://www.anthropic.com/research/early-progress-drug-development",
   "summary": "",
@@ -917,6 +917,13 @@
   "date": "2026-10-26T16:12:29+00:00"
  },
  {
+  "source": "HN (37pts)",
+  "title": "Claude Code burns ~15\u201320% of your tokens on a 3-word status line",
+  "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+  "summary": "",
+  "date": "2026-10-29T03:33:42+00:00"
+ },
+ {
   "source": "HN (224pts)",
   "title": "Is my data used for model training?",
   "link": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
@@ -924,11 +931,18 @@
   "date": "2026-10-27T13:56:15+00:00"
  },
  {
-  "source": "HN (516pts)",
+  "source": "HN (523pts)",
   "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
   "link": "https://www.brangus.io/survival-llm",
   "summary": "",
   "date": "2026-10-27T19:55:06+00:00"
+ },
+ {
+  "source": "HN (49pts)",
+  "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
+  "link": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+  "summary": "",
+  "date": "2026-10-29T00:30:37+00:00"
  },
  {
   "source": "HN (96pts)",
@@ -938,28 +952,21 @@
   "date": "2026-10-27T04:53:52+00:00"
  },
  {
-  "source": "HN (167pts)",
+  "source": "HN (169pts)",
   "title": "Introducing LFM3: Every Modality for Specialized Intelligence",
   "link": "https://www.liquid.ai/blog/lfm3",
   "summary": "",
   "date": "2026-10-27T17:04:50+00:00"
  },
  {
-  "source": "HN (52pts)",
+  "source": "HN (54pts)",
   "title": "Tell HN: I'm going on strike this November",
   "link": "https://news.ycombinator.com/item?id=50271808",
   "summary": "",
   "date": "2026-10-28T11:21:28+00:00"
  },
  {
-  "source": "HN (32pts)",
-  "title": "Ask HN: Is it not possible to enroll for Apple Developer anymore?",
-  "link": "https://news.ycombinator.com/item?id=50237680",
-  "summary": "",
-  "date": "2026-10-26T01:00:52+00:00"
- },
- {
-  "source": "HN (32pts)",
+  "source": "HN (36pts)",
   "title": "Billion-query-per-second lookup tables in C++",
   "link": "https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/",
   "summary": "",
@@ -973,14 +980,14 @@
   "date": "2026-10-26T12:59:48+00:00"
  },
  {
-  "source": "HN (765pts)",
+  "source": "HN (841pts)",
   "title": "Gemini 4 Carbon",
   "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
   "summary": "",
   "date": "2026-10-28T17:01:23+00:00"
  },
  {
-  "source": "HN (191pts)",
+  "source": "HN (216pts)",
   "title": "Dayjob: Tax \u2013 evaluating AI agents on 50 professional tax assignments",
   "link": "https://surgehq.ai/blog/dayjob-tax",
   "summary": "",
@@ -1002,6 +1009,13 @@
  },
  {
   "source": "release: BerriAI/litellm",
+  "title": "litellm v1.108.0-rc.1",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.108.0-rc.1",
+  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . This release is signed with the key introduced in commit e82a3c6 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using th",
+  "date": "2026-10-29T03:33:35+00:00"
+ },
+ {
+  "source": "release: BerriAI/litellm",
   "title": "litellm v1.106.6",
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.106.6",
   "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . This release is signed with the key introduced in commit e82a3c6 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using th",
@@ -1013,13 +1027,6 @@
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.105.7",
   "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . This release is signed with the key introduced in commit e82a3c6 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using th",
   "date": "2026-10-28T22:55:25+00:00"
- },
- {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.106.5",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.106.5",
-  "summary": "Verify this release cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\ ghcr.io/berriai/litellm:v1.106.5 Same command for litellm-database , litellm-non_root and the docker.io/litellm/* images What's new in 1.106.5 1 PR. 1 cha",
-  "date": "2026-10-27T19:58:52+00:00"
  },
  {
   "source": "release: ComposioHQ/composio",
@@ -1050,6 +1057,13 @@
   "date": "2026-10-28T16:16:14+00:00"
  },
  {
+  "source": "release: DietrichGebert/ponytail",
+  "title": "ponytail v5.3.3",
+  "link": "https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.3",
+  "summary": "This one cleans up the band. On Team, Enterprise and managed machines the warning on your first prompt is gone, and the band shows your model and session name again. In VS Code it stays on one line, other plugins' commands no longer print under ponytail's name, and the noisy \"duplicate?\" hint is gon",
+  "date": "2026-10-29T03:11:08+00:00"
+ },
+ {
   "source": "release: Graphify-Labs/graphify",
   "title": "graphify graphify 0.9.97",
   "link": "https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.97",
@@ -1072,10 +1086,10 @@
  },
  {
   "source": "release: HumanSignal/label-studio",
-  "title": "label-studio 1.24.0.dev20261028",
+  "title": "label-studio 1.24.0.dev20261029",
   "link": "https://github.com/HumanSignal/label-studio/releases/tag/nightly",
   "summary": "Nightly Build This is an automated nightly build that is recreated every night with the latest changes from the develop branch. Installation You can install this nightly build by downloading the wheel package (the file ending in .whl ) from the Assets section below this description. After downloadin",
-  "date": "2026-10-28T00:09:56+00:00"
+  "date": "2026-10-29T00:10:40+00:00"
  },
  {
   "source": "release: Mintplex-Labs/anything-llm",
@@ -1130,8 +1144,8 @@
   "source": "release: Significant-Gravitas/AutoGPT",
   "title": "AutoGPT Preview seed fixture (rolling)",
   "link": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/preview-seed-fixture",
-  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@0fe419de1b13 (migration head: 20261026120000_normalize_org_invitation_email). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migr",
-  "date": "2026-10-28T15:02:20+00:00"
+  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@2c49169453fe (migration head: 20261026120000_normalize_org_invitation_email). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migr",
+  "date": "2026-10-29T00:19:42+00:00"
  },
  {
   "source": "release: Significant-Gravitas/AutoGPT",
@@ -1303,31 +1317,31 @@
  },
  {
   "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261029: update uv.lock (#21636)",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261029",
+  "summary": "Signed-off-by: Jin Hai haijin.chn@gmail.com",
+  "date": "2026-10-29T02:46:12+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261029-3",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261029-3",
+  "summary": "refactor: keep the enterprise code out of the community build ( #21614 )",
+  "date": "2026-10-29T03:35:50+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261029-2",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261029-2",
+  "summary": "fix(chunker): honour Python {,n} level patterns and keep long numbere\u2026",
+  "date": "2026-10-29T03:06:47+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
   "title": "ragflow nightly",
   "link": "https://github.com/infiniflow/ragflow/releases/tag/nightly",
   "summary": "Release nightly created from cbd7a54 at 2026-10-28 13:14:04+00:00",
   "date": "2026-10-28T13:14:08+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261028",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261028",
-  "summary": "fix(parser): emit Docling page positions and real page_count ( #21330 )",
-  "date": "2026-10-28T01:55:28+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261028-3",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261028-3",
-  "summary": "fix\uff1aChanged the Chinese labels to \u201cToken Chunker\u201d, \u201cCompiler\u201d, and \u201cI\u2026",
-  "date": "2026-10-28T12:34:23+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261028-2: refactor (#21624)",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261028-2",
-  "summary": "Signed-off-by: Jin Hai haijin.chn@gmail.com",
-  "date": "2026-10-28T10:30:55+00:00"
  },
  {
   "source": "release: koala73/worldmonitor",
@@ -1418,7 +1432,7 @@
   "title": "mlflow Model Catalog",
   "link": "https://github.com/mlflow/mlflow/releases/tag/model-catalog%2Flatest",
   "summary": "Per-provider model catalog files. Updated weekly by CI.",
-  "date": "2026-10-28T13:03:32+00:00"
+  "date": "2026-10-29T01:17:32+00:00"
  },
  {
   "source": "release: modelcontextprotocol/servers",
@@ -1492,6 +1506,13 @@
  },
  {
   "source": "release: thedotmack/claude-mem",
+  "title": "claude-mem v15.5.0",
+  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.5.0",
+  "summary": "Features My Work / My Focus: Aceternity components across My Work and My Focus ( #5136 ) Observer: opt-in OpenAI-compatible batching ( #5117 ) Work view: summary provider selection is now explicit ( #5104 ) Telemetry: count My Work viewer opens and page switches in PostHog ( #5107 ) Fixes Work view ",
+  "date": "2026-10-29T00:48:22+00:00"
+ },
+ {
+  "source": "release: thedotmack/claude-mem",
   "title": "claude-mem v15.4.0",
   "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.4.0",
   "summary": "My Work: focus areas, and requests that file themselves Focus areas are the top level of My Work ( #5131 ) MY FOCUS rail. Your focus areas are listed in priority order, with a needs-you count on each. Every request sits in exactly one area, or in Other . On phones the areas appear as a chip row. Are",
@@ -1526,11 +1547,95 @@
   "date": "2026-10-27T13:47:25+00:00"
  },
  {
-  "source": "release: volcengine/OpenViking",
-  "title": "OpenViking python-sdk@0.1.17",
-  "link": "https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.17",
-  "summary": "No content.",
-  "date": "2026-10-26T03:25:33+00:00"
+  "source": "HF Papers (2 up)",
+  "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
+  "link": "https://huggingface.co/papers/2610.37230",
+  "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware ",
+  "date": "2026-10-26T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (2 up)",
+  "title": "Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection",
+  "link": "https://huggingface.co/papers/2509.05512",
+  "summary": "This paper introduces Quaternion Approximate Networks (QUAN), a novel deep learning framework that leverages quaternion algebra for rotation equivariant image classification and object detection. Unlike conventional quaternion neural networks attempting to operate entirely in the quaternion domain, QUAN approximates quaternion convolution through Hamilton product decomposition using real-valued op",
+  "date": "2026-10-26T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (18 up)",
+  "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
+  "link": "https://huggingface.co/papers/2610.37364",
+  "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensure strong quality across unimodal, cross-modal, and mixed-modal evaluations. Nota",
+  "date": "2026-10-26T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (25 up)",
+  "title": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
+  "link": "https://huggingface.co/papers/2610.37037",
+  "summary": "Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal long-context understanding are two pivotal tasks that underpin embodied AI and multimodal agents. However, synthesizing targeted, high-quality training data for these tasks remains difficult and costly. Our key insight is that these tasks share an underlying capability, which we ",
+  "date": "2026-10-26T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (90 up)",
+  "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
+  "link": "https://huggingface.co/papers/2610.37662",
+  "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic",
+  "date": "2026-10-26T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (5 up)",
+  "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
+  "link": "https://huggingface.co/papers/2610.37624",
+  "summary": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria. On hidden-profile tasks both look attractive, because how widely a fact is held is confounded with whether it helps. We introduce CrossProfile, a diagnostic benchmark of 60 templates ",
+  "date": "2026-10-26T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (173 up)",
+  "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
+  "link": "https://huggingface.co/papers/2610.35864",
+  "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideoBench, a benchmark for evaluating agents on code-driven video generation. Its 2",
+  "date": "2026-10-26T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (9 up)",
+  "title": "RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions",
+  "link": "https://huggingface.co/papers/2610.36791",
+  "summary": "Learning controllable world dynamics from heterogeneous interaction videos is challenging because robot embodiments use incompatible action spaces, while human videos lack native control labels. We present RynnWorld-Latent, a cross-embodiment video world model that uses the 3D-grounded latent actions introduced by RynnLAM as a shared conditioning interface. This representation enables joint pretra",
+  "date": "2026-10-26T20:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (143 up)",
+  "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
+  "link": "https://huggingface.co/papers/2610.37381",
+  "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--",
+  "date": "2026-10-26T20:00:00+00:00"
+ },
+ {
+  "source": "release: BerriAI/litellm",
+  "title": "litellm v1.106.5",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.106.5",
+  "summary": "Verify this release cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\ ghcr.io/berriai/litellm:v1.106.5 Same command for litellm-database , litellm-non_root and the docker.io/litellm/* images What's new in 1.106.5 1 PR. 1 cha",
+  "date": "2026-10-27T19:58:52+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261028",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261028",
+  "summary": "fix(parser): emit Docling page positions and real page_count ( #21330 )",
+  "date": "2026-10-28T01:55:28+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261028-3",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261028-3",
+  "summary": "fix\uff1aChanged the Chinese labels to \u201cToken Chunker\u201d, \u201cCompiler\u201d, and \u201cI\u2026",
+  "date": "2026-10-28T12:34:23+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261028-2: refactor (#21624)",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261028-2",
+  "summary": "Signed-off-by: Jin Hai haijin.chn@gmail.com",
+  "date": "2026-10-28T10:30:55+00:00"
  },
  {
   "source": "arXiv",
@@ -1813,62 +1918,6 @@
   "date": "2026-10-28T00:00:00-04:00"
  },
  {
-  "source": "HF Papers (1 up)",
-  "title": "Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection",
-  "link": "https://huggingface.co/papers/2509.05512",
-  "summary": "This paper introduces Quaternion Approximate Networks (QUAN), a novel deep learning framework that leverages quaternion algebra for rotation equivariant image classification and object detection. Unlike conventional quaternion neural networks attempting to operate entirely in the quaternion domain, QUAN approximates quaternion convolution through Hamilton product decomposition using real-valued op",
-  "date": "2026-10-26T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (16 up)",
-  "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
-  "link": "https://huggingface.co/papers/2610.37364",
-  "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensure strong quality across unimodal, cross-modal, and mixed-modal evaluations. Nota",
-  "date": "2026-10-26T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (24 up)",
-  "title": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
-  "link": "https://huggingface.co/papers/2610.37037",
-  "summary": "Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal long-context understanding are two pivotal tasks that underpin embodied AI and multimodal agents. However, synthesizing targeted, high-quality training data for these tasks remains difficult and costly. Our key insight is that these tasks share an underlying capability, which we ",
-  "date": "2026-10-26T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (88 up)",
-  "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
-  "link": "https://huggingface.co/papers/2610.37662",
-  "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic",
-  "date": "2026-10-26T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (4 up)",
-  "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
-  "link": "https://huggingface.co/papers/2610.37624",
-  "summary": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria. On hidden-profile tasks both look attractive, because how widely a fact is held is confounded with whether it helps. We introduce CrossProfile, a diagnostic benchmark of 60 templates ",
-  "date": "2026-10-26T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (171 up)",
-  "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
-  "link": "https://huggingface.co/papers/2610.35864",
-  "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideoBench, a benchmark for evaluating agents on code-driven video generation. Its 2",
-  "date": "2026-10-26T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (8 up)",
-  "title": "RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions",
-  "link": "https://huggingface.co/papers/2610.36791",
-  "summary": "Learning controllable world dynamics from heterogeneous interaction videos is challenging because robot embodiments use incompatible action spaces, while human videos lack native control labels. We present RynnWorld-Latent, a cross-embodiment video world model that uses the 3D-grounded latent actions introduced by RynnLAM as a shared conditioning interface. This representation enables joint pretra",
-  "date": "2026-10-26T20:00:00+00:00"
- },
- {
-  "source": "HF Papers (138 up)",
-  "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
-  "link": "https://huggingface.co/papers/2610.37381",
-  "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--",
-  "date": "2026-10-26T20:00:00+00:00"
- },
- {
   "source": "HF Papers (6 up)",
   "title": "Your Policy Is Secretly a Harness: The Decision Geometry of Agent Interfaces",
   "link": "https://huggingface.co/papers/2610.37255",
@@ -1881,13 +1930,6 @@
   "link": "https://huggingface.co/papers/2610.37175",
   "summary": "AI research agents can propose, execute, and improve programs that solve machine learning tasks. However, executing each candidate program requires training and evaluating ML models, limiting how many candidates an agent can explore at each step. We introduce MLE-World, a world model finetuned from Qwen3.5-4B that predicts a program's terminal output (error traces, training logs, and validation sc",
   "date": "2026-10-26T20:00:00+00:00"
- },
- {
-  "source": "HF model (8357 dl)",
-  "title": "New on the Hub: baidu/Unlimited-OCR-2",
-  "link": "https://huggingface.co/baidu/Unlimited-OCR-2",
-  "summary": "pipeline: image-text-to-text. tags: transformers, safetensors, unlimited-ocr, feature-extraction, baidu, vision-language",
-  "date": "2026-10-26T03:57:46+00:00"
  },
  {
   "source": "MarkTechPost",
@@ -2842,269 +2884,10 @@
   "date": "2026-10-26T14:19:03+00:00"
  },
  {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.63.1 \u2014 ruflo-console install-record fix and merged fixes since 3.63.0",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.63.1",
-  "summary": "[3.63.1] - 2026-10-25 Patch release: @claude-flow/cli , claude-flow , ruflo 3.63.1. No leaf package published (the swarm fixes below live in @claude-flow/swarm , which the CLI does not depend on). Fixed ruflo-console 0.49.3 : the install record for a plugin installed more than once no longer comes f",
-  "date": "2026-10-26T03:25:18+00:00"
- },
- {
   "source": "release: firecrawl/firecrawl",
   "title": "firecrawl v2.11.609",
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.609",
   "summary": "Release API image v2.11.609",
   "date": "2026-10-26T15:11:15+00:00"
- },
- {
-  "source": "arXiv",
-  "title": "DRAMA-Eval: A Benchmark for Context-Aware, Multi-Turn, Multi-Speaker Speech Generation",
-  "link": "https://arxiv.org/abs/2610.31796",
-  "summary": "Recent advances in speech generation are shifting toward context-aware, multi-turn, and multi-speaker synthesis. While these capabilities are in high demand for applications such as audiobook and audio drama production, evaluation has not kept pace with these advances. Beyond traditional zero-shot Text-to-Speech (TTS), modern systems in this domain primarily fall into three categories: instruction",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "X-Dubbing: Speech-to-Speech Translation under Temporal and Visual Constraints",
-  "link": "https://arxiv.org/abs/2610.32042",
-  "summary": "Cross-lingual dubbing aims to convert source speech into target-language speech that remains synchronized with the original video. The key to this task is to produce a faithful translation that is naturally speakable within the source timing, which is non-trivial because languages differ in duration, rhythm, and articulation. In this paper, we propose X-Dubbing, which formulates the task as a join",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Uni-Stream: A Unified Streaming Speech Language Model for Speech Synthesis and Recognition",
-  "link": "https://arxiv.org/abs/2610.32187",
-  "summary": "Unified streaming speech language models aim to support speech recognition and synthesis within a single model, enabling real-time human-computer interaction. However, jointly supporting these two directions of speech-text conversion while preserving task-specific performance remains challenging. We propose Uni-Stream, a unified streaming speech language model built on compact pretrained speech mo",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Why Full-Duplex Speech Models Collapse in Long Conversations",
-  "link": "https://arxiv.org/abs/2610.32349",
-  "summary": "Full-duplex speech models listen and speak at the same time, which makes them promising for natural, open-ended conversation. But can they sustain a coherent conversation for tens of minutes? Because they generate a token every frame, even while listening, they exhaust their context windows within minutes. Yet existing benchmarks evaluate only single turns or a few conversational rounds, too short",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "CounselPlex: A Stressor-Aware Full-Duplex Counseling Model",
-  "link": "https://arxiv.org/abs/2610.32702",
-  "summary": "Full-duplex speech models can listen and speak at the same time, enabling natural, low-latency interaction. In counseling, however, these models often focus on the latest utterance and lose track of the seeker's underlying problem. We call this failure Stressor Blindness. We propose CounselPlex, a stressor-aware full-duplex framework that uses two operations. CounselPlex updates a short stressor s",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "MBABench-2.0: Evaluating AI Agents on Constructing Financial Spreadsheets Beyond Simple Verifiability",
-  "link": "https://arxiv.org/abs/2610.31711",
-  "summary": "Spreadsheets are the lingua franca of modern finance, driving valuation, forecast, audit, and many other core workflows of the industry. As LLM agents advance to automate knowledge work, spreadsheet construction is a natural and pertinent testbed. However, most existing spreadsheet benchmarks evaluate agents on fill-in-the-blank style tasks, where an agent performs minor edits in otherwise complet",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Benchmarks Are Surprisingly Compaction-Friendly",
-  "link": "https://arxiv.org/abs/2610.31778",
-  "summary": "Long horizon agentic tasks are now pushing LLM agents past their context window. To continue the task, the agent scaffold has to free up the context window, a process known as context compaction. Compaction is generally lossy by design: agents can silently lose task constraints, instructions, or their reasoning behind earlier decisions. Although compaction is a standard component of coding agent s",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "The Helpful Agent Problem: When Emergent Cooperation Among LLM Agents Bypasses Intended Workflows",
-  "link": "https://arxiv.org/abs/2610.31985",
-  "summary": "LLM agents are increasingly deployed in collaborative settings where they pursue separate tasks while sharing resources and operating under review or oversight processes. Such settings create safety risks not only when agents are malicious, but also when they are simply trying to help. Prior work has largely studied adversarial or explicitly collusive behavior; we show that benign agents pursuing ",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Beyond What to Say: Proactive Utterance Timing with Inner Thoughts for Werewolf Agents",
-  "link": "https://arxiv.org/abs/2610.32107",
-  "summary": "Participating in a conversation involves not only deciding what to say but also whether to speak at all. This judgment carries even greater significance in environments like the Werewolf game, where participants' interests conflict, because both utterances and silence are subject to interpretation and assessment by others. Therefore, determining when to speak, as well as what to say, is crucial fo",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
-  "link": "https://arxiv.org/abs/2610.32285",
-  "summary": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited attention to the evaluation of agent harnesses. To address this gap, we introduce TraceTrial-Bench, which organizes harne",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "DMAIC-Bench: From Self-Reflection to Self-Restraint for Agents in Multi-Stage Analytical Tasks",
-  "link": "https://arxiv.org/abs/2610.32305",
-  "summary": "Multi-stage analytical tasks require LLM agents to use intermediate evidence to decide whether to continue, redirect or stop. Self-reflection, in which an agent critiques its output, is widely studied, yet a critique does not show whether evidence changed the next action. We call that capability self-restraint. Existing agent benchmarks largely measure task completion or output quality and leave i",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Beyond Gain: Measuring Skill Internalization for Agent Skill Retirement",
-  "link": "https://arxiv.org/abs/2610.32322",
-  "summary": "LLM agents retrieve skills from public hubs that hold up to about 100,000 entries and serve many models. As models improve, a hub must find the skills a given model has internalized, meaning it can do without them, and retire them for that model, yet internalization has not been measured with known reliability. Published rules that compare runs with and without a skill retire on the gain alone. Th",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Async-RBench: Benchmarking Asynchronous Task Execution in LLM Agents",
-  "link": "https://arxiv.org/abs/2610.32429",
-  "summary": "Large language model (LLM) agents increasingly execute tasks asynchronously: a main agent continues working while its subagents run, and the task state may change before their results arrive. The main agent must decide which work to update or preserve and which checks to repeat, while avoiding prohibited changes. Final task success alone does not reveal whether these results were handled correctly",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "SCI-AGENT-EXAM: Benchmarking Agents on Scientific Research Tasks",
-  "link": "https://arxiv.org/abs/2610.32441",
-  "summary": "Large language model (LLM) agents are increasingly capable of supporting scientific workflows, but their capabilities across diverse research activities remain difficult to assess systematically. Existing benchmarks often focus on selected scientific capabilities or task types, limiting a comprehensive characterization of scientific agents' strengths and weaknesses in realistic research workflows.",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "CauProphet: Teaching Agents to Develop Causal Cognition like Humans",
-  "link": "https://arxiv.org/abs/2610.32477",
-  "summary": "Large language model (LLM) agents increasingly support long-horizon tasks by leveraging external memory and past experience. However, existing agents mainly retrieve records or summaries, lacking the ability to form and refine causal understanding of the world. Inspired by human causal cognition, we introduce CauProphet, an agent that develops and updates causal knowledge within its Causal Cogniti",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "When Agents Fail: Model or Harness--Who's to Blame?",
-  "link": "https://arxiv.org/abs/2610.32483",
-  "summary": "LLM agents combine models with execution harnesses, so agentic benchmark performance reflects their joint behavior. We argue that harnesses should therefore be evaluated through their interactions with underlying models. We develop a framework combining five complementary measures: (i) Valid Completion Rate (VCR), how reliably agents finish normally and deliver evaluable results, irrespective of t",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance",
-  "link": "https://arxiv.org/abs/2610.32555",
-  "summary": "LLM agents increasingly rely on external tools exposed via the Model Context Protocol (MCP), yet current benchmarks assume tools respond correctly and on time, leaving agent resilience to realistic tool failures untested. We introduce MCP-Injector, a drop-in, protocol-aware fault-injection middleware that interposes on the MCP tool-call path with controlled persistence (permanent, transient, inter",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Omni-UBench: Benchmarking Omni-Modal LLM-based Guardrails Across Safety, Utility, and Reliability",
-  "link": "https://arxiv.org/abs/2610.31713",
-  "summary": "Advances in Omni-modal Large Language Models (OLLMs) have enabled increasingly seamless human-AI interaction, but their unified processing of heterogeneous modalities also expands the attack surface, allowing adversaries to exploit richer input compositions to circumvent safety alignment. To counter such risks, omni-modal guardrails have been proposed to detect and filter unsafe queries across arb",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "$M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process",
-  "link": "https://arxiv.org/abs/2610.31937",
-  "summary": "Modern Large Language Models (LLMs) remain vulnerable to carefully orchestrated multi-turn interactions that progressively bypass safety mechanisms. However, many existing red-teaming approaches rely on heuristics or impose strong assumptions that limit their applicability in fully black box settings. We address this gap by introducing $M^3$, an automated red-teaming framework that formalizes mult",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Agentic AI Defense: Decode-Time Provenance Binding for MCP",
-  "link": "https://arxiv.org/abs/2610.31974",
-  "summary": "Agentic AI systems using the Model Context Protocol (MCP) are vulnerable to indirect prompt injection through untrusted tool outputs. We demonstrate cross-modal trust laundering, in which instructions concealed in an email-signature image using least-significant-bit (LSB), discrete cosine transform (DCT), or metadata steganography bypass text scanners and enter a multi-agent workflow when decoded ",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "On Task, Off Track: Benchmarking LLM and Agent Robustness to Near-Target Prompt Injection",
-  "link": "https://arxiv.org/abs/2610.32531",
-  "summary": "Prompt injection benchmarks assess whether large language models (LLMs) and agents resist malicious instructions embedded in external content. However, a system could perform well by rejecting attacks that obviously abandon the user's request, while still accepting changes that retain most of a legitimate answer but make it incorrect or harmful. Testing more instructions for unrelated outcomes wou",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Before the Ticket: Grounding HPC User Support in Documentation and Resolved Tickets with an Agentic LLM Assistant",
-  "link": "https://arxiv.org/abs/2610.31703",
-  "summary": "Most questions that reach an HPC help desk have already been answered in the center's user guides or in a ticket someone else filed last semester; users still file new tickets because the guides are hard to navigate and the ticket history is not theirs to search. We present an assistant that answers from both sources: an orchestrator calls two tools over the Model Context Protocol, retrieval-augme",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Machine-Readable Operator Manuals over the ISO 11783 Network for Offline, Multilingual LLM Assistance",
-  "link": "https://arxiv.org/abs/2610.31863",
-  "summary": "If agricultural machinery is to support intelligent, offline assistance, then the system must access technical documentation dynamically. In this paper, the Semantic Synchronization of operator manuals over ISO 11783-based CAN buses is analyzed, defined as the process that brings the local knowledge base of a tractor-side assistant into agreement with the operator manual of the connected implement",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Semantically Rich, Metrically Affect-Blind: A Geometric Blind Spot in Modern Text Embedders",
-  "link": "https://arxiv.org/abs/2610.32122",
-  "summary": "We report a systematic dissociation in modern text embedders: sentiment is almost perfectly decodable from their embeddings, yet almost entirely absent from their metric. Across eleven frozen encoders spanning 2021 to 2026, including 2026-generation models and the 4B-parameter LLM embedder Qwen3-Embedding-4B, a linear probe recovers sentence polarity at up to 91.3% accuracy while cosine similarity",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Profile-Driven User Simulation via Reinforcement Learning with Hierarchical Rewards for Task-Oriented Dialogues",
-  "link": "https://arxiv.org/abs/2610.32435",
-  "summary": "Building Task-Oriented Dialogue (TOD) systems for high-value scenarios such as financial marketing requires large volumes of domain-specific dialogue data, which privacy regulations, annotation costs, and the need for expert labor make hard to obtain. User simulation offers a remedy, but existing methods target general-domain dialogue and exhibit two key limitations: insufficient modeling of domai",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Astro2Method: Benchmarking LLMs on Machine Learning Method Selection in Astronomy",
-  "link": "https://arxiv.org/abs/2610.30282",
-  "summary": "Machine learning (ML) is increasingly used in astronomy, but choosing a suitable method for a scientific problem often requires expertise in both astronomy and ML. Large language models (LLMs) could help astronomers make such choices, yet this ability remains underexplored in existing benchmarks. We introduce Astro2Method, a benchmark of 500 expert-reviewed binary questions from 346 astronomy pape",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "FSVL: Taxonomic Fast-Slow Vision-to-Language Collaborative Framework for Interpretable Confusable Fish Species Identification and Knowledge Generation in the Middle Yangtze River",
-  "link": "https://arxiv.org/abs/2610.31880",
-  "summary": "The Yangtze River Basin is a critical region for freshwater biodiversity conservation. The implementation of the Yangtze River Ten-Year Fishing Ban has increased the importance of effective aquatic biodiversity monitoring and species-level identification. However, fine-grained identification of closely related freshwater fish species remains challenging due to subtle morphological differences. Exi",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "4DMemory: Benchmarking Long-Horizon Spatiotemporal Memory with Harness-Augmented Agents",
-  "link": "https://arxiv.org/abs/2610.32332",
-  "summary": "Humans efficiently process multimodal streams spanning hours to years, building persistent, fine-grained spatiotemporal memories that support reasoning about and predicting long-horizon events. In contrast, existing benchmarks focus on short- and medium-context tasks, and most foundation models struggle to preserve fine-grained information over long horizons. To evaluate and improve long-horizon s",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "From Regulation to Engineering: Organizational Privacy Climate as Mediator",
-  "link": "https://arxiv.org/abs/2610.32576",
-  "summary": "Data protection legislation aims to protect privacy rights by regulating how information systems store and process personal information. While such legislation defines legal obligations, translating regulatory requirements into engineering practice is far from straightforward. As new frameworks such as the EU AI Act emerge, understanding these mechanisms becomes increasingly relevant. To investiga",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Speculative Diffusion is a Tale of Two Tradeoffs",
-  "link": "https://arxiv.org/abs/2610.31819",
-  "summary": "Speculative decoding is a technique that accelerates the inference speed of autoregressive large language models (LLMs) by sampling from a faster, lower quality draft model. Traditionally, a fundamental characteristic of speculative decoding is that it is lossless with respect to the verifier distribution, guaranteeing speed without sacrificing quality. This differs from recently developed diffusi",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "KVStream: Adaptive Parallel Storage Management for KV Caching in Large-Scale LLM Serving",
-  "link": "https://arxiv.org/abs/2610.31827",
-  "summary": "Long-context LLM serving for agentic, coding, and document workloads reuses prefixes whose key-value (KV) cache outgrows GPU and host memory, putting storage I/O on the critical path of the inference step for retrieving prefixes. A single node-local NVMe absorbs all retrievals, while the parallel file system or cloud file store that nodes already mount carries almost no inference traffic. We cast ",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "SPECMEM: Accelerating Agentic Tool Calling via Live Memory Management",
-  "link": "https://arxiv.org/abs/2610.31840",
-  "summary": "Tool-calling agents are mostly optimized for accuracy; in deployment, however, their growing cost is latency: every tool call is decoded autoregressively. Speculative decoding accelerates this without changing the output, and retrieved past calls make strong drafts under real use, where each user's behavior tends to repeat. Yet existing systems keep no cross-session memory, or build the draft stor",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "DELA: Learning Controllable Edits for Diffusion Language Models",
-  "link": "https://arxiv.org/abs/2610.32096",
-  "summary": "Diffusion language models (DLMs) support bidirectional denoising and iterative refinement, but generation remains largely controlled by token-level masking schedules. This leaves draft-level refinement implicit and limits explicit control over when to insert missing content, delete redundant spans, revisit uncertain regions, or stop editing. We introduce Diffusion Editing Language Adapter (DELA), ",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "InferSlice: A Reference Architecture for SLO-driven LLM Inference over a Telco Wide-Area Network",
-  "link": "https://arxiv.org/abs/2610.32638",
-  "summary": "LLM inference is increasingly deployed as a core service for enterprise and interactive applications, but sovereignty, compliance, latency and resource-locality requirements can limit the suitability of centralised cloud deployments. Telco operators offer geographically distributed compute and network infrastructure for addressing these constraints. However, existing LLM serving frameworks are des",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding",
-  "link": "https://arxiv.org/abs/2610.32881",
-  "summary": "Reinforcement learning (RL) post-training improves the reasoning capabilities of large language models, but its cost is dominated by autoregressive rollout generation, which can exceed 70% of training time. Existing speculative-decoding methods are poorly suited to this setting: model-based drafters consume scarce GPU memory and may become misaligned as the policy evolves, while existing model-fre",
-  "date": "2026-10-26T00:00:00-04:00"
- },
- {
-  "source": "arXiv",
-  "title": "Separating Thinking from Spelling for Efficient Generative Recommendation",
-  "link": "https://arxiv.org/abs/2610.32980",
-  "summary": "Generative recommenders retrieve items by writing their semantic IDs (SIDs) code by code under trie-constrained beam search, an approach now deployed on large web platforms. Standard autoregressive interfaces pay for the SID length K twice: a history of T items enters the backbone as TK code tokens, and every beam-search step runs through the backbone, so returning B candidates costs O(BK) backbon",
-  "date": "2026-10-26T00:00:00-04:00"
  }
 ]
