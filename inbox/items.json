@@ -14,27 +14,6 @@
   "date": "2026-10-29T13:37:07+00:00"
  },
  {
-  "source": "Hugging Face",
-  "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-  "link": "https://huggingface.co/blog/announcing-project-protostar",
-  "summary": "",
-  "date": "2026-10-29T00:00:00+00:00"
- },
- {
-  "source": "Hugging Face",
-  "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-  "link": "https://huggingface.co/blog/mistral-large4",
-  "summary": "",
-  "date": "2026-10-29T00:00:00+00:00"
- },
- {
-  "source": "Hugging Face",
-  "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-  "link": "https://huggingface.co/blog/anydecisionmodel",
-  "summary": "",
-  "date": "2026-10-29T00:00:00+00:00"
- },
- {
   "source": "OpenAI",
   "title": "Making it easier for websites to express AI training preferences",
   "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
@@ -77,18 +56,18 @@
   "date": "2026-10-29T07:00:00+00:00"
  },
  {
-  "source": "OpenAI",
-  "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-  "link": "https://openai.com/index/credit-saison",
-  "summary": "Credit Saison\u2019s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-  "date": "2026-10-29T00:00:00+00:00"
- },
- {
   "source": "Simon Willison",
   "title": "How We Took Over ChatGPT Accounts",
   "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
   "summary": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interact",
   "date": "2026-10-31T23:15:22+00:00"
+ },
+ {
+  "source": "Simon Willison",
+  "title": "datasette-llm 0.1a9",
+  "link": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+  "summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --inter",
+  "date": "2026-10-31T22:10:01+00:00"
  },
  {
   "source": "Simon Willison",
@@ -427,13 +406,6 @@
   "date": "2026-10-29T16:00:00+00:00"
  },
  {
-  "source": "Latent Space",
-  "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
-  "link": "https://latent.space/p/ainews-gemini-4-carbon/",
-  "summary": "Google\u2019s new frontier model leads independent evals, with access initially limited to trusted defenders.",
-  "date": "2026-10-29T05:55:19+00:00"
- },
- {
   "source": "Interconnects",
   "title": "Was I wrong about open models & cyber risks?",
   "link": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
@@ -630,18 +602,25 @@
   "date": "2026-10-29T15:31:02+00:00"
  },
  {
-  "source": "HN (322pts)",
+  "source": "HN (323pts)",
   "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
   "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
   "summary": "",
   "date": "2026-10-30T17:27:25+00:00"
  },
  {
-  "source": "HN (132pts)",
+  "source": "HN (297pts)",
   "title": "Anthropic blocks users for anything touching training larger models",
   "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
   "summary": "",
   "date": "2026-10-31T19:39:19+00:00"
+ },
+ {
+  "source": "HN (128pts)",
+  "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+  "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+  "summary": "",
+  "date": "2026-10-31T21:07:58+00:00"
  },
  {
   "source": "HN (124pts)",
@@ -651,13 +630,6 @@
   "date": "2026-10-30T14:22:52+00:00"
  },
  {
-  "source": "HN (84pts)",
-  "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
-  "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
-  "summary": "",
-  "date": "2026-10-31T21:07:58+00:00"
- },
- {
   "source": "HN (74pts)",
   "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
   "link": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
@@ -665,21 +637,21 @@
   "date": "2026-10-31T13:25:10+00:00"
  },
  {
-  "source": "HN (60pts)",
+  "source": "HN (69pts)",
   "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
   "summary": "",
   "date": "2026-10-31T13:25:00+00:00"
  },
  {
-  "source": "HN (49pts)",
+  "source": "HN (51pts)",
   "title": "Why Anthropic's filing crushed tech stocks",
   "link": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
   "summary": "",
   "date": "2026-10-31T12:32:10+00:00"
  },
  {
-  "source": "HN (32pts)",
+  "source": "HN (33pts)",
   "title": "Tell HN: Claude Code adds your email to the prompt, the LLM sends it to websites",
   "link": "https://news.ycombinator.com/item?id=50286306",
   "summary": "",
@@ -693,25 +665,18 @@
   "date": "2026-10-30T10:22:51+00:00"
  },
  {
-  "source": "HN (966pts)",
+  "source": "HN (972pts)",
   "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
   "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
   "summary": "",
   "date": "2026-10-30T07:09:12+00:00"
  },
  {
-  "source": "HN (655pts)",
+  "source": "HN (656pts)",
   "title": "Backdoors in official Claude Code extensions",
   "link": "https://cyberplace.social/@GossiTheDog/117528831681803563",
   "summary": "",
   "date": "2026-10-30T11:05:53+00:00"
- },
- {
-  "source": "HN (584pts)",
-  "title": "Claude Code regularly sends each background agent\u2019s transcript to its model",
-  "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-  "summary": "",
-  "date": "2026-10-29T03:33:42+00:00"
  },
  {
   "source": "HN (125pts)",
@@ -735,35 +700,35 @@
   "date": "2026-10-29T15:56:32+00:00"
  },
  {
-  "source": "HN (225pts)",
-  "title": "Malware uses LLMs to rank victims by how much they're worth",
-  "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-  "summary": "",
-  "date": "2026-10-31T14:29:03+00:00"
- },
- {
-  "source": "HN (57pts)",
-  "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
-  "link": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
-  "summary": "",
-  "date": "2026-10-29T00:30:37+00:00"
- },
- {
-  "source": "HN (44pts)",
-  "title": "Show HN: Overtone \u2013 Transcribe, correct and cut captions for any screen shape",
-  "link": "https://github.com/lonthq/overtone-captions",
-  "summary": "",
-  "date": "2026-10-29T17:48:17+00:00"
- },
- {
-  "source": "HN (37pts)",
+  "source": "HN (38pts)",
   "title": "Show HN: Lasm \u2013 Write formally verified webapps in Lean for Node/serverless/edge",
   "link": "https://github.com/Millillion/lasm",
   "summary": "",
   "date": "2026-10-30T02:05:41+00:00"
  },
  {
-  "source": "HN (44pts)",
+  "source": "HN (241pts)",
+  "title": "Malware uses LLMs to rank victims by how much they're worth",
+  "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+  "summary": "",
+  "date": "2026-10-31T14:29:03+00:00"
+ },
+ {
+  "source": "HN (45pts)",
+  "title": "Show HN: Overtone \u2013 Transcribe, correct and cut captions for any screen shape",
+  "link": "https://github.com/lonthq/overtone-captions",
+  "summary": "",
+  "date": "2026-10-29T17:48:17+00:00"
+ },
+ {
+  "source": "HN (61pts)",
+  "title": "ChatGPT and Codex usage limits merging",
+  "link": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+  "summary": "",
+  "date": "2026-10-31T21:49:07+00:00"
+ },
+ {
+  "source": "HN (73pts)",
   "title": "Show HN: A language model that lives in a boot sector",
   "link": "https://github.com/kerlenton/bootgpt",
   "summary": "",
@@ -777,7 +742,7 @@
   "date": "2026-10-29T15:30:22+00:00"
  },
  {
-  "source": "HN (299pts)",
+  "source": "HN (318pts)",
   "title": "Digital minimalism",
   "link": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
   "summary": "",
@@ -805,7 +770,7 @@
   "date": "2026-10-30T15:23:11+00:00"
  },
  {
-  "source": "HN (90pts)",
+  "source": "HN (97pts)",
   "title": "Ex-Meta Researcher Torrented Pirated Books, Deleted It 'Due to Litigation'",
   "link": "https://torrentfreak.com/ex-meta-researcher-torrented-pirated-books-dataset-deleted-it-due-to-all-this-litigation/",
   "summary": "",
@@ -817,13 +782,6 @@
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.109.0-dev.2",
   "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . This release is signed with the key introduced in commit e82a3c6 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using th",
   "date": "2026-10-30T03:53:18+00:00"
- },
- {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.108.0-rc.1",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.108.0-rc.1",
-  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . This release is signed with the key introduced in commit e82a3c6 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using th",
-  "date": "2026-10-29T03:33:35+00:00"
  },
  {
   "source": "release: ComposioHQ/composio",
@@ -840,11 +798,18 @@
   "date": "2026-10-30T15:38:36+00:00"
  },
  {
-  "source": "release: DietrichGebert/ponytail",
-  "title": "ponytail v5.3.3",
-  "link": "https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.3",
-  "summary": "This one cleans up the band. On Team, Enterprise and managed machines the warning on your first prompt is gone, and the band shows your model and session name again. In VS Code it stays on one line, other plugins' commands no longer print under ponytail's name, and the noisy \"duplicate?\" hint is gon",
-  "date": "2026-10-29T03:11:08+00:00"
+  "source": "release: EthicalML/awesome-production-machine-learning",
+  "title": "awesome-production-machine-learning release-2026-11-01",
+  "link": "https://github.com/EthicalML/awesome-production-machine-learning/releases/tag/release-2026-11-01",
+  "summary": "Add TensorSharp to Deployment and Serving ( #845 ) * Add TensorSharp to Deployment and Serving Added TensorSharp to the list of frameworks in the README. * Update README.md --------- Co-authored-by: Zhmin Zhao <knightyzhao@gmail.com>",
+  "date": "2026-11-01T05:14:50+00:00"
+ },
+ {
+  "source": "release: Graphify-Labs/graphify",
+  "title": "graphify graphify 0.9.100",
+  "link": "https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.100",
+  "summary": "0.9.100 (2026-11-01) Fix: ids a type and a function whose names differ only in case ( Foo the class, foo the function) get distinct node ids instead of colliding (which dropped one node and minted a bogus self-loop) ( #4904 , #4908 , thanks @bercedev ). Fix: php a Scope::MEMBER access in a class-lev",
+  "date": "2026-11-01T00:53:52+00:00"
  },
  {
   "source": "release: Graphify-Labs/graphify",
@@ -892,8 +857,8 @@
   "source": "release: Significant-Gravitas/AutoGPT",
   "title": "AutoGPT Preview seed fixture (rolling)",
   "link": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/preview-seed-fixture",
-  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@85d398f64656 (migration head: 20261030213000_add_better_auth_jwks_alg_crv). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrat",
-  "date": "2026-10-31T00:53:36+00:00"
+  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@7c2b4b49544b (migration head: 20261030213000_add_better_auth_jwks_alg_crv). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrat",
+  "date": "2026-11-01T02:38:41+00:00"
  },
  {
   "source": "release: anthropics/claude-agent-sdk-python",
@@ -1016,6 +981,13 @@
  },
  {
   "source": "release: google-gemini/gemini-cli",
+  "title": "gemini-cli Release v0.67.0-nightly.20261101.g6814e00d6",
+  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261101.g6814e00d6",
+  "summary": "Full Changelog : v0.67.0-nightly.20261031.g6814e00d6...v0.67.0-nightly.20261101.g6814e00d6",
+  "date": "2026-11-01T01:14:56+00:00"
+ },
+ {
+  "source": "release: google-gemini/gemini-cli",
   "title": "gemini-cli Release v0.67.0-nightly.20261031.g6814e00d6",
   "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261031.g6814e00d6",
   "summary": "What's Changed fix(core): honor .git/info/exclude and core.excludesFile in shadow repo by @urielefrenvirtusa in #30034 fix(core): flush pending SSE event buffer at stream EOF in CodeAssistServer by @tadipavan in #30050 fix(core): handle Windows libuv zero-device stat reporting in readSecureFileBuffe",
@@ -1135,6 +1107,13 @@
  },
  {
   "source": "release: modelscope/FunASR",
+  "title": "FunASR v1.4.19",
+  "link": "https://github.com/modelscope/FunASR/releases/tag/v1.4.19",
+  "summary": "Final Publication Acceptance GitHub Release and PyPI 1.4.19 are both published. Both distributions were downloaded from official PyPI and match the accepted GitHub assets by SHA-256 and size: funasr-1.4.19-py3-none-any.whl : 1014074 bytes; SHA-256 31760d1d9bee645f0257e80c00f6872f50d8e398cb41d7a82735",
+  "date": "2026-11-01T02:22:43+00:00"
+ },
+ {
+  "source": "release: modelscope/FunASR",
   "title": "FunASR v1.4.18",
   "link": "https://github.com/modelscope/FunASR/releases/tag/v1.4.18",
   "summary": "Hotword Scope Correction PR #3798 fixes cross-script fuzzy hotword misreplacement, not local hotword-file loading. In particular, Chinese-only text such as \u8fd9\u4e2a\u7aef\u53e3 must not acquire the C prefix from the mixed-script hotword C\u7aef ; complete mixed-script homophones remain supported. The earlier description",
@@ -1176,11 +1155,11 @@
   "date": "2026-10-29T09:08:03+00:00"
  },
  {
-  "source": "release: pipecat-ai/pipecat",
-  "title": "pipecat v1.15.0",
-  "link": "https://github.com/pipecat-ai/pipecat/releases/tag/v1.15.0",
-  "summary": "Added Added a custom_configuration field to NvidiaTTSService.Settings , which forwards model-specific key/value parameters to NVIDIA TTS \u2014 Magpie's flush , chunk_len_threshold and max_chunk_threshold streaming controls, or Chatterbox's exaggeration_factor . (PR #5580 ) Added ClassifierUserTurnStopSt",
-  "date": "2026-10-29T05:50:54+00:00"
+  "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.68.0 \u2014 agents remember past sessions (agentdb 3.2 hybrid recall)",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.68.0",
+  "summary": "ruflo 3.68.0: agents remember past sessions Plain-language write-up: https://gist.github.com/ruvnet/7a0f4626da9e22a5bc39fca62dc0e37a When a session ends with a summary, ruflo now saves it as an agentdb episode, and agents can search those episodes later. The search runs on agentdb 3.2.0 and blends m",
+  "date": "2026-11-01T04:40:37+00:00"
  },
  {
   "source": "release: ruvnet/ruflo",
@@ -1204,11 +1183,11 @@
   "date": "2026-10-31T15:18:28+00:00"
  },
  {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.66.0 \u2014 the learning loop for every ruflo project",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.66.0",
-  "summary": "Minor release: @claude-flow/cli , claude-flow , ruflo 3.66.0, plus ruflo-mods plugin 0.14.0. It contains 3.65.1 and the learning-loop follow-ups to #4581 . Added The learning loop on classic hooks, for every ruflo project (ADR-512, #4604 ). Until now only projects with the opt-in ruflo-mods plugin r",
-  "date": "2026-10-31T05:52:12+00:00"
+  "source": "release: thedotmack/claude-mem",
+  "title": "claude-mem v15.8.0",
+  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.8.0",
+  "summary": "What's Changed feat(viewer): cloud viewer host for My Work, and work_state sync for every account by @thedotmack in #5193 Full Changelog : v15.7.0...v15.8.0",
+  "date": "2026-11-01T04:02:00+00:00"
  },
  {
   "source": "release: thedotmack/claude-mem",
@@ -1225,13 +1204,6 @@
   "date": "2026-10-29T17:01:29+00:00"
  },
  {
-  "source": "release: thedotmack/claude-mem",
-  "title": "claude-mem v15.5.0",
-  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.5.0",
-  "summary": "Features My Work / My Focus: Aceternity components across My Work and My Focus ( #5136 ) Observer: opt-in OpenAI-compatible batching ( #5117 ) Work view: summary provider selection is now explicit ( #5104 ) Telemetry: count My Work viewer opens and page switches in PostHog ( #5107 ) Fixes Work view ",
-  "date": "2026-10-29T00:48:22+00:00"
- },
- {
   "source": "release: unslothai/unsloth",
   "title": "unsloth Customize + Performance + UI/UX improvements",
   "link": "https://github.com/unslothai/unsloth/releases/tag/v0.1.913-beta",
@@ -1246,18 +1218,18 @@
   "date": "2026-10-29T17:08:44+00:00"
  },
  {
+  "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.66.0 \u2014 the learning loop for every ruflo project",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.66.0",
+  "summary": "Minor release: @claude-flow/cli , claude-flow , ruflo 3.66.0, plus ruflo-mods plugin 0.14.0. It contains 3.65.1 and the learning-loop follow-ups to #4581 . Added The learning loop on classic hooks, for every ruflo project (ADR-512, #4604 ). Until now only projects with the opt-in ruflo-mods plugin r",
+  "date": "2026-10-31T05:52:12+00:00"
+ },
+ {
   "source": "MarkTechPost",
   "title": "AssemblyAI Ships AssemblyAI-TTS-1: A $15 per 1M Character Text-to-Speech API for Voice Agents",
   "link": "https://www.marktechpost.com/2026/10/29/assemblyai-tts-1-text-to-speech-api-voice-agents/",
   "summary": "AssemblyAI has released AssemblyAI-TTS-1, its first text-to-speech model for voice agents. It costs $15 per 1M characters, offers unlimited concurrency without a contract, and supports 6 languages at launch. The post AssemblyAI Ships AssemblyAI-TTS-1: A $15 per 1M Character Text-to-Speech API for Voice Agents appeared first on MarkTechPost .",
   "date": "2026-10-29T07:28:36+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "NVIDIA Releases Nemotron 3.5 Transcribe: An Open 30B MoE Model for 40-Language Transcription with ~4B Active Parameters",
-  "link": "https://www.marktechpost.com/2026/10/28/nvidia-nemotron-3-5-transcribe-open-speech-llm/",
-  "summary": "NVIDIA released Nemotron 3.5 Transcribe, an open-weights speech LLM with 4.3B active parameters. It transcribes 40 languages, adds speaker labels and word timestamps, and posts a 4.71% mean WER on the English Open ASR Leaderboard. The post NVIDIA Releases Nemotron 3.5 Transcribe: An Open 30B MoE Model for 40-Language Transcription with ~4B Active Parameters appeared first on MarkTechPost .",
-  "date": "2026-10-29T04:41:24+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -2023,13 +1995,6 @@
   "date": "2026-10-29T14:07:36+00:00"
  },
  {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261029: update uv.lock (#21636)",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261029",
-  "summary": "Signed-off-by: Jin Hai haijin.chn@gmail.com",
-  "date": "2026-10-29T02:46:12+00:00"
- },
- {
   "source": "release: n8n-io/n8n",
   "title": "n8n n8n@2.46.2",
   "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.46.2",
@@ -2077,19 +2042,5 @@
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.623",
   "summary": "Release API image v2.11.623",
   "date": "2026-10-29T21:10:40+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261029-3",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261029-3",
-  "summary": "refactor: keep the enterprise code out of the community build ( #21614 )",
-  "date": "2026-10-29T03:35:50+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261029-2",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261029-2",
-  "summary": "fix(chunker): honour Python {,n} level patterns and keep long numbere\u2026",
-  "date": "2026-10-29T03:06:47+00:00"
  }
 ]
