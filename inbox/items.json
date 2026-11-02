@@ -105,13 +105,6 @@
   "date": "2026-10-30T07:26:12+00:00"
  },
  {
-  "source": "MarkTechPost",
-  "title": "Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model",
-  "link": "https://www.marktechpost.com/2026/10/29/edge0-audio8-tts-realistic-0-6b-voice-cloning/",
-  "summary": "Edge0 released Audio8-TTS-Realistic, a 0.6B open-weight zero-shot voice cloning TTS model under Apache 2.0. It supports 23 languages and adds a final GRPO stage driven by a learned realism critic. The post Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model appeared first on MarkTechPost .",
-  "date": "2026-10-30T05:02:52+00:00"
- },
- {
   "source": "MIT News",
   "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
   "link": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
@@ -476,7 +469,7 @@
   "date": "2026-10-31T15:31:08+00:00"
  },
  {
-  "source": "HN (457pts)",
+  "source": "HN (463pts)",
   "title": "Anthropic blocks users for anything touching training larger models",
   "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
   "summary": "",
@@ -490,7 +483,7 @@
   "date": "2026-10-30T17:27:25+00:00"
  },
  {
-  "source": "HN (181pts)",
+  "source": "HN (183pts)",
   "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
   "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
   "summary": "",
@@ -560,14 +553,21 @@
   "date": "2026-10-30T10:22:51+00:00"
  },
  {
-  "source": "HN (1052pts)",
+  "source": "HN (31pts)",
+  "title": "Anthropic orders AI tool Claude to stop remaking video games",
+  "link": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
+  "summary": "",
+  "date": "2026-10-31T14:41:44+00:00"
+ },
+ {
+  "source": "HN (1180pts)",
   "title": "Show HN: HackerBooks \u2013 HackerTube, but for books mentioned on HN",
   "link": "https://hackerbooks.org",
   "summary": "",
   "date": "2026-11-01T15:58:28+00:00"
  },
  {
-  "source": "HN (48pts)",
+  "source": "HN (49pts)",
   "title": "Show HN: BBRouter \u2013 Ben Eater's 8-bit computer, simulated on 3D breadboards",
   "link": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
   "summary": "",
@@ -581,14 +581,14 @@
   "date": "2026-10-30T15:23:11+00:00"
  },
  {
-  "source": "HN (258pts)",
+  "source": "HN (259pts)",
   "title": "Malware uses LLMs to rank victims by how much they're worth",
   "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
   "summary": "",
   "date": "2026-10-31T14:29:03+00:00"
  },
  {
-  "source": "HN (65pts)",
+  "source": "HN (67pts)",
   "title": "So I guess everyone uses LLMs to think now",
   "link": "https://eva.ac/blog/llms/",
   "summary": "",
@@ -602,14 +602,14 @@
   "date": "2026-10-31T21:49:07+00:00"
  },
  {
-  "source": "HN (96pts)",
+  "source": "HN (98pts)",
   "title": "Show HN: A language model that lives in a boot sector",
   "link": "https://github.com/kerlenton/bootgpt",
   "summary": "",
   "date": "2026-10-31T12:58:29+00:00"
  },
  {
-  "source": "HN (344pts)",
+  "source": "HN (347pts)",
   "title": "Digital minimalism",
   "link": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
   "summary": "",
@@ -630,14 +630,14 @@
   "date": "2026-10-31T17:13:34+00:00"
  },
  {
-  "source": "HN (157pts)",
+  "source": "HN (163pts)",
   "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
   "summary": "",
   "date": "2026-11-01T13:47:24+00:00"
  },
  {
-  "source": "HN (41pts)",
+  "source": "HN (44pts)",
   "title": "Muse AI agent is a commercial surveillance network disguised as an AI assistant",
   "link": "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial",
   "summary": "",
@@ -752,8 +752,8 @@
   "source": "release: Significant-Gravitas/AutoGPT",
   "title": "AutoGPT Preview seed fixture (rolling)",
   "link": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/preview-seed-fixture",
-  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@7c2b4b49544b (migration head: 20261030213000_add_better_auth_jwks_alg_crv). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrat",
-  "date": "2026-11-01T02:38:41+00:00"
+  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@e681d74b4271 (migration head: 20261030213000_add_better_auth_jwks_alg_crv). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrat",
+  "date": "2026-11-02T06:19:41+00:00"
  },
  {
   "source": "release: anthropics/claude-agent-sdk-python",
@@ -819,11 +819,18 @@
   "date": "2026-10-31T16:38:42+00:00"
  },
  {
-  "source": "release: farion1231/cc-switch",
-  "title": "cc-switch CC Switch v4.0.22",
-  "link": "https://github.com/farion1231/cc-switch/releases/tag/v4.0.22",
-  "summary": "CC Switch v4.0.22 \u672c\u7248\u672c\u65b0\u589e\u5bf9 DeepSeek Harness \u7684\u652f\u6301\uff0c\u5b83\u662f CC Switch \u7ba1\u7406\u7684\u7b2c 14 \u4e2a\u5e94\u7528\uff1a\u4f9b\u5e94\u5546\u4e00\u8d77\u5199\u8fdb\u5b83\u7684 Web \u548c Desktop \u914d\u7f6e\uff0cMCP\u3001Skills\u3001\u63d0\u793a\u8bcd\u540c\u6b65\u7ed9\u5b83\uff0c\u4f1a\u8bdd\u53ef\u4ee5\u6d4f\u89c8\uff0c\u300c\u5e94\u7528\u300d\u9875\u53ef\u4ee5\u5b89\u88c5\u3001\u5347\u7ea7\u3001\u5378\u8f7d\uff1b\u8fd8\u53ef\u4ee5\u5728\u6388\u6743\u4e2d\u5fc3\u767b\u5f55 DeepSeek \u8d26\u53f7\u3001\u67e5\u770b\u4f59\u989d\uff0c\u7528\u91cf\u4e5f\u4f1a\u7edf\u8ba1\u3002Oh My Pi \u7684\u7528\u91cf\u73b0\u5728\u4e5f\u4f1a\u7edf\u8ba1\u3002\u300c\u6253\u5f00\u7ec8\u7aef\u300d\u53ef\u4ee5\u52fe\u9009\u8df3\u8fc7\u6743\u9650\u786e\u8ba4\u3001\u8ffd\u52a0\u542f\u52a8\u53c2\u6570\uff0cCodex \u5361\u7247\u4e5f\u80fd\u6253\u5f00\u7ec8\u7aef\uff1bWebDAV \u914d\u7f6e\u53ef\u4ee5\u6e05\u9664\uff1bSkills \u53ef\u4ee5\u6253\u5f00\u76ee\u5f55\u3001\u5728\u53d1\u73b0\u9875\u67e5\u770b\u6587\u6863\uff1bGitHub Copilot \u7684 Claude \u6a21\u578b\u6539\u8d70\u539f\u751f",
-  "date": "2026-10-30T04:16:46+00:00"
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.645",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.645",
+  "summary": "Release API image v2.11.645",
+  "date": "2026-11-02T05:17:26+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.644",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.644",
+  "summary": "Release API image v2.11.644",
+  "date": "2026-11-02T04:18:06+00:00"
  },
  {
   "source": "release: firecrawl/firecrawl",
@@ -838,20 +845,6 @@
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.642",
   "summary": "Release API image v2.11.642",
   "date": "2026-10-31T02:44:34+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.641",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.641",
-  "summary": "Release API image v2.11.641",
-  "date": "2026-10-31T00:14:43+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.640",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.640",
-  "summary": "Release API image v2.11.640",
-  "date": "2026-10-30T21:27:28+00:00"
  },
  {
   "source": "release: google-gemini/gemini-cli",
@@ -946,6 +939,13 @@
  },
  {
   "source": "release: modelscope/FunASR",
+  "title": "FunASR FunASR ONNX runtime v0.4.4",
+  "link": "https://github.com/modelscope/FunASR/releases/tag/runtime-onnx-v0.4.4",
+  "summary": "Standalone funasr-onnx 0.4.4. This does not update the root funasr release. Install: pip install -U funasr-onnx==0.4.4 . Includes previously merged fixes for streaming Paraformer zero-overlap caching and empty-final output ( #3790 , #3808 ), short/final VAD and cross-stream cache reset ( #3822 ), an",
+  "date": "2026-11-02T06:02:15+00:00"
+ },
+ {
+  "source": "release: modelscope/FunASR",
   "title": "FunASR v1.4.19",
   "link": "https://github.com/modelscope/FunASR/releases/tag/v1.4.19",
   "summary": "Final Publication Acceptance GitHub Release and PyPI 1.4.19 are both published. Both distributions were downloaded from official PyPI and match the accepted GitHub assets by SHA-256 and size: funasr-1.4.19-py3-none-any.whl : 1014074 bytes; SHA-256 31760d1d9bee645f0257e80c00f6872f50d8e398cb41d7a82735",
@@ -1023,6 +1023,13 @@
  },
  {
   "source": "release: thedotmack/claude-mem",
+  "title": "claude-mem v15.8.2",
+  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.8.2",
+  "summary": "Fixes Work view: telemetry volume cuts. High-volume events (observer turns, work-state use, context injections, searches, skills) are now one daily rollup per install with a count ; worker start/stop carry restart_count ; failures are one event per type per day with count . Observer: after a spent c",
+  "date": "2026-11-02T06:00:18+00:00"
+ },
+ {
+  "source": "release: thedotmack/claude-mem",
   "title": "claude-mem v15.8.1",
   "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.8.1",
   "summary": "Repository cleanup. No changes to how claude-mem runs. The repo root drops from 60 entries to 36, so the README sits much higher on the GitHub page. Old plans, reports, playbooks and generated files are gone, along with the superseded cursor-hooks/ and ragtime/ directories. Docs, test assets and Doc",
@@ -1048,6 +1055,314 @@
   "link": "https://github.com/unslothai/unsloth/releases/tag/v0.1.913-beta",
   "summary": "Make Unsloth your own with custom backgrounds and a improved UI/UX. This release also cuts app update times and speeds up Linux app and Qwen-Image gen when VRAM is limited. Also new: DeepSeek-V4.1-Flash-1017 in Unsloth Dynamic v3.1 GGUFs (preview), FLUX.2-klein-9B on low-RAM machines, smoother chats",
   "date": "2026-10-31T02:13:26+00:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Nedimo: An Evidence-Grounded Multilingual Pipeline for AI-Generated Sleep Stories",
+  "link": "https://arxiv.org/abs/2610.40970",
+  "summary": "Generative audio systems can produce large libraries of personalized bedtime content, but ordinary media objectives (retention, completion, and novelty) are poorly aligned with the goal of supporting a transition toward sleep. Direct evidence for narrated bedtime audio in adults is mixed, and a recent active-controlled trial did not support such audio as a standalone treatment for sleep disturbanc",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "From Transcription to Reformulation: Defining and Benchmarking Grounded Generative Speech Recognition",
+  "link": "https://arxiv.org/abs/2610.41292",
+  "summary": "Speech language models have expanded automatic speech recognition (ASR) from transcription to general speech-to-text generation. Yet existing benchmarks still assume a single ground-truth transcript per utterance, an assumption that struggles when models produce readable, formatted, or structured outputs. In this work, we introduce Grounded Generative Speech Recognition (GSR), reformulating speech",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "GhostPrefix: Synchronization-Free Universal Prefix Attacks for ASR Manipulation",
+  "link": "https://arxiv.org/abs/2610.42026",
+  "summary": "We present GhostPrefix, the first synchronization-free universal adversarial prefix attack against automatic speech recognition (ASR) systems. Unlike prior audio attacks, which are typically crafted per utterance, require synchronization with the victim waveform, or target narrow objectives, GhostPrefix learns a short, reusable audio segment prepended to arbitrary live speech to exert real-time co",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "MERIDIAN: Memory-Encoded Rituals for Intimacy across Distance in an Interactive, Asynchronous Neighbourhood",
+  "link": "https://arxiv.org/abs/2610.41776",
+  "summary": "How can shared memories become playable structures for partners who live in different time zones? We present MERIDIAN, a pre-deployment design case of Yi Town, a bilingual browser game developed by one member of a long-distance couple as a gift for the other. Nine levels translate personally meaningful events, places and cultural references into tasks within a navigable pixel town. A birthday prol",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "VoxLock: Target-Speaker Extraction for Voice Agents Without an Enrollment Step",
+  "link": "https://arxiv.org/abs/2610.40727",
+  "summary": "A voice agent's speech recognizer transcribes everyone near the microphone, including people other than the caller. I fine-tuned a public causal target-speaker extraction model (REAL-TSE, 27M parameters) on one GPU to work from a voice sample cut from the call itself, and released it as VoxLock. I score it by what a recognizer writes on real recordings. On Krisp's 265-recording benchmark it reache",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "PrivacyFlow: Privacy in AI Agents through Information Flow Analysis and Consequence-Aware Risk Management",
+  "link": "https://arxiv.org/abs/2610.40714",
+  "summary": "Autonomous LLM agents executing multi-step workflows over personal data often misalign with user privacy expectations and leak sensitive, out-of-context information. Although Contextual Integrity (CI) formalizes this problem, existing benchmarks and defenses rarely operationalize CI for realistic multi-step task sequences in evolving environments. In this work, we first introduce agentic PrivacyBe",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+  "link": "https://arxiv.org/abs/2610.40716",
+  "summary": "LLM agents operating in untrusted workspaces face the risk of untrusted code execution during routine tasks, yet final reports and workspace states alone cannot reliably establish whether execution occurred. We introduce an evaluation framework that codes observation, reasoning, execution, and response behaviors from agent trajectories and aligns them with independent environmental records to reco",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "BABA-Bench: Evaluating Long-Horizon Patient-Advocacy Agents",
+  "link": "https://arxiv.org/abs/2610.41076",
+  "summary": "An LLM agent that helps a patient get care must do two things. It must reach the correct outcome, and it must follow the necessary procedure. For example, the agent must get the patient's permission before it shares the patient's records. We introduce BABA-Bench, a benchmark of 47 interactive worlds. We built each world from a de-identified, real patient advocacy case that expert advocates reviewe",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "When Should AI Agents Ask? Clarification Requests Under Limited Human Attention",
+  "link": "https://arxiv.org/abs/2610.41129",
+  "summary": "AI agents increasingly carry out delegated tasks in parallel, with one person overseeing several of them at once. In practice, an agent often lacks information its task requires, such as an unstated preference, constraint, or specification. It can ask the human to clarify, or it can search for the information itself, for example in past records, which takes time and effort and may fail. In this pa",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "TraceSpec: Understanding and Improving Speculative Decoding for LLM Agents",
+  "link": "https://arxiv.org/abs/2610.41177",
+  "summary": "LLM agents execute tasks through repeated model calls over evolving histories of reasoning, actions, and tool feedback. Aggregate speculative-decoding metrics merge these distinct decisions, providing limited guidance on where draft supervision is needed. We present TraceSpec, a framework connecting trajectory evaluation with adaptive draft training. It combines dynamic execution with fixed-prefix",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "When Safety Checks Become Privacy Risks: A Privacy-Preserving Paradigm for LLM Agent Safety Auditing",
+  "link": "https://arxiv.org/abs/2610.41401",
+  "summary": "Large language model agents interact with online services through tool calls that may access private data or perform sensitive actions. Specialized providers can supply and maintain pre-execution safety auditing capabilities for agent operators. However, sending task descriptions, call arguments, and interaction histories to an external auditor may expose sensitive user information. In this work, ",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "KEEPER: Learning Control-Sufficient Textual Memory for Long-Horizon LLM Agents",
+  "link": "https://arxiv.org/abs/2610.41482",
+  "summary": "Recursive textual memory can carry earlier errors into later updates, yet task performance alone does not establish memory reliability. We define self-consistency bias as the persistence of incorrect claims already present in the incoming memory. We present KEEPER, a comparative analysis of four auxiliary objectives along information-content and update-sensitivity axes within a shared recursive in",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "What Standard Evaluations Hide About Detectors of Hijacked LLM Agents: Rare Attacks, Unseen Tools and Benchmark Transfer",
+  "link": "https://arxiv.org/abs/2610.41803",
+  "summary": "Detectors can flag hijacked large language model (LLM) agents from the traces of the tools they call. In the eleven evaluations we audited, attacks or anomalies make up 16% to 86% of the test samples, no evaluation varies that share, and six report no test on data from a second benchmark or source. We ask what such evaluations hide. On the AgentDrift and AgentDojo benchmarks we test trained detect",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "TradeWar: A Benchmark for Execution-Grounded Trade Negotiation with Adaptive LLM Agents",
+  "link": "https://arxiv.org/abs/2610.42004",
+  "summary": "Multi-turn negotiation remains a challenging problem for large language model (LLM) agents. While LLMs can conduct natural-language dialogue, existing benchmarks predominantly assess only agreement rates, overlooking whether negotiated commitments actually create value once executed. To address this gap, we introduce TradeWar, a multi-country simulation benchmark that translates negotiation dialog",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+  "link": "https://arxiv.org/abs/2610.42148",
+  "summary": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, ",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN",
+  "link": "https://arxiv.org/abs/2610.40744",
+  "summary": "With the progressive capabilities of large language models (LLMs), researchers are finding ways to integrate them into the control loops of Open Radio Access Network (O-RAN) to enable slicing and resource management through user intents. However, integration of LLMs in the O-RAN control loop via the RAN Intelligent Controller (RIC) makes the system vulnerable to \\textit{runtime prompt injection th",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "\"Shall We Approve?\" Consequence-Aware Approval for Autonomous Coding Agents",
+  "link": "https://arxiv.org/abs/2610.40753",
+  "summary": "Coding agents increasingly rely on automated approvers to decide whether a proposed shell command may run. Existing approvers, from rule-based checkers to guardrail models and deployed permission classifiers, base their decisions on the text of the request and command. Yet a command's behavior depends on the code it invokes and the state of the workspace, and systems that observe file changes leav",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+  "link": "https://arxiv.org/abs/2610.40890",
+  "summary": "Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capabilities, motivating concerns about its potential use in surveillance-related tasks. We present an exploratory case study of what potentially harmful surveillance assist",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak",
+  "link": "https://arxiv.org/abs/2610.40926",
+  "summary": "Automated red teaming trains an attacker large language model (LLM) to elicit harmful responses from a victim LLM, but reinforcement learning can collapse attackers onto a narrow set of prompts when attack success is the only reward. Such a collapse of attack diversity can bias safety evaluation toward repeatedly testing near-duplicate attack patterns rather than the underlying harmful intents. Ex",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "LanG 2.0: Energy-Efficient Agentic AI for Semi-Automated Security Operations at Scale",
+  "link": "https://arxiv.org/abs/2610.41072",
+  "summary": "Security operations centers (SOCs) need to turn terabytes of alerts, logs and flows into trusted, affordable decisions to unveil hidden threats. We present LanG 2.0, an agentic system that detects threats, correlates evidence and writes rules, investigating whether small local models can replace frontier models affordably and safely when structural safeguards, not model accuracy, provide the guara",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "AgentShield: Fortifying Web Applications Against AI Agents and Agentic Browsers",
+  "link": "https://arxiv.org/abs/2610.41181",
+  "summary": "LLM-powered browser agents are transforming web automation by autonomously interacting with websites and executing complex workflows. However, the effectiveness of existing anti-bot defenses against these systems remains unclear. We present a systematic empirical evaluation of modern agentic browsers against widely deployed anti-bot mechanisms, characterizing their capabilities, limitations, and b",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation",
+  "link": "https://arxiv.org/abs/2610.41307",
+  "summary": "Multimodal indirect prompt injection embeds malicious instructions in external media that also contains information needed for the user's task. Existing defenses can block the attack yet impair the model's use of that information, leaving a gap between attack defense and task preservation. We propose ERASE, an on-policy self-distillation method that constructs its reference by erasing the injected",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "SecPO: Principled Adversarial Training for Prompt Injection Security",
+  "link": "https://arxiv.org/abs/2610.41998",
+  "summary": "Recognized as a top threat to AI agents, prompt injection allows instructions from untrusted data (email, documents, websites) to manipulate the agent's operation. The existing best-defended LLM, Meta-SecAlign, is trained with the DPO loss but still suffers from attack success rates (ASRs) approaching 100% under adaptive prompt injections. One reason is that DPO anchors the model around the undefe",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Prevented is Not Protected: What Attack Success Rate Hides about RAG",
+  "link": "https://arxiv.org/abs/2610.40742",
+  "summary": "Retrieval-Augmented Generation (RAG) is vulnerable to knowledge poisoning, where adversaries manipulate retrieved evidence to influence model outputs. Existing defenses are primarily evaluated using attack success rate (ASR), which obscures defense-induced failures and the mechanisms behind apparent attack prevention. To address this issue, this work introduces \\textbf{Aligned RAG Evaluation}, a m",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Language Models Show Conformity Bias in RAG: When the Majority Endorses a Poisoned Claim",
+  "link": "https://arxiv.org/abs/2610.41012",
+  "summary": "Retrieval-augmented generation (RAG) can expose language models to misleading evidence in retrieved documents. We investigate whether increasing the number of mutually agreeing poisoned documents affects a model's ability to detect misinformation. We evaluate 200 randomly selected questions from SciFact (random seed 38), comparing contexts with one poisoned and six healthy documents against contex",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Context as Infrastructure: Knowledge Compilation for Retrieval in Agentic Systems with Harnesses",
+  "link": "https://arxiv.org/abs/2610.41172",
+  "summary": "Retrieval-augmented generation is becoming agentic. A search harness writes queries, reads results, reformulates, and decides when to stop. This largely solves accuracy: a harness with only BM25/grep and MiniMax M3 answers 85% of BrowseComp-Plus and 91% on multi-hop FRAMES in our runs, without compiled or vector indexes. It exposes a context problem: an undisciplined loop repeats queries, rereads ",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Pix2Evidence: A Multimodal RAG System for Text and Visual Evidence",
+  "link": "https://arxiv.org/abs/2610.41335",
+  "summary": "Retrieval-augmented generation (RAG) over visually rich documents must find both relevant content and the evidence that supports an answer. Screenshot retrieval preserves images and page structure, but written facts within screenshots also need to be searchable. Moreover, topical relevance alone does not identify which retrieved tile contains evidence for the answer. We introduce Pix2Evidence, a m",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "RECITE: Revising Eligibility Criteria Incorporating Textual Evidence",
+  "link": "https://arxiv.org/abs/2610.41368",
+  "summary": "Overly restrictive eligibility criteria contribute to widespread enrollment failure in clinical trials, yet published recommendations for how specific criteria should be broadened remain disconnected from trial design at scale. We introduce RECITE (Revising Eligibility Criteria Incorporating Textual Evidence), a framework for automated discovery, extraction, and implementation of evidence-based el",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Hierarchical Dual-Graph Retrieval for Long-form Audio Reasoning",
+  "link": "https://arxiv.org/abs/2610.41390",
+  "summary": "Large audio language models (LALMs) struggle with long-form audio reasoning, as processing entire recordings often limits to capture query-relevant content distributed across distant segments while incurring substantial computational cost. We introduce AudioHelix, a hierarchical DualGraph framework tailored for LALMs' retrieval-augmented generation (RAG) systems. Unlike existing text-only or non-g",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection",
+  "link": "https://arxiv.org/abs/2610.41232",
+  "summary": "As Large Language Models (LLMs) become increasingly multilingual, distinguishing human-written from AI-generated text is essential for maintaining information integrity. However, research remains English-centric, with limited benchmarks for low-resource languages such as Hindi. To address this gap, we introduce SHAKTI, a large-scale Hindi benchmark covering four genres, eight LLM families, multipl",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Enhancing Sentiment Classification on Small Datasets through Data Augmentation and Transfer Learning",
+  "link": "https://arxiv.org/abs/2610.41518",
+  "summary": "Small-scale sentiment classification often suffers from data scarcity, which limits the generalization ability of the models. This study evaluates and compares the effectiveness of three data augmentation strategies: Easy Data Augmentation (EDA), back-translation, and contextual token substitution (nlpaug-style), with both traditional machine learning classifiers (Logistic Regression, Random Fores",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Kernel-based Interpolatory Methods for Context Compression of Attention Mechanisms",
+  "link": "https://arxiv.org/abs/2610.40943",
+  "summary": "The bottleneck of attention mechanisms, which are the fundamental building block of modern language models, is their quadratic complexity in terms of context size. There has thus been an increasing interest in the compression of the context, also called KV-cache compression. In this article, we consider the problem of compressing the context of attention mechanisms by first formulating it in the H",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents",
+  "link": "https://arxiv.org/abs/2610.41291",
+  "summary": "Long-horizon LLM agents play an important role in solving complex and sustained tasks, with ever-growing interaction contexts. However, these accumulated contexts will raise substantial computational cost and obscure key decision-relevant evidence. Existing methods typically train external compressors or context-management agents to rewrite context as shorter hard-token sequences, but such externa",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction",
+  "link": "https://arxiv.org/abs/2610.41359",
+  "summary": "Length-aware scheduling reduces request latency in LLM serving by prioritizing shorter requests. However, despite their large model sizes, length predictors can suffer degraded ranking performance under domain and task shifts, and adapting them can require costly retraining. Their prediction overhead can further offset the benefits of scheduling. To improve the generalization and efficiency of len",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "KV-Cache Patching: Tracing How and Where Fine-Tuned Behaviors Arise",
+  "link": "https://arxiv.org/abs/2610.41480",
+  "summary": "Fine-tuning a language model changes how it responds, but where is this fine-tuned behavior instantiated? To better understand this, we evaluate whether the change in model behavior arises only during the generation of the answer tokens where the change manifests, or whether altered processing of previous tokens causes it via the attention mechanism. For this, we patch the KV cache from a LoRA fin",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "HiState: Hierarchical Prefix Cache Management for Hybrid LLM Serving in Agentic Workloads",
+  "link": "https://arxiv.org/abs/2610.41508",
+  "summary": "Hybrid large language models combine full-attention and recurrent linear layers to reduce inference costs. Prefix caching can further reduce redundant computation across requests, but a recurrent checkpoint cannot recover an earlier state corresponding to a shorter prefix. Existing hybrid prefix caching systems retain checkpoints at selected boundaries to support common reuse patterns in conventio",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Where KV-Cache Error Lives in Looped Language Models: A Diagnostic Study of Ouro and Huginn",
+  "link": "https://arxiv.org/abs/2610.41825",
+  "summary": "A looped language model applies one block of layers 4 times per token and keeps a key/value (KV) plane for each loop. We study where storage error changes the next-token distribution and how shared-weight error accumulates, using Ouro-1.4B (4 loops) on GSM8K and MATH and Huginn-0125 (32 loops) on GSM8K-derived chains, with dense, simulated quantization. Per unit of error, values carry 94% of the d",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Dynamical Memory Transformer: Selective Recurrent Memories with Constant Cost Attention",
+  "link": "https://arxiv.org/abs/2610.41850",
+  "summary": "Transformers retain an explicit history of the sequence, allowing attention to directly retrieve past representations. However, the size of the KV-Cache and the cost of a new token increase with the context length. State Space Models compress the past into a fixed-size recurrent state, at the cost of reduced addressability. We present the Dynamical Memory Transformer (DMT), a hybrid architecture t",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "Subquadratic Attention with a Hierarchical Tree-Structured Indexer",
+  "link": "https://arxiv.org/abs/2610.42112",
+  "summary": "The quadratic scaling of attention is a fundamental bottleneck limiting the long-context capabilities of large language models (LLMs). A variety of approaches have attempted to circumvent this, but they either fail to match attention's expressiveness (e.g., sliding-window or linear attention variants with fixed-size state) or only achieve constant-factor speedups (e.g., sparse attention methods wh",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "ACCT: Asymmetric Cross-LLM Context Transfer",
+  "link": "https://arxiv.org/abs/2610.42116",
+  "summary": "In real-world deployments, large language model (LLM) systems are increasingly evolving from single-model invocation toward heterogeneous deployments in which different models are dynamically invoked for inference. When the same context is reused across models, however, each newly selected target model typically has to process it again, repeatedly incurring substantial computational costs. Therefo",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "arXiv",
+  "title": "ARK: Avoiding Routing Collisions for KV Cache Transfer in Disaggregated LLM Inference",
+  "link": "https://arxiv.org/abs/2610.41160",
+  "summary": "Disaggregated LLM inference separates the prefill and decode phases across GPU pools, generating massive KV-cache transfers. Because these transfers last hundreds of milliseconds to seconds, they behave as mega elephant flows that dominate link bandwidth utilization. In this regime, stateless ECMP can perform poorly: hash collisions may overload one spine link while leaving others idle, stretching",
+  "date": "2026-11-02T00:00:00-05:00"
+ },
+ {
+  "source": "HF Papers (1 up)",
+  "title": "ReLift: Dense 3D Tracking as Lifted Trajectory Repair",
+  "link": "https://huggingface.co/papers/2610.42136",
+  "summary": "Dense 3D tracking from monocular video requires establishing point correspondences over time, estimating their depth, and inferring their trajectories during occlusion. Existing methods typically learn these tasks jointly, a demanding objective given the scarcity of 4D supervision. We show that strong pretrained 2D trackers and 3D geometry models provide an effective foundation: lifted trajectorie",
+  "date": "2026-10-30T13:58:33+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.641",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.641",
+  "summary": "Release API image v2.11.641",
+  "date": "2026-10-31T00:14:43+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.640",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.640",
+  "summary": "Release API image v2.11.640",
+  "date": "2026-10-30T21:27:28+00:00"
  },
  {
   "source": "release: firecrawl/firecrawl",
