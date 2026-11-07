@@ -168,13 +168,6 @@
   "date": "2026-11-04T15:26:02+00:00"
  },
  {
-  "source": "Simon Willison",
-  "title": "datasette-apps 0.3a0",
-  "link": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
-  "summary": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent . This release improves that integration: Apps can now be tagged in Datasette Agent chat messages by typing # , which autocompletes from the apps the user has permission to view. N",
-  "date": "2026-11-04T00:29:36+00:00"
- },
- {
   "source": "MarkTechPost",
   "title": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
   "link": "https://www.marktechpost.com/2026/11/06/zyphra-zyfa-fp8-flashattention-amd-mi355x/",
@@ -274,6 +267,13 @@
  },
  {
   "source": "TechCrunch AI",
+  "title": "Crusoe sells troubled Wyoming data center project to Google",
+  "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+  "summary": "The deal highlights the challenges of developing massive AI data centers.",
+  "date": "2026-11-07T01:40:28+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
   "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
   "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
   "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
@@ -369,13 +369,6 @@
   "link": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
   "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
   "date": "2026-11-05T19:06:12+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-  "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-  "summary": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
-  "date": "2026-11-05T18:02:27+00:00"
  },
  {
   "source": "The Verge AI",
@@ -477,6 +470,13 @@
  },
  {
   "source": "GitHub",
+  "title": "Copilot code review: API management and review overview updates",
+  "link": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+  "summary": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot\u2019s review overview comment is now more compact,\u2026 The post Copilot code review: API management and review overview updates appeared first on The GitHub Blog .",
+  "date": "2026-11-07T00:27:19+00:00"
+ },
+ {
+  "source": "GitHub",
   "title": "Copilot impact dashboard adds chat and VS Code agent usage",
   "link": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
   "summary": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption\u2026 The post Copilot impact dashboard adds chat and VS Code agent usage appeared first on The GitHub Blog .",
@@ -539,11 +539,11 @@
   "date": "2026-11-04T19:10:40+00:00"
  },
  {
-  "source": "GitHub",
-  "title": "BYOK and enterprise custom models in the Copilot usage API",
-  "link": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-  "summary": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of\u2026 The post BYOK and enterprise custom models in the Copilot usage API appeared first on The GitHub Blog .",
-  "date": "2026-11-04T00:32:19+00:00"
+  "source": "Latent Space",
+  "title": "[AINews] Anthropic IPO: Whither Now?",
+  "link": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+  "summary": "November 6, 2026 \u2014 ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
+  "date": "2026-11-07T03:04:53+00:00"
  },
  {
   "source": "Latent Space",
@@ -756,7 +756,7 @@
   "date": "2026-11-04T16:30:59+00:00"
  },
  {
-  "source": "HN (204pts)",
+  "source": "HN (256pts)",
   "title": "Anthropic IPO buyers see valuation as low as $1.1T",
   "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
   "summary": "",
@@ -784,28 +784,35 @@
   "date": "2026-11-05T20:16:19+00:00"
  },
  {
-  "source": "HN (1545pts)",
+  "source": "HN (32pts)",
+  "title": "Reading the Anthropic S-1, with Zvi Mowshowitz",
+  "link": "https://www.complexsystemspodcast.com/episodes/reading-the-anthropic-s-1-with-zvi-mowshowitz/",
+  "summary": "",
+  "date": "2026-11-06T16:04:58+00:00"
+ },
+ {
+  "source": "HN (1559pts)",
   "title": "Claude Code sends your email address to websites",
   "link": "https://github.com/anthropics/claude-code/issues/107757",
   "summary": "",
   "date": "2026-11-05T22:17:15+00:00"
  },
  {
-  "source": "HN (238pts)",
+  "source": "HN (239pts)",
   "title": "Progress on provable inference for large language models",
   "link": "https://www.anthropic.com/research/provable-inference",
   "summary": "",
   "date": "2026-11-04T17:17:46+00:00"
  },
  {
-  "source": "HN (86pts)",
+  "source": "HN (90pts)",
   "title": "AI for scientific discovery: How researchers use Claude",
   "link": "https://www.anthropic.com/research/how-researchers-use-claude",
   "summary": "",
   "date": "2026-11-06T09:13:30+00:00"
  },
  {
-  "source": "HN (540pts)",
+  "source": "HN (541pts)",
   "title": "Ask HN: What's your current AI agentic setup?",
   "link": "https://news.ycombinator.com/item?id=50366117",
   "summary": "",
@@ -826,35 +833,35 @@
   "date": "2026-11-04T20:31:30+00:00"
  },
  {
-  "source": "HN (184pts)",
+  "source": "HN (185pts)",
   "title": "My psychophysics as a bilateral cochlear implant user",
   "link": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
   "summary": "",
   "date": "2026-11-05T16:21:12+00:00"
  },
  {
-  "source": "HN (77pts)",
+  "source": "HN (95pts)",
   "title": "Memorilla: Latent Semantic Memory for LLMs",
   "link": "https://arxiv.org/abs/2610.21375",
   "summary": "",
   "date": "2026-11-06T18:03:33+00:00"
  },
  {
-  "source": "HN (287pts)",
+  "source": "HN (377pts)",
   "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
   "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
   "summary": "",
   "date": "2026-11-06T19:48:51+00:00"
  },
  {
-  "source": "HN (409pts)",
+  "source": "HN (412pts)",
   "title": "Lemmings CSS Animation",
   "link": "https://markblah.github.io/lemmings/",
   "summary": "",
   "date": "2026-11-05T04:54:10+00:00"
  },
  {
-  "source": "HN (160pts)",
+  "source": "HN (166pts)",
   "title": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)",
   "link": "https://jhr.pensoft.net/articles.php?id=9096",
   "summary": "",
@@ -875,18 +882,18 @@
   "date": "2026-11-05T17:17:42+00:00"
  },
  {
-  "source": "HN (32pts)",
+  "source": "HN (50pts)",
   "title": "Show HN: Waymark \u2013 A workflow engine that compiles jobs instead of replaying",
   "link": "https://github.com/piercefreeman/waymark",
   "summary": "",
   "date": "2026-11-05T14:06:31+00:00"
  },
  {
-  "source": "HN (148pts)",
-  "title": "Giant canyon on Mars is still tectonically active",
-  "link": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
+  "source": "HN (43pts)",
+  "title": "Swipeblocked: The phrases your iPhone won't suggest",
+  "link": "https://swipeblocked.com/",
   "summary": "",
-  "date": "2026-11-04T01:40:42+00:00"
+  "date": "2026-11-06T16:01:54+00:00"
  },
  {
   "source": "HN (724pts)",
@@ -910,7 +917,7 @@
   "date": "2026-11-04T15:28:31+00:00"
  },
  {
-  "source": "HN (58pts)",
+  "source": "HN (60pts)",
   "title": "Perplexity launches AI agents for work",
   "link": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
   "summary": "",
@@ -924,7 +931,7 @@
   "date": "2026-11-05T00:01:30+00:00"
  },
  {
-  "source": "HN (40pts)",
+  "source": "HN (41pts)",
   "title": "Ask HN: What are forgotten topics in computing that deserve a new revisit?",
   "link": "https://news.ycombinator.com/item?id=50387483",
   "summary": "",
@@ -1057,13 +1064,6 @@
   "date": "2026-11-06T17:57:35+00:00"
  },
  {
-  "source": "release: anthropics/claude-agent-sdk-python",
-  "title": "claude-agent-sdk-python v0.2.178",
-  "link": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.178",
-  "summary": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.318 PyPI: https://pypi.org/project/claude-agent-sdk/0.2.178/ pip install claude-agent-sdk==0.2.178",
-  "date": "2026-11-04T00:54:29+00:00"
- },
- {
   "source": "release: anthropics/claude-agent-sdk-typescript",
   "title": "claude-agent-sdk-typescript v0.3.319",
   "link": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.319",
@@ -1162,11 +1162,11 @@
   "date": "2026-11-04T20:27:11+00:00"
  },
  {
-  "source": "release: google-gemini/gemini-cli",
-  "title": "gemini-cli Release v0.67.0-nightly.20261104.g89e9d25d6",
-  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261104.g89e9d25d6",
-  "summary": "What's Changed fix(cli): handle stream failures during extension release downloads by @duvanka-prasad in #30100 fix(core): preserve explicit gemini-2.5-flash model in dynamic model resolution by @jesussamuel-byte in #30057 fix(hooks): support SubagentStop event mapping and merge hook definitions by ",
-  "date": "2026-11-04T01:20:49+00:00"
+  "source": "release: harry0703/MoneyPrinterTurbo",
+  "title": "MoneyPrinterTurbo v1.3.10",
+  "link": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.10",
+  "summary": "English | \u4e2d\u6587 Highlights Added OpenAI Codex subscription access with device-code sign-in and dynamic model selection, plus a separate ChatGPT Native OAuth provider. Native OAuth availability depends on account eligibility; existing Codex sign-in remains independent. Added Codex image generation as a ",
+  "date": "2026-11-07T03:05:32+00:00"
  },
  {
   "source": "release: huggingface/transformers",
@@ -1230,13 +1230,6 @@
   "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6",
   "summary": "Changes since langchain-core==1.7.5 release(core): 1.7.6 ( #41698 ) perf(core): merge streamed AIMessageChunk s once when accumulating runnable streams ( #41697 ) perf(core): stop parse_partial_json from retrying one character at a time ( #41467 )",
   "date": "2026-11-05T00:22:14+00:00"
- },
- {
-  "source": "release: langchain-ai/langchain",
-  "title": "langchain langchain-typesafe==0.0.1",
-  "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1",
-  "summary": "Initial release release(typesafe): 0.0.1 ( #41650 ) chore(infra): relax third-party dependency upper bounds ( #41407 ) chore(deps): bump certifi from 2026.7.22 to 2026.10.19 in /libs/partners/typesafe ( #41375 ) fix: fix dependencies in some partner packages ( #41266 ) release(typesafe): 0.0.1a3 ( #",
-  "date": "2026-11-04T00:11:28+00:00"
  },
  {
   "source": "release: langchain-ai/langchain",
@@ -1701,7 +1694,7 @@
   "date": "2026-11-06T00:00:00-05:00"
  },
  {
-  "source": "HF Papers (0 up)",
+  "source": "HF Papers (1 up)",
   "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
   "link": "https://huggingface.co/papers/2611.06498",
   "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who published a pack, not that its vectors encode its text. We study this text-vector integrity gap. A verifier that recomputes vectors and accepts them within a cosine tolerance concedes a predictable share of queries to an at",
@@ -1715,7 +1708,7 @@
   "date": "2026-11-04T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (5 up)",
+  "source": "HF Papers (7 up)",
   "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
   "link": "https://huggingface.co/papers/2611.08237",
   "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically feasible; existing benchmarks either score solver fragments or grade reports with an LLM judge, leaving those numbers unchecked. We introduce TB-MathModel (the Terminal-style Math",
@@ -1750,7 +1743,7 @@
   "date": "2026-11-04T08:33:47+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (3 up)",
   "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
   "link": "https://huggingface.co/papers/2611.07613",
   "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as fog, rain, transparent objects, and low-reflectance surfaces. Full-waveform LiDAR (FWL) addresses these limitations by capturing the complete return waveform as a histogram, preserving rich reflection characteristics including multi-path echoes and weak signals. While recent Tran",
@@ -1764,25 +1757,25 @@
   "date": "2026-11-05T09:35:08+00:00"
  },
  {
-  "source": "HF Papers (48 up)",
+  "source": "HF Papers (101 up)",
   "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
   "link": "https://huggingface.co/papers/2611.08373",
   "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capabi",
   "date": "2026-11-04T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (89 up)",
+  "source": "HF Papers (96 up)",
   "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
   "link": "https://huggingface.co/papers/2611.08449",
   "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
   "date": "2026-11-04T19:00:00+00:00"
  },
  {
-  "source": "HF model (2013 dl)",
-  "title": "New on the Hub: ricursiveAI/Ripple-65B-Preview",
-  "link": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
-  "summary": "pipeline: ?. tags: safetensors, ricursive, custom_code",
-  "date": "2026-11-04T02:41:21+00:00"
+  "source": "TechCrunch AI",
+  "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+  "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+  "summary": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
+  "date": "2026-11-05T18:02:27+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -2380,20 +2373,6 @@
   "date": "2026-11-05T00:00:00-05:00"
  },
  {
-  "source": "HF Papers (4 up)",
-  "title": "LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds",
-  "link": "https://huggingface.co/papers/2611.05988",
-  "summary": "Streaming video-to-audio (V2A) generation is essential for immersive interactive applications. However, real-time constraints leave existing streaming V2A methods far behind offline models: (1) visual frontends shrink their receptive fields to cut look-ahead latency, severely degrading audio-visual alignment; (2) causal autoregressive diffusion backends denoise each audio patch in isolation, impai",
-  "date": "2026-11-04T00:35:42+00:00"
- },
- {
-  "source": "HF Papers (2 up)",
-  "title": "UniRestorer++: Scalable Universal Image Restoration with Multi-Granularity Degradation Modeling",
-  "link": "https://huggingface.co/papers/2611.06042",
-  "summary": "Universal image restoration aims to handle diverse degradations within a single model, but a reliable scaling strategy remains underexplored. Increasing backbone depth and width can lead to performance saturation, while degradation-aware specialization depends on accurate degradation estimation and is vulnerable to errors on out-of-distribution and real-world inputs. We propose UniRestorer++, a sc",
-  "date": "2026-11-04T01:46:47+00:00"
- },
- {
   "source": "HF Papers (11 up)",
   "title": "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
   "link": "https://huggingface.co/papers/2611.06768",
@@ -2562,13 +2541,6 @@
   "date": "2026-11-04T12:19:15-05:00"
  },
  {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.109.0-rc.1",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.109.0-rc.1",
-  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . This release is signed with the key introduced in commit e82a3c6 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using th",
-  "date": "2026-11-04T02:17:12+00:00"
- },
- {
   "source": "release: NousResearch/hermes-agent",
   "title": "hermes-agent v0.22.7+canary.20261104T064347Z",
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.7%2Bcanary.20261104T064347Z",
@@ -2581,13 +2553,6 @@
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.680",
   "summary": "Release API image v2.11.680",
   "date": "2026-11-04T15:58:30+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261104",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261104",
-  "summary": "fix(agent): populate structured output and resolve deferred @structur \u2026",
-  "date": "2026-11-04T02:04:32+00:00"
  },
  {
   "source": "release: langchain-ai/langchain",
@@ -2924,13 +2889,6 @@
   "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261104-2",
   "summary": "feat(ingestion): recognize image tables through the DeepDoc page pipe\u2026",
   "date": "2026-11-04T05:14:38+00:00"
- },
- {
-  "source": "The Verge AI",
-  "title": "The biggest modding site in PC gaming is taking a stance on AI",
-  "link": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
-  "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent [\u2026]",
-  "date": "2026-11-03T19:42:54-05:00"
  },
  {
   "source": "The Verge AI",
