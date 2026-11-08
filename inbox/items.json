@@ -21,13 +21,6 @@
   "date": "2026-11-05T19:35:16+00:00"
  },
  {
-  "source": "Hugging Face",
-  "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
-  "link": "https://huggingface.co/blog/phonon-tts",
-  "summary": "",
-  "date": "2026-11-05T00:00:00+00:00"
- },
- {
   "source": "Google Research",
   "title": "Detecting signs of hypertension using wearable sensors",
   "link": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
@@ -77,32 +70,18 @@
   "date": "2026-11-05T08:00:00+00:00"
  },
  {
-  "source": "OpenAI",
-  "title": "Setting a new standard for responsible AI infrastructure",
-  "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-  "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-  "date": "2026-11-05T02:00:00+00:00"
- },
- {
-  "source": "OpenAI",
-  "title": "Flipsnack grows product signups with conversion optimization",
-  "link": "https://openai.com/ads/customers/flipsnack",
-  "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
-  "date": "2026-11-05T00:45:15+00:00"
- },
- {
-  "source": "OpenAI",
-  "title": "Franklin Templeton uses OpenAI to support investment research",
-  "link": "https://openai.com/index/franklin-templeton",
-  "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-  "date": "2026-11-05T00:00:00+00:00"
- },
- {
   "source": "Google AI",
   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
   "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
   "date": "2026-11-05T17:00:00+00:00"
+ },
+ {
+  "source": "Simon Willison",
+  "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+  "link": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+  "summary": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening because Datasette pages serve an HTTP link header like this: link: <https://latest.datasette.io/fixtures/compound_three_p",
+  "date": "2026-11-07T23:57:46+00:00"
  },
  {
   "source": "Simon Willison",
@@ -392,13 +371,6 @@
   "date": "2026-11-06T00:00:00+00:00"
  },
  {
-  "source": "Cursor",
-  "title": "Build Live Apps in Cursor",
-  "link": "https://cursor.com/changelog/build-live-apps",
-  "summary": "Build and deploy web apps directly in Cursor with cloud agents handling hosting, database, auth, and deployment.",
-  "date": "2026-11-05T00:00:00+00:00"
- },
- {
   "source": "VS Code",
   "title": "Visual Studio Code 1.146 (Insiders)",
   "link": "https://code.visualstudio.com/updates/v1_146",
@@ -658,7 +630,7 @@
   "date": "2026-11-05T16:31:07+00:00"
  },
  {
-  "source": "HN (308pts)",
+  "source": "HN (312pts)",
   "title": "Anthropic IPO buyers see valuation as low as $1.1T",
   "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
   "summary": "",
@@ -686,21 +658,21 @@
   "date": "2026-11-05T20:16:19+00:00"
  },
  {
-  "source": "HN (38pts)",
+  "source": "HN (39pts)",
   "title": "Reading the Anthropic S-1, with Zvi Mowshowitz",
   "link": "https://www.complexsystemspodcast.com/episodes/reading-the-anthropic-s-1-with-zvi-mowshowitz/",
   "summary": "",
   "date": "2026-11-06T16:04:58+00:00"
  },
  {
-  "source": "HN (1590pts)",
+  "source": "HN (1592pts)",
   "title": "Claude Code sends your email address to websites",
   "link": "https://github.com/anthropics/claude-code/issues/107757",
   "summary": "",
   "date": "2026-11-05T22:17:15+00:00"
  },
  {
-  "source": "HN (147pts)",
+  "source": "HN (154pts)",
   "title": "The Components of Agent Memory",
   "link": "https://www.anthropic.com/research/components-of-agent-memory",
   "summary": "",
@@ -714,7 +686,7 @@
   "date": "2026-11-06T09:13:30+00:00"
  },
  {
-  "source": "HN (88pts)",
+  "source": "HN (244pts)",
   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
   "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
   "summary": "",
@@ -735,7 +707,7 @@
   "date": "2026-11-06T18:03:33+00:00"
  },
  {
-  "source": "HN (570pts)",
+  "source": "HN (572pts)",
   "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
   "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
   "summary": "",
@@ -763,14 +735,14 @@
   "date": "2026-11-05T17:17:42+00:00"
  },
  {
-  "source": "HN (79pts)",
+  "source": "HN (81pts)",
   "title": "Show HN: Waymark \u2013 A workflow engine that compiles jobs instead of replaying",
   "link": "https://github.com/piercefreeman/waymark",
   "summary": "",
   "date": "2026-11-05T14:06:31+00:00"
  },
  {
-  "source": "HN (75pts)",
+  "source": "HN (80pts)",
   "title": "Swipeblocked: The phrases your iPhone won't suggest",
   "link": "https://swipeblocked.com/",
   "summary": "",
@@ -784,18 +756,11 @@
   "date": "2026-11-05T20:21:43+00:00"
  },
  {
-  "source": "HN (62pts)",
+  "source": "HN (64pts)",
   "title": "Perplexity launches AI agents for work",
   "link": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
   "summary": "",
   "date": "2026-11-06T17:59:41+00:00"
- },
- {
-  "source": "HN (57pts)",
-  "title": "You'll need nerves of steel to work with AI agents",
-  "link": "https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/",
-  "summary": "",
-  "date": "2026-11-05T00:01:30+00:00"
  },
  {
   "source": "HN (42pts)",
@@ -805,11 +770,18 @@
   "date": "2026-11-06T02:40:42+00:00"
  },
  {
-  "source": "HN (54pts)",
+  "source": "HN (57pts)",
   "title": "Show HN: Spindle \u2013 a full-featured, type-safe web framework for OCaml 5",
   "link": "https://github.com/hyphatech/spindle",
   "summary": "",
   "date": "2026-11-05T10:45:28+00:00"
+ },
+ {
+  "source": "release: BerriAI/litellm",
+  "title": "litellm v1.110.0-dev.2",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.110.0-dev.2",
+  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . This release is signed with the key introduced in commit e82a3c6 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using th",
+  "date": "2026-11-08T02:25:47+00:00"
  },
  {
   "source": "release: BerriAI/litellm",
@@ -833,13 +805,6 @@
   "date": "2026-11-06T22:50:40+00:00"
  },
  {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm 1.108.1 (LTS)",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.108.1",
-  "summary": "Tip The lts image tag always points to the latest LTS release. Pull ghcr.io/berriai/litellm:lts to stay on the newest LTS patch Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . This release is signed with the key introduced in commit e82a3c6 . Verify using the pinned ",
-  "date": "2026-11-06T22:50:38+00:00"
- },
- {
   "source": "release: ComposioHQ/composio",
   "title": "composio CLI Beta @composio/cli@0.6.1-beta.535",
   "link": "https://github.com/ComposioHQ/composio/releases/tag/%40composio%2Fcli%400.6.1-beta.535",
@@ -847,11 +812,11 @@
   "date": "2026-11-06T11:29:55+00:00"
  },
  {
-  "source": "release: D4Vinci/Scrapling",
-  "title": "Scrapling Release v0.5.1",
-  "link": "https://github.com/D4Vinci/Scrapling/releases/tag/v0.5.1",
-  "summary": "Small version bump, big browser upgrade! This version lets AI agents follow motion and control drag and drop, adds dedicated remote browser sessions, and brings fixes across parsing, spiders, proxies, and the shell \ud83d\ude80 With this update, we extend the limits of current AI models \ud83d\udd25 Note Follow us on X f",
-  "date": "2026-11-05T00:02:55+00:00"
+  "source": "release: Graphify-Labs/graphify",
+  "title": "graphify graphify 0.9.104",
+  "link": "https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.104",
+  "summary": "graphify 0.9.104 Security: skill the /graphify runbook no longer substitutes the scan path into Python code. Every generated code block (detect, AST and semantic extraction, build, diagnose, label, manifest, and --update ) now reads the resolved scan root from the trusted graphify-out/.graphify_root",
+  "date": "2026-11-08T00:43:23+00:00"
  },
  {
   "source": "release: Graphify-Labs/graphify",
@@ -981,6 +946,13 @@
  },
  {
   "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.703",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.703",
+  "summary": "Release API image v2.11.703",
+  "date": "2026-11-08T00:19:05+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
   "title": "firecrawl v2.11.702",
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.702",
   "summary": "Release API image v2.11.702",
@@ -999,13 +971,6 @@
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.700",
   "summary": "Release API image v2.11.700",
   "date": "2026-11-06T23:10:27+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.699",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.699",
-  "summary": "Release API image v2.11.699",
-  "date": "2026-11-06T20:50:15+00:00"
  },
  {
   "source": "release: harry0703/MoneyPrinterTurbo",
@@ -1064,13 +1029,6 @@
   "date": "2026-11-05T22:57:00+00:00"
  },
  {
-  "source": "release: langchain-ai/langchain",
-  "title": "langchain langchain-core==1.7.6",
-  "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6",
-  "summary": "Changes since langchain-core==1.7.5 release(core): 1.7.6 ( #41698 ) perf(core): merge streamed AIMessageChunk s once when accumulating runnable streams ( #41697 ) perf(core): stop parse_partial_json from retrying one character at a time ( #41467 )",
-  "date": "2026-11-05T00:22:14+00:00"
- },
- {
   "source": "release: langfuse/langfuse",
   "title": "langfuse v4.76.0",
   "link": "https://github.com/langfuse/langfuse/releases/tag/v4.76.0",
@@ -1127,6 +1085,34 @@
   "date": "2026-11-05T11:37:21+00:00"
  },
  {
+  "source": "release: pascalorg/editor",
+  "title": "editor @pascal-app/viewer@1.0.7",
+  "link": "https://github.com/pascalorg/editor/releases/tag/%40pascal-app%2Fviewer%401.0.7",
+  "summary": "release: @pascal-app/core@1.0.7 @pascal-app/geometry-script@1.0.7 @pa \u2026",
+  "date": "2026-11-08T03:26:36+00:00"
+ },
+ {
+  "source": "release: pascalorg/editor",
+  "title": "editor @pascal-app/nodes@1.0.7",
+  "link": "https://github.com/pascalorg/editor/releases/tag/%40pascal-app%2Fnodes%401.0.7",
+  "summary": "release: @pascal-app/core@1.0.7 @pascal-app/geometry-script@1.0.7 @pa \u2026",
+  "date": "2026-11-08T03:26:36+00:00"
+ },
+ {
+  "source": "release: pascalorg/editor",
+  "title": "editor @pascal-app/mcp@1.0.7",
+  "link": "https://github.com/pascalorg/editor/releases/tag/%40pascal-app%2Fmcp%401.0.7",
+  "summary": "release: @pascal-app/core@1.0.7 @pascal-app/geometry-script@1.0.7 @pa \u2026",
+  "date": "2026-11-08T03:26:36+00:00"
+ },
+ {
+  "source": "release: pascalorg/editor",
+  "title": "editor @pascal-app/ifc-converter@1.0.7",
+  "link": "https://github.com/pascalorg/editor/releases/tag/%40pascal-app%2Fifc-converter%401.0.7",
+  "summary": "release: @pascal-app/core@1.0.7 @pascal-app/geometry-script@1.0.7 @pa \u2026",
+  "date": "2026-11-08T03:26:36+00:00"
+ },
+ {
   "source": "release: ruvnet/ruflo",
   "title": "ruflo v3.72.2 \u2014 @ruvector/attention security fix (ruvector 0.3.13), neural 3.0.3 / sona 0.1.11",
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.72.2",
@@ -1139,20 +1125,6 @@
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.72.0",
   "summary": "3.72.0 brings ruflo's MCP server up to the MCP 2026-07-28 revision ( ADR-524 , #4837 ). It also merges 39 contributor fixes and tests from the #4775 tracker and the daily security scan through #4825 . Thanks to every contributor. MCP 2026-07-28 ruflo mcp start now serves 2026-07-28 clients and older",
   "date": "2026-11-06T01:11:35+00:00"
- },
- {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.71.4 \u2014 security patch",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.71.4",
-  "summary": "Security patch release: @claude-flow/cli , claude-flow , ruflo 3.71.4 . Upgrade is recommended for everyone who runs the ruflo MCP server. Security fixes browser tools ( #4783 ): browser_open accepts only a fixed list of plain Chromium switches. No caller value may add an agent-browser option. memor",
-  "date": "2026-11-05T03:36:38+00:00"
- },
- {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.71.3 \u2014 Claude Code 2.1.318 adoption, narrow band, AutoMemory + daemon fixes",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.71.3",
-  "summary": "Patch release: @claude-flow/cli , claude-flow , ruflo 3.71.3 . Standalone packages: @claude-flow/performance 3.0.1 and @claude-flow/browser 3.0.1 . Claude Code 2.1.290\u20132.1.318 adoption Headless workers: they pass --permission-mode auto , so they no longer stall in 2.1.302's manual default. They read",
-  "date": "2026-11-05T00:21:44+00:00"
  },
  {
   "source": "release: thedotmack/claude-mem",
@@ -1239,28 +1211,21 @@
   "date": "2026-11-05T22:12:23+00:00"
  },
  {
-  "source": "HF Papers (9 up)",
+  "source": "HF Papers (10 up)",
   "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
   "link": "https://huggingface.co/papers/2611.08237",
   "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically feasible; existing benchmarks either score solver fragments or grade reports with an LLM judge, leaving those numbers unchecked. We introduce TB-MathModel (the Terminal-style Math",
   "date": "2026-11-05T11:18:35+00:00"
  },
  {
-  "source": "HF Papers (7 up)",
+  "source": "HF Papers (8 up)",
   "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
   "link": "https://huggingface.co/papers/2611.08376",
   "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before writing a new value; Gated DeltaNet-2 (GDN-2) generalizes this with channel-wise decay and decoupled, full-rank erase and write gates. However, we show that state updates are far le",
   "date": "2026-11-05T12:53:49+00:00"
  },
  {
-  "source": "HF Papers (5 up)",
-  "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
-  "link": "https://huggingface.co/papers/2611.07613",
-  "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as fog, rain, transparent objects, and low-reflectance surfaces. Full-waveform LiDAR (FWL) addresses these limitations by capturing the complete return waveform as a histogram, preserving rich reflection characteristics including multi-path echoes and weak signals. While recent Tran",
-  "date": "2026-11-05T02:56:01+00:00"
- },
- {
-  "source": "HF Papers (7 up)",
+  "source": "HF Papers (8 up)",
   "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
   "link": "https://huggingface.co/papers/2611.08089",
   "summary": "Mixture-of-Experts (MoE) models route each token to a few of many experts, yet what an individual expert is responsible for remains unsettled. Existing analyses count how often an expert is selected on domain-labeled corpora, an instrument that fixes the taxonomy in advance, stays coarse, and records selection rather than contribution. We instead study specialization in feature space by training a",
@@ -1272,6 +1237,20 @@
   "link": "https://huggingface.co/NousResearch/Arete-27B",
   "summary": "pipeline: text-generation. tags: safetensors, qwen3_5, nous-research, arete, supervised-fine-tuning, value-alignment",
   "date": "2026-11-06T19:31:28+00:00"
+ },
+ {
+  "source": "release: BerriAI/litellm",
+  "title": "litellm 1.108.1 (LTS)",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.108.1",
+  "summary": "Tip The lts image tag always points to the latest LTS release. Pull ghcr.io/berriai/litellm:lts to stay on the newest LTS patch Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . This release is signed with the key introduced in commit e82a3c6 . Verify using the pinned ",
+  "date": "2026-11-06T22:50:38+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.699",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.699",
+  "summary": "Release API image v2.11.699",
+  "date": "2026-11-06T20:50:15+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -1321,13 +1300,6 @@
   "link": "https://www.infoq.com/presentations/zero-trust-ai-agents-production-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "Advait Patel shares a playbook for securing AI agent systems in production. He discusses moving defense boundaries from the prompt to the tool layer, enforcing scoped workload identities, and mitigating prompt injection via tool outputs. He explains how to structure audit-ready observability and implement kill switches to protect critical data while keeping deployment fast and compliant. By Advait",
   "date": "2026-11-05T11:00:00+00:00"
- },
- {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.107.0-rc.3",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.107.0-rc.3",
-  "summary": "Verify this release This release candidate is built from f9778e9 , the reviewed merge of #50129 into rc/1.107.0 . It is published as 1.107.0rc3 on PyPI and v1.107.0-rc.3 on Docker After the Oct 21 incident ( #47826 ) we replaced the cosign key that signs our Docker images. These images are signed wi",
-  "date": "2026-11-05T02:07:25+00:00"
  },
  {
   "source": "release: NousResearch/hermes-agent",
@@ -1673,20 +1645,6 @@
   "date": "2026-11-05T12:00:00+00:00"
  },
  {
-  "source": "TechCrunch AI",
-  "title": "Apple is reportedly cutting budgets for its internal AI usage",
-  "link": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
-  "summary": "The tokenmaxxing frenzy has been short-lived as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach.",
-  "date": "2026-11-05T01:26:22+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "After the midterms, a bigger clash over data centers could be coming",
-  "link": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
-  "summary": "Data center opposition crossed party lines in Tuesday\u2019s midterms.",
-  "date": "2026-11-05T01:02:14+00:00"
- },
- {
   "source": "The Verge AI",
   "title": "Airbnb is working on an AI travel agent",
   "link": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
@@ -1790,13 +1748,6 @@
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.684",
   "summary": "Release API image v2.11.684",
   "date": "2026-11-05T15:19:48+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261105",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261105",
-  "summary": "Fix: second sort key for memory messages ( #22004 )",
-  "date": "2026-11-05T03:24:53+00:00"
  },
  {
   "source": "release: infiniflow/ragflow",
