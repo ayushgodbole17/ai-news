@@ -8,6 +8,13 @@
  },
  {
   "source": "Hugging Face",
+  "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+  "link": "https://huggingface.co/blog/token-pooling",
+  "summary": "",
+  "date": "2026-11-11T00:00:00+00:00"
+ },
+ {
+  "source": "Hugging Face",
   "title": "Pay for Hugging Face Hub with your Google Cloud Account",
   "link": "https://huggingface.co/blog/hub-gcp-marketplace",
   "summary": "",
@@ -36,31 +43,17 @@
  },
  {
   "source": "Google Research",
+  "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
+  "link": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+  "summary": "Health & Bioscience",
+  "date": "2026-11-11T19:54:00+00:00"
+ },
+ {
+  "source": "Google Research",
   "title": "Exploring the world's languages with Language Explorer",
   "link": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
   "summary": "Natural Language Processing",
   "date": "2026-11-09T20:29:39+00:00"
- },
- {
-  "source": "DeepMind",
-  "title": "Gemini 4 Carbon is now available",
-  "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-  "summary": "",
-  "date": "2026-11-10T16:03:47+00:00"
- },
- {
-  "source": "DeepMind",
-  "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-  "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
-  "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal\u2019s core encryption.",
-  "date": "2026-11-10T12:02:28+00:00"
- },
- {
-  "source": "DeepMind",
-  "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-  "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-  "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
-  "date": "2026-11-09T19:51:47+00:00"
  },
  {
   "source": "OpenAI",
@@ -75,6 +68,13 @@
   "link": "https://openai.com/index/chatgpt-plus-for-veterans",
   "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
   "date": "2026-11-11T08:00:00+00:00"
+ },
+ {
+  "source": "OpenAI",
+  "title": "JioStar\u2019s chief architect on AI discovery at 500M-user scale",
+  "link": "https://openai.com/index/jiostar-vijay-seshadri",
+  "summary": "JioStar\u2019s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+  "date": "2026-11-11T00:00:00+00:00"
  },
  {
   "source": "OpenAI",
@@ -148,6 +148,27 @@
  },
  {
   "source": "Google AI",
+  "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+  "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+  "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+  "date": "2026-11-11T18:00:00+00:00"
+ },
+ {
+  "source": "Google AI",
+  "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+  "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+  "summary": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+  "date": "2026-11-11T16:00:00+00:00"
+ },
+ {
+  "source": "Google AI",
+  "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+  "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+  "summary": "A new online archive of Esther Mahlangu\u2019s life and art is now on Google Arts & Culture.",
+  "date": "2026-11-11T09:00:00+00:00"
+ },
+ {
+  "source": "Google AI",
   "title": "Gemini Intelligence: New features, on more devices",
   "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
   "summary": "Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
@@ -169,6 +190,41 @@
  },
  {
   "source": "Simon Willison",
+  "title": "Gemini Decisions API",
+  "link": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+  "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/no question. It's priced the same as the GPT-6 Luna decision model: 10 cents per million input tokens, and output is free",
+  "date": "2026-11-11T22:03:25+00:00"
+ },
+ {
+  "source": "Simon Willison",
+  "title": "aws-emulator",
+  "link": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+  "summary": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels' blog. It currently req",
+  "date": "2026-11-11T21:18:30+00:00"
+ },
+ {
+  "source": "Simon Willison",
+  "title": "Browse tools.simonwillison.net by tag",
+  "link": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+  "summary": "Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using tree-sitter to analyze the code for JavaScript APIs, libraries, and web API hosts used by each tool. The homepage now features tag clouds for browsing by each of thos",
+  "date": "2026-11-11T18:42:50+00:00"
+ },
+ {
+  "source": "Simon Willison",
+  "title": "llm 0.37.2",
+  "link": "https://simonwillison.net/2026/Nov/11/llm/",
+  "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API endpoints from other providers. Daniel reported two ways this could accidentally send your configured OpenAI API key to",
+  "date": "2026-11-11T17:19:52+00:00"
+ },
+ {
+  "source": "Simon Willison",
+  "title": "Anthropic's IPO roadshow video",
+  "link": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+  "summary": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I'm not sure why ",
+  "date": "2026-11-11T15:11:59+00:00"
+ },
+ {
+  "source": "Simon Willison",
   "title": "llm-gemini 0.36",
   "link": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
   "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to double in price to $4/$20 on December 1st (same as Opus 5.5). Here are three pelicans for th",
@@ -185,7 +241,7 @@
   "source": "Simon Willison",
   "title": "Quoting Prompting Claude Fable 5.2",
   "link": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
-  "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic\u2019s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else\u2019s, the model tended to add to the existing structure, even when that repeated existing code. [...] If you want the model to improve the structure as it works, say that the c",
+  "summary": "Claude Fable 5.2 pays close attention to who owns the code it works on. In Anthropic\u2019s testing on small coding tasks, the model tended to add to the existing structure when the prompt said nothing about ownership or presented the code base as someone else\u2019s, even when that duplicated existing code. When the prompt said the code base was the model\u2019s own, it often consolidated duplicated code and so",
   "date": "2026-11-10T05:34:14+00:00"
  },
  {
@@ -224,18 +280,32 @@
   "date": "2026-11-09T04:25:05+00:00"
  },
  {
-  "source": "Simon Willison",
-  "title": "parse_number() as a SQLite extension: C vs Rust",
-  "link": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
-  "summary": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted. I fired up regular Claude chat (Opus 5.5) and prompted : I'm thinking about a SQLite custom fu",
-  "date": "2026-11-08T22:26:00+00:00"
- },
- {
   "source": "Import AI",
   "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
   "link": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/",
   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you\u2019d like to support this, please subscribe. Subscribe now AI Science startup converts a quantum conjecture into a theorem:\u2026An evocative taste of the singularity\u2026In the same way a few years ago it went from remarkable [\u2026]",
   "date": "2026-11-09T13:31:34+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens",
+  "link": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
+  "summary": "Google launched the Gemini Decisions API, powered by Gemini Decision 1. It returns calibrated probabilities for up to 1,000 yes/no, choice and rubric questions over text, images, audio, video and PDFs, at $0.10 per 1M input tokens. The post Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens appeared first on MarkTechPost .",
+  "date": "2026-11-11T21:21:42+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
+  "link": "https://www.marktechpost.com/2026/11/11/google-deepmind-alphagenome-2-cell-type-variant-effects/",
+  "summary": "Google DeepMind released AlphaGenome 2, a conditional DNA sequence model that predicts regulatory activity and variant effects per cell type. It is available via the AlphaGenome API for non-commercial research. The post Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects appeared first on MarkTechPost .",
+  "date": "2026-11-11T20:51:56+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension",
+  "link": "https://www.marktechpost.com/2026/11/11/marktechpost-gpu-leaderboard-chrome-extension-launch/",
+  "summary": "Marktechpost Launches GPU Leaderboard and the Deploy It Chrome Extension The post Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension appeared first on MarkTechPost .",
+  "date": "2026-11-11T15:51:14+00:00"
  },
  {
   "source": "MarkTechPost",
@@ -285,27 +355,6 @@
   "link": "https://www.marktechpost.com/2026/11/09/google-tpu-8i-max-tpu-8tx/",
   "summary": "Google added TPU 8i Max and TPU 8tx to its eighth-generation TPU lineup. TPU 8i Max packs 2 TPU 8i chips per package for long-context agents. TPU 8tx adds hardware confidential inference. Bloomberg reports 2027 availability. The post Google Unveils TPU 8i Max and TPU 8tx: A Dual-Chip TPU and a Confidential TPU appeared first on MarkTechPost .",
   "date": "2026-11-09T17:09:54+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Baidu\u2019s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records",
-  "link": "https://www.marktechpost.com/2026/11/09/baidu-ernie-evolve-automated-research-system/",
-  "summary": "Baidu\u2019s ERNIE Evolve is an automated research system that edits code, runs experiments and keeps only verified gains. It beat public bests on NanoChat and NanoGPT Speedrun and sped up ERNIE-5.5-Flash inference. The post Baidu\u2019s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records appeared first on MarkTechPost .",
-  "date": "2026-11-09T16:31:59+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Reason Machines Open-Sources Aspen, a Git Server Built for AI Agents",
-  "link": "https://www.marktechpost.com/2026/11/09/reason-machines-aspen-open-source-git-server-ai-agents/",
-  "summary": "Reason Machines has open-sourced Aspen, a self-hosted Git server for AI agents. It follows OpenAI\u2019s Pando design and sustained 567 pushes per second on one 8-core server in the company\u2019s own test. The post Reason Machines Open-Sources Aspen, a Git Server Built for AI Agents appeared first on MarkTechPost .",
-  "date": "2026-11-09T08:20:20+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP",
-  "link": "https://www.marktechpost.com/2026/11/08/0sec-labs-open-sources-0-ai-security-harness/",
-  "summary": "0sec Labs has open-sourced 0, an AI security harness for code review, pentesting, reverse engineering and fixes. It runs locally through a browser console, a headless CLI and an MCP server, with your own model provider. The post 0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP appeared first on MarkTechPost .",
-  "date": "2026-11-09T07:55:18+00:00"
  },
  {
   "source": "MIT News",
@@ -365,6 +414,97 @@
  },
  {
   "source": "TechCrunch AI",
+  "title": "The unfolding Jensen Huang scandal: a timeline",
+  "link": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+  "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+  "date": "2026-11-11T23:50:00+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Nvidia\u2019s stock drops as board reportedly preps to oust CEO Jensen Huang",
+  "link": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+  "summary": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+  "date": "2026-11-11T23:28:45+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Jensen Huang accused of having another affair \u2014 with an Nvidia exec",
+  "link": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+  "summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+  "date": "2026-11-11T23:17:05+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Why the data center you dread might never even be built",
+  "link": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+  "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there\u2019s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure [\u2026]",
+  "date": "2026-11-11T20:15:15+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Meta is losing its longtime head of infrastructure",
+  "link": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+  "summary": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
+  "date": "2026-11-11T20:12:01+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+  "link": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+  "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there\u2019s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure [\u2026]",
+  "date": "2026-11-11T20:02:14+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+  "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+  "summary": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company\u2019s third-quarter earnings.",
+  "date": "2026-11-11T19:54:00+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "With $720M round, Britain\u2019s Fractile gets a leg up in the race for AI chips",
+  "link": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+  "summary": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
+  "date": "2026-11-11T19:34:55+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+  "link": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+  "summary": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
+  "date": "2026-11-11T19:22:22+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Is Jensen Huang\u2019s bad behavior more commonplace than it seems?",
+  "link": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+  "summary": "\u201cThere are a lot of senior people in the industry that know this is happening, and are effectively condoning it,\u201d an investment intel consultant said.",
+  "date": "2026-11-11T16:16:07+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "OpenAI\u2019s quarterly revenue reportedly crosses $10B for the first time",
+  "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+  "summary": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
+  "date": "2026-11-11T16:14:44+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Databricks\u2019 new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+  "link": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+  "summary": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
+  "date": "2026-11-11T15:00:00+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+  "link": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+  "summary": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+  "date": "2026-11-11T14:00:00+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
   "title": "Nvidia\u2019s crisis has corporate governance experts reaching for the popcorn",
   "link": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
   "summary": "The governance experts we talked to say nobody has seen anything like what's unfolding right now.",
@@ -378,95 +518,39 @@
   "date": "2026-11-10T21:08:52+00:00"
  },
  {
-  "source": "TechCrunch AI",
-  "title": "OpenAI, Anthropic face new oversight as New York\u2019s AI safety law takes effect",
-  "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-  "summary": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
-  "date": "2026-11-10T20:52:13+00:00"
+  "source": "The Verge AI",
+  "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+  "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+  "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was with an executive who [\u2026]",
+  "date": "2026-11-11T19:55:40-05:00"
  },
  {
-  "source": "TechCrunch AI",
-  "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-  "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-  "summary": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company.",
-  "date": "2026-11-10T19:57:52+00:00"
+  "source": "The Verge AI",
+  "title": "United won\u2019t let your AI agent book your flight",
+  "link": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+  "summary": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like Doordash. But United is concerned [\u2026]",
+  "date": "2026-11-11T16:54:21-05:00"
  },
  {
-  "source": "TechCrunch AI",
-  "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
-  "link": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
-  "summary": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing \u201cuncertainty in the IPO market.\u201d",
-  "date": "2026-11-10T19:23:34+00:00"
+  "source": "The Verge AI",
+  "title": "Google\u2019s Tabletop AI experiment lets you build custom collaboration apps",
+  "link": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+  "summary": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with workplace management apps like Asana and Monday, but with a built-in AI feature that allows you to vibecode personalized interactive tools by describing [\u2026]",
+  "date": "2026-11-11T09:15:27-05:00"
  },
  {
-  "source": "TechCrunch AI",
-  "title": "PSI is trying to make a business out of AI-driven scientific discovery",
-  "link": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
-  "summary": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
-  "date": "2026-11-10T19:03:52+00:00"
+  "source": "The Verge AI",
+  "title": "Google\u2019s AlphaGenome 2 zooms in on the cellular roots of disease",
+  "link": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+  "summary": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold important clues to the causes of disease - and point the way to new treatments. AlphaGenome 2 is the successor [\u2026]",
+  "date": "2026-11-11T09:18:08-05:00"
  },
  {
-  "source": "TechCrunch AI",
-  "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
-  "link": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
-  "summary": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
-  "date": "2026-11-10T18:49:52+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-  "link": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-  "summary": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
-  "date": "2026-11-10T17:30:00+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "Nvidia CEO Jensen Huang\u2019s affair with alleged Chinese spy: a timeline",
-  "link": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-  "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-  "date": "2026-11-10T17:04:19+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "Google broadens its AI hardware portfolio with two new specialized chips",
-  "link": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-  "summary": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
-  "date": "2026-11-10T15:54:08+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "Meta\u2019s AI agent Muse lands on Apple Watch and Android Wear OS",
-  "link": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
-  "summary": "Users can now interact with Meta\u2019s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
-  "date": "2026-11-10T15:29:30+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
-  "link": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
-  "summary": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
-  "date": "2026-11-10T14:05:10+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
-  "link": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
-  "summary": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
-  "date": "2026-11-10T14:01:39+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "After challenging Google\u2019s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
-  "link": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
-  "summary": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
-  "date": "2026-11-10T14:00:00+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "Spotify\u2019s AI DJ gets new voices, personalities, and an option for less chatter",
-  "link": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
-  "summary": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
-  "date": "2026-11-10T14:00:00+00:00"
+  "source": "The Verge AI",
+  "title": "Adobe\u2019s AI experiments let you walk around in photos and interview your characters",
+  "link": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+  "summary": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform images into explorable 3D scenes, design AI characters by talking to them, and turn photo editing into a copy/paste process. [\u2026]",
+  "date": "2026-11-11T07:56:24-05:00"
  },
  {
   "source": "The Verge AI",
@@ -504,46 +588,25 @@
   "date": "2026-11-10T11:20:30-05:00"
  },
  {
-  "source": "The Verge AI",
-  "title": "Google releases Gemini 4 Carbon with agent \u2018swarm\u2019 feature",
-  "link": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
-  "summary": "Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of \"cybersecurity defenders\" two weeks ago. Google claims Carbon is its \"strongest model\" yet, and capable of competing with the very best systems from Anthropic and OpenAI. Google says Gemini 4 Carbon \"pushes [\u2026]",
-  "date": "2026-11-10T10:30:28-05:00"
- },
- {
-  "source": "The Verge AI",
-  "title": "Anthropic targets $1.4 trillion IPO",
-  "link": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
-  "summary": "Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its IPO price is expected to be between $70.00 and $78.00 per share, which would put its valuation as high as $1.4 trillion, according to the The New York Times. The Wall Street Journal [\u2026]",
-  "date": "2026-11-10T11:38:24-05:00"
- },
- {
-  "source": "The Verge AI",
-  "title": "Adobe is going all in on agentic AI",
-  "link": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
-  "summary": "Adobe is committing itself to the notion that chatbots and AI agents could be your next design assistant, or even automate creative workflows and repetitive tasks on your behalf. Some of the tools and features announced today at Adobe's Max conference in Miami, Florida, include allowing your preferred third-party AI agents to access and change [\u2026]",
-  "date": "2026-11-10T06:24:56-05:00"
- },
- {
-  "source": "The Verge AI",
-  "title": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
-  "link": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
-  "summary": "Adobe is expanding its Creative Cloud apps and Firefly AI platform with new capabilities that aim to make design and editing projects faster and less complicated. Some of the announcements from Adobe's Max event today include features for automatically removing objects, blemishes, and other unwanted distractions in Premiere, Photoshop, and Lightroom, alongside new generative AI [\u2026]",
-  "date": "2026-11-10T10:49:40-05:00"
- },
- {
-  "source": "The Verge AI",
-  "title": "Hands-on with Ring\u2019s new AI drone camera for your home",
-  "link": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
-  "summary": "Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week. If it does actually ship, it will arrive almost six years after the company announced [\u2026]",
-  "date": "2026-11-10T09:28:59-05:00"
+  "source": "VS Code",
+  "title": "Visual Studio Code 1.147 (Insiders)",
+  "link": "https://code.visualstudio.com/updates/v1_147",
+  "summary": "Learn what's new in Visual Studio Code 1.147 (Insiders) Read the full article",
+  "date": "2026-11-18T17:00:00+00:00"
  },
  {
   "source": "VS Code",
-  "title": "Visual Studio Code 1.146 (Insiders)",
+  "title": "Visual Studio Code 1.146",
   "link": "https://code.visualstudio.com/updates/v1_146",
-  "summary": "Learn what is new in Visual Studio Code Insiders. Read the full article",
+  "summary": "Learn what's new in Visual Studio Code 1.146 Read the full article",
   "date": "2026-11-11T17:00:00+00:00"
+ },
+ {
+  "source": "GitHub",
+  "title": "Issue types and fields are available for personal accounts",
+  "link": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+  "summary": "Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers to standardize\u2026 The post Issue types and fields are available for personal accounts appeared first on The GitHub Blog .",
+  "date": "2026-11-11T17:16:46+00:00"
  },
  {
   "source": "GitHub",
@@ -596,6 +659,13 @@
  },
  {
   "source": "Latent Space",
+  "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+  "link": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+  "summary": "November 10, 2026 \u2014 Google GA's Gemini 4 Carbon.",
+  "date": "2026-11-11T09:34:28+00:00"
+ },
+ {
+  "source": "Latent Space",
   "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
   "link": "https://latent.space/p/codex-work/",
   "summary": "On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.",
@@ -630,20 +700,6 @@
   "date": "2026-11-09T17:15:53+00:00"
  },
  {
-  "source": "Latent Space",
-  "title": "How Stanford Teaches AI-Native Engineering \u2014 Mihail Eric, Monaco",
-  "link": "https://latent.space/p/cs146s/",
-  "summary": "What happens when students can one-shot last year\u2019s homework? Inside CS146S and the engineering team at Monaco.",
-  "date": "2026-11-08T21:41:44+00:00"
- },
- {
-  "source": "Latent Space",
-  "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering \u2014 Mihail Eric, Monaco",
-  "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
-  "summary": "What do you assign when a coding agent can finish last year\u2019s homework in one prompt? In the second run of Stanford\u2019s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and ...",
-  "date": "2026-11-08T21:23:29+00:00"
- },
- {
   "source": "Pragmatic Engineer",
   "title": "Software correctness & supply chain security, with Sean Allen",
   "link": "https://newsletter.pragmaticengineer.com/p/software-correctness",
@@ -656,6 +712,13 @@
   "link": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4",
   "summary": "",
   "date": "2026-11-09T17:01:02+00:00"
+ },
+ {
+  "source": "Meta Engineering",
+  "title": "Intelligent Delivery: Making Every Unit of Compute Serve Better Ads",
+  "link": "https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/",
+  "summary": "Ads ranking models are growing toward LLM scale faster than the hardware to run them can keep up. An extra unit of compute has more impact on some ad requests, models, and chips than on others. The challenge is deciding where to allocate it to get the best outcome for the entire system. We built [...] Read More... The post Intelligent Delivery: Making Every Unit of Compute Serve Better Ads appeare",
+  "date": "2026-11-11T17:00:38+00:00"
  },
  {
   "source": "Meta Engineering",
@@ -680,10 +743,24 @@
  },
  {
   "source": "Cloudflare",
+  "title": "Choosing QuePaxa, an unusual consensus algorithm",
+  "link": "https://blog.cloudflare.com/choosing-quepaxa/",
+  "summary": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+  "date": "2026-11-11T14:24:46+00:00"
+ },
+ {
+  "source": "Cloudflare",
   "title": "Launching the Vite Ecosystem Fund",
   "link": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
   "summary": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
   "date": "2026-11-09T13:00:00+00:00"
+ },
+ {
+  "source": "AWS Architecture",
+  "title": "How Zillow runs 100 million daily notifications on AWS Step Functions",
+  "link": "https://aws.amazon.com/blogs/architecture/how-zillow-runs-100-million-daily-notifications-on-aws-step-functions/",
+  "summary": "Zillow sends more than 100 million personalized notifications a day, each as a short-lived AWS Step Functions Express workflow. See how the Comms Experience team replaced more than 10 campaign generators with one configuration-driven orchestration platform and a library of reusable content modules.",
+  "date": "2026-11-11T23:25:00+00:00"
  },
  {
   "source": "AWS Architecture",
@@ -708,6 +785,13 @@
  },
  {
   "source": "Martin Fowler",
+  "title": "Tests as data: ensuring AI-generated code does what we want",
+  "link": "https://martinfowler.com/articles/tests-as-data.html",
+  "summary": "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against functional errors. Matteo Vaccari makes three claims: (1) when AI writes the code, developers become its customers; (2) therefore customer tests, not developer tests, become the primary contract between hu",
+  "date": "2026-11-11T10:17:00-05:00"
+ },
+ {
+  "source": "Martin Fowler",
   "title": "Fragments: November 10",
   "link": "https://martinfowler.com/fragments/2026-11-10.html",
   "summary": "It\u2019s that time of the year when the November Thoughtworks Technology Radar appears. Again my colleagues have taken a sweep of the technologies that our teams have used in the field, and pulled together a summary of what\u2019s popped up in the last six months. It\u2019s been a busy half-year, one that again has been dominated by AI, and that\u2019s reflected in the many AI blips on the radar. The mass of blips m",
@@ -719,6 +803,41 @@
   "link": "https://martinfowler.com/articles/durable-execution-agents.html",
   "summary": "Long-horizon agents can automate complex tasks that take days or weeks to complete and involve multiple exchanges with people and external systems. Many things can go wrong during this time, including process crashes, network failures, and unanticipated real-world behavior. Kiran Prakash explains durable execution: an emerging pattern that helps agents recover from these failures and move towards ",
   "date": "2026-11-10T09:10:00-05:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "GitHub Makes Agentic Workflows Generally Available with Isolation and Budget Controls",
+  "link": "https://www.infoq.com/news/2026/11/github-agentic-workflows-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "GitHub Agentic Workflows is generally available, running coding agents in GitHub Actions with read-only defaults and separately scoped write jobs. Those protections do not cover direct write permissions or custom jobs, so they depend on how each workflow is configured. By Mark Silvester",
+  "date": "2026-11-11T17:00:00+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "JioHotstar Benchmarks Knowledge Bases for AI Coding Agents",
+  "link": "https://www.infoq.com/news/2026/11/jiohotstar-codingagent-retrieval/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "JioHotstar evaluated 6 approaches to code retrieval for AI coding agents using SWE, CodeScale Bench, and an internal question-answering harness. Structural search performed well on concrete tasks, while semantic retrieval helped with ambiguous requirements. The findings highlight trade-offs in accuracy, token use, and tool design, underscoring the need to match retrieval tools to task types. By Le",
+  "date": "2026-11-11T14:28:00+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "How LinkedIn, Netflix & DoorDash Run Agents, Evals & Inference in Production: QCon AI New York 2026",
+  "link": "https://www.infoq.com/news/2026/11/qcon-ai-newyork-2026-program/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "QCon AI New York has published its full program for December 15\u201316, 2026. Engineers from LinkedIn, Netflix, DoorDash, Figma, Pinterest, Honeycomb, Harvey, Google DeepMind and OpenAI describe AI systems they run in production. Talks cover agent permissions and guardrails, eval loops, inference cost, AI code review, and team adoption. By Artenisa Chatziou",
+  "date": "2026-11-11T11:00:00+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "Presentation: Uncorking Queueing Bottlenecks with OpenTelemetry",
+  "link": "https://www.infoq.com/presentations/opentelemetry-queue-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "Oli Lane and Julian Wreford share how Gearset replaced guesswork in distributed asynchronous queues with OpenTelemetry tracing. They explain why traditional metrics fall short, how to implement user-centric SLOs based on latency distributions, and share practical debugging tips to help senior developers, software architects, and engineering leaders improve system reliability and team culture. By J",
+  "date": "2026-11-11T11:00:00+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "Article: The iOS Crash We Could Not Reproduce",
+  "link": "https://www.infoq.com/articles/ios-crash-sigbus-debugging-experiment/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "This article describes the investigation to find the root cause of a production crash in a large-scale iOS consumer app that had no clean stack trace. The crash occurred intermittently and resisted every local reproduction attempt. The final code change was small, but identifying the root cause required turning a vague SIGBUS report into a controlled set of experiments. By Abhishek Gang Deb",
+  "date": "2026-11-11T09:00:00+00:00"
  },
  {
   "source": "InfoQ",
@@ -736,7 +855,7 @@
  },
  {
   "source": "InfoQ",
-  "title": "Google Finds that Technical Debt Can Derail Coding Agents Through \"Agent Distraction\"",
+  "title": "Google Finds That Technical Debt Can Derail Coding Agents through \"Agent Distraction\"",
   "link": "https://www.infoq.com/news/2026/11/google-agent-distraction/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "In a recent article, Google senior staff software engineer Sam Saccone and senior staff data scientist Madhuri Garikapati highlighted the cost of agent distraction, where AI coding agents get derailed by stale technical debt, such as old TODO comments, obsolete bug references, and outdated specs, leading them to embark on unrequested \"side-quests\". By Sergio De Simone",
   "date": "2026-11-10T18:00:00+00:00"
@@ -791,39 +910,18 @@
   "date": "2026-11-09T15:44:00+00:00"
  },
  {
-  "source": "InfoQ",
-  "title": "Cloudflare Develops Public Certificate Authority for Post-Quantum Web Security",
-  "link": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "Cloudflare is developing a public certificate authority for Merkle Tree Certificates (MTCs) to reduce the bandwidth overhead of post-quantum cryptography. A Chrome experiment served billions of MTCs to 50% of Chrome Beta 146 for selected domains, reporting 9% faster median performance. Wider deployment depends on browser support, transparency, and production-scale validation. By Leela Kumili",
-  "date": "2026-11-09T14:35:00+00:00"
+  "source": "ByteByteGo",
+  "title": "LAST CALL FOR ENROLLMENT: Build Production Grade AI Systems",
+  "link": "https://blog.bytebytego.com/p/last-call-for-enrollment-build-production",
+  "summary": "Enrollment closes in 24 hours for Build Production Grade AI Systems. We kick off tomorrow, November 12, at 5pm PT.",
+  "date": "2026-11-11T19:58:17+00:00"
  },
  {
-  "source": "InfoQ",
-  "title": "AWS Launches TorchNeuron to Run PyTorch Models on AWS Trainium Without Modifications",
-  "link": "https://www.infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "At the recent PyTorch Conference North America 2026, Amazon introduced TorchNeuron, a native PyTorch backend that enables developers to run existing PyTorch code on AWS Trainium AI chips with virtually no code modifications. By Sergio De Simone",
-  "date": "2026-11-09T11:00:00+00:00"
- },
- {
-  "source": "InfoQ",
-  "title": "Podcast: Distributed LLM Inference on Kubernetes with llm-d, Wasm, & TornadoVM",
-  "link": "https://www.infoq.com/podcasts/distributed-llm-inference-kubernetes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "In this episode, Edoardo Vacchi discusses the evolving landscape of WebAssembly on the backend, running Java workloads on GPUs using TornadoVM, and optimizing distributed AI inference using llm-d and vLLM on Kubernetes. Edoardo explains how llm-d manages cache locality (KV and prefix caches), request routing, and batch inference across Kubernetes clusters to maximize expensive GPU utilization. By ",
-  "date": "2026-11-09T11:00:00+00:00"
- },
- {
-  "source": "InfoQ",
-  "title": "Article: Agentic AI Architecture: Current Challenges and Future Opportunities",
-  "link": "https://www.infoq.com/articles/agentic-ai-architecture-challenges-opportunities/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "Agentic AI architecture extends microservices and cloud-native architectures with AI agents that work with context, memory, and protocols such as MCP and A2A. The article covers bounded-context integration, task-dependent coordination strategies, new security risks, and observability needs. It expects gradual adoption alongside existing architectures, with platforms absorbing common components. By",
-  "date": "2026-11-09T10:52:00+00:00"
- },
- {
-  "source": "InfoQ",
-  "title": "Pinterest Replaces Journey Clustering with 4B Qwen3 LLM, Reports Improved Engagement",
-  "link": "https://www.infoq.com/news/2026/11/pinterest-journey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "Pinterest has moved its user-journey inference system from a multi-stage clustering pipeline to a fine-tuned 4-billion-parameter language model, reporting a 1.1% improvement in email click-through and 1.3% higher push opens. By Matt Foster",
-  "date": "2026-11-09T07:25:00+00:00"
+  "source": "ByteByteGo",
+  "title": "The Roundup by ByteByteGo",
+  "link": "https://blog.bytebytego.com/p/the-roundup-by-bytebytego",
+  "summary": "The Roundup covers insights and trends from the world of software development.",
+  "date": "2026-11-11T16:30:53+00:00"
  },
  {
   "source": "ByteByteGo",
@@ -840,25 +938,18 @@
   "date": "2026-11-09T16:30:44+00:00"
  },
  {
-  "source": "HN (389pts)",
+  "source": "HN (447pts)",
   "title": "Tracking Anthropic-discovered vulnerabilities",
   "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
   "summary": "",
   "date": "2026-11-10T22:17:56+00:00"
  },
  {
-  "source": "HN (59pts)",
+  "source": "HN (60pts)",
   "title": "Anthropic to Seek $1.3T Valuation in IPO",
   "link": "https://www.wsj.com/finance/stocks/anthropic-to-seek-1-3-trillion-valuation-in-ipo-8337b669",
   "summary": "",
   "date": "2026-11-10T12:49:32+00:00"
- },
- {
-  "source": "HN (43pts)",
-  "title": "Anthropic strikes $3.4B deal to generate gas-fired power for data centres",
-  "link": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
-  "summary": "",
-  "date": "2026-11-08T12:41:25+00:00"
  },
  {
   "source": "HN (31pts)",
@@ -868,7 +959,14 @@
   "date": "2026-11-10T11:38:57+00:00"
  },
  {
-  "source": "HN (991pts)",
+  "source": "HN (169pts)",
+  "title": "Show HN: Yogurt \u2013 Free, private, open-source alternative to Granola",
+  "link": "https://github.com/FrigadeHQ/yogurt",
+  "summary": "",
+  "date": "2026-11-11T15:33:06+00:00"
+ },
+ {
+  "source": "HN (995pts)",
   "title": "Claude Fable 5.2 and Mythos 5.2",
   "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
   "summary": "",
@@ -882,46 +980,32 @@
   "date": "2026-11-09T18:58:48+00:00"
  },
  {
-  "source": "HN (349pts)",
+  "source": "HN (354pts)",
   "title": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
   "link": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
   "summary": "",
   "date": "2026-11-09T14:31:39+00:00"
  },
  {
-  "source": "HN (899pts)",
-  "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
-  "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-  "summary": "",
-  "date": "2026-11-08T18:16:07+00:00"
- },
- {
-  "source": "HN (375pts)",
+  "source": "HN (379pts)",
   "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
   "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
   "summary": "",
   "date": "2026-11-09T20:04:55+00:00"
  },
  {
-  "source": "HN (193pts)",
+  "source": "HN (281pts)",
   "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
   "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
   "summary": "",
   "date": "2026-11-10T17:55:07+00:00"
  },
  {
-  "source": "HN (98pts)",
+  "source": "HN (130pts)",
   "title": "Life on Claude Nine",
   "link": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
   "summary": "",
   "date": "2026-11-10T17:44:44+00:00"
- },
- {
-  "source": "HN (36pts)",
-  "title": "Show HN: Recalc \u2013 Spreadsheet where cells can be Claude Code or Codex terminals",
-  "link": "https://github.com/sshah03/recalc",
-  "summary": "",
-  "date": "2026-11-08T15:12:07+00:00"
  },
  {
   "source": "HN (33pts)",
@@ -931,18 +1015,32 @@
   "date": "2026-11-09T18:58:35+00:00"
  },
  {
-  "source": "HN (347pts)",
+  "source": "HN (423pts)",
   "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
   "link": "https://github.com/GoogleChrome/modern-web-guidance",
   "summary": "",
   "date": "2026-11-10T18:01:15+00:00"
  },
  {
-  "source": "HN (119pts)",
-  "title": "Why I will not be using LLMs in my coding",
-  "link": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+  "source": "HN (158pts)",
+  "title": "A year after the 100% AI mandate nobody understands our code",
+  "link": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
   "summary": "",
-  "date": "2026-11-08T12:14:10+00:00"
+  "date": "2026-11-09T22:19:12+00:00"
+ },
+ {
+  "source": "HN (138pts)",
+  "title": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
+  "link": "https://github.com/adrbn/bo2-mac",
+  "summary": "",
+  "date": "2026-11-11T04:56:47+00:00"
+ },
+ {
+  "source": "HN (91pts)",
+  "title": "LLMs Play Zachtronics' TIS-100",
+  "link": "https://tis-100.wincon.dev/",
+  "summary": "",
+  "date": "2026-11-11T00:37:05+00:00"
  },
  {
   "source": "HN (79pts)",
@@ -952,13 +1050,6 @@
   "date": "2026-11-09T11:36:55+00:00"
  },
  {
-  "source": "HN (47pts)",
-  "title": "LLMs Play Zachtronics' TIS-100",
-  "link": "https://tis-100.wincon.dev/",
-  "summary": "",
-  "date": "2026-11-11T00:37:05+00:00"
- },
- {
   "source": "HN (34pts)",
   "title": "Compress any LLM 3x in one click,near-lossless,in under 50 MB RAM",
   "link": "https://neuracryption.com/research",
@@ -966,25 +1057,39 @@
   "date": "2026-11-10T13:51:51+00:00"
  },
  {
-  "source": "HN (483pts)",
-  "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
-  "link": "https://github.com/synchopate/llama-modchip",
+  "source": "HN (46pts)",
+  "title": "TimeNet: Open-source data infrastructure for Temporal Foundation Models",
+  "link": "https://github.com/OpenTSLM/TimeNet",
   "summary": "",
-  "date": "2026-11-08T10:22:04+00:00"
+  "date": "2026-11-10T17:16:09+00:00"
  },
  {
-  "source": "HN (80pts)",
+  "source": "HN (84pts)",
   "title": "Let over Lambda\u201350 Years of Lisp (2008)",
   "link": "https://letoverlambda.com/",
   "summary": "",
   "date": "2026-11-10T12:35:27+00:00"
  },
  {
-  "source": "HN (121pts)",
+  "source": "HN (38pts)",
+  "title": "Reddit Migration's Impact on Lemmy (2023)",
+  "link": "https://www.jmis.org/archive/view_article?pid=jmis-10-4-333",
+  "summary": "",
+  "date": "2026-11-11T16:35:38+00:00"
+ },
+ {
+  "source": "HN (122pts)",
   "title": "Show HN: DBDelve \u2013 Open-Source DB Client Made with Rust and GPUI",
   "link": "https://news.ycombinator.com/item?id=50427934",
   "summary": "",
   "date": "2026-11-09T16:36:38+00:00"
+ },
+ {
+  "source": "HN (48pts)",
+  "title": "Launch HN: Pomerado (YC F26) \u2013 Turn any website into an MCP for agents",
+  "link": "https://news.ycombinator.com/item?id=50455811",
+  "summary": "",
+  "date": "2026-11-11T17:11:56+00:00"
  },
  {
   "source": "HN (194pts)",
@@ -994,6 +1099,83 @@
   "date": "2026-11-10T03:20:06+00:00"
  },
  {
+  "source": "HN (733pts)",
+  "title": "Google Gemini routes personal Drive files and emails to human annotators",
+  "link": "https://github.com/thisisme6598/gemini_files/",
+  "summary": "",
+  "date": "2026-11-09T18:24:38+00:00"
+ },
+ {
+  "source": "HN (291pts)",
+  "title": "Gemini 4 Carbon is now available",
+  "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+  "summary": "",
+  "date": "2026-11-10T16:07:15+00:00"
+ },
+ {
+  "source": "HN (69pts)",
+  "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
+  "link": "https://github.com/klad-app/klad",
+  "summary": "",
+  "date": "2026-11-11T16:00:50+00:00"
+ },
+ {
+  "source": "HN (120pts)",
+  "title": "Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse",
+  "link": "https://meowdisplay.app/",
+  "summary": "",
+  "date": "2026-11-09T18:39:22+00:00"
+ },
+ {
+  "source": "HN (928pts)",
+  "title": "My AI agents found an unmapped Maya site?",
+  "link": "https://pietromiotti.com/latest/maya-site",
+  "summary": "",
+  "date": "2026-11-11T12:05:22+00:00"
+ },
+ {
+  "source": "HN (375pts)",
+  "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+  "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+  "summary": "",
+  "date": "2026-11-11T21:24:35+00:00"
+ },
+ {
+  "source": "HN (670pts)",
+  "title": "AWS emulator",
+  "link": "https://github.com/aws/aws-emulator",
+  "summary": "",
+  "date": "2026-11-11T18:21:38+00:00"
+ },
+ {
+  "source": "HN (46pts)",
+  "title": "Show HN: Aircad \u2013 Professional drafting and 3D modeling in the browser",
+  "link": "https://aircad.com",
+  "summary": "",
+  "date": "2026-11-10T15:01:19+00:00"
+ },
+ {
+  "source": "HN (35pts)",
+  "title": "How do you keep up quality when you vibe-code?",
+  "link": "https://news.ycombinator.com/item?id=50444380",
+  "summary": "",
+  "date": "2026-11-10T18:41:15+00:00"
+ },
+ {
+  "source": "HN (153pts)",
+  "title": "Ultorg: The User Interface for Relational Databases",
+  "link": "https://www.ultorg.com/",
+  "summary": "",
+  "date": "2026-11-10T03:59:39+00:00"
+ },
+ {
+  "source": "HN (59pts)",
+  "title": "Next-Level Benchmarking Overfitting \u2013 Thomas Neumann",
+  "link": "http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html",
+  "summary": "",
+  "date": "2026-11-11T12:09:49+00:00"
+ },
+ {
   "source": "HN (124pts)",
   "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
   "link": "https://github.com/OmniJev/Flide",
@@ -1001,53 +1183,18 @@
   "date": "2026-11-09T04:43:12+00:00"
  },
  {
-  "source": "HN (717pts)",
-  "title": "Google Gemini routes personal Drive files and emails to human annotators",
-  "link": "https://github.com/thisisme6598/gemini_files/",
-  "summary": "",
-  "date": "2026-11-09T18:24:38+00:00"
+  "source": "release: BerriAI/litellm",
+  "title": "litellm v1.108.6",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.108.6",
+  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . This release is signed with the key introduced in commit e82a3c6 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using th",
+  "date": "2026-11-12T01:12:23+00:00"
  },
  {
-  "source": "HN (283pts)",
-  "title": "Gemini 4 Carbon is now available",
-  "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-  "summary": "",
-  "date": "2026-11-10T16:07:15+00:00"
- },
- {
-  "source": "HN (118pts)",
-  "title": "Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse",
-  "link": "https://meowdisplay.app/",
-  "summary": "",
-  "date": "2026-11-09T18:39:22+00:00"
- },
- {
-  "source": "HN (37pts)",
-  "title": "Show HN: Aircad \u2013 Professional drafting and 3D modeling in the browser",
-  "link": "https://aircad.com",
-  "summary": "",
-  "date": "2026-11-10T15:01:19+00:00"
- },
- {
-  "source": "HN (37pts)",
-  "title": "Apple CEO Presses Software Chief to Pursue More Ambitious AI Strategy",
-  "link": "https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up",
-  "summary": "",
-  "date": "2026-11-08T15:19:51+00:00"
- },
- {
-  "source": "HN (153pts)",
-  "title": "A year after the 100% AI mandate nobody understands our code",
-  "link": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
-  "summary": "",
-  "date": "2026-11-09T22:19:12+00:00"
- },
- {
-  "source": "HN (145pts)",
-  "title": "Ultorg: The User Interface for Relational Databases",
-  "link": "https://www.ultorg.com/",
-  "summary": "",
-  "date": "2026-11-10T03:59:39+00:00"
+  "source": "release: BerriAI/litellm",
+  "title": "litellm v1.106.9",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.106.9",
+  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . This release is signed with the key introduced in commit e82a3c6 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using th",
+  "date": "2026-11-12T01:06:15+00:00"
  },
  {
   "source": "release: BerriAI/litellm",
@@ -1064,18 +1211,25 @@
   "date": "2026-11-11T00:06:06+00:00"
  },
  {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.109.0",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.109.0",
-  "summary": "Verify this release cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\ ghcr.io/berriai/litellm:v1.109.0 Same command for litellm-database , litellm-non_root and the docker.io/litellm/* images What's new in 1.109.0 982 PRs. 14",
-  "date": "2026-11-11T06:25:06+00:00"
+  "source": "release: ComposioHQ/composio",
+  "title": "composio CLI Beta @composio/cli@0.6.1-beta.541",
+  "link": "https://github.com/ComposioHQ/composio/releases/tag/%40composio%2Fcli%400.6.1-beta.541",
+  "summary": "What's Changed fix(ci): isolate uv caches by dependencies and toolchain by Alberto Schiabel (@jkomyno) in #5313 test(cli): add nightly Apollo contract check against staging by Alberto Schiabel (@jkomyno) in #5168 Full Changelog : https://github.com/ComposioHQ/composio/compare/@composio/cli@0.6.1-bet",
+  "date": "2026-11-11T18:58:40+00:00"
  },
  {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm 1.108.5 (LTS)",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.108.5",
-  "summary": "Tip The lts image tag always points to the latest LTS release. Pull ghcr.io/berriai/litellm:lts to stay on the newest LTS patch Verify this release cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\ ghcr.io/berriai/litellm:v1",
-  "date": "2026-11-10T23:09:26+00:00"
+  "source": "release: ComposioHQ/composio",
+  "title": "composio CLI Beta @composio/cli@0.6.1-beta.540",
+  "link": "https://github.com/ComposioHQ/composio/releases/tag/%40composio%2Fcli%400.6.1-beta.540",
+  "summary": "What's Changed docs: renew Hermes MCP review window by Brendan O'Leary (@olearycrew) in #5304 fix(py): accept blocked session execution results by Brendan O'Leary (@olearycrew) in #5292 fix(providers): support OpenAI Agents 0.21 and require current Python core by Brendan O'Leary (@olearycrew) in #52",
+  "date": "2026-11-11T09:56:08+00:00"
+ },
+ {
+  "source": "release: ComposioHQ/composio",
+  "title": "composio CLI Beta @composio/cli@0.6.1-beta.539",
+  "link": "https://github.com/ComposioHQ/composio/releases/tag/%40composio%2Fcli%400.6.1-beta.539",
+  "summary": "What's Changed test(py): isolate DNS-pinning tests from inherited proxies by Alberto Schiabel (@jkomyno) in #5290 docs: update Python SDK reference from source by @sdkrelease[bot] in #5191 chore(sdk): update composio-client to 2.1.16 by @sdkrelease[bot] in #5309 Full Changelog : https://github.com/C",
+  "date": "2026-11-11T09:14:47+00:00"
  },
  {
   "source": "release: ComposioHQ/composio",
@@ -1085,25 +1239,11 @@
   "date": "2026-11-10T23:40:13+00:00"
  },
  {
-  "source": "release: ComposioHQ/composio",
-  "title": "composio sdk-release/42589989280",
-  "link": "https://github.com/ComposioHQ/composio/releases/tag/sdk-release%2F42589989280",
-  "summary": "chore(release): prepare SDK versions and documentation",
-  "date": "2026-11-09T09:03:40+00:00"
- },
- {
-  "source": "release: ComposioHQ/composio",
-  "title": "composio CLI Beta @composio/cli@0.6.1-beta.537",
-  "link": "https://github.com/ComposioHQ/composio/releases/tag/%40composio%2Fcli%400.6.1-beta.537",
-  "summary": "What's Changed fix(py): bump oauthlib to 4.0.1 in the crewai lock by Alberto Schiabel (@jkomyno) in #5287 fix(docs): restore legacy authentication and MCP links by Brendan O'Leary (@olearycrew) in #5176 chore(ci): enforce ast-grep anti-slop checks by Alberto Schiabel (@jkomyno) in #5284 fix(py): use",
-  "date": "2026-11-09T20:48:21+00:00"
- },
- {
-  "source": "release: ComposioHQ/composio",
-  "title": "composio CLI Beta @composio/cli@0.6.1-beta.536",
-  "link": "https://github.com/ComposioHQ/composio/releases/tag/%40composio%2Fcli%400.6.1-beta.536",
-  "summary": "What's Changed feat(core)!: custom toolkit create/upsert take mcpUrl (PLEN-4820) by Bharath Singh (@singhbharath03) in #5218 feat(release): plan TypeScript and Python versions from shared changesets by Alberto Schiabel (@jkomyno) in #5238 feat(release): open one release PR from a member request by A",
-  "date": "2026-11-09T15:42:36+00:00"
+  "source": "release: Graphify-Labs/graphify",
+  "title": "graphify graphify 0.9.107",
+  "link": "https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.107",
+  "summary": "Fix: cpp a folded parameterless member declaration ( bar() ) records its implementation in definition_file as a path anchored to the same root as source_file , instead of a ../ -walk relative to the cache/out root. The zero-argument reconciliation added in 0.9.106 stored the internal _cpp_source_key",
+  "date": "2026-11-11T20:29:19+00:00"
  },
  {
   "source": "release: Graphify-Labs/graphify",
@@ -1121,10 +1261,10 @@
  },
  {
   "source": "release: HumanSignal/label-studio",
-  "title": "label-studio 1.24.0.dev20261111",
+  "title": "label-studio 1.24.0.dev20261112",
   "link": "https://github.com/HumanSignal/label-studio/releases/tag/nightly",
   "summary": "Nightly Build This is an automated nightly build that is recreated every night with the latest changes from the develop branch. Installation You can install this nightly build by downloading the wheel package (the file ending in .whl ) from the Assets section below this description. After downloadin",
-  "date": "2026-11-11T00:08:57+00:00"
+  "date": "2026-11-12T00:09:08+00:00"
  },
  {
   "source": "release: NousResearch/hermes-agent",
@@ -1179,8 +1319,15 @@
   "source": "release: Significant-Gravitas/AutoGPT",
   "title": "AutoGPT Preview seed fixture (rolling)",
   "link": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/preview-seed-fixture",
-  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@83f6ce5776ce (migration head: 20261109120000_add_feedback_prompt). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrations, so ",
-  "date": "2026-11-10T15:25:30+00:00"
+  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@2dbf60b8eca5 (migration head: 20261109120000_add_feedback_prompt). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrations, so ",
+  "date": "2026-11-11T09:53:16+00:00"
+ },
+ {
+  "source": "release: Significant-Gravitas/AutoGPT",
+  "title": "AutoGPT autogpt-platform-beta-v0.11.2",
+  "link": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.11.2",
+  "summary": "\ud83d\ude80 Release autogpt-platform-beta-v0.11.2 Date: January 2025 \ud83d\udd25 What's New? New Features #16308 - Plan-first trial: starter tasks and experts on the paywall, hire step removed, team hired on trial start, Home starts with ranked tasks owned by experts (by @itsababseh ) #16650 - Add Wix to the MCP catalo",
+  "date": "2026-11-11T16:51:27+00:00"
  },
  {
   "source": "release: anthropics/claude-agent-sdk-python",
@@ -1247,6 +1394,13 @@
  },
  {
   "source": "release: debpalash/VoiceStudio",
+  "title": "VoiceStudio v0.5.8-beta.5 \u2014 VoiceStudio",
+  "link": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.8-beta.5",
+  "summary": "Installer signing Platform Signing macOS (Apple Silicon) \u2705 Signed with Developer ID and notarized by Apple macOS (Intel) \u2705 Signed with Developer ID and notarized by Apple Windows x64 \u26a0\ufe0f Unsigned: SmartScreen shows \"Windows protected your PC\"; choose More info \u2192 Run anyway Windows ARM64 \u26a0\ufe0f Unsigned: ",
+  "date": "2026-11-12T00:27:59+00:00"
+ },
+ {
+  "source": "release: debpalash/VoiceStudio",
   "title": "VoiceStudio v0.5.8-beta.4 \u2014 VoiceStudio",
   "link": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.8-beta.4",
   "summary": "Installer signing Platform Signing macOS (Apple Silicon) \u2705 Signed with Developer ID and notarized by Apple macOS (Intel) \u2705 Signed with Developer ID and notarized by Apple Windows x64 \u26a0\ufe0f Unsigned: SmartScreen shows \"Windows protected your PC\"; choose More info \u2192 Run anyway Windows ARM64 \u26a0\ufe0f Unsigned: ",
@@ -1267,11 +1421,18 @@
   "date": "2026-11-09T17:35:52+00:00"
  },
  {
-  "source": "release: debpalash/VoiceStudio",
-  "title": "VoiceStudio v0.5.8-beta.2 \u2014 VoiceStudio",
-  "link": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.8-beta.2",
-  "summary": "Installer signing Platform Signing macOS (Apple Silicon) \u2705 Signed with Developer ID and notarized by Apple macOS (Intel) \u2705 Signed with Developer ID and notarized by Apple Windows x64 \u26a0\ufe0f Unsigned: SmartScreen shows \"Windows protected your PC\"; choose More info \u2192 Run anyway Windows ARM64 \u26a0\ufe0f Unsigned: ",
-  "date": "2026-11-08T21:13:01+00:00"
+  "source": "release: deepseek-ai/deepseek-harness",
+  "title": "deepseek-harness v0.2.2-rc.2",
+  "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.2",
+  "summary": "\u4e2d\u6587 | English \u65b0\u589e\u529f\u80fd Git Worktree \u652f\u6301\u6309\u5206\u652f\u3001\u63d0\u4ea4\u548c\u6587\u4ef6\u7c7b\u578b\u5ba1\u9605\u6539\u52a8\uff0c\u5e76\u76f4\u63a5\u5904\u7406 GitHub \u8bc4\u5ba1\u3001\u540c\u6b65\u5df2\u5ba1\u9605\u8fdb\u5ea6\u548c\u66f4\u65b0\u5206\u652f\u3002 @LegGasai SubAgent \u652f\u6301\u5177\u540d\u4e0e\u591a\u5c42\u534f\u4f5c\uff0cAgentTeam \u53ef\u6309\u4f1a\u8bdd\u5f00\u542f\uff0c\u5171\u7528\u6210\u5458\u4e0e\u4efb\u52a1\u9762\u677f\u3002 @Dudu-0223 , @Yifffan \u684c\u9762\u7aef\u652f\u6301\u5728\u8bbe\u7f6e\u4e2d\u5207\u6362\u6b63\u5f0f\u7248\u4e0e\u5f00\u53d1\u7248\u66f4\u65b0\u6e20\u9053\u3002 @winewill \u4f53\u9a8c\u4f18\u5316 \u6539\u5584\u4ee3\u7801\u5ba1\u9605\u65f6\u7684\u8bc4\u8bba\u3001\u6587\u4ef6\u5bfc\u822a\u4e0e\u7a84\u5c4f\u5e03\u5c40\uff0c\u51cf\u5c11\u67e5\u770b\u5927\u578b\u6539\u52a8\u65f6\u7684\u5361\u987f\uff0c\u5e76\u653e\u5bbd\u5927\u578b\u4ed3\u5e93\u521b\u5efa\u5de5\u4f5c\u6811\u7684\u7b49\u5f85\u65f6\u95f4\u3002 @LegGasai \u6539\u5584\u591a\u5c42\u5b50\u4ee3\u7406\u7684\u6d4f\u89c8\u4e0e\u4efb\u52a1\u534f\u8c03\uff0c\u4f18\u5148\u5c55\u793a\u4efb\u52a1\u63cf\u8ff0\uff0c\u652f\u6301\u9010\u5c42\u5c55\u5f00\u548c\u8bfb\u53d6\u5931\u8d25\u540e\u91cd\u8bd5\u3002",
+  "date": "2026-11-11T11:33:06+00:00"
+ },
+ {
+  "source": "release: farion1231/cc-switch",
+  "title": "cc-switch CC Switch v4.0.30",
+  "link": "https://github.com/farion1231/cc-switch/releases/tag/v4.0.30",
+  "summary": "CC Switch v4.0.30 \u672c\u7248\u672c\u65b0\u589e \u9690\u79c1\u8fc7\u6ee4\u5668 \uff1a\u5728\u8def\u7531\u548c\u805a\u5408\u6a21\u5f0f\u4e0b\uff0c\u672c\u5730\u8def\u7531\u8f6c\u53d1\u8bf7\u6c42\u524d\u53ef\u4ee5\u628a\u7528\u6237\u8f93\u5165\u548c\u7cfb\u7edf\u63d0\u793a\u91cc\u7684\u4e2a\u4eba\u4fe1\u606f\u548c\u5bc6\u94a5\u66ff\u6362\u6210\u5360\u4f4d\u7b26\uff0c\u4e0d\u8ba9\u5b83\u4eec\u53d1\u5230\u4e0a\u6e38\u3002\u9ed8\u8ba4\u5173\u95ed\uff0c\u5f00\u5173\u5728\u300c\u8bbe\u7f6e \u2192 \u6570\u636e\u300d\u3002 \u53e6\u5916\u4fee\u590d\u4e86 Codex \u7ecf\u8def\u7531\u8fde\u7b2c\u4e09\u65b9\u539f\u751f Responses \u4e0a\u6e38\u65f6\uff0c\u8bf7\u6c42\u5e26\u4e0a\u53ea\u6709 OpenAI \u8ba4\u7684\u5b57\u6bb5\u88ab\u6574\u6761\u62d2\u7edd\uff08\u62a5 400\uff09\uff1b\u5de5\u5177\u8c03\u7528\u53c2\u6570\u91cc\u51fa\u73b0\u91cd\u590d\u7684\u952e\u540e\uff0cCodex \u5bf9\u8bdd\u6bcf\u4e00\u8f6e\u90fd\u62a5 400\uff1bWindows \u4e0a\u4e3b\u7a97\u53e3\u6253\u5f00\u5728\u4efb\u52a1\u680f\u4e0b\u9762\u3001\u6309\u94ae\u70b9\u4e0d\u5230\uff1bAntigravity \u514d\u8d39\u8d26\u53f7\u67e5\u989d\u5ea6\u62a5 403\u3001\u9501\u533a\u8d26\u53f7\u770b\u4e0d\u51fa\u539f\u56e0\uff1bAntigravity \u7528\u91cf\u540c\u6b65\u6bcf\u5206\u949f\u91cd\u8bfb\u5168\u90e8\u4f1a\u8bdd\u5360\u6ee1 CPU ",
+  "date": "2026-11-12T01:39:53+00:00"
  },
  {
   "source": "release: farion1231/cc-switch",
@@ -1281,39 +1442,32 @@
   "date": "2026-11-10T15:34:48+00:00"
  },
  {
-  "source": "release: farion1231/cc-switch",
-  "title": "cc-switch CC Switch v4.0.28",
-  "link": "https://github.com/farion1231/cc-switch/releases/tag/v4.0.28",
-  "summary": "CC Switch v4.0.28 \u672c\u7248\u672c\u4e3b\u8981\u5e94\u5bf9 Codex 11 \u6708 8 \u65e5\u7684\u4e0d\u517c\u5bb9\u66f4\u65b0\u3002 \u26a0\ufe0f Codex \u684c\u9762\u7248 26.1103\u3001CLI 0.167 \u8d77\uff0c\u5b98\u65b9\u8ba2\u9605\u548c\u7b2c\u4e09\u65b9\u4f9b\u5e94\u5546\u7684\u4f1a\u8bdd\u5f7b\u5e95\u5206\u5f00\u4e86\u3002 \u76f4\u8fde\u6a21\u5f0f\u4e0b\u5728\u4e24\u8005\u4e4b\u95f4\u5207\u6362\uff0c\u4ee5\u524d\u53ea\u662f\u4e24\u8fb9\u7684\u4f1a\u8bdd\u5206\u5f00\u663e\u793a\uff0c\u73b0\u5728\u53e6\u4e00\u8fb9\u7684\u4f1a\u8bdd\u76f4\u63a5\u53d8\u6210\u53ea\u8bfb\uff1a\u80fd\u67e5\u770b\uff0c\u4e0d\u80fd\u7ee7\u7eed\uff0c\u7ee7\u7eed\u65f6\u63d0\u793a\u300c\u6a21\u578b\u63d0\u4f9b\u5546\u4e0d\u5339\u914d\u300d\u3002\u8981\u6765\u56de\u5207\u6362\u5e76\u7ee7\u7eed\u65e7\u4f1a\u8bdd\uff0c\u6709\u4e24\u4e2a\u529e\u6cd5\uff1a \u6539\u7528\u8def\u7531\u6216\u805a\u5408\u6a21\u5f0f \uff1a\u672c\u7248\u672c\u8d77\uff0c\u8def\u7531\u6216\u805a\u5408\u6a21\u5f0f\u4e0b\u5207\u5230\u7b2c\u4e09\u65b9\uff0c\u4f1a\u8bdd\u548c\u5b98\u65b9\u8ba2\u9605\u7559\u5728\u540c\u4e00\u7ec4\uff0c\u6765\u56de\u5207\u6362\u90fd\u80fd\u7ee7\u7eed\u3002 \u6253\u5f00\u300c\u7edf\u4e00 Codex \u4f1a\u8bdd\u5386\u53f2\u300d \uff08\u300c\u8bbe\u7f6e \u2192 \u5e94\u7528\u914d\u7f6e \u2192 Codex\u300d\uff09\uff1a\u5b98\u65b9\u548c\u7b2c\u4e09\u65b9\u7684\u4f1a\u8bdd\u5f52\u5230\u540c\u4e00\u7ec4\uff0c\u76f4\u8fde\u6a21\u5f0f",
-  "date": "2026-11-08T15:57:11+00:00"
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.727",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.727",
+  "summary": "Release API image v2.11.727",
+  "date": "2026-11-12T00:24:51+00:00"
  },
  {
   "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.723",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.723",
-  "summary": "Release API image v2.11.723",
-  "date": "2026-11-10T18:49:29+00:00"
+  "title": "firecrawl v2.11.726",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.726",
+  "summary": "Release API image v2.11.726",
+  "date": "2026-11-11T19:19:21+00:00"
  },
  {
   "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.722",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.722",
-  "summary": "Release API image v2.11.722",
-  "date": "2026-11-10T18:20:58+00:00"
+  "title": "firecrawl v2.11.725",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.725",
+  "summary": "Release API image v2.11.725",
+  "date": "2026-11-11T18:59:31+00:00"
  },
  {
   "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.721",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.721",
-  "summary": "Release API image v2.11.721",
-  "date": "2026-11-10T18:14:31+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.720",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.720",
-  "summary": "Release API image v2.11.720",
-  "date": "2026-11-10T17:02:54+00:00"
+  "title": "firecrawl v2.11.724",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.724",
+  "summary": "Release API image v2.11.724",
+  "date": "2026-11-11T17:46:26+00:00"
  },
  {
   "source": "release: google-gemini/gemini-cli",
@@ -1333,8 +1487,15 @@
   "source": "release: infiniflow/ragflow",
   "title": "ragflow nightly",
   "link": "https://github.com/infiniflow/ragflow/releases/tag/nightly",
-  "summary": "Release nightly created from b65b7ec at 2026-11-10 13:14:33+00:00",
-  "date": "2026-11-10T13:14:37+00:00"
+  "summary": "Release nightly created from d58a5b5 at 2026-11-11 13:13:29+00:00",
+  "date": "2026-11-11T13:13:34+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261111-1",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261111-1",
+  "summary": "refactor(admin): assign roles to tenants ( #22235 )",
+  "date": "2026-11-11T11:04:29+00:00"
  },
  {
   "source": "release: infiniflow/ragflow",
@@ -1351,18 +1512,32 @@
   "date": "2026-11-10T09:37:42+00:00"
  },
  {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261109",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261109",
-  "summary": "fix(models): drop Claude sampling parameters the model rejects in the\u2026",
-  "date": "2026-11-09T03:23:01+00:00"
- },
- {
   "source": "release: koala73/worldmonitor",
   "title": "worldmonitor convex-deployed",
   "link": "https://github.com/koala73/worldmonitor/releases/tag/convex-deployed",
-  "summary": "feat(acquisition): show the exact first-touch landing path in the adm\u2026",
-  "date": "2026-11-10T15:12:24+00:00"
+  "summary": "test: tighten URL and regex checks flagged by CodeQL ( #10477 )",
+  "date": "2026-11-11T16:42:26+00:00"
+ },
+ {
+  "source": "release: langchain-ai/langchain",
+  "title": "langchain langchain-typesafe==0.1.0",
+  "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.1.0",
+  "summary": "langchain-typesafe 0.1.0 drops support for Python 3.10 , which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum langchain-core version is now 1.8.0 ( langchain 1.5.0 for the experimental extra). Users on Python 3.10 will continue to resolve langchain-typesaf",
+  "date": "2026-11-11T16:14:25+00:00"
+ },
+ {
+  "source": "release: langchain-ai/langchain",
+  "title": "langchain langchain-core==1.8.0",
+  "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0",
+  "summary": "langchain-core 1.8.0 drops support for Python 3.10 , which has reached end-of-life. The minimum supported version is now Python 3.11. Users on Python 3.10 will continue to resolve langchain-core 1.7.x. Changes since langchain-core==1.7.7 release(core): 1.8.0 ( #41796 ) feat(core): Remove EOL Python ",
+  "date": "2026-11-11T15:22:09+00:00"
+ },
+ {
+  "source": "release: langchain-ai/langchain",
+  "title": "langchain langchain==1.5.0",
+  "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0",
+  "summary": "langchain 1.5.0 drops support for Python 3.10 , which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum langchain-core version is now 1.8.0. Users on Python 3.10 will continue to resolve langchain 1.4.x. Changes since langchain==1.4.10 release(langchain): 1.5",
+  "date": "2026-11-11T15:47:24+00:00"
  },
  {
   "source": "release: langchain-ai/langchain",
@@ -1370,20 +1545,6 @@
   "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7",
   "summary": "Changes since langchain-core==1.7.6 release(core): 1.7.7 ( #41776 ) fix(core): cap nesting depth in load() ( #41742 ) chore(deps): patch newer-python security lock resolutions ( #41585 )",
   "date": "2026-11-10T04:08:29+00:00"
- },
- {
-  "source": "release: langchain-ai/langchain",
-  "title": "langchain langchain==1.4.10",
-  "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.10",
-  "summary": "Changes since langchain==1.4.9 release(langchain): 1.4.10 ( #41778 ) fix(langchain): keep middleware-internal model calls off the messages stream ( #41579 ) chore(deps): patch newer-python security lock resolutions ( #41585 ) fix(langchain): omit trace inputs from ModelRefusalMiddleware ( #41689 )",
-  "date": "2026-11-10T18:37:33+00:00"
- },
- {
-  "source": "release: langchain-ai/langchain",
-  "title": "langchain langchain-fireworks==1.7.3",
-  "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3",
-  "summary": "Changes since langchain-fireworks==1.7.2 release(fireworks): 1.7.3 ( #41773 ) fix(fireworks): default max_tokens from model profiles ( #41772 ) chore(model-profiles): refresh model profile data ( #41762 ) chore(model-profiles): refresh model profile data ( #41745 )",
-  "date": "2026-11-09T20:54:21+00:00"
  },
  {
   "source": "release: langfuse/langfuse",
@@ -1422,10 +1583,10 @@
  },
  {
   "source": "release: milvus-io/milvus",
-  "title": "milvus v3.0.6: fix: [3.0] Fix added-field load hints on 3.0 (#55306)",
+  "title": "milvus milvus-3.0.6",
   "link": "https://github.com/milvus-io/milvus/releases/tag/v3.0.6",
-  "summary": "Adding fields to a loaded collection can leave legacy QueryCoord load metadata and QueryNode preload hints on the old schema. Storage V3 then fetches the added fields lazily during queries even when sync warmup is configured. Add each new field according to its schema default while preserving existi",
-  "date": "2026-11-10T08:14:02+00:00"
+  "summary": "Release note is coming soon...",
+  "date": "2026-11-11T08:06:25+00:00"
  },
  {
   "source": "release: milvus-io/milvus",
@@ -1446,7 +1607,7 @@
   "title": "mlflow Model Catalog",
   "link": "https://github.com/mlflow/mlflow/releases/tag/model-catalog%2Flatest",
   "summary": "Per-provider model catalog files. Updated weekly by CI.",
-  "date": "2026-11-11T01:13:51+00:00"
+  "date": "2026-11-12T01:14:57+00:00"
  },
  {
   "source": "release: modelcontextprotocol/servers",
@@ -1471,52 +1632,45 @@
  },
  {
   "source": "release: n8n-io/n8n",
-  "title": "n8n v1: :rocket: Release 1.123.93 (#43156)",
+  "title": "n8n v1: :rocket: Release 1.123.94 (#43457)",
   "link": "https://github.com/n8n-io/n8n/releases/tag/v1",
   "summary": "Co-authored-by: n8n-release-helper[bot] <265227495+n8n-release-helper[bot]@users.noreply.github.com>",
-  "date": "2026-11-10T11:14:48+00:00"
+  "date": "2026-11-11T08:51:57+00:00"
  },
  {
   "source": "release: n8n-io/n8n",
-  "title": "n8n n8n@3.2.0",
-  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%403.2.0",
-  "summary": "3.2.0 (2026-11-10) Bug Fixes ai-builder: Return the raw body when fetch-url reads JSON, XML, CSV or YAML ( #42949 ) ( 6640010 ) Align workflow history header dividers ( #43167 ) ( 73698d6 ) Community package supportedNodesApiVersion v3 compatibility ( 246e5fd ) Compression Node: Preserve custom gzip",
-  "date": "2026-11-10T09:32:27+00:00"
+  "title": "n8n stable",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/stable",
+  "summary": "2.47.4 (2026-11-11) Bug Fixes core: Keep expression transfers working after built-in replacements ( #43360 ) ( b110abb ) core: Keep observational memory running after a user stops a HITL card ( #43225 ) ( 353a342 ) core: Match bare node references across expression engines ( #43358 ) ( 989975c ) Edi",
+  "date": "2026-11-11T08:41:21+00:00"
  },
  {
   "source": "release: n8n-io/n8n",
-  "title": "n8n n8n@2.48.0",
-  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.48.0",
-  "summary": "2.48.0 (2026-11-10) Bug Fixes ai-builder: Return the raw body when fetch-url reads JSON, XML, CSV or YAML ( #42949 ) ( 6640010 ) Align workflow history header dividers ( #43167 ) ( 73698d6 ) Compression Node: Preserve custom gzip file names ( #42063 ) ( a196d7d ) core: Apply the redaction policy to ",
-  "date": "2026-11-10T08:47:28+00:00"
+  "title": "n8n n8n@2.48.1",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.48.1",
+  "summary": "2.48.1 (2026-11-11) Bug Fixes core: Keep expression transfers working after built-in replacements ( #43359 ) ( 8b3d3db ) core: Match bare node references across expression engines ( #43357 ) ( 7afa69d ) Edit Image Node: Register font once instead of on every text operation ( #43347 ) ( b7d330a ) edi",
+  "date": "2026-11-11T08:43:32+00:00"
  },
  {
   "source": "release: n8n-io/n8n",
-  "title": "n8n n8n@1.123.93",
-  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.93",
-  "summary": "1.123.93 (2026-11-09) Bug Fixes core: Limit resume attempts for waiting and queued executions ( #42864 ) ( 106a957 )",
-  "date": "2026-11-10T11:36:53+00:00"
+  "title": "n8n n8n@2.47.4",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.47.4",
+  "summary": "2.47.4 (2026-11-11) Bug Fixes core: Keep expression transfers working after built-in replacements ( #43360 ) ( b110abb ) core: Keep observational memory running after a user stops a HITL card ( #43225 ) ( 353a342 ) core: Match bare node references across expression engines ( #43358 ) ( 989975c ) Edi",
+  "date": "2026-11-11T08:43:33+00:00"
  },
  {
-  "source": "release: open-webui/open-webui",
-  "title": "open-webui v0.13.3",
-  "link": "https://github.com/open-webui/open-webui/releases/tag/v0.13.3",
-  "summary": "Added \ud83e\uddbe Agents in automations. The automation editor now lets you choose a terminal and working folder, then select a coding agent available there. Scheduled runs use that saved terminal and folder, and check that the terminal and agent are still available before starting. Agent automations send the",
-  "date": "2026-11-08T23:48:24+00:00"
+  "source": "release: pipecat-ai/pipecat",
+  "title": "pipecat v1.16.0",
+  "link": "https://github.com/pipecat-ai/pipecat/releases/tag/v1.16.0",
+  "summary": "Added Added a normalization field to CartesiaTTSService.Settings and CartesiaHttpTTSService.Settings , passing Cartesia's text normalization mode ( \"auto\" , \"off\" , or a locale code such as \"en-GB\" ) through to synthesis requests. (PR #5430 ) Added SarvamHttpSTTService , which sends each VAD speech ",
+  "date": "2026-11-12T00:45:03+00:00"
  },
  {
-  "source": "release: open-webui/open-webui",
-  "title": "open-webui v0.13.2",
-  "link": "https://github.com/open-webui/open-webui/releases/tag/v0.13.2",
-  "summary": "Fixed \ud83d\udd13 Chat over plain HTTP. Opening Open WebUI over plain HTTP at a LAN or Docker address now loads new and existing chats instead of staying on a spinner with \"crypto.randomUUID is not a function\". #33919 \ud83d\udcdd Comments and Markdown editing over plain HTTP. Creating, replying to and editing comments,",
-  "date": "2026-11-08T11:53:42+00:00"
- },
- {
-  "source": "release: open-webui/open-webui",
-  "title": "open-webui v0.13.1",
-  "link": "https://github.com/open-webui/open-webui/releases/tag/v0.13.1",
-  "summary": "Added \ud83e\uddbe Coding agents as models. On an Open Terminal that offers agents, coding agents such as Claude Code, Codex and Pi now appear in the model picker. You can chat with them or call them by voice, choose their reasoning effort and service tier, and approve their tool requests in the chat. Each con",
-  "date": "2026-11-08T11:07:53+00:00"
+  "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.76.0 \u2014 opt-in centroid agent router, neural router assets shipped",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.76.0",
+  "summary": "@claude-flow/cli, claude-flow and ruflo 3.76.0 New (opt-in) Nearest-centroid agent router (ADR-527, #4953 ). Set CLAUDE_FLOW_ROUTER_CENTROID=1 to route tasks to agents by nearest centroid over labelled examples. On the ADR-391 test split it picked the right agent 63.7% of the time, against 25.7% for",
+  "date": "2026-11-11T14:48:29+00:00"
  },
  {
   "source": "release: ruvnet/ruflo",
@@ -1540,11 +1694,11 @@
   "date": "2026-11-10T14:44:21+00:00"
  },
  {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.75.0 \u2014 25 issue fixes, plugins host, dual init, memory scopes, inventory tools",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.75.0",
-  "summary": "This release fixes 25 issues reported by @sparkling and the Dream Cycle. Fixes Atomic writes write every byte ( #4888 , #4909 ). writeFileAtomic used to check one writeSync call. On a short write it renamed a truncated file into place and still reported success. Failed pattern saves are reported ( #",
-  "date": "2026-11-10T01:50:36+00:00"
+  "source": "release: thedotmack/claude-mem",
+  "title": "claude-mem v15.17.1",
+  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.17.1",
+  "summary": "Open sessions keep capturing after an update Since 15.16.0 the worker clears old plugin versions out of Claude Code's plugin cache five minutes after it starts and then hourly. A Claude Code session that was already open when an update arrived keeps running from the older version folder. Once the sw",
+  "date": "2026-11-11T18:22:35+00:00"
  },
  {
   "source": "release: thedotmack/claude-mem",
@@ -1568,11 +1722,11 @@
   "date": "2026-11-11T00:34:23+00:00"
  },
  {
-  "source": "release: thedotmack/claude-mem",
-  "title": "claude-mem v15.15.2",
-  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.15.2",
-  "summary": "Critical fix Antigravity no longer denies every tool call after an upgrade from 14.x ( #5670 ): an in-place upgrade from an older install left a PreToolUse hook (and a PreInvocation context hook) in ~/.gemini/config/hooks.json . agy kept firing it before every tool call, the current adapter answered",
-  "date": "2026-11-10T19:30:00+00:00"
+  "source": "release: unslothai/unsloth",
+  "title": "unsloth Dynamic v3.1 GGUFs + Performance Fixes",
+  "link": "https://github.com/unslothai/unsloth/releases/tag/v0.1.917-beta",
+  "summary": "Qwen3.8-27B is here with Dynamic v3.1 GGUFs, ready to run locally with Unsloth. This release also brings major performance improvements, smoother Glass rendering, revamped code blocks and Thinking UI, HTML/PDF chat exports, and new image generation and coding agent features. Highlights New Qwen3.8-2",
+  "date": "2026-11-11T16:26:54+00:00"
  },
  {
   "source": "release: upstash/context7",
@@ -1611,17 +1765,17 @@
  },
  {
   "source": "release: volcengine/OpenViking",
+  "title": "OpenViking OpenViking SuperAgent 0.5.2-preview",
+  "link": "https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.2-preview",
+  "summary": "Install macOS / Linux / WSL2 (this version): curl -fsSL https://ovrelease.tos-cn-beijing.volces.com/superagent/releases/0.5.2-preview/install.sh | sh -s -- --version 0.5.2-preview Windows users: use the PowerShell one-line installer in the shared guide below. Windows previews are published separatel",
+  "date": "2026-11-11T08:36:18+00:00"
+ },
+ {
+  "source": "release: volcengine/OpenViking",
   "title": "OpenViking react@0.1.6",
   "link": "https://github.com/volcengine/OpenViking/releases/tag/react%400.1.6",
   "summary": "Release @openviking/react 0.1.6",
   "date": "2026-11-10T14:18:38+00:00"
- },
- {
-  "source": "release: volcengine/OpenViking",
-  "title": "OpenViking react@0.1.5",
-  "link": "https://github.com/volcengine/OpenViking/releases/tag/react%400.1.5",
-  "summary": "chore(ui): prepare react 0.1.5 release",
-  "date": "2026-11-10T10:58:32+00:00"
  },
  {
   "source": "release: wonderwhy-er/DesktopCommanderMCP",
@@ -1947,17 +2101,73 @@
  },
  {
   "source": "HF Papers (2 up)",
+  "title": "Visual Similarity in Adult Word Extension and Artificial Word Learning",
+  "link": "https://huggingface.co/papers/2611.14116",
+  "summary": "When two objects share a name, how much does their visual similarity explain, and what do the teaching examples add? First, we reanalyzed trial-level data from a large adult word-extension study (Lewis & Frank, 2018), computing each test image's distance to the examples shown in the space of a frozen self-supervised visual encoder (DINOv2). Distance was associated with extension (log odds -3.23 pe",
+  "date": "2026-11-09T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (1 up)",
+  "title": "Prompt2Echo (P2Echo): Text-Prompted Multi-View Echocardiography Segmentation with One Model",
+  "link": "https://huggingface.co/papers/2611.13425",
+  "summary": "Automated segmentation in multi-view echocardiography is essential for comprehensive cardiac assessment, yet remains challenging due to substantial anatomical and appearance variability across standard acoustic windows. In this paper, we present P2Echo, a unified framework capable of segmenting diverse cardiac structures across multiple standard echocardiographic views using a single model control",
+  "date": "2026-11-09T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (4 up)",
+  "title": "LEASH: Stay Safe in Agentic Robotics",
+  "link": "https://huggingface.co/papers/2611.14115",
+  "summary": "Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence. These advances make agentic robotics a promising path toward artificial general intelligence in robotics. However, we find that using foundation models to control robots poses serious safety risks, and comprehensive safety evaluation is still lacking. We introduce RoboRisk, a",
+  "date": "2026-11-09T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (10 up)",
+  "title": "PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation",
+  "link": "https://huggingface.co/papers/2611.13576",
+  "summary": "As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense. However, existing benchmarks rely on annotators who rate each video with a single score based on intuition, yielding ratings that are subjective and do not tell which physical principle is violated. We introduce PhyRubric, a rubric-grounde",
+  "date": "2026-11-09T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (2 up)",
+  "title": "TorchCurves: Differentiable Parametric Curves",
+  "link": "https://huggingface.co/papers/2611.14516",
+  "summary": "We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-spline or Legendre polynomial bases, with differentiation through both inputs and coefficients. Curve coefficients can be optimized jointly with the surrounding model or produced by another network. T",
+  "date": "2026-11-09T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (5 up)",
+  "title": "Are Causal Neuron Circuits Unique and Transferable?",
+  "link": "https://huggingface.co/papers/2611.13885",
+  "summary": "Interpretability demonstrations often show that intervening on a group of neurons changes a model's answer. A recent example removes an 18-neuron group in Qwen3-32B and the model answers \"Simba\" instead of \"Scar\" to a two-hop Lion King riddle. Such a demonstration establishes that the group matters, but not how much of it is necessary, whether other groups could do the same, or whether the effect ",
+  "date": "2026-11-09T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (3 up)",
+  "title": "Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large Language Models",
+  "link": "https://huggingface.co/papers/2611.14083",
+  "summary": "We present Sable, an argument system and single-GPU prover for the statement that a committed, integer-quantized transformer produced a given token sequence from a given prompt, bit for bit. Sable fixes an integer function F_O with no floating-point step, in which every rounding, normalization, softmax and sampling decision is determined by its inputs, and proves it with a constraint system whose ",
+  "date": "2026-11-09T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (55 up)",
+  "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+  "link": "https://huggingface.co/papers/2611.14320",
+  "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from traje",
+  "date": "2026-11-09T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (2 up)",
+  "title": "Lipschitz-Controlled Flow Matching for Robust Image Restoration",
+  "link": "https://huggingface.co/papers/2611.13995",
+  "summary": "Flow-matching models can produce high-quality image restorations, but their learned dynamics may amplify small input perturbations and make reconstructions unstable. We introduce LipsFlower to reduce this amplification. We derive stability bounds for Flow-from-Y, which initializes the ordinary differential equation from a noise-perturbed observation, as well as for observation-conditioned posterio",
+  "date": "2026-11-09T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (15 up)",
   "title": "WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning",
   "link": "https://huggingface.co/papers/2611.12527",
   "summary": "This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, which jointly learns an internal spectral trajectory and the target waveform trajectory within a single model, enabling direct end-to-end text-to-waveform generation. Unlike recent TTS pipelines, WaveGen does not rely on separately trained or externally decoded intermediate represen",
   "date": "2026-11-09T10:02:29+00:00"
- },
- {
-  "source": "HF Papers (3 up)",
-  "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
-  "link": "https://huggingface.co/papers/2611.12865",
-  "summary": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--context conflicts, where compliant task completion remains feasible while some executable shortcuts earn more reward than every compliant strategy. Encoding these",
-  "date": "2026-11-08T19:00:00+00:00"
  },
  {
   "source": "HF Papers (3 up)",
@@ -1974,18 +2184,354 @@
   "date": "2026-11-09T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (75 up)",
   "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
   "link": "https://huggingface.co/papers/2611.14210",
   "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem ov",
   "date": "2026-11-09T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (23 up)",
+  "source": "HF Papers (25 up)",
   "title": "MMDM: Measuring Massive Multitask Decision Making",
   "link": "https://huggingface.co/papers/2611.14309",
   "summary": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposure to test material can obscure generalization. Moreover, real-world decision ma",
   "date": "2026-11-09T19:00:00+00:00"
+ },
+ {
+  "source": "HF model (4170 dl)",
+  "title": "New on the Hub: Zyphra/ZONOS3-Mini",
+  "link": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+  "summary": "pipeline: text-to-speech. tags: zonos3, safetensors, gguf, text-to-speech, tts, speech-synthesis",
+  "date": "2026-11-09T05:03:57+00:00"
+ },
+ {
+  "source": "DeepMind",
+  "title": "Gemini 4 Carbon is now available",
+  "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+  "summary": "",
+  "date": "2026-11-10T16:03:47+00:00"
+ },
+ {
+  "source": "DeepMind",
+  "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+  "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+  "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal\u2019s core encryption.",
+  "date": "2026-11-10T12:02:28+00:00"
+ },
+ {
+  "source": "DeepMind",
+  "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+  "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+  "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+  "date": "2026-11-09T19:51:47+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Baidu\u2019s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records",
+  "link": "https://www.marktechpost.com/2026/11/09/baidu-ernie-evolve-automated-research-system/",
+  "summary": "Baidu\u2019s ERNIE Evolve is an automated research system that edits code, runs experiments and keeps only verified gains. It beat public bests on NanoChat and NanoGPT Speedrun and sped up ERNIE-5.5-Flash inference. The post Baidu\u2019s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records appeared first on MarkTechPost .",
+  "date": "2026-11-09T16:31:59+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Reason Machines Open-Sources Aspen, a Git Server Built for AI Agents",
+  "link": "https://www.marktechpost.com/2026/11/09/reason-machines-aspen-open-source-git-server-ai-agents/",
+  "summary": "Reason Machines has open-sourced Aspen, a self-hosted Git server for AI agents. It follows OpenAI\u2019s Pando design and sustained 567 pushes per second on one 8-core server in the company\u2019s own test. The post Reason Machines Open-Sources Aspen, a Git Server Built for AI Agents appeared first on MarkTechPost .",
+  "date": "2026-11-09T08:20:20+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP",
+  "link": "https://www.marktechpost.com/2026/11/08/0sec-labs-open-sources-0-ai-security-harness/",
+  "summary": "0sec Labs has open-sourced 0, an AI security harness for code review, pentesting, reverse engineering and fixes. It runs locally through a browser console, a headless CLI and an MCP server, with your own model provider. The post 0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP appeared first on MarkTechPost .",
+  "date": "2026-11-09T07:55:18+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "OpenAI, Anthropic face new oversight as New York\u2019s AI safety law takes effect",
+  "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+  "summary": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
+  "date": "2026-11-10T20:52:13+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+  "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+  "summary": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company.",
+  "date": "2026-11-10T19:57:52+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+  "link": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+  "summary": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing \u201cuncertainty in the IPO market.\u201d",
+  "date": "2026-11-10T19:23:34+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+  "link": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+  "summary": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
+  "date": "2026-11-10T19:03:52+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+  "link": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+  "summary": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
+  "date": "2026-11-10T18:49:52+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+  "link": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+  "summary": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
+  "date": "2026-11-10T17:30:00+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Nvidia CEO Jensen Huang\u2019s affair with alleged Chinese spy: a timeline",
+  "link": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+  "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+  "date": "2026-11-10T17:04:19+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+  "link": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+  "summary": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+  "date": "2026-11-10T15:54:08+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Meta\u2019s AI agent Muse lands on Apple Watch and Android Wear OS",
+  "link": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+  "summary": "Users can now interact with Meta\u2019s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
+  "date": "2026-11-10T15:29:30+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+  "link": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+  "summary": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
+  "date": "2026-11-10T14:05:10+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+  "link": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+  "summary": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
+  "date": "2026-11-10T14:01:39+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "After challenging Google\u2019s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+  "link": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+  "summary": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
+  "date": "2026-11-10T14:00:00+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Spotify\u2019s AI DJ gets new voices, personalities, and an option for less chatter",
+  "link": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+  "summary": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
+  "date": "2026-11-10T14:00:00+00:00"
+ },
+ {
+  "source": "The Verge AI",
+  "title": "Google releases Gemini 4 Carbon with agent \u2018swarm\u2019 feature",
+  "link": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+  "summary": "Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of \"cybersecurity defenders\" two weeks ago. Google claims Carbon is its \"strongest model\" yet, and capable of competing with the very best systems from Anthropic and OpenAI. Google says Gemini 4 Carbon \"pushes [\u2026]",
+  "date": "2026-11-10T10:30:28-05:00"
+ },
+ {
+  "source": "The Verge AI",
+  "title": "Anthropic targets $1.4 trillion IPO",
+  "link": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+  "summary": "Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its IPO price is expected to be between $70.00 and $78.00 per share, which would put its valuation as high as $1.4 trillion, according to the The New York Times. The Wall Street Journal [\u2026]",
+  "date": "2026-11-10T11:38:24-05:00"
+ },
+ {
+  "source": "The Verge AI",
+  "title": "Adobe is going all in on agentic AI",
+  "link": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
+  "summary": "Adobe is committing itself to the notion that chatbots and AI agents could be your next design assistant, or even automate creative workflows and repetitive tasks on your behalf. Some of the tools and features announced today at Adobe's Max conference in Miami, Florida, include allowing your preferred third-party AI agents to access and change [\u2026]",
+  "date": "2026-11-10T06:24:56-05:00"
+ },
+ {
+  "source": "The Verge AI",
+  "title": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
+  "link": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
+  "summary": "Adobe is expanding its Creative Cloud apps and Firefly AI platform with new capabilities that aim to make design and editing projects faster and less complicated. Some of the announcements from Adobe's Max event today include features for automatically removing objects, blemishes, and other unwanted distractions in Premiere, Photoshop, and Lightroom, alongside new generative AI [\u2026]",
+  "date": "2026-11-10T10:49:40-05:00"
+ },
+ {
+  "source": "The Verge AI",
+  "title": "Hands-on with Ring\u2019s new AI drone camera for your home",
+  "link": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+  "summary": "Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week. If it does actually ship, it will arrive almost six years after the company announced [\u2026]",
+  "date": "2026-11-10T09:28:59-05:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "Cloudflare Develops Public Certificate Authority for Post-Quantum Web Security",
+  "link": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "Cloudflare is developing a public certificate authority for Merkle Tree Certificates (MTCs) to reduce the bandwidth overhead of post-quantum cryptography. A Chrome experiment served billions of MTCs to 50% of Chrome Beta 146 for selected domains, reporting 9% faster median performance. Wider deployment depends on browser support, transparency, and production-scale validation. By Leela Kumili",
+  "date": "2026-11-09T14:35:00+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "AWS Launches TorchNeuron to Run PyTorch Models on AWS Trainium Without Modifications",
+  "link": "https://www.infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "At the recent PyTorch Conference North America 2026, Amazon introduced TorchNeuron, a native PyTorch backend that enables developers to run existing PyTorch code on AWS Trainium AI chips with virtually no code modifications. By Sergio De Simone",
+  "date": "2026-11-09T11:00:00+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "Podcast: Distributed LLM Inference on Kubernetes with llm-d, Wasm, & TornadoVM",
+  "link": "https://www.infoq.com/podcasts/distributed-llm-inference-kubernetes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "In this episode, Edoardo Vacchi discusses the evolving landscape of WebAssembly on the backend, running Java workloads on GPUs using TornadoVM, and optimizing distributed AI inference using llm-d and vLLM on Kubernetes. Edoardo explains how llm-d manages cache locality (KV and prefix caches), request routing, and batch inference across Kubernetes clusters to maximize expensive GPU utilization. By ",
+  "date": "2026-11-09T11:00:00+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "Article: Agentic AI Architecture: Current Challenges and Future Opportunities",
+  "link": "https://www.infoq.com/articles/agentic-ai-architecture-challenges-opportunities/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "Agentic AI architecture extends microservices and cloud-native architectures with AI agents that work with context, memory, and protocols such as MCP and A2A. The article covers bounded-context integration, task-dependent coordination strategies, new security risks, and observability needs. It expects gradual adoption alongside existing architectures, with platforms absorbing common components. By",
+  "date": "2026-11-09T10:52:00+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "Pinterest Replaces Journey Clustering with 4B Qwen3 LLM, Reports Improved Engagement",
+  "link": "https://www.infoq.com/news/2026/11/pinterest-journey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "Pinterest has moved its user-journey inference system from a multi-stage clustering pipeline to a fine-tuned 4-billion-parameter language model, reporting a 1.1% improvement in email click-through and 1.3% higher push opens. By Matt Foster",
+  "date": "2026-11-09T07:25:00+00:00"
+ },
+ {
+  "source": "release: BerriAI/litellm",
+  "title": "litellm v1.109.0",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.109.0",
+  "summary": "Verify this release cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\ ghcr.io/berriai/litellm:v1.109.0 Same command for litellm-database , litellm-non_root and the docker.io/litellm/* images What's new in 1.109.0 982 PRs. 14",
+  "date": "2026-11-11T06:25:06+00:00"
+ },
+ {
+  "source": "release: BerriAI/litellm",
+  "title": "litellm 1.108.5 (LTS)",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.108.5",
+  "summary": "Tip The lts image tag always points to the latest LTS release. Pull ghcr.io/berriai/litellm:lts to stay on the newest LTS patch Verify this release cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\ ghcr.io/berriai/litellm:v1",
+  "date": "2026-11-10T23:09:26+00:00"
+ },
+ {
+  "source": "release: ComposioHQ/composio",
+  "title": "composio sdk-release/42589989280",
+  "link": "https://github.com/ComposioHQ/composio/releases/tag/sdk-release%2F42589989280",
+  "summary": "chore(release): prepare SDK versions and documentation",
+  "date": "2026-11-09T09:03:40+00:00"
+ },
+ {
+  "source": "release: ComposioHQ/composio",
+  "title": "composio CLI Beta @composio/cli@0.6.1-beta.537",
+  "link": "https://github.com/ComposioHQ/composio/releases/tag/%40composio%2Fcli%400.6.1-beta.537",
+  "summary": "What's Changed fix(py): bump oauthlib to 4.0.1 in the crewai lock by Alberto Schiabel (@jkomyno) in #5287 fix(docs): restore legacy authentication and MCP links by Brendan O'Leary (@olearycrew) in #5176 chore(ci): enforce ast-grep anti-slop checks by Alberto Schiabel (@jkomyno) in #5284 fix(py): use",
+  "date": "2026-11-09T20:48:21+00:00"
+ },
+ {
+  "source": "release: ComposioHQ/composio",
+  "title": "composio CLI Beta @composio/cli@0.6.1-beta.536",
+  "link": "https://github.com/ComposioHQ/composio/releases/tag/%40composio%2Fcli%400.6.1-beta.536",
+  "summary": "What's Changed feat(core)!: custom toolkit create/upsert take mcpUrl (PLEN-4820) by Bharath Singh (@singhbharath03) in #5218 feat(release): plan TypeScript and Python versions from shared changesets by Alberto Schiabel (@jkomyno) in #5238 feat(release): open one release PR from a member request by A",
+  "date": "2026-11-09T15:42:36+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.723",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.723",
+  "summary": "Release API image v2.11.723",
+  "date": "2026-11-10T18:49:29+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.722",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.722",
+  "summary": "Release API image v2.11.722",
+  "date": "2026-11-10T18:20:58+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.721",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.721",
+  "summary": "Release API image v2.11.721",
+  "date": "2026-11-10T18:14:31+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.720",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.720",
+  "summary": "Release API image v2.11.720",
+  "date": "2026-11-10T17:02:54+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261109",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261109",
+  "summary": "fix(models): drop Claude sampling parameters the model rejects in the\u2026",
+  "date": "2026-11-09T03:23:01+00:00"
+ },
+ {
+  "source": "release: langchain-ai/langchain",
+  "title": "langchain langchain==1.4.10",
+  "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.10",
+  "summary": "Changes since langchain==1.4.9 release(langchain): 1.4.10 ( #41778 ) fix(langchain): keep middleware-internal model calls off the messages stream ( #41579 ) chore(deps): patch newer-python security lock resolutions ( #41585 ) fix(langchain): omit trace inputs from ModelRefusalMiddleware ( #41689 )",
+  "date": "2026-11-10T18:37:33+00:00"
+ },
+ {
+  "source": "release: langchain-ai/langchain",
+  "title": "langchain langchain-fireworks==1.7.3",
+  "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3",
+  "summary": "Changes since langchain-fireworks==1.7.2 release(fireworks): 1.7.3 ( #41773 ) fix(fireworks): default max_tokens from model profiles ( #41772 ) chore(model-profiles): refresh model profile data ( #41762 ) chore(model-profiles): refresh model profile data ( #41745 )",
+  "date": "2026-11-09T20:54:21+00:00"
+ },
+ {
+  "source": "release: n8n-io/n8n",
+  "title": "n8n n8n@3.2.0",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%403.2.0",
+  "summary": "3.2.0 (2026-11-10) Bug Fixes ai-builder: Return the raw body when fetch-url reads JSON, XML, CSV or YAML ( #42949 ) ( 6640010 ) Align workflow history header dividers ( #43167 ) ( 73698d6 ) Community package supportedNodesApiVersion v3 compatibility ( 246e5fd ) Compression Node: Preserve custom gzip",
+  "date": "2026-11-10T09:32:27+00:00"
+ },
+ {
+  "source": "release: n8n-io/n8n",
+  "title": "n8n n8n@2.48.0",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.48.0",
+  "summary": "2.48.0 (2026-11-10) Bug Fixes ai-builder: Return the raw body when fetch-url reads JSON, XML, CSV or YAML ( #42949 ) ( 6640010 ) Align workflow history header dividers ( #43167 ) ( 73698d6 ) Compression Node: Preserve custom gzip file names ( #42063 ) ( a196d7d ) core: Apply the redaction policy to ",
+  "date": "2026-11-10T08:47:28+00:00"
+ },
+ {
+  "source": "release: n8n-io/n8n",
+  "title": "n8n n8n@1.123.93",
+  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.93",
+  "summary": "1.123.93 (2026-11-09) Bug Fixes core: Limit resume attempts for waiting and queued executions ( #42864 ) ( 106a957 )",
+  "date": "2026-11-10T11:36:53+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.75.0 \u2014 25 issue fixes, plugins host, dual init, memory scopes, inventory tools",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.75.0",
+  "summary": "This release fixes 25 issues reported by @sparkling and the Dream Cycle. Fixes Atomic writes write every byte ( #4888 , #4909 ). writeFileAtomic used to check one writeSync call. On a short write it renamed a truncated file into place and still reported success. Failed pattern saves are reported ( #",
+  "date": "2026-11-10T01:50:36+00:00"
+ },
+ {
+  "source": "release: thedotmack/claude-mem",
+  "title": "claude-mem v15.15.2",
+  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.15.2",
+  "summary": "Critical fix Antigravity no longer denies every tool call after an upgrade from 14.x ( #5670 ): an in-place upgrade from an older install left a PreToolUse hook (and a PreInvocation context hook) in ~/.gemini/config/hooks.json . agy kept firing it before every tool call, the current adapter answered",
+  "date": "2026-11-10T19:30:00+00:00"
+ },
+ {
+  "source": "release: volcengine/OpenViking",
+  "title": "OpenViking react@0.1.5",
+  "link": "https://github.com/volcengine/OpenViking/releases/tag/react%400.1.5",
+  "summary": "chore(ui): prepare react 0.1.5 release",
+  "date": "2026-11-10T10:58:32+00:00"
  },
  {
   "source": "HF Papers (2 up)",
@@ -2009,13 +2555,6 @@
   "date": "2026-11-09T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (8 up)",
-  "title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
-  "link": "https://huggingface.co/papers/2611.13348",
-  "summary": "Protein engineering requires navigating rugged fitness landscapes, where small sequence changes can produce large functional differences, but experimental screening can only sample a small fraction of sequence space. Thus, a central challenge is to efficiently traverse the large combinatorial space of mutations in silico. We introduce ProTEUS, a mutation-resolved world model for closed-loop protei",
-  "date": "2026-11-08T19:00:00+00:00"
- },
- {
   "source": "HF Papers (5 up)",
   "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
   "link": "https://huggingface.co/papers/2611.14488",
@@ -2030,67 +2569,11 @@
   "date": "2026-11-09T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (28 up)",
-  "title": "dNaViT: Discrete Codes are General-Purpose Visual Representations",
-  "link": "https://huggingface.co/papers/2611.12426",
-  "summary": "Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models. Extending this paradigm to vision allows visual and language models to converge on a unified framework, thereby fostering shared methodology and infrastructure. This work investigates a central question: how far can a finite discrete vocabulary go in representing the richnes",
-  "date": "2026-11-08T19:00:00+00:00"
- },
- {
   "source": "HF Papers (12 up)",
   "title": "Few-Step Streaming Video Generation via Condition Shifting",
   "link": "https://huggingface.co/papers/2611.14033",
   "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator.",
   "date": "2026-11-09T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (8 up)",
-  "title": "PhysOPSD: Code as Privilege for Physically Plausible Video Generation",
-  "link": "https://huggingface.co/papers/2611.12411",
-  "summary": "While modern video generative models achieve remarkable visual fidelity, they remain noticeably brittle when generating physically plausible dynamics and complex interactions. Targeted post-training is crucial, yet supervised fine-tuning suffers from offline state mismatch, and reinforcement learning is hindered by sparse, ill-defined physical reward functions. On-Policy (Self-)Distillation (OPSD)",
-  "date": "2026-11-08T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (17 up)",
-  "title": "World In-Context Learning for Agentic Robot Manipulation",
-  "link": "https://huggingface.co/papers/2611.12885",
-  "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording",
-  "date": "2026-11-08T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (2 up)",
-  "title": "EmoHarness: Boosting Multimodal Emotion Understanding with Meta-Harness Evolving",
-  "link": "https://huggingface.co/papers/2611.11994",
-  "summary": "Small multimodal models can misjudge emotion when words, voice, and visual cues conflict. We present EmoHarness, which runs such a model, the frozen student, inside a harness: the prompts, settings, and verification code around its calls. A human-written starting harness, the scaffold, numbers the student's visual observations, transcript, and prosody descriptions as citable evidence and has the s",
-  "date": "2026-11-08T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (23 up)",
-  "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
-  "link": "https://huggingface.co/papers/2611.11995",
-  "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation hor",
-  "date": "2026-11-08T19:00:00+00:00"
- },
- {
-  "source": "HF model (18 dl)",
-  "title": "New on the Hub: Comfy-Org/MiniMax-H3-Image",
-  "link": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
-  "summary": "pipeline: text-to-image. tags: diffusion-single-file, comfyui, text-to-image",
-  "date": "2026-11-08T20:37:23+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
-  "link": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/",
-  "summary": "Google's Elephant-Goldfish Model plugin makes coding agents draft specs, then runs 5 zero-context review stages before any code. The post Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding appeared first on MarkTechPost .",
-  "date": "2026-11-08T10:46:18+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
-  "link": "https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/",
-  "summary": "A config-verified comparison of how 10 open MoE models route tokens: total and active parameters, expert counts, top-k, shared experts, gating functions and load-balancing methods. The post Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared appeared first on MarkTechPost .",
-  "date": "2026-11-08T10:27:27+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -2555,41 +3038,6 @@
   "date": "2026-11-10T00:00:00-05:00"
  },
  {
-  "source": "HF Papers (2 up)",
-  "title": "FraudBench: A Legal Evaluation of AI Deception",
-  "link": "https://huggingface.co/papers/2611.12167",
-  "summary": "We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly take actions that would constitute fraud under U.S. law. Our evaluation contains a novel dataset of 159 scenarios based on real-world U.S. court cases and validated by legal experts. We present each scenario to LLMs via three tasks at varying levels of autonomy: advising users, dr",
-  "date": "2026-11-08T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (2 up)",
-  "title": "Creative Priming: Decoupling Process from Product to Escape the Creative Paradox",
-  "link": "https://huggingface.co/papers/2611.11740",
-  "summary": "Many of the most consequential advances promised by AI, from curing diseases and inventing new technologies to formulating new scientific theories, are fundamentally creative acts. Yet creativity is uniquely difficult to learn because it faces a creative paradox: learning to repeat past examples of creative success makes those specific examples more likely to recur, inhibiting the very creativity ",
-  "date": "2026-11-08T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (1 up)",
-  "title": "Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks",
-  "link": "https://huggingface.co/papers/2611.12875",
-  "summary": "Despite impressive progress, existing feed-forward large 3D reconstruction models produce a single, irrevocable prediction. When these models fail, there is no mechanism to correct their mistakes. To address this limitation, we introduce Click3R, a framework for interactive geometric correction of feed-forward models using sparse human correspondence clicks. Given an image pair and a small set of ",
-  "date": "2026-11-08T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (3 up)",
-  "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
-  "link": "https://huggingface.co/papers/2611.12870",
-  "summary": "World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on architectures and training mechanisms, typically treating language-video alignment acquired through video pretraining as an established foundation. However, introducing action learning may impair this alignment. Principled guidance on data and supervision design for maintaining langua",
-  "date": "2026-11-08T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (4 up)",
-  "title": "Training Vision Transformers to Focus: Emergence of Spatial Attention Head Specialization",
-  "link": "https://huggingface.co/papers/2611.11890",
-  "summary": "Self-supervised learning in Vision Transformer models, such as DINO, enables robust visual perception without requiring labeled data by leveraging large-scale image datasets. However, these models lack a focusing mechanism during training, resulting in perceptual representations that are often ambiguous or overly similar. In this work, we introduce two visual focusing loss functions designed to es",
-  "date": "2026-11-08T19:00:00+00:00"
- },
- {
   "source": "release: BerriAI/litellm",
   "title": "litellm v1.104.9",
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.104.9",
@@ -2623,34 +3071,6 @@
   "link": "https://github.com/volcengine/OpenViking/releases/tag/react%400.1.3",
   "summary": "chore(ui): release @openviking/react 0.1.3",
   "date": "2026-11-10T03:15:40+00:00"
- },
- {
-  "source": "HF Papers (15 up)",
-  "title": "InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure",
-  "link": "https://huggingface.co/papers/2611.11558",
-  "summary": "While Recursive Self-Improvement (RSI) accelerates isolated algorithm and kernel synthesis, distributed LLM training depends on tightly coupled launch settings, operator kernels, and communication schedules, where single edits often hit out-of-memory (OOM) boundaries, compiler conflicts, measurement jitter, or silent numerical drift. We present InfraRSI, the agentic harness that turns open-ended h",
-  "date": "2026-11-08T13:59:37+00:00"
- },
- {
-  "source": "HF Papers (37 up)",
-  "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
-  "link": "https://huggingface.co/papers/2611.12886",
-  "summary": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. We introduce Reframe, a post-training framework that t",
-  "date": "2026-11-08T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (92 up)",
-  "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
-  "link": "https://huggingface.co/papers/2611.12806",
-  "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understan",
-  "date": "2026-11-08T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (4 up)",
-  "title": "How Many Exposures Does a World Model Need? Learning Unseen Game Mechanics at Test Time",
-  "link": "https://huggingface.co/papers/2611.12324",
-  "summary": "World models enable agents to plan and learn from imagined experience, but in an unfamiliar environment they must learn its mechanics from limited interaction. A mechanic is a rule for how an action or an interaction changes part of the environment. Each occurrence of a mechanic that the model observes is one exposure. We ask how many exposures a world model needs to predict the effects of a new e",
-  "date": "2026-11-08T19:00:00+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -2744,13 +3164,6 @@
   "date": "2026-11-09T05:26:29+00:00"
  },
  {
-  "source": "TechCrunch AI",
-  "title": "Nvidia will investigate CEO Jensen Huang\u2019s relationship with possible Chinese spy",
-  "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-  "summary": "In a memo to the company, Huang admitted that he had an affair.",
-  "date": "2026-11-08T21:00:11+00:00"
- },
- {
   "source": "The Verge AI",
   "title": "David Ellison says AI could be the \u2018biggest creative unlock in modern history\u2019",
   "link": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
@@ -2821,25 +3234,11 @@
   "date": "2026-11-09T10:54:52-05:00"
  },
  {
-  "source": "InfoQ",
-  "title": "Entire's Git Forge Rethinks Git Collaboration for Coding Agents",
-  "link": "https://www.infoq.com/news/2026/11/entire-git-forge-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull request (PR) model, is not well suited to an environment where AI agents generate, review, and iterate on code at high speed. By Sergio De Simone",
-  "date": "2026-11-08T11:00:00+00:00"
- },
- {
   "source": "release: BerriAI/litellm",
   "title": "litellm 1.108.4 (LTS)",
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.108.4",
   "summary": "Tip The lts image tag always points to the latest LTS release. Pull ghcr.io/berriai/litellm:lts to stay on the newest LTS patch Verify this release cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\ ghcr.io/berriai/litellm:v1",
   "date": "2026-11-09T23:23:50+00:00"
- },
- {
-  "source": "release: debpalash/VoiceStudio",
-  "title": "VoiceStudio v0.5.8-beta.1 \u2014 VoiceStudio",
-  "link": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.8-beta.1",
-  "summary": "Installer signing Platform Signing macOS (Apple Silicon) \u2705 Signed with Developer ID and notarized by Apple macOS (Intel) \u2705 Signed with Developer ID and notarized by Apple Windows x64 \u26a0\ufe0f Unsigned: SmartScreen shows \"Windows protected your PC\"; choose More info \u2192 Run anyway Windows ARM64 \u26a0\ufe0f Unsigned: ",
-  "date": "2026-11-08T14:50:11+00:00"
  },
  {
   "source": "release: firecrawl/firecrawl",
@@ -2877,13 +3276,6 @@
   "date": "2026-11-10T08:45:08+00:00"
  },
  {
-  "source": "release: n8n-io/n8n",
-  "title": "n8n stable",
-  "link": "https://github.com/n8n-io/n8n/releases/tag/stable",
-  "summary": "2.47.3 (2026-11-09) Bug Fixes core: Only allow users who can edit a workflow to own its migration findings ( #43101 ) ( cff4342 ) core: Retire stale scheduled tasks in repeated batches in each reaper pass ( #43096 ) ( 4ba6e50 ) Features Open the migration report filtered to the recipient from notifi",
-  "date": "2026-11-10T08:52:13+00:00"
- },
- {
   "source": "release: ruvnet/ruflo",
   "title": "ruflo v3.74.1 \u2014 @metaharness/darwin in-process (ADR-526), zod 4 security, PageRank",
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.74.1",
@@ -2896,13 +3288,6 @@
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.74.0",
   "summary": "feat(metaharness): @metaharness/darwin as a regular dependency, in-process (ADR-526); release 3.74.0",
   "date": "2026-11-09T05:34:08+00:00"
- },
- {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.73.0 \u2014 init ends with your project, opt-in activation telemetry, Node 20 keeps ruvector",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.73.0",
-  "summary": "Faster first five minutes init ends with your project, not a list of commands ( #4871 , #4875 ). It prints a quick local snapshot: tracked files, top languages, the most-changed file in the last 90 days, and your test command. Then it gives one prompt to paste into Claude Code about that file. The s",
-  "date": "2026-11-09T01:30:07+00:00"
  },
  {
   "source": "release: thedotmack/claude-mem",
@@ -2924,13 +3309,6 @@
   "link": "https://github.com/volcengine/OpenViking/releases/tag/openviking-superagent%400.5.1-preview",
   "summary": "Co-authored-by: Claude Opus 5.5 noreply@anthropic.com",
   "date": "2026-11-10T11:00:37+00:00"
- },
- {
-  "source": "HF Papers (23 up)",
-  "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
-  "link": "https://huggingface.co/papers/2611.12762",
-  "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Tai",
-  "date": "2026-11-08T19:00:00+00:00"
  },
  {
   "source": "release: NousResearch/hermes-agent",
@@ -2973,13 +3351,6 @@
   "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.46.7",
   "summary": "2.46.7 (2026-11-09) Bug Fixes core: Limit resume attempts for waiting and queued executions ( #42862 ) ( c7aa6aa )",
   "date": "2026-11-09T08:29:47+00:00"
- },
- {
-  "source": "release: thedotmack/claude-mem",
-  "title": "claude-mem v15.12.1",
-  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.12.1",
-  "summary": "Two critical fixes macOS 12 (system SQLite 3.37): observations failed to save with \"SQL logic error\" on every write. Statements that use RETURNING are now read with .all() , so observations store again ( #5499 , thanks @xunguangzlj-cloud ; reported in #5497 by @hamadikante0-ship-it ). CMEM Pro sign-",
-  "date": "2026-11-08T22:09:47+00:00"
  },
  {
   "source": "release: volcengine/OpenViking",
@@ -3277,45 +3648,10 @@
  },
  {
   "source": "The Verge AI",
-  "title": "Here\u2019s the full text of Jensen Huang\u2019s memo to Nvidia",
-  "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
-  "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my [\u2026]",
-  "date": "2026-11-08T17:54:50-05:00"
- },
- {
-  "source": "The Verge AI",
   "title": "Nvidia is investigating Jensen Huang\u2019s relationship with a Chinese spy",
   "link": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
   "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light [\u2026]",
   "date": "2026-11-08T21:24:39-05:00"
- },
- {
-  "source": "The Verge AI",
-  "title": "Apple is racing to make Siri more agentic",
-  "link": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
-  "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's [\u2026]",
-  "date": "2026-11-08T14:18:19-05:00"
- },
- {
-  "source": "The Verge AI",
-  "title": "Elvis and Eminem rights holders are suing Suno",
-  "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
-  "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's [\u2026]",
-  "date": "2026-11-08T12:23:19-05:00"
- },
- {
-  "source": "The Verge AI",
-  "title": "NYT Cooking\u2019s AI assistant saved my weeknight chicken, but almost ruined my cake",
-  "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-  "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best [\u2026]",
-  "date": "2026-11-08T14:41:47-05:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.704",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.704",
-  "summary": "Release API image v2.11.704",
-  "date": "2026-11-08T10:27:54+00:00"
  },
  {
   "source": "release: infiniflow/ragflow",
