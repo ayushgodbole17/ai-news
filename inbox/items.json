@@ -35,13 +35,6 @@
   "date": "2026-11-13T20:47:18+00:00"
  },
  {
-  "source": "DeepMind",
-  "title": "Introducing Gemini 4 Hydrogen",
-  "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-  "summary": "",
-  "date": "2026-11-12T18:00:50+00:00"
- },
- {
   "source": "OpenAI",
   "title": "Introducing ChatGPT Wallet",
   "link": "https://openai.com/index/introducing-chatgpt-wallet",
@@ -208,13 +201,6 @@
   "link": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
   "summary": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
   "date": "2026-11-12T16:15:00-05:00"
- },
- {
-  "source": "MIT News",
-  "title": "New research could lead to faster, trustworthy AI models for climate prediction",
-  "link": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
-  "summary": "MIT scientists developed a training method to generate models that simulate the effects of human activities on climate much more quickly than other approaches.",
-  "date": "2026-11-12T00:00:00-05:00"
  },
  {
   "source": "NVIDIA",
@@ -476,20 +462,6 @@
   "date": "2026-11-13T04:17:25+00:00"
  },
  {
-  "source": "Latent Space",
-  "title": "[AINews] D-Day (Decision Models Day)",
-  "link": "https://latent.space/p/ainews-d-day-decision-models-day/",
-  "summary": "November 11, 2026 \u2014 Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers.",
-  "date": "2026-11-12T05:26:54+00:00"
- },
- {
-  "source": "Latent Space",
-  "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
-  "link": "https://latent.space/p/jev-revolution/",
-  "summary": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they\u2019re using Jev.",
-  "date": "2026-11-12T05:08:20+00:00"
- },
- {
   "source": "Interconnects",
   "title": "Open-source AI without Jensen",
   "link": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
@@ -565,6 +537,13 @@
   "link": "https://martinfowler.com/bliki/GeneratedGlossary.html",
   "summary": "When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to an LLM because they aren't in its training set, making it harder for the LLM to be effective when doing tasks in that domain. One technique to aid this is to use an LLM to generate a glossary of the t",
   "date": "2026-11-12T09:15:00-05:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "Cloudflare Introduces Private Origins for Application Services",
+  "link": "https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or opening inbound firewall ports. Private-to-private connectivity is not yet supported. By Renato Losio",
+  "date": "2026-11-15T06:18:00+00:00"
  },
  {
   "source": "InfoQ",
@@ -665,13 +644,6 @@
   "date": "2026-11-12T10:06:00+00:00"
  },
  {
-  "source": "InfoQ",
-  "title": "Author Q+A: finprim is a Case for One Financial Validation Library in TypeScript",
-  "link": "https://www.infoq.com/news/2026/11/finprim-validation-qanda/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "finprim is an MIT-licensed TypeScript library that offers IBAN, BIC, card, sort code, VAT, routing number and loan functions through one API with no runtime dependencies. Its author built it after duplicated validators drifted apart across web and mobile. It validates and formats data only, and does not process payments. He is cautious about adding SEPA and ACH file generation. By Daniel Curtis",
-  "date": "2026-11-12T09:28:00+00:00"
- },
- {
   "source": "ByteByteGo",
   "title": "EP233: Kubernetes Explained for Busy Engineers",
   "link": "https://blog.bytebytego.com/p/ep233-kubernetes-explained-for-busy",
@@ -721,7 +693,7 @@
   "date": "2026-11-13T10:18:13+00:00"
  },
  {
-  "source": "HN (199pts)",
+  "source": "HN (200pts)",
   "title": "Claude Is Down",
   "link": "https://status.claude.com/history",
   "summary": "",
@@ -742,7 +714,7 @@
   "date": "2026-11-13T22:39:15+00:00"
  },
  {
-  "source": "HN (44pts)",
+  "source": "HN (45pts)",
   "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
   "summary": "",
@@ -756,7 +728,7 @@
   "date": "2026-11-13T09:51:59+00:00"
  },
  {
-  "source": "HN (146pts)",
+  "source": "HN (152pts)",
   "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
   "link": "https://gitlab.com/snipedbywifi/terminactory",
   "summary": "",
@@ -777,7 +749,7 @@
   "date": "2026-11-12T15:23:10+00:00"
  },
  {
-  "source": "HN (81pts)",
+  "source": "HN (82pts)",
   "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
   "link": "https://news.ycombinator.com/item?id=50494696",
   "summary": "",
@@ -826,18 +798,18 @@
   "date": "2026-11-12T13:52:29+00:00"
  },
  {
+  "source": "HN (52pts)",
+  "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+  "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+  "summary": "",
+  "date": "2026-11-15T03:05:54+00:00"
+ },
+ {
   "source": "HN (42pts)",
   "title": "30 years of Internet transfers with curl",
   "link": "https://daniel.haxx.se/blog/2026/11/11/30-years-of-internet-transfers-with-curl/",
   "summary": "",
   "date": "2026-11-12T14:31:32+00:00"
- },
- {
-  "source": "HN (130pts)",
-  "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
-  "link": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-  "summary": "",
-  "date": "2026-11-14T14:09:25+00:00"
  },
  {
   "source": "HN (569pts)",
@@ -847,7 +819,7 @@
   "date": "2026-11-12T18:01:48+00:00"
  },
  {
-  "source": "HN (501pts)",
+  "source": "HN (502pts)",
   "title": "Gemini 4 Hydrogen and Orchestrator",
   "link": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
   "summary": "",
@@ -862,10 +834,17 @@
  },
  {
   "source": "release: BerriAI/litellm",
-  "title": "litellm v1.111.0-dev.3: fix(ui): rename Customer Portal to Customer Management (#51891)",
+  "title": "litellm v1.111.0-dev.4",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.4",
+  "summary": "Important Signing has moved to keyless cosign. Since v1.111.0-dev.3, releases are signed with Sigstore keyless signing (GitHub OIDC) instead of the cosign.pub key. cosign verify --key ... does not work for this release. Use the command below. Earlier releases still verify with the key. Verify this r",
+  "date": "2026-11-15T05:09:04+00:00"
+ },
+ {
+  "source": "release: BerriAI/litellm",
+  "title": "litellm v1.111.0-dev.3",
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.3",
-  "summary": "fix(ui): rename Customer Portal to Customer Management Co-Authored-By: Ishaan Jaffer 155045088+ishaan-berri@users.noreply.github.com fix(ui): polish Customer Management product copy Co-Authored-By: Ishaan Jaffer 155045088+ishaan-berri@users.noreply.github.com style(ui): format Customer Management te",
-  "date": "2026-11-15T02:23:35+00:00"
+  "summary": "Warning This release was only partly published. Use v1.111.0-dev.4 instead. It is built from the same commit and fixes the publishing problems below. Important Signing has moved to keyless cosign. This is the first release signed with Sigstore keyless signing (GitHub OIDC) instead of the cosign.pub ",
+  "date": "2026-11-15T05:09:18+00:00"
  },
  {
   "source": "release: BerriAI/litellm",
@@ -880,13 +859,6 @@
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.108.9",
   "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . This release is signed with the key introduced in commit e82a3c6 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using th",
   "date": "2026-11-14T22:00:02+00:00"
- },
- {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.107.0-rc.4",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.107.0-rc.4",
-  "summary": "Verify this release This release candidate is built from a1a541b , the reviewed merge of #51771 into rc/1.107.0 . It is published as 1.107.0rc4 on PyPI and v1.107.0-rc.4 on Docker After the Oct 21 incident ( #47826 ) we replaced the cosign key that signs our Docker images. These images are signed wi",
-  "date": "2026-11-15T00:12:26+00:00"
  },
  {
   "source": "release: ComposioHQ/composio",
@@ -939,6 +911,13 @@
  },
  {
   "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent v0.23.1+canary.20261115T064406Z",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261115T064406Z",
+  "summary": "Hermes Agent canary 20261115T064406Z",
+  "date": "2026-11-15T06:44:07+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
   "title": "hermes-agent Hermes Agent canary v0.23.1+canary.20261114T064334Z",
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261114T064334Z",
   "summary": "Hermes Agent v0.23.1+canary.20261114T064334Z (v0.23.1+canary.20261114T064334Z) Release Date: November 14, 2026 Downloads Hermes Desktop OS Architecture Download macOS Apple Silicon (M-series) DMG Windows x86 (64-bit) MSIX Windows ARM (arm64 / aarch64) MSIX Native install/chat smoke Download availabi",
@@ -957,13 +936,6 @@
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.7-v0.23.2",
   "summary": "{\"attempt\":7,\"autopublish\":false,\"claimEpoch\":1794672170,\"commit\":\"62\u2026",
   "date": "2026-11-14T16:02:50+00:00"
- },
- {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent rc.6-v0.23.2",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.6-v0.23.2",
-  "summary": "{\"attempt\":6,\"autopublish\":false,\"claimEpoch\":1794640659,\"commit\":\"42\u2026",
-  "date": "2026-11-14T07:17:39+00:00"
  },
  {
   "source": "release: PrefectHQ/fastmcp",
@@ -1204,13 +1176,6 @@
   "date": "2026-11-15T01:38:08+00:00"
  },
  {
-  "source": "release: mlflow/mlflow",
-  "title": "mlflow ts/v0.5.0",
-  "link": "https://github.com/mlflow/mlflow/releases/tag/ts%2Fv0.5.0",
-  "summary": "MLflow TypeScript SDK 0.5.0",
-  "date": "2026-11-12T05:45:09+00:00"
- },
- {
   "source": "release: modelscope/FunASR",
   "title": "FunASR FunASR Torch runtime v0.1.7",
   "link": "https://github.com/modelscope/FunASR/releases/tag/runtime-torch-v0.1.7",
@@ -1303,6 +1268,13 @@
  },
  {
   "source": "release: thedotmack/claude-mem",
+  "title": "claude-mem v15.18.4",
+  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.18.4",
+  "summary": "Fixes Claude Code gets claude-mem's rules and tools once ( #6179 ). Before this, a Claude Code session got the same guidance from up to three places: the MCP server instructions, a memory block the local activation script wrote into CLAUDE.md , and a pointer line to RULES-AND-TOOLS.md (whose timelin",
+  "date": "2026-11-15T05:54:37+00:00"
+ },
+ {
+  "source": "release: thedotmack/claude-mem",
   "title": "claude-mem v15.18.3",
   "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.18.3",
   "summary": "Critical fixes Codex keeps recording after claude-mem updates ( #6058 , thanks @wiesenthal ). Codex approves a hook that ships inside a plugin against a fingerprint of the plugin's whole folder. Every claude-mem update rewrites that folder, so after every update Codex switched all seven claude-mem h",
@@ -1391,6 +1363,41 @@
   "link": "https://huggingface.co/higurashi-ai/Haru-4B",
   "summary": "pipeline: audio-to-audio. tags: safetensors, haru, speech, full-duplex, speech-to-speech, audio-to-audio",
   "date": "2026-11-12T11:05:59+00:00"
+ },
+ {
+  "source": "DeepMind",
+  "title": "Introducing Gemini 4 Hydrogen",
+  "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+  "summary": "",
+  "date": "2026-11-12T18:00:50+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "Author Q+A: finprim is a Case for One Financial Validation Library in TypeScript",
+  "link": "https://www.infoq.com/news/2026/11/finprim-validation-qanda/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "finprim is an MIT-licensed TypeScript library that offers IBAN, BIC, card, sort code, VAT, routing number and loan functions through one API with no runtime dependencies. Its author built it after duplicated validators drifted apart across web and mobile. It validates and formats data only, and does not process payments. He is cautious about adding SEPA and ACH file generation. By Daniel Curtis",
+  "date": "2026-11-12T09:28:00+00:00"
+ },
+ {
+  "source": "HN (130pts)",
+  "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+  "link": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+  "summary": "",
+  "date": "2026-11-14T14:09:25+00:00"
+ },
+ {
+  "source": "release: BerriAI/litellm",
+  "title": "litellm v1.107.0-rc.4",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.107.0-rc.4",
+  "summary": "Verify this release This release candidate is built from a1a541b , the reviewed merge of #51771 into rc/1.107.0 . It is published as 1.107.0rc4 on PyPI and v1.107.0-rc.4 on Docker After the Oct 21 incident ( #47826 ) we replaced the cosign key that signs our Docker images. These images are signed wi",
+  "date": "2026-11-15T00:12:26+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent rc.6-v0.23.2",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.6-v0.23.2",
+  "summary": "{\"attempt\":6,\"autopublish\":false,\"claimEpoch\":1794640659,\"commit\":\"42\u2026",
+  "date": "2026-11-14T07:17:39+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -2063,12 +2070,5 @@
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.733",
   "summary": "Release API image v2.11.733",
   "date": "2026-11-12T20:54:50+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261112-1",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261112-1",
-  "summary": "feat: add Shengsuanyun as a model provider ( #22102 )",
-  "date": "2026-11-12T06:08:34+00:00"
  }
 ]
