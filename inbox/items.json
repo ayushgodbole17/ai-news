@@ -57,6 +57,41 @@
  },
  {
   "source": "Simon Willison",
+  "title": "datasette-maplibre 0.1a0",
+  "link": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+  "summary": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/",
+  "date": "2026-11-15T23:58:36+00:00"
+ },
+ {
+  "source": "Simon Willison",
+  "title": "datasette 1.0a43",
+  "link": "https://simonwillison.net/2026/Nov/15/datasette/",
+  "summary": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response",
+  "date": "2026-11-15T23:20:27+00:00"
+ },
+ {
+  "source": "Simon Willison",
+  "title": "datasette 0.65.6",
+  "link": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+  "summary": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags: security , datasette",
+  "date": "2026-11-15T23:18:17+00:00"
+ },
+ {
+  "source": "Simon Willison",
+  "title": "datasette-apps 0.4a0",
+  "link": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+  "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write",
+  "date": "2026-11-15T04:02:45+00:00"
+ },
+ {
+  "source": "Simon Willison",
+  "title": "datasette-agent 0.6a0",
+  "link": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+  "summary": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries: Tags: datasette-agent , llm , datasette , llms , ai , generative-ai",
+  "date": "2026-11-15T03:49:47+00:00"
+ },
+ {
+  "source": "Simon Willison",
   "title": "datasette-llm 0.1a11",
   "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
   "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol. This means that if you're running local models with LM Studio or Ollama or",
@@ -162,6 +197,13 @@
  },
  {
   "source": "TechCrunch AI",
+  "title": "Apple launches new app to study how people use AI for health",
+  "link": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+  "summary": "Apple's new app for a study will answer everyday medical questions",
+  "date": "2026-11-16T01:30:00+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
   "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
   "link": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
   "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
@@ -259,11 +301,11 @@
   "date": "2026-11-13T12:52:19+00:00"
  },
  {
-  "source": "TechCrunch AI",
-  "title": "Jensen Huang didn\u2019t show confidence in his successor, report says",
-  "link": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
-  "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
-  "date": "2026-11-13T12:28:23+00:00"
+  "source": "The Verge AI",
+  "title": "Apple\u2019s new study looks to improve the effectiveness of AI health tools",
+  "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+  "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical [\u2026]",
+  "date": "2026-11-15T20:47:16-05:00"
  },
  {
   "source": "The Verge AI",
@@ -320,20 +362,6 @@
   "link": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
   "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness [\u2026]",
   "date": "2026-11-13T14:17:15-05:00"
- },
- {
-  "source": "The Verge AI",
-  "title": "Claude\u2019s Duet agent is a little neurotic and surprisingly helpful",
-  "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
-  "summary": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple [\u2026]",
-  "date": "2026-11-12T19:23:32-05:00"
- },
- {
-  "source": "The Verge AI",
-  "title": "Let\u2019s talk about Jensen Huang\u2019s many affairs!",
-  "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
-  "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If [\u2026]",
-  "date": "2026-11-13T14:07:12-05:00"
  },
  {
   "source": "VS Code",
@@ -435,14 +463,14 @@
  },
  {
   "source": "InfoQ",
-  "title": "Uber's Secure AI Framework Governs Autonomous AI Agents Across Their Lifecycle",
+  "title": "Uber's Secure AI Framework Governs Autonomous AI Agents across Their Lifecycle",
   "link": "https://www.infoq.com/news/2026/11/uber-secure-ai-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "In a recent article, Uber Engineering highlights the limitations of traditional identity and API controls in securing AI agents that dynamically reason over external content and take real-world actions. Uber developed a framework to determine whether an agent's action is appropriate given the user's request, the agent's intended purpose, its permissions, and the context of the interaction. By Serg",
   "date": "2026-11-15T20:00:00+00:00"
  },
  {
   "source": "InfoQ",
-  "title": "Anthropic Outlines Its AI-Powered Code Review Process for Claude Code",
+  "title": "Anthropic Outlines its AI-Powered Code Review Process for Claude Code",
   "link": "https://www.infoq.com/news/2026/11/claude-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered reviews, and risk-based human approval, aiming to reduce manual review time without increasing regressions or production incidents. By Robert Krzaczy\u0144ski",
   "date": "2026-11-15T09:55:00+00:00"
@@ -463,7 +491,7 @@
  },
  {
   "source": "InfoQ",
-  "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules",
+  "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing into Core Modules",
   "link": "https://www.infoq.com/news/2026/11/nodejs-debounce-throttle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "Node.js 26.10.0 adds util.debounce() and util.throttle(), plus util.markPromiseAsHandled(), to the core library. It also introduces crypto.parsePKCS12() for reading .p12 and .pfx bundles, and extends the experimental Virtual File System to node:ffi. The additions reduce the need for some userland dependencies. Node.js 26 is now Active LTS. By Daniel Curtis",
   "date": "2026-11-14T08:03:00+00:00"
@@ -574,7 +602,7 @@
   "date": "2026-11-13T10:20:09+00:00"
  },
  {
-  "source": "HN (151pts)",
+  "source": "HN (152pts)",
   "title": "The Claude Delusion",
   "link": "https://www.netmeister.org/blog/claude-delusion.html",
   "summary": "",
@@ -602,21 +630,21 @@
   "date": "2026-11-13T09:51:59+00:00"
  },
  {
-  "source": "HN (164pts)",
+  "source": "HN (167pts)",
   "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
   "link": "https://gitlab.com/snipedbywifi/terminactory",
   "summary": "",
   "date": "2026-11-14T14:05:54+00:00"
  },
  {
-  "source": "HN (73pts)",
+  "source": "HN (75pts)",
   "title": "Show HN: Carton Clock \u2013 A working pendulum clock made from empty drink cartons",
   "link": "https://www.niklasroy.com/carton-clock/",
   "summary": "",
   "date": "2026-11-13T12:00:18+00:00"
  },
  {
-  "source": "HN (191pts)",
+  "source": "HN (217pts)",
   "title": "Understanding Positional Embeddings in Modern LLMs",
   "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
   "summary": "",
@@ -630,14 +658,14 @@
   "date": "2026-11-14T06:56:42+00:00"
  },
  {
-  "source": "HN (84pts)",
+  "source": "HN (86pts)",
   "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
   "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
   "summary": "",
   "date": "2026-11-15T03:05:54+00:00"
  },
  {
-  "source": "HN (144pts)",
+  "source": "HN (145pts)",
   "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
   "link": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
   "summary": "",
@@ -649,6 +677,13 @@
   "link": "https://isometricsf.com/",
   "summary": "",
   "date": "2026-11-13T17:58:37+00:00"
+ },
+ {
+  "source": "HN (35pts)",
+  "title": "Show HN: db-branch \u2013 database branches in seconds for AI agents and CI, via ZFS",
+  "link": "https://github.com/db-branch/db-branch",
+  "summary": "",
+  "date": "2026-11-15T13:50:51+00:00"
  },
  {
   "source": "release: BerriAI/litellm",
@@ -729,10 +764,10 @@
  },
  {
   "source": "release: HumanSignal/label-studio",
-  "title": "label-studio 1.24.0.dev20261113",
+  "title": "label-studio 1.24.0.dev20261116",
   "link": "https://github.com/HumanSignal/label-studio/releases/tag/nightly",
   "summary": "Nightly Build This is an automated nightly build that is recreated every night with the latest changes from the develop branch. Installation You can install this nightly build by downloading the wheel package (the file ending in .whl ) from the Assets section below this description. After downloadin",
-  "date": "2026-11-13T00:09:15+00:00"
+  "date": "2026-11-16T00:10:53+00:00"
  },
  {
   "source": "release: NousResearch/hermes-agent",
@@ -768,13 +803,6 @@
   "link": "https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.0",
   "summary": "FastMCP 4.2 serves agent skills from the server. A skill used to live in a folder on each machine, so every agent kept its own copy and an update meant asking everyone to reinstall. Now the server holds one copy next to the tools the skill describes, and a deploy updates every agent that reads it. f",
   "date": "2026-11-14T00:12:23+00:00"
- },
- {
-  "source": "release: PrefectHQ/fastmcp",
-  "title": "fastmcp v4.2.0a5: Skillium Fancyson",
-  "link": "https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.0a5",
-  "summary": "FastMCP 4.2.0a5 adds SkillManifestProvider , which serves skills from their manifests (frontmatter plus each file's digest and size) and reads a file only when a client reads it, so skills kept in a bucket or database don't have to be loaded to answer skills/list . SkillCatalogProvider now builds on",
-  "date": "2026-11-13T00:34:20+00:00"
  },
  {
   "source": "release: Significant-Gravitas/AutoGPT",
@@ -869,10 +897,24 @@
  },
  {
   "source": "release: farion1231/cc-switch",
+  "title": "cc-switch CC Switch v4.0.33",
+  "link": "https://github.com/farion1231/cc-switch/releases/tag/v4.0.33",
+  "summary": "CC Switch v4.0.33 \u672c\u7248\u672c\u4fee\u590d\u4e86\u4ece\u7b2c\u4e09\u65b9\u4f9b\u5e94\u5546\u5207\u56de Claude \u5b98\u65b9\u540e\uff0c\u5df2\u7ecf\u5f00\u7740\u7684 Claude Code \u4f1a\u8bdd\u4ecd\u628a\u8bf7\u6c42\u53d1\u7ed9\u4e0a\u4e00\u5bb6\u3001\u8981\u91cd\u5f00\u4f1a\u8bdd\u624d\u6062\u590d\u7684\u95ee\u9898\u3002\u5957\u9910\u989d\u5ea6\u67e5\u8be2\u65b0\u589e Ollama Cloud \uff1b\u6388\u6743\u4e2d\u5fc3\u7684 Antigravity \u8d26\u53f7\u5207\u6362 \u73b0\u5728\u4e5f\u652f\u6301 Windows\u3002 \u53e6\u5916\u4fee\u590d\u4e86 Claude Code / Claude Desktop \u7684\u4f9b\u5e94\u5546\u9009 Gemini Native \u683c\u5f0f\u65f6\u83b7\u53d6\u6a21\u578b\u5217\u8868\u603b\u62a5\u300cAPI Key \u65e0\u6548\u6216\u65e0\u6743\u9650\u300d\uff1b\u90e8\u5206\u670d\u52a1\u5546\u83b7\u53d6\u6a21\u578b\u5217\u8868\u88ab Cloudflare \u62e6\u4e0b\uff1bAntigravity Orchestrator \u4ecd\u6709\u90e8\u5206\u8bf7\u6c42\u663e\u793a\u672a\u5b9a\u4ef7\uff1bWebDA",
+  "date": "2026-11-16T02:29:07+00:00"
+ },
+ {
+  "source": "release: farion1231/cc-switch",
   "title": "cc-switch CC Switch v4.0.32",
   "link": "https://github.com/farion1231/cc-switch/releases/tag/v4.0.32",
   "summary": "CC Switch v4.0.32 \u672c\u7248\u672c\u65b0\u589e \u540e\u53f0\u81ea\u52a8\u4e0b\u8f7d\u66f4\u65b0 \uff1a\u5728\u300c\u8bbe\u7f6e \u2192 \u5173\u4e8e\u300d\u6253\u5f00\u300c\u81ea\u52a8\u4e0b\u8f7d\u66f4\u65b0\u300d\u540e\uff0c\u65b0\u7248\u672c\u4f1a\u5728\u540e\u53f0\u4e0b\u8f7d\u5e76\u6821\u9a8c\u597d\uff0c\u53f3\u4e0b\u89d2\u5f39\u51fa\u63d0\u793a\u95ee\u4f60\u662f\u5426\u5b89\u88c5\uff0c\u4e0d\u4f1a\u672a\u7ecf\u786e\u8ba4\u5c31\u91cd\u542f\u3002\u300c\u8bbe\u7f6e \u2192 \u7f51\u7edc\u300d\u65b0\u589e IP \u68c0\u6d4b \uff0c\u53ef\u4ee5\u67e5\u770b CC Switch \u7ecf\u5168\u5c40\u4ee3\u7406\u3001\u4e34\u65f6\u4ee3\u7406\u6216\u5f53\u524d\u7f51\u7edc\u8bbf\u95ee\u65f6\u7684\u51fa\u53e3 IP \u548c\u6240\u5728\u5730\u533a\u3002 \u53e6\u5916\u4fee\u590d\u4e86 Codex \u7ecf\u8def\u7531\u6362\u4f9b\u5e94\u5546\u7eed\u63a5\u65e7\u4f1a\u8bdd\u540e\uff0c\u4e0a\u6e38\u5148\u56de 200 \u518d\u62a5\u300c\u65e0\u6cd5\u89e3\u5bc6\u300d\u5bfc\u81f4\u6574\u8f6e\u62a5\u5e9f\uff1bCodex \u7ecf\u8def\u7531\u6216\u805a\u5408\u63a5 Mistral AI \u65f6\u8bf7\u6c42\u62a5 422\uff1bCC Switch \u5185\u90e8\u67d0\u4e2a\u64cd\u4f5c\u5d29\u6e83\u4e00\u6b21\u540e\uff0c\u6258\u76d8\u53d8\u7a7a\u3001\u5207\u4e0d\u4e86\u4f9b\u5e94\u5546\uff0c\u76f4\u5230\u91cd\u542f\uff1b\u7528 mise \u88c5\u7684\u5de5\u5177\u5728\u300c\u5e94\u7528\u300d\u9875",
   "date": "2026-11-14T16:55:32+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.744",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.744",
+  "summary": "Release API image v2.11.744",
+  "date": "2026-11-16T00:15:36+00:00"
  },
  {
   "source": "release: firecrawl/firecrawl",
@@ -896,18 +938,25 @@
   "date": "2026-11-13T19:42:23+00:00"
  },
  {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.740",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.740",
-  "summary": "Release API image v2.11.740",
-  "date": "2026-11-13T19:28:42+00:00"
- },
- {
   "source": "release: huggingface/transformers",
   "title": "transformers Release v5.23.0",
   "link": "https://github.com/huggingface/transformers/releases/tag/v5.23.0",
   "summary": "Release v5.23.0 New Model additions Inkling2 Inkling 2 Small is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs, and it is intended for use in English and other languages and across multiple coding languages. Its language backbone has 48 mi",
   "date": "2026-11-13T14:10:57+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261116",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261116",
+  "summary": "Consolidate duplicate mustJSON and filename sanitize helpers into uti\u2026",
+  "date": "2026-11-16T02:13:04+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261116-1",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261116-1",
+  "summary": "Feat: Add borders to list modules such as 'context' and 'application'\u2026",
+  "date": "2026-11-16T03:53:24+00:00"
  },
  {
   "source": "release: infiniflow/ragflow",
@@ -917,32 +966,11 @@
   "date": "2026-11-15T13:36:23+00:00"
  },
  {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261113",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261113",
-  "summary": "test(nats): target the first priority lane in pull capacity tests ( #2 \u2026",
-  "date": "2026-11-13T03:25:32+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261113-3",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261113-3",
-  "summary": "build(deps): bump minimatch in /web ( #22334 )",
-  "date": "2026-11-13T08:53:16+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261113-2",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261113-2",
-  "summary": "refactor(web): move OSS no-op overlays to ee-stub ( #22321 )",
-  "date": "2026-11-13T05:45:25+00:00"
- },
- {
   "source": "release: koala73/worldmonitor",
-  "title": "worldmonitor convex-deployed",
+  "title": "worldmonitor convex-deployed: test: call production functions instead of copied oracles (#10750)",
   "link": "https://github.com/koala73/worldmonitor/releases/tag/convex-deployed",
-  "summary": "feat(water): Pro alert for a reservoir level below a chosen threshold\u2026",
-  "date": "2026-11-15T10:32:26+00:00"
+  "summary": "test: drop copied oracles production already covers The source-tier mirror check lives in the edge-functions suite. The entity decoder contract lives in the HTML entity tests. The year conversion lives in the shared World Bank helper. The enrichment cache copy was not the Redis helper. Co-authored-b",
+  "date": "2026-11-16T02:54:18+00:00"
  },
  {
   "source": "release: langchain-ai/langchain",
@@ -1051,6 +1079,13 @@
  },
  {
   "source": "release: thedotmack/claude-mem",
+  "title": "claude-mem v15.19.0",
+  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.19.0",
+  "summary": "Continue a Claude Code or Codex conversation from My Work Open a request in My Work, then open \"Where this came from\". Under each Claude Code or Codex conversation there is now a message box. Type a message and press Send, and that same conversation takes the turn. The reply shows right there ( #619",
+  "date": "2026-11-16T02:13:21+00:00"
+ },
+ {
+  "source": "release: thedotmack/claude-mem",
   "title": "claude-mem v15.18.5",
   "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.18.5",
   "summary": "Critical fixes The tree-sitter CLI installs on networks where its download script keeps failing ( #6110 , thanks @rigel905 , closes #6109 ). On some networks tree-sitter-cli's own install.js had its request reset every time, or exited 0 on a truncated file. The pinned SHA-256 check correctly refused",
@@ -1097,6 +1132,41 @@
   "link": "https://github.com/zeromicro/go-zero/releases/tag/v1.11.0",
   "summary": "Requires Go 1.25 or later (previously Go 1.24). Security and behavior changes RPC authentication: reject unknown apps and Redis lookup failures regardless of StrictControl , which is now deprecated. ( #5848 ) CORS: preserve origin restrictions when adding headers, replacing routers, or serving files",
   "date": "2026-11-15T15:22:34+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
+  "title": "Jensen Huang didn\u2019t show confidence in his successor, report says",
+  "link": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+  "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+  "date": "2026-11-13T12:28:23+00:00"
+ },
+ {
+  "source": "The Verge AI",
+  "title": "Let\u2019s talk about Jensen Huang\u2019s many affairs!",
+  "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+  "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If [\u2026]",
+  "date": "2026-11-13T14:07:12-05:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.740",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.740",
+  "summary": "Release API image v2.11.740",
+  "date": "2026-11-13T19:28:42+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261113-3",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261113-3",
+  "summary": "build(deps): bump minimatch in /web ( #22334 )",
+  "date": "2026-11-13T08:53:16+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261113-2",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261113-2",
+  "summary": "refactor(web): move OSS no-op overlays to ee-stub ( #22321 )",
+  "date": "2026-11-13T05:45:25+00:00"
  },
  {
   "source": "release: langchain-ai/langchain",
@@ -1153,13 +1223,6 @@
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.106.10",
   "summary": "Verify this release cosign verify \\ --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\ ghcr.io/berriai/litellm:v1.106.10 Same command for litellm-database , litellm-non_root and the docker.io/litellm/* images What's new in 1.106.10 2 PRs. 1 ",
   "date": "2026-11-14T00:51:45+00:00"
- },
- {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.111.0-dev.1",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.111.0-dev.1",
-  "summary": "Verify Docker Image Signature All LiteLLM Docker images are signed with cosign . This release is signed with the key introduced in commit e82a3c6 . Verify using the pinned commit hash (recommended): A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using th",
-  "date": "2026-11-13T03:42:10+00:00"
  },
  {
   "source": "release: NousResearch/hermes-agent",
@@ -1505,13 +1568,6 @@
   "date": "2026-11-13T00:00:00-05:00"
  },
  {
-  "source": "The Verge AI",
-  "title": "Nvidia CEO Jensen Huang has resigned. What happens next?",
-  "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-  "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, The New York Times reported on Wednesday that there was evidence of another affair, this time with an Nvidia executive who reported directly to him. A board meeting that [\u2026]",
-  "date": "2026-11-12T19:45:25-05:00"
- },
- {
   "source": "release: ComposioHQ/composio",
   "title": "composio CLI Beta @composio/cli@0.6.1-beta.545",
   "link": "https://github.com/ComposioHQ/composio/releases/tag/%40composio%2Fcli%400.6.1-beta.545",
@@ -1531,12 +1587,5 @@
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.1-v0.23.2",
   "summary": "{\"attempt\":1,\"attemptRef\":\"rc.1-v0.23.2\",\"schema\":1,\"version\":\"0.23.2\"}",
   "date": "2026-11-13T08:03:36+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.737",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.737",
-  "summary": "Release API image v2.11.737",
-  "date": "2026-11-13T02:47:27+00:00"
  }
 ]
