@@ -182,20 +182,6 @@
   "date": "2026-11-15T23:18:17+00:00"
  },
  {
-  "source": "Simon Willison",
-  "title": "datasette-apps 0.4a0",
-  "link": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
-  "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write",
-  "date": "2026-11-15T04:02:45+00:00"
- },
- {
-  "source": "Simon Willison",
-  "title": "datasette-agent 0.6a0",
-  "link": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
-  "summary": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries: Tags: datasette-agent , llm , datasette , llms , ai , generative-ai",
-  "date": "2026-11-15T03:49:47+00:00"
- },
- {
   "source": "Import AI",
   "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
   "link": "https://jack-clark.net/2026/11/16/import-ai-481-ai-sub-contractors-a-wet-lab-for-ai-and-subterfuge-during-development/",
@@ -798,35 +784,35 @@
   "date": "2026-11-15T22:15:41+00:00"
  },
  {
-  "source": "HN (138pts)",
+  "source": "HN (139pts)",
   "title": "Regulatory Capture by Anthropic Through METR",
   "link": "https://nitter.cf/kevinnbass/status/2099621874279817638",
   "summary": "",
   "date": "2026-11-17T12:21:57+00:00"
  },
  {
-  "source": "HN (69pts)",
+  "source": "HN (76pts)",
   "title": "Anthropic Paid Rubio's Ex-Chief of Staff's Firm $740k.it Lobbied His NSC",
   "link": "https://www.zerohedge.com/political/anthropic-paid-rubios-ex-chief-staffs-firm-740000-after-jensen-memo-it-lobbied-his-nsc",
   "summary": "",
   "date": "2026-11-17T19:08:45+00:00"
  },
  {
-  "source": "HN (56pts)",
+  "source": "HN (62pts)",
   "title": "Launch HN: StarSling (YC P25) \u2013 Self-improving CI for agent-volume repos",
   "link": "https://starsling.dev",
   "summary": "",
   "date": "2026-11-17T19:01:43+00:00"
  },
  {
-  "source": "HN (54pts)",
+  "source": "HN (55pts)",
   "title": "Claude Mythos slashed software work to onboard AMD GPUs to around three days",
   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat",
   "summary": "",
   "date": "2026-11-17T01:35:16+00:00"
  },
  {
-  "source": "HN (267pts)",
+  "source": "HN (275pts)",
   "title": "How the Claude Code team thinks about verification",
   "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
   "summary": "",
@@ -854,7 +840,7 @@
   "date": "2026-11-15T12:14:06+00:00"
  },
  {
-  "source": "HN (104pts)",
+  "source": "HN (114pts)",
   "title": "Not Everything Needs an LLM",
   "link": "https://newsletter.posthog.com/p/decision-models",
   "summary": "",
@@ -875,18 +861,11 @@
   "date": "2026-11-16T14:14:51+00:00"
  },
  {
-  "source": "HN (292pts)",
+  "source": "HN (308pts)",
   "title": "MAI Code 2 and Code 2 Flash",
   "link": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
   "summary": "",
   "date": "2026-11-17T18:25:13+00:00"
- },
- {
-  "source": "HN (89pts)",
-  "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
-  "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
-  "summary": "",
-  "date": "2026-11-15T03:05:54+00:00"
  },
  {
   "source": "HN (907pts)",
@@ -903,7 +882,7 @@
   "date": "2026-11-16T21:14:39+00:00"
  },
  {
-  "source": "HN (56pts)",
+  "source": "HN (89pts)",
   "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
   "link": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
   "summary": "",
@@ -1191,6 +1170,13 @@
  },
  {
   "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261118",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261118",
+  "summary": "feat(channels): support an optional standalone chatter process ( #22417 )",
+  "date": "2026-11-18T03:03:25+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
   "title": "ragflow nightly",
   "link": "https://github.com/infiniflow/ragflow/releases/tag/nightly",
   "summary": "Release nightly created from cbffd01 at 2026-11-17 13:14:59+00:00",
@@ -1211,18 +1197,11 @@
   "date": "2026-11-17T09:24:37+00:00"
  },
  {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261117-1",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261117-1",
-  "summary": "refactor(user): share cascading account cleanup ( #22434 )",
-  "date": "2026-11-17T03:38:22+00:00"
- },
- {
   "source": "release: koala73/worldmonitor",
   "title": "worldmonitor convex-deployed",
   "link": "https://github.com/koala73/worldmonitor/releases/tag/convex-deployed",
-  "summary": "feat(brief): translation stage for localized brief siblings behind a \u2026",
-  "date": "2026-11-17T21:45:49+00:00"
+  "summary": "feat(brief): right-to-left magazine and email for ar/fa, lift their g\u2026",
+  "date": "2026-11-18T02:47:08+00:00"
  },
  {
   "source": "release: langchain-ai/langchain",
@@ -1285,7 +1264,7 @@
   "title": "mlflow Model Catalog",
   "link": "https://github.com/mlflow/mlflow/releases/tag/model-catalog%2Flatest",
   "summary": "Per-provider model catalog files. Updated weekly by CI.",
-  "date": "2026-11-18T01:27:23+00:00"
+  "date": "2026-11-18T03:23:05+00:00"
  },
  {
   "source": "release: modelscope/FunASR",
@@ -1345,6 +1324,13 @@
  },
  {
   "source": "release: thedotmack/claude-mem",
+  "title": "claude-mem v16.0.0",
+  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v16.0.0",
+  "summary": "My Work puts what needs you first My Work, the page that shows what your agents are doing, was rebuilt from a full UI review ( #6210 , #6304 ). What needs you sits at the top, long lists fold, and every page works on a phone, by keyboard and with a screen reader. What needs you comes first. On the h",
+  "date": "2026-11-18T03:11:11+00:00"
+ },
+ {
+  "source": "release: thedotmack/claude-mem",
   "title": "claude-mem v15.21.0",
   "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.21.0",
   "summary": "claude-mem no longer turns off Claude Code's Code Mode Code Mode starts with claude-mem enabled ( #6278 , thanks @naive000 ; reported in #6209 by @nasif-naseef ). Code Mode (experimental, Claude Code 2.1.323 and later) refuses to start when a plugin's hooks module hooks tool.call . claude-mem's auto",
@@ -1363,13 +1349,6 @@
   "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.19.0",
   "summary": "Continue a Claude Code or Codex conversation from My Work Open a request in My Work, then open \"Where this came from\". Under each Claude Code or Codex conversation there is now a message box. Type a message and press Send, and that same conversation takes the turn. The reply shows right there ( #619",
   "date": "2026-11-16T02:13:21+00:00"
- },
- {
-  "source": "release: thedotmack/claude-mem",
-  "title": "claude-mem v15.18.5",
-  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.18.5",
-  "summary": "Critical fixes The tree-sitter CLI installs on networks where its download script keeps failing ( #6110 , thanks @rigel905 , closes #6109 ). On some networks tree-sitter-cli's own install.js had its request reset every time, or exited 0 on a truncated file. The pinned SHA-256 check correctly refused",
-  "date": "2026-11-15T18:10:20+00:00"
  },
  {
   "source": "release: unslothai/unsloth",
@@ -1884,38 +1863,101 @@
  },
  {
   "source": "HF Papers (0 up)",
+  "title": "Regularized Score Centering",
+  "link": "https://huggingface.co/papers/2611.21791",
+  "summary": "Asynchronous reinforcement learning increases training throughput, but data from stale policies and numerical mismatch between training and inference can destabilize learning. To stabilize off-policy learning, score centering (SC) removes the effect of reward baselines on the expected update. Our gradient diagnostics show less extreme gradients with SC than with importance sampling (IS), but SC ca",
+  "date": "2026-11-15T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (19 up)",
+  "title": "Weight-Space Programming Doesn't Need Transformers",
+  "link": "https://huggingface.co/papers/2611.22055",
+  "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple",
+  "date": "2026-11-16T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (8 up)",
+  "title": "MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding",
+  "link": "https://huggingface.co/papers/2611.20992",
+  "summary": "Medical image understanding with vision-language models (VLMs) typically relies on autoregressively generating reasoning and answer tokens. These unnecessary tokens make the inference cost scale with the response length and force the answer to be parsed from free-form text, incurring avoidable latency and decision errors. To this end, we introduce MedJev, a system one vision-language decision mode",
+  "date": "2026-11-15T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (19 up)",
+  "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+  "link": "https://huggingface.co/papers/2611.21099",
+  "summary": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on force beneath the model. Second, a frozen model cannot interpret raw force stream",
+  "date": "2026-11-15T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (6 up)",
   "title": "Abstention Direction in Large Language Models: Mechanistic Interpretability of Abstention Across Query Ambiguity, Knowledge Limits, and Safety Alignment",
   "link": "https://huggingface.co/papers/2611.20441",
   "summary": "Abstention, the withholding of a response by a large language model (LLM) under uncertainty or safety risks, is essential for trustworthy models. The causes of abstention fall into three perspectives: ambiguity in the Query (Q), limits of Model Knowledge (MK), and misalignment with Human Values (HV). However, prior analyses of internal representations have focused on HV, using a refusal direction ",
   "date": "2026-11-15T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (3 up)",
   "title": "Flexible Multi-Stack Super-Resolution of Clinical Brain MRI Using Hetero-Orientation Variational Encoding: Expert Reader Evaluation in a Nigerian Cohort",
   "link": "https://huggingface.co/papers/2611.21412",
   "summary": "High-resolution brain MRI is important for neuroradiological assessment, yet routine clinical protocols often rely on fast, anisotropic 2D acquisitions, particularly in resource-constrained settings. These acquisitions may differ in orientation, alignment and anatomical coverage, resulting in partially overlapping image stacks. Existing learning-based super-resolution methods typically rely on sin",
   "date": "2026-11-15T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (3 up)",
   "title": "Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures",
   "link": "https://huggingface.co/papers/2611.20595",
   "summary": "LLM agents answer questions by calling APIs and trusting the results. An API can fail silently. It ignores part of a request, such as a misnamed filter, yet returns HTTP 200 and a plausible but wrong result. Current fixes, such as checklists, reviewer models and LLM judges, ask the model to catch it. But models often see the problem and answer anyway. We present SilentGuard, which moves the decisi",
   "date": "2026-11-15T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (4 up)",
   "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
   "link": "https://huggingface.co/papers/2611.21605",
   "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. We propose Cross-Input Relative Policy Optimization (CrossRPO), which trains agents on c",
   "date": "2026-11-15T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (3 up)",
+  "source": "HF Papers (10 up)",
   "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
   "link": "https://huggingface.co/papers/2611.21479",
   "summary": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into coherent visual responses remains challenging because of complex hand-object dynamics and demanding real-time computation. To address these challenges, we introduce LynnReal-Hand, ",
   "date": "2026-11-15T19:00:00+00:00"
+ },
+ {
+  "source": "HF model (0 dl)",
+  "title": "New on the Hub: sensenova/SenseNova-Loop-9B",
+  "link": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+  "summary": "pipeline: image-text-to-text. tags: transformers, safetensors, sensenova_loop, text-generation, multimodal, image-text-to-text",
+  "date": "2026-11-17T10:16:41+00:00"
+ },
+ {
+  "source": "HF model (0 dl)",
+  "title": "New on the Hub: harness-hub/Qwen3.8-27B-pi-adapted",
+  "link": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+  "summary": "pipeline: ?. tags: peft, safetensors, trl, grpo, async-grpo, lora",
+  "date": "2026-11-16T06:52:31+00:00"
+ },
+ {
+  "source": "HF model (0 dl)",
+  "title": "New on the Hub: apple/FastFrames-L",
+  "link": "https://huggingface.co/apple/FastFrames-L",
+  "summary": "pipeline: text-to-video. tags: safetensors, text-to-video",
+  "date": "2026-11-16T17:21:04+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261117-1",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261117-1",
+  "summary": "refactor(user): share cascading account cleanup ( #22434 )",
+  "date": "2026-11-17T03:38:22+00:00"
+ },
+ {
+  "source": "release: thedotmack/claude-mem",
+  "title": "claude-mem v15.18.5",
+  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v15.18.5",
+  "summary": "Critical fixes The tree-sitter CLI installs on networks where its download script keeps failing ( #6110 , thanks @rigel905 , closes #6109 ). On some networks tree-sitter-cli's own install.js had its request reset every time, or exited 0 on a truncated file. The pinned SHA-256 check correctly refused",
+  "date": "2026-11-15T18:10:20+00:00"
  },
  {
   "source": "HF Papers (0 up)",
@@ -1937,27 +1979,6 @@
   "link": "https://huggingface.co/papers/2611.21218",
   "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities. For the first release, we selected four p",
   "date": "2026-11-15T19:00:00+00:00"
- },
- {
-  "source": "HF model (0 dl)",
-  "title": "New on the Hub: sensenova/SenseNova-Loop-9B",
-  "link": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
-  "summary": "pipeline: image-text-to-text. tags: transformers, safetensors, sensenova_loop, text-generation, multimodal, image-text-to-text",
-  "date": "2026-11-17T10:16:41+00:00"
- },
- {
-  "source": "HF model (0 dl)",
-  "title": "New on the Hub: harness-hub/Qwen3.8-27B-pi-adapted",
-  "link": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
-  "summary": "pipeline: ?. tags: peft, safetensors, trl, grpo, async-grpo, lora",
-  "date": "2026-11-16T06:52:31+00:00"
- },
- {
-  "source": "HF model (337 dl)",
-  "title": "New on the Hub: internlm/Sage-S2.1-Flash",
-  "link": "https://huggingface.co/internlm/Sage-S2.1-Flash",
-  "summary": "pipeline: ?. tags: safetensors, glm5_next",
-  "date": "2026-11-15T02:34:59+00:00"
  },
  {
   "source": "OpenAI",
@@ -2364,13 +2385,6 @@
   "link": "https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or opening inbound firewall ports. Private-to-private connectivity is not yet supported. By Renato Losio",
   "date": "2026-11-15T06:18:00+00:00"
- },
- {
-  "source": "InfoQ",
-  "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
-  "link": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "Cohere recently reported that one of Alibaba\u2019s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered. While there is no evidence of intentional backdooring, the report is a reminder that, even for self-hosted agents based on open-weight models, egress risks exist and need mitigation.",
-  "date": "2026-11-15T02:42:00+00:00"
  },
  {
   "source": "release: ComposioHQ/composio",
