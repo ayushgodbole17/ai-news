@@ -49,20 +49,6 @@
   "date": "2026-11-19T20:03:00+00:00"
  },
  {
-  "source": "DeepMind",
-  "title": "Introducing Gemini 4 Neon",
-  "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-  "summary": "",
-  "date": "2026-11-18T21:35:43+00:00"
- },
- {
-  "source": "DeepMind",
-  "title": "Genie 4 is now available",
-  "link": "https://deepmind.google/blog/genie-4-is-now-available/",
-  "summary": "",
-  "date": "2026-11-18T18:13:42+00:00"
- },
- {
   "source": "OpenAI",
   "title": "Combatting adversarial distillation",
   "link": "https://openai.com/index/combatting-adversarial-distillation",
@@ -124,34 +110,6 @@
   "link": "https://openai.com/index/the-silent-consensus",
   "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
   "date": "2026-11-18T10:00:00+00:00"
- },
- {
-  "source": "OpenAI",
-  "title": "How Sumitomo Life\u2019s leaders helped teams adopt ChatGPT Enterprise",
-  "link": "https://openai.com/business/customer-stories/sumitomo-life",
-  "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-  "date": "2026-11-18T08:00:00+00:00"
- },
- {
-  "source": "OpenAI",
-  "title": "Research acceleration: The jagged frontier",
-  "link": "https://openai.com/index/research-acceleration-jagged-frontier",
-  "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-  "date": "2026-11-18T08:00:00+00:00"
- },
- {
-  "source": "OpenAI",
-  "title": "Inside the Codex sandbox",
-  "link": "https://openai.com/index/inside-the-codex-sandbox",
-  "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-  "date": "2026-11-18T08:00:00+00:00"
- },
- {
-  "source": "OpenAI",
-  "title": "Managing frontier AI risk: From training to deployment",
-  "link": "https://openai.com/index/managing-frontier-ai-risk",
-  "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-  "date": "2026-11-18T06:00:00+00:00"
  },
  {
   "source": "Google AI",
@@ -232,6 +190,13 @@
  },
  {
   "source": "MarkTechPost",
+  "title": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
+  "link": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/",
+  "summary": "Baseten released bison-1 and groundhog-1, open-weight decision models built on Gemma 4. bison-1 scores 76 on the AA Decision Index v2.1, and both models support 128k context and image input. The post Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index appeared first on MarkTechPost .",
+  "date": "2026-11-21T04:01:04+00:00"
+ },
+ {
+  "source": "MarkTechPost",
   "title": "RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only",
   "link": "https://www.marktechpost.com/2026/11/20/radixark-daisyrose-27b-agentic-model/",
   "summary": "RadixArk released DaisyRose-27B, an Apache 2.0 agentic coding model post-trained from Qwen3.8-27B with reinforcement learning only. It more than doubles Terminal Bench 4.1 pass@1 to 12.0 and runs on a single GPU. The post RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only appeared first on MarkTechPost .",
@@ -294,13 +259,6 @@
   "date": "2026-11-18T16:07:50+00:00"
  },
  {
-  "source": "MarkTechPost",
-  "title": "SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode",
-  "link": "https://www.marktechpost.com/2026/11/17/sid-ai-sid-2-agentic-search-swarm/",
-  "summary": "SID AI released SID-2, an agentic search model trained with reinforcement learning. A single agent reaches 0.585 NDCG in 3.11 seconds, and a 12-agent SID-2 Swarm scores 0.720 NDCG, above GPT-6 Astra on SID\u2019s benchmark. The post SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode appeared first on MarkTechPost .",
-  "date": "2026-11-18T07:10:53+00:00"
- },
- {
   "source": "MIT News",
   "title": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
   "link": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
@@ -341,13 +299,6 @@
   "link": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
   "summary": "The speedy microrobot flies without an attached motion-capture system, moving it closer to applications like agriculture or industrial surveillance.",
   "date": "2026-11-18T14:00:00-05:00"
- },
- {
-  "source": "MIT News",
-  "title": "Helping AI text detectors keep up with changing conditions",
-  "link": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
-  "summary": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
-  "date": "2026-11-18T00:00:00-05:00"
  },
  {
   "source": "NVIDIA",
@@ -638,6 +589,13 @@
  },
  {
   "source": "Latent Space",
+  "title": "[AINews] Riemann Hypothesis proved...twice independently",
+  "link": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+  "summary": "November 20 2026 \u2014",
+  "date": "2026-11-21T05:02:13+00:00"
+ },
+ {
+  "source": "Latent Space",
   "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
   "link": "https://latent.space/p/formal-verification/",
   "summary": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
@@ -670,6 +628,13 @@
   "link": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
   "summary": "November 17, 2026 \u2014 GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
   "date": "2026-11-18T10:19:04+00:00"
+ },
+ {
+  "source": "Eugene Yan",
+  "title": "How Public Evals Work and Fail, and What Should Change",
+  "link": "https://eugeneyan.com/writing/public-evals",
+  "summary": "How to read eval scores and what to question, from a teardown of 12 benchmarks.",
+  "date": "2026-11-19T00:00:00+00:00"
  },
  {
   "source": "Pragmatic Engineer",
@@ -806,6 +771,13 @@
  },
  {
   "source": "InfoQ",
+  "title": "How Google Traced GKE API Timeouts to a Linux Kernel TCP Bug",
+  "link": "https://www.infoq.com/news/2026/11/gke-kernel-network-bug/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "Google recently detailed how three interacting bugs across Google Kubernetes Engine (GKE), Private Service Connect, and the Linux kernel caused intermittent Kubernetes API connectivity failures, blocking around 800 developers from deploying to production. By Renato Losio",
+  "date": "2026-11-21T09:44:00+00:00"
+ },
+ {
+  "source": "InfoQ",
   "title": "Meta TLX, a Native GPU Compiler Extension Supporting Advanced Hardware Capabilities",
   "link": "https://www.infoq.com/news/2026/11/meta-triton-tlx-gpu-compiler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "Meta developed Triton Low-Level Extensions (TLX), designed to bridge the gap between high-level GPU programming abstractions and the low-level execution control required to fully exploit modern GPU architectures. By Sergio De Simone",
@@ -903,13 +875,6 @@
   "date": "2026-11-19T03:12:00+00:00"
  },
  {
-  "source": "InfoQ",
-  "title": "LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn",
-  "link": "https://www.infoq.com/news/2026/11/linkedin-celeborn-remote-shuffle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "LinkedIn deployed Apache Celeborn as a shared remote shuffle platform across most Spark and Flink workloads, reducing daily shuffle fetch failures from approximately 750 to 20. The deployment also lowered compute costs by 10%, improved application runtimes by 14%, and reduced shuffle costs per task by nearly 90% through dedicated storage, replication, and data-plane optimizations. By Leela Kumili",
-  "date": "2026-11-18T15:05:00+00:00"
- },
- {
   "source": "ByteByteGo",
   "title": "The Invisible Systems: What Happens Between Services",
   "link": "https://blog.bytebytego.com/p/the-invisible-systems-what-happens",
@@ -924,32 +889,25 @@
   "date": "2026-11-18T16:31:02+00:00"
  },
  {
-  "source": "HN (1131pts)",
+  "source": "HN (1133pts)",
   "title": "Anthropic\u2019s Nasdaq debut",
   "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
   "summary": "",
   "date": "2026-11-19T17:02:40+00:00"
  },
  {
-  "source": "HN (420pts)",
+  "source": "HN (421pts)",
   "title": "Anthropic prices initial public offering",
   "link": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
   "summary": "",
   "date": "2026-11-18T23:30:09+00:00"
  },
  {
-  "source": "HN (192pts)",
-  "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+  "source": "HN (309pts)",
+  "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic\u2019s second day",
   "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
   "summary": "",
   "date": "2026-11-20T13:29:59+00:00"
- },
- {
-  "source": "HN (184pts)",
-  "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
-  "link": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
-  "summary": "",
-  "date": "2026-11-20T17:44:01+00:00"
  },
  {
   "source": "HN (148pts)",
@@ -957,6 +915,13 @@
   "link": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
   "summary": "",
   "date": "2026-11-18T16:41:22+00:00"
+ },
+ {
+  "source": "HN (56pts)",
+  "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+  "link": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+  "summary": "",
+  "date": "2026-11-20T21:18:46+00:00"
  },
  {
   "source": "HN (53pts)",
@@ -980,13 +945,6 @@
   "date": "2026-11-18T15:08:21+00:00"
  },
  {
-  "source": "HN (44pts)",
-  "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
-  "link": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
-  "summary": "",
-  "date": "2026-11-20T21:18:46+00:00"
- },
- {
   "source": "HN (39pts)",
   "title": "Anthropic (ANT) stock lists at nearly $2T valuation",
   "link": "https://news.ycombinator.com/item?id=50562528",
@@ -994,7 +952,7 @@
   "date": "2026-11-19T16:47:32+00:00"
  },
  {
-  "source": "HN (553pts)",
+  "source": "HN (556pts)",
   "title": "Claude solves two open problems in the physics of black holes",
   "link": "https://www.anthropic.com/research/claude-black-hole-physics",
   "summary": "",
@@ -1008,7 +966,7 @@
   "date": "2026-11-19T00:18:18+00:00"
  },
  {
-  "source": "HN (32pts)",
+  "source": "HN (33pts)",
   "title": "An FBI agent called a Claude user about his chats",
   "link": "https://austinpatrick.substack.com/p/when-should-ai-labs-alert-police",
   "summary": "",
@@ -1050,7 +1008,21 @@
   "date": "2026-11-19T01:27:02+00:00"
  },
  {
-  "source": "HN (126pts)",
+  "source": "HN (42pts)",
+  "title": "The Hungry Butler Effect: Concealed Commercial Incentives in LLMs",
+  "link": "https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
+  "summary": "",
+  "date": "2026-11-20T22:18:20+00:00"
+ },
+ {
+  "source": "HN (31pts)",
+  "title": "Llms.txt and MCP didn't move the needle",
+  "link": "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did",
+  "summary": "",
+  "date": "2026-11-20T14:00:23+00:00"
+ },
+ {
+  "source": "HN (129pts)",
   "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
   "link": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
   "summary": "",
@@ -1078,32 +1050,18 @@
   "date": "2026-11-19T10:10:20+00:00"
  },
  {
-  "source": "HN (34pts)",
-  "title": "I have been unemployed for 2y.15YOE,US.What to do?",
-  "link": "https://news.ycombinator.com/item?id=50583761",
-  "summary": "",
-  "date": "2026-11-20T23:18:32+00:00"
- },
- {
-  "source": "HN (1051pts)",
+  "source": "HN (1054pts)",
   "title": "Gemini 4 Neon",
   "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
   "summary": "",
   "date": "2026-11-18T21:34:07+00:00"
  },
  {
-  "source": "HN (367pts)",
+  "source": "HN (370pts)",
   "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
   "link": "https://git-aarvin.github.io/mei/",
   "summary": "",
   "date": "2026-11-19T23:35:35+00:00"
- },
- {
-  "source": "HN (284pts)",
-  "title": "Why is Gemini 4 Carbon taking so long?",
-  "link": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
-  "summary": "",
-  "date": "2026-11-18T04:14:04+00:00"
  },
  {
   "source": "HN (255pts)",
@@ -1120,35 +1078,42 @@
   "date": "2026-11-18T20:20:17+00:00"
  },
  {
-  "source": "HN (271pts)",
+  "source": "HN (276pts)",
   "title": "Google workers tell their employer not to punish schools that don't want AI",
   "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
   "summary": "",
   "date": "2026-11-20T16:59:27+00:00"
  },
  {
-  "source": "HN (269pts)",
+  "source": "HN (270pts)",
   "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
   "link": "https://thedataexchange.media/pete-warden-moonshine/",
   "summary": "",
   "date": "2026-11-19T15:38:12+00:00"
  },
  {
-  "source": "HN (527pts)",
+  "source": "HN (551pts)",
   "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
   "link": "https://signal.org/blog/protecting-your-privacy/",
   "summary": "",
   "date": "2026-11-20T09:42:16+00:00"
  },
  {
-  "source": "HN (496pts)",
+  "source": "HN (497pts)",
   "title": "AI agents ask better questions than KPMG accountants in audit trial",
   "link": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
   "summary": "",
   "date": "2026-11-18T15:49:34+00:00"
  },
  {
-  "source": "HN (118pts)",
+  "source": "HN (59pts)",
+  "title": "ClawDOS \u2013 An AI coding agent for DOS",
+  "link": "http://ricapar.net/ClawDOS/",
+  "summary": "",
+  "date": "2026-11-21T05:38:01+00:00"
+ },
+ {
+  "source": "HN (122pts)",
   "title": "Show HN: Foolscap \u2013 a writing app that reads your book and never writes for you",
   "link": "https://foolscap.works/",
   "summary": "",
@@ -1254,6 +1219,13 @@
  },
  {
   "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent canary.20261121T064420Z-v0.23.3",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/canary.20261121T064420Z-v0.23.3",
+  "summary": "{\"commit\":\"a3b993b98a1c679193bd8d4ea99b89ce7614bfde\",\"kind\":\"canary\",\u2026",
+  "date": "2026-11-21T06:44:21+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
   "title": "hermes-agent Hermes Agent v0.23.3",
   "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3",
   "summary": "Hermes Agent v0.23.3 Release Date: November 19, 2026 Patch release. This tag rolls up the ~370 PRs merged since v0.23.2 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.24.0. About thi",
@@ -1274,11 +1246,11 @@
   "date": "2026-11-20T17:31:40+00:00"
  },
  {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent Hermes Agent canary v0.23.2+canary.20261119T064637Z",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2%2Bcanary.20261119T064637Z",
-  "summary": "Hermes Agent v0.23.2+canary.20261119T064637Z (v0.23.2+canary.20261119T064637Z) Release Date: November 19, 2026 Downloads Hermes Desktop OS Architecture Download macOS Apple Silicon (M-series) DMG Windows x86 (64-bit) MSIX Windows ARM (arm64 / aarch64) MSIX Native install/chat smoke Download availabi",
-  "date": "2026-11-19T07:54:29+00:00"
+  "source": "release: PrefectHQ/fastmcp",
+  "title": "fastmcp v4.2.4: Burn After Reading",
+  "link": "https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.4",
+  "summary": "Fixes a race where two concurrent token requests could redeem one OAuth proxy authorization code or refresh token twice ( GHSA-78c8-3jhx-5mg7 ), and keeps a revoked proxy access token from validating again after a refresh. Also, a tool transform that can't apply now hides only its own tool instead o",
+  "date": "2026-11-21T05:24:22+00:00"
  },
  {
   "source": "release: PrefectHQ/fastmcp",
@@ -1407,13 +1379,6 @@
   "date": "2026-11-20T14:16:33+00:00"
  },
  {
-  "source": "release: debpalash/VoiceStudio",
-  "title": "VoiceStudio v0.5.9-beta.6 \u2014 VoiceStudio",
-  "link": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.6",
-  "summary": "Download Platform Download Signing Windows x64 Installer \u26a0\ufe0f Unsigned: SmartScreen shows \"Windows protected your PC\"; choose More info \u2192 Run anyway Windows ARM64 (experimental) Installer \u26a0\ufe0f Unsigned: SmartScreen shows \"Windows protected your PC\"; choose More info \u2192 Run anyway macOS Apple Silicon DMG ",
-  "date": "2026-11-18T05:21:42+00:00"
- },
- {
   "source": "release: deepseek-ai/deepseek-harness",
   "title": "deepseek-harness v0.2.2-rc.5",
   "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.5",
@@ -1433,13 +1398,6 @@
   "link": "https://github.com/farion1231/cc-switch/releases/tag/v4.0.36",
   "summary": "CC Switch v4.0.36 \u672c\u7248\u672c\u65b0\u589e \u63d2\u4ef6 \u9875\u9762\uff0c\u53ef\u4ee5\u5728 CC Switch \u91cc\u5b89\u88c5\u3001\u542f\u7528\u3001\u66f4\u65b0\u3001\u5378\u8f7d Claude Code\u3001Codex\u3001Grok Build\u3001MiniMax Code\u3001OpenClaw\u3001Pi \u7684\u63d2\u4ef6\uff0c\u5e76\u7ba1\u7406 Claude Code\u3001Codex\u3001Grok Build \u7684\u63d2\u4ef6\u5e02\u573a\u3002\u6280\u80fd\u4ed3\u5e93\u73b0\u5728\u53ef\u4ee5\u7528 \u8bbf\u95ee\u4ee4\u724c\u8bfb\u53d6\u79c1\u6709\u4ed3\u5e93 \uff1b\u7ecf\u672c\u5730\u8def\u7531\u7684\u4f9b\u5e94\u5546\u53ef\u4ee5\u8bbe\u7f6e \u8d39\u7528\u500d\u7387 \uff1b\u4f1a\u8bdd\u7ba1\u7406\u91cc\u80fd\u770b\u5230 Claude Code \u684c\u9762\u7248\u7684 \u7ae0\u8282 \u3002 \u53e6\u5916\u4fee\u590d\u4e86 Codex \u5f00\u4e86\u5b98\u65b9\u989d\u5ea6\u4fdd\u62a4\u540e\u81ea\u52a8\u5ba1\u6279\u4e5f\u88ab\u62e6\u4e0b\uff1bCodex \u805a\u5408\u6a21\u5f0f\u4e0b\u65b0\u53d1\u5e03\u7684\u5b98\u65b9\u6a21\u578b\u8981\u5f88\u4e45\u624d\u51fa\u73b0\uff1bOpenCode \u5347\u7ea7\u5230 2.x ",
   "date": "2026-11-19T15:01:52+00:00"
- },
- {
-  "source": "release: farion1231/cc-switch",
-  "title": "cc-switch CC Switch v4.0.35",
-  "link": "https://github.com/farion1231/cc-switch/releases/tag/v4.0.35",
-  "summary": "CC Switch v4.0.35 \u672c\u7248\u672c\u8ba9 Claude Code / Claude Desktop \u91cc\u7528 ChatGPT \u8d26\u53f7\u7684 Codex \u5361\u7247\u80fd\u7528\u4e0a GPT-6.2 \uff0c\u4f1a\u8bdd\u7ba1\u7406\u91cc\u53ef\u4ee5\u770b\u5230 Codex /goal \u7684 \u5b8c\u6574\u76ee\u6807 \uff0c\u8bf7\u6c42\u8be6\u60c5\u91cc\u7684\u8bf7\u6c42 ID \u53ef\u4ee5 \u4e00\u952e\u590d\u5236 \u3002 \u53e6\u5916\u4fee\u590d\u4e86 Claude Code \u7684 auto \u6a21\u5f0f\u5728\u5173\u4e0d\u6389\u601d\u8003\u7684\u6a21\u578b\u4e0a\u88ab\u6574\u4f53\u62e6\u4e0b\uff1bCodex \u805a\u5408\u6a21\u5f0f\u548c\u300c\u6253\u5f00\u7ec8\u7aef\u300d\u62a5 Responses-Lite \u9700\u8981 reasoning.context \uff1bCodex \u538b\u7f29\u4e0a\u4e0b\u6587\u540e\u7b2c\u4e00\u6761\u8bf7\u6c42\u88ab\u62d2\uff1b\u7528\u91cf\u9875\u81ea\u5b9a\u4e49\u65e5\u671f\u9009\u5230\u5f88\u65e9\u7684\u5e74\u4efd\u65f6\u5361\u6b7b\uff1bSkill \u7684\u6258\u7ba1\u526f\u672c\u4e0d\u5728\u4e86\u5c31\u5378\u8f7d\u4e0d\u6389\u7b49\u95ee\u9898",
-  "date": "2026-11-18T07:47:23+00:00"
  },
  {
   "source": "release: firecrawl/firecrawl",
@@ -1579,14 +1537,14 @@
   "title": "mlflow Model Catalog",
   "link": "https://github.com/mlflow/mlflow/releases/tag/model-catalog%2Flatest",
   "summary": "Per-provider model catalog files. Updated weekly by CI.",
-  "date": "2026-11-21T01:13:11+00:00"
+  "date": "2026-11-21T06:27:30+00:00"
  },
  {
-  "source": "release: modelcontextprotocol/servers",
-  "title": "servers v2.5.0",
-  "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
-  "summary": "Security fixes v2.5.0 fixes eight vulnerabilities in three servers. Upgrade mcp-server-git to 2026.11.18, @modelcontextprotocol/server-filesystem to 2.4.0 and @modelcontextprotocol/server-everything to 2.3.1. Package Affected Fixed in mcp-server-git through 2026.11.11 2026.11.18 @modelcontextprotoco",
-  "date": "2026-11-18T09:29:05+00:00"
+  "source": "release: modelscope/FunASR",
+  "title": "FunASR v1.4.28",
+  "link": "https://github.com/modelscope/FunASR/releases/tag/v1.4.28",
+  "summary": "Official PyPI Downloads Verified funasr-1.4.28-py3-none-any.whl : 1016346 bytes; SHA-256 fce3969e68edd714a1d94bb4f186af845344f2aa176d4a9de6022fd0ff676823 . funasr-1.4.28.tar.gz : 1094400 bytes; SHA-256 1631cd4d2e1541a779753a26058431f0d291db804da3a23dfcbb67464e091de4 . Both official distributions mat",
+  "date": "2026-11-21T09:21:17+00:00"
  },
  {
   "source": "release: morluto/rea",
@@ -1715,13 +1673,6 @@
   "date": "2026-11-19T10:33:18+00:00"
  },
  {
-  "source": "release: volcengine/OpenViking",
-  "title": "OpenViking @openviking/react 0.1.14",
-  "link": "https://github.com/volcengine/OpenViking/releases/tag/react%400.1.14",
-  "summary": "en-US Minor Changes 128b63d : AgentConnect accepts isEnterprise to show English or Chinese team onboarding instructions for agents supported by the official installer, preserving API key masking and copying. Existing instructions remain the default. 196fad5 : Add OpenViking CLI session, file downloa",
-  "date": "2026-11-18T09:45:18+00:00"
- },
- {
   "source": "release: wonderwhy-er/DesktopCommanderMCP",
   "title": "DesktopCommanderMCP 0.3.4-alpha.0",
   "link": "https://github.com/wonderwhy-er/DesktopCommanderMCP/releases/tag/0.3.4-alpha.0",
@@ -1748,6 +1699,181 @@
   "link": "https://github.com/xerj-org/xerj/releases/tag/v1.0.0-rc.103",
   "summary": "Linux-only release, not marked latest. This release ships Linux binaries (x86_64 and aarch64, glibc and musl, plus .deb for both glibc targets), the XERJ Query-1 model bundle (the rc.102 bundle, unchanged, under the rc.103 name) and one SHA256SUMS . macOS and Windows builds need the release workflow",
   "date": "2026-11-18T20:31:28+00:00"
+ },
+ {
+  "source": "HF Papers (1 up)",
+  "title": "Time Series Structure Learning with Local Causal Parent Discovery",
+  "link": "https://huggingface.co/papers/2611.26232",
+  "summary": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality. These challenges complicate the practical application of causal discovery algorithms, which already suffer from high computational and sample complexity in the general case. To mitigate these issues, this work intro",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (3 up)",
+  "title": "Teaching Vision-Language-Action Models to Stop Safely",
+  "link": "https://huggingface.co/papers/2611.26239",
+  "summary": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain challenging. Our evaluation reveals that policies which suppress a task from its initial state can sti",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (4 up)",
+  "title": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
+  "link": "https://huggingface.co/papers/2611.25604",
+  "summary": "End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarantee proportional gains. However, additional data do not guarantee better policies: a demonstration that benefits one planner may be redundant or harmful to another. Existing curation methods typically infer data value from intrinsic sample properties or training-dependent proxies t",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (16 up)",
+  "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+  "link": "https://huggingface.co/papers/2611.26627",
+  "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations. To isolate how much of t",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (10 up)",
+  "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
+  "link": "https://huggingface.co/papers/2611.25567",
+  "summary": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the video unfolds, identifying the attempted step, locating it in time, and assessing its execution. Existing online detectors do not use the instruction text, while instruction-conditioned methods operat",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (2 up)",
+  "title": "AURA: AUdio-dRiven streaming Avatar",
+  "link": "https://huggingface.co/papers/2611.26540",
+  "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties. AURA generates video chunk by chunk with a rolling KV",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (2 up)",
+  "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+  "link": "https://huggingface.co/papers/2611.26211",
+  "summary": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference. Existing speculative methods combine their strengths through fast draft generation and selective target regeneration guided by rewards on decoded frames. However, verification covers only the external scorer's evaluation dimensions and adds deco",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (4 up)",
+  "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
+  "link": "https://huggingface.co/papers/2611.26511",
+  "summary": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels. Despite their architectural differences, these methods all share the same premise: geometry is first compressed into a latent space and only then m",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (4 up)",
+  "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+  "link": "https://huggingface.co/papers/2611.26450",
+  "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero training examples and zero runtime hooks, while bounding per-layer normalization drift and preserving n",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (10 up)",
+  "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
+  "link": "https://huggingface.co/papers/2611.26286",
+  "summary": "Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal reviews. At ICLR, measured overlap rose from 12.0% in 2026 to 21.3% in 2027, in reviews from the same stage of the review process, with year-on-year rises at NeurIPS, ICML and the F1000 and PLOS journals. A third ICLR review of a paper added 5.46 new problems to the other two in ",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (14 up)",
+  "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
+  "link": "https://huggingface.co/papers/2611.26408",
+  "summary": "It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks. However, it is unknown how dedicated training of these networks can contribute to the successes of weight-space programming. We present a benchmark of LLM-driven weight-space programming on vision models, in which five LLMs edit convoluti",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (1 up)",
+  "title": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
+  "link": "https://huggingface.co/papers/2611.25935",
+  "summary": "Facial deepfake detectors are usually trained on blending fakes, where a generated face is pasted back into a real frame. Recent generators synthesize the entire face and leave no traces of blending. On a benchmark of 19 datasets released from 2019 to 2026, the best prior facial deepfake detector reaches a mean AUROC of 96.2% on ten blending datasets, but none exceeds 78.1% on five datasets of ent",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (22 up)",
+  "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+  "link": "https://huggingface.co/papers/2611.26073",
+  "summary": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decisions, the Alternative Annotator Test (Alt-Test) was introduced for dense settings where all items are annotated by the same annotators. However, in many large-scale annotation settings, items are annotat",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (3 up)",
+  "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+  "link": "https://huggingface.co/papers/2611.26617",
+  "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics. We introduce O^{2}LaF, built on a simple principle: one prior, t",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (41 up)",
+  "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+  "link": "https://huggingface.co/papers/2611.26590",
+  "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to s",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (5 up)",
+  "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
+  "link": "https://huggingface.co/papers/2611.26248",
+  "summary": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments. Existing benchmarks mainly evaluate the first two abilities, in a terminal or in a closed loop that selects from predefined candidates. Eva",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (25 up)",
+  "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
+  "link": "https://huggingface.co/papers/2611.26107",
+  "summary": "Unified multimodal models aim to support visual understanding and generation within a single framework. However, prevailing approaches often separate their visual representations or backbone computation to accommodate the different requirements of these two tasks, which limits the degree of unification. In this paper, we present HiUni, which revisits this design choice and explores whether a pretr",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF model (0 dl)",
+  "title": "New on the Hub: unsloth/Inkling-2-Mini-GGUF",
+  "link": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+  "summary": "pipeline: image-text-to-text. tags: gguf, conversational, image-text-to-text, moe, unsloth, endpoints_compatible",
+  "date": "2026-11-20T13:09:48+00:00"
+ },
+ {
+  "source": "HF model (1578 dl)",
+  "title": "New on the Hub: microsoft/Aion-1.0-Instruct-2.3B",
+  "link": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B",
+  "summary": "pipeline: text-generation. tags: transformers, safetensors, aion_instruct, text-generation, custom_code, summarization",
+  "date": "2026-11-18T17:05:50+00:00"
+ },
+ {
+  "source": "DeepMind",
+  "title": "Introducing Gemini 4 Neon",
+  "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+  "summary": "",
+  "date": "2026-11-18T21:35:43+00:00"
+ },
+ {
+  "source": "DeepMind",
+  "title": "Genie 4 is now available",
+  "link": "https://deepmind.google/blog/genie-4-is-now-available/",
+  "summary": "",
+  "date": "2026-11-18T18:13:42+00:00"
+ },
+ {
+  "source": "InfoQ",
+  "title": "LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn",
+  "link": "https://www.infoq.com/news/2026/11/linkedin-celeborn-remote-shuffle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "summary": "LinkedIn deployed Apache Celeborn as a shared remote shuffle platform across most Spark and Flink workloads, reducing daily shuffle fetch failures from approximately 750 to 20. The deployment also lowered compute costs by 10%, improved application runtimes by 14%, and reduced shuffle costs per task by nearly 90% through dedicated storage, replication, and data-plane optimizations. By Leela Kumili",
+  "date": "2026-11-18T15:05:00+00:00"
+ },
+ {
+  "source": "HN (184pts)",
+  "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
+  "link": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+  "summary": "",
+  "date": "2026-11-20T17:44:01+00:00"
+ },
+ {
+  "source": "HN (34pts)",
+  "title": "I have been unemployed for 2y.15YOE,US.What to do?",
+  "link": "https://news.ycombinator.com/item?id=50583761",
+  "summary": "",
+  "date": "2026-11-20T23:18:32+00:00"
+ },
+ {
+  "source": "release: NousResearch/hermes-agent",
+  "title": "hermes-agent Hermes Agent canary v0.23.2+canary.20261119T064637Z",
+  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2%2Bcanary.20261119T064637Z",
+  "summary": "Hermes Agent v0.23.2+canary.20261119T064637Z (v0.23.2+canary.20261119T064637Z) Release Date: November 19, 2026 Downloads Hermes Desktop OS Architecture Download macOS Apple Silicon (M-series) DMG Windows x86 (64-bit) MSIX Windows ARM (arm64 / aarch64) MSIX Native install/chat smoke Download availabi",
+  "date": "2026-11-19T07:54:29+00:00"
  },
  {
   "source": "arXiv",
@@ -2044,139 +2170,6 @@
   "date": "2026-11-20T00:00:00-05:00"
  },
  {
-  "source": "HF Papers (1 up)",
-  "title": "Time Series Structure Learning with Local Causal Parent Discovery",
-  "link": "https://huggingface.co/papers/2611.26232",
-  "summary": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality. These challenges complicate the practical application of causal discovery algorithms, which already suffer from high computational and sample complexity in the general case. To mitigate these issues, this work intro",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (3 up)",
-  "title": "Teaching Vision-Language-Action Models to Stop Safely",
-  "link": "https://huggingface.co/papers/2611.26239",
-  "summary": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain challenging. Our evaluation reveals that policies which suppress a task from its initial state can sti",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (2 up)",
-  "title": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
-  "link": "https://huggingface.co/papers/2611.25604",
-  "summary": "End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarantee proportional gains. However, additional data do not guarantee better policies: a demonstration that benefits one planner may be redundant or harmful to another. Existing curation methods typically infer data value from intrinsic sample properties or training-dependent proxies t",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (14 up)",
-  "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
-  "link": "https://huggingface.co/papers/2611.26627",
-  "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations. To isolate how much of t",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (9 up)",
-  "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
-  "link": "https://huggingface.co/papers/2611.25567",
-  "summary": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the video unfolds, identifying the attempted step, locating it in time, and assessing its execution. Existing online detectors do not use the instruction text, while instruction-conditioned methods operat",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (2 up)",
-  "title": "AURA: AUdio-dRiven streaming Avatar",
-  "link": "https://huggingface.co/papers/2611.26540",
-  "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties. AURA generates video chunk by chunk with a rolling KV",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (2 up)",
-  "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
-  "link": "https://huggingface.co/papers/2611.26211",
-  "summary": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference. Existing speculative methods combine their strengths through fast draft generation and selective target regeneration guided by rewards on decoded frames. However, verification covers only the external scorer's evaluation dimensions and adds deco",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (4 up)",
-  "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
-  "link": "https://huggingface.co/papers/2611.26511",
-  "summary": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels. Despite their architectural differences, these methods all share the same premise: geometry is first compressed into a latent space and only then m",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (4 up)",
-  "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
-  "link": "https://huggingface.co/papers/2611.26450",
-  "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero training examples and zero runtime hooks, while bounding per-layer normalization drift and preserving n",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (10 up)",
-  "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
-  "link": "https://huggingface.co/papers/2611.26286",
-  "summary": "Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal reviews. At ICLR, measured overlap rose from 12.0% in 2026 to 21.3% in 2027, in reviews from the same stage of the review process, with year-on-year rises at NeurIPS, ICML and the F1000 and PLOS journals. A third ICLR review of a paper added 5.46 new problems to the other two in ",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (13 up)",
-  "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
-  "link": "https://huggingface.co/papers/2611.26408",
-  "summary": "It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks. However, it is unknown how dedicated training of these networks can contribute to the successes of weight-space programming. We present a benchmark of LLM-driven weight-space programming on vision models, in which five LLMs edit convoluti",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (1 up)",
-  "title": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
-  "link": "https://huggingface.co/papers/2611.25935",
-  "summary": "Facial deepfake detectors are usually trained on blending fakes, where a generated face is pasted back into a real frame. Recent generators synthesize the entire face and leave no traces of blending. On a benchmark of 19 datasets released from 2019 to 2026, the best prior facial deepfake detector reaches a mean AUROC of 96.2% on ten blending datasets, but none exceeds 78.1% on five datasets of ent",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (21 up)",
-  "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
-  "link": "https://huggingface.co/papers/2611.26073",
-  "summary": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decisions, the Alternative Annotator Test (Alt-Test) was introduced for dense settings where all items are annotated by the same annotators. However, in many large-scale annotation settings, items are annotat",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (2 up)",
-  "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
-  "link": "https://huggingface.co/papers/2611.26617",
-  "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics. We introduce O^{2}LaF, built on a simple principle: one prior, t",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (41 up)",
-  "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
-  "link": "https://huggingface.co/papers/2611.26590",
-  "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to s",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (5 up)",
-  "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
-  "link": "https://huggingface.co/papers/2611.26248",
-  "summary": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments. Existing benchmarks mainly evaluate the first two abilities, in a terminal or in a closed loop that selects from predefined candidates. Eva",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (25 up)",
-  "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
-  "link": "https://huggingface.co/papers/2611.26107",
-  "summary": "Unified multimodal models aim to support visual understanding and generation within a single framework. However, prevailing approaches often separate their visual representations or backbone computation to accommodate the different requirements of these two tasks, which limits the degree of unification. In this paper, we present HiUni, which revisits this design choice and explores whether a pretr",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "HF model (0 dl)",
-  "title": "New on the Hub: unsloth/Inkling-2-Mini-GGUF",
-  "link": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
-  "summary": "pipeline: image-text-to-text. tags: gguf, conversational, image-text-to-text, moe, unsloth, endpoints_compatible",
-  "date": "2026-11-20T13:09:48+00:00"
- },
- {
-  "source": "HF model (918 dl)",
-  "title": "New on the Hub: RadixArk/DaisyRose-27B",
-  "link": "https://huggingface.co/RadixArk/DaisyRose-27B",
-  "summary": "pipeline: image-text-to-text. tags: transformers, safetensors, qwen3_5, image-text-to-text, daisyrose, qwen3.8",
-  "date": "2026-11-18T05:31:35+00:00"
- },
- {
   "source": "release: ruvnet/ruflo",
   "title": "ruflo v3.78.0 \u2014 security batch + dream-cycle neural/memory fixes",
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.78.0",
@@ -2189,13 +2182,6 @@
   "link": "https://huggingface.co/papers/2611.26268",
   "summary": "Mixture of Block Attention (MoBA) reduces long-context computation by selecting key-value (KV) blocks for each query. FlashMoBA implements MoBA efficiently but retains a fixed Top-k budget and query-centric schedule. Fixed Top-k applies one budget across different score distributions and couples routing to task granularity; query-range ownership fragments K/V reuse when several ranges select the s",
   "date": "2026-11-18T19:00:00+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript",
-  "link": "https://www.marktechpost.com/2026/11/17/anthropic-claude-code-code-mode-javascript-tool-calls/",
-  "summary": "Anthropic has added Code Mode to Claude Code v2.1.323. The experimental feature lets Claude write JavaScript that chains Bash, Read and Edit calls in 1 step, and keep talking while long commands run. The post Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript appeared first on MarkTechPost .",
-  "date": "2026-11-18T06:53:28+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -2294,20 +2280,6 @@
   "link": "https://www.infoq.com/news/2026/11/vercel-ui-sdk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can compose accessible components and operate them through a documented agent bridge. By Daniel Dominguez",
   "date": "2026-11-18T10:12:00+00:00"
- },
- {
-  "source": "InfoQ",
-  "title": "AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account",
-  "link": "https://www.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "AWS has detailed tunnel endpoints, a PrivateLink endpoint type that gives a consumer VPC access to an entire network segment in another account rather than one resource at a time, over an overlapping address space and with consumer-initiated connections only. The consumer must wrap traffic in GENEVE; only TCP and DNS pass, and access logs cannot attribute traffic to a workload behind the endpoint.",
-  "date": "2026-11-18T09:29:00+00:00"
- },
- {
-  "source": "InfoQ",
-  "title": "Yelp Migrates Cassandra to EKS by Moving EBS Volumes",
-  "link": "https://www.infoq.com/news/2026/11/kubernetes-cassandra-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "Yelp has moved its Cassandra fleet from legacy self-managed Kubernetes clusters to Amazon EKS by re-pointing existing EBS volumes at new pods, rather than streaming data between nodes. By Claudio Masolo",
-  "date": "2026-11-18T09:00:00+00:00"
  },
  {
   "source": "release: BerriAI/litellm",
@@ -2497,13 +2469,6 @@
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.112.0-dev.1",
   "summary": "Verify Docker Image Signature cosign verify \\ --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \\ --certificate-oidc-issuer https://token.actions.githubusercontent.com \\ ghcr.io/berriai/litellm:v1.112.0-dev.1 What's Changed test(database",
   "date": "2026-11-20T00:03:31+00:00"
- },
- {
-  "source": "release: NousResearch/hermes-agent",
-  "title": "hermes-agent Hermes Agent canary v0.23.2+canary.20261118T064620Z",
-  "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2%2Bcanary.20261118T064620Z",
-  "summary": "Hermes Agent v0.23.2+canary.20261118T064620Z (v0.23.2+canary.20261118T064620Z) Release Date: November 18, 2026 Downloads Hermes Desktop OS Architecture Download macOS Apple Silicon (M-series) DMG Windows x86 (64-bit) MSIX Windows ARM (arm64 / aarch64) MSIX Native install/chat smoke Download availabi",
-  "date": "2026-11-18T07:55:35+00:00"
  },
  {
   "source": "release: infiniflow/ragflow",
@@ -2798,13 +2763,6 @@
   "link": "https://arxiv.org/abs/2611.23807",
   "summary": "Scalable Vector Graphics (SVG) generation models write a graphic as code with one forward pass per token, so drawing is slow. Speculative decoding speeds them up losslessly, and block drafters guess many tokens per pass. On SVG, many of their rounds accept the whole draft and end only at the verification window. We find that their misses are rare and clumped, and that they stay accurate far deeper",
   "date": "2026-11-19T00:00:00-05:00"
- },
- {
-  "source": "HF Papers (3 up)",
-  "title": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
-  "link": "https://huggingface.co/papers/2611.24161",
-  "summary": "Vision-Language Models increasingly rely on textual reasoning to solve advanced multimodal tasks. Despite its effectiveness, this paradigm faces two fundamental limitations. First, relying on textual reasoning alone can limit perceptual ability in vision-centric questions, where accurate answers depend on interpreting task-relevant visual evidence. Second, applying textual reasoning uniformly acro",
-  "date": "2026-11-18T05:05:18+00:00"
  },
  {
   "source": "release: BerriAI/litellm",
@@ -3115,265 +3073,6 @@
   "date": "2026-11-18T10:01:01+00:00"
  },
  {
-  "source": "release: n8n-io/n8n",
-  "title": "n8n n8n@2.49.1",
-  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.49.1",
-  "summary": "2.49.1 (2026-11-18) Bug Fixes core: Give fresh installs a random instance ID ( #44274 ) ( 06498b9 ) core: Keep small objects inside an Error in sandboxed expressions ( #44300 ) ( 0300e53 ) core: Treat instance owners and admins as team project members in credential checks ( #44182 ) ( 9698f86 ) Feat",
-  "date": "2026-11-18T08:32:02+00:00"
- },
- {
-  "source": "release: n8n-io/n8n",
-  "title": "n8n n8n@2.48.5",
-  "link": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.48.5",
-  "summary": "2.48.5 (2026-11-18) Bug Fixes AI Agent Node: Keep tool-call history separate for each input item ( #44044 ) ( 4f16701 ) AI Agent Node: Stop adding newlines between streamed text chunks ( #43822 ) ( 19d9fa4 ) core: Give fresh installs a random instance ID ( #44276 ) ( 1f15447 ) core: Hand dollar prop",
-  "date": "2026-11-18T08:55:17+00:00"
- },
- {
-  "source": "arXiv",
-  "title": "RehearsalBench: Can AI Predict What Happens When You Change a Company?",
-  "link": "https://arxiv.org/abs/2611.22480",
-  "summary": "Organizations increasingly ask AI systems what will happen if they change how they operate: which work to automate, which team to resize, what a voice agent will do to waiting times. We introduce RehearsalBench, a benchmark that measures whether AI models can diagnose an operation, choose an intervention, and forecast its consequences. Each model is placed in a simulated bank contact center fitted",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "The Only Edge Was Memorized in Training: LLM Trading Agents Around Earnings and Bad News",
-  "link": "https://arxiv.org/abs/2611.22177",
-  "summary": "Large language model (LLM) trading agents are tested on news, but news reaches stock prices within minutes, and a benchmark that replays headlines at their publication time finds no alpha in trading on them. Money can then remain in two places, before news whose date is known, such as earnings announcements, and after bad news, if the market's fall went too far. However, studies of LLMs and earnin",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "Multi-Agent Memory Inconsistency: Where Factual Conflicts Disappear in LLM Agents",
-  "link": "https://arxiv.org/abs/2611.22245",
-  "summary": "Multi-agent delegation lets LLM systems distribute evidence collection across workers with separate contexts. This creates a consistency challenge: facts retrieved by workers may be missing from the evidence available to the lead for a joint conclusion. We introduce a benchmark and evidence-flow profiler for studying multi-agent memory inconsistency through controlled factual conflicts in Harvey L",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "JET: Just-Enough Exploration Tuning for Efficient Tool-Calling Agents in Repository-Level Question Answering",
-  "link": "https://arxiv.org/abs/2611.22539",
-  "summary": "In repository-level question answering (QA), an agent explores a code repository with tools and should answer a question once enough information is gathered. Nevertheless, we find that LLM agents often continue to invoke tools even after the gathered information is already sufficient to answer. We call this phenomenon over-exploration. Moreover, even though existing methods improve task performanc",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-  "link": "https://arxiv.org/abs/2611.23219",
-  "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper we study an autonomous paradigm in which, given basic primitives, resources, an",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "Threat Landscape of Vibe Coding and the Road to Secure Autonomy",
-  "link": "https://arxiv.org/abs/2611.21822",
-  "summary": "Vibe coding is reshaping software development, enabling faster implementation and allowing individuals with limited programming experience to describe requirements in natural language while AI agents write, test, and deploy the code. As these agents evolve into autonomous systems that execute commands, manage dependencies, access cloud resources, and interact with other agents, their security risk",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "Eight in Ten LLMs Leak System-Prompt Secrets: Nevan, an Agentic Capture-the-Flag Study",
-  "link": "https://arxiv.org/abs/2611.21956",
-  "summary": "We audit instruction-hierarchy enforcement across 363 text-in/text-out models from the OpenRouter catalog. The research question we answer with this experiment is which models disclose a protected secret embedded in the system prompt, and through which techniques. Each model guards a secret 16-character flag set in its system prompt, while an artificial intelligence (AI) agent (OpenCode, powered b",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "MedGuardBench: A Patient-Oriented Benchmark for Personalized Guardrail Development",
-  "link": "https://arxiv.org/abs/2611.22069",
-  "summary": "Safety is personal: the same action can be safe for one person but unsafe for another. Yet current guardrails judge content without considering who is affected. Using medication safety, we introduce \\textit{patient-conditioned medication guarding}, which predicts a safety verdict and 17 risk categories from a patient profile and prescription. We release \\textbf{MedGuardBench}, a drug-disjoint benc",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "Is 4-Bit Quantization More Than Noise to a Chat Model's Safety Behaviour? Attributing Behavioural Shifts with Matched Perturbations",
-  "link": "https://arxiv.org/abs/2611.22186",
-  "summary": "Chat models on phones and laptops are usually 4-bit copies of the model that was evaluated, and audits of such copies disagree about what quantization does to refusal. A 4-bit build is one of many weight perturbations of the same size, so a change in its behaviour could come from its specific rounding error or from any perturbation that large. In a pre-registered study of three 3-4B chat models, w",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "EGS: A Complementary Safety Framework for Educational LLMs",
-  "link": "https://arxiv.org/abs/2611.22203",
-  "summary": "Large Language Models (LLMs) offer strong potential for personalized education, but adolescent-facing deployment raises risks of toxic, biased, misleading, or developmentally inappropriate content. We argue that educational safety should move beyond binary refusal: student queries are often ambiguous or curiosity-driven, requiring contextual guidance rather than simple blocking. We introduce the E",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "GapLeak: When Privacy-Preserving LLM-based Web Agents Become a Privacy Risk",
-  "link": "https://arxiv.org/abs/2611.22223",
-  "summary": "Large Language Model (LLM)-based web agents rely on data minimization and least privilege to protect user privacy. We show that these principles are necessary but insufficient: they constrain authorized sources, but not higher-sensitivity sources that remain reachable. A website can request a field unavailable from authorized sources, creating an information gap. To complete the task, a goal-drive",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "Dressed in Authority: Practical Black-Box Jailbreaking of MLLMs via Visual Trust Bias",
-  "link": "https://arxiv.org/abs/2611.22292",
-  "summary": "Multimodal large language models (MLLMs) are rapidly advancing, yet their safety remains a critical concern, especially under jailbreak attempts. Existing MLLM jailbreaks either inject fragile adversarial perturbations into irrelevant images or synthesize toxic visual cues to achieve text-driven attack intents. In contrast, a more practical MLLM jailbreak emphasizes enhancing attack efficacy direc",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "CrisisBench: an evaluation suite for crisis counseling AI",
-  "link": "https://arxiv.org/abs/2611.21622",
-  "summary": "Background: Crisis helplines are essential to mental health systems but are often understaffed and underfunded. LLMs could support counselors, but existing benchmarks do not capture the escalation, risk assessment, and de-escalation central to crisis conversations, while privacy restrictions limit use of real transcripts. Methods: We present CrisisBench, a privacy-preserving suite for single- and ",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "FieldGuide: A Corpus Map for Token-Efficient Agentic Document Exploration",
-  "link": "https://arxiv.org/abs/2611.21647",
-  "summary": "Generative AI agents can help journalists explore large document collections. But exploratory workflows can require substantial token use and time, especially when the task is broad and the relevant subquestions are not yet known. This paper introduces FieldGuide, an agent-facing corpus map that organizes a document collection into a topic hierarchy and exposes tools for corpus orientation, scoped",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "TUSI: A Citation-Grounded Graph-Based Benchmark",
-  "link": "https://arxiv.org/abs/2611.21823",
-  "summary": "Evaluating retrieval-augmented generation (RAG) systems in Persian law remains challenging because benchmarks lack realism, grounding, and coverage of legal reasoning. Existing resources are either synthetically generated from statutory texts, lacking natural information needs, or derived from informal legal question--answer sources without explicit linkage to authoritative legal documents, making",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "RAG in a Trenchcoat: When Minimal Memory Is Enough for Agentic Systems, and When It Isn't",
-  "link": "https://arxiv.org/abs/2611.22179",
-  "summary": "Agentic memory research has accumulated extraction, supersession, reflection, and graph synthesis on top of retrieval-augmented generation. However, we found that almost none of those primitives earn their cost in our tested memory benchmarks: we show this with BRIDGE, a deliberately minimal RAG memory with chained observation notes, hybrid BM25 with cosine retrieval, and chronological rendering, ",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "NONSENSE: Non-Semantic Strings Expose Semanticity Gaps in Dense Retrieval",
-  "link": "https://arxiv.org/abs/2611.22353",
-  "summary": "Dense retrieval is central to modern search, question answering, and retrieval-augmented generation, where high similarity is often treated as evidence of semantic relevance. We examine how far this assumption can be stressed. NONSENSE is a black-box sparse-edit probe that constructs visibly non-semantic strings while forbidding query-term copying, optimizing only the dense similarity between a qu",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "StitchRAG: Constructing Compact and Evidence-Preserving Contexts for RAG with Diffusion-Based Stitching",
-  "link": "https://arxiv.org/abs/2611.22766",
-  "summary": "Retrieval-augmented generation (RAG) improves factuality by grounding large language models (LLMs) in external evidence. However, long retrieved contexts incur computational overhead and can even hurt performance due to noisy or irrelevant content. We propose \\textsc{StitchRAG}, a framework for constructing compact context in RAG. \\textsc{StitchRAG} builds a faithful, information-dense context whi",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "RagHarnessDebugger: Jev-Guided Agentic RAG in Contract Inference Repair Auditing",
-  "link": "https://arxiv.org/abs/2611.22991",
-  "summary": "Agentic systems using retrieval-augmented generation (RAG) must repair their own answers by gathering more evidence, testing alternative policies and deciding if, when, and what repairs are needed. Yet how do we know if a system's repairs are working when metrics like accuracy can be misleading? We present RagHarnessDebugger, a framework that records every repair decision in a Jev-guided harness f",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
-  "link": "https://arxiv.org/abs/2611.23225",
-  "summary": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory constructions, wrapped M5-branes and exact worldsheet constructions. Its open-book benchmark inventory contains ",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "Cross-cultural Adaptation of Recipes for Low-Resource Languages: A Benchmark and Multilingual Culinary Lexicon for Hausa, Yor\\`ub\\'a, and Igbo",
-  "link": "https://arxiv.org/abs/2611.22708",
-  "summary": "Recent multilingual large language models (LLMs) have improved machine translation, yet culturally adaptive translation for low-resource languages (LRLs) remains underexplored. This is particularly challenging for recipes, where ingredients, cooking tools, measurements, and procedures may require adaptation to the target cultural context. In this work, we introduce ReciLoReL, a benchmark of 600 ex",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "MoE--LoRA Methods for Multilingual Adaptation: A Systematic Empirical Study",
-  "link": "https://arxiv.org/abs/2611.23158",
-  "summary": "Routed low-rank adapters offer a parameter-efficient means to improve the performance of large language models (LLMs) across tasks. Hence, it is assumed that they can also be used to improve the support of low-resource languages in LLMs, which currently serve English far better than the thousands of other languages spoken worldwide. However, this assumption has never been verified empirically unde",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "Honest Brokers in AI Regulation: How Public Comments Introduce Evidence to Regulators",
-  "link": "https://arxiv.org/abs/2611.21948",
-  "summary": "The regulation of Artificial Intelligence is susceptible to various forms of capture by industry actors that hold undue influence over the policymaking process, due in part to their information advantage in developing these technologies. In the following paper, we investigate the roles of public commenters in providing evidence to potential regulation in the USA. We build a corpus of 40 potential ",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "ARC-2: Continuous Compliance Through Delta Management",
-  "link": "https://arxiv.org/abs/2611.21811",
-  "summary": "ARC 1 introduced a three-layer governance architecture for autonomous systems comprising model safety validation, cognitive certification (CRAB), and operational authorization (LEA). However, it did not address how compliance should be maintained after deployment. This paper introduces Delta Management, a continuous governance framework that measures deviations between a system's current operation",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "VisHead-Spec: Head-Routed Visual Attention for Multimodal Speculative Decoding",
-  "link": "https://arxiv.org/abs/2611.21839",
-  "summary": "Speculative decoding accelerates vision-language models(VLMs) while preserving the target model's outputs, but its speedup diminishes under high concurrency serving as the system becomes more compute bounded as the batch size increases. This problem is pronounced for multimodal speculative decoding as the long range of the image tokens in the prompt can significantly increase the computational cos",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "KVUse: Reusable-KV User Memory for Efficient LLM Recommenders",
-  "link": "https://arxiv.org/abs/2611.21920",
-  "summary": "Memory-augmented recommenders built on large language models (LLMs) maintain a natural-language profile of each user. These profiles are updated by a user profile update path that revises the profile as new interactions arrive and are consumed by downstream task paths like ranking. Because these user profiles are stored as text in the user memory, every ranking LLM call that consumes them must spl",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "KV-LTM: Persistent Per-Session KV Caches as Long-Term Memory for Personal Assistants",
-  "link": "https://arxiv.org/abs/2611.21998",
-  "summary": "Personal assistants accumulate months of conversations, but today's long-term memory stacks put derivation or selection between a question and its evidence. In a system-level comparison on LongMemEval, two commercial assistants scored well below the same model reading the history offline [1], consistent with, but not isolating, content loss between write and read. We propose KV-LTM: a memory tier ",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
-  "link": "https://arxiv.org/abs/2611.22115",
-  "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, atten",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "TAILROLL: Tail-Aware Rollout Acceleration for RL-Based LLM Post-Training",
-  "link": "https://arxiv.org/abs/2611.22206",
-  "summary": "RL post-training of large language models (LLMs) is bottlenecked by rollout: heavy-tailed responses leave engines idle as each step waits for the longest response. Asynchronous training masks, but does not eliminate, idle time. We distinguish imbalance waste (uneven placement and decode contention) from straggler waste (waiting for the longest response). Tail length, not average load, often sets t",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "From Token Changes to Task Failures: Bit Flips in a Shared KV-Cache Block",
-  "link": "https://arxiv.org/abs/2611.22243",
-  "summary": "In LLM serving systems with prefix caching, each KV block of a shared system prompt is held in GPU memory as a single physical copy, which every request with that prompt reads. Our earlier work measured change and showed that one bit flip in such a block changes many later responses without making them visibly degenerate. This paper extends that work by measuring how often the changed responses ar",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "XM-Sparse: High-Throughput Sparse-Attention LLM Serving over Scale-up Memory Pools",
-  "link": "https://arxiv.org/abs/2611.22280",
-  "summary": "Sparse attention has been increasingly adopted by production LLMs for long-context inference, yet serving systems must still retain the full KV history, making GPU HBM capacity a key limit on serving concurrency. Existing systems offload the KV cache to host memory, but suffer from the limited bandwidth of PCIe and the limited capacity of host memory. Emerging scale-up memory pools (e.g., X-Mem) r",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "SpecSearch: Towards Hardware-Aware Efficient Speculative Decoding",
-  "link": "https://arxiv.org/abs/2611.22296",
-  "summary": "Speculative decoding (SD) accelerates large language model (LLM) inference, but its optimal configuration depends jointly on workload characteristics, GPU hardware, and available memory. For example, on the RTX~5090, the state-of-the-art speculative drafter DFlash achieves $3.50\\times$ the throughput of autoregressive (AR) decoding at low concurrency, but only $0.76\\times$ at high concurrency with",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "InfuseLoop: Cross-Trajectory Latent Injection for Scalable Parallel Looped Transformers",
-  "link": "https://arxiv.org/abs/2611.22426",
-  "summary": "Parallel Looped Transformers (PLTs) use otherwise idle decoding compute by overlapping recurrent iterations. However, vanilla PLTs scale poorly with depth: they exhibit training-loss spikes, and their quality gains shrink as more loops are added. The benefit of additional loops depends on the information available to each iteration, so we examine whether the existing computational dependencies lim",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "Storing the Gemma 4 K=V Cache Once: Exact Global-KV Memory Savings in a Paged Serving Engine with Unchanged Attention Kernels",
-  "link": "https://arxiv.org/abs/2611.23035",
-  "summary": "In the global attention layers of Gemma 4 31B, the value is the normalized key projection, and the key is the value scaled by a fixed weight, with rotary position encoding on one quarter of its dimensions. The Gemma 4 report states that this design reduces the global KV cache by up to 37.5%, but the open serving engines that we checked still store a full key and a full value: 1,024 values per KV h",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
-  "source": "arXiv",
-  "title": "HyCoInfer: Cloud-Edge Collaborative Inference for Large Language Models on Heterogeneous GPU-FPGA Architectures",
-  "link": "https://arxiv.org/abs/2611.22086",
-  "summary": "Large language model (LLM) serving relies predominantly on cloud GPUs, yet autoregressive decoding is memory-bound and often leaves their arithmetic units underutilized. Edge FPGAs offer attractive decoding efficiency, but are ill suited to sustaining a high-concurrency serving workload alone. This paper presents HyCoInfer, a heterogeneous cloud-edge serving system that assigns prefill to cloud GP",
-  "date": "2026-11-18T00:00:00-05:00"
- },
- {
   "source": "TechCrunch AI",
   "title": "India\u2019s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
   "link": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
@@ -3386,19 +3085,5 @@
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.784",
   "summary": "Release API image v2.11.784",
   "date": "2026-11-18T10:43:18+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.783",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.783",
-  "summary": "Release API image v2.11.783",
-  "date": "2026-11-18T06:38:00+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261118-3",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261118-3",
-  "summary": "test: align shared fixtures with EE permissions ( #22483 )",
-  "date": "2026-11-18T09:21:19+00:00"
  }
 ]
