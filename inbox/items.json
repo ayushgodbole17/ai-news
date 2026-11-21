@@ -924,7 +924,7 @@
   "date": "2026-11-18T16:31:02+00:00"
  },
  {
-  "source": "HN (1130pts)",
+  "source": "HN (1131pts)",
   "title": "Anthropic\u2019s Nasdaq debut",
   "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
   "summary": "",
@@ -945,7 +945,7 @@
   "date": "2026-11-20T13:29:59+00:00"
  },
  {
-  "source": "HN (180pts)",
+  "source": "HN (184pts)",
   "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
   "link": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
   "summary": "",
@@ -980,6 +980,13 @@
   "date": "2026-11-18T15:08:21+00:00"
  },
  {
+  "source": "HN (44pts)",
+  "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+  "link": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+  "summary": "",
+  "date": "2026-11-20T21:18:46+00:00"
+ },
+ {
   "source": "HN (39pts)",
   "title": "Anthropic (ANT) stock lists at nearly $2T valuation",
   "link": "https://news.ycombinator.com/item?id=50562528",
@@ -987,25 +994,11 @@
   "date": "2026-11-19T16:47:32+00:00"
  },
  {
-  "source": "HN (37pts)",
-  "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
-  "link": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
-  "summary": "",
-  "date": "2026-11-20T21:18:46+00:00"
- },
- {
   "source": "HN (553pts)",
   "title": "Claude solves two open problems in the physics of black holes",
   "link": "https://www.anthropic.com/research/claude-black-hole-physics",
   "summary": "",
   "date": "2026-11-19T17:30:44+00:00"
- },
- {
-  "source": "HN (181pts)",
-  "title": "Claude was trained on protein sequences at scale",
-  "link": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
-  "summary": "",
-  "date": "2026-11-18T03:47:43+00:00"
  },
  {
   "source": "HN (61pts)",
@@ -1057,7 +1050,7 @@
   "date": "2026-11-19T01:27:02+00:00"
  },
  {
-  "source": "HN (123pts)",
+  "source": "HN (126pts)",
   "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
   "link": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
   "summary": "",
@@ -1085,14 +1078,21 @@
   "date": "2026-11-19T10:10:20+00:00"
  },
  {
-  "source": "HN (1050pts)",
+  "source": "HN (34pts)",
+  "title": "I have been unemployed for 2y.15YOE,US.What to do?",
+  "link": "https://news.ycombinator.com/item?id=50583761",
+  "summary": "",
+  "date": "2026-11-20T23:18:32+00:00"
+ },
+ {
+  "source": "HN (1051pts)",
   "title": "Gemini 4 Neon",
   "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
   "summary": "",
   "date": "2026-11-18T21:34:07+00:00"
  },
  {
-  "source": "HN (366pts)",
+  "source": "HN (367pts)",
   "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
   "link": "https://git-aarvin.github.io/mei/",
   "summary": "",
@@ -1120,7 +1120,7 @@
   "date": "2026-11-18T20:20:17+00:00"
  },
  {
-  "source": "HN (263pts)",
+  "source": "HN (271pts)",
   "title": "Google workers tell their employer not to punish schools that don't want AI",
   "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
   "summary": "",
@@ -1134,7 +1134,7 @@
   "date": "2026-11-19T15:38:12+00:00"
  },
  {
-  "source": "HN (508pts)",
+  "source": "HN (527pts)",
   "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
   "link": "https://signal.org/blog/protecting-your-privacy/",
   "summary": "",
@@ -1148,7 +1148,7 @@
   "date": "2026-11-18T15:49:34+00:00"
  },
  {
-  "source": "HN (117pts)",
+  "source": "HN (118pts)",
   "title": "Show HN: Foolscap \u2013 a writing app that reads your book and never writes for you",
   "link": "https://foolscap.works/",
   "summary": "",
@@ -1298,8 +1298,8 @@
   "source": "release: Significant-Gravitas/AutoGPT",
   "title": "AutoGPT Preview seed fixture (rolling)",
   "link": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/preview-seed-fixture",
-  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@9c2d9e1a523b (migration head: 20261112120000_account_deletion_confirmation_skipped). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's o",
-  "date": "2026-11-20T03:59:33+00:00"
+  "summary": "Rolling, fully SYNTHETIC preview-database seed fixture baked from dev@10ddacffc54f (migration head: 20261120120000_add_onboarding_wizard_writer). Preview environments restore fixture.dump.gz (custom-format, gzipped, platform schema only, including _prisma_migrations) BEFORE running a PR's own migrat",
+  "date": "2026-11-21T03:39:54+00:00"
  },
  {
   "source": "release: Significant-Gravitas/AutoGPT",
@@ -1632,6 +1632,13 @@
  },
  {
   "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.80.0 \u2014 SIM handoff ingestion, darwin 0.16, federation and ledger fixes",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.80.0",
+  "summary": "New: signed SIM handoff ingestion ruflo metaharness sim-ingest ingests signed SIM handoffs from MetaHarness Darwin ( #5054 ). It is opt-in. @metaharness/darwin is now pinned to ~0.16.0 . That version fixes the 0.15.0 bug that could leave SIM journals or snapshots unreadable. Fixes Federation ( #5031",
+  "date": "2026-11-21T03:34:47+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
   "title": "ruflo v3.79.1 \u2014 README images on npm",
   "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.79.1",
   "summary": "Fix: README images and links on npm On npmjs.com the ruflo and @claude-flow/cli README pages were missing most images (41 of 51 on ruflo ), and their relative links went to 404 pages. npm resolves relative README URLs against the package's repository.directory , so docs/assets/\u2026 was fetched from ruf",
@@ -1652,13 +1659,6 @@
   "date": "2026-11-19T17:00:34+00:00"
  },
  {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.78.0 \u2014 security batch + dream-cycle neural/memory fixes",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.78.0",
-  "summary": "Published: @claude-flow/cli , claude-flow and ruflo 3.78.0 on latest . The @claude-flow/mcp 3.1.8 and @claude-flow/security 3.0.8 standalone packages were also republished. It is a minor bump because @claude-flow/neural 3.1.0 and @claude-flow/memory 3.4.0 ( #5041 ) add surface. Since 3.77.2 Security",
-  "date": "2026-11-19T07:14:43+00:00"
- },
- {
   "source": "release: thedotmack/claude-mem",
   "title": "claude-mem v16.0.2",
   "link": "https://github.com/thedotmack/claude-mem/releases/tag/v16.0.2",
@@ -1671,13 +1671,6 @@
   "link": "https://github.com/thedotmack/claude-mem/releases/tag/v16.0.1",
   "summary": "Critical fixes Signing in to Codex works again on Windows while claude-mem runs ( #6332 , thanks @ffe111 , closes #6331 ). The private Codex home that claude-mem's app-server uses got its auth.json through a hard link to your real ~/.codex/auth.json . Codex refuses to replace a credential file with ",
   "date": "2026-11-19T11:43:39+00:00"
- },
- {
-  "source": "release: thedotmack/claude-mem",
-  "title": "claude-mem v16.0.0",
-  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v16.0.0",
-  "summary": "My Work puts what needs you first My Work, the page that shows what your agents are doing, was rebuilt from a full UI review ( #6210 , #6304 ). What needs you sits at the top, long lists fold, and every page works on a phone, by keyboard and with a screen reader. What needs you comes first. On the h",
-  "date": "2026-11-18T03:11:11+00:00"
  },
  {
   "source": "release: unslothai/unsloth",
@@ -2052,13 +2045,20 @@
  },
  {
   "source": "HF Papers (1 up)",
+  "title": "Time Series Structure Learning with Local Causal Parent Discovery",
+  "link": "https://huggingface.co/papers/2611.26232",
+  "summary": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality. These challenges complicate the practical application of causal discovery algorithms, which already suffer from high computational and sample complexity in the general case. To mitigate these issues, this work intro",
+  "date": "2026-11-18T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (3 up)",
   "title": "Teaching Vision-Language-Action Models to Stop Safely",
   "link": "https://huggingface.co/papers/2611.26239",
   "summary": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain challenging. Our evaluation reveals that policies which suppress a task from its initial state can sti",
   "date": "2026-11-18T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (2 up)",
   "title": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
   "link": "https://huggingface.co/papers/2611.25604",
   "summary": "End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarantee proportional gains. However, additional data do not guarantee better policies: a demonstration that benefits one planner may be redundant or harmful to another. Existing curation methods typically infer data value from intrinsic sample properties or training-dependent proxies t",
@@ -2100,21 +2100,21 @@
   "date": "2026-11-18T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (3 up)",
+  "source": "HF Papers (4 up)",
   "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
   "link": "https://huggingface.co/papers/2611.26450",
   "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero training examples and zero runtime hooks, while bounding per-layer normalization drift and preserving n",
   "date": "2026-11-18T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (9 up)",
+  "source": "HF Papers (10 up)",
   "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
   "link": "https://huggingface.co/papers/2611.26286",
   "summary": "Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal reviews. At ICLR, measured overlap rose from 12.0% in 2026 to 21.3% in 2027, in reviews from the same stage of the review process, with year-on-year rises at NeurIPS, ICML and the F1000 and PLOS journals. A third ICLR review of a paper added 5.46 new problems to the other two in ",
   "date": "2026-11-18T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (12 up)",
+  "source": "HF Papers (13 up)",
   "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
   "link": "https://huggingface.co/papers/2611.26408",
   "summary": "It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks. However, it is unknown how dedicated training of these networks can contribute to the successes of weight-space programming. We present a benchmark of LLM-driven weight-space programming on vision models, in which five LLMs edit convoluti",
@@ -2128,7 +2128,7 @@
   "date": "2026-11-18T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (20 up)",
+  "source": "HF Papers (21 up)",
   "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
   "link": "https://huggingface.co/papers/2611.26073",
   "summary": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decisions, the Alternative Annotator Test (Alt-Test) was introduced for dense settings where all items are annotated by the same annotators. However, in many large-scale annotation settings, items are annotat",
@@ -2142,7 +2142,7 @@
   "date": "2026-11-18T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (35 up)",
+  "source": "HF Papers (41 up)",
   "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
   "link": "https://huggingface.co/papers/2611.26590",
   "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to s",
@@ -2163,13 +2163,6 @@
   "date": "2026-11-18T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (16 up)",
-  "title": "Accelerating Mixture of Block Attention via Dynamic Routing, KV-Centric Execution and Runtime Pipelining",
-  "link": "https://huggingface.co/papers/2611.26268",
-  "summary": "Mixture of Block Attention (MoBA) reduces long-context computation by selecting key-value (KV) blocks for each query. FlashMoBA implements MoBA efficiently but retains a fixed Top-k budget and query-centric schedule. Fixed Top-k applies one budget across different score distributions and couples routing to task granularity; query-range ownership fragments K/V reuse when several ranges select the s",
-  "date": "2026-11-18T19:00:00+00:00"
- },
- {
   "source": "HF model (0 dl)",
   "title": "New on the Hub: unsloth/Inkling-2-Mini-GGUF",
   "link": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
@@ -2182,6 +2175,20 @@
   "link": "https://huggingface.co/RadixArk/DaisyRose-27B",
   "summary": "pipeline: image-text-to-text. tags: transformers, safetensors, qwen3_5, image-text-to-text, daisyrose, qwen3.8",
   "date": "2026-11-18T05:31:35+00:00"
+ },
+ {
+  "source": "release: ruvnet/ruflo",
+  "title": "ruflo v3.78.0 \u2014 security batch + dream-cycle neural/memory fixes",
+  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.78.0",
+  "summary": "Published: @claude-flow/cli , claude-flow and ruflo 3.78.0 on latest . The @claude-flow/mcp 3.1.8 and @claude-flow/security 3.0.8 standalone packages were also republished. It is a minor bump because @claude-flow/neural 3.1.0 and @claude-flow/memory 3.4.0 ( #5041 ) add surface. Since 3.77.2 Security",
+  "date": "2026-11-19T07:14:43+00:00"
+ },
+ {
+  "source": "HF Papers (16 up)",
+  "title": "Accelerating Mixture of Block Attention via Dynamic Routing, KV-Centric Execution and Runtime Pipelining",
+  "link": "https://huggingface.co/papers/2611.26268",
+  "summary": "Mixture of Block Attention (MoBA) reduces long-context computation by selecting key-value (KV) blocks for each query. FlashMoBA implements MoBA efficiently but retains a fixed Top-k budget and query-centric schedule. Fixed Top-k applies one budget across different score distributions and couples routing to task granularity; query-range ownership fragments K/V reuse when several ranges select the s",
+  "date": "2026-11-18T19:00:00+00:00"
  },
  {
   "source": "MarkTechPost",
@@ -3066,13 +3073,6 @@
   "date": "2026-11-19T07:32:05+00:00"
  },
  {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261118",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261118",
-  "summary": "feat(channels): support an optional standalone chatter process ( #22417 )",
-  "date": "2026-11-18T03:03:25+00:00"
- },
- {
   "source": "release: langchain-ai/langchain",
   "title": "langchain langchain-xai==1.4.1",
   "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.1",
@@ -3092,20 +3092,6 @@
   "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.1",
   "summary": "Changes since langchain-groq==1.2.0 release(groq): 1.2.1 ( #41930 ) feat(groq): send langsmith_gateway headers from the client ( #41903 )",
   "date": "2026-11-18T17:27:24+00:00"
- },
- {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.111.0-rc.1",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.111.0-rc.1",
-  "summary": "Verify Docker Image Signature cosign verify \\ --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \\ --certificate-oidc-issuer https://token.actions.githubusercontent.com \\ ghcr.io/berriai/litellm:v1.111.0-rc.1 What's Changed test(integrati",
-  "date": "2026-11-18T02:22:41+00:00"
- },
- {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm v1.110.0",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.110.0",
-  "summary": "Verify Docker Image Signature cosign verify \\ --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \\ --certificate-oidc-issuer https://token.actions.githubusercontent.com \\ ghcr.io/berriai/litellm:v1.110.0 What's Changed fix(gemini)!: answe",
-  "date": "2026-11-18T01:36:48+00:00"
  },
  {
   "source": "release: ComposioHQ/composio",
@@ -3393,20 +3379,6 @@
   "link": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
   "summary": "Founded in February, Humyn Labs competes with startups including Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
   "date": "2026-11-18T11:30:00+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "Nvidia\u2019s startup stakes ballooned to $65B, but Huang\u2019s exit puts future deals in doubt",
-  "link": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
-  "summary": "The value of Nvidia\u2019s private investments has nearly tripled over the past nine months, fueled by Jensen Huang\u2019s aggressive dealmaking and rising valuations of its existing portfolio companies.",
-  "date": "2026-11-18T01:44:21+00:00"
- },
- {
-  "source": "The Verge AI",
-  "title": "Satya Nadella says he\u2019s AGI-pilled now",
-  "link": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
-  "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the political economy's organization around AGI?\" he asked at [\u2026]",
-  "date": "2026-11-17T20:48:18-05:00"
  },
  {
   "source": "release: firecrawl/firecrawl",
