@@ -71,6 +71,13 @@
  },
  {
   "source": "Simon Willison",
+  "title": "Muru",
+  "link": "https://simonwillison.net/2026/Nov/21/muru/",
+  "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been publishing an extraordinarily detailed account of ",
+  "date": "2026-11-21T23:56:28+00:00"
+ },
+ {
+  "source": "Simon Willison",
   "title": "Quoting Ravi Vakil",
   "link": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
   "summary": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now it seems ",
@@ -103,6 +110,13 @@
   "link": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
   "summary": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth the wait. My favorite new feature is this one: For applications that send reads to standbys, Postgr",
   "date": "2026-11-19T20:43:57+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels",
+  "link": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/",
+  "summary": "TensorLean, from Columbia University and CertiK, formally verifies production GPU kernels at the PTX level using Lean. It checked 149 kernel instances, proved 83 correct, and found 38 bugs in FlashAttention, DeepGEMM and more. The post A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels appeared first on MarkTechPost .",
+  "date": "2026-11-22T01:51:43+00:00"
  },
  {
   "source": "MarkTechPost",
@@ -166,13 +180,6 @@
   "link": "https://www.marktechpost.com/2026/11/19/ai-security-incident-response-playbook-2026/",
   "summary": "AI-powered attackers are driving more frequent attacks on AI infrastructure. This guide reviews 6 months of incidents, sets out a 4-pillar incident response playbook, and shows it in practice through Fireworks AI and Klue. The post Not If, But How: Responding to Security Incidents in the Age of AI Attackers appeared first on MarkTechPost .",
   "date": "2026-11-19T10:45:57+00:00"
- },
- {
-  "source": "MarkTechPost",
-  "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index",
-  "link": "https://www.marktechpost.com/2026/11/18/google-gemini-4-neon-release/",
-  "summary": "Google released Gemini 4 Neon, a 1M-context Gemini 4 model priced at $3/$15 per million tokens. It scores 61 on the AA Intelligence Index and ranks #1 on AA\u2019s Coding Agent Index. The post Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index appeared first on MarkTechPost .",
-  "date": "2026-11-19T06:52:26+00:00"
  },
  {
   "source": "MIT News",
@@ -560,13 +567,6 @@
   "date": "2026-11-19T23:07:30+00:00"
  },
  {
-  "source": "AWS Architecture",
-  "title": "Aderant modernizes analytics data pipeline with Apache Iceberg and AWS Lambda",
-  "link": "https://aws.amazon.com/blogs/architecture/aderant-modernizes-analytics-data-pipeline-with-apache-iceberg-and-aws-lambda/",
-  "summary": "Learn how Aderant modernized the data pipeline behind its Stridyn legal analytics platform with Apache Iceberg, AWS Lambda, and AWS Glue, moving from 15-minute batch cycles to an event-driven medallion architecture that processes change data capture events in single-digit seconds for 700 tenants, with 10-26x faster queries and 77 percent lower cost.",
-  "date": "2026-11-19T00:36:23+00:00"
- },
- {
   "source": "Martin Fowler",
   "title": "Fragments: November 20",
   "link": "https://martinfowler.com/fragments/2026-11-20.html",
@@ -654,7 +654,7 @@
   "source": "InfoQ",
   "title": "QCon San Francisco 2026: Use AI to Multiply Your Team as a Staff Engineer",
   "link": "https://www.infoq.com/news/2026/11/ai-staff-engineer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "At QCon San Francisco 2026, Jordan Cutler, Senior Staff Engineer and Web Platform Tech Lead at Pinterest, presented how the role of a staff engineer changes when every engineer has access to the same AI tools. By Daniel Dominguez",
+  "summary": "At QCon San Francisco 2026, Jordan Cutler, senior staff engineer and web platform tech lead at Pinterest, presented how the role of a staff engineer changes when every engineer has access to the same AI tools. By Daniel Dominguez",
   "date": "2026-11-19T13:00:00+00:00"
  },
  {
@@ -700,14 +700,14 @@
   "date": "2026-11-19T17:02:40+00:00"
  },
  {
-  "source": "HN (493pts)",
+  "source": "HN (504pts)",
   "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic\u2019s second day",
   "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
   "summary": "",
   "date": "2026-11-20T13:29:59+00:00"
  },
  {
-  "source": "HN (65pts)",
+  "source": "HN (66pts)",
   "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
   "link": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
   "summary": "",
@@ -728,21 +728,21 @@
   "date": "2026-11-19T16:47:32+00:00"
  },
  {
-  "source": "HN (31pts)",
+  "source": "HN (32pts)",
   "title": "Anthropic's IPO bank closed position meant to stabilize stock",
   "link": "https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20",
   "summary": "",
   "date": "2026-11-21T12:43:24+00:00"
  },
  {
-  "source": "HN (567pts)",
+  "source": "HN (569pts)",
   "title": "Claude solves two open problems in the physics of black holes",
   "link": "https://www.anthropic.com/research/claude-black-hole-physics",
   "summary": "",
   "date": "2026-11-19T17:30:44+00:00"
  },
  {
-  "source": "HN (196pts)",
+  "source": "HN (197pts)",
   "title": "Markets plunge: Nasdaq erases 2026 gains, S&P, Dow in corrections",
   "link": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
   "summary": "",
@@ -768,13 +768,6 @@
   "link": "https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
   "summary": "",
   "date": "2026-11-20T22:18:20+00:00"
- },
- {
-  "source": "HN (47pts)",
-  "title": "Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction",
-  "link": "https://arxiv.org/abs/2607.29378",
-  "summary": "",
-  "date": "2026-11-19T01:27:02+00:00"
  },
  {
   "source": "HN (31pts)",
@@ -805,28 +798,21 @@
   "date": "2026-11-19T10:10:20+00:00"
  },
  {
-  "source": "HN (598pts)",
+  "source": "HN (642pts)",
   "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
   "link": "https://news.ycombinator.com/item?id=50583761",
   "summary": "",
   "date": "2026-11-20T23:18:32+00:00"
  },
  {
-  "source": "HN (373pts)",
+  "source": "HN (374pts)",
   "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
   "link": "https://git-aarvin.github.io/mei/",
   "summary": "",
   "date": "2026-11-19T23:35:35+00:00"
  },
  {
-  "source": "HN (256pts)",
-  "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
-  "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-  "summary": "",
-  "date": "2026-11-19T00:29:45+00:00"
- },
- {
-  "source": "HN (279pts)",
+  "source": "HN (280pts)",
   "title": "Google workers tell their employer not to punish schools that don't want AI",
   "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
   "summary": "",
@@ -840,28 +826,35 @@
   "date": "2026-11-19T15:38:12+00:00"
  },
  {
-  "source": "HN (570pts)",
+  "source": "HN (573pts)",
   "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
   "link": "https://signal.org/blog/protecting-your-privacy/",
   "summary": "",
   "date": "2026-11-20T09:42:16+00:00"
  },
  {
-  "source": "HN (156pts)",
+  "source": "HN (161pts)",
   "title": "ClawDOS \u2013 An AI coding agent for DOS",
   "link": "http://ricapar.net/ClawDOS/",
   "summary": "",
   "date": "2026-11-21T05:38:01+00:00"
  },
  {
-  "source": "HN (124pts)",
+  "source": "HN (48pts)",
+  "title": "Pandex \u2013 Official European Law for AI Agents, over MCP",
+  "link": "https://www.pandex.io",
+  "summary": "",
+  "date": "2026-11-21T20:47:41+00:00"
+ },
+ {
+  "source": "HN (127pts)",
   "title": "Show HN: Foolscap \u2013 a writing app that reads your book and never writes for you",
   "link": "https://foolscap.works/",
   "summary": "",
   "date": "2026-11-19T13:21:20+00:00"
  },
  {
-  "source": "HN (167pts)",
+  "source": "HN (175pts)",
   "title": "FBI reportedly investigating apparent hack of its criminal database",
   "link": "https://www.bbc.com/news/articles/cvze7de86pk3o",
   "summary": "",
@@ -1043,13 +1036,6 @@
   "date": "2026-11-19T23:01:53+00:00"
  },
  {
-  "source": "release: anthropics/claude-agent-sdk-python",
-  "title": "claude-agent-sdk-python v0.2.185",
-  "link": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.185",
-  "summary": "PyPI: https://pypi.org/project/claude-agent-sdk/0.2.185/ pip install claude-agent-sdk==0.2.185",
-  "date": "2026-11-19T02:13:09+00:00"
- },
- {
   "source": "release: anthropics/claude-agent-sdk-typescript",
   "title": "claude-agent-sdk-typescript v0.3.330",
   "link": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.330",
@@ -1064,13 +1050,6 @@
   "date": "2026-11-19T22:14:51+00:00"
  },
  {
-  "source": "release: anthropics/claude-agent-sdk-typescript",
-  "title": "claude-agent-sdk-typescript v0.3.328",
-  "link": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.328",
-  "summary": "What's changed Added onFailure to mcp_tool hooks in the Settings type: with \"block\" , a hook whose call fails blocks the action it guards Added CLAUDE_CODE_DISABLE_DEFERRED_TOOL_RESUME : set it in the env option to stop resume and continue from running a tool call that a hook deferred; settings can'",
-  "date": "2026-11-19T01:14:00+00:00"
- },
- {
   "source": "release: anthropics/claude-code",
   "title": "claude-code v2.1.330",
   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
@@ -1083,13 +1062,6 @@
   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
   "summary": "What's changed Added a trust dialog warning that says where a folder's hooks are declared Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load Added this session's scheduled tasks, /loop wakeups, the goal and this convers",
   "date": "2026-11-19T22:14:41+00:00"
- },
- {
-  "source": "release: anthropics/claude-code",
-  "title": "claude-code v2.1.328",
-  "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
-  "summary": "What's changed Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions with no permission mode start in it Added \"onFailure\": \"block\" for mcp_tool hooks, as for command and HTTP hooks: a hook",
-  "date": "2026-11-19T01:14:04+00:00"
  },
  {
   "source": "release: apache/airflow",
@@ -1125,6 +1097,13 @@
   "link": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.7",
   "summary": "Download Platform Download Signing Windows x64 Installer \u26a0\ufe0f Unsigned: SmartScreen shows \"Windows protected your PC\"; choose More info \u2192 Run anyway Windows ARM64 (experimental) Installer \u26a0\ufe0f Unsigned: SmartScreen shows \"Windows protected your PC\"; choose More info \u2192 Run anyway macOS Apple Silicon DMG ",
   "date": "2026-11-20T14:16:33+00:00"
+ },
+ {
+  "source": "release: deepseek-ai/deepseek-harness",
+  "title": "deepseek-harness v0.2.3-alpha.1",
+  "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.3-alpha.1",
+  "summary": "\u4e2d\u6587 | English \u65b0\u589e\u529f\u80fd \u63d2\u4ef6\u5e02\u573a\u652f\u6301\u6dfb\u52a0 Git \u4ed3\u5e93\u4f5c\u4e3a\u63d2\u4ef6\u6765\u6e90\uff0c\u79c1\u6709\u4ed3\u5e93\u4e2d\u7684\u63d2\u4ef6\u4e5f\u80fd\u6d4f\u89c8\u548c\u5b89\u88c5\u3002 @acehinnnqru \u65b0\u589e\u5b9e\u9a8c\u6027\u65f6\u95f4\u7ebf\u63d2\u4ef6\uff0c\u53ef\u67e5\u770b\u667a\u80fd\u4f53\u4efb\u52a1\u6811\u3001\u963b\u585e\u4e8b\u9879\u548c\u8fdb\u5c55\u62a5\u544a\uff0c\u70b9\u51fb\u8fdb\u5ea6\u6761\u53ef\u5c55\u5f00\u4efb\u52a1\u6811\uff0c\u4efb\u52a1\u4e0e\u62a5\u544a\u8bed\u8a00\u53ef\u9009\u8ddf\u968f\u5bf9\u8bdd\u3002 @Magolor \u65b0\u589e\u4ee3\u7801\u5ba1\u9605\u9875\u9762\uff0c\u53ef\u96c6\u4e2d\u67e5\u770b\u672c\u4eba\u76f8\u5173\u7684 GitHub PR\uff0c\u6d4f\u89c8\u63cf\u8ff0\u548c\u53d8\u66f4\uff0c\u5e76\u5728\u9875\u5185\u4e0e\u667a\u80fd\u4f53\u534f\u4f5c\u5ba1\u9605\u3002 @LegGasai \u4ee3\u7801\u5ba1\u9605\u63d2\u4ef6\u65b0\u589e\u6269\u5c55\u673a\u5236\uff0c\u63d2\u4ef6\u53ef\u6dfb\u52a0\u81ea\u5df1\u7684\u5ba1\u9605\u89c6\u56fe\u548c\u884c\u6ce8\u89e3\uff0c\u5e76\u5728\u5de5\u5177\u680f\u3001\u6587\u4ef6\u83dc\u5355\u548c\u8bc4\u8bba\u6846\u4e2d\u52a0\u5165\u81ea\u5b9a\u4e49\u64cd\u4f5c\uff1b\u540c\u65f6\u652f\u6301\u8bc4\u5ba1\u548c\u5408\u5e76 GitLab\u3002 @LegGasai \u65b0\u589e\u4f1a\u8bdd\u72b6\u6001\u533a\u57df\uff0c\u53ef\u96c6\u4e2d\u67e5\u770b\u5de5\u4f5c\u76ee\u5f55\u3001\u53d8",
+  "date": "2026-11-22T03:19:36+00:00"
  },
  {
   "source": "release: farion1231/cc-switch",
@@ -1184,6 +1163,13 @@
  },
  {
   "source": "release: google-gemini/gemini-cli",
+  "title": "gemini-cli Release v0.71.0-nightly.20261122.geecccfcd5",
+  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261122.geecccfcd5",
+  "summary": "Full Changelog : v0.71.0-nightly.20261121.geecccfcd5...v0.71.0-nightly.20261122.geecccfcd5",
+  "date": "2026-11-22T01:20:22+00:00"
+ },
+ {
+  "source": "release: google-gemini/gemini-cli",
   "title": "gemini-cli Release v0.71.0-nightly.20261121.geecccfcd5",
   "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261121.geecccfcd5",
   "summary": "What's Changed fix(cli): expand Windows home-relative paths using tilde and backslash by @urielefrenvirtusa in #30376 fix(cli): resume most recently active session instead of most recently started by @urielefrenvirtusa in #30389 Full Changelog : v0.71.0-nightly.20261120.gd4cb1713f...v0.71.0-nightly.",
@@ -1202,13 +1188,6 @@
   "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-preview.0",
   "summary": "What's Changed Changelog for v0.70.0-preview.0 by @gemini-cli-robot in #30361 chore(release): bump version to 0.71.0-nightly.20261118.g615d6bc8c by @gemini-cli-robot in #30366 Changelog for v0.69.0 by @gemini-cli-robot in #30365 fix(core,cli): parse PowerShell commands asynchronously to prevent UI s",
   "date": "2026-11-19T20:48:23+00:00"
- },
- {
-  "source": "release: google-gemini/gemini-cli",
-  "title": "gemini-cli Release v0.70.0",
-  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0",
-  "summary": "What's Changed Changelog for v0.69.0-preview.0 by @gemini-cli-robot in #30222 Changelog for v0.68.0 by @gemini-cli-robot in #30224 chore(release): bump version to 0.70.0-nightly.20261110.g1603e9bab by @gemini-cli-robot in #30223 test(cli): remove redundant lowercase restart test in AdminSettingsChan",
-  "date": "2026-11-19T21:08:05+00:00"
  },
  {
   "source": "release: huggingface/transformers",
@@ -1246,6 +1225,13 @@
   "date": "2026-11-20T08:39:12+00:00"
  },
  {
+  "source": "release: koala73/worldmonitor",
+  "title": "worldmonitor convex-deployed",
+  "link": "https://github.com/koala73/worldmonitor/releases/tag/convex-deployed",
+  "summary": "test(brief): model-check account erasure against a concurrent digest \u2026",
+  "date": "2026-11-22T03:08:36+00:00"
+ },
+ {
   "source": "release: langchain-ai/langchain",
   "title": "langchain langchain-openrouter==0.3.0",
   "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.3.0",
@@ -1267,13 +1253,6 @@
   "date": "2026-11-19T21:36:53+00:00"
  },
  {
-  "source": "release: langchain-ai/langchain",
-  "title": "langchain langchain-openai==1.8.3",
-  "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3",
-  "summary": "Changes since langchain-openai==1.8.2 release(openai): 1.8.3 ( #41950 ) fix(openai): enable Codex prompt caching on GPT-6.2 ( #41949 )",
-  "date": "2026-11-19T00:38:59+00:00"
- },
- {
   "source": "release: langfuse/langfuse",
   "title": "langfuse v4.83.0",
   "link": "https://github.com/langfuse/langfuse/releases/tag/v4.83.0",
@@ -1285,7 +1264,7 @@
   "title": "mlflow Model Catalog",
   "link": "https://github.com/mlflow/mlflow/releases/tag/model-catalog%2Flatest",
   "summary": "Per-provider model catalog files. Updated weekly by CI.",
-  "date": "2026-11-21T22:22:07+00:00"
+  "date": "2026-11-22T01:13:45+00:00"
  },
  {
   "source": "release: modelscope/FunASR",
@@ -1421,13 +1400,6 @@
   "date": "2026-11-19T10:33:18+00:00"
  },
  {
-  "source": "release: xerj-org/xerj",
-  "title": "xerj xerj v1.0.0-rc.104",
-  "link": "https://github.com/xerj-org/xerj/releases/tag/v1.0.0-rc.104",
-  "summary": "All platforms. rc.104 supersedes v1.0.0-rc.103. rc.103 was published Linux-only, and releases on this repository are immutable once published, so its macOS and Windows builds could not be attached to it. rc.104 is the rc.103 code (no pull request merged to main in between; the only source change is ",
-  "date": "2026-11-19T00:34:18+00:00"
- },
- {
   "source": "HF model (238152 dl)",
   "title": "New on the Hub: unsloth/Inkling-2-Mini-GGUF",
   "link": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
@@ -1443,10 +1415,17 @@
  },
  {
   "source": "MarkTechPost",
-  "title": "Nutrient Data Extraction API: JSON Matching Your Schema With Per-Field Citations and Confidence",
-  "link": "https://www.marktechpost.com/2026/11/18/nutrient-data-extraction-api-citations-confidence/",
-  "summary": "Nutrient Data Extraction API parses PDFs, scans and Office files into JSON matching your schema. Fields carry page, region and match-label citations, and Studio lets teams test before writing code. The post Nutrient Data Extraction API: JSON Matching Your Schema With Per-Field Citations and Confidence appeared first on MarkTechPost .",
-  "date": "2026-11-19T03:23:50+00:00"
+  "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index",
+  "link": "https://www.marktechpost.com/2026/11/18/google-gemini-4-neon-release/",
+  "summary": "Google released Gemini 4 Neon, a 1M-context Gemini 4 model priced at $3/$15 per million tokens. It scores 61 on the AA Intelligence Index and ranks #1 on AA\u2019s Coding Agent Index. The post Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index appeared first on MarkTechPost .",
+  "date": "2026-11-19T06:52:26+00:00"
+ },
+ {
+  "source": "release: google-gemini/gemini-cli",
+  "title": "gemini-cli Release v0.70.0",
+  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0",
+  "summary": "What's Changed Changelog for v0.69.0-preview.0 by @gemini-cli-robot in #30222 Changelog for v0.68.0 by @gemini-cli-robot in #30224 chore(release): bump version to 0.70.0-nightly.20261110.g1603e9bab by @gemini-cli-robot in #30223 test(cli): remove redundant lowercase restart test in AdminSettingsChan",
+  "date": "2026-11-19T21:08:05+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -1503,13 +1482,6 @@
   "link": "https://www.infoq.com/news/2026/11/NetWasm-0-10-Faster/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
   "summary": "Summary: NetWasm, an ahead-of-time compiler from C# to WebAssembly, has reworked exception handling, bounds-check elimination, SIMD and division in its 0.10 series. Across more than 2000 benchmark cases, the project reports running in 0.41 times the time of Mono AOT\u2019s WASI build. By Edin Kapi\u0107",
   "date": "2026-11-19T09:00:00+00:00"
- },
- {
-  "source": "InfoQ",
-  "title": "Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework",
-  "link": "https://www.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-  "summary": "Discord\u2019s CTO Stanislav Vishnevskiy recently announced rewriting its desktop and mobile clients in Rust, moving away from Electron and React Native. The project eliminates layers of abstraction to directly leverage the device\u2019s GPU, native mobile views, and a Rust core shared across platforms. Early results hint at a significant reduction in RAM usage and boot time for chat, voice, and streaming. ",
-  "date": "2026-11-19T03:12:00+00:00"
  },
  {
   "source": "release: BerriAI/litellm",
@@ -1867,13 +1839,6 @@
   "link": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
   "summary": "Superhuman is making Go its central agent and making it available in Docs and Mail.",
   "date": "2026-11-19T14:00:00+00:00"
- },
- {
-  "source": "TechCrunch AI",
-  "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
-  "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-  "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
-  "date": "2026-11-19T00:42:56+00:00"
  },
  {
   "source": "The Verge AI",
@@ -2329,13 +2294,6 @@
   "link": "https://github.com/ComposioHQ/composio/releases/tag/%40composio%2Fcli%400.6.3-beta.567",
   "summary": "What's Changed feat(sdk): choose the Composio-managed app on auth config create by Bharath Singh (@singhbharath03) in #5443 fix(deps): patch high-severity advisories in docs and Python locks by @composio-zen[bot] in #5465 fix(deps): patch SDK and docs dependency advisories by Alberto Schiabel (@jkom",
   "date": "2026-11-19T07:54:30+00:00"
- },
- {
-  "source": "release: google-gemini/gemini-cli",
-  "title": "gemini-cli Release v0.69.0",
-  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0",
-  "summary": "What's Changed fix(core,cli): preserve literal $ characters during template placeholder replacement by @jesussamuel-byte in #30136 feat(cli): add /stats heatmap subcommand for daily token usage by @jvargassanchez-dot in #30135 fix(core): prevent GCLI_EXPAND_TARGET env collision in expandEnvVars by @",
-  "date": "2026-11-19T01:45:47+00:00"
  },
  {
   "source": "release: infiniflow/ragflow",
