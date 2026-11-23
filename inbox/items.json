@@ -49,20 +49,6 @@
   "date": "2026-11-20T16:30:48+00:00"
  },
  {
-  "source": "Simon Willison",
-  "title": "llm-gemini 0.38.1",
-  "link": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
-  "summary": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the llm-gemini plugin, which is now fixed in this dot release. The xhigh setting for Hydrogen makes a significant difference. I updated my Gemini 4 comparison grid - note how Hydrogen at ",
-  "date": "2026-11-20T03:01:57+00:00"
- },
- {
-  "source": "Simon Willison",
-  "title": "Token fraud is here and it\u2019s BAD (YouTube)",
-  "link": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
-  "summary": "Token fraud is here and it\u2019s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time. In this YouTube video (see also the accompanying Twitter post ) Claire describes the flood of token fraud she has seen from groups abusing the produc",
-  "date": "2026-11-20T02:49:57+00:00"
- },
- {
   "source": "MarkTechPost",
   "title": "NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor",
   "link": "https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor/",
@@ -162,6 +148,13 @@
  },
  {
   "source": "TechCrunch AI",
+  "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+  "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+  "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+  "date": "2026-11-23T01:25:53+00:00"
+ },
+ {
+  "source": "TechCrunch AI",
   "title": "OpenAI\u2019s chief scientist has thoughts on how to limit AI development",
   "link": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
   "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
@@ -242,7 +235,7 @@
   "title": "We haven\u2019t seen the last of the major tech outages",
   "link": "https://www.theverge.com/tech/1039851/major-tech-outages",
   "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be [\u2026]",
-  "date": "2026-11-22T17:48:02-05:00"
+  "date": "2026-11-22T21:41:02-05:00"
  },
  {
   "source": "The Verge AI",
@@ -329,13 +322,6 @@
   "date": "2026-11-20T14:12:05+00:00"
  },
  {
-  "source": "GitHub",
-  "title": "GitHub Desktop now supports multiple accounts per host",
-  "link": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
-  "summary": "GitHub Desktop now lets you sign in with more than one account on the same host, including GitHub.com, GitHub Enterprise Server, and GHE.com. This has been one of the most\u2026 The post GitHub Desktop now supports multiple accounts per host appeared first on The GitHub Blog .",
-  "date": "2026-11-20T02:06:01+00:00"
- },
- {
   "source": "Latent Space",
   "title": "[AINews] Riemann Hypothesis proved...twice independently",
   "link": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
@@ -357,6 +343,13 @@
   "date": "2026-11-20T07:12:24+00:00"
  },
  {
+  "source": "Eugene Yan",
+  "title": "How Public Evals Work and Fail, and What Should Change",
+  "link": "https://eugeneyan.com/writing/public-evals",
+  "summary": "How to read eval scores and what to question, from a teardown of 12 benchmarks.",
+  "date": "2026-11-22T00:00:00+00:00"
+ },
+ {
   "source": "Cloudflare",
   "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
   "link": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
@@ -371,25 +364,11 @@
   "date": "2026-11-20T20:00:45+00:00"
  },
  {
-  "source": "Cloudflare",
-  "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
-  "link": "https://blog.cloudflare.com/nginx2root/",
-  "summary": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here\u2019s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.",
-  "date": "2026-11-20T01:58:29+00:00"
- },
- {
   "source": "AWS Architecture",
   "title": "How Bee implemented Zero Operator Access for personal AI on AWS",
   "link": "https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws/",
   "summary": "Bee, an Amazon company, built a personal AI wearable with no mechanism for operators (Bee engineers, other Amazon employees, or AWS infrastructure operators) to access customer data. Learn how Bee uses Amazon EC2 instance attestation and the AWS Nitro System to achieve Zero Operator Access (ZOA).",
   "date": "2026-11-20T18:49:05+00:00"
- },
- {
-  "source": "AWS Architecture",
-  "title": "AI coding agents on Amazon EC2 Mac: How Cognition scales Devin for macOS",
-  "link": "https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos/",
-  "summary": "Cognition gave its AI software engineer, Devin, a cloud Mac. Each Devin session gets a fresh macOS VM on Amazon EC2 Mac bare metal hosts, so Devin can build, run, and test iOS and macOS apps. Learn how Cognition built it with disk snapshots, a user-space network gateway, prepared guest images, and accessibility-based control.",
-  "date": "2026-11-20T01:10:14+00:00"
  },
  {
   "source": "Martin Fowler",
@@ -511,14 +490,14 @@
   "date": "2026-11-21T16:31:20+00:00"
  },
  {
-  "source": "HN (874pts)",
+  "source": "HN (915pts)",
   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
   "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
   "summary": "",
   "date": "2026-11-22T08:57:34+00:00"
  },
  {
-  "source": "HN (527pts)",
+  "source": "HN (528pts)",
   "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic\u2019s second day",
   "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
   "summary": "",
@@ -546,21 +525,21 @@
   "date": "2026-11-20T17:44:01+00:00"
  },
  {
-  "source": "HN (120pts)",
+  "source": "HN (176pts)",
   "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
   "link": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
   "summary": "",
   "date": "2026-11-22T23:12:10+00:00"
  },
  {
-  "source": "HN (266pts)",
+  "source": "HN (286pts)",
   "title": "Show HN: I built a game where you are an LLM's subagent",
   "link": "https://github.com/gulivan/worker755",
   "summary": "",
   "date": "2026-11-22T13:56:58+00:00"
  },
  {
-  "source": "HN (89pts)",
+  "source": "HN (92pts)",
   "title": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
   "link": "https://arxiv.org/abs/2606.14068",
   "summary": "",
@@ -581,14 +560,14 @@
   "date": "2026-11-20T14:00:23+00:00"
  },
  {
-  "source": "HN (152pts)",
+  "source": "HN (160pts)",
   "title": "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
   "link": "https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html",
   "summary": "",
   "date": "2026-11-22T15:42:40+00:00"
  },
  {
-  "source": "HN (724pts)",
+  "source": "HN (728pts)",
   "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
   "link": "https://news.ycombinator.com/item?id=50583761",
   "summary": "",
@@ -623,7 +602,7 @@
   "date": "2026-11-21T20:47:41+00:00"
  },
  {
-  "source": "HN (184pts)",
+  "source": "HN (185pts)",
   "title": "FBI reportedly investigating apparent hack of its criminal database",
   "link": "https://www.bbc.com/news/articles/cvze7de86pk3o",
   "summary": "",
@@ -696,7 +675,7 @@
   "source": "release: Graphify-Labs/graphify",
   "title": "graphify v0.9.115",
   "link": "https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.115",
-  "summary": "Security fix for a forced-SMB-authentication issue on Windows (GHSA-g6c9-j4vm-mwq4), plus a batch of extractor, resolution and incremental-update fixes. The extractor fixes that change output share one AST cache schema bump (50 \u2192 51), so the first build after upgrading re-extracts the affected langu",
+  "summary": "Security fix for a forced-SMB-authentication issue on Windows ( GHSA-g6c9-j4vm-mwq4 ), plus a batch of extractor, resolution and incremental-update fixes. The extractor fixes that change output share one AST cache schema bump (50 \u2192 51), so the first build after upgrading re-extracts the affected lan",
   "date": "2026-11-21T21:28:01+00:00"
  },
  {
@@ -820,10 +799,10 @@
  },
  {
   "source": "release: debpalash/VoiceStudio",
-  "title": "VoiceStudio chore(release): v0.5.9-beta.8 (#4362)",
+  "title": "VoiceStudio v0.5.9-beta.8 \u2014 VoiceStudio",
   "link": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.8",
-  "summary": "chore(release): v0.5.9-beta.8 docs(changelog): lead v0.5.9-beta.8 with its own highlights and reporters docs(changelog): carry beta.7 and beta.8 bug reporters into Unreleased and beta.8",
-  "date": "2026-11-22T22:55:06+00:00"
+  "summary": "Download Platform Download Signing Windows x64 Installer \u26a0\ufe0f Unsigned: SmartScreen shows \"Windows protected your PC\"; choose More info \u2192 Run anyway Windows ARM64 (experimental) Installer \u26a0\ufe0f Unsigned: SmartScreen shows \"Windows protected your PC\"; choose More info \u2192 Run anyway macOS Apple Silicon DMG ",
+  "date": "2026-11-23T01:03:06+00:00"
  },
  {
   "source": "release: debpalash/VoiceStudio",
@@ -904,6 +883,13 @@
  },
  {
   "source": "release: google-gemini/gemini-cli",
+  "title": "gemini-cli Release v0.71.0-nightly.20261123.geecccfcd5",
+  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261123.geecccfcd5",
+  "summary": "Full Changelog : v0.71.0-nightly.20261122.geecccfcd5...v0.71.0-nightly.20261123.geecccfcd5",
+  "date": "2026-11-23T01:21:53+00:00"
+ },
+ {
+  "source": "release: google-gemini/gemini-cli",
   "title": "gemini-cli Release v0.71.0-nightly.20261122.geecccfcd5",
   "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261122.geecccfcd5",
   "summary": "Full Changelog : v0.71.0-nightly.20261121.geecccfcd5...v0.71.0-nightly.20261122.geecccfcd5",
@@ -917,18 +903,18 @@
   "date": "2026-11-21T01:19:21+00:00"
  },
  {
-  "source": "release: google-gemini/gemini-cli",
-  "title": "gemini-cli Release v0.71.0-nightly.20261120.gd4cb1713f",
-  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261120.gd4cb1713f",
-  "summary": "What's Changed fix(core,cli): preserve literal $ characters during template placeholder replacement by @jesussamuel-byte in #30136 feat(cli): add /stats heatmap subcommand for daily token usage by @jvargassanchez-dot in #30135 fix(core): prevent GCLI_EXPAND_TARGET env collision in expandEnvVars by @",
-  "date": "2026-11-20T01:12:42+00:00"
- },
- {
   "source": "release: huggingface/transformers",
   "title": "transformers Release v5.24.0",
   "link": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
   "summary": "Release v5.24.0 New Model additions Inkling 2 Mini Inkling 2 Mini is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs. It is a smaller sibling of Inkling 2 Small, added in v5.23.0. It has 24 decoder layers instead of 48, and compensates with",
   "date": "2026-11-21T12:43:39+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261123-1",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261123-1",
+  "summary": "Refine entrypoint.sh to accept parameters ( #22653 )",
+  "date": "2026-11-23T02:44:45+00:00"
  },
  {
   "source": "release: infiniflow/ragflow",
@@ -939,24 +925,10 @@
  },
  {
   "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261120",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261120",
-  "summary": "fix(web): forward responseType for POST requests so blob responses wo\u2026",
-  "date": "2026-11-20T01:45:29+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261120-5",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261120-5",
-  "summary": "Fix compliance ( #22601 )",
-  "date": "2026-11-20T11:26:30+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261120-4",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261120-4",
-  "summary": "Fix: record model usage with user info and start at ( #22586 )",
-  "date": "2026-11-20T08:39:12+00:00"
+  "title": "ragflow dev-20261123: refactor cli: single command (#22633)",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261123",
+  "summary": "Signed-off-by: Jin Hai haijin.chn@gmail.com",
+  "date": "2026-11-22T15:25:28+00:00"
  },
  {
   "source": "release: koala73/worldmonitor",
@@ -1051,6 +1023,13 @@
  },
  {
   "source": "release: thedotmack/claude-mem",
+  "title": "claude-mem v16.1.0",
+  "link": "https://github.com/thedotmack/claude-mem/releases/tag/v16.1.0",
+  "summary": "Standalone Cloud Sync in the installer Run npx claude-mem install and choose Cloud Sync to connect your devices while keeping your current memory provider. The monthly plan requires a card and includes a full 30-day trial, followed by $12 per month. The annual plan costs $99 upfront. The installer c",
+  "date": "2026-11-23T03:55:41+00:00"
+ },
+ {
+  "source": "release: thedotmack/claude-mem",
   "title": "claude-mem v16.0.4",
   "link": "https://github.com/thedotmack/claude-mem/releases/tag/v16.0.4",
   "summary": "Fixes Chroma search works again while the embedding model downloads ( #6399 , closes the \"Invalid port\" part of #6365 reported by @FengJie2004 , root cause found by @kevincommits ). httpx 0.28 misread a bracketed IPv6 entry such as [::1] in NO_PROXY and failed with Invalid port: ':1]' , so chroma-mc",
@@ -1097,6 +1076,20 @@
   "link": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
   "summary": "pipeline: image-text-to-text. tags: gguf, llama.cpp, inkling2, uncensored, lora, image-text-to-text",
   "date": "2026-11-20T20:42:23+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261120-5",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261120-5",
+  "summary": "Fix compliance ( #22601 )",
+  "date": "2026-11-20T11:26:30+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261120-4",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261120-4",
+  "summary": "Fix: record model usage with user info and start at ( #22586 )",
+  "date": "2026-11-20T08:39:12+00:00"
  },
  {
   "source": "The Verge AI",
@@ -1477,20 +1470,6 @@
   "date": "2026-11-20T06:07:49+00:00"
  },
  {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.804",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.804",
-  "summary": "Release API image v2.11.804",
-  "date": "2026-11-20T01:28:10+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.803",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.803",
-  "summary": "Release API image v2.11.803",
-  "date": "2026-11-20T01:17:38+00:00"
- },
- {
   "source": "release: infiniflow/ragflow",
   "title": "ragflow dev-20261120-3",
   "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261120-3",
@@ -1503,12 +1482,5 @@
   "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261120-2",
   "summary": "Feat: Adjust account menu layout ( #22571 )",
   "date": "2026-11-20T05:41:57+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261120-1",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261120-1",
-  "summary": "fix: scope shared resource access by owner ( #22550 )",
-  "date": "2026-11-20T02:56:48+00:00"
  }
 ]
