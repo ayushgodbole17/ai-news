@@ -393,6 +393,13 @@
  },
  {
   "source": "Latent Space",
+  "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+  "link": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+  "summary": "November 23, 2026 \u2014 Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
+  "date": "2026-11-24T04:14:16+00:00"
+ },
+ {
+  "source": "Latent Space",
   "title": "[AINews] Riemann Hypothesis proved...twice independently",
   "link": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
   "summary": "November 20 2026 \u2014",
@@ -546,14 +553,14 @@
   "date": "2026-11-21T12:43:24+00:00"
  },
  {
-  "source": "HN (288pts)",
+  "source": "HN (298pts)",
   "title": "VP \u2260 VNP over Every Field",
   "link": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
   "summary": "",
   "date": "2026-11-23T22:09:10+00:00"
  },
  {
-  "source": "HN (33pts)",
+  "source": "HN (35pts)",
   "title": "Claude Ship",
   "link": "https://claude.com/resources/articles/introducing-claude-ship",
   "summary": "",
@@ -581,14 +588,14 @@
   "date": "2026-11-22T09:18:36+00:00"
  },
  {
-  "source": "HN (47pts)",
+  "source": "HN (49pts)",
   "title": "How should an LLM see a computer?",
   "link": "https://www.greptile.com/blog/trex-computer-use",
   "summary": "",
   "date": "2026-11-23T17:19:25+00:00"
  },
  {
-  "source": "HN (41pts)",
+  "source": "HN (44pts)",
   "title": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
   "link": "https://arxiv.org/abs/2602.20031",
   "summary": "",
@@ -602,7 +609,7 @@
   "date": "2026-11-22T07:31:41+00:00"
  },
  {
-  "source": "HN (139pts)",
+  "source": "HN (141pts)",
   "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
   "link": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
   "summary": "",
@@ -616,7 +623,7 @@
   "date": "2026-11-22T15:42:40+00:00"
  },
  {
-  "source": "HN (1081pts)",
+  "source": "HN (1087pts)",
   "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
   "link": "https://z.ai/blog/glm-5.4",
   "summary": "",
@@ -659,10 +666,17 @@
  },
  {
   "source": "release: BerriAI/litellm",
-  "title": "litellm v1.110.3: Merge pull request #54010 from BerriAI/litellm_chore_f9a3ba",
+  "title": "litellm v1.110.3",
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.110.3",
-  "summary": "chore: bump versions on stable/1.110.x",
-  "date": "2026-11-24T01:50:19+00:00"
+  "summary": "Verify Docker Image Signature cosign verify \\ --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \\ --certificate-oidc-issuer https://token.actions.githubusercontent.com \\ ghcr.io/berriai/litellm:v1.110.3 What's Changed fix(mcp)!: backport",
+  "date": "2026-11-24T04:11:03+00:00"
+ },
+ {
+  "source": "release: BerriAI/litellm",
+  "title": "litellm v1.109.4",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.109.4",
+  "summary": "Verify Docker Image Signature cosign verify \\ --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \\ --certificate-oidc-issuer https://token.actions.githubusercontent.com \\ ghcr.io/berriai/litellm:v1.109.4 What's Changed fix(mcp)!: backport",
+  "date": "2026-11-24T04:15:26+00:00"
  },
  {
   "source": "release: BerriAI/litellm",
@@ -677,13 +691,6 @@
   "link": "https://github.com/BerriAI/litellm/releases/tag/v1.112.0-dev.2",
   "summary": "Verify Docker Image Signature cosign verify \\ --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \\ --certificate-oidc-issuer https://token.actions.githubusercontent.com \\ ghcr.io/berriai/litellm:v1.112.0-dev.2 What's Changed feat(proxy): ",
   "date": "2026-11-21T20:13:44+00:00"
- },
- {
-  "source": "release: BerriAI/litellm",
-  "title": "litellm 1.108.15 (LTS)",
-  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.108.15",
-  "summary": "Tip The lts image tag always points to the latest LTS release. Pull ghcr.io/berriai/litellm:lts to stay on the newest LTS patch Verify this release cosign verify \\ --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \\ --certificate-oidc-is",
-  "date": "2026-11-21T22:48:13+00:00"
  },
  {
   "source": "release: ComposioHQ/composio",
@@ -1176,6 +1183,27 @@
   "date": "2026-11-24T02:30:56+00:00"
  },
  {
+  "source": "release: volcengine/OpenViking",
+  "title": "OpenViking v0.5.6",
+  "link": "https://github.com/volcengine/OpenViking/releases/tag/v0.5.6",
+  "summary": "\u4e2d\u6587 Highlights \u6743\u9650\u4e0e\u5171\u4eab \uff1a ls / stat \u8fd4\u56de\u5f53\u524d\u8c03\u7528\u8005\u7684\u6709\u6548\u6743\u9650\uff0c\u4fbf\u4e8e Agent \u5728\u64cd\u4f5c\u524d\u5224\u65ad\u53ef\u8bfb\u5199\u8303\u56f4\u3002 \u4efb\u52a1\u4e0e\u5b58\u50a8\u53ef\u9760\u6027 \uff1a\u65b0\u589e PostgreSQL account/task store\uff0c\u5b8c\u5584 QueueFS \u5916\u90e8\u4efb\u52a1\u5e8f\u5217\u5316\u4e0e\u6062\u590d\u94fe\u8def\u3002 \u7f16\u8bd1\u94fe\u8def \uff1a\u652f\u6301 VikingBot \u7b80\u5355\u7f16\u8bd1\u6a21\u5f0f\uff0c\u5e76\u4fee\u590d\u591a\u9879 compile\u3001watch \u548c\u8d44\u6e90\u5904\u7406\u95ee\u9898\u3002 Coding Agent \u96c6\u6210 \uff1a\u8865\u5145 OpenCode\u3001Qoder\u3001Antigravity \u7b49\u5bbf\u4e3b\u9002\u914d\uff0c\u6539\u8fdb Gateway \u4f1a\u8bdd\u4fdd\u5b58\u3001\u538b\u7f29\u6062\u590d\u548c soul.md \u6ce8\u5165\u3002 \u89e3\u6790\u80fd\u529b \uff1a\u6539\u8fdb Markdown front",
+  "date": "2026-11-24T04:16:56+00:00"
+ },
+ {
+  "source": "release: volcengine/OpenViking",
+  "title": "OpenViking python-sdk@0.1.21",
+  "link": "https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.21",
+  "summary": "fix(vlm): classify content-filtered completions as safety errors ( #8034 ) * fix(vlm): classify content-filtered chat completions as safety errors * chore(vlm): remove added finish-reason tests * fix(vlm): preserve the token usage hook signature",
+  "date": "2026-11-24T04:16:59+00:00"
+ },
+ {
+  "source": "release: volcengine/OpenViking",
+  "title": "OpenViking cli@0.5.4",
+  "link": "https://github.com/volcengine/OpenViking/releases/tag/cli%400.5.4",
+  "summary": "fix(vlm): classify content-filtered completions as safety errors ( #8034 ) * fix(vlm): classify content-filtered chat completions as safety errors * chore(vlm): remove added finish-reason tests * fix(vlm): preserve the token usage hook signature",
+  "date": "2026-11-24T04:16:57+00:00"
+ },
+ {
   "source": "release: xerj-org/xerj",
   "title": "xerj xerj v1.0.0-rc.105",
   "link": "https://github.com/xerj-org/xerj/releases/tag/v1.0.0-rc.105",
@@ -1463,7 +1491,7 @@
   "date": "2026-11-23T00:00:00-05:00"
  },
  {
-  "source": "HF Papers (3 up)",
+  "source": "HF Papers (4 up)",
   "title": "GameAnything: From Any Inspirations to Playable Game Worlds",
   "link": "https://huggingface.co/papers/2611.29238",
   "summary": "AI-driven game development holds the potential to transform diverse human inspirations into interactive experiences. However, existing systems and benchmarks primarily focus on explicit development specifications, with limited support for adapting multimodal references and evaluating actual gameplay experiences. We introduce GameAnything, an open-source agentic platform that transforms multimodal ",
@@ -1489,6 +1517,13 @@
   "link": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
   "summary": "pipeline: image-text-to-text. tags: inkling2_loop, strata, inkling-2-mini, moe, quantization, looped-transformer",
   "date": "2026-11-21T18:46:06+00:00"
+ },
+ {
+  "source": "release: BerriAI/litellm",
+  "title": "litellm 1.108.15 (LTS)",
+  "link": "https://github.com/BerriAI/litellm/releases/tag/v1.108.15",
+  "summary": "Tip The lts image tag always points to the latest LTS release. Pull ghcr.io/berriai/litellm:lts to stay on the newest LTS patch Verify this release cosign verify \\ --certificate-identity https://github.com/BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main \\ --certificate-oidc-is",
+  "date": "2026-11-21T22:48:13+00:00"
  },
  {
   "source": "MarkTechPost",
