@@ -623,21 +623,21 @@
   "date": "2026-11-22T08:57:34+00:00"
  },
  {
-  "source": "HN (361pts)",
+  "source": "HN (362pts)",
   "title": "Anthropic breaks below $83 IPO price",
   "link": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
   "summary": "",
   "date": "2026-11-24T13:23:47+00:00"
  },
  {
-  "source": "HN (232pts)",
+  "source": "HN (235pts)",
   "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
   "link": "https://news.ycombinator.com/item?id=50630809",
   "summary": "",
   "date": "2026-11-24T16:45:44+00:00"
  },
  {
-  "source": "HN (203pts)",
+  "source": "HN (204pts)",
   "title": "Anthropic Staff Openly Talk About \u2018Taking Over the World\u2019, Claims Max Tegmark",
   "link": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
   "summary": "",
@@ -686,7 +686,7 @@
   "date": "2026-11-23T20:14:18+00:00"
  },
  {
-  "source": "HN (74pts)",
+  "source": "HN (75pts)",
   "title": "Launch HN: Versine (YC F26) \u2013 MCP to send and receive money",
   "link": "https://news.ycombinator.com/item?id=50634426",
   "summary": "",
@@ -700,7 +700,7 @@
   "date": "2026-11-22T23:12:10+00:00"
  },
  {
-  "source": "HN (938pts)",
+  "source": "HN (945pts)",
   "title": "LLM agents work for their parent companies, not for you",
   "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
   "summary": "",
@@ -1023,6 +1023,13 @@
  },
  {
   "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.861",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.861",
+  "summary": "Release API image v2.11.861",
+  "date": "2026-11-25T03:55:25+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
   "title": "firecrawl v2.11.860",
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.860",
   "summary": "Release API image v2.11.860",
@@ -1041,13 +1048,6 @@
   "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.858",
   "summary": "Release API image v2.11.858",
   "date": "2026-11-24T20:53:57+00:00"
- },
- {
-  "source": "release: firecrawl/firecrawl",
-  "title": "firecrawl v2.11.857",
-  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.857",
-  "summary": "Release API image v2.11.857",
-  "date": "2026-11-24T20:46:57+00:00"
  },
  {
   "source": "release: ggml-org/whisper.cpp",
@@ -1100,6 +1100,20 @@
  },
  {
   "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261125: feat(meta): let gen_meta_filter see what a metadata key means (#19875)",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261125",
+  "summary": "Summary GenMetaFilter is handed the bare metadata value lists. When the values are codes ( SP , DRP , F3 ), the model can see which values exist but not what any of them means. A question phrased in words then has nothing to match against. The model picks a plausible-looking code, and because the co",
+  "date": "2026-11-25T03:05:16+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261125-2",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261125-2",
+  "summary": "fix(web): keep tool-calling toggle in sync with draft model defaults \u2026",
+  "date": "2026-11-25T03:52:31+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
   "title": "ragflow nightly",
   "link": "https://github.com/infiniflow/ragflow/releases/tag/nightly",
   "summary": "Release nightly created from 8c68034 at 2026-11-24 13:15:17+00:00",
@@ -1111,20 +1125,6 @@
   "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261124",
   "summary": "feat: enforce role integration access ( #22682 )",
   "date": "2026-11-24T02:44:49+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261124-5",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261124-5",
-  "summary": "fix(web): only underline doc citations that can be opened ( #22743 )",
-  "date": "2026-11-24T12:20:26+00:00"
- },
- {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261124-4",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261124-4",
-  "summary": "refactor(ingestor): remove unused supportedDocTypes and RegisterSuppo\u2026",
-  "date": "2026-11-24T11:06:13+00:00"
  },
  {
   "source": "release: koala73/worldmonitor",
@@ -1827,28 +1827,56 @@
   "date": "2026-11-24T00:00:00-05:00"
  },
  {
-  "source": "HF Papers (4 up)",
+  "source": "HF Papers (5 up)",
+  "title": "On-Policy Codec Distillation for Efficient All-in-One Video Generation",
+  "link": "https://huggingface.co/papers/2611.31184",
+  "summary": "Modern visual generative models operate on tokens, and every visual asset they receive, whether an identity, a scribble, a depth map, or a motion video, is tokenized and appended to the input token sequence. Consequently, conditioning quickly dominates the computation cost. Yet most of these tokens carry redundant spatiotemporal information. Our key insight is that identifying what is genuinely ne",
+  "date": "2026-11-22T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (10 up)",
+  "title": "Self-Evolving Evaluation Environments for Computer-Use Agents",
+  "link": "https://huggingface.co/papers/2611.30962",
+  "summary": "Computer-use agents (CUAs) are rapidly improving, yet their evaluation remains largely static. Existing benchmarks provide a strong foundation, but fixed difficulty ceilings, limited feature coverage, and coarse aggregate scores progressively weaken their discriminative and diagnostic value. We introduce CUA-SEE, a closed-loop evaluation environment that co-evolves tasks and executable verifiers f",
+  "date": "2026-11-22T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (1 up)",
+  "title": "Clinical3D-Bench: Evaluating and Improving Spatial Intelligence of Multimodal LLMs in Hospital Environments",
+  "link": "https://huggingface.co/papers/2611.32094",
+  "summary": "Spatial reasoning in hospitals requires tracking look-alike equipment, interpreting patient-relative directions, and judging passage widths, yet existing benchmarks provide limited coverage of these abilities. We introduce Clinical3D-Bench, a simulated benchmark with 3,368 questions of eight types on egocentric walkthroughs of 373 hospital-room layouts. Layouts follow hospital design guidelines, a",
+  "date": "2026-11-23T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (13 up)",
+  "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+  "link": "https://huggingface.co/papers/2611.31205",
+  "summary": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents. Each member reasons and acts for a configurable control group, such as an arm with its gripper or the torso a",
+  "date": "2026-11-22T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (16 up)",
   "title": "Rewirable Circuits in Transformers with Loom Attention",
   "link": "https://huggingface.co/papers/2611.30634",
   "summary": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the ",
   "date": "2026-11-22T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (0 up)",
   "title": "EEGJev: A System One Decision Model and Benchmark for Multi-Task EEG Question Answering",
   "link": "https://huggingface.co/papers/2611.32100",
   "summary": "A single electroencephalographic (EEG) recording can support multiple decoding tasks. Fixed-label tests cannot show how EEG foundation models handle changing questions or options. We introduce EEGJev, a fast decision model that scores candidate answers in one pass. Our benchmark, EEGJev-Bench, covers six question types across 19 public EEG sources. We held the recording and options fixed while swi",
   "date": "2026-11-23T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (1 up)",
+  "source": "HF Papers (0 up)",
   "title": "Escriba-OCR: A 1B Vision-Language Model for Error-Preserving Transcription of Handwritten Portuguese Essays",
   "link": "https://huggingface.co/papers/2611.29874",
   "summary": "Feedback tools and research on learner writing need transcriptions of handwritten essays that keep exactly what the student wrote: misspellings, line breaks, struck-through words and insertions. Vision-language models (VLMs) read handwriting well, but they also tend to rewrite it into correct language. We measure this on BRESSAY, 1,000 handwritten Brazilian Portuguese essays, with a benchmark that",
   "date": "2026-11-22T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (9 up)",
+  "source": "HF Papers (8 up)",
   "title": "RoomTokens: Masked Diffusion over Structured Tokens for Indoor Scene Synthesis",
   "link": "https://huggingface.co/papers/2611.30219",
   "summary": "Generating 3D indoor scenes requires a representation that captures object semantics, instance identity, height structure, and orientation while respecting room geometry. Methods that model scenes as sequences of object vectors learn spatial constraints implicitly, leaving collisions and boundary violations to losses or post-processing; semantic-map methods make occupancy explicit, but collapse in",
@@ -1876,14 +1904,14 @@
   "date": "2026-11-22T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (33 up)",
+  "source": "HF Papers (35 up)",
   "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
   "link": "https://huggingface.co/papers/2611.31358",
   "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts use explicit programs. A shared generation-and-rendering interface connects these",
   "date": "2026-11-22T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (2 up)",
+  "source": "HF Papers (3 up)",
   "title": "Let Vision-Language Models Generate Images through Their Representations",
   "link": "https://huggingface.co/papers/2611.31237",
   "summary": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this knowledge effectively accessible to visual generation remains nontrivial. We find that a central ch",
@@ -1894,34 +1922,6 @@
   "title": "PixelOne: From Options to Pixels in a Single Forward for GUI Grounding",
   "link": "https://huggingface.co/papers/2611.30235",
   "summary": "GUI grounding requires precise clicks at low latency. Recent models such as GUI-Decisions and GUI-Swift predict coordinates in one forward pass using fixed global bins with local refinement. However, screenshot downsampling removes detail needed to locate small controls, while fixed bins cover larger pixel ranges at higher resolutions. We introduce PixelOne, which transfers spatial knowledge from ",
-  "date": "2026-11-22T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (3 up)",
-  "title": "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
-  "link": "https://huggingface.co/papers/2611.30900",
-  "summary": "Multimodal large language models (MLLMs) have become strong policies for vision-and-language navigation (VLN). However, most of them encode a sample of past frames again at every decision and are trained on isolated decisions, so computation is redundant and the usable history is short. They also learn from their own mistakes through outcome rewards that give one scalar to a whole episode. We ask ",
-  "date": "2026-11-22T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (1 up)",
-  "title": "Frontier models need only one text to unmask its human or AI author",
-  "link": "https://huggingface.co/papers/2611.26216",
-  "summary": "Given a single text and a simple zero-shot prompt (no web access, tools, candidate lists, or writing samples), frontier models can answer \"who wrote this?\" at three increasingly specific levels: (1) whether an AI or human wrote it, (2) if an AI, which lab, and (3) if a human, often exactly who. The latest models (Claude Fable 5.2, GPT-6.1 Sol, Gemini 4 Carbon) match trained detectors like Pangram ",
-  "date": "2026-11-22T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (2 up)",
-  "title": "Self-Supervised Dataset Distillation via Mutual Information Maximization",
-  "link": "https://huggingface.co/papers/2611.31225",
-  "summary": "Dataset distillation (DD) aims to compress a large dataset into a small synthetic one that remains effective for training neural networks. Despite its success in supervised learning, DD remains underexplored in self-supervised learning (SSL), where distilled data must preserve the information needed to learn representations that remain consistent across augmentations. To bridge this gap, we introd",
-  "date": "2026-11-22T19:00:00+00:00"
- },
- {
-  "source": "HF Papers (0 up)",
-  "title": "CCFinance: Reconstructing Financial News Samples from Web Archives",
-  "link": "https://huggingface.co/papers/2611.30737",
-  "summary": "Proprietary news archives assign stories to firms, so reproducing a financial study often requires access to both the articles and the vendor's assignments. CCFinance lets researchers reconstruct firm coverage under different selection rules by recording which version of a story was captured, which issuers it names and how often each appears. From 14.8 million English-language records in Fine News",
   "date": "2026-11-22T19:00:00+00:00"
  },
  {
@@ -1951,6 +1951,55 @@
   "link": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
   "summary": "pipeline: text-generation. tags: transformers, safetensors, ernie5_5_moe, text-generation, ERNIE5.5, MoE",
   "date": "2026-11-23T09:00:29+00:00"
+ },
+ {
+  "source": "release: firecrawl/firecrawl",
+  "title": "firecrawl v2.11.857",
+  "link": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.857",
+  "summary": "Release API image v2.11.857",
+  "date": "2026-11-24T20:46:57+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261124-5",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261124-5",
+  "summary": "fix(web): only underline doc citations that can be opened ( #22743 )",
+  "date": "2026-11-24T12:20:26+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261124-4",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261124-4",
+  "summary": "refactor(ingestor): remove unused supportedDocTypes and RegisterSuppo\u2026",
+  "date": "2026-11-24T11:06:13+00:00"
+ },
+ {
+  "source": "HF Papers (3 up)",
+  "title": "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
+  "link": "https://huggingface.co/papers/2611.30900",
+  "summary": "Multimodal large language models (MLLMs) have become strong policies for vision-and-language navigation (VLN). However, most of them encode a sample of past frames again at every decision and are trained on isolated decisions, so computation is redundant and the usable history is short. They also learn from their own mistakes through outcome rewards that give one scalar to a whole episode. We ask ",
+  "date": "2026-11-22T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (1 up)",
+  "title": "Frontier models need only one text to unmask its human or AI author",
+  "link": "https://huggingface.co/papers/2611.26216",
+  "summary": "Given a single text and a simple zero-shot prompt (no web access, tools, candidate lists, or writing samples), frontier models can answer \"who wrote this?\" at three increasingly specific levels: (1) whether an AI or human wrote it, (2) if an AI, which lab, and (3) if a human, often exactly who. The latest models (Claude Fable 5.2, GPT-6.1 Sol, Gemini 4 Carbon) match trained detectors like Pangram ",
+  "date": "2026-11-22T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (2 up)",
+  "title": "Self-Supervised Dataset Distillation via Mutual Information Maximization",
+  "link": "https://huggingface.co/papers/2611.31225",
+  "summary": "Dataset distillation (DD) aims to compress a large dataset into a small synthetic one that remains effective for training neural networks. Despite its success in supervised learning, DD remains underexplored in self-supervised learning (SSL), where distilled data must preserve the information needed to learn representations that remain consistent across augmentations. To bridge this gap, we introd",
+  "date": "2026-11-22T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (0 up)",
+  "title": "CCFinance: Reconstructing Financial News Samples from Web Archives",
+  "link": "https://huggingface.co/papers/2611.30737",
+  "summary": "Proprietary news archives assign stories to firms, so reproducing a financial study often requires access to both the articles and the vendor's assignments. CCFinance lets researchers reconstruct firm coverage under different selection rules by recording which version of a story was captured, which issuers it names and how often each appears. From 14.8 million English-language records in Fine News",
+  "date": "2026-11-22T19:00:00+00:00"
  },
  {
   "source": "TechCrunch AI",
