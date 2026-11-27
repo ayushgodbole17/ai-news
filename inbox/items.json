@@ -49,13 +49,6 @@
   "date": "2026-11-25T17:10:27+00:00"
  },
  {
-  "source": "DeepMind",
-  "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
-  "link": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
-  "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
-  "date": "2026-11-24T13:07:53+00:00"
- },
- {
   "source": "OpenAI",
   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
   "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
@@ -140,11 +133,18 @@
   "date": "2026-11-24T04:24:29+00:00"
  },
  {
-  "source": "Simon Willison",
-  "title": "datasette-agent 0.7a1",
-  "link": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
-  "summary": "Release: datasette-agent 0.7a1 A small improvement to Datasette Agent : chat sessions could already open an iframe side panel that could then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hashes when the user interacts with the plugin in a way that changes state. I built this in order to fi",
-  "date": "2026-11-24T03:45:57+00:00"
+  "source": "MarkTechPost",
+  "title": "nexos.ai AI Adoption Platform puts 200+ models behind one AI Gateway, with budget limits and governance built in",
+  "link": "https://www.marktechpost.com/2026/11/26/nexos-ai-ai-gateway-200-models-governance/",
+  "summary": "nexos.ai AI Adoption Platform puts 200+ models behind one AI Gateway, with budget limits and governance built in The post nexos.ai AI Adoption Platform puts 200+ models behind one AI Gateway, with budget limits and governance built in appeared first on MarkTechPost .",
+  "date": "2026-11-27T03:43:35+00:00"
+ },
+ {
+  "source": "MarkTechPost",
+  "title": "Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target\u2019s Sparse KV Cache",
+  "link": "https://www.marktechpost.com/2026/11/26/tencent-dfly2-speculative-decoding-sparse-models/",
+  "summary": "Tencent open-sourced DFly2, a speculative decoding drafter for sparse-attention LLMs. Each draft layer reuses the target's KV cache and top-k indexer picks, adding no draft KV memory and lifting 64K serving throughput by up to 81%. The post Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target\u2019s Sparse KV Cache appeared first on MarkTechPost .",
+  "date": "2026-11-27T03:31:30+00:00"
  },
  {
   "source": "MarkTechPost",
@@ -567,7 +567,7 @@
   "date": "2026-11-26T16:30:34+00:00"
  },
  {
-  "source": "HN (548pts)",
+  "source": "HN (550pts)",
   "title": "Much shorter version of GRH Lean verification from Anthropic",
   "link": "https://github.com/lsernau/grh-lean",
   "summary": "",
@@ -623,7 +623,7 @@
   "date": "2026-11-24T22:27:19+00:00"
  },
  {
-  "source": "HN (505pts)",
+  "source": "HN (506pts)",
   "title": "Rumors swirling that labs might have cracked Factoring in P",
   "link": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
   "summary": "",
@@ -637,25 +637,18 @@
   "date": "2026-11-24T21:07:38+00:00"
  },
  {
-  "source": "HN (48pts)",
+  "source": "HN (52pts)",
   "title": "Claude tries to sabotage research work at every stage",
   "link": "https://twitter.com/skirano/status/2125371115979641188",
   "summary": "",
   "date": "2026-11-26T04:49:21+00:00"
  },
  {
-  "source": "HN (35pts)",
+  "source": "HN (37pts)",
   "title": "Testers think they're hitting Claude Opus 5.6 through an Opus 5.5 Extra route",
   "link": "https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/",
   "summary": "",
   "date": "2026-11-26T14:38:57+00:00"
- },
- {
-  "source": "HN (130pts)",
-  "title": "Show HN: Synth Patch Hero",
-  "link": "https://swarkentin.github.io/synth-patch-hero/",
-  "summary": "",
-  "date": "2026-11-24T03:24:22+00:00"
  },
  {
   "source": "HN (106pts)",
@@ -672,7 +665,7 @@
   "date": "2026-11-24T19:51:01+00:00"
  },
  {
-  "source": "HN (50pts)",
+  "source": "HN (51pts)",
   "title": "Notion's official MCP inject hidden upsell instructions into agent context",
   "link": "https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/",
   "summary": "",
@@ -686,7 +679,7 @@
   "date": "2026-11-24T12:40:15+00:00"
  },
  {
-  "source": "HN (274pts)",
+  "source": "HN (275pts)",
   "title": "Porting Rockbox to an undocumented $9 Aliexpress 'YP3' MP3 Player with LLMs",
   "link": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
   "summary": "",
@@ -700,35 +693,35 @@
   "date": "2026-11-25T03:01:36+00:00"
  },
  {
-  "source": "HN (72pts)",
+  "source": "HN (87pts)",
   "title": "Show HN: I wrote an entire Vim manual over 4 years",
   "link": "http://themouseless.dev/vim/",
   "summary": "",
   "date": "2026-11-26T14:44:22+00:00"
  },
  {
-  "source": "HN (228pts)",
+  "source": "HN (229pts)",
   "title": "Bare Metal Qwen",
   "link": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
   "summary": "",
   "date": "2026-11-25T22:15:34+00:00"
  },
  {
-  "source": "HN (468pts)",
+  "source": "HN (472pts)",
   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
   "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
   "summary": "",
   "date": "2026-11-26T03:36:58+00:00"
  },
  {
-  "source": "HN (465pts)",
+  "source": "HN (466pts)",
   "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
   "link": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
   "summary": "",
   "date": "2026-11-25T03:04:37+00:00"
  },
  {
-  "source": "HN (294pts)",
+  "source": "HN (305pts)",
   "title": "AMD-specific fork of llama.cpp",
   "link": "https://devnull.land/amd-specific-llama-cpp",
   "summary": "",
@@ -742,7 +735,7 @@
   "date": "2026-11-25T03:28:06+00:00"
  },
  {
-  "source": "HN (46pts)",
+  "source": "HN (50pts)",
   "title": "Limiting Charging to 80 Percent",
   "link": "https://www.jefftk.com/p/limiting-charging-to-80",
   "summary": "",
@@ -756,7 +749,7 @@
   "date": "2026-11-25T04:03:33+00:00"
  },
  {
-  "source": "HN (33pts)",
+  "source": "HN (41pts)",
   "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
   "link": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
   "summary": "",
@@ -770,7 +763,7 @@
   "date": "2026-11-24T15:48:34+00:00"
  },
  {
-  "source": "HN (259pts)",
+  "source": "HN (277pts)",
   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
   "link": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
   "summary": "",
@@ -1015,13 +1008,6 @@
   "date": "2026-11-25T19:08:52+00:00"
  },
  {
-  "source": "release: google-gemini/gemini-cli",
-  "title": "gemini-cli Release v0.71.1",
-  "link": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1",
-  "summary": "What's Changed fix(patch): cherry-pick aafdfdf to release/v0.71.0-pr-30420 to patch version v0.71.0 and create version 0.71.1 by @gemini-cli-robot in #30429 Full Changelog : v0.71.0...v0.71.1",
-  "date": "2026-11-24T03:50:24+00:00"
- },
- {
   "source": "release: harry0703/MoneyPrinterTurbo",
   "title": "MoneyPrinterTurbo v1.3.11",
   "link": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.11",
@@ -1065,6 +1051,13 @@
  },
  {
   "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261127-2",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261127-2",
+  "summary": "Fix remove not used route ( #22886 )",
+  "date": "2026-11-27T03:21:04+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
   "title": "ragflow nightly",
   "link": "https://github.com/infiniflow/ragflow/releases/tag/nightly",
   "summary": "Release nightly created from 2c15dfc at 2026-11-26 13:13:48+00:00",
@@ -1078,18 +1071,11 @@
   "date": "2026-11-26T11:08:41+00:00"
  },
  {
-  "source": "release: infiniflow/ragflow",
-  "title": "ragflow dev-20261126-11",
-  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261126-11",
-  "summary": "fix(compiler): support relationship aliases and top-level array in gr\u2026",
-  "date": "2026-11-26T10:03:05+00:00"
- },
- {
   "source": "release: koala73/worldmonitor",
   "title": "worldmonitor convex-deployed",
   "link": "https://github.com/koala73/worldmonitor/releases/tag/convex-deployed",
-  "summary": "test(classify): gate the critical/high boundary at production batch s\u2026",
-  "date": "2026-11-27T02:12:57+00:00"
+  "summary": "feat(pro): Black Friday offer, 70% off Pro vs monthly ($144 first yea\u2026",
+  "date": "2026-11-27T03:19:41+00:00"
  },
  {
   "source": "release: koala73/worldmonitor",
@@ -1568,14 +1554,56 @@
   "date": "2026-11-26T00:00:00-05:00"
  },
  {
-  "source": "HF Papers (11 up)",
+  "source": "HF Papers (1 up)",
+  "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+  "link": "https://huggingface.co/papers/2611.34719",
+  "summary": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode transferable detection knowledge, while further adaptation can impair generalization. This motivates a shift from backbone adaptation to knowledge readout. Conventional linear probing offers a direct way to read",
+  "date": "2026-11-24T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (28 up)",
+  "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+  "link": "https://huggingface.co/papers/2611.34232",
+  "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live cross-platf",
+  "date": "2026-11-24T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (22 up)",
+  "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+  "link": "https://huggingface.co/papers/2611.34852",
+  "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them. We introduce DRBench Pro, a benchmark that makes structured knowledge coverag",
+  "date": "2026-11-24T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (12 up)",
+  "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+  "link": "https://huggingface.co/papers/2611.34290",
+  "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited. We introduce StateWeaver, which combines Active States and Hierarchical Collab",
+  "date": "2026-11-24T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (4 up)",
+  "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+  "link": "https://huggingface.co/papers/2611.34813",
+  "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in fact",
+  "date": "2026-11-24T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (15 up)",
+  "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+  "link": "https://huggingface.co/papers/2611.34693",
+  "summary": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action updates, and generation after input adds work to the response path. We introduce ShowNow, a fine-grained speculative streaming framework that uses computation available during playback to prepare actio",
+  "date": "2026-11-24T19:00:00+00:00"
+ },
+ {
+  "source": "HF Papers (30 up)",
   "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
   "link": "https://huggingface.co/papers/2611.34457",
   "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. However, these coarse inputs leave details unspecified and may contain artifacts that should not be reproduced. Successful proxy-guided generation must there",
   "date": "2026-11-24T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (14 up)",
+  "source": "HF Papers (49 up)",
   "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
   "link": "https://huggingface.co/papers/2611.34051",
   "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry betw",
@@ -1589,7 +1617,7 @@
   "date": "2026-11-24T19:00:00+00:00"
  },
  {
-  "source": "HF Papers (3 up)",
+  "source": "HF Papers (26 up)",
   "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
   "link": "https://huggingface.co/papers/2611.28732",
   "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two challenges: task-level human-robot pairs are not temporally aligned with robot actions, and standard act",
@@ -1601,6 +1629,48 @@
   "link": "https://huggingface.co/papers/2611.34079",
   "summary": "Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental and long-standing challenge in computer vision, which existing geometry-aware methods fail to address. Meanwhile, existing image- and video-based methods may generate unseen regions but produce inconsistent geometry across views. To bridge this gap, we present WorldBridge, a framewo",
   "date": "2026-11-24T19:00:00+00:00"
+ },
+ {
+  "source": "HF model (59366 dl)",
+  "title": "New on the Hub: prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+  "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+  "summary": "pipeline: text-generation. tags: llama.cpp, gguf, ternary, 2-bit, llama-cpp, cuda",
+  "date": "2026-11-24T16:32:20+00:00"
+ },
+ {
+  "source": "HF model (264 dl)",
+  "title": "New on the Hub: KRAFTON/Raon-1-mini",
+  "link": "https://huggingface.co/KRAFTON/Raon-1-mini",
+  "summary": "pipeline: text-generation. tags: transformers, safetensors, raon1_mini, text-generation, raon, conversational",
+  "date": "2026-11-24T13:17:11+00:00"
+ },
+ {
+  "source": "HF model (4 dl)",
+  "title": "New on the Hub: kandinskylab/Kandinsky-ImageSR-2.0",
+  "link": "https://huggingface.co/kandinskylab/Kandinsky-ImageSR-2.0",
+  "summary": "pipeline: image-to-image. tags: diffusers, safetensors, super-resolution, image-super-resolution, kandinsky, image-to-image",
+  "date": "2026-11-24T08:51:19+00:00"
+ },
+ {
+  "source": "HF model (0 dl)",
+  "title": "New on the Hub: ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+  "link": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+  "summary": "pipeline: text-generation. tags: gguf, gsq, rco, quantization, mixed-precision, ist-daslab",
+  "date": "2026-11-26T13:01:01+00:00"
+ },
+ {
+  "source": "DeepMind",
+  "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+  "link": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+  "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+  "date": "2026-11-24T13:07:53+00:00"
+ },
+ {
+  "source": "release: infiniflow/ragflow",
+  "title": "ragflow dev-20261126-11",
+  "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261126-11",
+  "summary": "fix(compiler): support relationship aliases and top-level array in gr\u2026",
+  "date": "2026-11-26T10:03:05+00:00"
  },
  {
   "source": "HF Papers (7 up)",
@@ -1636,34 +1706,6 @@
   "link": "https://huggingface.co/papers/2611.33579",
   "summary": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically executable, and be produced efficiently at scale. We present DexEngine, a simulation pipeline that turns human manipulation data into train-ready, physically executable arm-hand tra",
   "date": "2026-11-24T19:00:00+00:00"
- },
- {
-  "source": "HF model (59366 dl)",
-  "title": "New on the Hub: prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
-  "link": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
-  "summary": "pipeline: text-generation. tags: llama.cpp, gguf, ternary, 2-bit, llama-cpp, cuda",
-  "date": "2026-11-24T16:32:20+00:00"
- },
- {
-  "source": "HF model (264 dl)",
-  "title": "New on the Hub: KRAFTON/Raon-1-mini",
-  "link": "https://huggingface.co/KRAFTON/Raon-1-mini",
-  "summary": "pipeline: text-generation. tags: transformers, safetensors, raon1_mini, text-generation, raon, conversational",
-  "date": "2026-11-24T13:17:11+00:00"
- },
- {
-  "source": "HF model (4 dl)",
-  "title": "New on the Hub: kandinskylab/Kandinsky-ImageSR-2.0",
-  "link": "https://huggingface.co/kandinskylab/Kandinsky-ImageSR-2.0",
-  "summary": "pipeline: image-to-image. tags: diffusers, safetensors, super-resolution, image-super-resolution, kandinsky, image-to-image",
-  "date": "2026-11-24T08:51:19+00:00"
- },
- {
-  "source": "HF model (0 dl)",
-  "title": "New on the Hub: ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
-  "link": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
-  "summary": "pipeline: text-generation. tags: gguf, gsq, rco, quantization, mixed-precision, ist-daslab",
-  "date": "2026-11-26T13:01:01+00:00"
  },
  {
   "source": "TechCrunch AI",
@@ -1727,13 +1769,6 @@
   "link": "https://github.com/infiniflow/ragflow/releases/tag/dev-20261126-9",
   "summary": "fix: expose search permissions and restrict settings ( #22830 )",
   "date": "2026-11-26T05:04:40+00:00"
- },
- {
-  "source": "release: ruvnet/ruflo",
-  "title": "ruflo v3.80.5 \u2014 system_health swarm state, subcommand --format, embeddings search recency",
-  "link": "https://github.com/ruvnet/ruflo/releases/tag/v3.80.5",
-  "summary": "Patch release with three community fixes. Published from CI with SLSA provenance for @claude-flow/cli , claude-flow and ruflo . system_health reports the real swarm state ( #5087 , fixes #2967 ). The swarm check used to say unknown even right after swarm_init ; it now reads the persisted swarm store",
-  "date": "2026-11-24T03:49:33+00:00"
  },
  {
   "source": "release: thedotmack/claude-mem",
